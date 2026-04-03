@@ -1,0 +1,34 @@
+# Declares PDF deliverables. Renderer names must match taxweave_atlas.render registry.
+# Each entry lists mapping keys consumed from reference_pack/mappings.yaml (document section).
+
+version: 1
+deliverables:
+  - id: questionnaire
+    renderer: questionnaire
+    filename: "01_questionnaire.pdf"
+    mapping_document: questionnaire
+
+  - id: supporting_w2
+    renderer: supporting_w2
+    filename: "02_supporting_w2.pdf"
+    mapping_document: supporting_w2
+
+  - id: supporting_1099_int
+    renderer: supporting_1099_int
+    filename: "03_supporting_1099_int.pdf"
+    mapping_document: supporting_1099_int
+
+  - id: federal_summary
+    renderer: federal_summary
+    filename: "04_federal_summary.pdf"
+    mapping_document: federal_summary
+
+  - id: state_summary
+    renderer: state_summary
+    filename: "05_state_summary.pdf"
+    mapping_document: state_summary
+
+  - id: executive_summary
+    renderer: executive_summary
+    filename: "06_executive_summary.pdf"
+    mapping_document: executive_summary

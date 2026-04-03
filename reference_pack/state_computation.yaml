@@ -1,0 +1,16 @@
+# Stub state computation: state_tax = round(state_taxable_income * rate, 0)
+# state_taxable_income derived from federal AGI plus fixed synthetic adjustments.
+
+version: 1
+lines:
+  state_wages: income.wages
+  additions: state.adjustments.additions
+  subtractions: state.adjustments.subtractions
+
+# state_taxable_income = max(0, agi + additions - subtractions)
+taxable_formula: agi_plus_adjustments
+
+rates:
+  CA: 0.055
+  NY: 0.062
+  TX: 0.0

@@ -1,0 +1,75 @@
+# PDF field labels map to TaxCase JSON paths. Renderers MUST resolve every key listed
+# for their document; missing paths raise MappingResolutionError.
+
+version: 1
+documents:
+  questionnaire:
+    tax_year: tax_year
+    primary_first_name: profile.primary_first_name
+    primary_last_name: profile.primary_last_name
+    spouse_first_name: profile.spouse_first_name
+    spouse_last_name: profile.spouse_last_name
+    filing_status: profile.filing_status
+    address_line1: profile.address.line1
+    city: profile.address.city
+    state: profile.address.state
+    zip: profile.address.zip
+    synthetic_ssn_primary: profile.synthetic_ssn_primary
+    synthetic_ssn_spouse: profile.synthetic_ssn_spouse
+    q_wages_reported: questionnaire.answers.q_wages_reported
+    q_foreign_account: questionnaire.answers.q_foreign_account
+    q_crypto: questionnaire.answers.q_crypto
+    q_energy_credits: questionnaire.answers.q_energy_credits
+
+  supporting_w2:
+    employer_name: income.w2.employer_name
+    employer_ein: income.w2.employer_ein
+    employee_name: income.w2.employee_name
+    employee_ssn: income.w2.employee_ssn
+    wages: income.wages
+    federal_withholding: income.federal_withholding
+    social_security_wages: income.w2.social_security_wages
+    medicare_wages: income.w2.medicare_wages
+    tax_year: tax_year
+
+  supporting_1099_int:
+    payer_name: income.forms_1099_int.payer_name
+    payer_tin: income.forms_1099_int.payer_tin
+    recipient_name: income.forms_1099_int.recipient_name
+    recipient_tin: income.forms_1099_int.recipient_tin
+    interest: income.interest
+    interest_reported: income.forms_1099_int.interest_reported
+    tax_year: tax_year
+
+  federal_summary:
+    tax_year: tax_year
+    primary_name: profile.primary_full_name
+    filing_status: profile.filing_status
+    wages: federal.lines.wages
+    taxable_interest: federal.lines.taxable_interest
+    ordinary_dividends: federal.lines.ordinary_dividends
+    agi: federal.lines.agi
+    standard_deduction: federal.lines.standard_deduction
+    taxable_income: federal.lines.taxable_income
+    total_tax: federal.lines.total_tax
+    federal_withholding: federal.lines.federal_withholding
+
+  state_summary:
+    tax_year: tax_year
+    state_code: state.code
+    primary_name: profile.primary_full_name
+    state_wages: state.lines.state_wages
+    additions: state.lines.additions
+    subtractions: state.lines.subtractions
+    state_taxable_income: state.lines.state_taxable_income
+    state_tax: state.lines.state_tax
+
+  executive_summary:
+    tax_year: tax_year
+    taxpayer_label: profile.taxpayer_label
+    agi: executive_summary.agi
+    taxable_income: executive_summary.taxable_income
+    total_tax: executive_summary.total_tax
+    federal_withholding: executive_summary.federal_withholding
+    state_tax: executive_summary.state_tax
+    effective_rate_federal: executive_summary.effective_rate_federal

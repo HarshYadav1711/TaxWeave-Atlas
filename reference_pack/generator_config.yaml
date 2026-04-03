@@ -1,0 +1,112 @@
+# Enumerations and numeric ranges for synthetic generation.
+# Do not infer tax law outside this file + sample_case.json structure.
+
+version: 1
+tax_year: 2023
+
+filing_status:
+  - single
+  - married_filing_jointly
+  - head_of_household
+
+state_codes:
+  - CA
+  - NY
+  - TX
+
+first_names:
+  - Avery
+  - Jordan
+  - Riley
+  - Morgan
+  - Casey
+  - Quinn
+  - Reese
+  - Sage
+  - Rowan
+  - Emery
+
+employer_names:
+  - "Northwind Synthetic Payroll LLC"
+  - "Sample Valley Services LLC"
+  - "Atlas Demo Manufacturing Inc"
+  - "Riverside Test Labs Co"
+  - "Pioneer Stub Data Corp"
+
+last_names:
+  - Bennett
+  - Carter
+  - Diaz
+  - Foster
+  - Hayes
+  - Ingram
+  - Jennings
+  - Keller
+  - Lawson
+  - Mercer
+
+streets:
+  - "100 Maple St"
+  - "220 Cedar Ave"
+  - "415 Birch Rd"
+  - "88 Spruce Ln"
+  - "501 Willow Way"
+
+cities_by_state:
+  CA:
+    city: "Sacramento"
+    zip: "95814"
+  NY:
+    city: "Albany"
+    zip: "12207"
+  TX:
+    city: "Austin"
+    zip: "78701"
+
+# Standard deduction amounts (reference only — must match federal_summary computation rules)
+standard_deduction_by_status:
+  single: 13850
+  married_filing_jointly: 27700
+  head_of_household: 20800
+
+# Synthetic wage range (whole dollars)
+wages:
+  min: 32000
+  max: 145000
+
+# Interest / dividends optional incidence
+has_interest_probability: 0.55
+has_dividends_probability: 0.35
+
+interest:
+  min: 50
+  max: 3200
+
+dividends:
+  min: 20
+  max: 9000
+
+# Withholding as fraction of wages (rough synthetic band)
+withholding_rate:
+  min: 0.08
+  max: 0.22
+
+# State tax as fraction of state taxable (simplified stub rules)
+state_tax_rate_by_code:
+  CA: 0.055
+  NY: 0.062
+  TX: 0.0
+
+questionnaire_items:
+  - id: q_wages_reported
+    prompt: "Total wages, salaries, and tips (matches W-2 Box 1)"
+    type: money_integer
+  - id: q_foreign_account
+    prompt: "Do you have a foreign financial account exceeding reporting thresholds?"
+    type: boolean
+  - id: q_crypto
+    prompt: "Did you receive, sell, exchange, or dispose of virtual currency?"
+    type: boolean
+  - id: q_energy_credits
+    prompt: "Did you install qualifying energy property (per program rules in your packet)?"
+    type: boolean
