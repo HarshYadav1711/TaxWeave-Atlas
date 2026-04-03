@@ -1,34 +1,46 @@
 # Structural contract inferred from repository dataset/ (folder names, ordering, roles).
-# No filenames or timestamps from the sample are reused as literals except fixed layout strings.
+# Staging (_staging/datasets/...) holds full internal artifacts; export (datasets/...) is PDF-only + manifest.json.
 version: 1
 
 export_token:
-  # Pattern analogous to sample export suffix (YYYYMMDDTHHMMSSZ-batch-part); values are synthetic.
-  # dataset_slot is 1-based to align with dataset_XXXXX slugs.
   format: "{tax_year:04d}0101T000000Z-{dataset_slot:05d}-{salt:03d}"
 
-# Files permitted at dataset root alongside the five top-level segment folders.
-allowed_root_files:
+# Root files allowed under _staging/datasets/dataset_XXXXX/
+staging_root_files:
   - case.json
   - questionnaire.json
   - "00_dataset_files_manifest.json"
-  - "01_delivery_audit.json"
 
-# Top-level segments in display order (must match exactly; no extras).
+# Root files allowed under datasets/dataset_XXXXX/ (deliverable tree)
+export_root_files:
+  - manifest.json
+
+# Legacy key removed — use staging_root_files / export_root_files
+
 segments:
   - id: client_summary
+    export: true
     outer_template: "1. Client Summary-{export_token}"
     inner_template: "1. Client Summary"
     files:
       - relative: "Client Summary.docx"
         generator: minimal_docx
+        export: false
+      - relative: "Client Summary.pdf"
+        generator: pdf_client_summary
+        export: true
 
   - id: input_documents
+    export: true
     outer_template: "2. Input Documents-{export_token}"
     inner_template: "2. Input Documents"
     files:
       - relative: "Tax Document Attachments Summary.docx"
         generator: minimal_docx
+        export: false
+      - relative: "Tax Document Attachments Summary.pdf"
+        generator: pdf_attachments_summary
+        export: true
     categories:
       - folder: "1099- DIV"
         files:
@@ -42,6 +54,10 @@ segments:
         files:
           - relative: "BankStatement_synthetic_{tax_year}_.xlsx"
             generator: minimal_xlsx
+            export: false
+          - relative: "BankStatement_synthetic_{tax_year}_.pdf"
+            generator: pdf_bank_statement_placeholder
+            export: true
       - folder: "Form W-2"
         files:
           - relative: "Form W-2.pdf"
@@ -54,8 +70,13 @@ segments:
         files:
           - relative: "ScheduleC_synthetic_{tax_year}.xlsx"
             generator: minimal_xlsx
+            export: false
+          - relative: "ScheduleC_synthetic_{tax_year}.pdf"
+            generator: pdf_schedule_c_placeholder
+            export: true
 
   - id: complete_form
+    export: true
     outer_template: "3. Complete form-{export_token}"
     inner_template: "3. Complete form"
     files:
@@ -63,17 +84,24 @@ segments:
         generator: pdf_combined_return
       - relative: "Completed forms - Summary.docx"
         generator: minimal_docx
+        export: false
+      - relative: "Completed forms - Summary.pdf"
+        generator: pdf_completed_forms_summary
+        export: true
 
   - id: executive_summary
+    export: true
     outer_template: "4. Executive Summary-{export_token}"
     inner_template: "4. Executive Summary"
     files:
       - relative: "4. Summary_.docx"
         generator: minimal_docx
+        export: false
       - relative: "Executive Summary {executive_summary_title} {tax_year}.pdf"
         generator: pdf_executive
 
   - id: prompt
+    export: false
     outer_template: "Prompt-{export_token}"
     inner_template: "Prompt"
     files:

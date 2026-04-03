@@ -104,7 +104,13 @@ def cmd_pilot(
             _run_generation(
                 output, seed, count, complexity, state, tax_year, write_pdfs=not no_pdfs
             )
-            click.echo(f"Wrote {count} datasets → {output / 'datasets'}")
+            if no_pdfs:
+                click.echo(f"Wrote {count} cases (staging JSON only) → {output / '_staging' / 'datasets'}")
+            else:
+                click.echo(
+                    f"Wrote {count} datasets → deliverable PDFs: {output / 'datasets'}; "
+                    f"internal: {output / '_staging' / 'datasets'}"
+                )
     except TaxWeaveError as e:
         raise SystemExit(f"error: {e}") from e
 
@@ -137,7 +143,13 @@ def cmd_generate(
             _run_generation(
                 output, seed, count, complexity, state, tax_year, write_pdfs=not no_pdfs
             )
-            click.echo(f"Wrote {count} datasets → {output / 'datasets'}")
+            if no_pdfs:
+                click.echo(f"Wrote {count} cases (staging JSON only) → {output / '_staging' / 'datasets'}")
+            else:
+                click.echo(
+                    f"Wrote {count} datasets → deliverable PDFs: {output / 'datasets'}; "
+                    f"internal: {output / '_staging' / 'datasets'}"
+                )
     except TaxWeaveError as e:
         raise SystemExit(f"error: {e}") from e
 
@@ -150,7 +162,11 @@ def cmd_generate(
     is_flag=True,
     help="Fail on mix drift vs config/generator/mix.yaml (default: warn)",
 )
-@click.option("--no-per-dataset-audit", is_flag=True, help="Skip 01_delivery_audit.json per folder")
+@click.option(
+    "--no-per-dataset-audit",
+    is_flag=True,
+    help="Skip manifests/delivery_audits/<slug>.json per dataset",
+)
 @click.option("--no-batch-report", is_flag=True, help="Skip manifests/delivery_validation_report.json")
 def cmd_validate_batch(
     batch_root: Path,
@@ -247,32 +263,39 @@ def cmd_validate_specs() -> None:
     help="Reconcile from source fields before render (stale case.json)",
 )
 def cmd_render_pdfs(target: Path, reconcile: bool) -> None:
-    """Render PDF bundle for case.json, one dataset folder, or a batch root."""
+    """Regenerate staging + PDF-only export from _staging/datasets/.../case.json or batch root."""
     from taxweave_atlas.pdf.pipeline import (
         load_case_from_path,
-        render_dataset_pdf_bundle,
+        render_dataset_deliverable_trees,
         render_pdfs_for_batch_output,
+        resolve_staging_export_dirs,
     )
 
     try:
         if target.is_file() and target.name == "case.json":
             case = load_case_from_path(target)
-            render_dataset_pdf_bundle(case, target.parent, reconcile_first=reconcile)
-            click.echo(f"Rendered PDFs → {target.parent}")
+            staging_dir, export_dir = resolve_staging_export_dirs(target)
+            render_dataset_deliverable_trees(
+                case, staging_dir, export_dir, reconcile_first=reconcile
+            )
+            click.echo(f"Rendered staging → {staging_dir}; export PDFs → {export_dir}")
             return
         case_path = target / "case.json"
         if case_path.is_file():
             case = load_case_from_path(case_path)
-            render_dataset_pdf_bundle(case, target, reconcile_first=reconcile)
-            click.echo(f"Rendered PDFs → {target}")
+            staging_dir, export_dir = resolve_staging_export_dirs(case_path)
+            render_dataset_deliverable_trees(
+                case, staging_dir, export_dir, reconcile_first=reconcile
+            )
+            click.echo(f"Rendered staging → {staging_dir}; export PDFs → {export_dir}")
             return
-        ds_root = target / "datasets"
-        if ds_root.is_dir():
+        staging_ds = target / "_staging" / "datasets"
+        if staging_ds.is_dir():
             n = render_pdfs_for_batch_output(target, reconcile_first=reconcile)
-            click.echo(f"Rendered PDFs for {n} folders under {ds_root}")
+            click.echo(f"Rendered staging+export for {n} folders under {staging_ds}")
             return
         raise SystemExit(
-            "Expected case.json, a folder containing case.json, or a batch root with datasets/"
+            "Expected _staging/datasets/.../case.json, its parent folder, or a batch root with _staging/datasets/"
         )
     except TaxWeaveError as e:
         raise SystemExit(f"error: {e}") from e

@@ -1,5 +1,5 @@
 """
-PDF / dataset file bundle: blueprint-aligned tree, checksum manifest, case load helpers.
+PDF / dataset file bundle: staging tree (internal), PDF-only export, case load helpers.
 """
 
 from __future__ import annotations
@@ -88,37 +88,55 @@ def materialize_combined_return_pdf_bytes(case: SyntheticTaxCase) -> bytes:
     )
 
 
-def render_dataset_pdf_bundle(
+def render_dataset_deliverable_trees(
     case: SyntheticTaxCase,
-    dataset_dir: Path,
+    staging_dir: Path,
+    export_dir: Path,
     *,
     reconcile_first: bool = False,
     dataset_index: int | None = None,
     uniqueness_salt: int | None = None,
-) -> Path:
+) -> tuple[Path, Path]:
     """
-    Write the full sample-aligned folder tree and ``00_dataset_files_manifest.json`` (v2).
-
-    ``dataset_index`` / ``uniqueness_salt`` default from folder name and 0 when omitted
-    (use explicit values from batch generation for correct export tokens).
+    Write full internal tree under ``staging_dir`` and PDF-only handoff under ``export_dir``.
     """
     from taxweave_atlas.structure.blueprint import parse_dataset_slug_index
-    from taxweave_atlas.structure.layout import write_dataset_structure_bundle
+    from taxweave_atlas.structure.layout import (
+        write_export_pdf_bundle,
+        write_staging_dataset_structure_bundle,
+    )
 
     idx = (
         dataset_index
         if dataset_index is not None
-        else parse_dataset_slug_index(dataset_dir.name)
+        else parse_dataset_slug_index(staging_dir.name)
     )
     salt = 0 if uniqueness_salt is None else int(uniqueness_salt)
+    if reconcile_first:
+        from taxweave_atlas.reconciliation.pipeline import reconcile_case
+
+        case = reconcile_case(case)
+    else:
+        from taxweave_atlas.reconciliation.checks import validate_reconciled_case
+
+        validate_reconciled_case(case)
     try:
-        return write_dataset_structure_bundle(
+        m_staging = write_staging_dataset_structure_bundle(
             case,
-            dataset_dir,
+            staging_dir,
             dataset_index=idx,
             uniqueness_salt=salt,
-            reconcile_first=reconcile_first,
+            reconcile_first=False,
+            clean_generated=True,
         )
+        m_export = write_export_pdf_bundle(
+            case,
+            export_dir,
+            dataset_index=idx,
+            uniqueness_salt=salt,
+            reconcile_first=False,
+        )
+        return m_staging, m_export
     except RendererError:
         raise
     except Exception as e:
@@ -135,25 +153,32 @@ def _parse_case_json_text(raw: str) -> SyntheticTaxCase:
 
 
 def render_pdfs_for_batch_output(batch_root: Path, *, reconcile_first: bool = False) -> int:
-    """Regenerate structure bundles for every ``datasets/dataset_*/case.json``."""
+    """Regenerate staging + export bundles from every ``_staging/datasets/dataset_*/case.json``."""
+    from taxweave_atlas.paths import staging_datasets_root
     from taxweave_atlas.structure.blueprint import parse_dataset_slug_index
     from taxweave_atlas.structure.validate import uniqueness_salt_for_slug
 
-    datasets = batch_root / "datasets"
-    if not datasets.is_dir():
-        raise ConfigurationError(f"No datasets/ directory under {batch_root}")
+    staging_root = staging_datasets_root(batch_root)
+    if not staging_root.is_dir():
+        raise ConfigurationError(
+            f"No _staging/datasets/ under {batch_root} (expected internal build layout)"
+        )
 
     n = 0
-    for case_path in sorted(datasets.glob("dataset_*/case.json")):
+    export_root = batch_root / "datasets"
+    export_root.mkdir(parents=True, exist_ok=True)
+    for case_path in sorted(staging_root.glob("dataset_*/case.json")):
         raw = case_path.read_text(encoding="utf-8")
         case = _parse_case_json_text(raw)
-        parent = case_path.parent
-        slug = parent.name
+        staging_dir = case_path.parent
+        slug = staging_dir.name
         idx = parse_dataset_slug_index(slug)
         salt = uniqueness_salt_for_slug(batch_root, slug)
-        render_dataset_pdf_bundle(
+        export_dir = export_root / slug
+        render_dataset_deliverable_trees(
             case,
-            parent,
+            staging_dir,
+            export_dir,
             reconcile_first=reconcile_first,
             dataset_index=idx,
             uniqueness_salt=salt,
@@ -164,3 +189,20 @@ def render_pdfs_for_batch_output(batch_root: Path, *, reconcile_first: bool = Fa
 
 def load_case_from_path(path: Path) -> SyntheticTaxCase:
     return _parse_case_json_text(path.read_text(encoding="utf-8"))
+
+
+def resolve_staging_export_dirs(case_json_path: Path) -> tuple[Path, Path]:
+    """
+    Given ``.../<batch>/_staging/datasets/dataset_XXXXX/case.json``, return (staging_dir, export_dir).
+    """
+    staging_dir = case_json_path.parent
+    try:
+        if staging_dir.parts[-3] != "_staging" or staging_dir.parts[-2] != "datasets":
+            raise IndexError
+    except IndexError as e:
+        raise ConfigurationError(
+            "case.json must live under <batch_root>/_staging/datasets/dataset_XXXXX/case.json"
+        ) from e
+    batch_root = staging_dir.parents[2]
+    export_dir = batch_root / "datasets" / staging_dir.name
+    return staging_dir, export_dir

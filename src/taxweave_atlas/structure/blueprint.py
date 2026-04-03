@@ -113,6 +113,56 @@ def iter_layout_file_specs(
     return out
 
 
+def iter_export_layout_file_specs(
+    case: SyntheticTaxCase,
+    *,
+    dataset_index: int,
+    uniqueness_salt: int,
+) -> list[tuple[str, str]]:
+    """
+    Deliverable paths only: PDFs under exported segments (``export: false`` segments skipped).
+    Per-file ``export: false`` omits docx/xlsx kept for staging only.
+    """
+    bp = load_structure_blueprint()
+    ctx = build_layout_context(
+        case, dataset_index=dataset_index, uniqueness_salt=uniqueness_salt
+    )
+    out: list[tuple[str, str]] = []
+
+    for seg in bp["segments"]:
+        if not isinstance(seg, dict):
+            raise ConfigurationError("segment must be a mapping")
+        if seg.get("export", True) is False:
+            continue
+        outer = str(seg["outer_template"]).format(**ctx)
+        inner = str(seg["inner_template"]).format(**ctx)
+        base = f"{outer}/{inner}"
+
+        for entry in seg.get("files") or []:
+            if not isinstance(entry, dict):
+                raise ConfigurationError("file entry must be a mapping")
+            if entry.get("export", True) is False:
+                continue
+            rel = str(entry["relative"]).format(**ctx)
+            gen = str(entry["generator"])
+            out.append((f"{base}/{rel}", gen))
+
+        for cat in seg.get("categories") or []:
+            if not isinstance(cat, dict):
+                raise ConfigurationError("category must be a mapping")
+            folder = str(cat["folder"])
+            for entry in cat.get("files") or []:
+                if not isinstance(entry, dict):
+                    raise ConfigurationError("category file entry must be a mapping")
+                if entry.get("export", True) is False:
+                    continue
+                rel = str(entry["relative"]).format(**ctx)
+                gen = str(entry["generator"])
+                out.append((f"{base}/{folder}/{rel}", gen))
+
+    return out
+
+
 def expected_structure_directories(files: list[str]) -> set[str]:
     """All parent directory paths (posix) implied by file paths, including segment roots."""
     dirs: set[str] = set()
@@ -123,11 +173,19 @@ def expected_structure_directories(files: list[str]) -> set[str]:
     return dirs
 
 
-def allowed_root_files() -> frozenset[str]:
+def staging_allowed_root_files() -> frozenset[str]:
     bp = load_structure_blueprint()
-    raw = bp.get("allowed_root_files") or []
+    raw = bp.get("staging_root_files") or bp.get("allowed_root_files") or []
     if not isinstance(raw, list):
-        raise ConfigurationError("allowed_root_files must be a list")
+        raise ConfigurationError("staging_root_files must be a list")
+    return frozenset(str(x) for x in raw)
+
+
+def export_allowed_root_files() -> frozenset[str]:
+    bp = load_structure_blueprint()
+    raw = bp.get("export_root_files") or []
+    if not isinstance(raw, list):
+        raise ConfigurationError("export_root_files must be a list")
     return frozenset(str(x) for x in raw)
 
 
@@ -150,3 +208,21 @@ def expected_root_outer_names(
         case, dataset_index=dataset_index, uniqueness_salt=uniqueness_salt
     )
     return [str(seg["outer_template"]).format(**ctx) for seg in bp["segments"]]
+
+
+def expected_export_root_outer_names(
+    case: SyntheticTaxCase,
+    *,
+    dataset_index: int,
+    uniqueness_salt: int,
+) -> list[str]:
+    bp = load_structure_blueprint()
+    ctx = build_layout_context(
+        case, dataset_index=dataset_index, uniqueness_salt=uniqueness_salt
+    )
+    names: list[str] = []
+    for seg in bp["segments"]:
+        if seg.get("export", True) is False:
+            continue
+        names.append(str(seg["outer_template"]).format(**ctx))
+    return names

@@ -1,5 +1,8 @@
 # How generator output relates to the reference pack under dataset/ (structure + workflow only).
 # Content is always synthetic; this file documents alignment and known limits — not sample data.
+#
+# Handoff: under <batch>/datasets/ only PDFs + manifest.json appear; DOCX/XLSX/XML and case JSON
+# live under <batch>/_staging/datasets/ (see specs/dataset_structure_blueprint.yaml export flags).
 
 reference_root: dataset/
 

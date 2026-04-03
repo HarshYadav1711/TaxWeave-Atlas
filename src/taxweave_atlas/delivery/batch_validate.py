@@ -5,7 +5,7 @@ Validates reconciled numeric coherence, filesystem completeness, strict dataset 
 from ``specs/dataset_structure_blueprint.yaml`` (manifest v2 + checksums), fingerprint uniqueness,
 and (optionally) stratification against ``mix.yaml``.
 Reports are written to ``manifests/delivery_validation_report.json`` and per-dataset
-``01_delivery_audit.json`` when enabled.
+``manifests/delivery_audits/<slug>.json`` when enabled (deliverable ``datasets/`` stays PDF-only).
 """
 
 from __future__ import annotations
@@ -26,6 +26,7 @@ from taxweave_atlas.generation.uniqueness import case_fingerprint
 from taxweave_atlas.orchestration.manifest import BatchPlan
 from taxweave_atlas.pdf.pipeline import _parse_case_json_text
 from taxweave_atlas.reconciliation.checks import validate_reconciled_case
+from taxweave_atlas.paths import staging_datasets_root
 from taxweave_atlas.reconciliation.paths_util import resolve_dotted_path
 from taxweave_atlas.schema.case import SyntheticTaxCase
 from taxweave_atlas.schema.questionnaire import QuestionnairePacket
@@ -117,23 +118,25 @@ def _check_supporting_docs(case: SyntheticTaxCase, rec: DatasetAuditRecord) -> N
 
 
 def _verify_structure_contract(
-    folder: Path,
+    staging_folder: Path,
+    export_folder: Path,
     case: SyntheticTaxCase,
     rec: DatasetAuditRecord,
     *,
     batch_root: Path,
     plan_by_slug: dict[str, Any],
 ) -> None:
-    from taxweave_atlas.exceptions import ConfigurationError
     from taxweave_atlas.structure.blueprint import parse_dataset_slug_index
     from taxweave_atlas.structure.validate import (
-        load_manifest_dict,
+        load_export_manifest_dict,
+        load_staging_manifest_dict,
         uniqueness_salt_for_slug,
-        validate_dataset_structure,
+        validate_export_dataset_structure,
+        validate_staging_dataset_structure,
     )
 
     errs_before = len(rec.errors)
-    slug = folder.name
+    slug = staging_folder.name
     try:
         idx = parse_dataset_slug_index(slug)
     except ConfigurationError as e:
@@ -144,15 +147,27 @@ def _verify_structure_contract(
         batch_root, slug
     )
 
-    man = load_manifest_dict(folder)
-    if man is None:
-        rec.errors.append("missing or unreadable 00_dataset_files_manifest.json")
+    man_staging = load_staging_manifest_dict(staging_folder)
+    if man_staging is None:
+        rec.errors.append("missing or unreadable staging 00_dataset_files_manifest.json")
         return
 
-    for msg in validate_dataset_structure(
-        folder, case, dataset_index=idx, uniqueness_salt=salt, manifest=man
+    for msg in validate_staging_dataset_structure(
+        staging_folder, case, dataset_index=idx, uniqueness_salt=salt, manifest=man_staging
     ):
-        rec.errors.append(f"structure: {msg}")
+        rec.errors.append(f"staging: {msg}")
+
+    if not export_folder.is_dir():
+        rec.errors.append(f"missing export folder {export_folder}")
+    else:
+        man_export = load_export_manifest_dict(export_folder)
+        if man_export is None:
+            rec.errors.append("missing or unreadable export manifest.json")
+        else:
+            for msg in validate_export_dataset_structure(
+                export_folder, case, dataset_index=idx, uniqueness_salt=salt, manifest=man_export
+            ):
+                rec.errors.append(f"export: {msg}")
 
     if len(rec.errors) == errs_before:
         rec.checks_passed.append("output_integrity_structure")
@@ -185,7 +200,7 @@ def _cross_form_numeric(case: SyntheticTaxCase, rec: DatasetAuditRecord) -> None
 
 
 def _write_dataset_audit(
-    folder: Path,
+    batch_root: Path,
     rec: DatasetAuditRecord,
     *,
     validated_at: str,
@@ -200,7 +215,9 @@ def _write_dataset_audit(
         "errors": rec.errors,
         "warnings": rec.warnings,
     }
-    (folder / "01_delivery_audit.json").write_text(
+    audit_dir = batch_root / "manifests" / "delivery_audits"
+    audit_dir.mkdir(parents=True, exist_ok=True)
+    (audit_dir / f"{rec.slug}.json").write_text(
         json.dumps(payload, indent=2) + "\n",
         encoding="utf-8",
     )
@@ -290,15 +307,16 @@ def validate_batch_output(
     write_batch_report: bool = True,
 ) -> BatchValidationReport:
     """
-    Validate a generation output tree: ``datasets/dataset_XXXXX/`` plus optional ``manifests/batch_plan.json``.
+    Validate a generation output tree: internal ``_staging/datasets/dataset_XXXXX/`` (JSON + full
+    artifacts) and PDF-only ``datasets/dataset_XXXXX/`` + ``manifest.json``, plus optional
+    ``manifests/batch_plan.json``.
 
-    Checks: duplicate fingerprints, field completeness, cross-form rules, blueprint structure + manifest,
-    questionnaire sidecar match, and (warning or strict error) mix.yaml distribution.
+    Checks: duplicate fingerprints, field completeness, cross-form rules, staging + export structure,
+    questionnaire sidecar match, strict PDF-only export, and (warning or strict error) mix.yaml.
     """
     batch_root = batch_root.resolve()
+    staging_root = staging_datasets_root(batch_root)
     datasets_dir = batch_root / "datasets"
-    if not datasets_dir.is_dir():
-        raise ConfigurationError(f"Missing datasets/ under {batch_root}")
 
     validated_at = datetime.now(timezone.utc).isoformat()
     errors: list[str] = []
@@ -314,20 +332,28 @@ def validate_batch_output(
         except PydanticValidationError as e:
             errors.append(f"invalid manifests/batch_plan.json: {e}")
 
-    case_paths = sorted(datasets_dir.glob("dataset_*/case.json"))
+    if not staging_root.is_dir():
+        errors.append(f"Missing _staging/datasets/ under {batch_root}")
+
+    case_paths = sorted(staging_root.glob("dataset_*/case.json")) if staging_root.is_dir() else []
     if not case_paths:
-        errors.append("no dataset_*/case.json found under datasets/")
+        errors.append("no _staging/datasets/dataset_*/case.json found")
+
+    if expect_pdfs and not datasets_dir.is_dir():
+        errors.append(f"Missing datasets/ under {batch_root} (PDF export root)")
+
     if plan_by_slug and len(case_paths) != len(plan_by_slug):
         errors.append(
-            f"dataset folder count {len(case_paths)} != batch_plan.datasets {len(plan_by_slug)}"
+            f"staging dataset folder count {len(case_paths)} != batch_plan.datasets {len(plan_by_slug)}"
         )
 
     all_fps: list[str] = []
     cases: list[SyntheticTaxCase] = []
 
     for cp in case_paths:
-        folder = cp.parent
-        slug = folder.name
+        staging_folder = cp.parent
+        slug = staging_folder.name
+        export_folder = datasets_dir / slug
         rec = DatasetAuditRecord(slug=slug, ok=False, case_fingerprint="")
         per_dataset[slug] = rec
 
@@ -337,7 +363,7 @@ def validate_batch_output(
         except (json.JSONDecodeError, PydanticValidationError) as e:
             rec.errors.append(f"case.json: {e}")
             if write_per_dataset_audit:
-                _write_dataset_audit(folder, rec, validated_at=validated_at)
+                _write_dataset_audit(batch_root, rec, validated_at=validated_at)
             continue
 
         cases.append(case)
@@ -355,17 +381,31 @@ def validate_batch_output(
         _cross_form_numeric(case, rec)
         _check_completeness(case, rec)
         _check_supporting_docs(case, rec)
-        _verify_questionnaire_sidecar(folder, case, rec)
+        _verify_questionnaire_sidecar(staging_folder, case, rec)
         if expect_pdfs:
             _verify_structure_contract(
-                folder, case, rec, batch_root=batch_root, plan_by_slug=plan_by_slug
+                staging_folder,
+                export_folder,
+                case,
+                rec,
+                batch_root=batch_root,
+                plan_by_slug=plan_by_slug,
             )
         else:
-            rec.checks_passed.append("output_integrity_structure_skipped")
+            errs_before_json = len(rec.errors)
+            for must in ("case.json", "questionnaire.json"):
+                if not (staging_folder / must).is_file():
+                    rec.errors.append(f"missing {must} under staging folder")
+            if export_folder.is_dir() and any(export_folder.iterdir()):
+                rec.errors.append(
+                    f"export folder must be empty or absent when expect_pdfs=False: {export_folder}"
+                )
+            if len(rec.errors) == errs_before_json:
+                rec.checks_passed.append("output_integrity_export_skipped")
 
         rec.ok = len(rec.errors) == 0
         if write_per_dataset_audit:
-            _write_dataset_audit(folder, rec, validated_at=validated_at)
+            _write_dataset_audit(batch_root, rec, validated_at=validated_at)
 
     # Duplicates across batch
     fp_counts = Counter(all_fps)

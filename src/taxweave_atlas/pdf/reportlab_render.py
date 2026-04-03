@@ -197,6 +197,37 @@ def render_combined_federal_state_pdf(
     return buf.getvalue()
 
 
+def render_paragraphs_pdf(*, title: str, subtitle: str, paragraphs: list[str]) -> bytes:
+    """Narrative PDF from plain-text lines (DOCX-equivalent deliverable)."""
+    buf = BytesIO()
+    doc = SimpleDocTemplate(
+        buf,
+        pagesize=LETTER,
+        leftMargin=0.72 * inch,
+        rightMargin=0.72 * inch,
+        topMargin=0.72 * inch,
+        bottomMargin=0.72 * inch,
+        title=title[:100],
+    )
+    st = _styles()
+    story: list[Any] = []
+    story.append(Paragraph(_escape_xml(title), st["title"]))
+    story.append(Paragraph(f"<i>{_escape_xml(subtitle)}</i>", st["footer"]))
+    story.append(Spacer(1, 0.16 * inch))
+    for line in paragraphs:
+        story.append(Paragraph(_escape_xml(line), st["body"]))
+        story.append(Spacer(1, 0.08 * inch))
+    story.append(Spacer(1, 0.12 * inch))
+    story.append(
+        Paragraph(
+            "<i>Synthetic data for testing and training only. Not for filing.</i>",
+            st["footer"],
+        )
+    )
+    doc.build(story)
+    return buf.getvalue()
+
+
 def render_minimal_invoice_pdf(*, tax_year: int, taxpayer_label: str) -> bytes:
     """Placeholder invoice-shaped PDF for the Input Documents / Invoice slot."""
     return render_mapped_fields_pdf(

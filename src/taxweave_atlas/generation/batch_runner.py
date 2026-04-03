@@ -1,6 +1,6 @@
 """
-Write ``datasets/dataset_XXXXX/`` folders: ``case.json``, ``questionnaire.json``,
-optional PDF bundle, plus ``manifests/batch_plan.json`` with reproducibility metadata.
+Write internal ``_staging/datasets/dataset_XXXXX/`` (JSON, DOCX, XLSX, XML, staging manifest),
+PDF-only ``datasets/dataset_XXXXX/`` + ``manifest.json``, and ``manifests/batch_plan.json``.
 """
 
 from __future__ import annotations
@@ -15,6 +15,7 @@ from taxweave_atlas.exceptions import ConfigurationError, ValidationError
 from taxweave_atlas.generation.engine import build_synthetic_case
 from taxweave_atlas.generation.uniqueness import case_fingerprint
 from taxweave_atlas.orchestration.manifest import BatchPlan, DatasetPlan
+from taxweave_atlas.paths import staging_datasets_root
 from taxweave_atlas.schema.ids import DatasetIdentity, stream_seed
 
 log = logging.getLogger(__name__)
@@ -38,10 +39,12 @@ def run_case_generation_batch(
     max_uniqueness_attempts: int = 750,
     write_pdfs: bool = True,
 ) -> GenerationBatchResult:
-    """Build ``count`` unique cases; optional PDFs; never overwrite existing folders."""
+    """Build ``count`` unique cases; optional PDF export; never overwrite existing folders."""
     output.mkdir(parents=True, exist_ok=True)
+    staging_root = staging_datasets_root(output)
+    staging_root.mkdir(parents=True, exist_ok=True)
     datasets_root = output / "datasets"
-    datasets_root.mkdir(exist_ok=True)
+    datasets_root.mkdir(parents=True, exist_ok=True)
     manifests = output / "manifests"
     manifests.mkdir(parents=True, exist_ok=True)
 
@@ -63,9 +66,12 @@ def run_case_generation_batch(
 
     for i in range(count):
         ident = DatasetIdentity(index=i)
-        case_dir = datasets_root / ident.slug
-        if case_dir.exists():
-            raise ValidationError(f"Dataset folder already exists: {case_dir}")
+        staging_dir = staging_root / ident.slug
+        export_dir = datasets_root / ident.slug
+        if staging_dir.exists() or export_dir.exists():
+            raise ValidationError(
+                f"Dataset folder already exists: {staging_dir} or {export_dir}"
+            )
 
         salt = 0
         case = None
@@ -91,21 +97,23 @@ def run_case_generation_batch(
                 f"Could not produce unique case for index {i} after {max_uniqueness_attempts} attempts"
             )
 
-        case_dir.mkdir(parents=True, exist_ok=False)
-        (case_dir / "case.json").write_text(
+        staging_dir.mkdir(parents=True, exist_ok=False)
+        (staging_dir / "case.json").write_text(
             case.model_dump_json(indent=2, exclude_computed_fields=True) + "\n",
             encoding="utf-8",
         )
-        (case_dir / "questionnaire.json").write_text(
+        (staging_dir / "questionnaire.json").write_text(
             case.questionnaire.model_dump_json(indent=2) + "\n", encoding="utf-8"
         )
 
         if write_pdfs:
-            from taxweave_atlas.pdf.pipeline import render_dataset_pdf_bundle
+            export_dir.mkdir(parents=True, exist_ok=False)
+            from taxweave_atlas.pdf.pipeline import render_dataset_deliverable_trees
 
-            render_dataset_pdf_bundle(
+            render_dataset_deliverable_trees(
                 case,
-                case_dir,
+                staging_dir,
+                export_dir,
                 reconcile_first=False,
                 dataset_index=ident.index,
                 uniqueness_salt=salt,
@@ -137,8 +145,8 @@ def run_case_generation_batch(
         complexity_level=complexity_label,
         default_tax_year=default_year,
         note=(
-            "Synthetic taxpayer generation; each dataset follows specs/dataset_structure_blueprint.yaml "
-            "(see 00_dataset_files_manifest.json files_sha256 v2)."
+            "Synthetic taxpayer generation; internal tree under _staging/datasets/ (full blueprint); "
+            "deliverable PDFs + manifest.json under datasets/ (see specs/dataset_structure_blueprint.yaml)."
         ),
         datasets=dataset_plans,
     )
@@ -155,5 +163,5 @@ def run_case_generation_batch(
     }
     (manifests / "batch_summary.json").write_text(json.dumps(summary, indent=2) + "\n", encoding="utf-8")
 
-    log.info("finished batch: %d datasets under %s", count, datasets_root)
+    log.info("finished batch: %d datasets (staging %s, export %s)", count, staging_root, datasets_root)
     return GenerationBatchResult(output_dir=output, batch_plan_path=plan_path, count=count)

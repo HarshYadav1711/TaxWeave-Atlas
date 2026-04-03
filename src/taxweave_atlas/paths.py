@@ -34,3 +34,8 @@ def config_dir() -> Path:
 
 def generator_config_dir() -> Path:
     return config_dir() / "generator"
+
+
+def staging_datasets_root(batch_output_root: Path) -> Path:
+    """Internal build tree: JSON, DOCX, XLSX, XML, staging manifest (not shipped as deliverables)."""
+    return batch_output_root / "_staging" / "datasets"
