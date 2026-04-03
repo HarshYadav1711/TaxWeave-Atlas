@@ -8,7 +8,16 @@ from taxweave_atlas.render.pdf_base import build_simple_pdf
 
 
 def _rows_from_mapping(fields: dict[str, Any]) -> list[tuple[str, Any]]:
-    return [(k.replace("_", " ").title(), v) for k, v in fields.items()]
+    rows: list[tuple[str, Any]] = []
+    for k, v in fields.items():
+        if v is None:
+            disp = "N/A"
+        elif isinstance(v, bool):
+            disp = "Yes" if v else "No"
+        else:
+            disp = v
+        rows.append((k.replace("_", " ").title(), disp))
+    return rows
 
 
 def render_questionnaire(fields: dict[str, Any]) -> bytes:
