@@ -1,40 +1,44 @@
-# TaxWeave Atlas
+# TaxWeave Atlas (foundation)
 
-Local-only synthetic US individual tax dataset generator. Produces **PDF-only** bundles with internal consistency across questionnaire, supporting documents, federal summary lines, state summary lines, and executive summary.
+Local-only scaffold for synthetic US individual tax datasets. **No paid services, no cloud.**  
+This stage defines repository boundaries, typed schemas, configuration placeholders, deterministic dataset identity, and CLI entrypoints. **Case synthesis, reconciliation, and PDF rendering are not implemented yet.**
 
-## Requirements
+## Layout
 
-- Python 3.11+
-- Dependencies in `pyproject.toml` (ReportLab, Pydantic, PyYAML, Click)
+| Path | Purpose |
+|------|---------|
+| `specs/sample_pack/` | Source specs: `sample_case.json`, `mappings.yaml`, `validation_rules.yaml` |
+| `specs/templates/` | PDF deliverable manifest (renderers wired later) |
+| `config/application.yaml` | Tax years, enabled states, complexity tiers |
+| `config/tax_rules/` | Explicit placeholders for federal/state rules (no guessed law) |
+| `src/taxweave_atlas/schema/` | Pydantic models: profile, income, deductions, credits, supporting docs, federal/state, executive summary |
+| `src/taxweave_atlas/generation/` | Stub — synthetic case factory (future) |
+| `src/taxweave_atlas/reconciliation/` | Stub — rule engine vs `SyntheticTaxCase` (future) |
+| `src/taxweave_atlas/pdf/` | Stub — template fill / rendering (future) |
+| `src/taxweave_atlas/validation/` | Spec validation against `application.yaml` |
+| `src/taxweave_atlas/orchestration/` | Batch plan + manifests (deterministic ids/seeds only) |
 
-## Quick start
+## Install
 
 ```bash
-cd "D:\Fun\TaxWeave Atlas"
 python -m venv .venv
 .\.venv\Scripts\activate
 pip install -e .
-
-# Pilot batch (10 datasets)
-taxweave-atlas generate --count 10 --seed 42 --output ./out/pilot
-
-# Full run (2000)
-taxweave-atlas generate --count 2000 --seed 42 --output ./out/full_2000
-
-# PDF-only under each dataset folder (no case.json sidecar; regenerate via seed + index)
-taxweave-atlas generate --count 2000 --seed 42 --output ./out/full_2000 --no-case-json
 ```
 
-## Project layout
+## Commands
 
-- `reference_pack/` — canonical sample case, field mappings, generator enumerations, validation rules
-- `templates/manifest.yaml` — declares deliverable PDF types bound to renderers
-- `src/taxweave_atlas/` — pipeline, models, validation, PDF renderers
+```bash
+python -m taxweave_atlas validate-specs
+python -m taxweave_atlas pilot --output ./outputs/pilot
+python -m taxweave_atlas generate --output ./outputs/full
+```
 
-## Rules of engagement
+`pilot` defaults to `--count 10`; `generate` defaults to `--count 2000`. Both write `manifests/batch_plan.json` under `--output` and **do not** emit PDFs or full cases yet.
 
-All tax logic and allowed values come from `reference_pack/`. Missing mappings or unknown generator keys **fail loudly** at load or render time.
+## Extending
 
-## Reproducibility
-
-Generation is keyed by `--seed` and dataset index. The same seed and count reproduce identical bundles (including uniqueness checks).
+1. Fill `config/tax_rules/` with versioned rule data; update `src/taxweave_atlas/validation/specs.py` when `status` is no longer `not_implemented` (the foundation gate is intentional).
+2. Implement `generation` → produce `SyntheticTaxCase` instances.
+3. Implement `reconciliation` → consume rule packs, mutate or verify case lines.
+4. Implement `pdf` → read `specs/templates/manifest.yaml` + `specs/sample_pack/mappings.yaml`.

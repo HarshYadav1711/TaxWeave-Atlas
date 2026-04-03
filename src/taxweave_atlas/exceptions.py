@@ -2,6 +2,10 @@ class TaxWeaveError(Exception):
     """Base error for explicit failures (no silent guessing)."""
 
 
+class NotImplementedStageError(TaxWeaveError):
+    """Boundary for features intentionally absent in the current project stage."""
+
+
 class ConfigurationError(TaxWeaveError):
     """Missing or invalid reference pack / template configuration."""
 

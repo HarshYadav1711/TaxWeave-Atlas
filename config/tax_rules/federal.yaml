@@ -1,0 +1,20 @@
+# Federal reconciliation inputs — NOT IMPLEMENTED in foundation stage.
+# Fill these structures (or replace with versioned rule packs) before computing liabilities.
+version: 1
+status: not_implemented
+
+required_definitions:
+  - id: form_1040_line_mapping
+    note: "Map SyntheticTaxCase fields to authoritative 1040 line identifiers."
+  - id: standard_deduction_table
+    note: "Year- and filing-status keyed standard deduction amounts."
+  - id: ordinary_income_brackets
+    note: "Progressive bracket table for ordinary taxable income."
+  - id: adjustments_to_agi
+    note: "Above-the-line adjustments actually modeled by the generator."
+
+optional_definitions:
+  - id: alternative_minimum_tax
+    note: "Explicitly out of scope until declared in complexity config."
+  - id: net_investment_income_tax
+    note: "Explicitly out of scope until declared in complexity config."

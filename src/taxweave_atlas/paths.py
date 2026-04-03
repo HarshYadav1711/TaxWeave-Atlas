@@ -4,13 +4,21 @@ from pathlib import Path
 
 
 def project_root() -> Path:
-    """Repository root (contains reference_pack/, templates/)."""
+    """Repository root (contains specs/, config/, src/)."""
     return Path(__file__).resolve().parents[2]
 
 
-def reference_pack_dir() -> Path:
-    return project_root() / "reference_pack"
+def specs_dir() -> Path:
+    return project_root() / "specs"
 
 
-def templates_dir() -> Path:
-    return project_root() / "templates"
+def sample_pack_dir() -> Path:
+    return specs_dir() / "sample_pack"
+
+
+def templates_spec_dir() -> Path:
+    return specs_dir() / "templates"
+
+
+def config_dir() -> Path:
+    return project_root() / "config"

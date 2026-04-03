@@ -1,6 +1,4 @@
-# PDF field labels map to TaxCase JSON paths. Renderers MUST resolve every key listed
-# for their document; missing paths raise MappingResolutionError.
-
+# PDF field labels map to SyntheticTaxCase JSON paths (future renderers).
 version: 1
 documents:
   questionnaire:

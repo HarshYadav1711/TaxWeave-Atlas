@@ -1,0 +1,9 @@
+# Describes artifacts bundled for schema and mapping development.
+version: 1
+description: >
+  Sample shapes for mappings and validation rules. Numeric values are synthetic
+  illustrations only and are not tax authority guidance.
+artifacts:
+  - sample_case.json
+  - mappings.yaml
+  - validation_rules.yaml

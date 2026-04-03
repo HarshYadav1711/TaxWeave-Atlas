@@ -1,6 +1,4 @@
-# Declares PDF deliverables. Renderer names must match taxweave_atlas.render registry.
-# Each entry lists mapping keys consumed from reference_pack/mappings.yaml (document section).
-
+# Declares intended PDF deliverables (renderers wired in a later stage).
 version: 1
 deliverables:
   - id: questionnaire

@@ -1,0 +1,19 @@
+# State reconciliation inputs — NOT IMPLEMENTED in foundation stage.
+# Add one block per state code when modeling; do not infer residency or sourcing rules here.
+version: 1
+status: not_implemented
+
+per_state:
+  CA:
+    status: not_implemented
+    required_definitions:
+      - resident_return_form_mapping
+      - taxable_income_bridge_from_federal
+  NY:
+    status: not_implemented
+    required_definitions:
+      - resident_return_form_mapping
+      - taxable_income_bridge_from_federal
+  TX:
+    status: not_implemented
+    note: "No individual income tax modeled; define informational forms only if needed."

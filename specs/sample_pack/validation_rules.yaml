@@ -1,5 +1,4 @@
-# Cross-document consistency checks. Paths are relative to TaxCase model dump (JSON keys).
-
+# Cross-document consistency checks (paths relative to SyntheticTaxCase JSON keys).
 version: 1
 rules:
   - id: wages_match_w2_federal
