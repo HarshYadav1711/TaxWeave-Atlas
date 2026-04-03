@@ -11,19 +11,21 @@ class DatasetPlan(BaseModel):
     index: int
     slug: str
     stream_seed: int
+    tax_year: int | None = None
+    state_code: str | None = None
+    complexity_tier: str | None = None
+    uniqueness_salt: int = 0
+    case_fingerprint: str | None = None
 
 
 class BatchPlan(BaseModel):
     model_config = ConfigDict(extra="forbid")
 
     version: Literal["1"] = "1"
-    stage: Literal["foundation"] = "foundation"
+    stage: str = "foundation"
     master_seed: int
     count: int
     complexity_level: str
     default_tax_year: int
-    note: str = (
-        "Generation, reconciliation, and PDF rendering are not executed in this stage — "
-        "this manifest records deterministic ids/seeds only."
-    )
+    note: str = "Batch manifest."
     datasets: list[DatasetPlan] = Field(default_factory=list)

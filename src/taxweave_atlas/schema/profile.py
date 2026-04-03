@@ -35,6 +35,9 @@ class TaxpayerProfile(BaseModel):
     synthetic_ssn_primary: str
     synthetic_ssn_spouse: str | None = None
     address: MailingAddress
+    # Synthetic household composition (not real dependents).
+    dependents_qualifying_children_under_17: int = 0
+    dependents_other: int = 0
 
     @computed_field
     @property

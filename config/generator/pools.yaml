@@ -1,0 +1,93 @@
+# Synthetic name/address/employer pools — no real individuals.
+pools:
+  first_names:
+    - Avery
+    - Jordan
+    - Riley
+    - Morgan
+    - Casey
+    - Quinn
+    - Reese
+    - Sage
+    - Rowan
+    - Emery
+    - Dakota
+    - Skyler
+    - Finley
+    - Parker
+    - River
+  last_names:
+    - Bennett
+    - Carter
+    - Diaz
+    - Foster
+    - Hayes
+    - Ingram
+    - Jennings
+    - Keller
+    - Lawson
+    - Mercer
+    - Navarro
+    - Okoro
+    - Patel
+    - Reyes
+    - Sullivan
+  employers:
+    - Northwind Synthetic Payroll LLC
+    - Atlas Demo Manufacturing Inc
+    - Riverside Test Labs Co
+    - Pioneer Stub Data Corp
+    - Cedar Hollow Analytics LLC
+    - Harborline Synthetic Retail Inc
+    - Prairie View Logistics LLC
+  payers_1099:
+    - Sample National Trust FSB
+    - Great Plains Synthetic Credit Union
+    - Metroline Treasury Services LLC
+
+  addresses_by_state:
+    CA:
+      cities:
+        - {city: Sacramento, zip: "95814"}
+        - {city: Fresno, zip: "93721"}
+        - {city: Oakland, zip: "94612"}
+      streets:
+        - "100 Maple St"
+        - "220 Cedar Ave"
+        - "415 Birch Rd"
+    TX:
+      cities:
+        - {city: Austin, zip: "78701"}
+        - {city: Dallas, zip: "75201"}
+        - {city: Houston, zip: "77002"}
+      streets:
+        - "88 Spruce Ln"
+        - "501 Willow Way"
+        - "1400 Pecan Blvd"
+    NY:
+      cities:
+        - {city: Albany, zip: "12207"}
+        - {city: Buffalo, zip: "14202"}
+        - {city: Rochester, zip: "14604"}
+      streets:
+        - "9 Hudson Row"
+        - "300 Erie Blvd"
+        - "42 Genesee Walk"
+    IL:
+      cities:
+        - {city: Springfield, zip: "62701"}
+        - {city: Peoria, zip: "61602"}
+        - {city: Rockford, zip: "61101"}
+      streets:
+        - "18 Prairie Ln"
+        - "600 River Rd"
+        - "77 Lincoln Mews"
+    FL:
+      cities:
+        - {city: Tallahassee, zip: "32301"}
+        - {city: Tampa, zip: "33602"}
+        - {city: Orlando, zip: "32801"}
+      streets:
+        - "250 Palmetto Dr"
+        - "910 Citrus Ave"
+        - "12 Bayfront Ct"

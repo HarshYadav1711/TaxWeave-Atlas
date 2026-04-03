@@ -34,7 +34,15 @@ python -m taxweave_atlas pilot --output ./outputs/pilot
 python -m taxweave_atlas generate --output ./outputs/full
 ```
 
-`pilot` defaults to `--count 10`; `generate` defaults to `--count 2000`. Both write `manifests/batch_plan.json` under `--output` and **do not** emit PDFs or full cases yet.
+`pilot` defaults to `--count 10`; `generate` defaults to `--count 2000`. By default they run the **synthetic taxpayer engine**: each `datasets/dataset_XXXXX/` folder gets `case.json` and `questionnaire.json`, plus `manifests/batch_plan.json` (with `stream_seed`, `uniqueness_salt`, `case_fingerprint`, and sampled `tax_year` / `state_code` / `complexity_tier`).
+
+- `--plan-only` — write `batch_plan.json` only (seeds/slots, no cases).
+- `--complexity easy|medium|moderately_complex` — fix tier (otherwise mix comes from `config/generator/mix.yaml`).
+- `--state CA|TX|NY|IL|FL` and `--tax-year YYYY` — fix stratum.
+
+Tune the dataset mix via `config/generator/mix.yaml` (state/year/complexity weights) and tier bounds via `config/generator/complexity.yaml`. Internal federal/state line math for coherence uses `config/generator/computation.yaml` (labeled synthetic, not filing advice).
+
+Reproducing a row: use `master_seed`, dataset `index`, and `uniqueness_salt` from `batch_plan.json` with `taxweave_atlas.generation.build_synthetic_case(..., salt=uniqueness_salt)`.
 
 ## Extending
 

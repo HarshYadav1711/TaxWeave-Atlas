@@ -14,14 +14,22 @@
       "city": "Sacramento",
       "state": "CA",
       "zip": "95814"
-    }
+    },
+    "dependents_qualifying_children_under_17": 0,
+    "dependents_other": 0
   },
   "questionnaire": {
     "answers": {
       "q_wages_reported": 78000,
       "q_foreign_account": false,
       "q_crypto": false,
-      "q_energy_credits": false
+      "q_energy_credits": false,
+      "num_qualifying_children_under_17": 0,
+      "num_other_dependents": 0,
+      "itemized_deduction_elected": false,
+      "has_self_employment_income": false,
+      "has_retirement_distributions": false,
+      "extensions": {}
     }
   },
   "income": {
@@ -43,7 +51,21 @@
       "recipient_name": "Jordan Bennett",
       "recipient_tin": "900-12-3456",
       "interest_reported": 420
-    }
+    },
+    "other_ordinary_income": {},
+    "passive_income": {}
+  },
+  "deductions": {
+    "elected_method": "standard",
+    "standard_amount_override": null,
+    "itemized_components": {},
+    "adjustments_to_agi": {}
+  },
+  "credits": {
+    "credits": []
+  },
+  "supporting_documents": {
+    "documents": []
   },
   "federal": {
     "lines": {
@@ -54,7 +76,8 @@
       "standard_deduction": 13850,
       "taxable_income": 65670,
       "total_tax": 9500,
-      "federal_withholding": 12400
+      "federal_withholding": 12400,
+      "additional_lines": {}
     }
   },
   "state": {

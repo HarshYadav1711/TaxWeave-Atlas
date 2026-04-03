@@ -1,0 +1,38 @@
+# Bounds and feature flags per tier (synthetic generator only).
+complexity_tiers:
+  easy:
+    wages: {min: 28000, max: 95000}
+    interest_probability: 0.35
+    interest: {min: 0, max: 800}
+    dividend_probability: 0.12
+    dividends: {min: 0, max: 900}
+    qualifying_children_max: 1
+    other_dependents_max: 0
+    itemized_probability: 0.0
+    self_employment_probability: 0.0
+    retirement_probability: 0.0
+    extra_schedule_probability: 0.0
+  medium:
+    wages: {min: 35000, max: 140000}
+    interest_probability: 0.62
+    interest: {min: 0, max: 4200}
+    dividend_probability: 0.42
+    dividends: {min: 0, max: 12000}
+    qualifying_children_max: 2
+    other_dependents_max: 1
+    itemized_probability: 0.08
+    self_employment_probability: 0.12
+    retirement_probability: 0.18
+    extra_schedule_probability: 0.1
+  moderately_complex:
+    wages: {min: 42000, max: 220000}
+    interest_probability: 0.78
+    interest: {min: 0, max: 9100}
+    dividend_probability: 0.58
+    dividends: {min: 0, max: 28000}
+    qualifying_children_max: 3
+    other_dependents_max: 2
+    itemized_probability: 0.35
+    self_employment_probability: 0.28
+    retirement_probability: 0.32
+    extra_schedule_probability: 0.22

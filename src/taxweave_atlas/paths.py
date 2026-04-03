@@ -22,3 +22,7 @@ def templates_spec_dir() -> Path:
 
 def config_dir() -> Path:
     return project_root() / "config"
+
+
+def generator_config_dir() -> Path:
+    return config_dir() / "generator"

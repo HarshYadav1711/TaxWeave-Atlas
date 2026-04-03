@@ -1,0 +1,27 @@
+# Tunable dataset mix (relative weights; normalized at runtime). All synthetic.
+stratification:
+  state_weights:
+    CA: 0.22
+    TX: 0.18
+    NY: 0.18
+    IL: 0.12
+    FL: 0.12
+  tax_year_weights:
+    "2020": 0.14
+    "2021": 0.14
+    "2022": 0.14
+    "2023": 0.18
+    "2024": 0.22
+    "2025": 0.08
+  complexity_weights:
+    easy: 0.35
+    medium: 0.45
+    moderately_complex: 0.20
+
+# Filing status mix (conditional repairs applied in validation if impossible combo).
+filing_status_weights:
+  single: 0.44
+  married_filing_jointly: 0.34
+  head_of_household: 0.12
+  married_filing_separately: 0.06
+  qualifying_surviving_spouse: 0.04

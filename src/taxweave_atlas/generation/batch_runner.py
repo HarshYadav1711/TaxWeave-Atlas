@@ -1,0 +1,126 @@
+from __future__ import annotations
+
+import json
+from dataclasses import dataclass
+from pathlib import Path
+
+from taxweave_atlas.config_loader import load_application_config
+from taxweave_atlas.exceptions import ConfigurationError, ValidationError
+from taxweave_atlas.generation.engine import build_synthetic_case
+from taxweave_atlas.generation.uniqueness import case_fingerprint
+from taxweave_atlas.orchestration.manifest import BatchPlan, DatasetPlan
+from taxweave_atlas.schema.ids import DatasetIdentity, stream_seed
+
+
+@dataclass(frozen=True, slots=True)
+class GenerationBatchResult:
+    output_dir: Path
+    batch_plan_path: Path
+    count: int
+
+
+def run_case_generation_batch(
+    output: Path,
+    *,
+    master_seed: int,
+    count: int,
+    complexity_override: str | None = None,
+    state_override: str | None = None,
+    tax_year_override: int | None = None,
+    max_uniqueness_attempts: int = 750,
+) -> GenerationBatchResult:
+    """
+    Generate unique SyntheticTaxCase JSON + questionnaire sidecars per dataset.
+    """
+    output.mkdir(parents=True, exist_ok=True)
+    datasets_root = output / "datasets"
+    datasets_root.mkdir(exist_ok=True)
+    manifests = output / "manifests"
+    manifests.mkdir(parents=True, exist_ok=True)
+
+    app = load_application_config()
+    default_year = app.get("tax_years", {}).get("default")
+    if not isinstance(default_year, int):
+        raise ConfigurationError("application.yaml must define tax_years.default as int")
+
+    complexity_label = complexity_override or str(app.get("default_complexity", "mixed"))
+
+    seen_fp: set[str] = set()
+    dataset_plans: list[DatasetPlan] = []
+
+    for i in range(count):
+        ident = DatasetIdentity(index=i)
+        case_dir = datasets_root / ident.slug
+        if case_dir.exists():
+            raise ValidationError(f"Dataset folder already exists: {case_dir}")
+
+        salt = 0
+        case = None
+        fp = None
+        while salt < max_uniqueness_attempts:
+            candidate = build_synthetic_case(
+                master_seed=master_seed,
+                identity=ident,
+                salt=salt,
+                state_override=state_override,
+                tax_year_override=tax_year_override,
+                complexity_override=complexity_override,
+            )
+            fp = case_fingerprint(candidate)
+            if fp not in seen_fp:
+                seen_fp.add(fp)
+                case = candidate
+                break
+            salt += 1
+
+        if case is None or fp is None:
+            raise ValidationError(
+                f"Could not produce unique case for index {i} after {max_uniqueness_attempts} attempts"
+            )
+
+        case_dir.mkdir(parents=True, exist_ok=False)
+        (case_dir / "case.json").write_text(case.model_dump_json(indent=2) + "\n", encoding="utf-8")
+        (case_dir / "questionnaire.json").write_text(
+            case.questionnaire.model_dump_json(indent=2) + "\n", encoding="utf-8"
+        )
+
+        cx = case.questionnaire.answers.extensions.get("complexity_tier", complexity_label)
+        dataset_plans.append(
+            DatasetPlan(
+                index=i,
+                slug=ident.slug,
+                stream_seed=stream_seed(master_seed, ident, salt=salt),
+                tax_year=case.tax_year,
+                state_code=case.state.code,
+                complexity_tier=str(cx),
+                uniqueness_salt=salt,
+                case_fingerprint=fp,
+            )
+        )
+
+    plan = BatchPlan(
+        stage="synthetic_generation_v1",
+        master_seed=master_seed,
+        count=count,
+        complexity_level=complexity_label,
+        default_tax_year=default_year,
+        note=(
+            "Synthetic taxpayer generation: case.json + questionnaire.json per dataset. "
+            "PDF rendering and full reconciliation are separate stages."
+        ),
+        datasets=dataset_plans,
+    )
+    plan_path = manifests / "batch_plan.json"
+    plan_path.write_text(plan.model_dump_json(indent=2) + "\n", encoding="utf-8")
+
+    summary = {
+        "count": count,
+        "master_seed": master_seed,
+        "unique_fingerprints": len(seen_fp),
+        "complexity_override": complexity_override,
+        "state_override": state_override,
+        "tax_year_override": tax_year_override,
+    }
+    (manifests / "batch_summary.json").write_text(json.dumps(summary, indent=2) + "\n", encoding="utf-8")
+
+    return GenerationBatchResult(output_dir=output, batch_plan_path=plan_path, count=count)

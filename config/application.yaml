@@ -1,26 +1,31 @@
 # Local application profile — no external services.
-version: 1
+version: 2
 
 tax_years:
   default: 2023
   active:
+    - 2020
+    - 2021
+    - 2022
     - 2023
+    - 2024
+    - 2025
 
-# States enabled for synthetic state packets (extend as rules are added to config/tax_rules/).
 states:
   enabled:
     - CA
-    - NY
     - TX
+    - NY
+    - IL
+    - FL
 
-# Complexity tiers gate which schedules/forms the generator may attach later.
-# Implementation is not wired in the foundation stage.
+# IDs must match config/generator/complexity.yaml tier keys.
 complexity_levels:
-  - id: baseline
-    description: "W-2 wages, limited interest/dividends, no schedules modeled."
-  - id: intermediate
-    description: "Placeholder — define allowed schedules and caps before use."
-  - id: advanced
-    description: "Placeholder — define stress scenarios and caps before use."
+  - id: easy
+    display_name: Easy
+  - id: medium
+    display_name: Medium
+  - id: moderately_complex
+    display_name: Moderately Complex
 
-default_complexity: baseline
+default_complexity: easy
