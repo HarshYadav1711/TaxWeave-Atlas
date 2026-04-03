@@ -1,3 +1,8 @@
+"""
+Write ``datasets/dataset_XXXXX/`` folders: ``case.json``, ``questionnaire.json``,
+optional PDF bundle, plus ``manifests/batch_plan.json`` with reproducibility metadata.
+"""
+
 from __future__ import annotations
 
 import json
@@ -13,6 +18,7 @@ from taxweave_atlas.orchestration.manifest import BatchPlan, DatasetPlan
 from taxweave_atlas.schema.ids import DatasetIdentity, stream_seed
 
 log = logging.getLogger(__name__)
+
 
 @dataclass(frozen=True, slots=True)
 class GenerationBatchResult:
@@ -32,9 +38,7 @@ def run_case_generation_batch(
     max_uniqueness_attempts: int = 750,
     write_pdfs: bool = True,
 ) -> GenerationBatchResult:
-    """
-    Generate unique SyntheticTaxCase JSON + questionnaire sidecars per dataset.
-    """
+    """Build ``count`` unique cases; optional PDFs; never overwrite existing folders."""
     output.mkdir(parents=True, exist_ok=True)
     datasets_root = output / "datasets"
     datasets_root.mkdir(exist_ok=True)

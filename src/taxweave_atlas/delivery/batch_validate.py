@@ -1,3 +1,12 @@
+"""
+Post-generation checks for batch output trees.
+
+Validates reconciled numeric coherence, filesystem completeness, optional PDF checksums,
+fingerprint uniqueness, and (optionally) stratification against ``mix.yaml``.
+Reports are written to ``manifests/delivery_validation_report.json`` and per-dataset
+``01_delivery_audit.json`` when enabled.
+"""
+
 from __future__ import annotations
 
 import hashlib

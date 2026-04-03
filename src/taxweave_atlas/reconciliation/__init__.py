@@ -1,1 +1,1 @@
-"""Tax case reconciliation — import from taxweave_atlas.reconciliation.pipeline or .checks."""
+"""Derive reconciled federal, state, and summary figures from declared case inputs."""

@@ -1,3 +1,5 @@
+"""Load ``application.yaml`` and merged ``config/generator/*.yaml`` (local files only)."""
+
 from __future__ import annotations
 
 from typing import Any

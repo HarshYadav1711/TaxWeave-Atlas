@@ -1,3 +1,8 @@
+"""
+Deterministic reconciliation: derive federal lines, state tax, executive summary,
+and supporting-document key amounts from declared income, deductions, and credits.
+"""
+
 from __future__ import annotations
 
 from taxweave_atlas.generation.validation import validate_synthetic_source
@@ -15,11 +20,7 @@ from taxweave_atlas.schema.case import SyntheticTaxCase
 
 
 def reconcile_case(case: SyntheticTaxCase) -> SyntheticTaxCase:
-    """
-    Deterministically compute federal, state, executive summary, and supporting-document
-    key figures from income, deductions, credits, and state adjustments. Fails loudly
-    on scope violations or cross-check failures.
-    """
+    """Return a copy of ``case`` with reconciled slices; raises on scope or cross-check violations."""
     validate_synthetic_source(case)
     bundle = load_reconciliation_bundle()
     scope = bundle["scope"]

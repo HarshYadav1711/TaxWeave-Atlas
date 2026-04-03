@@ -1,4 +1,4 @@
-"""Post-generation delivery checks: integrity, deduplication, distribution, audit artifacts."""
+"""Batch output validation and audit artifacts."""
 
 from taxweave_atlas.delivery.batch_validate import (
     BatchValidationReport,

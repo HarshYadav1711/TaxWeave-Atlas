@@ -1,3 +1,8 @@
+"""
+Synthetic case factory: sample profile, income, deductions, and credits from YAML config,
+then run reconciliation so every emitted ``SyntheticTaxCase`` is internally consistent.
+"""
+
 from __future__ import annotations
 
 import random
@@ -42,6 +47,7 @@ def build_synthetic_case(
     tax_year_override: int | None = None,
     complexity_override: str | None = None,
 ) -> SyntheticTaxCase:
+    """One reconciled synthetic taxpayer-year. RNG stream: ``stream_seed(master_seed, identity, salt=salt)``."""
     app = load_application_config()
     settings = load_generator_settings()
     strat = settings.get("stratification") or {}

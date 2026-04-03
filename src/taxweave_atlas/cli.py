@@ -1,3 +1,9 @@
+"""
+Command-line entrypoint for TaxWeave Atlas.
+
+Commands are thin wrappers over library functions; logging uses the stdlib only.
+"""
+
 from __future__ import annotations
 
 import logging
@@ -13,12 +19,24 @@ def _configure_logging(*, verbose: bool) -> None:
     logging.basicConfig(level=level, format="%(levelname)s %(message)s", force=True)
 
 
+def _emit_delivery_report(report: object) -> None:
+    click.echo(report.summary_line())
+    for w in report.warnings:
+        click.echo(f"  WARNING: {w}", err=True)
+    for msg in report.errors:
+        click.echo(f"  ERROR: {msg}", err=True)
+    for slug, rec in sorted(report.per_dataset.items()):
+        if not rec.ok:
+            for err in rec.errors:
+                click.echo(f"  [{slug}] {err}", err=True)
+
+
 @click.group()
 @click.version_option(package_name="taxweave-atlas")
-@click.option("-v", "--verbose", is_flag=True, help="More detailed logs (DEBUG)")
+@click.option("-v", "--verbose", is_flag=True, help="DEBUG logging to stderr")
 @click.pass_context
 def main(ctx: click.Context, verbose: bool) -> None:
-    """TaxWeave Atlas — local synthetic tax dataset tooling."""
+    """Synthetic tax datasets: generate, validate, render PDFs (all local)."""
     ctx.ensure_object(dict)
     ctx.obj["verbose"] = verbose
     _configure_logging(verbose=verbose)
@@ -59,39 +77,14 @@ def _run_generation(
 
 
 @main.command("pilot")
-@click.option("--count", type=int, default=10, show_default=True, help="Pilot batch size")
+@click.option("--count", type=int, default=10, show_default=True)
 @click.option("--seed", type=int, default=42, show_default=True, help="Master RNG seed")
-@click.option(
-    "--output",
-    type=click.Path(path_type=Path),
-    required=True,
-    help="Output root (datasets/ and manifests/ created beneath it)",
-)
-@click.option(
-    "--complexity",
-    type=str,
-    default=None,
-    help="Force complexity tier: easy | medium | moderately_complex",
-)
-@click.option(
-    "--state",
-    type=str,
-    default=None,
-    help="Force state of residence (CA, TX, NY, IL, FL)",
-)
-@click.option("--tax-year", type=int, default=None, help="Force tax year (active list in application.yaml)")
-@click.option(
-    "--plan-only",
-    is_flag=True,
-    default=False,
-    help="Write batch_plan.json only (no synthetic cases)",
-)
-@click.option(
-    "--no-pdfs",
-    is_flag=True,
-    default=False,
-    help="Skip PDF bundle (case.json / questionnaire.json only)",
-)
+@click.option("--output", type=click.Path(path_type=Path), required=True, help="Output root")
+@click.option("--complexity", type=str, default=None, help="easy | medium | moderately_complex")
+@click.option("--state", type=str, default=None, help="CA | TX | NY | IL | FL")
+@click.option("--tax-year", type=int, default=None, help="Must be in application.yaml active years")
+@click.option("--plan-only", is_flag=True, help="Write batch plan only (no cases)")
+@click.option("--no-pdfs", is_flag=True, help="Skip PDFs; write case.json + questionnaire.json only")
 def cmd_pilot(
     count: int,
     seed: int,
@@ -102,54 +95,29 @@ def cmd_pilot(
     plan_only: bool,
     no_pdfs: bool,
 ) -> None:
-    """Pilot batch: by default generates synthetic cases + questionnaires."""
+    """Generate a small batch (default 10 datasets)."""
     try:
         if plan_only:
             path = _run_plan_only(output, seed, count, complexity)
-            click.echo(f"Wrote batch plan only ({count} slots) to {path}")
+            click.echo(f"Wrote batch plan ({count} slots) → {path}")
         else:
             _run_generation(
                 output, seed, count, complexity, state, tax_year, write_pdfs=not no_pdfs
             )
-            click.echo(f"Wrote {count} synthetic datasets under {output / 'datasets'}")
+            click.echo(f"Wrote {count} datasets → {output / 'datasets'}")
     except TaxWeaveError as e:
         raise SystemExit(f"error: {e}") from e
 
 
 @main.command("generate")
-@click.option("--count", type=int, default=2000, show_default=True, help="Full batch size")
-@click.option("--seed", type=int, default=42, show_default=True, help="Master RNG seed")
-@click.option(
-    "--output",
-    type=click.Path(path_type=Path),
-    required=True,
-    help="Output root (datasets/ and manifests/ created beneath it)",
-)
-@click.option(
-    "--complexity",
-    type=str,
-    default=None,
-    help="Force complexity tier: easy | medium | moderately_complex",
-)
-@click.option(
-    "--state",
-    type=str,
-    default=None,
-    help="Force state of residence (CA, TX, NY, IL, FL)",
-)
-@click.option("--tax-year", type=int, default=None, help="Force tax year")
-@click.option(
-    "--plan-only",
-    is_flag=True,
-    default=False,
-    help="Write batch_plan.json only (no synthetic cases)",
-)
-@click.option(
-    "--no-pdfs",
-    is_flag=True,
-    default=False,
-    help="Skip PDF bundle (case.json / questionnaire.json only)",
-)
+@click.option("--count", type=int, default=2000, show_default=True)
+@click.option("--seed", type=int, default=42, show_default=True)
+@click.option("--output", type=click.Path(path_type=Path), required=True)
+@click.option("--complexity", type=str, default=None, help="easy | medium | moderately_complex")
+@click.option("--state", type=str, default=None)
+@click.option("--tax-year", type=int, default=None)
+@click.option("--plan-only", is_flag=True)
+@click.option("--no-pdfs", is_flag=True)
 def cmd_generate(
     count: int,
     seed: int,
@@ -160,59 +128,38 @@ def cmd_generate(
     plan_only: bool,
     no_pdfs: bool,
 ) -> None:
-    """Full batch: by default generates synthetic cases + questionnaires."""
+    """Generate a large batch (default 2000 datasets)."""
     try:
         if plan_only:
             path = _run_plan_only(output, seed, count, complexity)
-            click.echo(f"Wrote batch plan only ({count} slots) to {path}")
+            click.echo(f"Wrote batch plan ({count} slots) → {path}")
         else:
             _run_generation(
                 output, seed, count, complexity, state, tax_year, write_pdfs=not no_pdfs
             )
-            click.echo(f"Wrote {count} synthetic datasets under {output / 'datasets'}")
+            click.echo(f"Wrote {count} datasets → {output / 'datasets'}")
     except TaxWeaveError as e:
         raise SystemExit(f"error: {e}") from e
 
 
 @main.command("validate-batch")
-@click.argument(
-    "batch_root",
-    type=click.Path(path_type=Path, exists=True, file_okay=False),
-)
-@click.option(
-    "--no-pdfs",
-    is_flag=True,
-    default=False,
-    help="Skip PDF/manifest integrity (case + questionnaire only)",
-)
+@click.argument("batch_root", type=click.Path(path_type=Path, exists=True, file_okay=False))
+@click.option("--no-pdfs", is_flag=True, help="Skip PDF and checksum checks")
 @click.option(
     "--strict-distribution",
     is_flag=True,
-    default=False,
-    help="Treat stratification drift vs config/generator/mix.yaml as errors (not warnings)",
+    help="Fail on mix drift vs config/generator/mix.yaml (default: warn)",
 )
-@click.option(
-    "--no-per-dataset-audit",
-    is_flag=True,
-    default=False,
-    help="Do not write datasets/*/01_delivery_audit.json",
-)
-@click.option(
-    "--no-batch-report",
-    is_flag=True,
-    default=False,
-    help="Do not write manifests/delivery_validation_report.json",
-)
-@click.pass_context
+@click.option("--no-per-dataset-audit", is_flag=True, help="Skip 01_delivery_audit.json per folder")
+@click.option("--no-batch-report", is_flag=True, help="Skip manifests/delivery_validation_report.json")
 def cmd_validate_batch(
-    ctx: click.Context,
     batch_root: Path,
     no_pdfs: bool,
     strict_distribution: bool,
     no_per_dataset_audit: bool,
     no_batch_report: bool,
 ) -> None:
-    """Validate an output tree: duplicates, completeness, cross-form math, files, counts, mix."""
+    """Validate a batch output tree (integrity, dedup, reconciliation, optional mix stats)."""
     from taxweave_atlas.delivery.batch_validate import validate_batch_output
 
     try:
@@ -226,43 +173,22 @@ def cmd_validate_batch(
     except TaxWeaveError as e:
         raise SystemExit(f"error: {e}") from e
 
-    click.echo(report.summary_line())
-    for w in report.warnings:
-        click.echo(f"  WARNING: {w}", err=True)
-    for e in report.errors:
-        click.echo(f"  ERROR: {e}", err=True)
-    for slug, rec in sorted(report.per_dataset.items()):
-        if not rec.ok:
-            for e in rec.errors:
-                click.echo(f"  [{slug}] {e}", err=True)
-
+    _emit_delivery_report(report)
     if not report.ok:
         raise SystemExit(1)
 
 
 @main.command("produce")
 @click.argument("mode", type=click.Choice(["pilot", "weekly"]))
-@click.option("--count", type=int, default=None, help="Override size (default pilot=35, weekly=350)")
-@click.option("--seed", type=int, default=42, show_default=True, help="Master RNG seed")
-@click.option(
-    "--output",
-    type=click.Path(path_type=Path),
-    required=True,
-    help="Output root (datasets/ and manifests/)",
-)
-@click.option("--complexity", type=str, default=None, help="Force tier: easy | medium | moderately_complex")
-@click.option("--state", type=str, default=None, help="Force state CA|TX|NY|IL|FL")
-@click.option("--tax-year", type=int, default=None, help="Force tax year")
-@click.option("--no-pdfs", is_flag=True, default=False, help="Skip PDF bundle during generation")
-@click.option(
-    "--strict-distribution",
-    is_flag=True,
-    default=False,
-    help="Fail if stratification drift exceeds tolerance vs mix.yaml",
-)
-@click.pass_context
+@click.option("--count", type=int, default=None, help="Override count (defaults: pilot 35, weekly 350)")
+@click.option("--seed", type=int, default=42, show_default=True)
+@click.option("--output", type=click.Path(path_type=Path), required=True)
+@click.option("--complexity", type=str, default=None)
+@click.option("--state", type=str, default=None)
+@click.option("--tax-year", type=int, default=None)
+@click.option("--no-pdfs", is_flag=True)
+@click.option("--strict-distribution", is_flag=True)
 def cmd_produce(
-    ctx: click.Context,
     mode: str,
     count: int | None,
     seed: int,
@@ -273,10 +199,7 @@ def cmd_produce(
     no_pdfs: bool,
     strict_distribution: bool,
 ) -> None:
-    """
-    Orchestrated run: generate a pilot-sized (default 35) or weekly-sized (default 350) batch,
-    then run delivery validation. Exits non-zero if validation fails.
-    """
+    """Generate then run validate-batch (recommended for handoff)."""
     from taxweave_atlas.delivery.batch_validate import validate_batch_output
     from taxweave_atlas.generation.batch_runner import run_case_generation_batch
 
@@ -299,23 +222,14 @@ def cmd_produce(
     except TaxWeaveError as e:
         raise SystemExit(f"error: {e}") from e
 
-    click.echo(report.summary_line())
-    for w in report.warnings:
-        click.echo(f"  WARNING: {w}", err=True)
-    for e in report.errors:
-        click.echo(f"  ERROR: {e}", err=True)
-    for slug, rec in sorted(report.per_dataset.items()):
-        if not rec.ok:
-            for err in rec.errors:
-                click.echo(f"  [{slug}] {err}", err=True)
-
+    _emit_delivery_report(report)
     if not report.ok:
         raise SystemExit(1)
 
 
 @main.command("validate-specs")
 def cmd_validate_specs() -> None:
-    """Validate sample pack JSON + application/tax_rules files."""
+    """Check sample pack and config against application.yaml."""
     from taxweave_atlas.validation.specs import validate_specs_against_application_config
 
     try:
@@ -326,20 +240,14 @@ def cmd_validate_specs() -> None:
 
 
 @main.command("render-pdfs")
-@click.argument(
-    "target",
-    type=click.Path(path_type=Path, exists=True),
-    required=True,
-)
+@click.argument("target", type=click.Path(path_type=Path, exists=True))
 @click.option(
     "--reconcile",
     is_flag=True,
-    default=False,
-    help="Re-run reconciliation before rendering (use if case.json predates reconciliation fields)",
+    help="Reconcile from source fields before render (stale case.json)",
 )
-@click.pass_context
-def cmd_render_pdfs(ctx: click.Context, target: Path, reconcile: bool) -> None:
-    """Render PDFs for one dataset folder, one case.json file, or an entire batch output tree."""
+def cmd_render_pdfs(target: Path, reconcile: bool) -> None:
+    """Render PDF bundle for case.json, one dataset folder, or a batch root."""
     from taxweave_atlas.pdf.pipeline import (
         load_case_from_path,
         render_dataset_pdf_bundle,
@@ -350,22 +258,21 @@ def cmd_render_pdfs(ctx: click.Context, target: Path, reconcile: bool) -> None:
         if target.is_file() and target.name == "case.json":
             case = load_case_from_path(target)
             render_dataset_pdf_bundle(case, target.parent, reconcile_first=reconcile)
-            click.echo(f"Rendered PDFs in {target.parent}")
+            click.echo(f"Rendered PDFs → {target.parent}")
             return
         case_path = target / "case.json"
         if case_path.is_file():
             case = load_case_from_path(case_path)
             render_dataset_pdf_bundle(case, target, reconcile_first=reconcile)
-            click.echo(f"Rendered PDFs in {target}")
+            click.echo(f"Rendered PDFs → {target}")
             return
         ds_root = target / "datasets"
         if ds_root.is_dir():
             n = render_pdfs_for_batch_output(target, reconcile_first=reconcile)
-            click.echo(f"Rendered PDFs for {n} dataset folders under {ds_root}")
+            click.echo(f"Rendered PDFs for {n} folders under {ds_root}")
             return
         raise SystemExit(
-            f"Expected target to be case.json, a dataset folder containing case.json, "
-            f"or a batch root with datasets/ — got {target}"
+            "Expected case.json, a folder containing case.json, or a batch root with datasets/"
         )
     except TaxWeaveError as e:
         raise SystemExit(f"error: {e}") from e

@@ -1,3 +1,6 @@
+"""Typed errors for explicit failures (no silent recovery)."""
+
+
 class TaxWeaveError(Exception):
     """Base error for explicit failures (no silent guessing)."""
 

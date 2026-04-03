@@ -1,3 +1,7 @@
+"""
+PDF bundle rendering: load field mappings from specs, draw with ReportLab, write checksum manifest.
+"""
+
 from __future__ import annotations
 
 import hashlib
@@ -37,7 +41,7 @@ def _renderer_meta(renderer_name: str) -> tuple[str, str]:
         ),
         "state_return": (
             "State return — line summary",
-            "Resident state stub summary aligned to reconciliation rules",
+            "Simplified resident-state summary (synthetic rules; not filing advice)",
         ),
         "executive_summary": (
             "Executive summary",

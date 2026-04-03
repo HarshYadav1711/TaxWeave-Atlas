@@ -1,3 +1,5 @@
+"""Batch planning without case materialization (``--plan-only`` CLI path)."""
+
 from __future__ import annotations
 
 from pathlib import Path

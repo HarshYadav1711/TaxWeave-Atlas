@@ -1,3 +1,5 @@
+"""Validators for generator-produced source fields (before or after reconciliation)."""
+
 from __future__ import annotations
 
 from taxweave_atlas.exceptions import ValidationError

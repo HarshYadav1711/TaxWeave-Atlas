@@ -4,7 +4,7 @@ from pathlib import Path
 
 
 def project_root() -> Path:
-    """Repository root (contains specs/, config/, src/)."""
+    """Repository root: the directory that contains ``config/``, ``specs/``, and ``src/``."""
     return Path(__file__).resolve().parents[2]
 
 

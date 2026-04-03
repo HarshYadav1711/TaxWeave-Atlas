@@ -1,3 +1,5 @@
+"""Validate bundled sample case and tax-rule placeholders against ``application.yaml``."""
+
 from __future__ import annotations
 
 from taxweave_atlas.config_loader import load_application_config, load_tax_rule_placeholder
@@ -15,10 +17,7 @@ def load_sample_case() -> SyntheticTaxCase:
 
 
 def validate_specs_against_application_config() -> SyntheticTaxCase:
-    """
-    Parse the bundled sample case, ensure application.yaml declares its year/state,
-    then run full reconciliation and cross-checks (same path as generated datasets).
-    """
+    """Load sample case, verify year/state in config, reconcile, run cross-checks."""
     case = load_sample_case()
     app = load_application_config()
 
