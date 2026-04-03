@@ -103,7 +103,13 @@ def run_case_generation_batch(
         if write_pdfs:
             from taxweave_atlas.pdf.pipeline import render_dataset_pdf_bundle
 
-            render_dataset_pdf_bundle(case, case_dir, reconcile_first=False)
+            render_dataset_pdf_bundle(
+                case,
+                case_dir,
+                reconcile_first=False,
+                dataset_index=ident.index,
+                uniqueness_salt=salt,
+            )
 
         log.debug("wrote %s fingerprint=%s", ident.slug, fp)
         interval = 50 if count >= 200 else (20 if count >= 50 else 5)
@@ -131,8 +137,8 @@ def run_case_generation_batch(
         complexity_level=complexity_label,
         default_tax_year=default_year,
         note=(
-            "Synthetic taxpayer generation with reconciliation and PDF bundle per dataset "
-            "(see 00_dataset_files_manifest.json and 01–06 PDFs)."
+            "Synthetic taxpayer generation; each dataset follows specs/dataset_structure_blueprint.yaml "
+            "(see 00_dataset_files_manifest.json files_sha256 v2)."
         ),
         datasets=dataset_plans,
     )

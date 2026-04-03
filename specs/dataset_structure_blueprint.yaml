@@ -1,0 +1,83 @@
+# Structural contract inferred from repository dataset/ (folder names, ordering, roles).
+# No filenames or timestamps from the sample are reused as literals except fixed layout strings.
+version: 1
+
+export_token:
+  # Pattern analogous to sample export suffix (YYYYMMDDTHHMMSSZ-batch-part); values are synthetic.
+  # dataset_slot is 1-based to align with dataset_XXXXX slugs.
+  format: "{tax_year:04d}0101T000000Z-{dataset_slot:05d}-{salt:03d}"
+
+# Files permitted at dataset root alongside the five top-level segment folders.
+allowed_root_files:
+  - case.json
+  - questionnaire.json
+  - "00_dataset_files_manifest.json"
+  - "01_delivery_audit.json"
+
+# Top-level segments in display order (must match exactly; no extras).
+segments:
+  - id: client_summary
+    outer_template: "1. Client Summary-{export_token}"
+    inner_template: "1. Client Summary"
+    files:
+      - relative: "Client Summary.docx"
+        generator: minimal_docx
+
+  - id: input_documents
+    outer_template: "2. Input Documents-{export_token}"
+    inner_template: "2. Input Documents"
+    files:
+      - relative: "Tax Document Attachments Summary.docx"
+        generator: minimal_docx
+    categories:
+      - folder: "1099- DIV"
+        files:
+          - relative: "1099-DIV {primary_last_upper}.pdf"
+            generator: pdf_1099_div
+      - folder: "1099-INT"
+        files:
+          - relative: "1099-INT {primary_last_upper}.pdf"
+            generator: pdf_1099_int
+      - folder: "Bank Statement"
+        files:
+          - relative: "BankStatement_synthetic_{tax_year}_.xlsx"
+            generator: minimal_xlsx
+      - folder: "Form W-2"
+        files:
+          - relative: "Form W-2.pdf"
+            generator: pdf_w2
+      - folder: "Invoice"
+        files:
+          - relative: "Invoice_synthetic.pdf"
+            generator: pdf_invoice
+      - folder: "Schedule C"
+        files:
+          - relative: "ScheduleC_synthetic_{tax_year}.xlsx"
+            generator: minimal_xlsx
+
+  - id: complete_form
+    outer_template: "3. Complete form-{export_token}"
+    inner_template: "3. Complete form"
+    files:
+      - relative: "{tax_year} Tax Return Documents ({safe_taxpayer_label}).pdf"
+        generator: pdf_combined_return
+      - relative: "Completed forms - Summary.docx"
+        generator: minimal_docx
+
+  - id: executive_summary
+    outer_template: "4. Executive Summary-{export_token}"
+    inner_template: "4. Executive Summary"
+    files:
+      - relative: "4. Summary_.docx"
+        generator: minimal_docx
+      - relative: "Executive Summary {executive_summary_title} {tax_year}.pdf"
+        generator: pdf_executive
+
+  - id: prompt
+    outer_template: "Prompt-{export_token}"
+    inner_template: "Prompt"
+    files:
+      - relative: "Tax Return Data - Prompt.docx"
+        generator: minimal_docx
+      - relative: "Tax Return Data - Prompt.xml"
+        generator: prompt_xml

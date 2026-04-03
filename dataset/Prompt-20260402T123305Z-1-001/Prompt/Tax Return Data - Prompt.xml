@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-11-14T00:00:00Z</ReturnTs>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <SelfSelectPINGrp>
+      <PrimaryBirthDt>1983-03-29</PrimaryBirthDt>
+      <SpouseBirthDt>1993-03-29</SpouseBirthDt>
+      <PrimaryPriorYearAGIAmt>0</PrimaryPriorYearAGIAmt>
+    </SelfSelectPINGrp>
+    <PrimaryPINEnteredByCd>Taxpayer</PrimaryPINEnteredByCd>
+    <PrimarySignaturePIN>12354</PrimarySignaturePIN>
+    <PrimarySignatureDt>2025-11-14</PrimarySignatureDt>
+    <SpousePINEnteredByCd>Taxpayer</SpousePINEnteredByCd>
+    <SpouseSignaturePIN>54321</SpouseSignaturePIN>
+    <SpouseSignatureDt>2025-11-14</SpouseSignatureDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>123456789</PrimarySSN>
+      <SpouseSSN>987654321</SpouseSSN>
+      <NameLine1Txt>John Johnson</NameLine1Txt>
+      <SpouseNameLine1Txt>Emily Johnson</SpouseNameLine1Txt>
+      <PrimaryNameControlTxt>JOHN</PrimaryNameControlTxt>
+      <SpouseNameControlTxt>EMIL</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>580 WILLOW STREET</AddressLine1Txt>
+        <CityNm>SACRAMENTO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95816</ZIPCd>
+      </USAddress>
+    </Filer>
+    <OnlineFilerInformation>
+      <CheckCd>Check</CheckCd>
+    </OnlineFilerInformation>
+    <AdditionalFilerInformation>
+      <AtSubmissionFilingGrp>
+        <RefundProductElectionInd>false</RefundProductElectionInd>
+        <RefundDisbursementGrp>
+          <RefundDisbursementCd>3</RefundDisbursementCd>
+        </RefundDisbursementGrp>
+      </AtSubmissionFilingGrp>
+    </AdditionalFilerInformation>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <SpouseSSN>987654321</SpouseSSN>
+      <VirtualCurAcquiredDurTYInd>false</VirtualCurAcquiredDurTYInd>
+      <TotalExemptPrimaryAndSpouseCnt>2</TotalExemptPrimaryAndSpouseCnt>
+      <TotalExemptionsCnt>4</TotalExemptionsCnt>
+      <DependentDetail>
+        <DependentFirstNm>Ethan</DependentFirstNm>
+        <DependentLastNm>Johnson</DependentLastNm>
+        <DependentNameControlTxt>ETHA</DependentNameControlTxt>
+        <DependentSSN>572901111</DependentSSN>
+        <DependentRelationshipCd>SON</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <DependentDetail>
+        <DependentFirstNm>Emma</DependentFirstNm>
+        <DependentLastNm>Johnson</DependentLastNm>
+        <DependentNameControlTxt>EMMA</DependentNameControlTxt>
+        <DependentSSN>572902222</DependentSSN>
+        <DependentRelationshipCd>DAUGHTER</DependentRelationshipCd>
+        <EligibleForChildTaxCreditInd>X</EligibleForChildTaxCreditInd>
+      </DependentDetail>
+      <WagesAmt referenceDocumentId="IRSW2-0">47900</WagesAmt>
+      <WagesSalariesAndTipsAmt>47900</WagesSalariesAndTipsAmt>
+      <TaxExemptInterestAmt referenceDocumentId="IRS1040ScheduleB">0</TaxExemptInterestAmt>
+      <TaxableInterestAmt referenceDocumentId="IRS1040ScheduleB">150</TaxableInterestAmt>
+      <OrdinaryDividendsAmt referenceDocumentId="IRS1040ScheduleB">300</OrdinaryDividendsAmt>
+      <BusinessIncomeAmt referenceDocumentId="IRS1040ScheduleC">46453</BusinessIncomeAmt>
+      <TotalIncomeAmt>94803</TotalIncomeAmt>
+      <AdjustedGrossIncomeAmt>94803</AdjustedGrossIncomeAmt>
+      <TotalItemizedOrStandardDedAmt>29200</TotalItemizedOrStandardDedAmt>
+      <QualifiedBusinessIncomeDedAmt referenceDocumentId="IRS8995">7937</QualifiedBusinessIncomeDedAmt>
+      <TotalDeductionsAmt>37137</TotalDeductionsAmt>
+      <TaxableIncomeAmt>57666</TaxableIncomeAmt>
+      <TaxAmt>6283</TaxAmt>
+      <ChildTaxCreditAmt referenceDocumentId="IRS1040Schedule8812">4000</ChildTaxCreditAmt>
+      <TotalCreditsAmt>4000</TotalCreditsAmt>
+      <TotalTaxBeforeCrAndOthTaxesAmt>6283</TotalTaxBeforeCrAndOthTaxesAmt>
+      <TaxLessCreditsAmt>2283</TaxLessCreditsAmt>
+      <OtherTaxesAmt referenceDocumentId="IRS1040Schedule2">6564</OtherTaxesAmt>
+      <TotalOtherTaxesAmt>6564</TotalOtherTaxesAmt>
+      <TotalTaxAmt>9847</TotalTaxAmt>
+      <FormW2WithheldTaxAmt>6400</FormW2WithheldTaxAmt>
+      <WithholdingTaxAmt>6400</WithholdingTaxAmt>
+      <TotalPaymentsAmt>6400</TotalPaymentsAmt>
+      <AmountOwedAmt>3447</AmountOwedAmt>
+    </IRS1040>
+    <IRS1040Schedule2 documentId="IRS1040Schedule2">
+      <SelfEmploymentTaxAmt referenceDocumentId="IRS1040ScheduleSE">6564</SelfEmploymentTaxAmt>
+      <TotalOtherTaxesAmt>6564</TotalOtherTaxesAmt>
+    </IRS1040Schedule2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>150</InterestAmt>
+      <TotalInterestAmt>150</TotalInterestAmt>
+      <OrdinaryDividendsAmt>300</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>300</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+    <IRS1040ScheduleC documentId="IRS1040ScheduleC">
+      <BusinessName>
+        <BusinessNameLine1Txt>Freelance Graphic &amp; Web Design</BusinessNameLine1Txt>
+      </BusinessName>
+      <PrincipalBusinessActivityCd>541430</PrincipalBusinessActivityCd>
+      <BusinessNameControlTxt>FREE</BusinessNameControlTxt>
+      <PrincipalBusinessActivityDesc>Graphic Design Services</PrincipalBusinessActivityDesc>
+      <MethodOfAccountingCashInd>X</MethodOfAccountingCashInd>
+      <TotalGrossReceiptsAmt>65000</TotalGrossReceiptsAmt>
+      <GrossReceiptsOrSalesAmt>65000</GrossReceiptsOrSalesAmt>
+      <AdvertisingAmt>1200</AdvertisingAmt>
+      <OfficeExpensesAmt>800</OfficeExpensesAmt>
+      <SuppliesAmt>1500</SuppliesAmt>
+      <OtherBusinessExpensesAmt>15047</OtherBusinessExpensesAmt>
+      <TotalExpensesAmt>18547</TotalExpensesAmt>
+      <NetProfitOrLossAmt>46453</NetProfitOrLossAmt>
+    </IRS1040ScheduleC>
+    <IRS1040ScheduleSE documentId="IRS1040ScheduleSE">
+      <NetProfitOrLossAmt>46453</NetProfitOrLossAmt>
+      <SETotalNetEarningsOrLossAmt>46453</SETotalNetEarningsOrLossAmt>
+      <MinimumProfitForSETaxAmt>400</MinimumProfitForSETaxAmt>
+      <SEBaseAmt>42899</SEBaseAmt>
+      <SelfEmploymentTaxAmt>6564</SelfEmploymentTaxAmt>
+      <DeductibleSelfEmploymentTaxAmt>3282</DeductibleSelfEmploymentTaxAmt>
+    </IRS1040ScheduleSE>
+    <IRS1040Schedule8812 documentId="IRS1040Schedule8812">
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Ethan Johnson</ChildFirstAndLastName>
+        <ChildSSN>572901111</ChildSSN>
+      </QualifyingChildInformation>
+      <QualifyingChildInformation>
+        <ChildFirstAndLastName>Emma Johnson</ChildFirstAndLastName>
+        <ChildSSN>572902222</ChildSSN>
+      </QualifyingChildInformation>
+      <ChildTaxCreditAmt>4000</ChildTaxCreditAmt>
+      <TotalChildTaxCreditAmt>4000</TotalChildTaxCreditAmt>
+    </IRS1040Schedule8812>
+    <IRS8995 documentId="IRS8995">
+      <QualifiedBusinessIncomeAmt>46453</QualifiedBusinessIncomeAmt>
+      <TotalQualifiedBusinessIncomeAmt>46453</TotalQualifiedBusinessIncomeAmt>
+      <QualifiedBusinessIncomeDedAmt>7937</QualifiedBusinessIncomeDedAmt>
+    </IRS8995>
+    <IRS4562 documentId="IRS4562">
+      <BusinessName>
+        <BusinessNameLine1Txt>Freelance Graphic &amp; Web Design</BusinessNameLine1Txt>
+      </BusinessName>
+      <Section179ExpenseAmt>0</Section179ExpenseAmt>
+      <DepreciationAmt>2500</DepreciationAmt>
+      <TotalDepreciationAmt>2500</TotalDepreciationAmt>
+    </IRS4562>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>987654321</EmployeeSSN>
+      <EmployerEIN>123456789</EmployerEIN>
+      <EmployerNameControlTxt>PACI</EmployerNameControlTxt>
+      <EmployerName>
+        <BusinessNameLine1Txt>Pacific Health System Inc.</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployerUSAddress>
+        <AddressLine1Txt>1000 Healthcare Plaza</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </EmployerUSAddress>
+      <EmployeeNm>Emily Johnson</EmployeeNm>
+      <EmployeeUSAddress>
+        <AddressLine1Txt>580 WILLOW STREET</AddressLine1Txt>
+        <CityNm>SACRAMENTO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95816</ZIPCd>
+      </EmployeeUSAddress>
+      <WagesAmt>47900</WagesAmt>
+      <WithholdingAmt>6400</WithholdingAmt>
+      <SocialSecurityWagesAmt>47900</SocialSecurityWagesAmt>
+      <SocialSecurityTaxAmt>2970</SocialSecurityTaxAmt>
+      <MedicareWagesAndTipsAmt>47900</MedicareWagesAndTipsAmt>
+      <MedicareTaxWithheldAmt>695</MedicareTaxWithheldAmt>
+      <StandardOrNonStandardCd>S</StandardOrNonStandardCd>
+    </IRSW2>
+  </ReturnData>
+</Return>

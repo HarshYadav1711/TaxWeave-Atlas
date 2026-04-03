@@ -20,6 +20,14 @@ def templates_spec_dir() -> Path:
     return specs_dir() / "templates"
 
 
+def dataset_structure_blueprint_path() -> Path:
+    return specs_dir() / "dataset_structure_blueprint.yaml"
+
+
+def structure_blueprint_path() -> Path:
+    return specs_dir() / "dataset_structure_blueprint.yaml"
+
+
 def config_dir() -> Path:
     return project_root() / "config"
 

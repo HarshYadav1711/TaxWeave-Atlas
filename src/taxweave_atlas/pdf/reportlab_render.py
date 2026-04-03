@@ -107,3 +107,100 @@ def render_mapped_fields_pdf(*, title: str, subtitle: str, fields: dict[str, Any
     )
     doc.build(story)
     return buf.getvalue()
+
+
+def _append_table_block(
+    story: list[Any],
+    *,
+    title: str,
+    subtitle: str,
+    fields: dict[str, Any],
+    st: dict[str, ParagraphStyle],
+    include_footer_note: bool,
+) -> None:
+    story.append(Paragraph(_escape_xml(title), st["title"]))
+    story.append(Paragraph(f"<i>{_escape_xml(subtitle)}</i>", st["footer"]))
+    story.append(Spacer(1, 0.14 * inch))
+    data = [["Field", "Value"]]
+    for label, value in fields.items():
+        pretty_label = label.replace("_", " ").title()
+        data.append([pretty_label, _format_cell_value(value)])
+    table = Table(data, colWidths=[2.35 * inch, 4.25 * inch])
+    table.setStyle(
+        TableStyle(
+            [
+                ("BACKGROUND", (0, 0), (-1, 0), colors.HexColor("#e8eee8")),
+                ("TEXTCOLOR", (0, 0), (-1, 0), colors.HexColor("#1a2e1a")),
+                ("FONTNAME", (0, 0), (-1, 0), "Helvetica-Bold"),
+                ("FONTSIZE", (0, 0), (-1, 0), 10),
+                ("GRID", (0, 0), (-1, -1), 0.25, colors.HexColor("#cfd8cf")),
+                ("VALIGN", (0, 0), (-1, -1), "TOP"),
+                ("LEFTPADDING", (0, 0), (-1, -1), 6),
+                ("RIGHTPADDING", (0, 0), (-1, -1), 6),
+                ("TOPPADDING", (0, 0), (-1, -1), 5),
+                ("BOTTOMPADDING", (0, 0), (-1, -1), 5),
+            ]
+        )
+    )
+    story.append(table)
+    story.append(Spacer(1, 0.22 * inch))
+    if include_footer_note:
+        story.append(
+            Paragraph(
+                "<i>Synthetic data for testing and training only. Not for filing. "
+                "Fields are baked into the page (no fillable widgets).</i>",
+                st["footer"],
+            )
+        )
+
+
+def render_combined_federal_state_pdf(
+    *,
+    tax_year: int,
+    federal_title: str,
+    federal_subtitle: str,
+    federal_fields: dict[str, Any],
+    state_title: str,
+    state_subtitle: str,
+    state_fields: dict[str, Any],
+) -> bytes:
+    """Single PDF with federal then state field tables (matches one bundled return document slot)."""
+    buf = BytesIO()
+    doc = SimpleDocTemplate(
+        buf,
+        pagesize=LETTER,
+        leftMargin=0.72 * inch,
+        rightMargin=0.72 * inch,
+        topMargin=0.72 * inch,
+        bottomMargin=0.72 * inch,
+        title=f"Tax return TY {tax_year}"[:100],
+    )
+    st = _styles()
+    story: list[Any] = []
+    _append_table_block(
+        story,
+        title=federal_title,
+        subtitle=federal_subtitle,
+        fields=federal_fields,
+        st=st,
+        include_footer_note=False,
+    )
+    _append_table_block(
+        story,
+        title=state_title,
+        subtitle=state_subtitle,
+        fields=state_fields,
+        st=st,
+        include_footer_note=True,
+    )
+    doc.build(story)
+    return buf.getvalue()
+
+
+def render_minimal_invoice_pdf(*, tax_year: int, taxpayer_label: str) -> bytes:
+    """Placeholder invoice-shaped PDF for the Input Documents / Invoice slot."""
+    return render_mapped_fields_pdf(
+        title=f"Synthetic invoice summary — TY {tax_year}",
+        subtitle=f"Placeholder for {taxpayer_label} (not a real invoice)",
+        fields={"document_type": "invoice_placeholder", "tax_year": tax_year},
+    )

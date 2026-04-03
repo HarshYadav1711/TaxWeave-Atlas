@@ -43,4 +43,17 @@ def validate_specs_against_application_config() -> SyntheticTaxCase:
     if "status" not in fed or "status" not in st:
         raise ConfigurationError("tax_rules federal/state must declare a top-level status field")
 
+    import yaml
+
+    from taxweave_atlas.paths import specs_dir
+    from taxweave_atlas.structure.blueprint import load_structure_blueprint
+
+    load_structure_blueprint()
+    ref = specs_dir() / "reference_pack_contract.yaml"
+    if not ref.is_file():
+        raise ConfigurationError(f"Missing reference pack contract: {ref}")
+    ref_data = yaml.safe_load(ref.read_text(encoding="utf-8"))
+    if not isinstance(ref_data, dict) or "reference_root" not in ref_data:
+        raise ConfigurationError("reference_pack_contract.yaml must declare reference_root")
+
     return reconcile_case(case)

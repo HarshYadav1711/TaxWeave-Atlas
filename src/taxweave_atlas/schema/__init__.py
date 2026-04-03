@@ -1,4 +1,4 @@
-from taxweave_atlas.schema.case import SyntheticTaxCase
+from taxweave_atlas.schema.case import SyntheticTaxCase, TaxCase
 from taxweave_atlas.schema.credits import CreditsPacket
 from taxweave_atlas.schema.deductions import DeductionPacket
 from taxweave_atlas.schema.executive import ExecutiveSummary
@@ -21,6 +21,7 @@ __all__ = [
     "StateReturn",
     "SupportingDocumentsIndex",
     "SyntheticTaxCase",
+    "TaxCase",
     "TaxpayerProfile",
     "stream_seed",
 ]

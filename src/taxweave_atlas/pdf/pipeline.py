@@ -1,19 +1,18 @@
 """
-PDF bundle rendering: load field mappings from specs, draw with ReportLab, write checksum manifest.
+PDF / dataset file bundle: blueprint-aligned tree, checksum manifest, case load helpers.
 """
 
 from __future__ import annotations
 
-import hashlib
 import json
 from pathlib import Path
 
 from taxweave_atlas.exceptions import ConfigurationError, RendererError
-from taxweave_atlas.generation.uniqueness import case_fingerprint
-from taxweave_atlas.pdf.manifest import filter_deliverables, load_template_manifest
 from taxweave_atlas.pdf.mappings import load_pdf_mappings, materialize_mapping_document
-from taxweave_atlas.pdf.reportlab_render import render_mapped_fields_pdf
-from taxweave_atlas.reconciliation.checks import validate_reconciled_case
+from taxweave_atlas.pdf.reportlab_render import (
+    render_combined_federal_state_pdf,
+    render_mapped_fields_pdf,
+)
 from taxweave_atlas.schema.case import SyntheticTaxCase
 
 
@@ -53,65 +52,77 @@ def _renderer_meta(renderer_name: str) -> tuple[str, str]:
     return meta[renderer_name]
 
 
+def materialize_mapped_pdf_bytes(
+    case: SyntheticTaxCase,
+    *,
+    renderer_name: str,
+    mapping_document: str,
+) -> bytes:
+    """Render one mapping-backed PDF (used by the dataset structure layout)."""
+    mapping_docs = load_pdf_mappings()
+    if mapping_document not in mapping_docs:
+        raise ConfigurationError(f"Unknown mapping_document {mapping_document!r}")
+    case_dict = case.model_dump(mode="json")
+    title, subtitle = _renderer_meta(renderer_name)
+    fields = materialize_mapping_document(mapping_document, case_dict, documents=mapping_docs)
+    full_title = f"{title} — TY {case.tax_year}"
+    return render_mapped_fields_pdf(title=full_title, subtitle=subtitle, fields=fields)
+
+
+def materialize_combined_return_pdf_bytes(case: SyntheticTaxCase) -> bytes:
+    """Federal + state summaries in one PDF (complete-form slot)."""
+    mapping_docs = load_pdf_mappings()
+    case_dict = case.model_dump(mode="json")
+    federal_fields = materialize_mapping_document("federal_summary", case_dict, documents=mapping_docs)
+    state_fields = materialize_mapping_document("state_summary", case_dict, documents=mapping_docs)
+    ft, fs = _renderer_meta("federal_return")
+    st, ss = _renderer_meta("state_return")
+    return render_combined_federal_state_pdf(
+        tax_year=case.tax_year,
+        federal_title=f"{ft} — TY {case.tax_year}",
+        federal_subtitle=fs,
+        federal_fields=federal_fields,
+        state_title=f"{st} — TY {case.tax_year}",
+        state_subtitle=ss,
+        state_fields=state_fields,
+    )
+
+
 def render_dataset_pdf_bundle(
     case: SyntheticTaxCase,
     dataset_dir: Path,
     *,
     reconcile_first: bool = False,
+    dataset_index: int | None = None,
+    uniqueness_salt: int | None = None,
 ) -> Path:
     """
-    Write all PDF deliverables plus 00_dataset_files_manifest.json (checksums).
-    If reconcile_first is True, re-run reconciliation before rendering (e.g. older case.json).
+    Write the full sample-aligned folder tree and ``00_dataset_files_manifest.json`` (v2).
+
+    ``dataset_index`` / ``uniqueness_salt`` default from folder name and 0 when omitted
+    (use explicit values from batch generation for correct export tokens).
     """
-    if reconcile_first:
-        from taxweave_atlas.reconciliation.pipeline import reconcile_case
+    from taxweave_atlas.structure.blueprint import parse_dataset_slug_index
+    from taxweave_atlas.structure.layout import write_dataset_structure_bundle
 
-        case = reconcile_case(case)
-    else:
-        validate_reconciled_case(case)
-
-    manifest_root = load_template_manifest()
-    deliverables = filter_deliverables(manifest_root["deliverables"], case.model_dump(mode="json"))
-    mapping_docs = load_pdf_mappings()
-    for d in deliverables:
-        mk = d.get("mapping_document")
-        if mk not in mapping_docs:
-            raise ConfigurationError(
-                f"Deliverable {d.get('id')!r} mapping_document {mk!r} missing from mappings.yaml"
-            )
-
-    case_dict = case.model_dump(mode="json")
-    pdf_hashes: dict[str, str] = {}
-
-    for d in deliverables:
-        renderer = d["renderer"]
-        fname = d["filename"]
-        mdoc = d["mapping_document"]
-        title, subtitle = _renderer_meta(renderer)
-        fields = materialize_mapping_document(mdoc, case_dict, documents=mapping_docs)
-        full_title = f"{title} — TY {case.tax_year}"
-        try:
-            pdf_bytes = render_mapped_fields_pdf(title=full_title, subtitle=subtitle, fields=fields)
-        except Exception as e:
-            raise RendererError(f"PDF render failed for {fname}: {e}") from e
-        out_path = dataset_dir / fname
-        out_path.write_bytes(pdf_bytes)
-        pdf_hashes[fname] = hashlib.sha256(pdf_bytes).hexdigest()
-
-    case_payload = case.model_dump_json(exclude_computed_fields=True)
-    case_hash = hashlib.sha256(case_payload.encode("utf-8")).hexdigest()
-    fp = case_fingerprint(case)
-
-    sidecar = {
-        "format": "taxweave-atlas-dataset-files-v1",
-        "tax_year": case.tax_year,
-        "case_fingerprint": fp,
-        "case_json_sha256": case_hash,
-        "pdf_files_sha256": pdf_hashes,
-    }
-    manifest_path = dataset_dir / "00_dataset_files_manifest.json"
-    manifest_path.write_text(json.dumps(sidecar, indent=2) + "\n", encoding="utf-8")
-    return manifest_path
+    idx = (
+        dataset_index
+        if dataset_index is not None
+        else parse_dataset_slug_index(dataset_dir.name)
+    )
+    salt = 0 if uniqueness_salt is None else int(uniqueness_salt)
+    try:
+        return write_dataset_structure_bundle(
+            case,
+            dataset_dir,
+            dataset_index=idx,
+            uniqueness_salt=salt,
+            reconcile_first=reconcile_first,
+        )
+    except RendererError:
+        raise
+    except Exception as e:
+        raise RendererError(f"dataset structure render failed: {e}") from e
 
 
 def _parse_case_json_text(raw: str) -> SyntheticTaxCase:
@@ -124,10 +135,10 @@ def _parse_case_json_text(raw: str) -> SyntheticTaxCase:
 
 
 def render_pdfs_for_batch_output(batch_root: Path, *, reconcile_first: bool = False) -> int:
-    """
-    Render PDFs for every datasets/dataset_*/case.json under batch_root.
-    Returns count of dataset folders processed.
-    """
+    """Regenerate structure bundles for every ``datasets/dataset_*/case.json``."""
+    from taxweave_atlas.structure.blueprint import parse_dataset_slug_index
+    from taxweave_atlas.structure.validate import uniqueness_salt_for_slug
+
     datasets = batch_root / "datasets"
     if not datasets.is_dir():
         raise ConfigurationError(f"No datasets/ directory under {batch_root}")
@@ -136,7 +147,17 @@ def render_pdfs_for_batch_output(batch_root: Path, *, reconcile_first: bool = Fa
     for case_path in sorted(datasets.glob("dataset_*/case.json")):
         raw = case_path.read_text(encoding="utf-8")
         case = _parse_case_json_text(raw)
-        render_dataset_pdf_bundle(case, case_path.parent, reconcile_first=reconcile_first)
+        parent = case_path.parent
+        slug = parent.name
+        idx = parse_dataset_slug_index(slug)
+        salt = uniqueness_salt_for_slug(batch_root, slug)
+        render_dataset_pdf_bundle(
+            case,
+            parent,
+            reconcile_first=reconcile_first,
+            dataset_index=idx,
+            uniqueness_salt=salt,
+        )
         n += 1
     return n
 

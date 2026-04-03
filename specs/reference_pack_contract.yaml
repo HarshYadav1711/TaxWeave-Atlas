@@ -1,0 +1,60 @@
+# How generator output relates to the reference pack under dataset/ (structure + workflow only).
+# Content is always synthetic; this file documents alignment and known limits — not sample data.
+
+reference_root: dataset/
+
+workflow_mirror:
+  - id: client_summary
+    sample_segment: "1. Client Summary"
+    generator_artifact: Client Summary.docx
+    source: SyntheticTaxCase profile + executive/federal headline fields
+  - id: input_documents
+    sample_segment: "2. Input Documents"
+    generator_artifacts: category folders + Tax Document Attachments Summary.docx
+    source: SyntheticTaxCase income, supporting_documents reconciliation
+  - id: complete_form
+    sample_segment: "3. Complete form"
+    generator_artifacts:
+      - "{tax_year} Tax Return Documents (...).pdf"
+      - Completed forms - Summary.docx
+    source: SyntheticTaxCase federal + state mappings (single combined PDF)
+  - id: executive_summary
+    sample_segment: "4. Executive Summary"
+    generator_artifacts:
+      - "4. Summary_.docx"
+      - Executive Summary PDF
+    source: SyntheticTaxCase executive_summary mapping
+  - id: prompt
+    sample_segment: Prompt
+    generator_artifacts:
+      - Tax Return Data - Prompt.docx
+      - Tax Return Data - Prompt.xml
+    source: SyntheticTaxCase (XML uses MeF-shaped subset; see prompt_xml_scope)
+
+prompt_xml_scope:
+  sample_observed: IRS Modernized e-File style root Return/ReturnHeader/ReturnData with IRS1040 and multiple schedules.
+  generator_emits:
+    - Return root with returnVersion pattern "{tax_year}v5.0" (pattern only; not an IRS submission).
+    - ReturnHeader with TaxYr, period dates, Filer block from synthetic profile (SSN digits synthetic 900-xx-xxxx).
+    - IRS1040 with amounts taken from reconciled federal.lines where available.
+    - IRSW2-0 from synthetic Form W-2 on the case.
+    - IRS1040ScheduleB when interest or dividends non-zero (from federal lines).
+  explicit_omissions:
+    reason: "SyntheticTaxCase does not carry full MeF schedule line detail from the sample."
+    coverage_element: "TaxWeaveAtlasCoverage is a sibling of ReturnData under Return (not in IRS schema) listing synthetic subset scope."
+    schedules_not_synthesized:
+      - IRS1040Schedule2
+      - IRS1040ScheduleC
+      - IRS1040ScheduleSE
+      - IRS1040Schedule8812
+      - IRS8995
+      - IRS4562
+    note: "Aggregates that appear on IRS1040 in the sample may still appear on our IRS1040 when reconciliation provides them; we do not fabricate schedule XML for forms not modeled."
+
+ambiguous_or_unmodeled:
+  - item: Primary/spouse birth dates in ReturnHeader
+    resolution: Omitted (not in SyntheticTaxCase schema).
+  - item: PIN / signature fields in ReturnHeader
+    resolution: Omitted or synthetic placeholders marked non-filing in companion docx.
+  - item: Named dependents in XML
+    resolution: Omitted (schema stores counts, not enumerated dependent identities for MeF XML).

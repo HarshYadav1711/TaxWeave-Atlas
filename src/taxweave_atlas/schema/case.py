@@ -15,8 +15,10 @@ from taxweave_atlas.schema.supporting import SupportingDocumentsIndex
 
 class SyntheticTaxCase(BaseModel):
     """
-    Single aggregate for one synthetic taxpayer-year. All downstream PDFs and validators
-    should consume this shape (or projections of it).
+    **Canonical tax case** for one synthetic taxpayer-year: the single object from which
+    all dataset artifacts must derive (client summary, inputs, completed return, executive
+    summary, prompt XML/DOCX). Reconciliation fills federal, state, executive, and
+    supporting-document slices before packaging.
     """
 
     model_config = ConfigDict(extra="forbid")
@@ -31,3 +33,7 @@ class SyntheticTaxCase(BaseModel):
     federal: FederalReturn
     state: StateReturn
     executive_summary: ExecutiveSummary
+
+
+# Alias for documentation / external integrations (same model).
+TaxCase = SyntheticTaxCase

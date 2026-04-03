@@ -1,15 +1,15 @@
 """
 Post-generation checks for batch output trees.
 
-Validates reconciled numeric coherence, filesystem completeness, optional PDF checksums,
-fingerprint uniqueness, and (optionally) stratification against ``mix.yaml``.
+Validates reconciled numeric coherence, filesystem completeness, strict dataset **structure**
+from ``specs/dataset_structure_blueprint.yaml`` (manifest v2 + checksums), fingerprint uniqueness,
+and (optionally) stratification against ``mix.yaml``.
 Reports are written to ``manifests/delivery_validation_report.json`` and per-dataset
 ``01_delivery_audit.json`` when enabled.
 """
 
 from __future__ import annotations
 
-import hashlib
 import json
 import logging
 from collections import Counter
@@ -24,7 +24,6 @@ from taxweave_atlas.config_loader import load_generator_settings
 from taxweave_atlas.exceptions import ConfigurationError
 from taxweave_atlas.generation.uniqueness import case_fingerprint
 from taxweave_atlas.orchestration.manifest import BatchPlan
-from taxweave_atlas.pdf.manifest import filter_deliverables, load_template_manifest
 from taxweave_atlas.pdf.pipeline import _parse_case_json_text
 from taxweave_atlas.reconciliation.checks import validate_reconciled_case
 from taxweave_atlas.reconciliation.paths_util import resolve_dotted_path
@@ -85,12 +84,6 @@ class BatchValidationReport:
         )
 
 
-def _expected_pdf_filenames(case_dict: dict[str, Any]) -> list[str]:
-    root = load_template_manifest()
-    deliverables = filter_deliverables(root["deliverables"], case_dict)
-    return [str(d["filename"]) for d in deliverables]
-
-
 def _check_completeness(case: SyntheticTaxCase, rec: DatasetAuditRecord) -> None:
     data = case.model_dump(mode="json")
     for path in _COMPLETENESS_PATHS:
@@ -123,52 +116,46 @@ def _check_supporting_docs(case: SyntheticTaxCase, rec: DatasetAuditRecord) -> N
         rec.checks_passed.append("supporting_documents_shape")
 
 
-def _verify_pdf_bundle(folder: Path, case: SyntheticTaxCase, rec: DatasetAuditRecord) -> None:
+def _verify_structure_contract(
+    folder: Path,
+    case: SyntheticTaxCase,
+    rec: DatasetAuditRecord,
+    *,
+    batch_root: Path,
+    plan_by_slug: dict[str, Any],
+) -> None:
+    from taxweave_atlas.exceptions import ConfigurationError
+    from taxweave_atlas.structure.blueprint import parse_dataset_slug_index
+    from taxweave_atlas.structure.validate import (
+        load_manifest_dict,
+        uniqueness_salt_for_slug,
+        validate_dataset_structure,
+    )
+
     errs_before = len(rec.errors)
-    manifest_path = folder / "00_dataset_files_manifest.json"
-    if not manifest_path.is_file():
-        rec.errors.append("missing 00_dataset_files_manifest.json")
-        return
-
+    slug = folder.name
     try:
-        sidecar = json.loads(manifest_path.read_text(encoding="utf-8"))
-    except json.JSONDecodeError as e:
-        rec.errors.append(f"invalid 00_dataset_files_manifest.json: {e}")
+        idx = parse_dataset_slug_index(slug)
+    except ConfigurationError as e:
+        rec.errors.append(str(e))
         return
 
-    pdf_map = sidecar.get("pdf_files_sha256")
-    if not isinstance(pdf_map, dict):
-        rec.errors.append("manifest missing pdf_files_sha256 map")
+    salt = int(plan_by_slug[slug].uniqueness_salt) if slug in plan_by_slug else uniqueness_salt_for_slug(
+        batch_root, slug
+    )
+
+    man = load_manifest_dict(folder)
+    if man is None:
+        rec.errors.append("missing or unreadable 00_dataset_files_manifest.json")
         return
 
-    case_dict = case.model_dump(mode="json")
-    expected = _expected_pdf_filenames(case_dict)
-    actual_files = sorted(pdf_map.keys())
-
-    if sorted(expected) != actual_files:
-        rec.errors.append(
-            f"PDF set mismatch: expected {expected!r} manifest lists {actual_files!r}"
-        )
-
-    if len(pdf_map) != len(expected):
-        rec.errors.append(
-            f"document count: expected {len(expected)} PDFs, manifest has {len(pdf_map)}"
-        )
-
-    for fname, expected_hash in pdf_map.items():
-        fp = folder / str(fname)
-        if not fp.is_file():
-            rec.errors.append(f"missing PDF file {fname!r}")
-            continue
-        if not isinstance(expected_hash, str):
-            rec.errors.append(f"invalid checksum entry for {fname!r}")
-            continue
-        got = hashlib.sha256(fp.read_bytes()).hexdigest()
-        if got != expected_hash:
-            rec.errors.append(f"checksum mismatch for {fname!r}")
+    for msg in validate_dataset_structure(
+        folder, case, dataset_index=idx, uniqueness_salt=salt, manifest=man
+    ):
+        rec.errors.append(f"structure: {msg}")
 
     if len(rec.errors) == errs_before:
-        rec.checks_passed.append("output_integrity_pdfs")
+        rec.checks_passed.append("output_integrity_structure")
 
 
 def _verify_questionnaire_sidecar(folder: Path, case: SyntheticTaxCase, rec: DatasetAuditRecord) -> None:
@@ -305,8 +292,8 @@ def validate_batch_output(
     """
     Validate a generation output tree: ``datasets/dataset_XXXXX/`` plus optional ``manifests/batch_plan.json``.
 
-    Checks: duplicate fingerprints, field completeness, cross-form rules, optional PDF/manifest integrity,
-    questionnaire sidecar match, expected PDF count, and (warning or strict error) mix.yaml distribution.
+    Checks: duplicate fingerprints, field completeness, cross-form rules, blueprint structure + manifest,
+    questionnaire sidecar match, and (warning or strict error) mix.yaml distribution.
     """
     batch_root = batch_root.resolve()
     datasets_dir = batch_root / "datasets"
@@ -370,9 +357,11 @@ def validate_batch_output(
         _check_supporting_docs(case, rec)
         _verify_questionnaire_sidecar(folder, case, rec)
         if expect_pdfs:
-            _verify_pdf_bundle(folder, case, rec)
+            _verify_structure_contract(
+                folder, case, rec, batch_root=batch_root, plan_by_slug=plan_by_slug
+            )
         else:
-            rec.checks_passed.append("output_integrity_pdfs_skipped")
+            rec.checks_passed.append("output_integrity_structure_skipped")
 
         rec.ok = len(rec.errors) == 0
         if write_per_dataset_audit:
