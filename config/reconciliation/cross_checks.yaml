@@ -1,48 +1,113 @@
-# Post-reconciliation equality checks (paths relative to SyntheticTaxCase model_dump keys).
+# Post-reconciliation cross-document checks (paths = SyntheticTaxCase model_dump keys).
+# Optional left_document / right_document label PDF/XML roles in failure logs.
+# abs_tolerance: max |left - right| for numeric paths (default from tolerance.default_abs).
 version: 1
+
+tolerance:
+  # Integer currency units unless a rule overrides abs_tolerance.
+  default_abs: 0
+
 rules:
   - id: wages_match_w2_federal
-    description: "W-2 Box 1 wages must equal federal wages and questionnaire reported wages"
+    description: "W-2 Box 1 wages must equal Form 1040 wages line"
     left: income.wages
     right: federal.lines.wages
     op: eq
+    left_document: "Form W-2 (income.wages; supporting PDF mirrors this)"
+    right_document: "IRS Form 1040 wages (federal.lines.wages)"
+
   - id: wages_match_questionnaire
+    description: "Questionnaire reported wages must equal W-2 / 1040 wages"
     left: income.wages
     right: questionnaire.answers.q_wages_reported
     op: eq
+    left_document: "Form W-2 / 1040 wages (income.wages)"
+    right_document: "Intake questionnaire (q_wages_reported)"
+
   - id: interest_match_1099
+    description: "1099-INT box amount must equal income.interest"
     left: income.interest
     right: income.forms_1099_int.interest_reported
     op: eq
+    left_document: "Canonical interest (feeds 1040 / Schedule B)"
+    right_document: "Form 1099-INT (interest_reported)"
+
+  - id: interest_1099int_vs_schedule_b_mirror
+    description: "1099-INT total must equal Schedule B / 1040 taxable interest (same reconciled line)"
+    left: income.forms_1099_int.interest_reported
+    right: federal.lines.taxable_interest
+    op: eq
+    left_document: "Form 1099-INT (supporting PDF)"
+    right_document: "IRS1040 taxable interest & IRS1040ScheduleB totals (federal.lines.taxable_interest)"
+
   - id: interest_match_federal
+    description: "Income interest must equal 1040 / Schedule B line"
     left: income.interest
     right: federal.lines.taxable_interest
     op: eq
-  - id: dividends_match_federal
+    left_document: "Income / 1099-INT chain"
+    right_document: "Form 1040 & Schedule B interest (federal.lines.taxable_interest)"
+
+  - id: dividends_1099div_vs_schedule_b_mirror
+    description: "1099-DIV ordinary dividends must equal Schedule B / 1040 ordinary dividends line"
     left: income.dividends_ordinary
     right: federal.lines.ordinary_dividends
     op: eq
+    left_document: "Form 1099-DIV / income.dividends_ordinary (supporting PDF)"
+    right_document: "IRS1040 & IRS1040ScheduleB ordinary dividends (federal.lines.ordinary_dividends)"
+
   - id: withholding_match_federal
+    description: "Federal withholding on W-2 path must equal 1040 withholding line"
     left: income.federal_withholding
     right: federal.lines.federal_withholding
     op: eq
+    left_document: "Form W-2 / income.federal_withholding"
+    right_document: "Form 1040 withholding (federal.lines.federal_withholding)"
+
+  - id: withholding_exec_vs_federal
+    description: "Executive summary withholding must equal Form 1040 withholding"
+    left: federal.lines.federal_withholding
+    right: executive_summary.federal_withholding
+    op: eq
+    left_document: "Form 1040 (federal.lines.federal_withholding)"
+    right_document: "Executive summary PDF (executive_summary.federal_withholding)"
+
   - id: state_tax_match_exec
+    description: "State tax computed must match executive summary"
     left: state.tax_computed
     right: executive_summary.state_tax
     op: eq
+    left_document: "State return (state.tax_computed)"
+    right_document: "Executive summary PDF (executive_summary.state_tax)"
+
   - id: agi_match_summary
+    description: "Form 1040 AGI must match executive summary"
     left: federal.lines.agi
     right: executive_summary.agi
     op: eq
+    left_document: "Form 1040 AGI (federal.lines.agi)"
+    right_document: "Executive summary PDF (executive_summary.agi)"
+
   - id: taxable_income_match_summary
+    description: "Form 1040 taxable income must match executive summary"
     left: federal.lines.taxable_income
     right: executive_summary.taxable_income
     op: eq
+    left_document: "Form 1040 (federal.lines.taxable_income)"
+    right_document: "Executive summary PDF (executive_summary.taxable_income)"
+
   - id: total_tax_match_summary
+    description: "Form 1040 total tax must match executive summary"
     left: federal.lines.total_tax
     right: executive_summary.total_tax
     op: eq
+    left_document: "Form 1040 total tax (federal.lines.total_tax)"
+    right_document: "Executive summary PDF (executive_summary.total_tax)"
+
   - id: state_lines_tax_match
+    description: "State lines.state_tax must match state.tax_computed"
     left: state.tax_computed
     right: state.lines.state_tax
     op: eq
+    left_document: "State return (state.tax_computed)"
+    right_document: "State line summary (state.lines.state_tax)"

@@ -37,6 +37,7 @@ def load_reconciliation_bundle() -> dict[str, Any]:
         "scope": scope.get("scope") or {},
         "credit_application": credits.get("credit_application") or {},
         "cross_checks": checks.get("rules") or [],
+        "cross_check_tolerance": checks.get("tolerance") or {"default_abs": 0},
         "structural_mef": structural_mef,
         "computation": computation,
     }

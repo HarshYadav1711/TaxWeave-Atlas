@@ -58,7 +58,14 @@ def materialize_mapped_pdf_bytes(
     renderer_name: str,
     mapping_document: str,
 ) -> bytes:
-    """Render one mapping-backed PDF (used by the dataset structure layout)."""
+    """
+    Render one mapping-backed PDF (used by the dataset structure layout).
+
+    Callers must pass a **fully reconciled** ``SyntheticTaxCase`` (same object shape as after
+    ``reconcile_case``): field values are read directly from the case tree with no independent
+    tax math here. Typical call path is ``write_*_dataset_structure_bundle``, which runs
+    ``validate_reconciled_case`` before any PDF bytes are produced.
+    """
     mapping_docs = load_pdf_mappings()
     if mapping_document not in mapping_docs:
         raise ConfigurationError(f"Unknown mapping_document {mapping_document!r}")
@@ -70,7 +77,7 @@ def materialize_mapped_pdf_bytes(
 
 
 def materialize_combined_return_pdf_bytes(case: SyntheticTaxCase) -> bytes:
-    """Federal + state summaries in one PDF (complete-form slot)."""
+    """Federal + state summaries in one PDF (complete-form slot). Uses reconciled case fields only."""
     mapping_docs = load_pdf_mappings()
     case_dict = case.model_dump(mode="json")
     federal_fields = materialize_mapping_document("federal_summary", case_dict, documents=mapping_docs)

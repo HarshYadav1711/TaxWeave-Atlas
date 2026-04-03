@@ -13,7 +13,7 @@ Offline generator for **synthetic U.S. individual tax datasets**: JSON cases, re
 | **config** | `application.yaml` + `config/generator/*.yaml` + `config/reconciliation/` — explicit weights, bounds, and rule packs (no hidden defaults beyond these files). |
 | **schema** | **`SyntheticTaxCase`** (alias **`TaxCase`**) — single canonical object; every packaged artifact derives from it after reconciliation. |
 | **generation** | `build_synthetic_case`: deterministic RNG per `(master_seed, dataset_index, uniqueness_salt)` → source fields → **reconciliation**. |
-| **reconciliation** | `reconcile_case`: AGI, federal/state lines, executive summary, supporting-doc key amounts; YAML **cross-checks** at end. |
+| **reconciliation** | `reconcile_case`: AGI, federal/state lines, executive summary, supporting-doc key amounts; YAML **cross-checks** (tolerance in `config/reconciliation/cross_checks.yaml`) with **document-labeled** mismatch messages; Schedule C vs SE net; supporting PDFs vs 1040 / Schedule B mirrors. |
 | **pdf** | ReportLab-backed bytes; field materialization from `specs/sample_pack/mappings.yaml`. |
 | **structure** | `specs/dataset_structure_blueprint.yaml` + `specs/reference_pack_contract.yaml` — on-disk tree and workflow vs reference `dataset/` (structure only; all content synthetic). |
 | **delivery** | `validate_batch_output`: dedup, completeness, **staging + PDF-only export** contracts, mix vs `mix.yaml`. |

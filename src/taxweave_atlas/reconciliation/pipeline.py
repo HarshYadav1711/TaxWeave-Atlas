@@ -48,7 +48,11 @@ def reconcile_case(case: SyntheticTaxCase) -> SyntheticTaxCase:
     mef_spec = bundle["structural_mef"]
     structural = build_structural_mef_packet(out, mef_spec)
     out = out.model_copy(update={"structural_mef": structural})
-    run_cross_checks(out, bundle["cross_checks"])
+    run_cross_checks(
+        out,
+        bundle["cross_checks"],
+        bundle.get("cross_check_tolerance"),
+    )
     validate_structural_mef_coherence(out, mef_spec)
     validate_structural_mef_vs_complexity(out)
     return out
