@@ -29,7 +29,9 @@
       "itemized_deduction_elected": false,
       "has_self_employment_income": false,
       "has_retirement_distributions": false,
-      "extensions": {}
+      "extensions": {
+        "dataset_slug": "sample_pack_reference"
+      }
     }
   },
   "income": {

@@ -1,0 +1,20 @@
+# Deterministic non-IRS-exact credit stacking for synthetic coherence (documented).
+version: 1
+credit_application:
+  # Step 1: compute pre-credit income tax from taxable income using marginal_brackets (from generator computation.yaml).
+  pre_credit_field: pre_credit_income_tax
+
+  # Step 2: sum all credits marked refundable=false in the case; apply up to pre-credit tax.
+  nonrefundable:
+    aggregation: sum_of_amounts
+    applied_field: nonrefundable_credits_applied
+    cap: min_of_pre_credit_and_sum
+
+  # Step 3: subtract refundable credits from (pre_credit - nonrefundable_applied), floor at zero.
+  refundable:
+    aggregation: sum_of_amounts
+    applied_field: refundable_credits_applied
+    net_tax_floor: 0
+
+  # total_tax stored on federal.lines.total_tax equals final net income tax after steps 2–3.
+  result_field: total_tax

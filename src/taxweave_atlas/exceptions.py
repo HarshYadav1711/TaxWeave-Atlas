@@ -18,5 +18,9 @@ class ValidationError(TaxWeaveError):
     """Consistency or schema validation failed."""
 
 
+class ReconciliationError(TaxWeaveError):
+    """Reconciliation or cross-document numeric alignment failed."""
+
+
 class RendererError(TaxWeaveError):
     """PDF rendering failed."""

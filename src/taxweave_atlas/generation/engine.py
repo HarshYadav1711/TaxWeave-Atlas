@@ -1,12 +1,11 @@
 from __future__ import annotations
 
 import random
-from typing import Any
 
 from taxweave_atlas.config_loader import load_application_config, load_generator_settings
 from taxweave_atlas.exceptions import ConfigurationError
 from taxweave_atlas.generation.rng import randint_range, weighted_choice
-from taxweave_atlas.generation.validation import validate_generated_case
+from taxweave_atlas.generation.validation import validate_synthetic_source
 from taxweave_atlas.schema.case import SyntheticTaxCase
 from taxweave_atlas.schema.credits import CreditEntry, CreditsPacket
 from taxweave_atlas.schema.deductions import DeductionPacket
@@ -17,7 +16,7 @@ from taxweave_atlas.schema.ids import DatasetIdentity, stream_seed
 from taxweave_atlas.schema.profile import FilingStatus, MailingAddress, TaxpayerProfile
 from taxweave_atlas.schema.questionnaire import QuestionnaireAnswers, QuestionnairePacket
 from taxweave_atlas.schema.state import StateAdjustments, StateReturn, StateReturnLines
-from taxweave_atlas.schema.supporting import SupportingDocument, SupportingDocumentsIndex
+from taxweave_atlas.schema.supporting import SupportingDocumentsIndex
 
 
 def _format_ein(n: int) -> str:
@@ -32,51 +31,6 @@ def _synthetic_ssn(rng: random.Random, salt: int, idx: int, role: str) -> str:
     a = base % 100
     b = (base // 100) % 10_000
     return f"900-{a:02d}-{b:04d}"
-
-
-def _compute_progressive_tax(taxable: int, brackets: list[dict[str, Any]]) -> int:
-    if taxable <= 0:
-        return 0
-    tax_total = 0
-    prev_top = 0
-    remaining = taxable
-    for row in brackets:
-        upper = row.get("upper")
-        rate = float(row["rate"])
-        top = upper if upper is not None else None
-        if remaining <= 0:
-            break
-        if top is None:
-            width = remaining
-        else:
-            width = min(remaining, top - prev_top)
-        if width > 0:
-            tax_total += int(round(width * rate))
-            remaining -= width
-        prev_top = top if top is not None else prev_top
-    if remaining > 0 and brackets[-1].get("upper") is not None:
-        raise ConfigurationError("marginal_brackets did not exhaust taxable income")
-    return tax_total
-
-
-def _std_deduction(
-    comp: dict[str, Any], tax_year: int, filing_status: FilingStatus
-) -> int:
-    by_year = comp["standard_deduction_by_year"]
-    y = by_year.get(str(tax_year))
-    if not isinstance(y, dict):
-        raise ConfigurationError(f"No standard deduction table for year {tax_year}")
-    v = y.get(filing_status)
-    if not isinstance(v, int):
-        raise ConfigurationError(f"No standard deduction for {filing_status} in {tax_year}")
-    return int(v)
-
-
-def _state_rate(comp: dict[str, Any], code: str) -> float:
-    rates = comp["state_stub_rates"]
-    if code not in rates:
-        raise ConfigurationError(f"No state_stub_rates entry for {code}")
-    return float(rates[code])
 
 
 def build_synthetic_case(
@@ -297,64 +251,12 @@ def build_synthetic_case(
 
     credits_packet = CreditsPacket(credits=credits)
 
-    agi = wages + interest + dividends + sum(other.values()) + sum(passive.values())
-    std_amt = _std_deduction(comp, tax_year, fs)
-    itemized_sum = sum(itemized_components.values()) if itemized_components else 0
-    deduction_applied = max(std_amt, itemized_sum)
-    taxable_income = max(0, agi - deduction_applied)
-    brackets = comp["marginal_brackets"]
-    total_tax = _compute_progressive_tax(taxable_income, brackets)
-
-    federal = FederalReturn(
-        lines=FederalFormLines(
-            wages=wages,
-            taxable_interest=interest,
-            ordinary_dividends=dividends,
-            agi=agi,
-            standard_deduction=deduction_applied,
-            taxable_income=taxable_income,
-            total_tax=total_tax,
-            federal_withholding=federal_withholding,
-            additional_lines=(
-                {"statutory_standard_deduction": std_amt, "itemized_total": itemized_sum}
-                if itemized_elected
-                else {}
-            ),
-        )
-    )
-
     addn = 0
     subn = 0
     if cx == "moderately_complex" and rng.random() < 0.35:
         addn = rng.randint(0, 4_000)
     if rng.random() < 0.2:
         subn = rng.randint(0, 2_500)
-    state_taxable = max(0, agi + addn - subn)
-    rate = _state_rate(comp, state)
-    state_tax = int(round(state_taxable * rate))
-
-    st_ret = StateReturn(
-        code=state,
-        adjustments=StateAdjustments(additions=addn, subtractions=subn),
-        lines=StateReturnLines(
-            state_wages=wages,
-            additions=addn,
-            subtractions=subn,
-            state_taxable_income=state_taxable,
-            state_tax=state_tax,
-        ),
-        tax_computed=state_tax,
-    )
-
-    eff = round(total_tax / agi, 4) if agi > 0 else 0.0
-    executive = ExecutiveSummary(
-        agi=agi,
-        taxable_income=taxable_income,
-        total_tax=total_tax,
-        federal_withholding=federal_withholding,
-        state_tax=state_tax,
-        effective_rate_federal=eff,
-    )
 
     q_answers = QuestionnaireAnswers(
         q_wages_reported=wages,
@@ -370,36 +272,43 @@ def build_synthetic_case(
             "complexity_tier": cx,
             "stratum_state": state,
             "stratum_tax_year": str(tax_year),
+            "dataset_slug": identity.slug,
         },
     )
     questionnaire = QuestionnairePacket(answers=q_answers)
 
-    docs: list[SupportingDocument] = [
-        SupportingDocument(
-            kind="w2",
-            document_id=f"W2-{identity.slug}",
-            display_name="Synthetic Form W-2",
-            key_amounts={"wages": wages, "federal_withholding": federal_withholding},
-            key_strings={"employer_ein": ein},
-        ),
-        SupportingDocument(
-            kind="1099_int",
-            document_id=f"1099INT-{identity.slug}",
-            display_name="Synthetic Form 1099-INT",
-            key_amounts={"interest": interest},
-            key_strings={"payer_tin": payer_tin},
-        ),
-    ]
-    if dividends > 0:
-        docs.append(
-            SupportingDocument(
-                kind="1099_div",
-                document_id=f"1099DIV-{identity.slug}",
-                display_name="Synthetic Form 1099-DIV",
-                key_amounts={"ordinary_dividends": dividends},
-                key_strings={"payer_tin": payer_tin},
-            )
+    federal_ph = FederalReturn(
+        lines=FederalFormLines(
+            wages=wages,
+            taxable_interest=interest,
+            ordinary_dividends=dividends,
+            agi=0,
+            standard_deduction=0,
+            taxable_income=0,
+            total_tax=0,
+            federal_withholding=federal_withholding,
         )
+    )
+    st_ph = StateReturn(
+        code=state,
+        adjustments=StateAdjustments(additions=addn, subtractions=subn),
+        lines=StateReturnLines(
+            state_wages=wages,
+            additions=addn,
+            subtractions=subn,
+            state_taxable_income=0,
+            state_tax=0,
+        ),
+        tax_computed=0,
+    )
+    executive_ph = ExecutiveSummary(
+        agi=0,
+        taxable_income=0,
+        total_tax=0,
+        federal_withholding=federal_withholding,
+        state_tax=0,
+        effective_rate_federal=0.0,
+    )
 
     case = SyntheticTaxCase(
         tax_year=tax_year,
@@ -408,10 +317,12 @@ def build_synthetic_case(
         income=income,
         deductions=ded,
         credits=credits_packet,
-        supporting_documents=SupportingDocumentsIndex(documents=docs),
-        federal=federal,
-        state=st_ret,
-        executive_summary=executive,
+        supporting_documents=SupportingDocumentsIndex(documents=[]),
+        federal=federal_ph,
+        state=st_ph,
+        executive_summary=executive_ph,
     )
-    validate_generated_case(case)
-    return case
+    validate_synthetic_source(case)
+    from taxweave_atlas.reconciliation.pipeline import reconcile_case as _reconcile
+
+    return _reconcile(case)

@@ -5,13 +5,15 @@ from taxweave_atlas.schema.case import SyntheticTaxCase
 from taxweave_atlas.schema.profile import FilingStatus
 
 
-def validate_generated_case(case: SyntheticTaxCase) -> None:
-    """Reject impossible or internally contradictory synthetic profiles early."""
+def validate_synthetic_source(case: SyntheticTaxCase) -> None:
+    """
+    Validate profile, questionnaire, income sources, deductions, and credits intent.
+    Does not assert federal/state/executive totals — use reconciliation for that.
+    """
     p = case.profile
     q = case.questionnaire.answers
     inc = case.income
     ded = case.deductions
-    fl = case.federal.lines
 
     if inc.wages < 0 or inc.interest < 0 or inc.dividends_ordinary < 0:
         raise ValidationError("Income components cannot be negative")
@@ -79,37 +81,10 @@ def validate_generated_case(case: SyntheticTaxCase) -> None:
     if not q.has_retirement_distributions and inc.passive_income.get("retirement_distributions"):
         raise ValidationError("Retirement distributions present without questionnaire flag")
 
-    agi_expected = (
-        inc.wages
-        + inc.interest
-        + inc.dividends_ordinary
-        + sum(inc.other_ordinary_income.values())
-        + sum(inc.passive_income.values())
-    )
-    if fl.agi != agi_expected:
-        raise ValidationError(f"Federal AGI {fl.agi} inconsistent with income components ({agi_expected})")
 
-    if fl.wages != inc.wages:
-        raise ValidationError("Federal wages line must match income.wages")
+def validate_generated_case(case: SyntheticTaxCase) -> None:
+    """Validate source fields and reconciled cross-checks (case must already be reconciled)."""
+    from taxweave_atlas.reconciliation.checks import validate_reconciled_case
 
-    if fl.taxable_interest != inc.interest:
-        raise ValidationError("Federal interest must match income.interest")
-
-    if fl.ordinary_dividends != inc.dividends_ordinary:
-        raise ValidationError("Federal dividends must match income")
-
-    if fl.federal_withholding != inc.federal_withholding:
-        raise ValidationError("Federal withholding mismatch")
-
-    ex = case.executive_summary
-    if ex.agi != fl.agi or ex.taxable_income != fl.taxable_income or ex.total_tax != fl.total_tax:
-        raise ValidationError("Executive summary must match federal lines")
-
-    if ex.federal_withholding != fl.federal_withholding:
-        raise ValidationError("Executive withholding mismatch")
-
-    if ex.state_tax != case.state.tax_computed:
-        raise ValidationError("Executive state tax mismatch")
-
-    if case.state.tax_computed != case.state.lines.state_tax:
-        raise ValidationError("State tax_computed must equal lines.state_tax")
+    validate_synthetic_source(case)
+    validate_reconciled_case(case)

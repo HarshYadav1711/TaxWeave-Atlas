@@ -13,7 +13,8 @@ This stage defines repository boundaries, typed schemas, configuration placehold
 | `config/tax_rules/` | Explicit placeholders for federal/state rules (no guessed law) |
 | `src/taxweave_atlas/schema/` | Pydantic models: profile, income, deductions, credits, supporting docs, federal/state, executive summary |
 | `src/taxweave_atlas/generation/` | Stub — synthetic case factory (future) |
-| `src/taxweave_atlas/reconciliation/` | Stub — rule engine vs `SyntheticTaxCase` (future) |
+| `src/taxweave_atlas/reconciliation/` | Deterministic reconciliation: AGI, 1040-style lines, state stub tax, executive summary, supporting-doc key sync, YAML cross-checks |
+| `config/reconciliation/` | Scope, credit-stacking rules, cross-check rules (plus bracket/std tables from `config/generator/computation.yaml`) |
 | `src/taxweave_atlas/pdf/` | Stub — template fill / rendering (future) |
 | `src/taxweave_atlas/validation/` | Spec validation against `application.yaml` |
 | `src/taxweave_atlas/orchestration/` | Batch plan + manifests (deterministic ids/seeds only) |
@@ -43,6 +44,12 @@ python -m taxweave_atlas generate --output ./outputs/full
 Tune the dataset mix via `config/generator/mix.yaml` (state/year/complexity weights) and tier bounds via `config/generator/complexity.yaml`. Internal federal/state line math for coherence uses `config/generator/computation.yaml` (labeled synthetic, not filing advice).
 
 Reproducing a row: use `master_seed`, dataset `index`, and `uniqueness_salt` from `batch_plan.json` with `taxweave_atlas.generation.build_synthetic_case(..., salt=uniqueness_salt)`.
+
+## Reconciliation
+
+After the generator assembles profile, income, deductions, and credits, **`reconcile_case`** (`taxweave_atlas.reconciliation.pipeline`) recomputes federal lines, state lines, executive summary, and supporting-document `key_amounts` from explicit tables. Unsupported income keys or states/years outside `config/reconciliation/scope.yaml` raise **`ReconciliationError`**.
+
+Before PDF production, call **`validate_reconciled_case`** (or rely on `reconcile_case`, which runs cross-checks at the end) so mismatches fail loudly.
 
 ## Extending
 

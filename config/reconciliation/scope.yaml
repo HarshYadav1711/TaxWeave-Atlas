@@ -1,0 +1,54 @@
+# Declares what the reconciliation engine may process. Anything outside this set fails loudly.
+version: 1
+scope:
+  description: >
+    Supported synthetic scenarios for TaxWeave Atlas reconciliation v1.
+    Multi-state residency, part-year residency, K-1 passthrough, and multi-W-2 households
+    are explicitly unsupported.
+
+  supported_states:
+    - CA
+    - TX
+    - NY
+    - IL
+    - FL
+
+  supported_tax_years:
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+
+  # Keys allowed in IncomeSources.other_ordinary_income (must match generator).
+  supported_other_ordinary_income_keys:
+    - self_employment_net
+
+  supported_passive_income_keys:
+    - retirement_distributions
+
+  # AGI is the sum of these canonical line buckets in fixed order (deterministic).
+  agi_components:
+    - field: wages
+      source: income.wages
+    - field: taxable_interest
+      source: income.interest
+    - field: ordinary_dividends
+      source: income.dividends_ordinary
+    - field: self_employment_net
+      source: income.other_ordinary_income.self_employment_net
+      optional: true
+      default: 0
+    - field: retirement_distributions
+      source: income.passive_income.retirement_distributions
+      optional: true
+      default: 0
+
+  deduction_election:
+    # Deduction applied to reach taxable income: max(statutory_standard, schedule_a_total).
+    schedule_a_total_source: sum_of_deductions.itemized_components
+
+  state_taxable_income:
+    formula: agi_plus_state_adjustments
+    definition: agi + state.adjustments.additions - state.adjustments.subtractions

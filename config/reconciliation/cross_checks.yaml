@@ -1,0 +1,48 @@
+# Post-reconciliation equality checks (paths relative to SyntheticTaxCase model_dump keys).
+version: 1
+rules:
+  - id: wages_match_w2_federal
+    description: "W-2 Box 1 wages must equal federal wages and questionnaire reported wages"
+    left: income.wages
+    right: federal.lines.wages
+    op: eq
+  - id: wages_match_questionnaire
+    left: income.wages
+    right: questionnaire.answers.q_wages_reported
+    op: eq
+  - id: interest_match_1099
+    left: income.interest
+    right: income.forms_1099_int.interest_reported
+    op: eq
+  - id: interest_match_federal
+    left: income.interest
+    right: federal.lines.taxable_interest
+    op: eq
+  - id: dividends_match_federal
+    left: income.dividends_ordinary
+    right: federal.lines.ordinary_dividends
+    op: eq
+  - id: withholding_match_federal
+    left: income.federal_withholding
+    right: federal.lines.federal_withholding
+    op: eq
+  - id: state_tax_match_exec
+    left: state.tax_computed
+    right: executive_summary.state_tax
+    op: eq
+  - id: agi_match_summary
+    left: federal.lines.agi
+    right: executive_summary.agi
+    op: eq
+  - id: taxable_income_match_summary
+    left: federal.lines.taxable_income
+    right: executive_summary.taxable_income
+    op: eq
+  - id: total_tax_match_summary
+    left: federal.lines.total_tax
+    right: executive_summary.total_tax
+    op: eq
+  - id: state_lines_tax_match
+    left: state.tax_computed
+    right: state.lines.state_tax
+    op: eq

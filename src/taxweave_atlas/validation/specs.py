@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from taxweave_atlas.config_loader import load_application_config, load_tax_rule_placeholder
 from taxweave_atlas.exceptions import ConfigurationError
-from taxweave_atlas.generation.validation import validate_generated_case
+from taxweave_atlas.reconciliation.pipeline import reconcile_case
 from taxweave_atlas.paths import sample_pack_dir
 from taxweave_atlas.schema.case import SyntheticTaxCase
 
@@ -16,8 +16,8 @@ def load_sample_case() -> SyntheticTaxCase:
 
 def validate_specs_against_application_config() -> SyntheticTaxCase:
     """
-    Parse the bundled sample case and ensure its coarse attributes are declared
-    in application.yaml. Does not execute validation_rules.yaml (deferred).
+    Parse the bundled sample case, ensure application.yaml declares its year/state,
+    then run full reconciliation and cross-checks (same path as generated datasets).
     """
     case = load_sample_case()
     app = load_application_config()
@@ -44,5 +44,4 @@ def validate_specs_against_application_config() -> SyntheticTaxCase:
     if "status" not in fed or "status" not in st:
         raise ConfigurationError("tax_rules federal/state must declare a top-level status field")
 
-    validate_generated_case(case)
-    return case
+    return reconcile_case(case)
