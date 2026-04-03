@@ -6,7 +6,6 @@ from taxweave_atlas.structure.blueprint_compliance import (
     audit_staging_blueprint_compliance,
 )
 from taxweave_atlas.structure.layout import (
-    write_dataset_structure_bundle,
     write_export_pdf_bundle,
     write_staging_dataset_structure_bundle,
 )
@@ -19,7 +18,6 @@ __all__ = [
     "BlueprintComplianceReport",
     "audit_export_blueprint_compliance",
     "audit_staging_blueprint_compliance",
-    "write_dataset_structure_bundle",
     "write_export_pdf_bundle",
     "write_staging_dataset_structure_bundle",
     "validate_export_dataset_structure",

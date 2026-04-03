@@ -1,6 +1,7 @@
 """
-Write internal ``_staging/datasets/dataset_XXXXX/`` (JSON, DOCX, XLSX, XML, staging manifest),
-PDF-only ``datasets/dataset_XXXXX/`` + ``manifest.json``, and ``manifests/batch_plan.json``.
+Run a generation batch: each row is a reconciled ``SyntheticTaxCase`` written under
+``_staging/datasets/`` (full blueprint) and, unless disabled, PDF-only ``datasets/`` plus
+``manifests/batch_plan.json`` / ``batch_summary.json``.
 """
 
 from __future__ import annotations
@@ -119,7 +120,6 @@ def run_case_generation_batch(
                 uniqueness_salt=salt,
             )
 
-        log.debug("wrote %s fingerprint=%s", ident.slug, fp)
         interval = 50 if count >= 200 else (20 if count >= 50 else 5)
         if (i + 1) == 1 or (i + 1) == count or (i + 1) % interval == 0:
             log.info("progress: %d/%d (%s)", i + 1, count, ident.slug)

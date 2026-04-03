@@ -1,7 +1,7 @@
 """
-Command-line entrypoint for TaxWeave Atlas.
+Command-line entrypoint: generation, PDF export, spec gate, and batch validation.
 
-Commands are thin wrappers over library functions; logging uses the stdlib only.
+Logging uses the standard library; use ``-v`` for DEBUG-level root logging.
 """
 
 from __future__ import annotations

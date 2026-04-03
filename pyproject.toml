@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "taxweave-atlas"
 version = "0.1.0"
-description = "Offline synthetic US individual tax dataset generator with reconciliation, PDFs, and delivery validation"
+description = "Synthetic US individual tax datasets: deterministic TaxCase generation, reconciliation, PDF export, batch validation"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [

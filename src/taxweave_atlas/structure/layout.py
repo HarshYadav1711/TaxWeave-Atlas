@@ -314,22 +314,3 @@ def write_export_pdf_bundle(
     manifest_path = export_dir / EXPORT_MANIFEST_FILENAME
     manifest_path.write_text(json.dumps(sidecar, indent=2) + "\n", encoding="utf-8")
     return manifest_path
-
-
-def write_dataset_structure_bundle(
-    case: SyntheticTaxCase,
-    dataset_dir: Path,
-    *,
-    dataset_index: int,
-    uniqueness_salt: int,
-    reconcile_first: bool = False,
-) -> Path:
-    """Backward-compatible alias: writes **staging** bundle only (use with ``_staging`` paths)."""
-    return write_staging_dataset_structure_bundle(
-        case,
-        dataset_dir,
-        dataset_index=dataset_index,
-        uniqueness_salt=uniqueness_salt,
-        reconcile_first=reconcile_first,
-        clean_generated=True,
-    )

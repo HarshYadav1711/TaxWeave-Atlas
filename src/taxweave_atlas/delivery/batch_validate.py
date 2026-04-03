@@ -471,5 +471,4 @@ def validate_batch_output(
             encoding="utf-8",
         )
 
-    log.debug("%s", report.summary_line())
     return report

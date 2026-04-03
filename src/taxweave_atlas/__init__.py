@@ -1,7 +1,3 @@
-"""
-TaxWeave Atlas — offline synthetic U.S. individual income tax dataset generator.
-
-Public API is organized in subpackages: ``generation``, ``reconciliation``, ``pdf``, ``delivery``.
-"""
+"""Synthetic tax datasets: generate cases, reconcile, emit PDFs, validate batches."""
 
 __version__ = "0.1.0"
