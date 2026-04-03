@@ -31,6 +31,8 @@ def _run_generation(
     complexity: str | None,
     state: str | None,
     tax_year: int | None,
+    *,
+    write_pdfs: bool = True,
 ) -> None:
     from taxweave_atlas.generation.batch_runner import run_case_generation_batch
 
@@ -41,6 +43,7 @@ def _run_generation(
         complexity_override=complexity,
         state_override=state,
         tax_year_override=tax_year,
+        write_pdfs=write_pdfs,
     )
 
 
@@ -72,6 +75,12 @@ def _run_generation(
     default=False,
     help="Write batch_plan.json only (no synthetic cases)",
 )
+@click.option(
+    "--no-pdfs",
+    is_flag=True,
+    default=False,
+    help="Skip PDF bundle (case.json / questionnaire.json only)",
+)
 def cmd_pilot(
     count: int,
     seed: int,
@@ -80,6 +89,7 @@ def cmd_pilot(
     state: str | None,
     tax_year: int | None,
     plan_only: bool,
+    no_pdfs: bool,
 ) -> None:
     """Pilot batch: by default generates synthetic cases + questionnaires."""
     try:
@@ -87,7 +97,9 @@ def cmd_pilot(
             path = _run_plan_only(output, seed, count, complexity)
             click.echo(f"Wrote batch plan only ({count} slots) to {path}")
         else:
-            _run_generation(output, seed, count, complexity, state, tax_year)
+            _run_generation(
+                output, seed, count, complexity, state, tax_year, write_pdfs=not no_pdfs
+            )
             click.echo(f"Wrote {count} synthetic datasets under {output / 'datasets'}")
     except TaxWeaveError as e:
         raise SystemExit(f"error: {e}") from e
@@ -121,6 +133,12 @@ def cmd_pilot(
     default=False,
     help="Write batch_plan.json only (no synthetic cases)",
 )
+@click.option(
+    "--no-pdfs",
+    is_flag=True,
+    default=False,
+    help="Skip PDF bundle (case.json / questionnaire.json only)",
+)
 def cmd_generate(
     count: int,
     seed: int,
@@ -129,6 +147,7 @@ def cmd_generate(
     state: str | None,
     tax_year: int | None,
     plan_only: bool,
+    no_pdfs: bool,
 ) -> None:
     """Full batch: by default generates synthetic cases + questionnaires."""
     try:
@@ -136,7 +155,9 @@ def cmd_generate(
             path = _run_plan_only(output, seed, count, complexity)
             click.echo(f"Wrote batch plan only ({count} slots) to {path}")
         else:
-            _run_generation(output, seed, count, complexity, state, tax_year)
+            _run_generation(
+                output, seed, count, complexity, state, tax_year, write_pdfs=not no_pdfs
+            )
             click.echo(f"Wrote {count} synthetic datasets under {output / 'datasets'}")
     except TaxWeaveError as e:
         raise SystemExit(f"error: {e}") from e
@@ -152,6 +173,51 @@ def cmd_validate_specs() -> None:
     except TaxWeaveError as e:
         raise SystemExit(f"error: {e}") from e
     click.echo("specs OK")
+
+
+@main.command("render-pdfs")
+@click.argument(
+    "target",
+    type=click.Path(path_type=Path, exists=True),
+    required=True,
+)
+@click.option(
+    "--reconcile",
+    is_flag=True,
+    default=False,
+    help="Re-run reconciliation before rendering (use if case.json predates reconciliation fields)",
+)
+def cmd_render_pdfs(target: Path, reconcile: bool) -> None:
+    """Render PDFs for one dataset folder, one case.json file, or an entire batch output tree."""
+    from taxweave_atlas.pdf.pipeline import (
+        load_case_from_path,
+        render_dataset_pdf_bundle,
+        render_pdfs_for_batch_output,
+    )
+
+    try:
+        if target.is_file() and target.name == "case.json":
+            case = load_case_from_path(target)
+            render_dataset_pdf_bundle(case, target.parent, reconcile_first=reconcile)
+            click.echo(f"Rendered PDFs in {target.parent}")
+            return
+        case_path = target / "case.json"
+        if case_path.is_file():
+            case = load_case_from_path(case_path)
+            render_dataset_pdf_bundle(case, target, reconcile_first=reconcile)
+            click.echo(f"Rendered PDFs in {target}")
+            return
+        ds_root = target / "datasets"
+        if ds_root.is_dir():
+            n = render_pdfs_for_batch_output(target, reconcile_first=reconcile)
+            click.echo(f"Rendered PDFs for {n} dataset folders under {ds_root}")
+            return
+        raise SystemExit(
+            f"Expected target to be case.json, a dataset folder containing case.json, "
+            f"or a batch root with datasets/ — got {target}"
+        )
+    except TaxWeaveError as e:
+        raise SystemExit(f"error: {e}") from e
 
 
 if __name__ == "__main__":

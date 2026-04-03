@@ -28,6 +28,7 @@ def run_case_generation_batch(
     state_override: str | None = None,
     tax_year_override: int | None = None,
     max_uniqueness_attempts: int = 750,
+    write_pdfs: bool = True,
 ) -> GenerationBatchResult:
     """
     Generate unique SyntheticTaxCase JSON + questionnaire sidecars per dataset.
@@ -79,10 +80,18 @@ def run_case_generation_batch(
             )
 
         case_dir.mkdir(parents=True, exist_ok=False)
-        (case_dir / "case.json").write_text(case.model_dump_json(indent=2) + "\n", encoding="utf-8")
+        (case_dir / "case.json").write_text(
+            case.model_dump_json(indent=2, exclude_computed_fields=True) + "\n",
+            encoding="utf-8",
+        )
         (case_dir / "questionnaire.json").write_text(
             case.questionnaire.model_dump_json(indent=2) + "\n", encoding="utf-8"
         )
+
+        if write_pdfs:
+            from taxweave_atlas.pdf.pipeline import render_dataset_pdf_bundle
+
+            render_dataset_pdf_bundle(case, case_dir, reconcile_first=False)
 
         cx = case.questionnaire.answers.extensions.get("complexity_tier", complexity_label)
         dataset_plans.append(
@@ -105,8 +114,8 @@ def run_case_generation_batch(
         complexity_level=complexity_label,
         default_tax_year=default_year,
         note=(
-            "Synthetic taxpayer generation: case.json + questionnaire.json per dataset. "
-            "PDF rendering and full reconciliation are separate stages."
+            "Synthetic taxpayer generation with reconciliation and PDF bundle per dataset "
+            "(see 00_dataset_files_manifest.json and 01–06 PDFs)."
         ),
         datasets=dataset_plans,
     )

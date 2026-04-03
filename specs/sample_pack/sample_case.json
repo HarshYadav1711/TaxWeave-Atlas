@@ -79,7 +79,14 @@
       "taxable_income": 65670,
       "total_tax": 9500,
       "federal_withholding": 12400,
-      "additional_lines": {}
+      "additional_lines": {
+        "statutory_standard_deduction": 13850,
+        "schedule_a_total": 0,
+        "itemized_elected": 0,
+        "pre_credit_income_tax": 9500,
+        "nonrefundable_credits_applied": 0,
+        "refundable_credits_applied": 0
+      }
     }
   },
   "state": {

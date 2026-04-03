@@ -1,5 +1,5 @@
-# PDF field labels map to SyntheticTaxCase JSON paths (future renderers).
-version: 1
+# Field labels for PDF tables; values resolved from SyntheticTaxCase (reconciled).
+version: 2
 documents:
   questionnaire:
     tax_year: tax_year
@@ -14,10 +14,17 @@ documents:
     zip: profile.address.zip
     synthetic_ssn_primary: profile.synthetic_ssn_primary
     synthetic_ssn_spouse: profile.synthetic_ssn_spouse
+    dependents_qualifying_children_under_17: profile.dependents_qualifying_children_under_17
+    dependents_other: profile.dependents_other
     q_wages_reported: questionnaire.answers.q_wages_reported
     q_foreign_account: questionnaire.answers.q_foreign_account
     q_crypto: questionnaire.answers.q_crypto
     q_energy_credits: questionnaire.answers.q_energy_credits
+    num_qualifying_children_under_17: questionnaire.answers.num_qualifying_children_under_17
+    num_other_dependents: questionnaire.answers.num_other_dependents
+    itemized_deduction_elected: questionnaire.answers.itemized_deduction_elected
+    has_self_employment_income: questionnaire.answers.has_self_employment_income
+    has_retirement_distributions: questionnaire.answers.has_retirement_distributions
 
   supporting_w2:
     employer_name: income.w2.employer_name
@@ -39,6 +46,14 @@ documents:
     interest_reported: income.forms_1099_int.interest_reported
     tax_year: tax_year
 
+  supporting_1099_div:
+    payer_name: income.forms_1099_int.payer_name
+    payer_tin: income.forms_1099_int.payer_tin
+    recipient_name: income.forms_1099_int.recipient_name
+    recipient_tin: income.forms_1099_int.recipient_tin
+    ordinary_dividends: income.dividends_ordinary
+    tax_year: tax_year
+
   federal_summary:
     tax_year: tax_year
     primary_name: profile.primary_full_name
@@ -47,10 +62,16 @@ documents:
     taxable_interest: federal.lines.taxable_interest
     ordinary_dividends: federal.lines.ordinary_dividends
     agi: federal.lines.agi
-    standard_deduction: federal.lines.standard_deduction
+    standard_or_itemized_deduction: federal.lines.standard_deduction
     taxable_income: federal.lines.taxable_income
+    pre_credit_income_tax: federal.lines.additional_lines.pre_credit_income_tax
+    nonrefundable_credits_applied: federal.lines.additional_lines.nonrefundable_credits_applied
+    refundable_credits_applied: federal.lines.additional_lines.refundable_credits_applied
     total_tax: federal.lines.total_tax
     federal_withholding: federal.lines.federal_withholding
+    statutory_standard_deduction: federal.lines.additional_lines.statutory_standard_deduction
+    schedule_a_total: federal.lines.additional_lines.schedule_a_total
+    itemized_elected_flag: federal.lines.additional_lines.itemized_elected
 
   state_summary:
     tax_year: tax_year
