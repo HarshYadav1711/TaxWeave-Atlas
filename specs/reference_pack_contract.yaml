@@ -42,17 +42,19 @@ prompt_xml_scope:
     - IRS1040 with amounts taken from reconciled federal.lines where available.
     - IRSW2-0 from synthetic Form W-2 on the case.
     - IRS1040ScheduleB when interest or dividends non-zero (from federal lines).
+    - IRS1040ScheduleC and IRS1040ScheduleSE when income.other_ordinary_income.self_employment_net > 0 (net line only; see TaxWeaveAtlasCoverage).
+    - IRS1040Schedule8812 when profile has qualifying children under 17 and CTC_SYNTH/ACTC_SYNTH credits exist (amounts summed from credits packet; no IRS worksheet math).
   explicit_omissions:
-    reason: "SyntheticTaxCase does not carry full MeF schedule line detail from the sample."
-    coverage_element: "TaxWeaveAtlasCoverage is a sibling of ReturnData under Return (not in IRS schema) listing synthetic subset scope."
+    reason: "SyntheticTaxCase does not carry QBI, depreciation, Schedule 2 additional taxes, or full Schedule C expense lines."
+    coverage_element: "TaxWeaveAtlasCoverage is a sibling of ReturnData under Return (not in IRS schema) listing subset scope."
     schedules_not_synthesized:
       - IRS1040Schedule2
-      - IRS1040ScheduleC
-      - IRS1040ScheduleSE
-      - IRS1040Schedule8812
       - IRS8995
       - IRS4562
-    note: "Aggregates that appear on IRS1040 in the sample may still appear on our IRS1040 when reconciliation provides them; we do not fabricate schedule XML for forms not modeled."
+    schedules_partial_structural_only:
+      - IRS1040ScheduleC
+      - IRS1040ScheduleSE
+    note: "Schedule C/SE XML carries only path-mapped net self-employment from reconciliation config (structural_mef.yaml); SE tax and expense detail are not modeled. 8812 carries child count plus CTC/ACTC totals from the credits list — not full IRS Part I–II line replication."
 
 ambiguous_or_unmodeled:
   - item: Primary/spouse birth dates in ReturnHeader

@@ -15,6 +15,11 @@ from taxweave_atlas.reconciliation.compute import (
     compute_agi,
     sync_supporting_documents,
 )
+from taxweave_atlas.reconciliation.structural_mef_build import build_structural_mef_packet
+from taxweave_atlas.reconciliation.structural_mef_validate import (
+    validate_structural_mef_coherence,
+    validate_structural_mef_vs_complexity,
+)
 from taxweave_atlas.reconciliation.config import load_reconciliation_bundle
 from taxweave_atlas.schema.case import SyntheticTaxCase
 
@@ -40,5 +45,10 @@ def reconcile_case(case: SyntheticTaxCase) -> SyntheticTaxCase:
             "supporting_documents": supporting,
         }
     )
+    mef_spec = bundle["structural_mef"]
+    structural = build_structural_mef_packet(out, mef_spec)
+    out = out.model_copy(update={"structural_mef": structural})
     run_cross_checks(out, bundle["cross_checks"])
+    validate_structural_mef_coherence(out, mef_spec)
+    validate_structural_mef_vs_complexity(out)
     return out

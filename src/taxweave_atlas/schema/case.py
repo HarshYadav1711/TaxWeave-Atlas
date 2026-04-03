@@ -10,6 +10,7 @@ from taxweave_atlas.schema.income import IncomeSources
 from taxweave_atlas.schema.profile import TaxpayerProfile
 from taxweave_atlas.schema.questionnaire import QuestionnairePacket
 from taxweave_atlas.schema.state import StateReturn
+from taxweave_atlas.schema.structural_mef import StructuralMefPacket
 from taxweave_atlas.schema.supporting import SupportingDocumentsIndex
 
 
@@ -30,6 +31,7 @@ class SyntheticTaxCase(BaseModel):
     deductions: DeductionPacket = Field(default_factory=DeductionPacket)
     credits: CreditsPacket = Field(default_factory=CreditsPacket)
     supporting_documents: SupportingDocumentsIndex = Field(default_factory=SupportingDocumentsIndex)
+    structural_mef: StructuralMefPacket = Field(default_factory=StructuralMefPacket)
     federal: FederalReturn
     state: StateReturn
     executive_summary: ExecutiveSummary

@@ -60,6 +60,12 @@ def run_cross_checks(case: SyntheticTaxCase, rules: list[dict[str, Any]]) -> Non
 def validate_reconciled_case(case: SyntheticTaxCase) -> None:
     """Re-run cross-checks using packaged rules (e.g. after manual edits)."""
     from taxweave_atlas.reconciliation.config import load_reconciliation_bundle
+    from taxweave_atlas.reconciliation.structural_mef_validate import (
+        validate_structural_mef_coherence,
+        validate_structural_mef_vs_complexity,
+    )
 
     bundle = load_reconciliation_bundle()
     run_cross_checks(case, bundle["cross_checks"])
+    validate_structural_mef_coherence(case, bundle["structural_mef"])
+    validate_structural_mef_vs_complexity(case)

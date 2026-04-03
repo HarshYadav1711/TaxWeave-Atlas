@@ -1,0 +1,38 @@
+# Template-driven MeF-shaped schedule documents: applicability + dotted paths into SyntheticTaxCase.
+# No arithmetic here — only path binding. Reconciliation code resolves paths to ints.
+version: 1
+
+# Schedules still absent from synthetic cases (no schema lines / no QBI / no depreciation).
+fully_unmodeled_schedules:
+  - IRS1040Schedule2
+  - IRS8995
+  - IRS4562
+
+# Emitted with amounts copied from existing case fields only (see TaxWeaveAtlasCoverage partial note).
+schedule_c:
+  element_name: IRS1040ScheduleC
+  document_id: IRS1040ScheduleC-0
+  when_positive_path: income.other_ordinary_income.self_employment_net
+  fields:
+    NetProfitOrLossAmt: income.other_ordinary_income.self_employment_net
+
+schedule_se:
+  element_name: IRS1040ScheduleSE
+  document_id: IRS1040ScheduleSE-0
+  when_positive_path: income.other_ordinary_income.self_employment_net
+  fields:
+    NetEarningsSelfEmploymentAmt: income.other_ordinary_income.self_employment_net
+
+schedule_8812:
+  element_name: IRS1040Schedule8812
+  document_id: IRS1040Schedule8812-0
+  when_min_qualifying_children: 1
+  qualifying_children_path: profile.dependents_qualifying_children_under_17
+  nonrefundable_credit_codes:
+    - CTC_SYNTH
+  refundable_credit_codes:
+    - ACTC_SYNTH
+  xml_field_names:
+    child_count: QlfyChildUnderAgeSSNCnt
+    ctc_total: ChldTxCrdAmt
+    actc_total: RfdblChldTxCrdAmt

@@ -45,7 +45,7 @@ def validate_specs_against_application_config() -> SyntheticTaxCase:
 
     import yaml
 
-    from taxweave_atlas.paths import specs_dir
+    from taxweave_atlas.paths import project_root, specs_dir
     from taxweave_atlas.structure.blueprint import load_structure_blueprint
 
     load_structure_blueprint()
@@ -55,5 +55,12 @@ def validate_specs_against_application_config() -> SyntheticTaxCase:
     ref_data = yaml.safe_load(ref.read_text(encoding="utf-8"))
     if not isinstance(ref_data, dict) or "reference_root" not in ref_data:
         raise ConfigurationError("reference_pack_contract.yaml must declare reference_root")
+
+    smef = project_root() / "config" / "reconciliation" / "structural_mef.yaml"
+    if not smef.is_file():
+        raise ConfigurationError(f"Missing structural_mef config: {smef}")
+    sm = yaml.safe_load(smef.read_text(encoding="utf-8"))
+    if not isinstance(sm, dict) or sm.get("version") != 1:
+        raise ConfigurationError("config/reconciliation/structural_mef.yaml must be version 1 mapping")
 
     return reconcile_case(case)

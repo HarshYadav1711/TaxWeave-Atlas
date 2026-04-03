@@ -27,6 +27,7 @@ def load_reconciliation_bundle() -> dict[str, Any]:
     scope = _load("scope.yaml")
     credits = _load("credits.yaml")
     checks = _load("cross_checks.yaml")
+    structural_mef = _load("structural_mef.yaml")
     gen = load_generator_settings()
     computation = gen.get("computation")
     if not isinstance(computation, dict):
@@ -36,5 +37,6 @@ def load_reconciliation_bundle() -> dict[str, Any]:
         "scope": scope.get("scope") or {},
         "credit_application": credits.get("credit_application") or {},
         "cross_checks": checks.get("rules") or [],
+        "structural_mef": structural_mef,
         "computation": computation,
     }

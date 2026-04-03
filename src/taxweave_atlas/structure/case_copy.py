@@ -8,6 +8,7 @@ import re
 import xml.etree.ElementTree as ET
 from typing import Any
 
+from taxweave_atlas.reconciliation.config import load_reconciliation_bundle
 from taxweave_atlas.schema.case import SyntheticTaxCase
 
 _FS_TO_IRS1040: dict[str, str] = {
@@ -38,12 +39,16 @@ def _text_el(parent: ET.Element, tag: str, text: str | int | None) -> ET.Element
 def build_mef_subset_prompt_xml(case: SyntheticTaxCase) -> bytes:
     """
     MeF-**styled** Prompt XML: same outer grammar as the reference pack sample, populated only
-    from the reconciled case. See ``specs/reference_pack_contract.yaml`` for omissions.
+    from the reconciled case (including ``structural_mef`` schedule stubs). See
+    ``specs/reference_pack_contract.yaml`` for remaining omissions.
     """
     p = case.profile
     fl = case.federal.lines
     inc = case.income
     w2 = inc.w2
+    mef_cfg = load_reconciliation_bundle()["structural_mef"]
+    unmodeled = mef_cfg.get("fully_unmodeled_schedules") or []
+    unmodeled_txt = ",".join(str(x) for x in unmodeled)
 
     root = ET.Element("Return")
     root.set("returnVersion", f"{case.tax_year}v5.0")
@@ -81,11 +86,15 @@ def build_mef_subset_prompt_xml(case: SyntheticTaxCase) -> bytes:
 
     cov = ET.SubElement(root, "TaxWeaveAtlasCoverage")
     _text_el(cov, "SyntheticSubsetInd", "true")
+    _text_el(cov, "UnmodeledSchedulesTxt", unmodeled_txt)
     _text_el(
         cov,
-        "UnmodeledSchedulesTxt",
-        "IRS1040Schedule2,IRS1040ScheduleC,IRS1040ScheduleSE,IRS1040Schedule8812,IRS8995,IRS4562",
+        "PartialFieldSchedulesTxt",
+        "IRS1040ScheduleC,IRS1040ScheduleSE: net self-employment only (no expense detail or SE tax lines).",
     )
+    synth_names = [d.element_name for d in case.structural_mef.documents]
+    if synth_names:
+        _text_el(cov, "ReconciliationSynthesizedSchedulesTxt", ",".join(synth_names))
 
     rd = ET.SubElement(root, "ReturnData")
 
@@ -122,6 +131,12 @@ def build_mef_subset_prompt_xml(case: SyntheticTaxCase) -> bytes:
         _text_el(schb, "TotalInterestAmt", fl.taxable_interest)
         _text_el(schb, "OrdinaryDividendsAmt", fl.ordinary_dividends)
         _text_el(schb, "TotalOrdinaryDividendsAmt", fl.ordinary_dividends)
+
+    for sm in case.structural_mef.documents:
+        sub = ET.SubElement(rd, sm.element_name)
+        sub.set("documentId", sm.document_id)
+        for tag, val in sm.fields.items():
+            _text_el(sub, tag, val)
 
     rd.set("documentCnt", str(len(list(rd))))
 
