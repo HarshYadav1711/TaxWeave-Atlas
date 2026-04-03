@@ -37,7 +37,67 @@ def load_structure_blueprint() -> dict[str, Any]:
     segs = data.get("segments")
     if not isinstance(segs, list) or not segs:
         raise ConfigurationError("blueprint missing segments")
+    assert_blueprint_contract(data)
     return data
+
+
+def assert_blueprint_contract(bp: dict[str, Any]) -> None:
+    """
+    Load-time validation: ``dataset_structure_blueprint.yaml`` is a strict contract
+    (segment shape, flat leaf names, generators).
+    """
+    seen_ids: set[str] = set()
+    for seg in bp.get("segments") or []:
+        if not isinstance(seg, dict):
+            raise ConfigurationError("blueprint segment must be a mapping")
+        sid = seg.get("id")
+        if not isinstance(sid, str) or not sid.strip():
+            raise ConfigurationError("each segment must have non-empty string id")
+        if sid in seen_ids:
+            raise ConfigurationError(f"duplicate blueprint segment id {sid!r}")
+        seen_ids.add(sid)
+        for key in ("outer_template", "inner_template"):
+            v = seg.get(key)
+            if not isinstance(v, str) or not v.strip():
+                raise ConfigurationError(f"segment {sid!r} missing {key}")
+            if "\n" in v or "\r" in v:
+                raise ConfigurationError(f"segment {sid!r} {key} must be single-line")
+        for entry in seg.get("files") or []:
+            if not isinstance(entry, dict):
+                raise ConfigurationError(f"segment {sid!r} file entry must be a mapping")
+            rel = entry.get("relative")
+            gen = entry.get("generator")
+            if not isinstance(rel, str) or not rel.strip():
+                raise ConfigurationError(f"segment {sid!r} file.relative required")
+            if "/" in rel or "\\" in rel:
+                raise ConfigurationError(
+                    f"segment {sid!r} file.relative must be a flat basename, not a path: {rel!r}"
+                )
+            if not isinstance(gen, str) or not gen.strip():
+                raise ConfigurationError(f"segment {sid!r} file.generator required")
+        for cat in seg.get("categories") or []:
+            if not isinstance(cat, dict):
+                raise ConfigurationError(f"segment {sid!r} category must be a mapping")
+            folder = cat.get("folder")
+            if not isinstance(folder, str) or not folder.strip():
+                raise ConfigurationError(f"segment {sid!r} category.folder required")
+            if "/" in folder or "\\" in folder:
+                raise ConfigurationError(
+                    f"segment {sid!r} category.folder must be a single folder name: {folder!r}"
+                )
+            for entry in cat.get("files") or []:
+                if not isinstance(entry, dict):
+                    raise ConfigurationError(f"segment {sid!r} category file must be a mapping")
+                rel = entry.get("relative")
+                gen = entry.get("generator")
+                if not isinstance(rel, str) or not rel.strip():
+                    raise ConfigurationError(f"segment {sid!r} category file.relative required")
+                if "/" in rel or "\\" in rel:
+                    raise ConfigurationError(
+                        f"segment {sid!r} category file.relative must be flat basename: {rel!r}"
+                    )
+                if not isinstance(gen, str) or not gen.strip():
+                    raise ConfigurationError(f"segment {sid!r} category file.generator required")
 
 
 def build_layout_context(

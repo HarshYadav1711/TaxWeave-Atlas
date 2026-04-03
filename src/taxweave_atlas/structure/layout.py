@@ -237,6 +237,7 @@ def write_staging_dataset_structure_bundle(
             staging_dir, case, dataset_index=dataset_index, uniqueness_salt=uniqueness_salt
         )
 
+    # ``files_sha256`` insertion order must match ``specs`` (blueprint contract; validated on delivery).
     files_sha256 = _materialize_specs(staging_dir, case, specs)
 
     case_payload = case.model_dump_json(exclude_computed_fields=True)
@@ -293,6 +294,7 @@ def write_export_pdf_bundle(
         if not str(rel).lower().endswith(".pdf"):
             raise RendererError(f"export contract must be PDF-only, got {rel!r}")
 
+    # Key order matches ``iter_export_layout_file_specs`` (enforced at validate-batch).
     files_sha256 = _materialize_specs(export_dir, case, specs)
 
     case_payload = case.model_dump_json(exclude_computed_fields=True)

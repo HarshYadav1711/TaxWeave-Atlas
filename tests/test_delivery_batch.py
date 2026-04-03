@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import json
 from pathlib import Path
 
 from taxweave_atlas.delivery.batch_validate import validate_batch_output
@@ -36,7 +37,15 @@ def test_small_batch_passes_delivery_validation(tmp_path: Path) -> None:
     assert (first_staging / "case.json").is_file()
     assert (first_export / "manifest.json").is_file()
     _assert_export_pdf_only(first_export)
-    assert (out / "manifests" / "delivery_audits" / f"{first_staging.name}.json").is_file()
+    audit_path = out / "manifests" / "delivery_audits" / f"{first_staging.name}.json"
+    assert audit_path.is_file()
+    audit = json.loads(audit_path.read_text(encoding="utf-8"))
+    st = audit.get("blueprint_compliance", {}).get("staging", {})
+    ex = audit.get("blueprint_compliance", {}).get("export", {})
+    assert st.get("score_percent") == 100.0
+    assert st.get("full_compliance") is True
+    assert ex.get("score_percent") == 100.0
+    assert ex.get("full_compliance") is True
     assert (out / "manifests" / "delivery_validation_report.json").is_file()
 
 

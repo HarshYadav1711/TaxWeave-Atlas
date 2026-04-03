@@ -121,7 +121,7 @@ Prompt XML is a **synthetic subset** in the sample’s outer MeF style; schedule
 
 - **Spec gate**: `validate-specs` before trusting generator config changes.
 - **Per case**: reconciliation cross-checks are defined in `config/reconciliation/` (not buried in code).
-- **Per batch**: `validate-batch` reports duplicates, required fields, questionnaire match, **staging structure + manifest v2**, **export PDF-only contract** (any non-PDF under `datasets/` fails), **`manifest.json`** checksums, and optional stratification drift vs `config/generator/mix.yaml`.
+- **Per batch**: `validate-batch` reports duplicates, required fields, questionnaire match, **strict blueprint contract** (`specs/dataset_structure_blueprint.yaml`: folder hierarchy, inner folder names, required documents, naming rules, **manifest `files_sha256` key order** vs blueprint iteration order), **100% blueprint compliance score** per staging/export tree in `manifests/delivery_audits/*.json`, PDF-only export checks, and optional mix drift vs `config/generator/mix.yaml`.
 
 ---
 

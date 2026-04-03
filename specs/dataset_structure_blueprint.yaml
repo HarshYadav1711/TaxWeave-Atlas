@@ -1,5 +1,8 @@
 # Structural contract inferred from repository dataset/ (folder names, ordering, roles).
 # Staging (_staging/datasets/...) holds full internal artifacts; export (datasets/...) is PDF-only + manifest.json.
+#
+# CONTRACT (strict): delivery validation scores blueprint compliance per tree; 100% is required
+# for success. Manifest ``files_sha256`` key order must match blueprint iteration order exactly.
 version: 1
 
 export_token:

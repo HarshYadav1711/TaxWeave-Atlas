@@ -63,6 +63,7 @@ class DatasetAuditRecord:
     errors: list[str] = field(default_factory=list)
     warnings: list[str] = field(default_factory=list)
     checks_passed: list[str] = field(default_factory=list)
+    blueprint_compliance: dict[str, Any] = field(default_factory=dict)
 
 
 @dataclass
@@ -127,12 +128,14 @@ def _verify_structure_contract(
     plan_by_slug: dict[str, Any],
 ) -> None:
     from taxweave_atlas.structure.blueprint import parse_dataset_slug_index
+    from taxweave_atlas.structure.blueprint_compliance import (
+        audit_export_blueprint_compliance,
+        audit_staging_blueprint_compliance,
+    )
     from taxweave_atlas.structure.validate import (
         load_export_manifest_dict,
         load_staging_manifest_dict,
         uniqueness_salt_for_slug,
-        validate_export_dataset_structure,
-        validate_staging_dataset_structure,
     )
 
     errs_before = len(rec.errors)
@@ -152,10 +155,14 @@ def _verify_structure_contract(
         rec.errors.append("missing or unreadable staging 00_dataset_files_manifest.json")
         return
 
-    for msg in validate_staging_dataset_structure(
+    st_rep = audit_staging_blueprint_compliance(
         staging_folder, case, dataset_index=idx, uniqueness_salt=salt, manifest=man_staging
-    ):
-        rec.errors.append(f"staging: {msg}")
+    )
+    rec.blueprint_compliance["staging"] = st_rep.to_audit_dict()
+    for msg in st_rep.failure_messages():
+        rec.errors.append(msg)
+    if st_rep.is_full_compliance:
+        rec.checks_passed.append("blueprint_staging_100")
 
     if not export_folder.is_dir():
         rec.errors.append(f"missing export folder {export_folder}")
@@ -164,10 +171,14 @@ def _verify_structure_contract(
         if man_export is None:
             rec.errors.append("missing or unreadable export manifest.json")
         else:
-            for msg in validate_export_dataset_structure(
+            ex_rep = audit_export_blueprint_compliance(
                 export_folder, case, dataset_index=idx, uniqueness_salt=salt, manifest=man_export
-            ):
-                rec.errors.append(f"export: {msg}")
+            )
+            rec.blueprint_compliance["export"] = ex_rep.to_audit_dict()
+            for msg in ex_rep.failure_messages():
+                rec.errors.append(msg)
+            if ex_rep.is_full_compliance:
+                rec.checks_passed.append("blueprint_export_100")
 
     if len(rec.errors) == errs_before:
         rec.checks_passed.append("output_integrity_structure")
@@ -214,6 +225,7 @@ def _write_dataset_audit(
         "checks_passed": rec.checks_passed,
         "errors": rec.errors,
         "warnings": rec.warnings,
+        "blueprint_compliance": rec.blueprint_compliance,
     }
     audit_dir = batch_root / "manifests" / "delivery_audits"
     audit_dir.mkdir(parents=True, exist_ok=True)
@@ -449,6 +461,7 @@ def validate_batch_output(
                     "errors": r.errors,
                     "warnings": r.warnings,
                     "checks_passed": r.checks_passed,
+                    "blueprint_compliance": r.blueprint_compliance,
                 }
                 for slug, r in sorted(per_dataset.items())
             },
