@@ -1,0 +1,61 @@
+{
+  "version": "1",
+  "stage": "synthetic_generation_v1",
+  "master_seed": 1,
+  "count": 5,
+  "complexity_level": "easy",
+  "default_tax_year": 2023,
+  "note": "Synthetic taxpayer generation: case.json + questionnaire.json per dataset. PDF rendering and full reconciliation are separate stages.",
+  "datasets": [
+    {
+      "index": 0,
+      "slug": "dataset_00001",
+      "stream_seed": 5942101179225861032,
+      "tax_year": 2022,
+      "state_code": "NY",
+      "complexity_tier": "easy",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "b0e3d6b042fb63b01cac962ec28a8a7311d71e6d5c18b6b7ccb9348f9f032538"
+    },
+    {
+      "index": 1,
+      "slug": "dataset_00002",
+      "stream_seed": 10462056914367258650,
+      "tax_year": 2020,
+      "state_code": "IL",
+      "complexity_tier": "moderately_complex",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "6a28e69902da354124ec093daa12a4dec77d2dfa9706746d4ea85903505e6cd0"
+    },
+    {
+      "index": 2,
+      "slug": "dataset_00003",
+      "stream_seed": 16030517347320182053,
+      "tax_year": 2025,
+      "state_code": "FL",
+      "complexity_tier": "moderately_complex",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "1114535aec5ffa5ae1447375159e05b9541ada7d691ddede392acbe23ec2a31b"
+    },
+    {
+      "index": 3,
+      "slug": "dataset_00004",
+      "stream_seed": 15953564665722927302,
+      "tax_year": 2024,
+      "state_code": "CA",
+      "complexity_tier": "easy",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "7500cc8d682b0f13dc430a0f6f980b615498034d27f398bf08c5c23da481be26"
+    },
+    {
+      "index": 4,
+      "slug": "dataset_00005",
+      "stream_seed": 1148381288210942452,
+      "tax_year": 2021,
+      "state_code": "FL",
+      "complexity_tier": "easy",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "d39ab3a4122cd832c23c87fbb738aff578f5b8a5ff30664a8d49e1bb7926c372"
+    }
+  ]
+}

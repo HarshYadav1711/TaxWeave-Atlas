@@ -1,0 +1,25 @@
+{
+  "format": "taxweave-atlas-dataset-files-v2",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-00018-000",
+  "tax_year": 2023,
+  "case_fingerprint": "970faf222c5fac23c0ba467a142331a048ce228fdcb81b6345c1e207310791f3",
+  "case_json_sha256": "0d4b4b5bc3de9ec493d4fc769852a83422e00e2a08816ab18b3a055ea4ec3e3f",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-00018-000/1. Client Summary/Client Summary.docx": "27a8cbc46c4d6a4e6db008e4421b4679e13f86abfcf21f7f2b0776ae339dc0a7",
+    "2. Input Documents-20230101T000000Z-00018-000/2. Input Documents/Tax Document Attachments Summary.docx": "ce359207ef9f723ba26bec92a85f5e9248eea2c3d9165d96bbb8f1bfc516b158",
+    "2. Input Documents-20230101T000000Z-00018-000/2. Input Documents/1099- DIV/1099-DIV NAVARRO.pdf": "2329e6cf1c1959fd7f93f588e7f54cde4061c97e932ba33daa5fbef932d77b2a",
+    "2. Input Documents-20230101T000000Z-00018-000/2. Input Documents/1099-INT/1099-INT NAVARRO.pdf": "848f752081143e19918a9cf769382a2955ecebe1223124cbe043cd49bb199317",
+    "2. Input Documents-20230101T000000Z-00018-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.xlsx": "0f8ddd07e52d874522b3c5ef7b9198e8f8aba0ebee302825a88a39ff5c807b75",
+    "2. Input Documents-20230101T000000Z-00018-000/2. Input Documents/Form W-2/Form W-2.pdf": "6ef14b39df1bc6c1fda92f1c3e3fcac07061bb7bc629a95f08c43d74169c18f3",
+    "2. Input Documents-20230101T000000Z-00018-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "824cf10786766ae1cdd2e1593d2084aa5eef6844cb7569a6157921e7f603f7f9",
+    "2. Input Documents-20230101T000000Z-00018-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.xlsx": "0f8ddd07e52d874522b3c5ef7b9198e8f8aba0ebee302825a88a39ff5c807b75",
+    "3. Complete form-20230101T000000Z-00018-000/3. Complete form/2023 Tax Return Documents (Morgan Navarro (synthetic)).pdf": "30db598c29bfe89f6b3d24bbf4d0d2d7e9f76b8f540a58369c49cec1fc99c821",
+    "3. Complete form-20230101T000000Z-00018-000/3. Complete form/Completed forms - Summary.docx": "d90b15d69383f52144a24cbfeec7f7c23ea8bb123ec697e0046718d198874360",
+    "4. Executive Summary-20230101T000000Z-00018-000/4. Executive Summary/4. Summary_.docx": "4aaffd6e3ce1b2ea22b3574e8c8883c5431e44fbe30e3ea5b2c481a5e28a1b5c",
+    "4. Executive Summary-20230101T000000Z-00018-000/4. Executive Summary/Executive Summary Morgan Navarro 2023.pdf": "415c5904a1414988154d00a449715b3fabaee2e12948d306c60b3c0cc2812c92",
+    "Prompt-20230101T000000Z-00018-000/Prompt/Tax Return Data - Prompt.docx": "be6252deeb6d740e2114d912a1ded27bec606a7dd500c35384ba2fa214974509",
+    "Prompt-20230101T000000Z-00018-000/Prompt/Tax Return Data - Prompt.xml": "9038aae8a01f5ad6b9d3a12188caf378051c0bcc1a0a2f758ef5313ab314673b"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

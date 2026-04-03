@@ -1,0 +1,84 @@
+{
+  "tax_year": 2023,
+  "profile": {
+    "primary_first_name": "Rowan",
+    "primary_last_name": "Foster",
+    "spouse_first_name": null,
+    "spouse_last_name": null,
+    "filing_status": "head_of_household",
+    "taxpayer_label": "Rowan Foster (synthetic)",
+    "synthetic_ssn_primary": "900-38-1116",
+    "synthetic_ssn_spouse": null,
+    "address": {
+      "line1": "415 Birch Rd",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "78701"
+    },
+    "primary_full_name": "Rowan Foster"
+  },
+  "questionnaire": {
+    "answers": {
+      "q_wages_reported": 60086,
+      "q_foreign_account": false,
+      "q_crypto": false,
+      "q_energy_credits": false
+    }
+  },
+  "income": {
+    "wages": 60086,
+    "interest": 1903,
+    "dividends_ordinary": 0,
+    "federal_withholding": 5767,
+    "w2": {
+      "employer_name": "Atlas Demo Manufacturing Inc",
+      "employer_ein": "06-8007951",
+      "employee_name": "Rowan Foster",
+      "employee_ssn": "900-38-1116",
+      "social_security_wages": 60086,
+      "medicare_wages": 60086
+    },
+    "forms_1099_int": {
+      "payer_name": "Synthetic Interest Payer NA",
+      "payer_tin": "06-8022612",
+      "recipient_name": "Rowan Foster",
+      "recipient_tin": "900-38-1116",
+      "interest_reported": 1903
+    }
+  },
+  "federal": {
+    "lines": {
+      "wages": 60086,
+      "taxable_interest": 1903,
+      "ordinary_dividends": 0,
+      "agi": 61989,
+      "standard_deduction": 20800,
+      "taxable_income": 41189,
+      "total_tax": 4711,
+      "federal_withholding": 5767
+    }
+  },
+  "state": {
+    "code": "TX",
+    "adjustments": {
+      "additions": 0,
+      "subtractions": 0
+    },
+    "lines": {
+      "state_wages": 60086,
+      "additions": 0,
+      "subtractions": 0,
+      "state_taxable_income": 61989,
+      "state_tax": 0
+    },
+    "tax_computed": 0
+  },
+  "executive_summary": {
+    "agi": 61989,
+    "taxable_income": 41189,
+    "total_tax": 4711,
+    "federal_withholding": 5767,
+    "state_tax": 0,
+    "effective_rate_federal": 0.076
+  }
+}

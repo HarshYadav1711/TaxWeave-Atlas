@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>900770600</PrimarySSN>
+      <NameLine1Txt>Finley Keller</NameLine1Txt>
+      <PrimaryNameControlTxt>KELL</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1400 Pecan Blvd</AddressLine1Txt>
+        <CityNm>Houston</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77002</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <TaxWeaveAtlasCoverage>
+    <SyntheticSubsetInd>true</SyntheticSubsetInd>
+    <UnmodeledSchedulesTxt>IRS1040Schedule2,IRS1040ScheduleC,IRS1040ScheduleSE,IRS1040Schedule8812,IRS8995,IRS4562</UnmodeledSchedulesTxt>
+  </TaxWeaveAtlasCoverage>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>4</IndividualReturnFilingStatusCd>
+      <WagesAmt>43597</WagesAmt>
+      <TaxableInterestAmt>1556</TaxableInterestAmt>
+      <OrdinaryDividendsAmt>6873</OrdinaryDividendsAmt>
+      <AdjustedGrossIncomeAmt>112051</AdjustedGrossIncomeAmt>
+      <TaxableIncomeAmt>91251</TaxableIncomeAmt>
+      <TotalTaxAmt>12747</TotalTaxAmt>
+      <WithholdingTaxAmt>5658</WithholdingTaxAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>900770600</EmployeeSSN>
+      <EmployerEIN>007021061</EmployerEIN>
+      <EmployerName>
+        <BusinessNameLine1Txt>Pioneer Stub Data Corp</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployeeNm>Finley Keller</EmployeeNm>
+      <WagesAmt>43597</WagesAmt>
+      <WithholdingAmt>5658</WithholdingAmt>
+      <SocialSecurityWagesAmt>43597</SocialSecurityWagesAmt>
+      <MedicareWagesAndTipsAmt>43597</MedicareWagesAndTipsAmt>
+    </IRSW2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1556</InterestAmt>
+      <TotalInterestAmt>1556</TotalInterestAmt>
+      <OrdinaryDividendsAmt>6873</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>6873</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+  </ReturnData>
+</Return>

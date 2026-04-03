@@ -1,0 +1,145 @@
+{
+  "tax_year": 2021,
+  "profile": {
+    "primary_first_name": "Skyler",
+    "primary_last_name": "Patel",
+    "spouse_first_name": null,
+    "spouse_last_name": null,
+    "filing_status": "single",
+    "taxpayer_label": "Skyler Patel (synthetic)",
+    "synthetic_ssn_primary": "900-63-2353",
+    "synthetic_ssn_spouse": null,
+    "address": {
+      "line1": "220 Cedar Ave",
+      "line2": null,
+      "city": "Fresno",
+      "state": "CA",
+      "zip": "93721"
+    },
+    "dependents_qualifying_children_under_17": 1,
+    "dependents_other": 0,
+    "primary_full_name": "Skyler Patel"
+  },
+  "questionnaire": {
+    "answers": {
+      "q_wages_reported": 61827,
+      "q_foreign_account": false,
+      "q_crypto": false,
+      "q_energy_credits": false,
+      "num_qualifying_children_under_17": 1,
+      "num_other_dependents": 0,
+      "itemized_deduction_elected": false,
+      "has_self_employment_income": false,
+      "has_retirement_distributions": false,
+      "extensions": {
+        "complexity_tier": "easy",
+        "stratum_state": "CA",
+        "stratum_tax_year": "2021"
+      }
+    }
+  },
+  "income": {
+    "wages": 61827,
+    "interest": 0,
+    "dividends_ordinary": 0,
+    "federal_withholding": 10238,
+    "w2": {
+      "employer_name": "Northwind Synthetic Payroll LLC",
+      "employer_ein": "05-5047090",
+      "employee_name": "Skyler Patel",
+      "employee_ssn": "900-63-2353",
+      "social_security_wages": 61827,
+      "medicare_wages": 61827
+    },
+    "forms_1099_int": {
+      "payer_name": "Metroline Treasury Services LLC",
+      "payer_tin": "05-5031766",
+      "recipient_name": "Skyler Patel",
+      "recipient_tin": "900-63-2353",
+      "interest_reported": 0
+    },
+    "other_ordinary_income": {},
+    "passive_income": {}
+  },
+  "deductions": {
+    "elected_method": "standard",
+    "standard_amount_override": null,
+    "itemized_components": {},
+    "adjustments_to_agi": {}
+  },
+  "credits": {
+    "credits": [
+      {
+        "code": "CTC_SYNTH",
+        "amount": 2000,
+        "refundable": false
+      }
+    ]
+  },
+  "supporting_documents": {
+    "documents": [
+      {
+        "kind": "w2",
+        "document_id": "W2-dataset_00156",
+        "display_name": "Synthetic Form W-2",
+        "key_amounts": {
+          "wages": 61827,
+          "federal_withholding": 10238
+        },
+        "key_strings": {
+          "employer_ein": "05-5047090"
+        }
+      },
+      {
+        "kind": "1099_int",
+        "document_id": "1099INT-dataset_00156",
+        "display_name": "Synthetic Form 1099-INT",
+        "key_amounts": {
+          "interest": 0
+        },
+        "key_strings": {
+          "payer_tin": "05-5031766"
+        }
+      }
+    ]
+  },
+  "federal": {
+    "lines": {
+      "wages": 61827,
+      "taxable_interest": 0,
+      "ordinary_dividends": 0,
+      "agi": 61827,
+      "standard_deduction": 12550,
+      "taxable_income": 49277,
+      "total_tax": 5894,
+      "federal_withholding": 10238,
+      "additional_lines": {}
+    },
+    "form_references": []
+  },
+  "state": {
+    "code": "CA",
+    "adjustments": {
+      "additions": 0,
+      "subtractions": 0
+    },
+    "lines": {
+      "state_wages": 61827,
+      "additions": 0,
+      "subtractions": 0,
+      "state_taxable_income": 61827,
+      "state_tax": 3400,
+      "additional_lines": {}
+    },
+    "tax_computed": 3400,
+    "form_references": []
+  },
+  "executive_summary": {
+    "agi": 61827,
+    "taxable_income": 49277,
+    "total_tax": 5894,
+    "federal_withholding": 10238,
+    "state_tax": 3400,
+    "effective_rate_federal": 0.0953
+  }
+}

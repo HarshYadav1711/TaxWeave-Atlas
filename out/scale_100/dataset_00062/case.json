@@ -1,0 +1,84 @@
+{
+  "tax_year": 2023,
+  "profile": {
+    "primary_first_name": "Reese",
+    "primary_last_name": "Ingram",
+    "spouse_first_name": "Avery",
+    "spouse_last_name": "Keller",
+    "filing_status": "married_filing_jointly",
+    "taxpayer_label": "Reese Ingram (synthetic)",
+    "synthetic_ssn_primary": "900-70-0148",
+    "synthetic_ssn_spouse": "900-97-3076",
+    "address": {
+      "line1": "501 Willow Way",
+      "city": "Albany",
+      "state": "NY",
+      "zip": "12207"
+    },
+    "primary_full_name": "Reese Ingram"
+  },
+  "questionnaire": {
+    "answers": {
+      "q_wages_reported": 73128,
+      "q_foreign_account": false,
+      "q_crypto": false,
+      "q_energy_credits": false
+    }
+  },
+  "income": {
+    "wages": 73128,
+    "interest": 100,
+    "dividends_ordinary": 1284,
+    "federal_withholding": 14822,
+    "w2": {
+      "employer_name": "Northwind Synthetic Payroll LLC",
+      "employer_ein": "06-1001916",
+      "employee_name": "Reese Ingram",
+      "employee_ssn": "900-70-0148",
+      "social_security_wages": 73128,
+      "medicare_wages": 73128
+    },
+    "forms_1099_int": {
+      "payer_name": "Synthetic Interest Payer NA",
+      "payer_tin": "06-1025578",
+      "recipient_name": "Reese Ingram",
+      "recipient_tin": "900-70-0148",
+      "interest_reported": 100
+    }
+  },
+  "federal": {
+    "lines": {
+      "wages": 73128,
+      "taxable_interest": 100,
+      "ordinary_dividends": 1284,
+      "agi": 74512,
+      "standard_deduction": 27700,
+      "taxable_income": 46812,
+      "total_tax": 5385,
+      "federal_withholding": 14822
+    }
+  },
+  "state": {
+    "code": "NY",
+    "adjustments": {
+      "additions": 0,
+      "subtractions": 0
+    },
+    "lines": {
+      "state_wages": 73128,
+      "additions": 0,
+      "subtractions": 0,
+      "state_taxable_income": 74512,
+      "state_tax": 4620
+    },
+    "tax_computed": 4620
+  },
+  "executive_summary": {
+    "agi": 74512,
+    "taxable_income": 46812,
+    "total_tax": 5385,
+    "federal_withholding": 14822,
+    "state_tax": 4620,
+    "effective_rate_federal": 0.0723
+  }
+}

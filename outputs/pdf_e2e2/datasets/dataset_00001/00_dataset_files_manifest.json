@@ -1,0 +1,14 @@
+{
+  "format": "taxweave-atlas-dataset-files-v1",
+  "tax_year": 2020,
+  "case_fingerprint": "544389b13312bf5af5e66a1fc7bfee8edbd5e913bd8191aeda3c0e187623420f",
+  "case_json_sha256": "d1d6805d4c2f524eba8c8d6d5fddc51be96f04accd6dbeabf35807a13133c699",
+  "pdf_files_sha256": {
+    "01_intake_questionnaire.pdf": "a49eaba9a44bef6413802cddc2178fd380d808f2808c5c4ed544b5df86d1307a",
+    "02_supporting_form_w2.pdf": "c821ba3604cd24fdd6c1d7ff613a02f9e443c77cee4d1f250360e795d9af0b6d",
+    "03_supporting_form_1099_int.pdf": "3754c043da1765b43c63776fdfe05018d925c1b3ff33325f20cdcfba7f7e3eb6",
+    "04_federal_return_summary.pdf": "c9ddc43ccf6d598faff831d5d5928cd910f5069aebb6b213e7ce37998da8c89d",
+    "05_state_return_summary.pdf": "f3654940253722be38ad945bcbc49f2c9d2a695e5a2b07f86a450bc4e7f9c27c",
+    "06_executive_summary.pdf": "84d11c598bafda86ad2eae044a55d0776b31108e5b4813d15cb3c40c6efb9f56"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "format": "taxweave-atlas-dataset-files-v2",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-00011-000",
+  "tax_year": 2022,
+  "case_fingerprint": "821e2beb532f76c3c498abf0ce423ab492a553bf18e870bf2a1682aae0ee8105",
+  "case_json_sha256": "6dd118b42ffcec2c61b1d6d74218dae1ee1e809fc37f742b9a308a2546157034",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-00011-000/1. Client Summary/Client Summary.docx": "8a89186310da0d0077857aa10d3198d1fe269e0ae0dc111711b98a27287906fb",
+    "2. Input Documents-20220101T000000Z-00011-000/2. Input Documents/Tax Document Attachments Summary.docx": "44821dbff68ac6141f19abb8b07d69554f97d1b288c7b5e54e2be9b4f6fc746f",
+    "2. Input Documents-20220101T000000Z-00011-000/2. Input Documents/1099- DIV/1099-DIV DIAZ.pdf": "dce46641e86c488a45b7a27f0b23cd66c2592d5c382ca34a6c8287a6c055ee33",
+    "2. Input Documents-20220101T000000Z-00011-000/2. Input Documents/1099-INT/1099-INT DIAZ.pdf": "71fa884e290808cc12235eedb2792a3407beee27c3bafada4e4daa6966bcc3e1",
+    "2. Input Documents-20220101T000000Z-00011-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.xlsx": "0f8ddd07e52d874522b3c5ef7b9198e8f8aba0ebee302825a88a39ff5c807b75",
+    "2. Input Documents-20220101T000000Z-00011-000/2. Input Documents/Form W-2/Form W-2.pdf": "a72222192c96250e96895a6be908450aa98c18e39d1e918c293b9b273a2731a6",
+    "2. Input Documents-20220101T000000Z-00011-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "21684a07f3b73c9f93ae9bcc693e56cfe5cd7a96eb0da19ba6a8f2293eb047a5",
+    "2. Input Documents-20220101T000000Z-00011-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.xlsx": "0f8ddd07e52d874522b3c5ef7b9198e8f8aba0ebee302825a88a39ff5c807b75",
+    "3. Complete form-20220101T000000Z-00011-000/3. Complete form/2022 Tax Return Documents (Emery Diaz (synthetic)).pdf": "f2709dfabf42734abc251352bddbee1a12ff9767ae5ae4d808198633c5bcb828",
+    "3. Complete form-20220101T000000Z-00011-000/3. Complete form/Completed forms - Summary.docx": "2d365fd432fae4e8be3ad1222e17549b079aa47b12807ef72dbd093cabbd62c8",
+    "4. Executive Summary-20220101T000000Z-00011-000/4. Executive Summary/4. Summary_.docx": "0db0601fe9dd57f1748812eb418f0bcbbf0357276afafa9a282e2700e58f5a48",
+    "4. Executive Summary-20220101T000000Z-00011-000/4. Executive Summary/Executive Summary Emery Diaz 2022.pdf": "af74f81919696e45149a08e25b6cfd7f2d38a060390d4d7e0522fab3383d0d63",
+    "Prompt-20220101T000000Z-00011-000/Prompt/Tax Return Data - Prompt.docx": "9f2f346f6d44489b1152eb86f3fc79d13dd376a5d70306d0f4c230b683af9618",
+    "Prompt-20220101T000000Z-00011-000/Prompt/Tax Return Data - Prompt.xml": "6e817d7a0733a6983b32cea67460cb7b3210ea177faa0f465497bd4a99fee60f"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,168 @@
+{
+  "tax_year": 2023,
+  "profile": {
+    "primary_first_name": "Riley",
+    "primary_last_name": "Foster",
+    "spouse_first_name": "Emery",
+    "spouse_last_name": "Jennings",
+    "filing_status": "married_filing_jointly",
+    "taxpayer_label": "Riley Foster (synthetic)",
+    "synthetic_ssn_primary": "900-52-6889",
+    "synthetic_ssn_spouse": "900-00-6828",
+    "address": {
+      "line1": "600 River Rd",
+      "line2": null,
+      "city": "Springfield",
+      "state": "IL",
+      "zip": "62701"
+    },
+    "dependents_qualifying_children_under_17": 2,
+    "dependents_other": 1,
+    "primary_full_name": "Riley Foster"
+  },
+  "questionnaire": {
+    "answers": {
+      "q_wages_reported": 72307,
+      "q_foreign_account": false,
+      "q_crypto": false,
+      "q_energy_credits": false,
+      "num_qualifying_children_under_17": 2,
+      "num_other_dependents": 1,
+      "itemized_deduction_elected": true,
+      "has_self_employment_income": false,
+      "has_retirement_distributions": false,
+      "extensions": {
+        "complexity_tier": "moderately_complex",
+        "stratum_state": "IL",
+        "stratum_tax_year": "2023"
+      }
+    }
+  },
+  "income": {
+    "wages": 72307,
+    "interest": 2099,
+    "dividends_ordinary": 25117,
+    "federal_withholding": 9668,
+    "w2": {
+      "employer_name": "Riverside Test Labs Co",
+      "employer_ein": "08-6003194",
+      "employee_name": "Riley Foster",
+      "employee_ssn": "900-52-6889",
+      "social_security_wages": 72307,
+      "medicare_wages": 72307
+    },
+    "forms_1099_int": {
+      "payer_name": "Great Plains Synthetic Credit Union",
+      "payer_tin": "08-6050328",
+      "recipient_name": "Riley Foster",
+      "recipient_tin": "900-52-6889",
+      "interest_reported": 2099
+    },
+    "other_ordinary_income": {},
+    "passive_income": {}
+  },
+  "deductions": {
+    "elected_method": "itemized",
+    "standard_amount_override": null,
+    "itemized_components": {
+      "state_and_local_income_tax": 6892,
+      "charitable_cash": 9614,
+      "mortgage_interest": 2790
+    },
+    "adjustments_to_agi": {}
+  },
+  "credits": {
+    "credits": [
+      {
+        "code": "CTC_SYNTH",
+        "amount": 4000,
+        "refundable": false
+      },
+      {
+        "code": "ACTC_SYNTH",
+        "amount": 1359,
+        "refundable": true
+      }
+    ]
+  },
+  "supporting_documents": {
+    "documents": [
+      {
+        "kind": "w2",
+        "document_id": "W2-dataset_00087",
+        "display_name": "Synthetic Form W-2",
+        "key_amounts": {
+          "wages": 72307,
+          "federal_withholding": 9668
+        },
+        "key_strings": {
+          "employer_ein": "08-6003194"
+        }
+      },
+      {
+        "kind": "1099_int",
+        "document_id": "1099INT-dataset_00087",
+        "display_name": "Synthetic Form 1099-INT",
+        "key_amounts": {
+          "interest": 2099
+        },
+        "key_strings": {
+          "payer_tin": "08-6050328"
+        }
+      },
+      {
+        "kind": "1099_div",
+        "document_id": "1099DIV-dataset_00087",
+        "display_name": "Synthetic Form 1099-DIV",
+        "key_amounts": {
+          "ordinary_dividends": 25117
+        },
+        "key_strings": {
+          "payer_tin": "08-6050328"
+        }
+      }
+    ]
+  },
+  "federal": {
+    "lines": {
+      "wages": 72307,
+      "taxable_interest": 2099,
+      "ordinary_dividends": 25117,
+      "agi": 99523,
+      "standard_deduction": 27700,
+      "taxable_income": 71823,
+      "total_tax": 10854,
+      "federal_withholding": 9668,
+      "additional_lines": {
+        "statutory_standard_deduction": 27700,
+        "itemized_total": 19296
+      }
+    },
+    "form_references": []
+  },
+  "state": {
+    "code": "IL",
+    "adjustments": {
+      "additions": 0,
+      "subtractions": 0
+    },
+    "lines": {
+      "state_wages": 72307,
+      "additions": 0,
+      "subtractions": 0,
+      "state_taxable_income": 99523,
+      "state_tax": 4926,
+      "additional_lines": {}
+    },
+    "tax_computed": 4926,
+    "form_references": []
+  },
+  "executive_summary": {
+    "agi": 99523,
+    "taxable_income": 71823,
+    "total_tax": 10854,
+    "federal_withholding": 9668,
+    "state_tax": 4926,
+    "effective_rate_federal": 0.1091
+  }
+}

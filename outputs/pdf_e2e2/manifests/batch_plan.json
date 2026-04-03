@@ -1,0 +1,31 @@
+{
+  "version": "1",
+  "stage": "synthetic_generation_v1",
+  "master_seed": 7,
+  "count": 2,
+  "complexity_level": "easy",
+  "default_tax_year": 2023,
+  "note": "Synthetic taxpayer generation with reconciliation and PDF bundle per dataset (see 00_dataset_files_manifest.json and 01–06 PDFs).",
+  "datasets": [
+    {
+      "index": 0,
+      "slug": "dataset_00001",
+      "stream_seed": 17469523255737126788,
+      "tax_year": 2020,
+      "state_code": "CA",
+      "complexity_tier": "medium",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "544389b13312bf5af5e66a1fc7bfee8edbd5e913bd8191aeda3c0e187623420f"
+    },
+    {
+      "index": 1,
+      "slug": "dataset_00002",
+      "stream_seed": 14828002861689967263,
+      "tax_year": 2023,
+      "state_code": "CA",
+      "complexity_tier": "medium",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "7dc9356f0043ebb7cbf6d595352813b1956c3e123c8f4c8473f52105bf07fb2f"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>900580521</PrimarySSN>
+      <NameLine1Txt>Jordan Keller</NameLine1Txt>
+      <PrimaryNameControlTxt>KELL</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>501 Willow Way</AddressLine1Txt>
+        <CityNm>Austin</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78701</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <TaxWeaveAtlasCoverage>
+    <SyntheticSubsetInd>true</SyntheticSubsetInd>
+    <UnmodeledSchedulesTxt>IRS1040Schedule2,IRS1040ScheduleC,IRS1040ScheduleSE,IRS1040Schedule8812,IRS8995,IRS4562</UnmodeledSchedulesTxt>
+  </TaxWeaveAtlasCoverage>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <WagesAmt>67478</WagesAmt>
+      <TaxableInterestAmt>0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt>648</OrdinaryDividendsAmt>
+      <AdjustedGrossIncomeAmt>68126</AdjustedGrossIncomeAmt>
+      <TaxableIncomeAmt>55176</TaxableIncomeAmt>
+      <TotalTaxAmt>5192</TotalTaxAmt>
+      <WithholdingTaxAmt>9085</WithholdingTaxAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>900580521</EmployeeSSN>
+      <EmployerEIN>006030801</EmployerEIN>
+      <EmployerName>
+        <BusinessNameLine1Txt>Riverside Test Labs Co</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployeeNm>Jordan Keller</EmployeeNm>
+      <WagesAmt>67478</WagesAmt>
+      <WithholdingAmt>9085</WithholdingAmt>
+      <SocialSecurityWagesAmt>67478</SocialSecurityWagesAmt>
+      <MedicareWagesAndTipsAmt>67478</MedicareWagesAndTipsAmt>
+    </IRSW2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>0</InterestAmt>
+      <TotalInterestAmt>0</TotalInterestAmt>
+      <OrdinaryDividendsAmt>648</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>648</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+  </ReturnData>
+</Return>

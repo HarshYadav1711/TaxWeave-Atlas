@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>900332501</PrimarySSN>
+      <NameLine1Txt>Sage Ingram</NameLine1Txt>
+      <PrimaryNameControlTxt>INGR</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>220 Cedar Ave</AddressLine1Txt>
+        <CityNm>Oakland</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94612</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <TaxWeaveAtlasCoverage>
+    <SyntheticSubsetInd>true</SyntheticSubsetInd>
+    <UnmodeledSchedulesTxt>IRS1040Schedule2,IRS1040ScheduleC,IRS1040ScheduleSE,IRS1040Schedule8812,IRS8995,IRS4562</UnmodeledSchedulesTxt>
+  </TaxWeaveAtlasCoverage>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>5</IndividualReturnFilingStatusCd>
+      <WagesAmt>166770</WagesAmt>
+      <TaxableInterestAmt>5655</TaxableInterestAmt>
+      <OrdinaryDividendsAmt>9201</OrdinaryDividendsAmt>
+      <AdjustedGrossIncomeAmt>181626</AdjustedGrossIncomeAmt>
+      <TaxableIncomeAmt>144576</TaxableIncomeAmt>
+      <TotalTaxAmt>21597</TotalTaxAmt>
+      <WithholdingTaxAmt>36352</WithholdingTaxAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>900332501</EmployeeSSN>
+      <EmployerEIN>031031783</EmployerEIN>
+      <EmployerName>
+        <BusinessNameLine1Txt>Cedar Hollow Analytics LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployeeNm>Sage Ingram</EmployeeNm>
+      <WagesAmt>166770</WagesAmt>
+      <WithholdingAmt>36352</WithholdingAmt>
+      <SocialSecurityWagesAmt>166770</SocialSecurityWagesAmt>
+      <MedicareWagesAndTipsAmt>166770</MedicareWagesAndTipsAmt>
+    </IRSW2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>5655</InterestAmt>
+      <TotalInterestAmt>5655</TotalInterestAmt>
+      <OrdinaryDividendsAmt>9201</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>9201</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+  </ReturnData>
+</Return>

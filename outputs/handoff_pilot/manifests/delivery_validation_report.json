@@ -1,0 +1,79 @@
+{
+  "format": "taxweave-atlas-delivery-validation-v1",
+  "validated_at_utc": "2026-04-03T19:09:27.288688+00:00",
+  "batch_root": "D:\\Fun\\TaxWeave Atlas\\outputs\\handoff_pilot",
+  "ok": true,
+  "expect_pdfs": true,
+  "strict_distribution": false,
+  "summary": "delivery validation OK: 5 dataset(s), 0 error(s), 0 warning(s)",
+  "errors": [],
+  "warnings": [],
+  "duplicate_fingerprints": [],
+  "datasets": {
+    "dataset_00001": {
+      "ok": true,
+      "case_fingerprint": "2f3b1c49375134ac867fef047e980b4d02fa7de1bcad08d7f0214a47181d9b9b",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_pdfs"
+      ]
+    },
+    "dataset_00002": {
+      "ok": true,
+      "case_fingerprint": "69612d5d83e2cedf2c1df777804e49356bac71af91a022b8b075be46244d857a",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_pdfs"
+      ]
+    },
+    "dataset_00003": {
+      "ok": true,
+      "case_fingerprint": "4b0ced238154bf072b7c0d6921819b9928340b61e5bb25d14739bcd2e275bbc7",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_pdfs"
+      ]
+    },
+    "dataset_00004": {
+      "ok": true,
+      "case_fingerprint": "4ebc75dad7817f86b1a24edc6d1f135b59fdcd8e3ce4acf496bf119726505c3a",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_pdfs"
+      ]
+    },
+    "dataset_00005": {
+      "ok": true,
+      "case_fingerprint": "2ae66942e703125c6d07d6859bd7b3a649fa29a120898d6467014f33ffd3dff2",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_pdfs"
+      ]
+    }
+  }
+}

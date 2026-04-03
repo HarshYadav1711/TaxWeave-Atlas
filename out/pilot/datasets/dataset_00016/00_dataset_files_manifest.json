@@ -1,0 +1,25 @@
+{
+  "format": "taxweave-atlas-dataset-files-v2",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-00016-000",
+  "tax_year": 2022,
+  "case_fingerprint": "9e79c8119b185b04579cd30b8cf10cefbde7be5d2ac42d5b616a17763aba081c",
+  "case_json_sha256": "072bd1bbe7e86de03aee966ac42e0abb1d3163dd40c31305144e6502347ff070",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-00016-000/1. Client Summary/Client Summary.docx": "740165e725823f79e82bd07a9dc8bc40b0edb2b1dec4d8af5fe026e5812fcd2a",
+    "2. Input Documents-20220101T000000Z-00016-000/2. Input Documents/Tax Document Attachments Summary.docx": "60cd4166cadb1ce2d02934ae1db3b23a2cf1c177d63fdda57546d45a41ac24e1",
+    "2. Input Documents-20220101T000000Z-00016-000/2. Input Documents/1099- DIV/1099-DIV NAVARRO.pdf": "fcdf920d0e907abda799579b2e524f3f4a7fb7d2c46bed731bbd580b2b0b0f65",
+    "2. Input Documents-20220101T000000Z-00016-000/2. Input Documents/1099-INT/1099-INT NAVARRO.pdf": "62897e00303f6d881fb5999d27766b432de49d82b9c3c0060cd9c696db25b581",
+    "2. Input Documents-20220101T000000Z-00016-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.xlsx": "0f8ddd07e52d874522b3c5ef7b9198e8f8aba0ebee302825a88a39ff5c807b75",
+    "2. Input Documents-20220101T000000Z-00016-000/2. Input Documents/Form W-2/Form W-2.pdf": "6413e579929a08c09571f5524a56ff0a23ff8fd6d21790d16c9662123d69382d",
+    "2. Input Documents-20220101T000000Z-00016-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "8d6682e124ede0f6c14d9285fa727fc40643444d18ce1b99e9dbf3b94ff6c35a",
+    "2. Input Documents-20220101T000000Z-00016-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.xlsx": "0f8ddd07e52d874522b3c5ef7b9198e8f8aba0ebee302825a88a39ff5c807b75",
+    "3. Complete form-20220101T000000Z-00016-000/3. Complete form/2022 Tax Return Documents (Parker Navarro (synthetic)).pdf": "f7987db40c02593ee7d4e8e7b27e0af358e180893b3feb041235209324ae6133",
+    "3. Complete form-20220101T000000Z-00016-000/3. Complete form/Completed forms - Summary.docx": "2d365fd432fae4e8be3ad1222e17549b079aa47b12807ef72dbd093cabbd62c8",
+    "4. Executive Summary-20220101T000000Z-00016-000/4. Executive Summary/4. Summary_.docx": "b57ee4ff290e93e5359da5ea5658f3b2898da01d269308e54444a26c5c16af61",
+    "4. Executive Summary-20220101T000000Z-00016-000/4. Executive Summary/Executive Summary Parker Navarro 2022.pdf": "a4df9b942402766a5a5d913cd995854f481c996d78647f2a59506202c35c440e",
+    "Prompt-20220101T000000Z-00016-000/Prompt/Tax Return Data - Prompt.docx": "9f2f346f6d44489b1152eb86f3fc79d13dd376a5d70306d0f4c230b683af9618",
+    "Prompt-20220101T000000Z-00016-000/Prompt/Tax Return Data - Prompt.xml": "00c1675d6fa6997f1831f80aec09902e6262fbc81f27e180580ddc4e59848ce8"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

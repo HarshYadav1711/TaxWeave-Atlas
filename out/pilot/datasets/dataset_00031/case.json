@@ -1,0 +1,146 @@
+{
+  "tax_year": 2025,
+  "profile": {
+    "primary_first_name": "Jordan",
+    "primary_last_name": "Hayes",
+    "spouse_first_name": "Casey",
+    "spouse_last_name": "Okoro",
+    "filing_status": "married_filing_jointly",
+    "taxpayer_label": "Jordan Hayes (synthetic)",
+    "synthetic_ssn_primary": "900-14-2422",
+    "synthetic_ssn_spouse": "900-60-2424",
+    "address": {
+      "line1": "501 Willow Way",
+      "line2": null,
+      "city": "Austin",
+      "state": "TX",
+      "zip": "78701"
+    },
+    "dependents_qualifying_children_under_17": 0,
+    "dependents_other": 0
+  },
+  "questionnaire": {
+    "answers": {
+      "q_wages_reported": 46481,
+      "q_foreign_account": false,
+      "q_crypto": false,
+      "q_energy_credits": false,
+      "num_qualifying_children_under_17": 0,
+      "num_other_dependents": 0,
+      "itemized_deduction_elected": false,
+      "has_self_employment_income": false,
+      "has_retirement_distributions": false,
+      "extensions": {
+        "complexity_tier": "easy",
+        "stratum_state": "TX",
+        "stratum_tax_year": "2025",
+        "dataset_slug": "dataset_00031"
+      }
+    }
+  },
+  "income": {
+    "wages": 46481,
+    "interest": 128,
+    "dividends_ordinary": 0,
+    "federal_withholding": 5660,
+    "w2": {
+      "employer_name": "Prairie View Logistics LLC",
+      "employer_ein": "03-0009303",
+      "employee_name": "Jordan Hayes",
+      "employee_ssn": "900-14-2422",
+      "social_security_wages": 46481,
+      "medicare_wages": 46481
+    },
+    "forms_1099_int": {
+      "payer_name": "Metroline Treasury Services LLC",
+      "payer_tin": "03-0033989",
+      "recipient_name": "Jordan Hayes",
+      "recipient_tin": "900-14-2422",
+      "interest_reported": 128
+    },
+    "other_ordinary_income": {},
+    "passive_income": {}
+  },
+  "deductions": {
+    "elected_method": "standard",
+    "standard_amount_override": null,
+    "itemized_components": {},
+    "adjustments_to_agi": {}
+  },
+  "credits": {
+    "credits": []
+  },
+  "supporting_documents": {
+    "documents": [
+      {
+        "kind": "w2",
+        "document_id": "W2-dataset_00031",
+        "display_name": "Synthetic Form W-2",
+        "key_amounts": {
+          "wages": 46481,
+          "federal_withholding": 5660
+        },
+        "key_strings": {
+          "employer_ein": "03-0009303"
+        }
+      },
+      {
+        "kind": "1099_int",
+        "document_id": "1099INT-dataset_00031",
+        "display_name": "Synthetic Form 1099-INT",
+        "key_amounts": {
+          "interest": 128
+        },
+        "key_strings": {
+          "payer_tin": "03-0033989"
+        }
+      }
+    ]
+  },
+  "federal": {
+    "lines": {
+      "wages": 46481,
+      "taxable_interest": 128,
+      "ordinary_dividends": 0,
+      "agi": 46609,
+      "standard_deduction": 30000,
+      "taxable_income": 16609,
+      "total_tax": 1761,
+      "federal_withholding": 5660,
+      "additional_lines": {
+        "statutory_standard_deduction": 30000,
+        "schedule_a_total": 0,
+        "itemized_elected": 0,
+        "pre_credit_income_tax": 1761,
+        "nonrefundable_credits_applied": 0,
+        "refundable_credits_applied": 0
+      }
+    },
+    "form_references": []
+  },
+  "state": {
+    "code": "TX",
+    "adjustments": {
+      "additions": 0,
+      "subtractions": 0
+    },
+    "lines": {
+      "state_wages": 46481,
+      "additions": 0,
+      "subtractions": 0,
+      "state_taxable_income": 46609,
+      "state_tax": 0,
+      "additional_lines": {}
+    },
+    "tax_computed": 0,
+    "form_references": []
+  },
+  "executive_summary": {
+    "agi": 46609,
+    "taxable_income": 16609,
+    "total_tax": 1761,
+    "federal_withholding": 5660,
+    "state_tax": 0,
+    "effective_rate_federal": 0.0378
+  }
+}

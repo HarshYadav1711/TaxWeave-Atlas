@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>900200363</PrimarySSN>
+      <NameLine1Txt>Emery Bennett</NameLine1Txt>
+      <PrimaryNameControlTxt>BENN</PrimaryNameControlTxt>
+      <SpouseSSN>900660365</SpouseSSN>
+      <SpouseNameLine1Txt>Morgan Carter</SpouseNameLine1Txt>
+      <SpouseNameControlTxt>CART</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>42 Genesee Walk</AddressLine1Txt>
+        <CityNm>Rochester</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14604</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <TaxWeaveAtlasCoverage>
+    <SyntheticSubsetInd>true</SyntheticSubsetInd>
+    <UnmodeledSchedulesTxt>IRS1040Schedule2,IRS1040ScheduleC,IRS1040ScheduleSE,IRS1040Schedule8812,IRS8995,IRS4562</UnmodeledSchedulesTxt>
+  </TaxWeaveAtlasCoverage>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <WagesAmt>68150</WagesAmt>
+      <TaxableInterestAmt>101</TaxableInterestAmt>
+      <OrdinaryDividendsAmt>293</OrdinaryDividendsAmt>
+      <AdjustedGrossIncomeAmt>68544</AdjustedGrossIncomeAmt>
+      <TaxableIncomeAmt>38544</TaxableIncomeAmt>
+      <TotalTaxAmt>4393</TotalTaxAmt>
+      <WithholdingTaxAmt>10717</WithholdingTaxAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>900200363</EmployeeSSN>
+      <EmployerEIN>004023236</EmployerEIN>
+      <EmployerName>
+        <BusinessNameLine1Txt>Riverside Test Labs Co</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployeeNm>Emery Bennett</EmployeeNm>
+      <WagesAmt>68150</WagesAmt>
+      <WithholdingAmt>10717</WithholdingAmt>
+      <SocialSecurityWagesAmt>68150</SocialSecurityWagesAmt>
+      <MedicareWagesAndTipsAmt>68150</MedicareWagesAndTipsAmt>
+    </IRSW2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>101</InterestAmt>
+      <TotalInterestAmt>101</TotalInterestAmt>
+      <OrdinaryDividendsAmt>293</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>293</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+  </ReturnData>
+</Return>

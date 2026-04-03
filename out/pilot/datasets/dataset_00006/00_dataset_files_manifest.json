@@ -1,0 +1,25 @@
+{
+  "format": "taxweave-atlas-dataset-files-v2",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-00006-000",
+  "tax_year": 2023,
+  "case_fingerprint": "b1f920bb209563edee1259d88917c37a635f04a3ac71f4a64ce5c544a9375586",
+  "case_json_sha256": "b52ea8c4a0bc97b47310a7742fd8287d8f58eb7306e3bd82003907bf51493a5f",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-00006-000/1. Client Summary/Client Summary.docx": "a41c1455b520eacaac0bf1664ce29c55520f7b6f07ecc70d9de94a92d89e2978",
+    "2. Input Documents-20230101T000000Z-00006-000/2. Input Documents/Tax Document Attachments Summary.docx": "2fba5cbafc56e62e009e4015c243e8dbb04cc6aa8f7934375f591d84006a5cbd",
+    "2. Input Documents-20230101T000000Z-00006-000/2. Input Documents/1099- DIV/1099-DIV INGRAM.pdf": "82290a267315e43ff8cf3d52e77cb62c0fa6a911c1ca48697a80ff06341c4589",
+    "2. Input Documents-20230101T000000Z-00006-000/2. Input Documents/1099-INT/1099-INT INGRAM.pdf": "b484520200e3508a6e3203af7834a541d510180f00d42745b0f845b7de39416a",
+    "2. Input Documents-20230101T000000Z-00006-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.xlsx": "1f5859e2cab82500148c254fbf31de20b6edf5adfe59a17337325c3daf4af8bd",
+    "2. Input Documents-20230101T000000Z-00006-000/2. Input Documents/Form W-2/Form W-2.pdf": "87f534b752eba1cfc19704efb22a91017f97529ee84e56bc438cde37086fb3bc",
+    "2. Input Documents-20230101T000000Z-00006-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "1c0300fba0bbbe6c24d15d803f02c21d91879c6f11aabd0d09d9821dd06b266a",
+    "2. Input Documents-20230101T000000Z-00006-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.xlsx": "1f5859e2cab82500148c254fbf31de20b6edf5adfe59a17337325c3daf4af8bd",
+    "3. Complete form-20230101T000000Z-00006-000/3. Complete form/2023 Tax Return Documents (Jordan Ingram (synthetic)).pdf": "13024554eb6b6c23134ce692e7eb5e42e46fd015aa705ddc7d0015968c88fab7",
+    "3. Complete form-20230101T000000Z-00006-000/3. Complete form/Completed forms - Summary.docx": "5b62e3db4597add5b2ee1d0c21f6b38584836cd682764627d39fdd5d5b73ca2f",
+    "4. Executive Summary-20230101T000000Z-00006-000/4. Executive Summary/4. Summary_.docx": "830bb5aab4ede03ddbcfd7cc9570779a80b2ca01f4af4a35302e445295480d3b",
+    "4. Executive Summary-20230101T000000Z-00006-000/4. Executive Summary/Executive Summary Jordan Ingram 2023.pdf": "faa9da80e0272a68444a79ec58a98c3010182aa0fa8858beaf6afb3248c8eca6",
+    "Prompt-20230101T000000Z-00006-000/Prompt/Tax Return Data - Prompt.docx": "0e6091861db64db99570f4dadb4a0515ab4c9558334a4b65161ff34fd691aa2e",
+    "Prompt-20230101T000000Z-00006-000/Prompt/Tax Return Data - Prompt.xml": "3983fa94ee7c82f01d6d16d498c29e796d23990abf9649feea878993a72ee36d"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

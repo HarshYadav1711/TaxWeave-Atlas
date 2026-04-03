@@ -1,0 +1,84 @@
+{
+  "tax_year": 2023,
+  "profile": {
+    "primary_first_name": "Jordan",
+    "primary_last_name": "Bennett",
+    "spouse_first_name": "Morgan",
+    "spouse_last_name": "Lawson",
+    "filing_status": "married_filing_jointly",
+    "taxpayer_label": "Jordan Bennett (synthetic)",
+    "synthetic_ssn_primary": "900-74-9290",
+    "synthetic_ssn_spouse": "900-34-5102",
+    "address": {
+      "line1": "88 Spruce Ln",
+      "city": "Sacramento",
+      "state": "CA",
+      "zip": "95814"
+    },
+    "primary_full_name": "Jordan Bennett"
+  },
+  "questionnaire": {
+    "answers": {
+      "q_wages_reported": 105664,
+      "q_foreign_account": false,
+      "q_crypto": true,
+      "q_energy_credits": false
+    }
+  },
+  "income": {
+    "wages": 105664,
+    "interest": 1372,
+    "dividends_ordinary": 0,
+    "federal_withholding": 19367,
+    "w2": {
+      "employer_name": "Northwind Synthetic Payroll LLC",
+      "employer_ein": "04-1009829",
+      "employee_name": "Jordan Bennett",
+      "employee_ssn": "900-74-9290",
+      "social_security_wages": 105664,
+      "medicare_wages": 105664
+    },
+    "forms_1099_int": {
+      "payer_name": "Synthetic Interest Payer NA",
+      "payer_tin": "04-1024674",
+      "recipient_name": "Jordan Bennett",
+      "recipient_tin": "900-74-9290",
+      "interest_reported": 1372
+    }
+  },
+  "federal": {
+    "lines": {
+      "wages": 105664,
+      "taxable_interest": 1372,
+      "ordinary_dividends": 0,
+      "agi": 107036,
+      "standard_deduction": 27700,
+      "taxable_income": 79336,
+      "total_tax": 12507,
+      "federal_withholding": 19367
+    }
+  },
+  "state": {
+    "code": "CA",
+    "adjustments": {
+      "additions": 0,
+      "subtractions": 136
+    },
+    "lines": {
+      "state_wages": 105664,
+      "additions": 0,
+      "subtractions": 136,
+      "state_taxable_income": 106900,
+      "state_tax": 5880
+    },
+    "tax_computed": 5880
+  },
+  "executive_summary": {
+    "agi": 107036,
+    "taxable_income": 79336,
+    "total_tax": 12507,
+    "federal_withholding": 19367,
+    "state_tax": 5880,
+    "effective_rate_federal": 0.1168
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "tax_year": 2021,
+  "profile": {
+    "primary_first_name": "Casey",
+    "primary_last_name": "Carter",
+    "spouse_first_name": "Sage",
+    "spouse_last_name": "Patel",
+    "filing_status": "married_filing_jointly",
+    "taxpayer_label": "Casey Carter (synthetic)",
+    "synthetic_ssn_primary": "900-85-5362",
+    "synthetic_ssn_spouse": "900-33-5301",
+    "address": {
+      "line1": "18 Prairie Ln",
+      "line2": null,
+      "city": "Springfield",
+      "state": "IL",
+      "zip": "62701"
+    },
+    "dependents_qualifying_children_under_17": 1,
+    "dependents_other": 0,
+    "primary_full_name": "Casey Carter"
+  },
+  "questionnaire": {
+    "answers": {
+      "q_wages_reported": 75872,
+      "q_foreign_account": false,
+      "q_crypto": false,
+      "q_energy_credits": false,
+      "num_qualifying_children_under_17": 1,
+      "num_other_dependents": 0,
+      "itemized_deduction_elected": false,
+      "has_self_employment_income": false,
+      "has_retirement_distributions": false,
+      "extensions": {
+        "complexity_tier": "easy",
+        "stratum_state": "IL",
+        "stratum_tax_year": "2021"
+      }
+    }
+  },
+  "income": {
+    "wages": 75872,
+    "interest": 0,
+    "dividends_ordinary": 0,
+    "federal_withholding": 10361,
+    "w2": {
+      "employer_name": "Pioneer Stub Data Corp",
+      "employer_ein": "09-3013046",
+      "employee_name": "Casey Carter",
+      "employee_ssn": "900-85-5362",
+      "social_security_wages": 75872,
+      "medicare_wages": 75872
+    },
+    "forms_1099_int": {
+      "payer_name": "Metroline Treasury Services LLC",
+      "payer_tin": "09-3060409",
+      "recipient_name": "Casey Carter",
+      "recipient_tin": "900-85-5362",
+      "interest_reported": 0
+    },
+    "other_ordinary_income": {},
+    "passive_income": {}
+  },
+  "deductions": {
+    "elected_method": "standard",
+    "standard_amount_override": null,
+    "itemized_components": {},
+    "adjustments_to_agi": {}
+  },
+  "credits": {
+    "credits": [
+      {
+        "code": "CTC_SYNTH",
+        "amount": 2000,
+        "refundable": false
+      }
+    ]
+  },
+  "supporting_documents": {
+    "documents": [
+      {
+        "kind": "w2",
+        "document_id": "W2-dataset_00194",
+        "display_name": "Synthetic Form W-2",
+        "key_amounts": {
+          "wages": 75872,
+          "federal_withholding": 10361
+        },
+        "key_strings": {
+          "employer_ein": "09-3013046"
+        }
+      },
+      {
+        "kind": "1099_int",
+        "document_id": "1099INT-dataset_00194",
+        "display_name": "Synthetic Form 1099-INT",
+        "key_amounts": {
+          "interest": 0
+        },
+        "key_strings": {
+          "payer_tin": "09-3060409"
+        }
+      }
+    ]
+  },
+  "federal": {
+    "lines": {
+      "wages": 75872,
+      "taxable_interest": 0,
+      "ordinary_dividends": 0,
+      "agi": 75872,
+      "standard_deduction": 25100,
+      "taxable_income": 50772,
+      "total_tax": 6223,
+      "federal_withholding": 10361,
+      "additional_lines": {}
+    },
+    "form_references": []
+  },
+  "state": {
+    "code": "IL",
+    "adjustments": {
+      "additions": 0,
+      "subtractions": 53
+    },
+    "lines": {
+      "state_wages": 75872,
+      "additions": 0,
+      "subtractions": 53,
+      "state_taxable_income": 75819,
+      "state_tax": 3753,
+      "additional_lines": {}
+    },
+    "tax_computed": 3753,
+    "form_references": []
+  },
+  "executive_summary": {
+    "agi": 75872,
+    "taxable_income": 50772,
+    "total_tax": 6223,
+    "federal_withholding": 10361,
+    "state_tax": 3753,
+    "effective_rate_federal": 0.082
+  }
+}

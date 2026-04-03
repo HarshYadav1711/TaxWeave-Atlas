@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>900712659</PrimarySSN>
+      <NameLine1Txt>Finley Lawson</NameLine1Txt>
+      <PrimaryNameControlTxt>LAWS</PrimaryNameControlTxt>
+      <SpouseSSN>900172662</SpouseSSN>
+      <SpouseNameLine1Txt>Casey Sullivan</SpouseNameLine1Txt>
+      <SpouseNameControlTxt>SULL</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>220 Cedar Ave</AddressLine1Txt>
+        <CityNm>Fresno</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>93721</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <TaxWeaveAtlasCoverage>
+    <SyntheticSubsetInd>true</SyntheticSubsetInd>
+    <UnmodeledSchedulesTxt>IRS1040Schedule2,IRS1040ScheduleC,IRS1040ScheduleSE,IRS1040Schedule8812,IRS8995,IRS4562</UnmodeledSchedulesTxt>
+  </TaxWeaveAtlasCoverage>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <WagesAmt>40777</WagesAmt>
+      <TaxableInterestAmt>868</TaxableInterestAmt>
+      <OrdinaryDividendsAmt>1303</OrdinaryDividendsAmt>
+      <AdjustedGrossIncomeAmt>77314</AdjustedGrossIncomeAmt>
+      <TaxableIncomeAmt>49614</TaxableIncomeAmt>
+      <TotalTaxAmt>3768</TotalTaxAmt>
+      <WithholdingTaxAmt>8951</WithholdingTaxAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>900712659</EmployeeSSN>
+      <EmployerEIN>033021501</EmployerEIN>
+      <EmployerName>
+        <BusinessNameLine1Txt>Northwind Synthetic Payroll LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployeeNm>Finley Lawson</EmployeeNm>
+      <WagesAmt>40777</WagesAmt>
+      <WithholdingAmt>8951</WithholdingAmt>
+      <SocialSecurityWagesAmt>40777</SocialSecurityWagesAmt>
+      <MedicareWagesAndTipsAmt>40777</MedicareWagesAndTipsAmt>
+    </IRSW2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>868</InterestAmt>
+      <TotalInterestAmt>868</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1303</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1303</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+  </ReturnData>
+</Return>

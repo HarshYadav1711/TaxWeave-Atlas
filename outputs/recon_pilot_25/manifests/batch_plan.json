@@ -1,0 +1,261 @@
+{
+  "version": "1",
+  "stage": "synthetic_generation_v1",
+  "master_seed": 11,
+  "count": 25,
+  "complexity_level": "easy",
+  "default_tax_year": 2023,
+  "note": "Synthetic taxpayer generation: case.json + questionnaire.json per dataset. PDF rendering and full reconciliation are separate stages.",
+  "datasets": [
+    {
+      "index": 0,
+      "slug": "dataset_00001",
+      "stream_seed": 2990094674635952963,
+      "tax_year": 2025,
+      "state_code": "CA",
+      "complexity_tier": "medium",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "e6ba006c5c5b30e3aff4d587e7f61251704f8451433429951c22a223597acd56"
+    },
+    {
+      "index": 1,
+      "slug": "dataset_00002",
+      "stream_seed": 17579505752074335098,
+      "tax_year": 2020,
+      "state_code": "TX",
+      "complexity_tier": "medium",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "0d37f749c984c08f7e24b65975ddc4bd1f54f943a31bb5c27c499c93b311efe8"
+    },
+    {
+      "index": 2,
+      "slug": "dataset_00003",
+      "stream_seed": 17083569090813267090,
+      "tax_year": 2023,
+      "state_code": "TX",
+      "complexity_tier": "medium",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "a1c103aa58304fd8a5c386ac0f55dfb17205ef916bbbdf918ba0f6aef15b00a8"
+    },
+    {
+      "index": 3,
+      "slug": "dataset_00004",
+      "stream_seed": 6946705635842946338,
+      "tax_year": 2020,
+      "state_code": "CA",
+      "complexity_tier": "medium",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "34855f79dfb0434cefa32f18fa19a2160b9f49d2f259e8fc9d75add02363f623"
+    },
+    {
+      "index": 4,
+      "slug": "dataset_00005",
+      "stream_seed": 15882715794379723044,
+      "tax_year": 2023,
+      "state_code": "TX",
+      "complexity_tier": "medium",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "9642625211b9105dba1fe41f47a036362fd0adc8682ff10fa85dc6a616bba0f4"
+    },
+    {
+      "index": 5,
+      "slug": "dataset_00006",
+      "stream_seed": 5887070443039324987,
+      "tax_year": 2024,
+      "state_code": "IL",
+      "complexity_tier": "medium",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "43c38b1d702f6aa78003cd561fe45236bb21386c0bc96de441520cd6c94a8593"
+    },
+    {
+      "index": 6,
+      "slug": "dataset_00007",
+      "stream_seed": 6107988286959123669,
+      "tax_year": 2025,
+      "state_code": "TX",
+      "complexity_tier": "medium",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "223784349df5990beb34f21bdeed2a2376fdb238fd9d12d38c56fe3f9b2fbfd1"
+    },
+    {
+      "index": 7,
+      "slug": "dataset_00008",
+      "stream_seed": 628207341314769110,
+      "tax_year": 2022,
+      "state_code": "FL",
+      "complexity_tier": "medium",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "d5644be0f399b52f979fb26d066e86572f8c3f6127a9792adc002ca7c1b31cc2"
+    },
+    {
+      "index": 8,
+      "slug": "dataset_00009",
+      "stream_seed": 776317641378628556,
+      "tax_year": 2025,
+      "state_code": "FL",
+      "complexity_tier": "medium",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "ce1f9d2c6b78ca2b7fc290f53896e397a4e9d65ae3e4abce9ff02a45408cc2b9"
+    },
+    {
+      "index": 9,
+      "slug": "dataset_00010",
+      "stream_seed": 1999462856684138367,
+      "tax_year": 2023,
+      "state_code": "CA",
+      "complexity_tier": "easy",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "1439f6f1aa3c2327479e19b696c2a1ee508ad1b0a1e60f5f17a1130fa76a2543"
+    },
+    {
+      "index": 10,
+      "slug": "dataset_00011",
+      "stream_seed": 7211421903767973513,
+      "tax_year": 2021,
+      "state_code": "FL",
+      "complexity_tier": "moderately_complex",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "30cf9eb6b3248eedefba1ecb22d93469e523c55356e419b5b0f2cc2ad30b3699"
+    },
+    {
+      "index": 11,
+      "slug": "dataset_00012",
+      "stream_seed": 15657360878649221238,
+      "tax_year": 2022,
+      "state_code": "TX",
+      "complexity_tier": "easy",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "a19cd3ab5ed03bf3fdc199784f887621d732b4f852b977bc1057d964748d032b"
+    },
+    {
+      "index": 12,
+      "slug": "dataset_00013",
+      "stream_seed": 18317077265793687582,
+      "tax_year": 2022,
+      "state_code": "IL",
+      "complexity_tier": "medium",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "b131d216bf0b339c4ad8f09f9ef00dcd0c1f6977bc6cb370fb09fc8c51cee426"
+    },
+    {
+      "index": 13,
+      "slug": "dataset_00014",
+      "stream_seed": 17211626387190981140,
+      "tax_year": 2020,
+      "state_code": "CA",
+      "complexity_tier": "medium",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "3860092cf8e925715afe7556c704a183a1ae8105fe8326644fe2bbfd0bf98a40"
+    },
+    {
+      "index": 14,
+      "slug": "dataset_00015",
+      "stream_seed": 11759639153114390629,
+      "tax_year": 2024,
+      "state_code": "FL",
+      "complexity_tier": "easy",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "88155b03373b374013535c489b02abf727c1a690b42f2a3a0c33d1adb11d53bf"
+    },
+    {
+      "index": 15,
+      "slug": "dataset_00016",
+      "stream_seed": 13453125206979376336,
+      "tax_year": 2022,
+      "state_code": "CA",
+      "complexity_tier": "medium",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "f18d4ffaa6a6289a5103b084709da3fed503b01f81effab9870419b129c3d228"
+    },
+    {
+      "index": 16,
+      "slug": "dataset_00017",
+      "stream_seed": 17021379730368967760,
+      "tax_year": 2024,
+      "state_code": "NY",
+      "complexity_tier": "moderately_complex",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "97989a3e07a8726dd25a608039c46a9a44da4d692679b960cafcdead4d9759c8"
+    },
+    {
+      "index": 17,
+      "slug": "dataset_00018",
+      "stream_seed": 17207941792583070283,
+      "tax_year": 2024,
+      "state_code": "FL",
+      "complexity_tier": "medium",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "01abbc7c9ae9a247405d4eb15a4e26bc4ef13fa3f8f9396247d704f4a9018522"
+    },
+    {
+      "index": 18,
+      "slug": "dataset_00019",
+      "stream_seed": 7383482341212336469,
+      "tax_year": 2022,
+      "state_code": "CA",
+      "complexity_tier": "medium",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "7fbc7e7357068d9e868eeafd836989d2e2affcde6124e4a61b0fce3565bac9e3"
+    },
+    {
+      "index": 19,
+      "slug": "dataset_00020",
+      "stream_seed": 8472034301977417328,
+      "tax_year": 2022,
+      "state_code": "TX",
+      "complexity_tier": "medium",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "d4acb957e797b8c6e6e62e8d783dabb651fef266f96dc0044411f947fcd2b023"
+    },
+    {
+      "index": 20,
+      "slug": "dataset_00021",
+      "stream_seed": 456651778190509988,
+      "tax_year": 2022,
+      "state_code": "TX",
+      "complexity_tier": "easy",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "bf04e1139894918f2772bcf2f76947c8c43fd9bb090685418d8474980f978f36"
+    },
+    {
+      "index": 21,
+      "slug": "dataset_00022",
+      "stream_seed": 7819547030463774417,
+      "tax_year": 2021,
+      "state_code": "TX",
+      "complexity_tier": "moderately_complex",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "3d25d3da189e3065c5227d65665c6ca4c888518c566e33513731569ea8aed2b0"
+    },
+    {
+      "index": 22,
+      "slug": "dataset_00023",
+      "stream_seed": 7314500210604746415,
+      "tax_year": 2021,
+      "state_code": "IL",
+      "complexity_tier": "medium",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "0d29b4ea6c62f0e6a2c56655bff2d7171c142ab199a8b7eff09c7aaf8011b899"
+    },
+    {
+      "index": 23,
+      "slug": "dataset_00024",
+      "stream_seed": 6534445478053217690,
+      "tax_year": 2023,
+      "state_code": "NY",
+      "complexity_tier": "medium",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "87f3d5f750874f89d5023ad718f5f7b78c4e49e39c86d33de7aecee3cbd92727"
+    },
+    {
+      "index": 24,
+      "slug": "dataset_00025",
+      "stream_seed": 5638421020130980815,
+      "tax_year": 2024,
+      "state_code": "FL",
+      "complexity_tier": "medium",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "11efab017f580d03d15685dc6d2e06c10a8ed1d2523a1a426190747cdd25ee46"
+    }
+  ]
+}

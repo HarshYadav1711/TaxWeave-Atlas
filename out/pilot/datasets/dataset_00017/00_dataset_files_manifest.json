@@ -1,0 +1,25 @@
+{
+  "format": "taxweave-atlas-dataset-files-v2",
+  "structure_blueprint_version": 1,
+  "export_token": "20250101T000000Z-00017-000",
+  "tax_year": 2025,
+  "case_fingerprint": "4cfff9bc38f315d11d4ce57cb35a25f37eebb036838272e5f8007d620bac9368",
+  "case_json_sha256": "82f4ef21300a0e5450e95868b2d42fe1a91e36e4ef2da8c9667548eec0042e34",
+  "files_sha256": {
+    "1. Client Summary-20250101T000000Z-00017-000/1. Client Summary/Client Summary.docx": "2709c71965862699089dd2383c47c1e68c1caf909f70e23c50876b9db0352730",
+    "2. Input Documents-20250101T000000Z-00017-000/2. Input Documents/Tax Document Attachments Summary.docx": "148b482ba9ad9de3138e45cf291972ddd1b881d04f2f9b719ceb3432716bdce2",
+    "2. Input Documents-20250101T000000Z-00017-000/2. Input Documents/1099- DIV/1099-DIV INGRAM.pdf": "cfb696c41fdf529ce16d424514c5901a3dac473a6f0970f62cb95b004ffbb3b1",
+    "2. Input Documents-20250101T000000Z-00017-000/2. Input Documents/1099-INT/1099-INT INGRAM.pdf": "54c76709c65278237f2ec8d34346f551e41d64295562249d551c96483ebfdd29",
+    "2. Input Documents-20250101T000000Z-00017-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2025_.xlsx": "0f8ddd07e52d874522b3c5ef7b9198e8f8aba0ebee302825a88a39ff5c807b75",
+    "2. Input Documents-20250101T000000Z-00017-000/2. Input Documents/Form W-2/Form W-2.pdf": "9965ca19e5e93fa983b3da67913875d77fac69af3729a8e74a65d449ebeb26d6",
+    "2. Input Documents-20250101T000000Z-00017-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "18287ed174584de35907973170ad119f9e95e6a3a2c4b3b9f9346bd06453bf57",
+    "2. Input Documents-20250101T000000Z-00017-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2025.xlsx": "0f8ddd07e52d874522b3c5ef7b9198e8f8aba0ebee302825a88a39ff5c807b75",
+    "3. Complete form-20250101T000000Z-00017-000/3. Complete form/2025 Tax Return Documents (Dakota Ingram (synthetic)).pdf": "08dd459d074c330720ac3943c0d0368f65d206f0b004641c6330b449e71e0d6e",
+    "3. Complete form-20250101T000000Z-00017-000/3. Complete form/Completed forms - Summary.docx": "8aad8d769b6eb11fcdf5d2fe6357a4dda3ce1798a1b4d3a647e44badeabcb959",
+    "4. Executive Summary-20250101T000000Z-00017-000/4. Executive Summary/4. Summary_.docx": "4c06f2b3e38e8374d01d847f7846284bc7cc857c4e0ac517b40ca8d25e8468a3",
+    "4. Executive Summary-20250101T000000Z-00017-000/4. Executive Summary/Executive Summary Dakota Ingram 2025.pdf": "5f1d9ef36c79104a74716f491e7c2a4008dcbef0607e58e49d6f3415e7682886",
+    "Prompt-20250101T000000Z-00017-000/Prompt/Tax Return Data - Prompt.docx": "719bf8e6e5a9af2b79fcf3b7a2cae1130b6c6102df8bc5f41312ed2dd714cfad",
+    "Prompt-20250101T000000Z-00017-000/Prompt/Tax Return Data - Prompt.xml": "cb261bc433cdd67e55c6e2dca1d67d109653f9080ed14d4bbc2e60fa79f71c73"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

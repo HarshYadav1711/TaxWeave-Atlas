@@ -1,0 +1,84 @@
+{
+  "tax_year": 2023,
+  "profile": {
+    "primary_first_name": "Riley",
+    "primary_last_name": "Foster",
+    "spouse_first_name": null,
+    "spouse_last_name": null,
+    "filing_status": "head_of_household",
+    "taxpayer_label": "Riley Foster (synthetic)",
+    "synthetic_ssn_primary": "900-28-1037",
+    "synthetic_ssn_spouse": null,
+    "address": {
+      "line1": "501 Willow Way",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "78701"
+    },
+    "primary_full_name": "Riley Foster"
+  },
+  "questionnaire": {
+    "answers": {
+      "q_wages_reported": 74616,
+      "q_foreign_account": false,
+      "q_crypto": false,
+      "q_energy_credits": false
+    }
+  },
+  "income": {
+    "wages": 74616,
+    "interest": 0,
+    "dividends_ordinary": 8846,
+    "federal_withholding": 13308,
+    "w2": {
+      "employer_name": "Sample Valley Services LLC",
+      "employer_ein": "00-4004105",
+      "employee_name": "Riley Foster",
+      "employee_ssn": "900-28-1037",
+      "social_security_wages": 74616,
+      "medicare_wages": 74616
+    },
+    "forms_1099_int": {
+      "payer_name": "Synthetic Interest Payer NA",
+      "payer_tin": "00-4024711",
+      "recipient_name": "Riley Foster",
+      "recipient_tin": "900-28-1037",
+      "interest_reported": 0
+    }
+  },
+  "federal": {
+    "lines": {
+      "wages": 74616,
+      "taxable_interest": 0,
+      "ordinary_dividends": 8846,
+      "agi": 83462,
+      "standard_deduction": 20800,
+      "taxable_income": 62662,
+      "total_tax": 8839,
+      "federal_withholding": 13308
+    }
+  },
+  "state": {
+    "code": "TX",
+    "adjustments": {
+      "additions": 146,
+      "subtractions": 0
+    },
+    "lines": {
+      "state_wages": 74616,
+      "additions": 146,
+      "subtractions": 0,
+      "state_taxable_income": 83608,
+      "state_tax": 0
+    },
+    "tax_computed": 0
+  },
+  "executive_summary": {
+    "agi": 83462,
+    "taxable_income": 62662,
+    "total_tax": 8839,
+    "federal_withholding": 13308,
+    "state_tax": 0,
+    "effective_rate_federal": 0.1059
+  }
+}

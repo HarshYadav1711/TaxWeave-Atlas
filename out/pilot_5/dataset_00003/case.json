@@ -1,0 +1,84 @@
+{
+  "tax_year": 2023,
+  "profile": {
+    "primary_first_name": "Sage",
+    "primary_last_name": "Hayes",
+    "spouse_first_name": null,
+    "spouse_last_name": null,
+    "filing_status": "single",
+    "taxpayer_label": "Sage Hayes (synthetic)",
+    "synthetic_ssn_primary": "900-24-0531",
+    "synthetic_ssn_spouse": null,
+    "address": {
+      "line1": "415 Birch Rd",
+      "city": "Sacramento",
+      "state": "CA",
+      "zip": "95814"
+    },
+    "primary_full_name": "Sage Hayes"
+  },
+  "questionnaire": {
+    "answers": {
+      "q_wages_reported": 96747,
+      "q_foreign_account": false,
+      "q_crypto": false,
+      "q_energy_credits": false
+    }
+  },
+  "income": {
+    "wages": 96747,
+    "interest": 0,
+    "dividends_ordinary": 0,
+    "federal_withholding": 19085,
+    "w2": {
+      "employer_name": "Northwind Synthetic Payroll LLC",
+      "employer_ein": "00-2009265",
+      "employee_name": "Sage Hayes",
+      "employee_ssn": "900-24-0531",
+      "social_security_wages": 96747,
+      "medicare_wages": 96747
+    },
+    "forms_1099_int": {
+      "payer_name": "Synthetic Interest Payer NA",
+      "payer_tin": "00-2030600",
+      "recipient_name": "Sage Hayes",
+      "recipient_tin": "900-24-0531",
+      "interest_reported": 0
+    }
+  },
+  "federal": {
+    "lines": {
+      "wages": 96747,
+      "taxable_interest": 0,
+      "ordinary_dividends": 0,
+      "agi": 96747,
+      "standard_deduction": 13850,
+      "taxable_income": 82897,
+      "total_tax": 13290,
+      "federal_withholding": 19085
+    }
+  },
+  "state": {
+    "code": "CA",
+    "adjustments": {
+      "additions": 0,
+      "subtractions": 0
+    },
+    "lines": {
+      "state_wages": 96747,
+      "additions": 0,
+      "subtractions": 0,
+      "state_taxable_income": 96747,
+      "state_tax": 5321
+    },
+    "tax_computed": 5321
+  },
+  "executive_summary": {
+    "agi": 96747,
+    "taxable_income": 82897,
+    "total_tax": 13290,
+    "federal_withholding": 19085,
+    "state_tax": 5321,
+    "effective_rate_federal": 0.1374
+  }
+}

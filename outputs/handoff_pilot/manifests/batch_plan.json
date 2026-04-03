@@ -1,0 +1,61 @@
+{
+  "version": "1",
+  "stage": "synthetic_generation_v1",
+  "master_seed": 9,
+  "count": 5,
+  "complexity_level": "easy",
+  "default_tax_year": 2023,
+  "note": "Synthetic taxpayer generation with reconciliation and PDF bundle per dataset (see 00_dataset_files_manifest.json and 01–06 PDFs).",
+  "datasets": [
+    {
+      "index": 0,
+      "slug": "dataset_00001",
+      "stream_seed": 10344481684709965269,
+      "tax_year": 2024,
+      "state_code": "CA",
+      "complexity_tier": "moderately_complex",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "2f3b1c49375134ac867fef047e980b4d02fa7de1bcad08d7f0214a47181d9b9b"
+    },
+    {
+      "index": 1,
+      "slug": "dataset_00002",
+      "stream_seed": 10647064519725495078,
+      "tax_year": 2022,
+      "state_code": "IL",
+      "complexity_tier": "moderately_complex",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "69612d5d83e2cedf2c1df777804e49356bac71af91a022b8b075be46244d857a"
+    },
+    {
+      "index": 2,
+      "slug": "dataset_00003",
+      "stream_seed": 6363841254950633804,
+      "tax_year": 2023,
+      "state_code": "IL",
+      "complexity_tier": "medium",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "4b0ced238154bf072b7c0d6921819b9928340b61e5bb25d14739bcd2e275bbc7"
+    },
+    {
+      "index": 3,
+      "slug": "dataset_00004",
+      "stream_seed": 2868023246765067025,
+      "tax_year": 2025,
+      "state_code": "TX",
+      "complexity_tier": "medium",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "4ebc75dad7817f86b1a24edc6d1f135b59fdcd8e3ce4acf496bf119726505c3a"
+    },
+    {
+      "index": 4,
+      "slug": "dataset_00005",
+      "stream_seed": 3267008971371206457,
+      "tax_year": 2025,
+      "state_code": "NY",
+      "complexity_tier": "medium",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "2ae66942e703125c6d07d6859bd7b3a649fa29a120898d6467014f33ffd3dff2"
+    }
+  ]
+}

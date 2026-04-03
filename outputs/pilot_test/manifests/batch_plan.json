@@ -1,0 +1,61 @@
+{
+  "version": "1",
+  "stage": "foundation",
+  "master_seed": 42,
+  "count": 10,
+  "complexity_level": "baseline",
+  "default_tax_year": 2023,
+  "note": "Generation, reconciliation, and PDF rendering are not executed in this stage — this manifest records deterministic ids/seeds only.",
+  "datasets": [
+    {
+      "index": 0,
+      "slug": "dataset_00001",
+      "stream_seed": 14343004183857124121
+    },
+    {
+      "index": 1,
+      "slug": "dataset_00002",
+      "stream_seed": 6709808279655005154
+    },
+    {
+      "index": 2,
+      "slug": "dataset_00003",
+      "stream_seed": 2583314200599257047
+    },
+    {
+      "index": 3,
+      "slug": "dataset_00004",
+      "stream_seed": 285154817984157543
+    },
+    {
+      "index": 4,
+      "slug": "dataset_00005",
+      "stream_seed": 12406036198488783798
+    },
+    {
+      "index": 5,
+      "slug": "dataset_00006",
+      "stream_seed": 18314519908278859692
+    },
+    {
+      "index": 6,
+      "slug": "dataset_00007",
+      "stream_seed": 3061709711095558902
+    },
+    {
+      "index": 7,
+      "slug": "dataset_00008",
+      "stream_seed": 1530774015457776546
+    },
+    {
+      "index": 8,
+      "slug": "dataset_00009",
+      "stream_seed": 9535422588959462925
+    },
+    {
+      "index": 9,
+      "slug": "dataset_00010",
+      "stream_seed": 16341596987298259560
+    }
+  ]
+}

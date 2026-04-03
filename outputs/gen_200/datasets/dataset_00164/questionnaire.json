@@ -1,0 +1,18 @@
+{
+  "answers": {
+    "q_wages_reported": 130881,
+    "q_foreign_account": false,
+    "q_crypto": false,
+    "q_energy_credits": false,
+    "num_qualifying_children_under_17": 1,
+    "num_other_dependents": 0,
+    "itemized_deduction_elected": false,
+    "has_self_employment_income": false,
+    "has_retirement_distributions": false,
+    "extensions": {
+      "complexity_tier": "medium",
+      "stratum_state": "TX",
+      "stratum_tax_year": "2024"
+    }
+  }
+}

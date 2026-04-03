@@ -1,0 +1,160 @@
+{
+  "tax_year": 2021,
+  "profile": {
+    "primary_first_name": "Sage",
+    "primary_last_name": "Navarro",
+    "spouse_first_name": null,
+    "spouse_last_name": null,
+    "filing_status": "single",
+    "taxpayer_label": "Sage Navarro (synthetic)",
+    "synthetic_ssn_primary": "900-15-1726",
+    "synthetic_ssn_spouse": null,
+    "address": {
+      "line1": "88 Spruce Ln",
+      "line2": null,
+      "city": "Austin",
+      "state": "TX",
+      "zip": "78701"
+    },
+    "dependents_qualifying_children_under_17": 0,
+    "dependents_other": 1,
+    "primary_full_name": "Sage Navarro"
+  },
+  "questionnaire": {
+    "answers": {
+      "q_wages_reported": 63449,
+      "q_foreign_account": false,
+      "q_crypto": false,
+      "q_energy_credits": false,
+      "num_qualifying_children_under_17": 0,
+      "num_other_dependents": 1,
+      "itemized_deduction_elected": false,
+      "has_self_employment_income": false,
+      "has_retirement_distributions": true,
+      "extensions": {
+        "complexity_tier": "moderately_complex",
+        "stratum_state": "TX",
+        "stratum_tax_year": "2021",
+        "dataset_slug": "dataset_00022"
+      }
+    }
+  },
+  "income": {
+    "wages": 63449,
+    "interest": 7695,
+    "dividends_ordinary": 19182,
+    "federal_withholding": 11681,
+    "w2": {
+      "employer_name": "Northwind Synthetic Payroll LLC",
+      "employer_ein": "02-1006659",
+      "employee_name": "Sage Navarro",
+      "employee_ssn": "900-15-1726",
+      "social_security_wages": 63449,
+      "medicare_wages": 63449
+    },
+    "forms_1099_int": {
+      "payer_name": "Great Plains Synthetic Credit Union",
+      "payer_tin": "02-1028392",
+      "recipient_name": "Sage Navarro",
+      "recipient_tin": "900-15-1726",
+      "interest_reported": 7695
+    },
+    "other_ordinary_income": {},
+    "passive_income": {
+      "retirement_distributions": 11620
+    }
+  },
+  "deductions": {
+    "elected_method": "standard",
+    "standard_amount_override": null,
+    "itemized_components": {},
+    "adjustments_to_agi": {}
+  },
+  "credits": {
+    "credits": []
+  },
+  "supporting_documents": {
+    "documents": [
+      {
+        "kind": "w2",
+        "document_id": "W2-dataset_00022",
+        "display_name": "Synthetic Form W-2",
+        "key_amounts": {
+          "wages": 63449,
+          "federal_withholding": 11681
+        },
+        "key_strings": {
+          "employer_ein": "02-1006659"
+        }
+      },
+      {
+        "kind": "1099_int",
+        "document_id": "1099INT-dataset_00022",
+        "display_name": "Synthetic Form 1099-INT",
+        "key_amounts": {
+          "interest": 7695
+        },
+        "key_strings": {
+          "payer_tin": "02-1028392"
+        }
+      },
+      {
+        "kind": "1099_div",
+        "document_id": "1099DIV-dataset_00022",
+        "display_name": "Synthetic Form 1099-DIV",
+        "key_amounts": {
+          "ordinary_dividends": 19182
+        },
+        "key_strings": {
+          "payer_tin": "02-1028392"
+        }
+      }
+    ]
+  },
+  "federal": {
+    "lines": {
+      "wages": 63449,
+      "taxable_interest": 7695,
+      "ordinary_dividends": 19182,
+      "agi": 101946,
+      "standard_deduction": 12550,
+      "taxable_income": 89396,
+      "total_tax": 14720,
+      "federal_withholding": 11681,
+      "additional_lines": {
+        "statutory_standard_deduction": 12550,
+        "schedule_a_total": 0,
+        "itemized_elected": 0,
+        "pre_credit_income_tax": 14720,
+        "nonrefundable_credits_applied": 0,
+        "refundable_credits_applied": 0
+      }
+    },
+    "form_references": []
+  },
+  "state": {
+    "code": "TX",
+    "adjustments": {
+      "additions": 0,
+      "subtractions": 0
+    },
+    "lines": {
+      "state_wages": 63449,
+      "additions": 0,
+      "subtractions": 0,
+      "state_taxable_income": 101946,
+      "state_tax": 0,
+      "additional_lines": {}
+    },
+    "tax_computed": 0,
+    "form_references": []
+  },
+  "executive_summary": {
+    "agi": 101946,
+    "taxable_income": 89396,
+    "total_tax": 14720,
+    "federal_withholding": 11681,
+    "state_tax": 0,
+    "effective_rate_federal": 0.1444
+  }
+}

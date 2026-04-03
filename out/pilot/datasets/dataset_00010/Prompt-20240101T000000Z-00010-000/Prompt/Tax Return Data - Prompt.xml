@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>900150759</PrimarySSN>
+      <NameLine1Txt>Avery Diaz</NameLine1Txt>
+      <PrimaryNameControlTxt>DIAZ</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1400 Pecan Blvd</AddressLine1Txt>
+        <CityNm>Houston</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77002</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <TaxWeaveAtlasCoverage>
+    <SyntheticSubsetInd>true</SyntheticSubsetInd>
+    <UnmodeledSchedulesTxt>IRS1040Schedule2,IRS1040ScheduleC,IRS1040ScheduleSE,IRS1040Schedule8812,IRS8995,IRS4562</UnmodeledSchedulesTxt>
+  </TaxWeaveAtlasCoverage>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <WagesAmt>59031</WagesAmt>
+      <TaxableInterestAmt>1757</TaxableInterestAmt>
+      <OrdinaryDividendsAmt>6911</OrdinaryDividendsAmt>
+      <AdjustedGrossIncomeAmt>67699</AdjustedGrossIncomeAmt>
+      <TaxableIncomeAmt>53099</TaxableIncomeAmt>
+      <TotalTaxAmt>6735</TotalTaxAmt>
+      <WithholdingTaxAmt>11270</WithholdingTaxAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>900150759</EmployeeSSN>
+      <EmployerEIN>009012308</EmployerEIN>
+      <EmployerName>
+        <BusinessNameLine1Txt>Pioneer Stub Data Corp</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployeeNm>Avery Diaz</EmployeeNm>
+      <WagesAmt>59031</WagesAmt>
+      <WithholdingAmt>11270</WithholdingAmt>
+      <SocialSecurityWagesAmt>59031</SocialSecurityWagesAmt>
+      <MedicareWagesAndTipsAmt>59031</MedicareWagesAndTipsAmt>
+    </IRSW2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1757</InterestAmt>
+      <TotalInterestAmt>1757</TotalInterestAmt>
+      <OrdinaryDividendsAmt>6911</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>6911</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+  </ReturnData>
+</Return>

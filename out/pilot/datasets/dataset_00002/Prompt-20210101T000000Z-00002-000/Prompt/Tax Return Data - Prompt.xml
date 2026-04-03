@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>900630125</PrimarySSN>
+      <NameLine1Txt>Morgan Bennett</NameLine1Txt>
+      <PrimaryNameControlTxt>BENN</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>250 Palmetto Dr</AddressLine1Txt>
+        <CityNm>Orlando</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32801</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <TaxWeaveAtlasCoverage>
+    <SyntheticSubsetInd>true</SyntheticSubsetInd>
+    <UnmodeledSchedulesTxt>IRS1040Schedule2,IRS1040ScheduleC,IRS1040ScheduleSE,IRS1040Schedule8812,IRS8995,IRS4562</UnmodeledSchedulesTxt>
+  </TaxWeaveAtlasCoverage>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <WagesAmt>158109</WagesAmt>
+      <TaxableInterestAmt>5880</TaxableInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <AdjustedGrossIncomeAmt>201014</AdjustedGrossIncomeAmt>
+      <TaxableIncomeAmt>188464</TaxableIncomeAmt>
+      <TotalTaxAmt>34163</TotalTaxAmt>
+      <WithholdingTaxAmt>32120</WithholdingTaxAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>900630125</EmployeeSSN>
+      <EmployerEIN>001010891</EmployerEIN>
+      <EmployerName>
+        <BusinessNameLine1Txt>Riverside Test Labs Co</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployeeNm>Morgan Bennett</EmployeeNm>
+      <WagesAmt>158109</WagesAmt>
+      <WithholdingAmt>32120</WithholdingAmt>
+      <SocialSecurityWagesAmt>158109</SocialSecurityWagesAmt>
+      <MedicareWagesAndTipsAmt>158109</MedicareWagesAndTipsAmt>
+    </IRSW2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>5880</InterestAmt>
+      <TotalInterestAmt>5880</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+  </ReturnData>
+</Return>

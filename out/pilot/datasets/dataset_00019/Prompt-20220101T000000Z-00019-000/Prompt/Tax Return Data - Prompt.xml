@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>900861471</PrimarySSN>
+      <NameLine1Txt>Jordan Keller</NameLine1Txt>
+      <PrimaryNameControlTxt>KELL</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>250 Palmetto Dr</AddressLine1Txt>
+        <CityNm>Tampa</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>33602</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <TaxWeaveAtlasCoverage>
+    <SyntheticSubsetInd>true</SyntheticSubsetInd>
+    <UnmodeledSchedulesTxt>IRS1040Schedule2,IRS1040ScheduleC,IRS1040ScheduleSE,IRS1040Schedule8812,IRS8995,IRS4562</UnmodeledSchedulesTxt>
+  </TaxWeaveAtlasCoverage>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <WagesAmt>159650</WagesAmt>
+      <TaxableInterestAmt>380</TaxableInterestAmt>
+      <OrdinaryDividendsAmt>16040</OrdinaryDividendsAmt>
+      <AdjustedGrossIncomeAmt>224203</AdjustedGrossIncomeAmt>
+      <TaxableIncomeAmt>211253</TaxableIncomeAmt>
+      <TotalTaxAmt>39859</TotalTaxAmt>
+      <WithholdingTaxAmt>18980</WithholdingTaxAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>900861471</EmployeeSSN>
+      <EmployerEIN>018018817</EmployerEIN>
+      <EmployerName>
+        <BusinessNameLine1Txt>Prairie View Logistics LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployeeNm>Jordan Keller</EmployeeNm>
+      <WagesAmt>159650</WagesAmt>
+      <WithholdingAmt>18980</WithholdingAmt>
+      <SocialSecurityWagesAmt>159650</SocialSecurityWagesAmt>
+      <MedicareWagesAndTipsAmt>159650</MedicareWagesAndTipsAmt>
+    </IRSW2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>380</InterestAmt>
+      <TotalInterestAmt>380</TotalInterestAmt>
+      <OrdinaryDividendsAmt>16040</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>16040</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+  </ReturnData>
+</Return>

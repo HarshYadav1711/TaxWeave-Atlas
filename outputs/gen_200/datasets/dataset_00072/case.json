@@ -1,0 +1,139 @@
+{
+  "tax_year": 2024,
+  "profile": {
+    "primary_first_name": "Emery",
+    "primary_last_name": "Patel",
+    "spouse_first_name": "River",
+    "spouse_last_name": "Okoro",
+    "filing_status": "married_filing_separately",
+    "taxpayer_label": "Emery Patel (synthetic)",
+    "synthetic_ssn_primary": "900-67-5701",
+    "synthetic_ssn_spouse": "900-15-5640",
+    "address": {
+      "line1": "9 Hudson Row",
+      "line2": null,
+      "city": "Buffalo",
+      "state": "NY",
+      "zip": "14202"
+    },
+    "dependents_qualifying_children_under_17": 0,
+    "dependents_other": 0,
+    "primary_full_name": "Emery Patel"
+  },
+  "questionnaire": {
+    "answers": {
+      "q_wages_reported": 58051,
+      "q_foreign_account": false,
+      "q_crypto": false,
+      "q_energy_credits": false,
+      "num_qualifying_children_under_17": 0,
+      "num_other_dependents": 0,
+      "itemized_deduction_elected": false,
+      "has_self_employment_income": false,
+      "has_retirement_distributions": false,
+      "extensions": {
+        "complexity_tier": "easy",
+        "stratum_state": "NY",
+        "stratum_tax_year": "2024"
+      }
+    }
+  },
+  "income": {
+    "wages": 58051,
+    "interest": 0,
+    "dividends_ordinary": 0,
+    "federal_withholding": 5567,
+    "w2": {
+      "employer_name": "Prairie View Logistics LLC",
+      "employer_ein": "07-1029257",
+      "employee_name": "Emery Patel",
+      "employee_ssn": "900-67-5701",
+      "social_security_wages": 58051,
+      "medicare_wages": 58051
+    },
+    "forms_1099_int": {
+      "payer_name": "Sample National Trust FSB",
+      "payer_tin": "07-1043373",
+      "recipient_name": "Emery Patel",
+      "recipient_tin": "900-67-5701",
+      "interest_reported": 0
+    },
+    "other_ordinary_income": {},
+    "passive_income": {}
+  },
+  "deductions": {
+    "elected_method": "standard",
+    "standard_amount_override": null,
+    "itemized_components": {},
+    "adjustments_to_agi": {}
+  },
+  "credits": {
+    "credits": []
+  },
+  "supporting_documents": {
+    "documents": [
+      {
+        "kind": "w2",
+        "document_id": "W2-dataset_00072",
+        "display_name": "Synthetic Form W-2",
+        "key_amounts": {
+          "wages": 58051,
+          "federal_withholding": 5567
+        },
+        "key_strings": {
+          "employer_ein": "07-1029257"
+        }
+      },
+      {
+        "kind": "1099_int",
+        "document_id": "1099INT-dataset_00072",
+        "display_name": "Synthetic Form 1099-INT",
+        "key_amounts": {
+          "interest": 0
+        },
+        "key_strings": {
+          "payer_tin": "07-1043373"
+        }
+      }
+    ]
+  },
+  "federal": {
+    "lines": {
+      "wages": 58051,
+      "taxable_interest": 0,
+      "ordinary_dividends": 0,
+      "agi": 58051,
+      "standard_deduction": 14600,
+      "taxable_income": 43451,
+      "total_tax": 4982,
+      "federal_withholding": 5567,
+      "additional_lines": {}
+    },
+    "form_references": []
+  },
+  "state": {
+    "code": "NY",
+    "adjustments": {
+      "additions": 0,
+      "subtractions": 0
+    },
+    "lines": {
+      "state_wages": 58051,
+      "additions": 0,
+      "subtractions": 0,
+      "state_taxable_income": 58051,
+      "state_tax": 3599,
+      "additional_lines": {}
+    },
+    "tax_computed": 3599,
+    "form_references": []
+  },
+  "executive_summary": {
+    "agi": 58051,
+    "taxable_income": 43451,
+    "total_tax": 4982,
+    "federal_withholding": 5567,
+    "state_tax": 3599,
+    "effective_rate_federal": 0.0858
+  }
+}

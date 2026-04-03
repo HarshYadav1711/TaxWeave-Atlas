@@ -1,0 +1,84 @@
+{
+  "tax_year": 2023,
+  "profile": {
+    "primary_first_name": "Casey",
+    "primary_last_name": "Carter",
+    "spouse_first_name": "Riley",
+    "spouse_last_name": "Hayes",
+    "filing_status": "married_filing_jointly",
+    "taxpayer_label": "Casey Carter (synthetic)",
+    "synthetic_ssn_primary": "900-27-8787",
+    "synthetic_ssn_spouse": "900-72-7510",
+    "address": {
+      "line1": "88 Spruce Ln",
+      "city": "Albany",
+      "state": "NY",
+      "zip": "12207"
+    },
+    "primary_full_name": "Casey Carter"
+  },
+  "questionnaire": {
+    "answers": {
+      "q_wages_reported": 78026,
+      "q_foreign_account": false,
+      "q_crypto": false,
+      "q_energy_credits": false
+    }
+  },
+  "income": {
+    "wages": 78026,
+    "interest": 2141,
+    "dividends_ordinary": 5802,
+    "federal_withholding": 9571,
+    "w2": {
+      "employer_name": "Atlas Demo Manufacturing Inc",
+      "employer_ein": "07-2007356",
+      "employee_name": "Casey Carter",
+      "employee_ssn": "900-27-8787",
+      "social_security_wages": 78026,
+      "medicare_wages": 78026
+    },
+    "forms_1099_int": {
+      "payer_name": "Synthetic Interest Payer NA",
+      "payer_tin": "07-2029201",
+      "recipient_name": "Casey Carter",
+      "recipient_tin": "900-27-8787",
+      "interest_reported": 2141
+    }
+  },
+  "federal": {
+    "lines": {
+      "wages": 78026,
+      "taxable_interest": 2141,
+      "ordinary_dividends": 5802,
+      "agi": 85969,
+      "standard_deduction": 27700,
+      "taxable_income": 58269,
+      "total_tax": 7872,
+      "federal_withholding": 9571
+    }
+  },
+  "state": {
+    "code": "NY",
+    "adjustments": {
+      "additions": 0,
+      "subtractions": 0
+    },
+    "lines": {
+      "state_wages": 78026,
+      "additions": 0,
+      "subtractions": 0,
+      "state_taxable_income": 85969,
+      "state_tax": 5330
+    },
+    "tax_computed": 5330
+  },
+  "executive_summary": {
+    "agi": 85969,
+    "taxable_income": 58269,
+    "total_tax": 7872,
+    "federal_withholding": 9571,
+    "state_tax": 5330,
+    "effective_rate_federal": 0.0916
+  }
+}

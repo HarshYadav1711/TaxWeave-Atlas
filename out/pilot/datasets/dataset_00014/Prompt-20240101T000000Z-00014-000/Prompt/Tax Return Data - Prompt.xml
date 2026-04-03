@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>900911075</PrimarySSN>
+      <NameLine1Txt>Skyler Mercer</NameLine1Txt>
+      <PrimaryNameControlTxt>MERC</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>501 Willow Way</AddressLine1Txt>
+        <CityNm>Houston</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77002</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <TaxWeaveAtlasCoverage>
+    <SyntheticSubsetInd>true</SyntheticSubsetInd>
+    <UnmodeledSchedulesTxt>IRS1040Schedule2,IRS1040ScheduleC,IRS1040ScheduleSE,IRS1040Schedule8812,IRS8995,IRS4562</UnmodeledSchedulesTxt>
+  </TaxWeaveAtlasCoverage>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <WagesAmt>76643</WagesAmt>
+      <TaxableInterestAmt>143</TaxableInterestAmt>
+      <OrdinaryDividendsAmt>3615</OrdinaryDividendsAmt>
+      <AdjustedGrossIncomeAmt>80401</AdjustedGrossIncomeAmt>
+      <TaxableIncomeAmt>65801</TaxableIncomeAmt>
+      <TotalTaxAmt>9529</TotalTaxAmt>
+      <WithholdingTaxAmt>15425</WithholdingTaxAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>900911075</EmployeeSSN>
+      <EmployerEIN>013019175</EmployerEIN>
+      <EmployerName>
+        <BusinessNameLine1Txt>Pioneer Stub Data Corp</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployeeNm>Skyler Mercer</EmployeeNm>
+      <WagesAmt>76643</WagesAmt>
+      <WithholdingAmt>15425</WithholdingAmt>
+      <SocialSecurityWagesAmt>76643</SocialSecurityWagesAmt>
+      <MedicareWagesAndTipsAmt>76643</MedicareWagesAndTipsAmt>
+    </IRSW2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>143</InterestAmt>
+      <TotalInterestAmt>143</TotalInterestAmt>
+      <OrdinaryDividendsAmt>3615</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>3615</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+  </ReturnData>
+</Return>

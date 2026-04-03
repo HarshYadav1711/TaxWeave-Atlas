@@ -1,0 +1,84 @@
+{
+  "tax_year": 2023,
+  "profile": {
+    "primary_first_name": "Rowan",
+    "primary_last_name": "Keller",
+    "spouse_first_name": null,
+    "spouse_last_name": null,
+    "filing_status": "head_of_household",
+    "taxpayer_label": "Rowan Keller (synthetic)",
+    "synthetic_ssn_primary": "900-94-6974",
+    "synthetic_ssn_spouse": null,
+    "address": {
+      "line1": "220 Cedar Ave",
+      "city": "Sacramento",
+      "state": "CA",
+      "zip": "95814"
+    },
+    "primary_full_name": "Rowan Keller"
+  },
+  "questionnaire": {
+    "answers": {
+      "q_wages_reported": 37219,
+      "q_foreign_account": false,
+      "q_crypto": false,
+      "q_energy_credits": false
+    }
+  },
+  "income": {
+    "wages": 37219,
+    "interest": 1334,
+    "dividends_ordinary": 0,
+    "federal_withholding": 6509,
+    "w2": {
+      "employer_name": "Riverside Test Labs Co",
+      "employer_ein": "01-5007565",
+      "employee_name": "Rowan Keller",
+      "employee_ssn": "900-94-6974",
+      "social_security_wages": 37219,
+      "medicare_wages": 37219
+    },
+    "forms_1099_int": {
+      "payer_name": "Synthetic Interest Payer NA",
+      "payer_tin": "01-5022630",
+      "recipient_name": "Rowan Keller",
+      "recipient_tin": "900-94-6974",
+      "interest_reported": 1334
+    }
+  },
+  "federal": {
+    "lines": {
+      "wages": 37219,
+      "taxable_interest": 1334,
+      "ordinary_dividends": 0,
+      "agi": 38553,
+      "standard_deduction": 20800,
+      "taxable_income": 17753,
+      "total_tax": 1898,
+      "federal_withholding": 6509
+    }
+  },
+  "state": {
+    "code": "CA",
+    "adjustments": {
+      "additions": 110,
+      "subtractions": 37
+    },
+    "lines": {
+      "state_wages": 37219,
+      "additions": 110,
+      "subtractions": 37,
+      "state_taxable_income": 38626,
+      "state_tax": 2124
+    },
+    "tax_computed": 2124
+  },
+  "executive_summary": {
+    "agi": 38553,
+    "taxable_income": 17753,
+    "total_tax": 1898,
+    "federal_withholding": 6509,
+    "state_tax": 2124,
+    "effective_rate_federal": 0.0492
+  }
+}

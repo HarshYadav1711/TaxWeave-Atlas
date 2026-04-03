@@ -1,0 +1,25 @@
+{
+  "format": "taxweave-atlas-dataset-files-v2",
+  "structure_blueprint_version": 1,
+  "export_token": "20210101T000000Z-00013-000",
+  "tax_year": 2021,
+  "case_fingerprint": "db5bf435bf86421451da559745704a1e71c2bbbd532c64b9ee04222b0c68ae50",
+  "case_json_sha256": "ebfaf6e1b1f27ae3c2d9a697e9e887569c5657191e4af478d01b7022534a18d2",
+  "files_sha256": {
+    "1. Client Summary-20210101T000000Z-00013-000/1. Client Summary/Client Summary.docx": "ad99da7f997e12f0a397b5c90b054291829a6135f72f46f9391be1ead316480b",
+    "2. Input Documents-20210101T000000Z-00013-000/2. Input Documents/Tax Document Attachments Summary.docx": "5644763ce8ff9fdeef8159682c3c555dfd117a5e91705343a2250e5f3d125a98",
+    "2. Input Documents-20210101T000000Z-00013-000/2. Input Documents/1099- DIV/1099-DIV LAWSON.pdf": "fbb3ab91fa7f8148a2af3cfe5a29915f0e5692214b392a115fa874784ba364f1",
+    "2. Input Documents-20210101T000000Z-00013-000/2. Input Documents/1099-INT/1099-INT LAWSON.pdf": "5169fca9dfae6432f7201a8f08130fd68e26a3b0d27a5caf0c5823b5a78f1116",
+    "2. Input Documents-20210101T000000Z-00013-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2021_.xlsx": "0f8ddd07e52d874522b3c5ef7b9198e8f8aba0ebee302825a88a39ff5c807b75",
+    "2. Input Documents-20210101T000000Z-00013-000/2. Input Documents/Form W-2/Form W-2.pdf": "85ed673c8c7340b4ddb5c0c388f52b9f001cf7c01f066184b910a0d8459c7900",
+    "2. Input Documents-20210101T000000Z-00013-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "d7fcdb62690aadfbd396474b5d05760630e2f7099a1db8e09f6b5596653e676e",
+    "2. Input Documents-20210101T000000Z-00013-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2021.xlsx": "0f8ddd07e52d874522b3c5ef7b9198e8f8aba0ebee302825a88a39ff5c807b75",
+    "3. Complete form-20210101T000000Z-00013-000/3. Complete form/2021 Tax Return Documents (River Lawson (synthetic)).pdf": "b406b26ca22774d4496249533cca8987599c146cc23a20713d50409ac370282a",
+    "3. Complete form-20210101T000000Z-00013-000/3. Complete form/Completed forms - Summary.docx": "1ab2f947819fe6d3023692d1406655ec698bbee72f9dd3cc2e3024e8754ba039",
+    "4. Executive Summary-20210101T000000Z-00013-000/4. Executive Summary/4. Summary_.docx": "44fdbf389eead52cb7e543f9a50a864ebad650572dba1f2916328c684118a9f7",
+    "4. Executive Summary-20210101T000000Z-00013-000/4. Executive Summary/Executive Summary River Lawson 2021.pdf": "77dbece056fb60b7886908a0ffe5fc89a1cd273ed50e4d3dd36a21a4c4709538",
+    "Prompt-20210101T000000Z-00013-000/Prompt/Tax Return Data - Prompt.docx": "2d475f13e7a10b39fb5d55d6fe8c1fd337807d458acb57efd49ba9507379225f",
+    "Prompt-20210101T000000Z-00013-000/Prompt/Tax Return Data - Prompt.xml": "2e83abe2b7305b6f2865b27590d934eb6a99843b214dd9d232171f95b69fd8b3"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

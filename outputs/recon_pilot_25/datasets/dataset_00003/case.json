@@ -1,0 +1,166 @@
+{
+  "tax_year": 2023,
+  "profile": {
+    "primary_first_name": "Dakota",
+    "primary_last_name": "Reyes",
+    "spouse_first_name": null,
+    "spouse_last_name": null,
+    "filing_status": "single",
+    "taxpayer_label": "Dakota Reyes (synthetic)",
+    "synthetic_ssn_primary": "900-54-0221",
+    "synthetic_ssn_spouse": null,
+    "address": {
+      "line1": "1400 Pecan Blvd",
+      "line2": null,
+      "city": "Austin",
+      "state": "TX",
+      "zip": "78701"
+    },
+    "dependents_qualifying_children_under_17": 1,
+    "dependents_other": 0,
+    "primary_full_name": "Dakota Reyes"
+  },
+  "questionnaire": {
+    "answers": {
+      "q_wages_reported": 50607,
+      "q_foreign_account": false,
+      "q_crypto": false,
+      "q_energy_credits": false,
+      "num_qualifying_children_under_17": 1,
+      "num_other_dependents": 0,
+      "itemized_deduction_elected": false,
+      "has_self_employment_income": false,
+      "has_retirement_distributions": true,
+      "extensions": {
+        "complexity_tier": "medium",
+        "stratum_state": "TX",
+        "stratum_tax_year": "2023",
+        "dataset_slug": "dataset_00003"
+      }
+    }
+  },
+  "income": {
+    "wages": 50607,
+    "interest": 2602,
+    "dividends_ordinary": 5751,
+    "federal_withholding": 10191,
+    "w2": {
+      "employer_name": "Harborline Synthetic Retail Inc",
+      "employer_ein": "00-2013012",
+      "employee_name": "Dakota Reyes",
+      "employee_ssn": "900-54-0221",
+      "social_security_wages": 50607,
+      "medicare_wages": 50607
+    },
+    "forms_1099_int": {
+      "payer_name": "Metroline Treasury Services LLC",
+      "payer_tin": "00-2044451",
+      "recipient_name": "Dakota Reyes",
+      "recipient_tin": "900-54-0221",
+      "interest_reported": 2602
+    },
+    "other_ordinary_income": {},
+    "passive_income": {
+      "retirement_distributions": 12007
+    }
+  },
+  "deductions": {
+    "elected_method": "standard",
+    "standard_amount_override": null,
+    "itemized_components": {},
+    "adjustments_to_agi": {}
+  },
+  "credits": {
+    "credits": [
+      {
+        "code": "CTC_SYNTH",
+        "amount": 2000,
+        "refundable": false
+      }
+    ]
+  },
+  "supporting_documents": {
+    "documents": [
+      {
+        "kind": "w2",
+        "document_id": "W2-dataset_00003",
+        "display_name": "Synthetic Form W-2",
+        "key_amounts": {
+          "wages": 50607,
+          "federal_withholding": 10191
+        },
+        "key_strings": {
+          "employer_ein": "00-2013012"
+        }
+      },
+      {
+        "kind": "1099_int",
+        "document_id": "1099INT-dataset_00003",
+        "display_name": "Synthetic Form 1099-INT",
+        "key_amounts": {
+          "interest": 2602
+        },
+        "key_strings": {
+          "payer_tin": "00-2044451"
+        }
+      },
+      {
+        "kind": "1099_div",
+        "document_id": "1099DIV-dataset_00003",
+        "display_name": "Synthetic Form 1099-DIV",
+        "key_amounts": {
+          "ordinary_dividends": 5751
+        },
+        "key_strings": {
+          "payer_tin": "00-2044451"
+        }
+      }
+    ]
+  },
+  "federal": {
+    "lines": {
+      "wages": 50607,
+      "taxable_interest": 2602,
+      "ordinary_dividends": 5751,
+      "agi": 70967,
+      "standard_deduction": 13850,
+      "taxable_income": 57117,
+      "total_tax": 5619,
+      "federal_withholding": 10191,
+      "additional_lines": {
+        "statutory_standard_deduction": 13850,
+        "schedule_a_total": 0,
+        "itemized_elected": 0,
+        "pre_credit_income_tax": 7619,
+        "nonrefundable_credits_applied": 2000,
+        "refundable_credits_applied": 0
+      }
+    },
+    "form_references": []
+  },
+  "state": {
+    "code": "TX",
+    "adjustments": {
+      "additions": 0,
+      "subtractions": 0
+    },
+    "lines": {
+      "state_wages": 50607,
+      "additions": 0,
+      "subtractions": 0,
+      "state_taxable_income": 70967,
+      "state_tax": 0,
+      "additional_lines": {}
+    },
+    "tax_computed": 0,
+    "form_references": []
+  },
+  "executive_summary": {
+    "agi": 70967,
+    "taxable_income": 57117,
+    "total_tax": 5619,
+    "federal_withholding": 10191,
+    "state_tax": 0,
+    "effective_rate_federal": 0.0792
+  }
+}

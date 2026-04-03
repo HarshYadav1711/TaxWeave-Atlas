@@ -1,0 +1,145 @@
+{
+  "tax_year": 2021,
+  "profile": {
+    "primary_first_name": "Rowan",
+    "primary_last_name": "Diaz",
+    "spouse_first_name": null,
+    "spouse_last_name": null,
+    "filing_status": "single",
+    "taxpayer_label": "Rowan Diaz (synthetic)",
+    "synthetic_ssn_primary": "900-09-0164",
+    "synthetic_ssn_spouse": null,
+    "address": {
+      "line1": "12 Bayfront Ct",
+      "line2": null,
+      "city": "Orlando",
+      "state": "FL",
+      "zip": "32801"
+    },
+    "dependents_qualifying_children_under_17": 1,
+    "dependents_other": 0,
+    "primary_full_name": "Rowan Diaz"
+  },
+  "questionnaire": {
+    "answers": {
+      "q_wages_reported": 49182,
+      "q_foreign_account": false,
+      "q_crypto": false,
+      "q_energy_credits": false,
+      "num_qualifying_children_under_17": 1,
+      "num_other_dependents": 0,
+      "itemized_deduction_elected": false,
+      "has_self_employment_income": false,
+      "has_retirement_distributions": false,
+      "extensions": {
+        "complexity_tier": "easy",
+        "stratum_state": "FL",
+        "stratum_tax_year": "2021"
+      }
+    }
+  },
+  "income": {
+    "wages": 49182,
+    "interest": 0,
+    "dividends_ordinary": 0,
+    "federal_withholding": 7197,
+    "w2": {
+      "employer_name": "Riverside Test Labs Co",
+      "employer_ein": "00-2022669",
+      "employee_name": "Rowan Diaz",
+      "employee_ssn": "900-09-0164",
+      "social_security_wages": 49182,
+      "medicare_wages": 49182
+    },
+    "forms_1099_int": {
+      "payer_name": "Sample National Trust FSB",
+      "payer_tin": "00-2064488",
+      "recipient_name": "Rowan Diaz",
+      "recipient_tin": "900-09-0164",
+      "interest_reported": 0
+    },
+    "other_ordinary_income": {},
+    "passive_income": {}
+  },
+  "deductions": {
+    "elected_method": "standard",
+    "standard_amount_override": null,
+    "itemized_components": {},
+    "adjustments_to_agi": {}
+  },
+  "credits": {
+    "credits": [
+      {
+        "code": "CTC_SYNTH",
+        "amount": 2000,
+        "refundable": false
+      }
+    ]
+  },
+  "supporting_documents": {
+    "documents": [
+      {
+        "kind": "w2",
+        "document_id": "W2-dataset_00003",
+        "display_name": "Synthetic Form W-2",
+        "key_amounts": {
+          "wages": 49182,
+          "federal_withholding": 7197
+        },
+        "key_strings": {
+          "employer_ein": "00-2022669"
+        }
+      },
+      {
+        "kind": "1099_int",
+        "document_id": "1099INT-dataset_00003",
+        "display_name": "Synthetic Form 1099-INT",
+        "key_amounts": {
+          "interest": 0
+        },
+        "key_strings": {
+          "payer_tin": "00-2064488"
+        }
+      }
+    ]
+  },
+  "federal": {
+    "lines": {
+      "wages": 49182,
+      "taxable_interest": 0,
+      "ordinary_dividends": 0,
+      "agi": 49182,
+      "standard_deduction": 12550,
+      "taxable_income": 36632,
+      "total_tax": 4164,
+      "federal_withholding": 7197,
+      "additional_lines": {}
+    },
+    "form_references": []
+  },
+  "state": {
+    "code": "FL",
+    "adjustments": {
+      "additions": 0,
+      "subtractions": 0
+    },
+    "lines": {
+      "state_wages": 49182,
+      "additions": 0,
+      "subtractions": 0,
+      "state_taxable_income": 49182,
+      "state_tax": 0,
+      "additional_lines": {}
+    },
+    "tax_computed": 0,
+    "form_references": []
+  },
+  "executive_summary": {
+    "agi": 49182,
+    "taxable_income": 36632,
+    "total_tax": 4164,
+    "federal_withholding": 7197,
+    "state_tax": 0,
+    "effective_rate_federal": 0.0847
+  }
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>900902738</PrimarySSN>
+      <NameLine1Txt>Finley Navarro</NameLine1Txt>
+      <PrimaryNameControlTxt>NAVA</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>220 Cedar Ave</AddressLine1Txt>
+        <CityNm>Fresno</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>93721</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <TaxWeaveAtlasCoverage>
+    <SyntheticSubsetInd>true</SyntheticSubsetInd>
+    <UnmodeledSchedulesTxt>IRS1040Schedule2,IRS1040ScheduleC,IRS1040ScheduleSE,IRS1040Schedule8812,IRS8995,IRS4562</UnmodeledSchedulesTxt>
+  </TaxWeaveAtlasCoverage>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <WagesAmt>66948</WagesAmt>
+      <TaxableInterestAmt>0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <AdjustedGrossIncomeAmt>66948</AdjustedGrossIncomeAmt>
+      <TaxableIncomeAmt>52348</TaxableIncomeAmt>
+      <TotalTaxAmt>6570</TotalTaxAmt>
+      <WithholdingTaxAmt>14041</WithholdingTaxAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>900902738</EmployeeSSN>
+      <EmployerEIN>034023661</EmployerEIN>
+      <EmployerName>
+        <BusinessNameLine1Txt>Harborline Synthetic Retail Inc</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployeeNm>Finley Navarro</EmployeeNm>
+      <WagesAmt>66948</WagesAmt>
+      <WithholdingAmt>14041</WithholdingAmt>
+      <SocialSecurityWagesAmt>66948</SocialSecurityWagesAmt>
+      <MedicareWagesAndTipsAmt>66948</MedicareWagesAndTipsAmt>
+    </IRSW2>
+  </ReturnData>
+</Return>

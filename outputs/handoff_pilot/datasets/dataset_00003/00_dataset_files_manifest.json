@@ -1,0 +1,14 @@
+{
+  "format": "taxweave-atlas-dataset-files-v1",
+  "tax_year": 2023,
+  "case_fingerprint": "4b0ced238154bf072b7c0d6921819b9928340b61e5bb25d14739bcd2e275bbc7",
+  "case_json_sha256": "aead460c99eed217902590003b1eb400ba42aebce4a4d11eb62fc3379250499f",
+  "pdf_files_sha256": {
+    "01_intake_questionnaire.pdf": "358bcb6b364be9a16b73a50494dec431329db760063b06b4dd45d2e2000baab1",
+    "02_supporting_form_w2.pdf": "01815cdc5dbf554b5455b09219f96a6b9ebdc46e1e47938d2d01ebaa7ecdd09a",
+    "03_supporting_form_1099_int.pdf": "1b8c09d69639042f58848779aa84c167996dd473ce6e1747b15719d434b4f6d5",
+    "04_federal_return_summary.pdf": "0fb357889ff96e8db630ded118d03cc468638e3cc2ee17bfe77635f1c339efff",
+    "05_state_return_summary.pdf": "2a8659e63850c449b8b48afc8bc177f1561509373ea28bd3f86b0d664e89b0f0",
+    "06_executive_summary.pdf": "e2b4c18d96083dcca91e80c6b77d9e5ac98856502d1591c8b4f3d183ecb2c331"
+  }
+}

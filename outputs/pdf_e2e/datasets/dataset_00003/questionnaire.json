@@ -1,0 +1,19 @@
+{
+  "answers": {
+    "q_wages_reported": 131300,
+    "q_foreign_account": false,
+    "q_crypto": false,
+    "q_energy_credits": false,
+    "num_qualifying_children_under_17": 0,
+    "num_other_dependents": 1,
+    "itemized_deduction_elected": false,
+    "has_self_employment_income": false,
+    "has_retirement_distributions": true,
+    "extensions": {
+      "complexity_tier": "medium",
+      "stratum_state": "NY",
+      "stratum_tax_year": "2023",
+      "dataset_slug": "dataset_00003"
+    }
+  }
+}

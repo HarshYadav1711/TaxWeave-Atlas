@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>900241630</PrimarySSN>
+      <NameLine1Txt>Reese Keller</NameLine1Txt>
+      <PrimaryNameControlTxt>KELL</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>220 Cedar Ave</AddressLine1Txt>
+        <CityNm>Fresno</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>93721</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <TaxWeaveAtlasCoverage>
+    <SyntheticSubsetInd>true</SyntheticSubsetInd>
+    <UnmodeledSchedulesTxt>IRS1040Schedule2,IRS1040ScheduleC,IRS1040ScheduleSE,IRS1040Schedule8812,IRS8995,IRS4562</UnmodeledSchedulesTxt>
+  </TaxWeaveAtlasCoverage>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <WagesAmt>188921</WagesAmt>
+      <TaxableInterestAmt>2277</TaxableInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <AdjustedGrossIncomeAmt>191198</AdjustedGrossIncomeAmt>
+      <TaxableIncomeAmt>178798</TaxableIncomeAmt>
+      <TotalTaxAmt>27953</TotalTaxAmt>
+      <WithholdingTaxAmt>34668</WithholdingTaxAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>900241630</EmployeeSSN>
+      <EmployerEIN>020036519</EmployerEIN>
+      <EmployerName>
+        <BusinessNameLine1Txt>Prairie View Logistics LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployeeNm>Reese Keller</EmployeeNm>
+      <WagesAmt>188921</WagesAmt>
+      <WithholdingAmt>34668</WithholdingAmt>
+      <SocialSecurityWagesAmt>188921</SocialSecurityWagesAmt>
+      <MedicareWagesAndTipsAmt>188921</MedicareWagesAndTipsAmt>
+    </IRSW2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>2277</InterestAmt>
+      <TotalInterestAmt>2277</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+  </ReturnData>
+</Return>

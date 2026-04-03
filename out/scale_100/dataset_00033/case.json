@@ -1,0 +1,84 @@
+{
+  "tax_year": 2023,
+  "profile": {
+    "primary_first_name": "Morgan",
+    "primary_last_name": "Lawson",
+    "spouse_first_name": null,
+    "spouse_last_name": null,
+    "filing_status": "head_of_household",
+    "taxpayer_label": "Morgan Lawson (synthetic)",
+    "synthetic_ssn_primary": "900-76-0918",
+    "synthetic_ssn_spouse": null,
+    "address": {
+      "line1": "415 Birch Rd",
+      "city": "Albany",
+      "state": "NY",
+      "zip": "12207"
+    },
+    "primary_full_name": "Morgan Lawson"
+  },
+  "questionnaire": {
+    "answers": {
+      "q_wages_reported": 109449,
+      "q_foreign_account": false,
+      "q_crypto": false,
+      "q_energy_credits": true
+    }
+  },
+  "income": {
+    "wages": 109449,
+    "interest": 636,
+    "dividends_ordinary": 3911,
+    "federal_withholding": 12188,
+    "w2": {
+      "employer_name": "Atlas Demo Manufacturing Inc",
+      "employer_ein": "03-2009227",
+      "employee_name": "Morgan Lawson",
+      "employee_ssn": "900-76-0918",
+      "social_security_wages": 109449,
+      "medicare_wages": 109449
+    },
+    "forms_1099_int": {
+      "payer_name": "Synthetic Interest Payer NA",
+      "payer_tin": "03-2022875",
+      "recipient_name": "Morgan Lawson",
+      "recipient_tin": "900-76-0918",
+      "interest_reported": 636
+    }
+  },
+  "federal": {
+    "lines": {
+      "wages": 109449,
+      "taxable_interest": 636,
+      "ordinary_dividends": 3911,
+      "agi": 113996,
+      "standard_deduction": 20800,
+      "taxable_income": 93196,
+      "total_tax": 15556,
+      "federal_withholding": 12188
+    }
+  },
+  "state": {
+    "code": "NY",
+    "adjustments": {
+      "additions": 0,
+      "subtractions": 0
+    },
+    "lines": {
+      "state_wages": 109449,
+      "additions": 0,
+      "subtractions": 0,
+      "state_taxable_income": 113996,
+      "state_tax": 7068
+    },
+    "tax_computed": 7068
+  },
+  "executive_summary": {
+    "agi": 113996,
+    "taxable_income": 93196,
+    "total_tax": 15556,
+    "federal_withholding": 12188,
+    "state_tax": 7068,
+    "effective_rate_federal": 0.1365
+  }
+}

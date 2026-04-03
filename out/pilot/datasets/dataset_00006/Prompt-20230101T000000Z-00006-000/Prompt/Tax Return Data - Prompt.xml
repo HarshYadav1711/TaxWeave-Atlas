@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>900390442</PrimarySSN>
+      <NameLine1Txt>Jordan Ingram</NameLine1Txt>
+      <PrimaryNameControlTxt>INGR</PrimaryNameControlTxt>
+      <SpouseSSN>900850444</SpouseSSN>
+      <SpouseNameLine1Txt>Sage Jennings</SpouseNameLine1Txt>
+      <SpouseNameControlTxt>JENN</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>415 Birch Rd</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <TaxWeaveAtlasCoverage>
+    <SyntheticSubsetInd>true</SyntheticSubsetInd>
+    <UnmodeledSchedulesTxt>IRS1040Schedule2,IRS1040ScheduleC,IRS1040ScheduleSE,IRS1040Schedule8812,IRS8995,IRS4562</UnmodeledSchedulesTxt>
+  </TaxWeaveAtlasCoverage>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <WagesAmt>55604</WagesAmt>
+      <TaxableInterestAmt>0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt>15068</OrdinaryDividendsAmt>
+      <AdjustedGrossIncomeAmt>70672</AdjustedGrossIncomeAmt>
+      <TaxableIncomeAmt>42972</TaxableIncomeAmt>
+      <TotalTaxAmt>0</TotalTaxAmt>
+      <WithholdingTaxAmt>5469</WithholdingTaxAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>900390442</EmployeeSSN>
+      <EmployerEIN>005005334</EmployerEIN>
+      <EmployerName>
+        <BusinessNameLine1Txt>Harborline Synthetic Retail Inc</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployeeNm>Jordan Ingram</EmployeeNm>
+      <WagesAmt>55604</WagesAmt>
+      <WithholdingAmt>5469</WithholdingAmt>
+      <SocialSecurityWagesAmt>55604</SocialSecurityWagesAmt>
+      <MedicareWagesAndTipsAmt>55604</MedicareWagesAndTipsAmt>
+    </IRSW2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>0</InterestAmt>
+      <TotalInterestAmt>0</TotalInterestAmt>
+      <OrdinaryDividendsAmt>15068</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>15068</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+  </ReturnData>
+</Return>

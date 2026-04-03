@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<taxweave_atlas_prompt tax_year="2022" case_fingerprint="4d08a7bb82b922bcef4d1925690526fa4ef0d3fd769529bd61fa15a52ad5c33d" dataset_slug="dataset_00001">
+  <note>Synthetic case metadata for QA pipelines (not client-provided content).</note>
+</taxweave_atlas_prompt>

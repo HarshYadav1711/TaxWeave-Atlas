@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>900671392</PrimarySSN>
+      <NameLine1Txt>Morgan Navarro</NameLine1Txt>
+      <PrimaryNameControlTxt>NAVA</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>600 River Rd</AddressLine1Txt>
+        <CityNm>Rockford</CityNm>
+        <StateAbbreviationCd>IL</StateAbbreviationCd>
+        <ZIPCd>61101</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <TaxWeaveAtlasCoverage>
+    <SyntheticSubsetInd>true</SyntheticSubsetInd>
+    <UnmodeledSchedulesTxt>IRS1040Schedule2,IRS1040ScheduleC,IRS1040ScheduleSE,IRS1040Schedule8812,IRS8995,IRS4562</UnmodeledSchedulesTxt>
+  </TaxWeaveAtlasCoverage>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>4</IndividualReturnFilingStatusCd>
+      <WagesAmt>127881</WagesAmt>
+      <TaxableInterestAmt>0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt>9417</OrdinaryDividendsAmt>
+      <AdjustedGrossIncomeAmt>137298</AdjustedGrossIncomeAmt>
+      <TaxableIncomeAmt>116498</TaxableIncomeAmt>
+      <TotalTaxAmt>18426</TotalTaxAmt>
+      <WithholdingTaxAmt>20665</WithholdingTaxAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>900671392</EmployeeSSN>
+      <EmployerEIN>017015500</EmployerEIN>
+      <EmployerName>
+        <BusinessNameLine1Txt>Pioneer Stub Data Corp</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployeeNm>Morgan Navarro</EmployeeNm>
+      <WagesAmt>127881</WagesAmt>
+      <WithholdingAmt>20665</WithholdingAmt>
+      <SocialSecurityWagesAmt>127881</SocialSecurityWagesAmt>
+      <MedicareWagesAndTipsAmt>127881</MedicareWagesAndTipsAmt>
+    </IRSW2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>0</InterestAmt>
+      <TotalInterestAmt>0</TotalInterestAmt>
+      <OrdinaryDividendsAmt>9417</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>9417</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+  </ReturnData>
+</Return>

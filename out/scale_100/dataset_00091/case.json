@@ -1,0 +1,84 @@
+{
+  "tax_year": 2023,
+  "profile": {
+    "primary_first_name": "Emery",
+    "primary_last_name": "Jennings",
+    "spouse_first_name": null,
+    "spouse_last_name": null,
+    "filing_status": "head_of_household",
+    "taxpayer_label": "Emery Jennings (synthetic)",
+    "synthetic_ssn_primary": "900-61-6775",
+    "synthetic_ssn_spouse": null,
+    "address": {
+      "line1": "100 Maple St",
+      "city": "Albany",
+      "state": "NY",
+      "zip": "12207"
+    },
+    "primary_full_name": "Emery Jennings"
+  },
+  "questionnaire": {
+    "answers": {
+      "q_wages_reported": 79727,
+      "q_foreign_account": false,
+      "q_crypto": false,
+      "q_energy_credits": false
+    }
+  },
+  "income": {
+    "wages": 79727,
+    "interest": 0,
+    "dividends_ordinary": 0,
+    "federal_withholding": 9442,
+    "w2": {
+      "employer_name": "Atlas Demo Manufacturing Inc",
+      "employer_ein": "09-0002556",
+      "employee_name": "Emery Jennings",
+      "employee_ssn": "900-61-6775",
+      "social_security_wages": 79727,
+      "medicare_wages": 79727
+    },
+    "forms_1099_int": {
+      "payer_name": "Synthetic Interest Payer NA",
+      "payer_tin": "09-0028425",
+      "recipient_name": "Emery Jennings",
+      "recipient_tin": "900-61-6775",
+      "interest_reported": 0
+    }
+  },
+  "federal": {
+    "lines": {
+      "wages": 79727,
+      "taxable_interest": 0,
+      "ordinary_dividends": 0,
+      "agi": 79727,
+      "standard_deduction": 20800,
+      "taxable_income": 58927,
+      "total_tax": 8017,
+      "federal_withholding": 9442
+    }
+  },
+  "state": {
+    "code": "NY",
+    "adjustments": {
+      "additions": 0,
+      "subtractions": 0
+    },
+    "lines": {
+      "state_wages": 79727,
+      "additions": 0,
+      "subtractions": 0,
+      "state_taxable_income": 79727,
+      "state_tax": 4943
+    },
+    "tax_computed": 4943
+  },
+  "executive_summary": {
+    "agi": 79727,
+    "taxable_income": 58927,
+    "total_tax": 8017,
+    "federal_withholding": 9442,
+    "state_tax": 4943,
+    "effective_rate_federal": 0.1006
+  }
+}

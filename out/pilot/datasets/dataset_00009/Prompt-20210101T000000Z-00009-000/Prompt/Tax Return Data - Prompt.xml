@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>900960679</PrimarySSN>
+      <NameLine1Txt>Dakota Keller</NameLine1Txt>
+      <PrimaryNameControlTxt>KELL</PrimaryNameControlTxt>
+      <SpouseSSN>900420682</SpouseSSN>
+      <SpouseNameLine1Txt>Avery Mercer</SpouseNameLine1Txt>
+      <SpouseNameControlTxt>MERC</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>100 Maple St</AddressLine1Txt>
+        <CityNm>Oakland</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94612</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <TaxWeaveAtlasCoverage>
+    <SyntheticSubsetInd>true</SyntheticSubsetInd>
+    <UnmodeledSchedulesTxt>IRS1040Schedule2,IRS1040ScheduleC,IRS1040ScheduleSE,IRS1040Schedule8812,IRS8995,IRS4562</UnmodeledSchedulesTxt>
+  </TaxWeaveAtlasCoverage>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <WagesAmt>44263</WagesAmt>
+      <TaxableInterestAmt>0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <AdjustedGrossIncomeAmt>44263</AdjustedGrossIncomeAmt>
+      <TaxableIncomeAmt>19163</TaxableIncomeAmt>
+      <TotalTaxAmt>2068</TotalTaxAmt>
+      <WithholdingTaxAmt>6689</WithholdingTaxAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>900960679</EmployeeSSN>
+      <EmployerEIN>008016687</EmployerEIN>
+      <EmployerName>
+        <BusinessNameLine1Txt>Harborline Synthetic Retail Inc</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployeeNm>Dakota Keller</EmployeeNm>
+      <WagesAmt>44263</WagesAmt>
+      <WithholdingAmt>6689</WithholdingAmt>
+      <SocialSecurityWagesAmt>44263</SocialSecurityWagesAmt>
+      <MedicareWagesAndTipsAmt>44263</MedicareWagesAndTipsAmt>
+    </IRSW2>
+  </ReturnData>
+</Return>

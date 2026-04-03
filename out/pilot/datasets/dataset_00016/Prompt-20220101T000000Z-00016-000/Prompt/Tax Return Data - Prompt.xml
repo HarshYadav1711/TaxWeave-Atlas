@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>900291234</PrimarySSN>
+      <NameLine1Txt>Parker Navarro</NameLine1Txt>
+      <PrimaryNameControlTxt>NAVA</PrimaryNameControlTxt>
+      <SpouseSSN>900751236</SpouseSSN>
+      <SpouseNameLine1Txt>Jordan Ingram</SpouseNameLine1Txt>
+      <SpouseNameControlTxt>INGR</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1400 Pecan Blvd</AddressLine1Txt>
+        <CityNm>Houston</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77002</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <TaxWeaveAtlasCoverage>
+    <SyntheticSubsetInd>true</SyntheticSubsetInd>
+    <UnmodeledSchedulesTxt>IRS1040Schedule2,IRS1040ScheduleC,IRS1040ScheduleSE,IRS1040Schedule8812,IRS8995,IRS4562</UnmodeledSchedulesTxt>
+  </TaxWeaveAtlasCoverage>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <WagesAmt>99741</WagesAmt>
+      <TaxableInterestAmt>0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <AdjustedGrossIncomeAmt>147970</AdjustedGrossIncomeAmt>
+      <TaxableIncomeAmt>122070</TaxableIncomeAmt>
+      <TotalTaxAmt>19490</TotalTaxAmt>
+      <WithholdingTaxAmt>10006</WithholdingTaxAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>900291234</EmployeeSSN>
+      <EmployerEIN>015025771</EmployerEIN>
+      <EmployerName>
+        <BusinessNameLine1Txt>Atlas Demo Manufacturing Inc</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployeeNm>Parker Navarro</EmployeeNm>
+      <WagesAmt>99741</WagesAmt>
+      <WithholdingAmt>10006</WithholdingAmt>
+      <SocialSecurityWagesAmt>99741</SocialSecurityWagesAmt>
+      <MedicareWagesAndTipsAmt>99741</MedicareWagesAndTipsAmt>
+    </IRSW2>
+  </ReturnData>
+</Return>

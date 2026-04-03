@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>900762263</PrimarySSN>
+      <NameLine1Txt>Avery Mercer</NameLine1Txt>
+      <PrimaryNameControlTxt>MERC</PrimaryNameControlTxt>
+      <SpouseSSN>900222266</SpouseSSN>
+      <SpouseNameLine1Txt>Skyler Jennings</SpouseNameLine1Txt>
+      <SpouseNameControlTxt>JENN</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>220 Cedar Ave</AddressLine1Txt>
+        <CityNm>Fresno</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>93721</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <TaxWeaveAtlasCoverage>
+    <SyntheticSubsetInd>true</SyntheticSubsetInd>
+    <UnmodeledSchedulesTxt>IRS1040Schedule2,IRS1040ScheduleC,IRS1040ScheduleSE,IRS1040Schedule8812,IRS8995,IRS4562</UnmodeledSchedulesTxt>
+  </TaxWeaveAtlasCoverage>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <WagesAmt>70382</WagesAmt>
+      <TaxableInterestAmt>769</TaxableInterestAmt>
+      <OrdinaryDividendsAmt>12199</OrdinaryDividendsAmt>
+      <AdjustedGrossIncomeAmt>83350</AdjustedGrossIncomeAmt>
+      <TaxableIncomeAmt>55650</TaxableIncomeAmt>
+      <TotalTaxAmt>5296</TotalTaxAmt>
+      <WithholdingTaxAmt>6291</WithholdingTaxAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>900762263</EmployeeSSN>
+      <EmployerEIN>028037082</EmployerEIN>
+      <EmployerName>
+        <BusinessNameLine1Txt>Riverside Test Labs Co</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployeeNm>Avery Mercer</EmployeeNm>
+      <WagesAmt>70382</WagesAmt>
+      <WithholdingAmt>6291</WithholdingAmt>
+      <SocialSecurityWagesAmt>70382</SocialSecurityWagesAmt>
+      <MedicareWagesAndTipsAmt>70382</MedicareWagesAndTipsAmt>
+    </IRSW2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>769</InterestAmt>
+      <TotalInterestAmt>769</TotalInterestAmt>
+      <OrdinaryDividendsAmt>12199</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>12199</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+  </ReturnData>
+</Return>

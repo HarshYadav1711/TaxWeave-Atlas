@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>900621788</PrimarySSN>
+      <NameLine1Txt>Sage Ingram</NameLine1Txt>
+      <PrimaryNameControlTxt>INGR</PrimaryNameControlTxt>
+      <SpouseSSN>900081791</SpouseSSN>
+      <SpouseNameLine1Txt>River Patel</SpouseNameLine1Txt>
+      <SpouseNameControlTxt>PATE</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>300 Erie Blvd</AddressLine1Txt>
+        <CityNm>Albany</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>12207</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <TaxWeaveAtlasCoverage>
+    <SyntheticSubsetInd>true</SyntheticSubsetInd>
+    <UnmodeledSchedulesTxt>IRS1040Schedule2,IRS1040ScheduleC,IRS1040ScheduleSE,IRS1040Schedule8812,IRS8995,IRS4562</UnmodeledSchedulesTxt>
+  </TaxWeaveAtlasCoverage>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <WagesAmt>88255</WagesAmt>
+      <TaxableInterestAmt>3622</TaxableInterestAmt>
+      <OrdinaryDividendsAmt>10101</OrdinaryDividendsAmt>
+      <AdjustedGrossIncomeAmt>101978</AdjustedGrossIncomeAmt>
+      <TaxableIncomeAmt>74278</TaxableIncomeAmt>
+      <TotalTaxAmt>11394</TotalTaxAmt>
+      <WithholdingTaxAmt>11715</WithholdingTaxAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>900621788</EmployeeSSN>
+      <EmployerEIN>022048534</EmployerEIN>
+      <EmployerName>
+        <BusinessNameLine1Txt>Cedar Hollow Analytics LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployeeNm>Sage Ingram</EmployeeNm>
+      <WagesAmt>88255</WagesAmt>
+      <WithholdingAmt>11715</WithholdingAmt>
+      <SocialSecurityWagesAmt>88255</SocialSecurityWagesAmt>
+      <MedicareWagesAndTipsAmt>88255</MedicareWagesAndTipsAmt>
+    </IRSW2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>3622</InterestAmt>
+      <TotalInterestAmt>3622</TotalInterestAmt>
+      <OrdinaryDividendsAmt>10101</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>10101</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+  </ReturnData>
+</Return>

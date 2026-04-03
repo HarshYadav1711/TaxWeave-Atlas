@@ -1,0 +1,139 @@
+{
+  "tax_year": 2025,
+  "profile": {
+    "primary_first_name": "Emery",
+    "primary_last_name": "Diaz",
+    "spouse_first_name": "Finley",
+    "spouse_last_name": "Keller",
+    "filing_status": "married_filing_jointly",
+    "taxpayer_label": "Emery Diaz (synthetic)",
+    "synthetic_ssn_primary": "900-97-3325",
+    "synthetic_ssn_spouse": "900-45-3264",
+    "address": {
+      "line1": "9 Hudson Row",
+      "line2": null,
+      "city": "Albany",
+      "state": "NY",
+      "zip": "12207"
+    },
+    "dependents_qualifying_children_under_17": 0,
+    "dependents_other": 1,
+    "primary_full_name": "Emery Diaz"
+  },
+  "questionnaire": {
+    "answers": {
+      "q_wages_reported": 110137,
+      "q_foreign_account": false,
+      "q_crypto": true,
+      "q_energy_credits": false,
+      "num_qualifying_children_under_17": 0,
+      "num_other_dependents": 1,
+      "itemized_deduction_elected": false,
+      "has_self_employment_income": false,
+      "has_retirement_distributions": false,
+      "extensions": {
+        "complexity_tier": "medium",
+        "stratum_state": "NY",
+        "stratum_tax_year": "2025"
+      }
+    }
+  },
+  "income": {
+    "wages": 110137,
+    "interest": 0,
+    "dividends_ordinary": 0,
+    "federal_withholding": 12915,
+    "w2": {
+      "employer_name": "Prairie View Logistics LLC",
+      "employer_ein": "04-1017110",
+      "employee_name": "Emery Diaz",
+      "employee_ssn": "900-97-3325",
+      "social_security_wages": 110137,
+      "medicare_wages": 110137
+    },
+    "forms_1099_int": {
+      "payer_name": "Great Plains Synthetic Credit Union",
+      "payer_tin": "04-1055207",
+      "recipient_name": "Emery Diaz",
+      "recipient_tin": "900-97-3325",
+      "interest_reported": 0
+    },
+    "other_ordinary_income": {},
+    "passive_income": {}
+  },
+  "deductions": {
+    "elected_method": "standard",
+    "standard_amount_override": null,
+    "itemized_components": {},
+    "adjustments_to_agi": {}
+  },
+  "credits": {
+    "credits": []
+  },
+  "supporting_documents": {
+    "documents": [
+      {
+        "kind": "w2",
+        "document_id": "W2-dataset_00042",
+        "display_name": "Synthetic Form W-2",
+        "key_amounts": {
+          "wages": 110137,
+          "federal_withholding": 12915
+        },
+        "key_strings": {
+          "employer_ein": "04-1017110"
+        }
+      },
+      {
+        "kind": "1099_int",
+        "document_id": "1099INT-dataset_00042",
+        "display_name": "Synthetic Form 1099-INT",
+        "key_amounts": {
+          "interest": 0
+        },
+        "key_strings": {
+          "payer_tin": "04-1055207"
+        }
+      }
+    ]
+  },
+  "federal": {
+    "lines": {
+      "wages": 110137,
+      "taxable_interest": 0,
+      "ordinary_dividends": 0,
+      "agi": 110137,
+      "standard_deduction": 30000,
+      "taxable_income": 80137,
+      "total_tax": 12683,
+      "federal_withholding": 12915,
+      "additional_lines": {}
+    },
+    "form_references": []
+  },
+  "state": {
+    "code": "NY",
+    "adjustments": {
+      "additions": 0,
+      "subtractions": 611
+    },
+    "lines": {
+      "state_wages": 110137,
+      "additions": 0,
+      "subtractions": 611,
+      "state_taxable_income": 109526,
+      "state_tax": 6791,
+      "additional_lines": {}
+    },
+    "tax_computed": 6791,
+    "form_references": []
+  },
+  "executive_summary": {
+    "agi": 110137,
+    "taxable_income": 80137,
+    "total_tax": 12683,
+    "federal_withholding": 12915,
+    "state_tax": 6791,
+    "effective_rate_federal": 0.1152
+  }
+}

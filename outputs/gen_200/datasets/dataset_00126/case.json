@@ -1,0 +1,152 @@
+{
+  "tax_year": 2025,
+  "profile": {
+    "primary_first_name": "Skyler",
+    "primary_last_name": "Carter",
+    "spouse_first_name": "Skyler",
+    "spouse_last_name": "Bennett",
+    "filing_status": "married_filing_jointly",
+    "taxpayer_label": "Skyler Carter (synthetic)",
+    "synthetic_ssn_primary": "900-93-9977",
+    "synthetic_ssn_spouse": "900-41-9916",
+    "address": {
+      "line1": "9 Hudson Row",
+      "line2": null,
+      "city": "Rochester",
+      "state": "NY",
+      "zip": "14604"
+    },
+    "dependents_qualifying_children_under_17": 1,
+    "dependents_other": 1,
+    "primary_full_name": "Skyler Carter"
+  },
+  "questionnaire": {
+    "answers": {
+      "q_wages_reported": 189880,
+      "q_foreign_account": false,
+      "q_crypto": false,
+      "q_energy_credits": false,
+      "num_qualifying_children_under_17": 1,
+      "num_other_dependents": 1,
+      "itemized_deduction_elected": false,
+      "has_self_employment_income": true,
+      "has_retirement_distributions": false,
+      "extensions": {
+        "complexity_tier": "moderately_complex",
+        "stratum_state": "NY",
+        "stratum_tax_year": "2025"
+      }
+    }
+  },
+  "income": {
+    "wages": 189880,
+    "interest": 5613,
+    "dividends_ordinary": 0,
+    "federal_withholding": 24129,
+    "w2": {
+      "employer_name": "Atlas Demo Manufacturing Inc",
+      "employer_ein": "02-5027095",
+      "employee_name": "Skyler Carter",
+      "employee_ssn": "900-93-9977",
+      "social_security_wages": 189880,
+      "medicare_wages": 189880
+    },
+    "forms_1099_int": {
+      "payer_name": "Metroline Treasury Services LLC",
+      "payer_tin": "02-5061545",
+      "recipient_name": "Skyler Carter",
+      "recipient_tin": "900-93-9977",
+      "interest_reported": 5613
+    },
+    "other_ordinary_income": {
+      "self_employment_net": 19649
+    },
+    "passive_income": {}
+  },
+  "deductions": {
+    "elected_method": "standard",
+    "standard_amount_override": null,
+    "itemized_components": {},
+    "adjustments_to_agi": {}
+  },
+  "credits": {
+    "credits": [
+      {
+        "code": "CTC_SYNTH",
+        "amount": 2000,
+        "refundable": false
+      },
+      {
+        "code": "SAVER_SYNTH",
+        "amount": 715,
+        "refundable": false
+      }
+    ]
+  },
+  "supporting_documents": {
+    "documents": [
+      {
+        "kind": "w2",
+        "document_id": "W2-dataset_00126",
+        "display_name": "Synthetic Form W-2",
+        "key_amounts": {
+          "wages": 189880,
+          "federal_withholding": 24129
+        },
+        "key_strings": {
+          "employer_ein": "02-5027095"
+        }
+      },
+      {
+        "kind": "1099_int",
+        "document_id": "1099INT-dataset_00126",
+        "display_name": "Synthetic Form 1099-INT",
+        "key_amounts": {
+          "interest": 5613
+        },
+        "key_strings": {
+          "payer_tin": "02-5061545"
+        }
+      }
+    ]
+  },
+  "federal": {
+    "lines": {
+      "wages": 189880,
+      "taxable_interest": 5613,
+      "ordinary_dividends": 0,
+      "agi": 215142,
+      "standard_deduction": 30000,
+      "taxable_income": 185142,
+      "total_tax": 37476,
+      "federal_withholding": 24129,
+      "additional_lines": {}
+    },
+    "form_references": []
+  },
+  "state": {
+    "code": "NY",
+    "adjustments": {
+      "additions": 725,
+      "subtractions": 1167
+    },
+    "lines": {
+      "state_wages": 189880,
+      "additions": 725,
+      "subtractions": 1167,
+      "state_taxable_income": 214700,
+      "state_tax": 13311,
+      "additional_lines": {}
+    },
+    "tax_computed": 13311,
+    "form_references": []
+  },
+  "executive_summary": {
+    "agi": 215142,
+    "taxable_income": 185142,
+    "total_tax": 37476,
+    "federal_withholding": 24129,
+    "state_tax": 13311,
+    "effective_rate_federal": 0.1742
+  }
+}

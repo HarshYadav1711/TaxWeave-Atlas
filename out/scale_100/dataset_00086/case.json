@@ -1,0 +1,84 @@
+{
+  "tax_year": 2023,
+  "profile": {
+    "primary_first_name": "Morgan",
+    "primary_last_name": "Bennett",
+    "spouse_first_name": null,
+    "spouse_last_name": null,
+    "filing_status": "head_of_household",
+    "taxpayer_label": "Morgan Bennett (synthetic)",
+    "synthetic_ssn_primary": "900-27-6875",
+    "synthetic_ssn_spouse": null,
+    "address": {
+      "line1": "415 Birch Rd",
+      "city": "Albany",
+      "state": "NY",
+      "zip": "12207"
+    },
+    "primary_full_name": "Morgan Bennett"
+  },
+  "questionnaire": {
+    "answers": {
+      "q_wages_reported": 55735,
+      "q_foreign_account": false,
+      "q_crypto": false,
+      "q_energy_credits": false
+    }
+  },
+  "income": {
+    "wages": 55735,
+    "interest": 0,
+    "dividends_ordinary": 3432,
+    "federal_withholding": 7073,
+    "w2": {
+      "employer_name": "Riverside Test Labs Co",
+      "employer_ein": "08-5007817",
+      "employee_name": "Morgan Bennett",
+      "employee_ssn": "900-27-6875",
+      "social_security_wages": 55735,
+      "medicare_wages": 55735
+    },
+    "forms_1099_int": {
+      "payer_name": "Synthetic Interest Payer NA",
+      "payer_tin": "08-5028926",
+      "recipient_name": "Morgan Bennett",
+      "recipient_tin": "900-27-6875",
+      "interest_reported": 0
+    }
+  },
+  "federal": {
+    "lines": {
+      "wages": 55735,
+      "taxable_interest": 0,
+      "ordinary_dividends": 3432,
+      "agi": 59167,
+      "standard_deduction": 20800,
+      "taxable_income": 38367,
+      "total_tax": 4372,
+      "federal_withholding": 7073
+    }
+  },
+  "state": {
+    "code": "NY",
+    "adjustments": {
+      "additions": 83,
+      "subtractions": 0
+    },
+    "lines": {
+      "state_wages": 55735,
+      "additions": 83,
+      "subtractions": 0,
+      "state_taxable_income": 59250,
+      "state_tax": 3674
+    },
+    "tax_computed": 3674
+  },
+  "executive_summary": {
+    "agi": 59167,
+    "taxable_income": 38367,
+    "total_tax": 4372,
+    "federal_withholding": 7073,
+    "state_tax": 3674,
+    "effective_rate_federal": 0.0739
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "tax_year": 2022,
+  "profile": {
+    "primary_first_name": "Reese",
+    "primary_last_name": "Reyes",
+    "spouse_first_name": "Morgan",
+    "spouse_last_name": "Jennings",
+    "filing_status": "married_filing_jointly",
+    "taxpayer_label": "Reese Reyes (synthetic)",
+    "synthetic_ssn_primary": "900-01-1251",
+    "synthetic_ssn_spouse": "900-47-1238",
+    "address": {
+      "line1": "415 Birch Rd",
+      "line2": null,
+      "city": "Fresno",
+      "state": "CA",
+      "zip": "93721"
+    },
+    "dependents_qualifying_children_under_17": 2,
+    "dependents_other": 1,
+    "primary_full_name": "Reese Reyes"
+  },
+  "questionnaire": {
+    "answers": {
+      "q_wages_reported": 60875,
+      "q_foreign_account": false,
+      "q_crypto": false,
+      "q_energy_credits": false,
+      "num_qualifying_children_under_17": 2,
+      "num_other_dependents": 1,
+      "itemized_deduction_elected": true,
+      "has_self_employment_income": false,
+      "has_retirement_distributions": false,
+      "extensions": {
+        "complexity_tier": "medium",
+        "stratum_state": "CA",
+        "stratum_tax_year": "2022",
+        "dataset_slug": "dataset_00016"
+      }
+    }
+  },
+  "income": {
+    "wages": 60875,
+    "interest": 101,
+    "dividends_ordinary": 0,
+    "federal_withholding": 5099,
+    "w2": {
+      "employer_name": "Riverside Test Labs Co",
+      "employer_ein": "01-5040049",
+      "employee_name": "Reese Reyes",
+      "employee_ssn": "900-01-1251",
+      "social_security_wages": 60875,
+      "medicare_wages": 60875
+    },
+    "forms_1099_int": {
+      "payer_name": "Metroline Treasury Services LLC",
+      "payer_tin": "01-5039310",
+      "recipient_name": "Reese Reyes",
+      "recipient_tin": "900-01-1251",
+      "interest_reported": 101
+    },
+    "other_ordinary_income": {},
+    "passive_income": {}
+  },
+  "deductions": {
+    "elected_method": "itemized",
+    "standard_amount_override": null,
+    "itemized_components": {
+      "state_and_local_income_tax": 4649,
+      "charitable_cash": 8756,
+      "mortgage_interest": 16578
+    },
+    "adjustments_to_agi": {}
+  },
+  "credits": {
+    "credits": [
+      {
+        "code": "CTC_SYNTH",
+        "amount": 4000,
+        "refundable": false
+      },
+      {
+        "code": "ACTC_SYNTH",
+        "amount": 1057,
+        "refundable": true
+      }
+    ]
+  },
+  "supporting_documents": {
+    "documents": [
+      {
+        "kind": "w2",
+        "document_id": "W2-dataset_00016",
+        "display_name": "Synthetic Form W-2",
+        "key_amounts": {
+          "wages": 60875,
+          "federal_withholding": 5099
+        },
+        "key_strings": {
+          "employer_ein": "01-5040049"
+        }
+      },
+      {
+        "kind": "1099_int",
+        "document_id": "1099INT-dataset_00016",
+        "display_name": "Synthetic Form 1099-INT",
+        "key_amounts": {
+          "interest": 101
+        },
+        "key_strings": {
+          "payer_tin": "01-5039310"
+        }
+      }
+    ]
+  },
+  "federal": {
+    "lines": {
+      "wages": 60875,
+      "taxable_interest": 101,
+      "ordinary_dividends": 0,
+      "agi": 60976,
+      "standard_deduction": 29983,
+      "taxable_income": 30993,
+      "total_tax": 0,
+      "federal_withholding": 5099,
+      "additional_lines": {
+        "statutory_standard_deduction": 25900,
+        "schedule_a_total": 29983,
+        "itemized_elected": 1,
+        "pre_credit_income_tax": 3487,
+        "nonrefundable_credits_applied": 3487,
+        "refundable_credits_applied": 0
+      }
+    },
+    "form_references": []
+  },
+  "state": {
+    "code": "CA",
+    "adjustments": {
+      "additions": 0,
+      "subtractions": 0
+    },
+    "lines": {
+      "state_wages": 60875,
+      "additions": 0,
+      "subtractions": 0,
+      "state_taxable_income": 60976,
+      "state_tax": 3354,
+      "additional_lines": {}
+    },
+    "tax_computed": 3354,
+    "form_references": []
+  },
+  "executive_summary": {
+    "agi": 60976,
+    "taxable_income": 30993,
+    "total_tax": 0,
+    "federal_withholding": 5099,
+    "state_tax": 3354,
+    "effective_rate_federal": 0.0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "format": "taxweave-atlas-dataset-files-v2",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-00026-000",
+  "tax_year": 2024,
+  "case_fingerprint": "203f68fc63b45bb1435dc447e5b6ae5d339e334a11c337d7692b8b3a8f8c361b",
+  "case_json_sha256": "4b7c14cab97fd81f0e33cb63d913f973f0627fd74ee2f9f5f5f6eccc2343ee1d",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-00026-000/1. Client Summary/Client Summary.docx": "06b8a8b946c81a5aebc82ef171a08a9610bea0175627d4e461d7f84da22828c0",
+    "2. Input Documents-20240101T000000Z-00026-000/2. Input Documents/Tax Document Attachments Summary.docx": "77e7e955b3f999241e8e0eda91cccc53786ab4d9987c3b96a854e2ea685aa788",
+    "2. Input Documents-20240101T000000Z-00026-000/2. Input Documents/1099- DIV/1099-DIV OKORO.pdf": "db14abd89e442ed847200b357d999bcb627a8a8565acb8bba67f85ec54195930",
+    "2. Input Documents-20240101T000000Z-00026-000/2. Input Documents/1099-INT/1099-INT OKORO.pdf": "8ee1d4df39a0d4c3ce848559d95e981c4c285fc1e2b462bbf9c614bd925a0b6d",
+    "2. Input Documents-20240101T000000Z-00026-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.xlsx": "6715792ef1a2f372a5729a06ed07732132aea9c47af10adebeced88c5558ae16",
+    "2. Input Documents-20240101T000000Z-00026-000/2. Input Documents/Form W-2/Form W-2.pdf": "ba996bd4f55666931d759f827e6652363021a2264d57191c04989a4ccfebcc54",
+    "2. Input Documents-20240101T000000Z-00026-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "39aa8cd2648abbe60eb459f0d0b245269072dba8bfc29d89e00c54b8bf63f54b",
+    "2. Input Documents-20240101T000000Z-00026-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.xlsx": "6715792ef1a2f372a5729a06ed07732132aea9c47af10adebeced88c5558ae16",
+    "3. Complete form-20240101T000000Z-00026-000/3. Complete form/2024 Tax Return Documents (Parker Okoro (synthetic)).pdf": "233f08000d7bd388a1123dce5bf57d55449e0f670f5d35aa7400695372d60f6d",
+    "3. Complete form-20240101T000000Z-00026-000/3. Complete form/Completed forms - Summary.docx": "2b9cdfd0280ba79a6d1b870ecf271b9e9aadd89771ae7a757193865766493755",
+    "4. Executive Summary-20240101T000000Z-00026-000/4. Executive Summary/4. Summary_.docx": "463baa4a75a30f4576eae79d7bd293ab5e0c88fc1c26ef2de1654d0c125df634",
+    "4. Executive Summary-20240101T000000Z-00026-000/4. Executive Summary/Executive Summary Parker Okoro 2024.pdf": "2dbce2d84c5ea40192e5ab9e8fb5e6dac71fce1c86684ff4024f916db0ff042f",
+    "Prompt-20240101T000000Z-00026-000/Prompt/Tax Return Data - Prompt.docx": "843e8c3f38cbb07d6093533a2a07bfd0470e2fa45e0c1640c329c15c60d4ab29",
+    "Prompt-20240101T000000Z-00026-000/Prompt/Tax Return Data - Prompt.xml": "6bef0ca1acc52fbf2dcee8195ad18fd17bd5bb20ec59fa7c50765943149db4d8"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

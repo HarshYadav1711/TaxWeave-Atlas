@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>900101155</PrimarySSN>
+      <NameLine1Txt>Avery Foster</NameLine1Txt>
+      <PrimaryNameControlTxt>FOST</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>100 Maple St</AddressLine1Txt>
+        <CityNm>Fresno</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>93721</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <TaxWeaveAtlasCoverage>
+    <SyntheticSubsetInd>true</SyntheticSubsetInd>
+    <UnmodeledSchedulesTxt>IRS1040Schedule2,IRS1040ScheduleC,IRS1040ScheduleSE,IRS1040Schedule8812,IRS8995,IRS4562</UnmodeledSchedulesTxt>
+  </TaxWeaveAtlasCoverage>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>4</IndividualReturnFilingStatusCd>
+      <WagesAmt>136275</WagesAmt>
+      <TaxableInterestAmt>1251</TaxableInterestAmt>
+      <OrdinaryDividendsAmt>1937</OrdinaryDividendsAmt>
+      <AdjustedGrossIncomeAmt>139463</AdjustedGrossIncomeAmt>
+      <TaxableIncomeAmt>117563</TaxableIncomeAmt>
+      <TotalTaxAmt>18603</TotalTaxAmt>
+      <WithholdingTaxAmt>25807</WithholdingTaxAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>900101155</EmployeeSSN>
+      <EmployerEIN>014029798</EmployerEIN>
+      <EmployerName>
+        <BusinessNameLine1Txt>Harborline Synthetic Retail Inc</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployeeNm>Avery Foster</EmployeeNm>
+      <WagesAmt>136275</WagesAmt>
+      <WithholdingAmt>25807</WithholdingAmt>
+      <SocialSecurityWagesAmt>136275</SocialSecurityWagesAmt>
+      <MedicareWagesAndTipsAmt>136275</MedicareWagesAndTipsAmt>
+    </IRSW2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>1251</InterestAmt>
+      <TotalInterestAmt>1251</TotalInterestAmt>
+      <OrdinaryDividendsAmt>1937</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>1937</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+  </ReturnData>
+</Return>

@@ -1,0 +1,84 @@
+{
+  "tax_year": 2023,
+  "profile": {
+    "primary_first_name": "Reese",
+    "primary_last_name": "Mercer",
+    "spouse_first_name": null,
+    "spouse_last_name": null,
+    "filing_status": "head_of_household",
+    "taxpayer_label": "Reese Mercer (synthetic)",
+    "synthetic_ssn_primary": "900-30-2943",
+    "synthetic_ssn_spouse": null,
+    "address": {
+      "line1": "100 Maple St",
+      "city": "Albany",
+      "state": "NY",
+      "zip": "12207"
+    },
+    "primary_full_name": "Reese Mercer"
+  },
+  "questionnaire": {
+    "answers": {
+      "q_wages_reported": 57435,
+      "q_foreign_account": false,
+      "q_crypto": false,
+      "q_energy_credits": false
+    }
+  },
+  "income": {
+    "wages": 57435,
+    "interest": 0,
+    "dividends_ordinary": 0,
+    "federal_withholding": 8266,
+    "w2": {
+      "employer_name": "Pioneer Stub Data Corp",
+      "employer_ein": "05-4003192",
+      "employee_name": "Reese Mercer",
+      "employee_ssn": "900-30-2943",
+      "social_security_wages": 57435,
+      "medicare_wages": 57435
+    },
+    "forms_1099_int": {
+      "payer_name": "Synthetic Interest Payer NA",
+      "payer_tin": "05-4028618",
+      "recipient_name": "Reese Mercer",
+      "recipient_tin": "900-30-2943",
+      "interest_reported": 0
+    }
+  },
+  "federal": {
+    "lines": {
+      "wages": 57435,
+      "taxable_interest": 0,
+      "ordinary_dividends": 0,
+      "agi": 57435,
+      "standard_deduction": 20800,
+      "taxable_income": 36635,
+      "total_tax": 4164,
+      "federal_withholding": 8266
+    }
+  },
+  "state": {
+    "code": "NY",
+    "adjustments": {
+      "additions": 0,
+      "subtractions": 0
+    },
+    "lines": {
+      "state_wages": 57435,
+      "additions": 0,
+      "subtractions": 0,
+      "state_taxable_income": 57435,
+      "state_tax": 3561
+    },
+    "tax_computed": 3561
+  },
+  "executive_summary": {
+    "agi": 57435,
+    "taxable_income": 36635,
+    "total_tax": 4164,
+    "federal_withholding": 8266,
+    "state_tax": 3561,
+    "effective_rate_federal": 0.0725
+  }
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>900952342</PrimarySSN>
+      <NameLine1Txt>River Okoro</NameLine1Txt>
+      <PrimaryNameControlTxt>OKOR</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>501 Willow Way</AddressLine1Txt>
+        <CityNm>Austin</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78701</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <TaxWeaveAtlasCoverage>
+    <SyntheticSubsetInd>true</SyntheticSubsetInd>
+    <UnmodeledSchedulesTxt>IRS1040Schedule2,IRS1040ScheduleC,IRS1040ScheduleSE,IRS1040Schedule8812,IRS8995,IRS4562</UnmodeledSchedulesTxt>
+  </TaxWeaveAtlasCoverage>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <WagesAmt>80409</WagesAmt>
+      <TaxableInterestAmt>0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt>11382</OrdinaryDividendsAmt>
+      <AdjustedGrossIncomeAmt>91791</AdjustedGrossIncomeAmt>
+      <TaxableIncomeAmt>77941</TaxableIncomeAmt>
+      <TotalTaxAmt>11225</TotalTaxAmt>
+      <WithholdingTaxAmt>15342</WithholdingTaxAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>900952342</EmployeeSSN>
+      <EmployerEIN>029024394</EmployerEIN>
+      <EmployerName>
+        <BusinessNameLine1Txt>Atlas Demo Manufacturing Inc</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployeeNm>River Okoro</EmployeeNm>
+      <WagesAmt>80409</WagesAmt>
+      <WithholdingAmt>15342</WithholdingAmt>
+      <SocialSecurityWagesAmt>80409</SocialSecurityWagesAmt>
+      <MedicareWagesAndTipsAmt>80409</MedicareWagesAndTipsAmt>
+    </IRSW2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>0</InterestAmt>
+      <TotalInterestAmt>0</TotalInterestAmt>
+      <OrdinaryDividendsAmt>11382</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>11382</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+  </ReturnData>
+</Return>

@@ -1,0 +1,25 @@
+{
+  "format": "taxweave-atlas-dataset-files-v2",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-00015-000",
+  "tax_year": 2024,
+  "case_fingerprint": "e04163a87c7a04a9d3b04a6f69eb106f0b0901ba564e31d8581a554a78a2eaf4",
+  "case_json_sha256": "ffe7efc00d1c08dc9a94b032d3e152b1bb7b40ed2e7bcc6b7ac05b3179e8383c",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-00015-000/1. Client Summary/Client Summary.docx": "9ceb1e440d09cc5c8348d11d25867e6758f9501392026bbf23fe2ee340292f67",
+    "2. Input Documents-20240101T000000Z-00015-000/2. Input Documents/Tax Document Attachments Summary.docx": "929d2d7f141ade24eb5086b9899ac8ed8cee102b6e88016fdc2e0f0df588f232",
+    "2. Input Documents-20240101T000000Z-00015-000/2. Input Documents/1099- DIV/1099-DIV FOSTER.pdf": "ae6e5ecbee7a2be84b7d9f34c7500701c1b4b30e8116ca7293d31df0d296baa9",
+    "2. Input Documents-20240101T000000Z-00015-000/2. Input Documents/1099-INT/1099-INT FOSTER.pdf": "250f2c7442f4a3b518ad65a92a0e0b28d529a616e85d7414c2e9b1aac56c5061",
+    "2. Input Documents-20240101T000000Z-00015-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.xlsx": "0f8ddd07e52d874522b3c5ef7b9198e8f8aba0ebee302825a88a39ff5c807b75",
+    "2. Input Documents-20240101T000000Z-00015-000/2. Input Documents/Form W-2/Form W-2.pdf": "670c08c505c0f71919351f3ebbf28feb799da83ca82e87fe7be504631a695278",
+    "2. Input Documents-20240101T000000Z-00015-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "b0b5cc60e0775913dfb7fbcabac0eb3be9c124e5047aab39ce1ae8e91ad781e6",
+    "2. Input Documents-20240101T000000Z-00015-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.xlsx": "0f8ddd07e52d874522b3c5ef7b9198e8f8aba0ebee302825a88a39ff5c807b75",
+    "3. Complete form-20240101T000000Z-00015-000/3. Complete form/2024 Tax Return Documents (Avery Foster (synthetic)).pdf": "44aff5f5e434b7c920e512d93b251e9095ab2b6bd76e2ed779b904bd584d3ea9",
+    "3. Complete form-20240101T000000Z-00015-000/3. Complete form/Completed forms - Summary.docx": "d933de4d212669c50ff12f6bc169e496c2c1c5dd76c97e0e5071f453b37cbd42",
+    "4. Executive Summary-20240101T000000Z-00015-000/4. Executive Summary/4. Summary_.docx": "f28ed6bb3ea8a1e7c72ef6221606373cbee9dc794009d295acdce52087e6dd2b",
+    "4. Executive Summary-20240101T000000Z-00015-000/4. Executive Summary/Executive Summary Avery Foster 2024.pdf": "0cac75ef134692292d9cf7241befc0ec886897d539e3fb60989b6aa22a4ee14c",
+    "Prompt-20240101T000000Z-00015-000/Prompt/Tax Return Data - Prompt.docx": "1e73fd0206b8c9d256c7ed5b35475d2a3860307d21426204016c3a47e5fc11e8",
+    "Prompt-20240101T000000Z-00015-000/Prompt/Tax Return Data - Prompt.xml": "aee06468580d712979f166b1d68c4a5a843e2075f4107d6e7278453f0aa0eb94"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

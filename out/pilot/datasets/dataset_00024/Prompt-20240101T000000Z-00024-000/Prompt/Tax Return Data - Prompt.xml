@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>900811867</PrimarySSN>
+      <NameLine1Txt>Finley Foster</NameLine1Txt>
+      <PrimaryNameControlTxt>FOST</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>220 Cedar Ave</AddressLine1Txt>
+        <CityNm>Fresno</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>93721</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <TaxWeaveAtlasCoverage>
+    <SyntheticSubsetInd>true</SyntheticSubsetInd>
+    <UnmodeledSchedulesTxt>IRS1040Schedule2,IRS1040ScheduleC,IRS1040ScheduleSE,IRS1040Schedule8812,IRS8995,IRS4562</UnmodeledSchedulesTxt>
+  </TaxWeaveAtlasCoverage>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <WagesAmt>87882</WagesAmt>
+      <TaxableInterestAmt>0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <AdjustedGrossIncomeAmt>116874</AdjustedGrossIncomeAmt>
+      <TaxableIncomeAmt>102274</TaxableIncomeAmt>
+      <TotalTaxAmt>15588</TotalTaxAmt>
+      <WithholdingTaxAmt>9452</WithholdingTaxAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>900811867</EmployeeSSN>
+      <EmployerEIN>023037505</EmployerEIN>
+      <EmployerName>
+        <BusinessNameLine1Txt>Riverside Test Labs Co</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployeeNm>Finley Foster</EmployeeNm>
+      <WagesAmt>87882</WagesAmt>
+      <WithholdingAmt>9452</WithholdingAmt>
+      <SocialSecurityWagesAmt>87882</SocialSecurityWagesAmt>
+      <MedicareWagesAndTipsAmt>87882</MedicareWagesAndTipsAmt>
+    </IRSW2>
+  </ReturnData>
+</Return>

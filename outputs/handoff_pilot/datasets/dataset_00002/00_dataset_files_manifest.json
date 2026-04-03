@@ -1,0 +1,15 @@
+{
+  "format": "taxweave-atlas-dataset-files-v1",
+  "tax_year": 2022,
+  "case_fingerprint": "69612d5d83e2cedf2c1df777804e49356bac71af91a022b8b075be46244d857a",
+  "case_json_sha256": "9eab93c12d722d6507c9a27e29c676a5cbc1f8e8d938566fb44e50687c2743d8",
+  "pdf_files_sha256": {
+    "01_intake_questionnaire.pdf": "70446ba5e920917f4426cc93d84b31e27b8afb5f2fa922940dcca7def762f93f",
+    "02_supporting_form_w2.pdf": "6ec007c71f34c03b5671758163c01aa9915bad5050d5bbc724520ded45257809",
+    "03_supporting_form_1099_int.pdf": "746d15e990021e08c280436441eae071d26f72d5bf19c8d5e94eba4cf99060d8",
+    "03b_supporting_form_1099_div.pdf": "e53fde59a1eae46f5c92040c0f71273fd158e1ff1b69602ccbbde1711ef16dab",
+    "04_federal_return_summary.pdf": "9e0f0646dcc725162a4e57a75136e67d61742c8992dfeeb42d4e08cb531d78fb",
+    "05_state_return_summary.pdf": "22f1a6cece04f598854dc5246268f37ce5bb38ca12298aa3498c2c1e451d8558",
+    "06_executive_summary.pdf": "87aacf331d6d946724995d51896a3b3c062ec1d4b9f02703707e76dfeb72a2ed"
+  }
+}

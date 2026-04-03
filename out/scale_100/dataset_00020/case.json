@@ -1,0 +1,84 @@
+{
+  "tax_year": 2023,
+  "profile": {
+    "primary_first_name": "Riley",
+    "primary_last_name": "Mercer",
+    "spouse_first_name": "Reese",
+    "spouse_last_name": "Keller",
+    "filing_status": "married_filing_jointly",
+    "taxpayer_label": "Riley Mercer (synthetic)",
+    "synthetic_ssn_primary": "900-33-8723",
+    "synthetic_ssn_spouse": "900-31-4152",
+    "address": {
+      "line1": "220 Cedar Ave",
+      "city": "Albany",
+      "state": "NY",
+      "zip": "12207"
+    },
+    "primary_full_name": "Riley Mercer"
+  },
+  "questionnaire": {
+    "answers": {
+      "q_wages_reported": 131442,
+      "q_foreign_account": false,
+      "q_crypto": false,
+      "q_energy_credits": false
+    }
+  },
+  "income": {
+    "wages": 131442,
+    "interest": 1142,
+    "dividends_ordinary": 0,
+    "federal_withholding": 14739,
+    "w2": {
+      "employer_name": "Pioneer Stub Data Corp",
+      "employer_ein": "01-9009279",
+      "employee_name": "Riley Mercer",
+      "employee_ssn": "900-33-8723",
+      "social_security_wages": 131442,
+      "medicare_wages": 131442
+    },
+    "forms_1099_int": {
+      "payer_name": "Synthetic Interest Payer NA",
+      "payer_tin": "01-9025778",
+      "recipient_name": "Riley Mercer",
+      "recipient_tin": "900-33-8723",
+      "interest_reported": 1142
+    }
+  },
+  "federal": {
+    "lines": {
+      "wages": 131442,
+      "taxable_interest": 1142,
+      "ordinary_dividends": 0,
+      "agi": 132584,
+      "standard_deduction": 27700,
+      "taxable_income": 104884,
+      "total_tax": 18214,
+      "federal_withholding": 14739
+    }
+  },
+  "state": {
+    "code": "NY",
+    "adjustments": {
+      "additions": 0,
+      "subtractions": 0
+    },
+    "lines": {
+      "state_wages": 131442,
+      "additions": 0,
+      "subtractions": 0,
+      "state_taxable_income": 132584,
+      "state_tax": 8220
+    },
+    "tax_computed": 8220
+  },
+  "executive_summary": {
+    "agi": 132584,
+    "taxable_income": 104884,
+    "total_tax": 18214,
+    "federal_withholding": 14739,
+    "state_tax": 8220,
+    "effective_rate_federal": 0.1374
+  }
+}

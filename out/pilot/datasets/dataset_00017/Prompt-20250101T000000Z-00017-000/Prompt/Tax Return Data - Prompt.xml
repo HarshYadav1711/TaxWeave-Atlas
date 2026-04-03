@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>900481313</PrimarySSN>
+      <NameLine1Txt>Dakota Ingram</NameLine1Txt>
+      <PrimaryNameControlTxt>INGR</PrimaryNameControlTxt>
+      <SpouseSSN>900941315</SpouseSSN>
+      <SpouseNameLine1Txt>Jordan Carter</SpouseNameLine1Txt>
+      <SpouseNameControlTxt>CART</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>220 Cedar Ave</AddressLine1Txt>
+        <CityNm>Oakland</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94612</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <TaxWeaveAtlasCoverage>
+    <SyntheticSubsetInd>true</SyntheticSubsetInd>
+    <UnmodeledSchedulesTxt>IRS1040Schedule2,IRS1040ScheduleC,IRS1040ScheduleSE,IRS1040Schedule8812,IRS8995,IRS4562</UnmodeledSchedulesTxt>
+  </TaxWeaveAtlasCoverage>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <WagesAmt>62487</WagesAmt>
+      <TaxableInterestAmt>3675</TaxableInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <AdjustedGrossIncomeAmt>88302</AdjustedGrossIncomeAmt>
+      <TaxableIncomeAmt>58302</TaxableIncomeAmt>
+      <TotalTaxAmt>5199</TotalTaxAmt>
+      <WithholdingTaxAmt>8321</WithholdingTaxAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>900481313</EmployeeSSN>
+      <EmployerEIN>016025541</EmployerEIN>
+      <EmployerName>
+        <BusinessNameLine1Txt>Riverside Test Labs Co</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployeeNm>Dakota Ingram</EmployeeNm>
+      <WagesAmt>62487</WagesAmt>
+      <WithholdingAmt>8321</WithholdingAmt>
+      <SocialSecurityWagesAmt>62487</SocialSecurityWagesAmt>
+      <MedicareWagesAndTipsAmt>62487</MedicareWagesAndTipsAmt>
+    </IRSW2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>3675</InterestAmt>
+      <TotalInterestAmt>3675</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+  </ReturnData>
+</Return>

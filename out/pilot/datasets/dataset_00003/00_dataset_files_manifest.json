@@ -1,0 +1,25 @@
+{
+  "format": "taxweave-atlas-dataset-files-v2",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-00003-000",
+  "tax_year": 2022,
+  "case_fingerprint": "08dc9417dbc225499efb61abb6f6e0bb3813f23104f0ced141be3c9403c025b8",
+  "case_json_sha256": "5ce3478cfdd5f58d4b0bf744468ec25b3c385b6a1401cfabd73f7027bb3a1a1c",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-00003-000/1. Client Summary/Client Summary.docx": "4a5e26b606d8c183f757c29d57db578ad8cf08dc8216835e718ab37eac4d65d7",
+    "2. Input Documents-20220101T000000Z-00003-000/2. Input Documents/Tax Document Attachments Summary.docx": "2fd08e8a5c633b5ab886c5a827b04f9b6df6a277e0e17e682f59ac6cca57b01e",
+    "2. Input Documents-20220101T000000Z-00003-000/2. Input Documents/1099- DIV/1099-DIV CARTER.pdf": "749736441f60e8ca2bf86ec6faa98cbfabbe8c238e91e15a7562307b3d5fcb5c",
+    "2. Input Documents-20220101T000000Z-00003-000/2. Input Documents/1099-INT/1099-INT CARTER.pdf": "02c6bf17f9d916728179fa4199832270060e3fdd8efe8e44a96a1809d62210cc",
+    "2. Input Documents-20220101T000000Z-00003-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.xlsx": "1f5859e2cab82500148c254fbf31de20b6edf5adfe59a17337325c3daf4af8bd",
+    "2. Input Documents-20220101T000000Z-00003-000/2. Input Documents/Form W-2/Form W-2.pdf": "8d0e79090a61e6f3ec44e7d5814d94c061388e4ef3c093ee53d14b128ea5639a",
+    "2. Input Documents-20220101T000000Z-00003-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "6f2976e501b60560c574d048726cb525498ae77f0e4a14eec6e74a2db0c75585",
+    "2. Input Documents-20220101T000000Z-00003-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.xlsx": "1f5859e2cab82500148c254fbf31de20b6edf5adfe59a17337325c3daf4af8bd",
+    "3. Complete form-20220101T000000Z-00003-000/3. Complete form/2022 Tax Return Documents (Parker Carter (synthetic)).pdf": "cc88c83e1f704978b8b48331d6ec328a766d9419f7dc1689ac97995faea202ed",
+    "3. Complete form-20220101T000000Z-00003-000/3. Complete form/Completed forms - Summary.docx": "231a9a0698b883afd98a366c9d495a4c1b5ef0c15a803d5657e77d83b4868df4",
+    "4. Executive Summary-20220101T000000Z-00003-000/4. Executive Summary/4. Summary_.docx": "d32960b4c39699003774fb217e8df70b1621e9e9d5ac8855347f755a2da1636c",
+    "4. Executive Summary-20220101T000000Z-00003-000/4. Executive Summary/Executive Summary Parker Carter 2022.pdf": "b5c9546d54b55c4abe2f20e7378f9c77ad87589fdda0c9f81790281be3834342",
+    "Prompt-20220101T000000Z-00003-000/Prompt/Tax Return Data - Prompt.docx": "5be1adb662b8714b4032e2b084c523d9b8470e0a5673b0d7b087c5633ffecc64",
+    "Prompt-20220101T000000Z-00003-000/Prompt/Tax Return Data - Prompt.xml": "52ab7b3fbeecd77806745b7c546470ebf1f490a8117378ce072c7ca344328794"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

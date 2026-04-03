@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>900440046</PrimarySSN>
+      <NameLine1Txt>Emery Ingram</NameLine1Txt>
+      <PrimaryNameControlTxt>INGR</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>300 Erie Blvd</AddressLine1Txt>
+        <CityNm>Buffalo</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14202</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <TaxWeaveAtlasCoverage>
+    <SyntheticSubsetInd>true</SyntheticSubsetInd>
+    <UnmodeledSchedulesTxt>IRS1040Schedule2,IRS1040ScheduleC,IRS1040ScheduleSE,IRS1040Schedule8812,IRS8995,IRS4562</UnmodeledSchedulesTxt>
+  </TaxWeaveAtlasCoverage>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <WagesAmt>114026</WagesAmt>
+      <TaxableInterestAmt>0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt>10317</OrdinaryDividendsAmt>
+      <AdjustedGrossIncomeAmt>124343</AdjustedGrossIncomeAmt>
+      <TaxableIncomeAmt>111393</TaxableIncomeAmt>
+      <TotalTaxAmt>15776</TotalTaxAmt>
+      <WithholdingTaxAmt>22831</WithholdingTaxAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>900440046</EmployeeSSN>
+      <EmployerEIN>000007368</EmployerEIN>
+      <EmployerName>
+        <BusinessNameLine1Txt>Harborline Synthetic Retail Inc</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployeeNm>Emery Ingram</EmployeeNm>
+      <WagesAmt>114026</WagesAmt>
+      <WithholdingAmt>22831</WithholdingAmt>
+      <SocialSecurityWagesAmt>114026</SocialSecurityWagesAmt>
+      <MedicareWagesAndTipsAmt>114026</MedicareWagesAndTipsAmt>
+    </IRSW2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>0</InterestAmt>
+      <TotalInterestAmt>0</TotalInterestAmt>
+      <OrdinaryDividendsAmt>10317</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>10317</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+  </ReturnData>
+</Return>

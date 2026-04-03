@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2020v5.0">
+  <ReturnHeader>
+    <TaxYr>2020</TaxYr>
+    <TaxPeriodBeginDt>2020-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2020-12-31</TaxPeriodEndDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>900530917</PrimarySSN>
+      <NameLine1Txt>River Hayes</NameLine1Txt>
+      <PrimaryNameControlTxt>HAYE</PrimaryNameControlTxt>
+      <SpouseSSN>900990919</SpouseSSN>
+      <SpouseNameLine1Txt>River Mercer</SpouseNameLine1Txt>
+      <SpouseNameControlTxt>MERC</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1400 Pecan Blvd</AddressLine1Txt>
+        <CityNm>Dallas</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75201</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <TaxWeaveAtlasCoverage>
+    <SyntheticSubsetInd>true</SyntheticSubsetInd>
+    <UnmodeledSchedulesTxt>IRS1040Schedule2,IRS1040ScheduleC,IRS1040ScheduleSE,IRS1040Schedule8812,IRS8995,IRS4562</UnmodeledSchedulesTxt>
+  </TaxWeaveAtlasCoverage>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <WagesAmt>128847</WagesAmt>
+      <TaxableInterestAmt>752</TaxableInterestAmt>
+      <OrdinaryDividendsAmt>8863</OrdinaryDividendsAmt>
+      <AdjustedGrossIncomeAmt>142959</AdjustedGrossIncomeAmt>
+      <TaxableIncomeAmt>118159</TaxableIncomeAmt>
+      <TotalTaxAmt>18206</TotalTaxAmt>
+      <WithholdingTaxAmt>20404</WithholdingTaxAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>900530917</EmployeeSSN>
+      <EmployerEIN>011001374</EmployerEIN>
+      <EmployerName>
+        <BusinessNameLine1Txt>Pioneer Stub Data Corp</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployeeNm>River Hayes</EmployeeNm>
+      <WagesAmt>128847</WagesAmt>
+      <WithholdingAmt>20404</WithholdingAmt>
+      <SocialSecurityWagesAmt>128847</SocialSecurityWagesAmt>
+      <MedicareWagesAndTipsAmt>128847</MedicareWagesAndTipsAmt>
+    </IRSW2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>752</InterestAmt>
+      <TotalInterestAmt>752</TotalInterestAmt>
+      <OrdinaryDividendsAmt>8863</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>8863</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+  </ReturnData>
+</Return>

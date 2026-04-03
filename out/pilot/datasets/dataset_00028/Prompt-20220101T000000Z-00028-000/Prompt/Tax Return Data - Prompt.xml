@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>900572184</PrimarySSN>
+      <NameLine1Txt>Dakota Patel</NameLine1Txt>
+      <PrimaryNameControlTxt>PATE</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>1400 Pecan Blvd</AddressLine1Txt>
+        <CityNm>Dallas</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>75201</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <TaxWeaveAtlasCoverage>
+    <SyntheticSubsetInd>true</SyntheticSubsetInd>
+    <UnmodeledSchedulesTxt>IRS1040Schedule2,IRS1040ScheduleC,IRS1040ScheduleSE,IRS1040Schedule8812,IRS8995,IRS4562</UnmodeledSchedulesTxt>
+  </TaxWeaveAtlasCoverage>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <WagesAmt>113989</WagesAmt>
+      <TaxableInterestAmt>2473</TaxableInterestAmt>
+      <OrdinaryDividendsAmt>483</OrdinaryDividendsAmt>
+      <AdjustedGrossIncomeAmt>116945</AdjustedGrossIncomeAmt>
+      <TaxableIncomeAmt>103995</TaxableIncomeAmt>
+      <TotalTaxAmt>14001</TotalTaxAmt>
+      <WithholdingTaxAmt>9770</WithholdingTaxAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>900572184</EmployeeSSN>
+      <EmployerEIN>027046514</EmployerEIN>
+      <EmployerName>
+        <BusinessNameLine1Txt>Pioneer Stub Data Corp</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployeeNm>Dakota Patel</EmployeeNm>
+      <WagesAmt>113989</WagesAmt>
+      <WithholdingAmt>9770</WithholdingAmt>
+      <SocialSecurityWagesAmt>113989</SocialSecurityWagesAmt>
+      <MedicareWagesAndTipsAmt>113989</MedicareWagesAndTipsAmt>
+    </IRSW2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>2473</InterestAmt>
+      <TotalInterestAmt>2473</TotalInterestAmt>
+      <OrdinaryDividendsAmt>483</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>483</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+  </ReturnData>
+</Return>

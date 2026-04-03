@@ -1,0 +1,21 @@
+{
+  "version": "1",
+  "stage": "synthetic_generation_v1",
+  "master_seed": 1,
+  "count": 1,
+  "complexity_level": "easy",
+  "default_tax_year": 2023,
+  "note": "Synthetic taxpayer generation; each dataset follows specs/dataset_structure_blueprint.yaml (see 00_dataset_files_manifest.json files_sha256 v2).",
+  "datasets": [
+    {
+      "index": 0,
+      "slug": "dataset_00001",
+      "stream_seed": 5942101179225861032,
+      "tax_year": 2022,
+      "state_code": "NY",
+      "complexity_tier": "easy",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "4d08a7bb82b922bcef4d1925690526fa4ef0d3fd769529bd61fa15a52ad5c33d"
+    }
+  ]
+}

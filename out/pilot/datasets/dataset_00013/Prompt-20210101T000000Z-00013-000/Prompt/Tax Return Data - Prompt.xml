@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>900720996</PrimarySSN>
+      <NameLine1Txt>River Lawson</NameLine1Txt>
+      <PrimaryNameControlTxt>LAWS</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>100 Maple St</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <TaxWeaveAtlasCoverage>
+    <SyntheticSubsetInd>true</SyntheticSubsetInd>
+    <UnmodeledSchedulesTxt>IRS1040Schedule2,IRS1040ScheduleC,IRS1040ScheduleSE,IRS1040Schedule8812,IRS8995,IRS4562</UnmodeledSchedulesTxt>
+  </TaxWeaveAtlasCoverage>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <WagesAmt>59774</WagesAmt>
+      <TaxableInterestAmt>0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <AdjustedGrossIncomeAmt>59774</AdjustedGrossIncomeAmt>
+      <TaxableIncomeAmt>47224</TaxableIncomeAmt>
+      <TotalTaxAmt>5442</TotalTaxAmt>
+      <WithholdingTaxAmt>9094</WithholdingTaxAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>900720996</EmployeeSSN>
+      <EmployerEIN>012020346</EmployerEIN>
+      <EmployerName>
+        <BusinessNameLine1Txt>Pioneer Stub Data Corp</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployeeNm>River Lawson</EmployeeNm>
+      <WagesAmt>59774</WagesAmt>
+      <WithholdingAmt>9094</WithholdingAmt>
+      <SocialSecurityWagesAmt>59774</SocialSecurityWagesAmt>
+      <MedicareWagesAndTipsAmt>59774</MedicareWagesAndTipsAmt>
+    </IRSW2>
+  </ReturnData>
+</Return>

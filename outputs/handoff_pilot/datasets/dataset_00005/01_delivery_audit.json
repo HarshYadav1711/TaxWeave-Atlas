@@ -1,0 +1,16 @@
+{
+  "format": "taxweave-atlas-delivery-audit-v1",
+  "validated_at_utc": "2026-04-03T19:09:27.288688+00:00",
+  "slug": "dataset_00005",
+  "case_fingerprint": "2ae66942e703125c6d07d6859bd7b3a649fa29a120898d6467014f33ffd3dff2",
+  "ok": true,
+  "checks_passed": [
+    "cross_form_numeric",
+    "field_completeness",
+    "supporting_documents_shape",
+    "questionnaire_sidecar_match",
+    "output_integrity_pdfs"
+  ],
+  "errors": [],
+  "warnings": []
+}

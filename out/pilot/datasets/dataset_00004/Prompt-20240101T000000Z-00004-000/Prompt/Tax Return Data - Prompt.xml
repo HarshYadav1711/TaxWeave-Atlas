@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2024v5.0">
+  <ReturnHeader>
+    <TaxYr>2024</TaxYr>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>900010284</PrimarySSN>
+      <NameLine1Txt>Finley Carter</NameLine1Txt>
+      <PrimaryNameControlTxt>CART</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>220 Cedar Ave</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <TaxWeaveAtlasCoverage>
+    <SyntheticSubsetInd>true</SyntheticSubsetInd>
+    <UnmodeledSchedulesTxt>IRS1040Schedule2,IRS1040ScheduleC,IRS1040ScheduleSE,IRS1040Schedule8812,IRS8995,IRS4562</UnmodeledSchedulesTxt>
+  </TaxWeaveAtlasCoverage>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <WagesAmt>80513</WagesAmt>
+      <TaxableInterestAmt>0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt>5799</OrdinaryDividendsAmt>
+      <AdjustedGrossIncomeAmt>86312</AdjustedGrossIncomeAmt>
+      <TaxableIncomeAmt>71712</TaxableIncomeAmt>
+      <TotalTaxAmt>6369</TotalTaxAmt>
+      <WithholdingTaxAmt>14622</WithholdingTaxAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>900010284</EmployeeSSN>
+      <EmployerEIN>003022948</EmployerEIN>
+      <EmployerName>
+        <BusinessNameLine1Txt>Northwind Synthetic Payroll LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployeeNm>Finley Carter</EmployeeNm>
+      <WagesAmt>80513</WagesAmt>
+      <WithholdingAmt>14622</WithholdingAmt>
+      <SocialSecurityWagesAmt>80513</SocialSecurityWagesAmt>
+      <MedicareWagesAndTipsAmt>80513</MedicareWagesAndTipsAmt>
+    </IRSW2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>0</InterestAmt>
+      <TotalInterestAmt>0</TotalInterestAmt>
+      <OrdinaryDividendsAmt>5799</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>5799</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+  </ReturnData>
+</Return>

@@ -1,0 +1,25 @@
+{
+  "format": "taxweave-atlas-dataset-files-v2",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-00029-000",
+  "tax_year": 2023,
+  "case_fingerprint": "98f19176b70bda500a9c75311608c831a098808c2ed9c1e1d14f32e17fc59237",
+  "case_json_sha256": "6d31f2d82556931d203b756d0bc9a3f21da0ad11e8cf59c38eeedcc3535e5439",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-00029-000/1. Client Summary/Client Summary.docx": "f8880643b6e1aafd53cabee4f983c4851060c2dae563379d1c4df306aac51acb",
+    "2. Input Documents-20230101T000000Z-00029-000/2. Input Documents/Tax Document Attachments Summary.docx": "d86e3b39851550c7e73f36134381b8f0e4c40c267443482b3a124f3dd38dac6d",
+    "2. Input Documents-20230101T000000Z-00029-000/2. Input Documents/1099- DIV/1099-DIV MERCER.pdf": "3f4fecadd83467f6093c7b2c60629328b3576e4aba75c3f5abfe15e431f030f5",
+    "2. Input Documents-20230101T000000Z-00029-000/2. Input Documents/1099-INT/1099-INT MERCER.pdf": "324315444ed94d583e67f72c7bde530d0791e4e86cba2db55f5c0b5d95dab89d",
+    "2. Input Documents-20230101T000000Z-00029-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.xlsx": "6715792ef1a2f372a5729a06ed07732132aea9c47af10adebeced88c5558ae16",
+    "2. Input Documents-20230101T000000Z-00029-000/2. Input Documents/Form W-2/Form W-2.pdf": "4abfabd08eb788dc572f421fb529a25b6f9a4dbef59efcb2e2b6d225b41f901c",
+    "2. Input Documents-20230101T000000Z-00029-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "d345e488502a57f0683fa36d60b672350a7b6f4307ad1d9a1a655eda6dd8efbf",
+    "2. Input Documents-20230101T000000Z-00029-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.xlsx": "6715792ef1a2f372a5729a06ed07732132aea9c47af10adebeced88c5558ae16",
+    "3. Complete form-20230101T000000Z-00029-000/3. Complete form/2023 Tax Return Documents (Avery Mercer (synthetic)).pdf": "6df57caf0cd764e5a66055746b244e560db1dd5fcb6beb6088bf4652b2e0012d",
+    "3. Complete form-20230101T000000Z-00029-000/3. Complete form/Completed forms - Summary.docx": "dd65fc4aaa9e4079193da883f0de411d5906bcdf6fac5857762501beb5a8902e",
+    "4. Executive Summary-20230101T000000Z-00029-000/4. Executive Summary/4. Summary_.docx": "43d9d2f48862cd9a4d1948e2bcdc0347583b27bf4cd39e2d8fe8c5ce571dfd2d",
+    "4. Executive Summary-20230101T000000Z-00029-000/4. Executive Summary/Executive Summary Avery Mercer 2023.pdf": "8aae50326f151e49586c5892519db59c405409e6f75362e65b9d2c385ca4cec0",
+    "Prompt-20230101T000000Z-00029-000/Prompt/Tax Return Data - Prompt.docx": "8df3a824a85366ae391da070ff3806e588b04ea149b3bcde5551773098749c73",
+    "Prompt-20230101T000000Z-00029-000/Prompt/Tax Return Data - Prompt.xml": "554163cb72c85571f51b50e633407c1c58589acecbb390125fa123234a64cd84"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

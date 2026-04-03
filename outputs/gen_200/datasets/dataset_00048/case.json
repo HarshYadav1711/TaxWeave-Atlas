@@ -1,0 +1,161 @@
+{
+  "tax_year": 2024,
+  "profile": {
+    "primary_first_name": "Riley",
+    "primary_last_name": "Navarro",
+    "spouse_first_name": "Reese",
+    "spouse_last_name": "Okoro",
+    "filing_status": "married_filing_jointly",
+    "taxpayer_label": "Riley Navarro (synthetic)",
+    "synthetic_ssn_primary": "900-11-3801",
+    "synthetic_ssn_spouse": "900-59-3739",
+    "address": {
+      "line1": "300 Erie Blvd",
+      "line2": null,
+      "city": "Albany",
+      "state": "NY",
+      "zip": "12207"
+    },
+    "dependents_qualifying_children_under_17": 2,
+    "dependents_other": 0,
+    "primary_full_name": "Riley Navarro"
+  },
+  "questionnaire": {
+    "answers": {
+      "q_wages_reported": 71060,
+      "q_foreign_account": false,
+      "q_crypto": false,
+      "q_energy_credits": false,
+      "num_qualifying_children_under_17": 2,
+      "num_other_dependents": 0,
+      "itemized_deduction_elected": false,
+      "has_self_employment_income": false,
+      "has_retirement_distributions": false,
+      "extensions": {
+        "complexity_tier": "medium",
+        "stratum_state": "NY",
+        "stratum_tax_year": "2024"
+      }
+    }
+  },
+  "income": {
+    "wages": 71060,
+    "interest": 0,
+    "dividends_ordinary": 2693,
+    "federal_withholding": 11201,
+    "w2": {
+      "employer_name": "Cedar Hollow Analytics LLC",
+      "employer_ein": "04-7046190",
+      "employee_name": "Riley Navarro",
+      "employee_ssn": "900-11-3801",
+      "social_security_wages": 71060,
+      "medicare_wages": 71060
+    },
+    "forms_1099_int": {
+      "payer_name": "Great Plains Synthetic Credit Union",
+      "payer_tin": "04-7036248",
+      "recipient_name": "Riley Navarro",
+      "recipient_tin": "900-11-3801",
+      "interest_reported": 0
+    },
+    "other_ordinary_income": {},
+    "passive_income": {}
+  },
+  "deductions": {
+    "elected_method": "standard",
+    "standard_amount_override": null,
+    "itemized_components": {},
+    "adjustments_to_agi": {}
+  },
+  "credits": {
+    "credits": [
+      {
+        "code": "CTC_SYNTH",
+        "amount": 4000,
+        "refundable": false
+      },
+      {
+        "code": "SAVER_SYNTH",
+        "amount": 445,
+        "refundable": false
+      }
+    ]
+  },
+  "supporting_documents": {
+    "documents": [
+      {
+        "kind": "w2",
+        "document_id": "W2-dataset_00048",
+        "display_name": "Synthetic Form W-2",
+        "key_amounts": {
+          "wages": 71060,
+          "federal_withholding": 11201
+        },
+        "key_strings": {
+          "employer_ein": "04-7046190"
+        }
+      },
+      {
+        "kind": "1099_int",
+        "document_id": "1099INT-dataset_00048",
+        "display_name": "Synthetic Form 1099-INT",
+        "key_amounts": {
+          "interest": 0
+        },
+        "key_strings": {
+          "payer_tin": "04-7036248"
+        }
+      },
+      {
+        "kind": "1099_div",
+        "document_id": "1099DIV-dataset_00048",
+        "display_name": "Synthetic Form 1099-DIV",
+        "key_amounts": {
+          "ordinary_dividends": 2693
+        },
+        "key_strings": {
+          "payer_tin": "04-7036248"
+        }
+      }
+    ]
+  },
+  "federal": {
+    "lines": {
+      "wages": 71060,
+      "taxable_interest": 0,
+      "ordinary_dividends": 2693,
+      "agi": 73753,
+      "standard_deduction": 29200,
+      "taxable_income": 44553,
+      "total_tax": 5114,
+      "federal_withholding": 11201,
+      "additional_lines": {}
+    },
+    "form_references": []
+  },
+  "state": {
+    "code": "NY",
+    "adjustments": {
+      "additions": 0,
+      "subtractions": 0
+    },
+    "lines": {
+      "state_wages": 71060,
+      "additions": 0,
+      "subtractions": 0,
+      "state_taxable_income": 73753,
+      "state_tax": 4573,
+      "additional_lines": {}
+    },
+    "tax_computed": 4573,
+    "form_references": []
+  },
+  "executive_summary": {
+    "agi": 73753,
+    "taxable_income": 44553,
+    "total_tax": 5114,
+    "federal_withholding": 11201,
+    "state_tax": 4573,
+    "effective_rate_federal": 0.0693
+  }
+}

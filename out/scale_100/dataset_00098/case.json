@@ -1,0 +1,84 @@
+{
+  "tax_year": 2023,
+  "profile": {
+    "primary_first_name": "Reese",
+    "primary_last_name": "Ingram",
+    "spouse_first_name": null,
+    "spouse_last_name": null,
+    "filing_status": "head_of_household",
+    "taxpayer_label": "Reese Ingram (synthetic)",
+    "synthetic_ssn_primary": "900-81-4823",
+    "synthetic_ssn_spouse": null,
+    "address": {
+      "line1": "100 Maple St",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "78701"
+    },
+    "primary_full_name": "Reese Ingram"
+  },
+  "questionnaire": {
+    "answers": {
+      "q_wages_reported": 105402,
+      "q_foreign_account": false,
+      "q_crypto": false,
+      "q_energy_credits": false
+    }
+  },
+  "income": {
+    "wages": 105402,
+    "interest": 0,
+    "dividends_ordinary": 0,
+    "federal_withholding": 12038,
+    "w2": {
+      "employer_name": "Atlas Demo Manufacturing Inc",
+      "employer_ein": "09-7009785",
+      "employee_name": "Reese Ingram",
+      "employee_ssn": "900-81-4823",
+      "social_security_wages": 105402,
+      "medicare_wages": 105402
+    },
+    "forms_1099_int": {
+      "payer_name": "Synthetic Interest Payer NA",
+      "payer_tin": "09-7025470",
+      "recipient_name": "Reese Ingram",
+      "recipient_tin": "900-81-4823",
+      "interest_reported": 0
+    }
+  },
+  "federal": {
+    "lines": {
+      "wages": 105402,
+      "taxable_interest": 0,
+      "ordinary_dividends": 0,
+      "agi": 105402,
+      "standard_deduction": 20800,
+      "taxable_income": 84602,
+      "total_tax": 13665,
+      "federal_withholding": 12038
+    }
+  },
+  "state": {
+    "code": "TX",
+    "adjustments": {
+      "additions": 0,
+      "subtractions": 0
+    },
+    "lines": {
+      "state_wages": 105402,
+      "additions": 0,
+      "subtractions": 0,
+      "state_taxable_income": 105402,
+      "state_tax": 0
+    },
+    "tax_computed": 0
+  },
+  "executive_summary": {
+    "agi": 105402,
+    "taxable_income": 84602,
+    "total_tax": 13665,
+    "federal_withholding": 12038,
+    "state_tax": 0,
+    "effective_rate_federal": 0.1296
+  }
+}

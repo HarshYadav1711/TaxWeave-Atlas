@@ -1,0 +1,156 @@
+{
+  "tax_year": 2024,
+  "profile": {
+    "primary_first_name": "River",
+    "primary_last_name": "Bennett",
+    "spouse_first_name": null,
+    "spouse_last_name": null,
+    "filing_status": "head_of_household",
+    "taxpayer_label": "River Bennett (synthetic)",
+    "synthetic_ssn_primary": "900-81-4095",
+    "synthetic_ssn_spouse": null,
+    "address": {
+      "line1": "910 Citrus Ave",
+      "line2": null,
+      "city": "Tampa",
+      "state": "FL",
+      "zip": "33602"
+    },
+    "dependents_qualifying_children_under_17": 1,
+    "dependents_other": 0,
+    "primary_full_name": "River Bennett"
+  },
+  "questionnaire": {
+    "answers": {
+      "q_wages_reported": 81439,
+      "q_foreign_account": false,
+      "q_crypto": false,
+      "q_energy_credits": false,
+      "num_qualifying_children_under_17": 1,
+      "num_other_dependents": 0,
+      "itemized_deduction_elected": false,
+      "has_self_employment_income": false,
+      "has_retirement_distributions": false,
+      "extensions": {
+        "complexity_tier": "medium",
+        "stratum_state": "FL",
+        "stratum_tax_year": "2024"
+      }
+    }
+  },
+  "income": {
+    "wages": 81439,
+    "interest": 0,
+    "dividends_ordinary": 3689,
+    "federal_withholding": 9502,
+    "w2": {
+      "employer_name": "Prairie View Logistics LLC",
+      "employer_ein": "07-7003279",
+      "employee_name": "River Bennett",
+      "employee_ssn": "900-81-4095",
+      "social_security_wages": 81439,
+      "medicare_wages": 81439
+    },
+    "forms_1099_int": {
+      "payer_name": "Great Plains Synthetic Credit Union",
+      "payer_tin": "07-7033497",
+      "recipient_name": "River Bennett",
+      "recipient_tin": "900-81-4095",
+      "interest_reported": 0
+    },
+    "other_ordinary_income": {},
+    "passive_income": {}
+  },
+  "deductions": {
+    "elected_method": "standard",
+    "standard_amount_override": null,
+    "itemized_components": {},
+    "adjustments_to_agi": {}
+  },
+  "credits": {
+    "credits": [
+      {
+        "code": "CTC_SYNTH",
+        "amount": 2000,
+        "refundable": false
+      }
+    ]
+  },
+  "supporting_documents": {
+    "documents": [
+      {
+        "kind": "w2",
+        "document_id": "W2-dataset_00178",
+        "display_name": "Synthetic Form W-2",
+        "key_amounts": {
+          "wages": 81439,
+          "federal_withholding": 9502
+        },
+        "key_strings": {
+          "employer_ein": "07-7003279"
+        }
+      },
+      {
+        "kind": "1099_int",
+        "document_id": "1099INT-dataset_00178",
+        "display_name": "Synthetic Form 1099-INT",
+        "key_amounts": {
+          "interest": 0
+        },
+        "key_strings": {
+          "payer_tin": "07-7033497"
+        }
+      },
+      {
+        "kind": "1099_div",
+        "document_id": "1099DIV-dataset_00178",
+        "display_name": "Synthetic Form 1099-DIV",
+        "key_amounts": {
+          "ordinary_dividends": 3689
+        },
+        "key_strings": {
+          "payer_tin": "07-7033497"
+        }
+      }
+    ]
+  },
+  "federal": {
+    "lines": {
+      "wages": 81439,
+      "taxable_interest": 0,
+      "ordinary_dividends": 3689,
+      "agi": 85128,
+      "standard_deduction": 21900,
+      "taxable_income": 63228,
+      "total_tax": 8963,
+      "federal_withholding": 9502,
+      "additional_lines": {}
+    },
+    "form_references": []
+  },
+  "state": {
+    "code": "FL",
+    "adjustments": {
+      "additions": 0,
+      "subtractions": 2434
+    },
+    "lines": {
+      "state_wages": 81439,
+      "additions": 0,
+      "subtractions": 2434,
+      "state_taxable_income": 82694,
+      "state_tax": 0,
+      "additional_lines": {}
+    },
+    "tax_computed": 0,
+    "form_references": []
+  },
+  "executive_summary": {
+    "agi": 85128,
+    "taxable_income": 63228,
+    "total_tax": 8963,
+    "federal_withholding": 9502,
+    "state_tax": 0,
+    "effective_rate_federal": 0.1053
+  }
+}

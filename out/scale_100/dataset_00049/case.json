@@ -1,0 +1,84 @@
+{
+  "tax_year": 2023,
+  "profile": {
+    "primary_first_name": "Quinn",
+    "primary_last_name": "Ingram",
+    "spouse_first_name": "Rowan",
+    "spouse_last_name": "Foster",
+    "filing_status": "married_filing_jointly",
+    "taxpayer_label": "Quinn Ingram (synthetic)",
+    "synthetic_ssn_primary": "900-75-4219",
+    "synthetic_ssn_spouse": "900-19-4974",
+    "address": {
+      "line1": "501 Willow Way",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "78701"
+    },
+    "primary_full_name": "Quinn Ingram"
+  },
+  "questionnaire": {
+    "answers": {
+      "q_wages_reported": 97712,
+      "q_foreign_account": false,
+      "q_crypto": false,
+      "q_energy_credits": false
+    }
+  },
+  "income": {
+    "wages": 97712,
+    "interest": 2569,
+    "dividends_ordinary": 0,
+    "federal_withholding": 20084,
+    "w2": {
+      "employer_name": "Pioneer Stub Data Corp",
+      "employer_ein": "04-8009910",
+      "employee_name": "Quinn Ingram",
+      "employee_ssn": "900-75-4219",
+      "social_security_wages": 97712,
+      "medicare_wages": 97712
+    },
+    "forms_1099_int": {
+      "payer_name": "Synthetic Interest Payer NA",
+      "payer_tin": "04-8029543",
+      "recipient_name": "Quinn Ingram",
+      "recipient_tin": "900-75-4219",
+      "interest_reported": 2569
+    }
+  },
+  "federal": {
+    "lines": {
+      "wages": 97712,
+      "taxable_interest": 2569,
+      "ordinary_dividends": 0,
+      "agi": 100281,
+      "standard_deduction": 27700,
+      "taxable_income": 72581,
+      "total_tax": 11021,
+      "federal_withholding": 20084
+    }
+  },
+  "state": {
+    "code": "TX",
+    "adjustments": {
+      "additions": 0,
+      "subtractions": 0
+    },
+    "lines": {
+      "state_wages": 97712,
+      "additions": 0,
+      "subtractions": 0,
+      "state_taxable_income": 100281,
+      "state_tax": 0
+    },
+    "tax_computed": 0
+  },
+  "executive_summary": {
+    "agi": 100281,
+    "taxable_income": 72581,
+    "total_tax": 11021,
+    "federal_withholding": 20084,
+    "state_tax": 0,
+    "effective_rate_federal": 0.1099
+  }
+}

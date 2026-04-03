@@ -1,0 +1,41 @@
+{
+  "version": "1",
+  "stage": "synthetic_generation_v1",
+  "master_seed": 2,
+  "count": 3,
+  "complexity_level": "easy",
+  "default_tax_year": 2023,
+  "note": "Synthetic taxpayer generation with reconciliation and PDF bundle per dataset (see 00_dataset_files_manifest.json and 01–06 PDFs).",
+  "datasets": [
+    {
+      "index": 0,
+      "slug": "dataset_00001",
+      "stream_seed": 5215437379082223661,
+      "tax_year": 2023,
+      "state_code": "NY",
+      "complexity_tier": "medium",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "a3fc771f5bae8511b5bcdb9725351a9d8c36de17520f423dc7f544ebfc2f7058"
+    },
+    {
+      "index": 1,
+      "slug": "dataset_00002",
+      "stream_seed": 7456537658932355276,
+      "tax_year": 2020,
+      "state_code": "IL",
+      "complexity_tier": "medium",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "341a07a59b1a1d2facdde6b4452a976ae51d783c08a804673fe8ca39ef1d48ae"
+    },
+    {
+      "index": 2,
+      "slug": "dataset_00003",
+      "stream_seed": 11258422228207119300,
+      "tax_year": 2023,
+      "state_code": "NY",
+      "complexity_tier": "medium",
+      "uniqueness_salt": 0,
+      "case_fingerprint": "3ea2fce8df5763f9d727114eb844dbcb103e071dad0d8723ec9d8396adc625e9"
+    }
+  ]
+}

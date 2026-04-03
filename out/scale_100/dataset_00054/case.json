@@ -1,0 +1,84 @@
+{
+  "tax_year": 2023,
+  "profile": {
+    "primary_first_name": "Emery",
+    "primary_last_name": "Mercer",
+    "spouse_first_name": null,
+    "spouse_last_name": null,
+    "filing_status": "head_of_household",
+    "taxpayer_label": "Emery Mercer (synthetic)",
+    "synthetic_ssn_primary": "900-51-0713",
+    "synthetic_ssn_spouse": null,
+    "address": {
+      "line1": "220 Cedar Ave",
+      "city": "Sacramento",
+      "state": "CA",
+      "zip": "95814"
+    },
+    "primary_full_name": "Emery Mercer"
+  },
+  "questionnaire": {
+    "answers": {
+      "q_wages_reported": 50668,
+      "q_foreign_account": false,
+      "q_crypto": false,
+      "q_energy_credits": false
+    }
+  },
+  "income": {
+    "wages": 50668,
+    "interest": 1738,
+    "dividends_ordinary": 5098,
+    "federal_withholding": 6415,
+    "w2": {
+      "employer_name": "Sample Valley Services LLC",
+      "employer_ein": "05-3007152",
+      "employee_name": "Emery Mercer",
+      "employee_ssn": "900-51-0713",
+      "social_security_wages": 50668,
+      "medicare_wages": 50668
+    },
+    "forms_1099_int": {
+      "payer_name": "Synthetic Interest Payer NA",
+      "payer_tin": "05-3025812",
+      "recipient_name": "Emery Mercer",
+      "recipient_tin": "900-51-0713",
+      "interest_reported": 1738
+    }
+  },
+  "federal": {
+    "lines": {
+      "wages": 50668,
+      "taxable_interest": 1738,
+      "ordinary_dividends": 5098,
+      "agi": 57504,
+      "standard_deduction": 20800,
+      "taxable_income": 36704,
+      "total_tax": 4172,
+      "federal_withholding": 6415
+    }
+  },
+  "state": {
+    "code": "CA",
+    "adjustments": {
+      "additions": 0,
+      "subtractions": 0
+    },
+    "lines": {
+      "state_wages": 50668,
+      "additions": 0,
+      "subtractions": 0,
+      "state_taxable_income": 57504,
+      "state_tax": 3163
+    },
+    "tax_computed": 3163
+  },
+  "executive_summary": {
+    "agi": 57504,
+    "taxable_income": 36704,
+    "total_tax": 4172,
+    "federal_withholding": 6415,
+    "state_tax": 3163,
+    "effective_rate_federal": 0.0726
+  }
+}

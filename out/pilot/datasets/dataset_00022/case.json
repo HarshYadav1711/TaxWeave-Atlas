@@ -1,0 +1,165 @@
+{
+  "tax_year": 2025,
+  "profile": {
+    "primary_first_name": "Quinn",
+    "primary_last_name": "Jennings",
+    "spouse_first_name": "Rowan",
+    "spouse_last_name": "Foster",
+    "filing_status": "married_filing_jointly",
+    "taxpayer_label": "Quinn Jennings (synthetic)",
+    "synthetic_ssn_primary": "900-43-1709",
+    "synthetic_ssn_spouse": "900-89-1711",
+    "address": {
+      "line1": "1400 Pecan Blvd",
+      "line2": null,
+      "city": "Houston",
+      "state": "TX",
+      "zip": "77002"
+    },
+    "dependents_qualifying_children_under_17": 3,
+    "dependents_other": 0
+  },
+  "questionnaire": {
+    "answers": {
+      "q_wages_reported": 158608,
+      "q_foreign_account": false,
+      "q_crypto": false,
+      "q_energy_credits": false,
+      "num_qualifying_children_under_17": 3,
+      "num_other_dependents": 0,
+      "itemized_deduction_elected": false,
+      "has_self_employment_income": true,
+      "has_retirement_distributions": false,
+      "extensions": {
+        "complexity_tier": "moderately_complex",
+        "stratum_state": "TX",
+        "stratum_tax_year": "2025",
+        "dataset_slug": "dataset_00022"
+      }
+    }
+  },
+  "income": {
+    "wages": 158608,
+    "interest": 3809,
+    "dividends_ordinary": 183,
+    "federal_withholding": 15827,
+    "w2": {
+      "employer_name": "Pioneer Stub Data Corp",
+      "employer_ein": "02-1048128",
+      "employee_name": "Quinn Jennings",
+      "employee_ssn": "900-43-1709",
+      "social_security_wages": 158608,
+      "medicare_wages": 158608
+    },
+    "forms_1099_int": {
+      "payer_name": "Sample National Trust FSB",
+      "payer_tin": "02-1038071",
+      "recipient_name": "Quinn Jennings",
+      "recipient_tin": "900-43-1709",
+      "interest_reported": 3809
+    },
+    "other_ordinary_income": {
+      "self_employment_net": 31771
+    },
+    "passive_income": {}
+  },
+  "deductions": {
+    "elected_method": "standard",
+    "standard_amount_override": null,
+    "itemized_components": {},
+    "adjustments_to_agi": {}
+  },
+  "credits": {
+    "credits": [
+      {
+        "code": "CTC_SYNTH",
+        "amount": 6000,
+        "refundable": false
+      }
+    ]
+  },
+  "supporting_documents": {
+    "documents": [
+      {
+        "kind": "w2",
+        "document_id": "W2-dataset_00022",
+        "display_name": "Synthetic Form W-2",
+        "key_amounts": {
+          "wages": 158608,
+          "federal_withholding": 15827
+        },
+        "key_strings": {
+          "employer_ein": "02-1048128"
+        }
+      },
+      {
+        "kind": "1099_int",
+        "document_id": "1099INT-dataset_00022",
+        "display_name": "Synthetic Form 1099-INT",
+        "key_amounts": {
+          "interest": 3809
+        },
+        "key_strings": {
+          "payer_tin": "02-1038071"
+        }
+      },
+      {
+        "kind": "1099_div",
+        "document_id": "1099DIV-dataset_00022",
+        "display_name": "Synthetic Form 1099-DIV",
+        "key_amounts": {
+          "ordinary_dividends": 183
+        },
+        "key_strings": {
+          "payer_tin": "02-1038071"
+        }
+      }
+    ]
+  },
+  "federal": {
+    "lines": {
+      "wages": 158608,
+      "taxable_interest": 3809,
+      "ordinary_dividends": 183,
+      "agi": 194371,
+      "standard_deduction": 30000,
+      "taxable_income": 164371,
+      "total_tax": 26491,
+      "federal_withholding": 15827,
+      "additional_lines": {
+        "statutory_standard_deduction": 30000,
+        "schedule_a_total": 0,
+        "itemized_elected": 0,
+        "pre_credit_income_tax": 32491,
+        "nonrefundable_credits_applied": 6000,
+        "refundable_credits_applied": 0
+      }
+    },
+    "form_references": []
+  },
+  "state": {
+    "code": "TX",
+    "adjustments": {
+      "additions": 0,
+      "subtractions": 0
+    },
+    "lines": {
+      "state_wages": 158608,
+      "additions": 0,
+      "subtractions": 0,
+      "state_taxable_income": 194371,
+      "state_tax": 0,
+      "additional_lines": {}
+    },
+    "tax_computed": 0,
+    "form_references": []
+  },
+  "executive_summary": {
+    "agi": 194371,
+    "taxable_income": 164371,
+    "total_tax": 26491,
+    "federal_withholding": 15827,
+    "state_tax": 0,
+    "effective_rate_federal": 0.1363
+  }
+}

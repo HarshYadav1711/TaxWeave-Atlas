@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>900820204</PrimarySSN>
+      <NameLine1Txt>Parker Carter</NameLine1Txt>
+      <PrimaryNameControlTxt>CART</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>220 Cedar Ave</AddressLine1Txt>
+        <CityNm>Sacramento</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95814</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <TaxWeaveAtlasCoverage>
+    <SyntheticSubsetInd>true</SyntheticSubsetInd>
+    <UnmodeledSchedulesTxt>IRS1040Schedule2,IRS1040ScheduleC,IRS1040ScheduleSE,IRS1040Schedule8812,IRS8995,IRS4562</UnmodeledSchedulesTxt>
+  </TaxWeaveAtlasCoverage>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <WagesAmt>88156</WagesAmt>
+      <TaxableInterestAmt>0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <AdjustedGrossIncomeAmt>88156</AdjustedGrossIncomeAmt>
+      <TaxableIncomeAmt>75206</TaxableIncomeAmt>
+      <TotalTaxAmt>9598</TotalTaxAmt>
+      <WithholdingTaxAmt>8830</WithholdingTaxAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>900820204</EmployeeSSN>
+      <EmployerEIN>002019655</EmployerEIN>
+      <EmployerName>
+        <BusinessNameLine1Txt>Atlas Demo Manufacturing Inc</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployeeNm>Parker Carter</EmployeeNm>
+      <WagesAmt>88156</WagesAmt>
+      <WithholdingAmt>8830</WithholdingAmt>
+      <SocialSecurityWagesAmt>88156</SocialSecurityWagesAmt>
+      <MedicareWagesAndTipsAmt>88156</MedicareWagesAndTipsAmt>
+    </IRSW2>
+  </ReturnData>
+</Return>

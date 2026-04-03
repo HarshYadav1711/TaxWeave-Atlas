@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>900142422</PrimarySSN>
+      <NameLine1Txt>Jordan Hayes</NameLine1Txt>
+      <PrimaryNameControlTxt>HAYE</PrimaryNameControlTxt>
+      <SpouseSSN>900602424</SpouseSSN>
+      <SpouseNameLine1Txt>Casey Okoro</SpouseNameLine1Txt>
+      <SpouseNameControlTxt>OKOR</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>501 Willow Way</AddressLine1Txt>
+        <CityNm>Austin</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>78701</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <TaxWeaveAtlasCoverage>
+    <SyntheticSubsetInd>true</SyntheticSubsetInd>
+    <UnmodeledSchedulesTxt>IRS1040Schedule2,IRS1040ScheduleC,IRS1040ScheduleSE,IRS1040Schedule8812,IRS8995,IRS4562</UnmodeledSchedulesTxt>
+  </TaxWeaveAtlasCoverage>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <WagesAmt>46481</WagesAmt>
+      <TaxableInterestAmt>128</TaxableInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <AdjustedGrossIncomeAmt>46609</AdjustedGrossIncomeAmt>
+      <TaxableIncomeAmt>16609</TaxableIncomeAmt>
+      <TotalTaxAmt>1761</TotalTaxAmt>
+      <WithholdingTaxAmt>5660</WithholdingTaxAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>900142422</EmployeeSSN>
+      <EmployerEIN>030009303</EmployerEIN>
+      <EmployerName>
+        <BusinessNameLine1Txt>Prairie View Logistics LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployeeNm>Jordan Hayes</EmployeeNm>
+      <WagesAmt>46481</WagesAmt>
+      <WithholdingAmt>5660</WithholdingAmt>
+      <SocialSecurityWagesAmt>46481</SocialSecurityWagesAmt>
+      <MedicareWagesAndTipsAmt>46481</MedicareWagesAndTipsAmt>
+    </IRSW2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>128</InterestAmt>
+      <TotalInterestAmt>128</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+  </ReturnData>
+</Return>

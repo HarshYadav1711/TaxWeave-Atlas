@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2025v5.0">
+  <ReturnHeader>
+    <TaxYr>2025</TaxYr>
+    <TaxPeriodBeginDt>2025-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2025-12-31</TaxPeriodEndDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>900051551</PrimarySSN>
+      <NameLine1Txt>Avery Navarro</NameLine1Txt>
+      <PrimaryNameControlTxt>NAVA</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>88 Spruce Ln</AddressLine1Txt>
+        <CityNm>Houston</CityNm>
+        <StateAbbreviationCd>TX</StateAbbreviationCd>
+        <ZIPCd>77002</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <TaxWeaveAtlasCoverage>
+    <SyntheticSubsetInd>true</SyntheticSubsetInd>
+    <UnmodeledSchedulesTxt>IRS1040Schedule2,IRS1040ScheduleC,IRS1040ScheduleSE,IRS1040Schedule8812,IRS8995,IRS4562</UnmodeledSchedulesTxt>
+  </TaxWeaveAtlasCoverage>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>4</IndividualReturnFilingStatusCd>
+      <WagesAmt>164276</WagesAmt>
+      <TaxableInterestAmt>2254</TaxableInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <AdjustedGrossIncomeAmt>180200</AdjustedGrossIncomeAmt>
+      <TaxableIncomeAmt>157700</TaxableIncomeAmt>
+      <TotalTaxAmt>30108</TotalTaxAmt>
+      <WithholdingTaxAmt>17714</WithholdingTaxAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>900051551</EmployeeSSN>
+      <EmployerEIN>019018857</EmployerEIN>
+      <EmployerName>
+        <BusinessNameLine1Txt>Cedar Hollow Analytics LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployeeNm>Avery Navarro</EmployeeNm>
+      <WagesAmt>164276</WagesAmt>
+      <WithholdingAmt>17714</WithholdingAmt>
+      <SocialSecurityWagesAmt>164276</SocialSecurityWagesAmt>
+      <MedicareWagesAndTipsAmt>164276</MedicareWagesAndTipsAmt>
+    </IRSW2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>2254</InterestAmt>
+      <TotalInterestAmt>2254</TotalInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>0</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+  </ReturnData>
+</Return>

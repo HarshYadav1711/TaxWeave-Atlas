@@ -1,0 +1,25 @@
+{
+  "format": "taxweave-atlas-dataset-files-v2",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-00035-000",
+  "tax_year": 2024,
+  "case_fingerprint": "f3502475e47183dd6187aa0fc294b4da0a003ee83be0725613da9723792c02ac",
+  "case_json_sha256": "dd9fd65ebf7b8a4077ecc78a64f959224b0a75a2a65f29ff0edfda29d8d51d01",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-00035-000/1. Client Summary/Client Summary.docx": "fd8fd3aacd24404fe834e1c79c37b51ccdc2c2977687619fd84364e04538219e",
+    "2. Input Documents-20240101T000000Z-00035-000/2. Input Documents/Tax Document Attachments Summary.docx": "5a547b7fad0f94a9995dd1eb84dcb45e3ee3dd9a6dc54bcfdf320f7f9cd5a185",
+    "2. Input Documents-20240101T000000Z-00035-000/2. Input Documents/1099- DIV/1099-DIV NAVARRO.pdf": "bf263b0b27a8d4e8d6cae6de2a85052c1f6121f612e2ae20b9e42c0de090d1eb",
+    "2. Input Documents-20240101T000000Z-00035-000/2. Input Documents/1099-INT/1099-INT NAVARRO.pdf": "730bea6e4000b0182b720cdf5c0213fb984f4e58a1519726745b26e9677e7202",
+    "2. Input Documents-20240101T000000Z-00035-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.xlsx": "28b09fcbe0b14648cc67062a2a6badd4c5a0728a4e181bd033a8a7214f0fc707",
+    "2. Input Documents-20240101T000000Z-00035-000/2. Input Documents/Form W-2/Form W-2.pdf": "5935b0ec0c3191213043af626ea059675fbc2f060d7c1587dae7c194c5f35510",
+    "2. Input Documents-20240101T000000Z-00035-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "b70a95b3bafcb850d9152f50def233ac8fac7270fcf39e9c746dda19c6b8460c",
+    "2. Input Documents-20240101T000000Z-00035-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.xlsx": "28b09fcbe0b14648cc67062a2a6badd4c5a0728a4e181bd033a8a7214f0fc707",
+    "3. Complete form-20240101T000000Z-00035-000/3. Complete form/2024 Tax Return Documents (Finley Navarro (synthetic)).pdf": "a784339ade2085a5fe5d6443013b01e33d3e0d3f52c0edd51123eb17637bc809",
+    "3. Complete form-20240101T000000Z-00035-000/3. Complete form/Completed forms - Summary.docx": "e8ead64111b0005bd0e5355e6f6c19db30e09e2681c1febc2c9c45bd34d66503",
+    "4. Executive Summary-20240101T000000Z-00035-000/4. Executive Summary/4. Summary_.docx": "1373d9f44ebc2edbe54e0a953aa25d2b8c828b912bf205901894fbdfb8b65dc0",
+    "4. Executive Summary-20240101T000000Z-00035-000/4. Executive Summary/Executive Summary Finley Navarro 2024.pdf": "e8daba6caa0f24c6b2e565b73ea79abfc5de1fc14ee292d2d5fac97eb2c42daf",
+    "Prompt-20240101T000000Z-00035-000/Prompt/Tax Return Data - Prompt.docx": "b4b01f076a7613533563b45728fe8a286215997acd2c8b32637cdd9f4ca7186f",
+    "Prompt-20240101T000000Z-00035-000/Prompt/Tax Return Data - Prompt.xml": "65fb930ca99c4120a7e209e666e234caebe3a57b51a7db02d44faef4141bd7fc"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

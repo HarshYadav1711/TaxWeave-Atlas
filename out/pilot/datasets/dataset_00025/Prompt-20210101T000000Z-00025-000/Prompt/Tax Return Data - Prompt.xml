@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2021v5.0">
+  <ReturnHeader>
+    <TaxYr>2021</TaxYr>
+    <TaxPeriodBeginDt>2021-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2021-12-31</TaxPeriodEndDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>900001947</PrimarySSN>
+      <NameLine1Txt>Parker Foster</NameLine1Txt>
+      <PrimaryNameControlTxt>FOST</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>12 Bayfront Ct</AddressLine1Txt>
+        <CityNm>Orlando</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32801</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <TaxWeaveAtlasCoverage>
+    <SyntheticSubsetInd>true</SyntheticSubsetInd>
+    <UnmodeledSchedulesTxt>IRS1040Schedule2,IRS1040ScheduleC,IRS1040ScheduleSE,IRS1040Schedule8812,IRS8995,IRS4562</UnmodeledSchedulesTxt>
+  </TaxWeaveAtlasCoverage>
+  <ReturnData documentCnt="2">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>1</IndividualReturnFilingStatusCd>
+      <WagesAmt>63411</WagesAmt>
+      <TaxableInterestAmt>0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt>0</OrdinaryDividendsAmt>
+      <AdjustedGrossIncomeAmt>63411</AdjustedGrossIncomeAmt>
+      <TaxableIncomeAmt>50861</TaxableIncomeAmt>
+      <TotalTaxAmt>2242</TotalTaxAmt>
+      <WithholdingTaxAmt>11305</WithholdingTaxAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>900001947</EmployeeSSN>
+      <EmployerEIN>024032139</EmployerEIN>
+      <EmployerName>
+        <BusinessNameLine1Txt>Atlas Demo Manufacturing Inc</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployeeNm>Parker Foster</EmployeeNm>
+      <WagesAmt>63411</WagesAmt>
+      <WithholdingAmt>11305</WithholdingAmt>
+      <SocialSecurityWagesAmt>63411</SocialSecurityWagesAmt>
+      <MedicareWagesAndTipsAmt>63411</MedicareWagesAndTipsAmt>
+    </IRSW2>
+  </ReturnData>
+</Return>

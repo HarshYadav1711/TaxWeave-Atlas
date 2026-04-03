@@ -1,0 +1,24 @@
+{
+  "format": "taxweave-atlas-dataset-files-v2",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-00001-000",
+  "tax_year": 2022,
+  "case_fingerprint": "4d08a7bb82b922bcef4d1925690526fa4ef0d3fd769529bd61fa15a52ad5c33d",
+  "case_json_sha256": "9394b56d1a04f7b7288684504745cfbee40067f46d849c2b4f624bc94be5c278",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-00001-000/1. Client Summary/Client Summary.docx": "1fa44bdb7a406011162f1699dbc6d913ac8547764d64bb622896e052142dbb77",
+    "2. Input Documents-20220101T000000Z-00001-000/2. Input Documents/Tax Document Attachments Summary.docx": "1fa44bdb7a406011162f1699dbc6d913ac8547764d64bb622896e052142dbb77",
+    "2. Input Documents-20220101T000000Z-00001-000/2. Input Documents/1099- DIV/1099-DIV NAVARRO.pdf": "9e33b07f6af9ded57242325aa4138b27ccaabab06e7a5dc66cfcd557b2c201af",
+    "2. Input Documents-20220101T000000Z-00001-000/2. Input Documents/1099-INT/1099-INT NAVARRO.pdf": "f91d8405e637de8853c4c43c5d999cd144e87e67b4caeaa2e5572a74f65c4ad9",
+    "2. Input Documents-20220101T000000Z-00001-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.xlsx": "375c1f31d4e93b02630f689f2e2fa66e01bb3e65446a1c5a7d893c7234b280e3",
+    "2. Input Documents-20220101T000000Z-00001-000/2. Input Documents/Form W-2/Form W-2.pdf": "fc61888070e4d0bea39449eb5fd2a34041638a074d451df3a56b9e6efa3af4cc",
+    "2. Input Documents-20220101T000000Z-00001-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "ed5c1e4c0bf702497303afa5e5321e284cbfe47eb931f95b401c9788b6b1c0d2",
+    "2. Input Documents-20220101T000000Z-00001-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.xlsx": "375c1f31d4e93b02630f689f2e2fa66e01bb3e65446a1c5a7d893c7234b280e3",
+    "3. Complete form-20220101T000000Z-00001-000/3. Complete form/2022 Tax Return Documents (Casey Navarro (synthetic)).pdf": "7d1035291c4d293c001ee86ef16a24034ac64bddc89a520ea0a97bc5309ad0ea",
+    "3. Complete form-20220101T000000Z-00001-000/3. Complete form/Completed forms - Summary.docx": "1fa44bdb7a406011162f1699dbc6d913ac8547764d64bb622896e052142dbb77",
+    "4. Executive Summary-20220101T000000Z-00001-000/4. Executive Summary/4. Summary_.docx": "1fa44bdb7a406011162f1699dbc6d913ac8547764d64bb622896e052142dbb77",
+    "4. Executive Summary-20220101T000000Z-00001-000/4. Executive Summary/Executive Summary Casey Navarro 2022.pdf": "0660c3710bb85a14b97bbcf2923815bb0824eb4334224333c03424aaf4e3ad4e",
+    "Prompt-20220101T000000Z-00001-000/Prompt/Tax Return Data - Prompt.docx": "1fa44bdb7a406011162f1699dbc6d913ac8547764d64bb622896e052142dbb77",
+    "Prompt-20220101T000000Z-00001-000/Prompt/Tax Return Data - Prompt.xml": "3a74b7890b0a4097e396fb3625323ce68c8eb6ded5a2751b8f9091515c6a93b7"
+  }
+}

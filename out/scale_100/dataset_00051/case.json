@@ -1,0 +1,84 @@
+{
+  "tax_year": 2023,
+  "profile": {
+    "primary_first_name": "Rowan",
+    "primary_last_name": "Keller",
+    "spouse_first_name": null,
+    "spouse_last_name": null,
+    "filing_status": "head_of_household",
+    "taxpayer_label": "Rowan Keller (synthetic)",
+    "synthetic_ssn_primary": "900-38-1409",
+    "synthetic_ssn_spouse": null,
+    "address": {
+      "line1": "88 Spruce Ln",
+      "city": "Sacramento",
+      "state": "CA",
+      "zip": "95814"
+    },
+    "primary_full_name": "Rowan Keller"
+  },
+  "questionnaire": {
+    "answers": {
+      "q_wages_reported": 40581,
+      "q_foreign_account": false,
+      "q_crypto": true,
+      "q_energy_credits": false
+    }
+  },
+  "income": {
+    "wages": 40581,
+    "interest": 0,
+    "dividends_ordinary": 0,
+    "federal_withholding": 7329,
+    "w2": {
+      "employer_name": "Pioneer Stub Data Corp",
+      "employer_ein": "05-0006475",
+      "employee_name": "Rowan Keller",
+      "employee_ssn": "900-38-1409",
+      "social_security_wages": 40581,
+      "medicare_wages": 40581
+    },
+    "forms_1099_int": {
+      "payer_name": "Synthetic Interest Payer NA",
+      "payer_tin": "05-0027206",
+      "recipient_name": "Rowan Keller",
+      "recipient_tin": "900-38-1409",
+      "interest_reported": 0
+    }
+  },
+  "federal": {
+    "lines": {
+      "wages": 40581,
+      "taxable_interest": 0,
+      "ordinary_dividends": 0,
+      "agi": 40581,
+      "standard_deduction": 20800,
+      "taxable_income": 19781,
+      "total_tax": 2142,
+      "federal_withholding": 7329
+    }
+  },
+  "state": {
+    "code": "CA",
+    "adjustments": {
+      "additions": 0,
+      "subtractions": 78
+    },
+    "lines": {
+      "state_wages": 40581,
+      "additions": 0,
+      "subtractions": 78,
+      "state_taxable_income": 40503,
+      "state_tax": 2228
+    },
+    "tax_computed": 2228
+  },
+  "executive_summary": {
+    "agi": 40581,
+    "taxable_income": 19781,
+    "total_tax": 2142,
+    "federal_withholding": 7329,
+    "state_tax": 2228,
+    "effective_rate_federal": 0.0528
+  }
+}

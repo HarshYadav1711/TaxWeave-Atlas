@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2023v5.0">
+  <ReturnHeader>
+    <TaxYr>2023</TaxYr>
+    <TaxPeriodBeginDt>2023-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2023-12-31</TaxPeriodEndDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>900522580</PrimarySSN>
+      <NameLine1Txt>Reese Jennings</NameLine1Txt>
+      <PrimaryNameControlTxt>JENN</PrimaryNameControlTxt>
+      <SpouseSSN>900982582</SpouseSSN>
+      <SpouseNameLine1Txt>Skyler Mercer</SpouseNameLine1Txt>
+      <SpouseNameControlTxt>MERC</SpouseNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>250 Palmetto Dr</AddressLine1Txt>
+        <CityNm>Orlando</CityNm>
+        <StateAbbreviationCd>FL</StateAbbreviationCd>
+        <ZIPCd>32801</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <TaxWeaveAtlasCoverage>
+    <SyntheticSubsetInd>true</SyntheticSubsetInd>
+    <UnmodeledSchedulesTxt>IRS1040Schedule2,IRS1040ScheduleC,IRS1040ScheduleSE,IRS1040Schedule8812,IRS8995,IRS4562</UnmodeledSchedulesTxt>
+  </TaxWeaveAtlasCoverage>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>2</IndividualReturnFilingStatusCd>
+      <WagesAmt>86877</WagesAmt>
+      <TaxableInterestAmt>0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt>19136</OrdinaryDividendsAmt>
+      <AdjustedGrossIncomeAmt>106013</AdjustedGrossIncomeAmt>
+      <TaxableIncomeAmt>78313</TaxableIncomeAmt>
+      <TotalTaxAmt>4359</TotalTaxAmt>
+      <WithholdingTaxAmt>9129</WithholdingTaxAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>900522580</EmployeeSSN>
+      <EmployerEIN>032016183</EmployerEIN>
+      <EmployerName>
+        <BusinessNameLine1Txt>Prairie View Logistics LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployeeNm>Reese Jennings</EmployeeNm>
+      <WagesAmt>86877</WagesAmt>
+      <WithholdingAmt>9129</WithholdingAmt>
+      <SocialSecurityWagesAmt>86877</SocialSecurityWagesAmt>
+      <MedicareWagesAndTipsAmt>86877</MedicareWagesAndTipsAmt>
+    </IRSW2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>0</InterestAmt>
+      <TotalInterestAmt>0</TotalInterestAmt>
+      <OrdinaryDividendsAmt>19136</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>19136</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+  </ReturnData>
+</Return>

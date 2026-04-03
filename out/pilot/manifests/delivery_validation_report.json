@@ -1,0 +1,469 @@
+{
+  "format": "taxweave-atlas-delivery-validation-v1",
+  "validated_at_utc": "2026-04-03T20:14:55.494152+00:00",
+  "batch_root": "D:\\Fun\\TaxWeave Atlas\\out\\pilot",
+  "ok": true,
+  "expect_pdfs": true,
+  "strict_distribution": false,
+  "summary": "delivery validation OK: 35 dataset(s), 0 error(s), 0 warning(s)",
+  "errors": [],
+  "warnings": [],
+  "duplicate_fingerprints": [],
+  "datasets": {
+    "dataset_00001": {
+      "ok": true,
+      "case_fingerprint": "6d3d321c918cd33bee328ae48c54ac586bb9affd04a8aead52ed773b8dc3a146",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_structure"
+      ]
+    },
+    "dataset_00002": {
+      "ok": true,
+      "case_fingerprint": "cbe01b389864cb14a29f0248b052a258d5166a24fa5259912af5b1655cefe523",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_structure"
+      ]
+    },
+    "dataset_00003": {
+      "ok": true,
+      "case_fingerprint": "08dc9417dbc225499efb61abb6f6e0bb3813f23104f0ced141be3c9403c025b8",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_structure"
+      ]
+    },
+    "dataset_00004": {
+      "ok": true,
+      "case_fingerprint": "971194e4ca4c1ff2b776e28c03d3a7dbed686456d6011a4c319cc200167f2540",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_structure"
+      ]
+    },
+    "dataset_00005": {
+      "ok": true,
+      "case_fingerprint": "c4f04aaf22f9fa714b18925ac87c96417657c8717548912ccd0c94cd5d998353",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_structure"
+      ]
+    },
+    "dataset_00006": {
+      "ok": true,
+      "case_fingerprint": "b1f920bb209563edee1259d88917c37a635f04a3ac71f4a64ce5c544a9375586",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_structure"
+      ]
+    },
+    "dataset_00007": {
+      "ok": true,
+      "case_fingerprint": "ebf5b903a700d3a5a83b09ec93b00f0e9974d6cd027b1b12eab173dd1270ca4d",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_structure"
+      ]
+    },
+    "dataset_00008": {
+      "ok": true,
+      "case_fingerprint": "020c7be1f8055fb29aef5b2746b13b12bdc7c318c998c30f42aa67a6776b7c5f",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_structure"
+      ]
+    },
+    "dataset_00009": {
+      "ok": true,
+      "case_fingerprint": "c4189bd53beaa148920521a6d32d22f34688da802caaff1c7eb4f531377f49ab",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_structure"
+      ]
+    },
+    "dataset_00010": {
+      "ok": true,
+      "case_fingerprint": "860f3eb056ef4069969248b20eb306def1855b51eac5e6ca2c39906e2690f760",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_structure"
+      ]
+    },
+    "dataset_00011": {
+      "ok": true,
+      "case_fingerprint": "821e2beb532f76c3c498abf0ce423ab492a553bf18e870bf2a1682aae0ee8105",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_structure"
+      ]
+    },
+    "dataset_00012": {
+      "ok": true,
+      "case_fingerprint": "39a7968632aef7801540dbf97df4b4ebc4822d4a429fac41c76c67785bdd7606",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_structure"
+      ]
+    },
+    "dataset_00013": {
+      "ok": true,
+      "case_fingerprint": "db5bf435bf86421451da559745704a1e71c2bbbd532c64b9ee04222b0c68ae50",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_structure"
+      ]
+    },
+    "dataset_00014": {
+      "ok": true,
+      "case_fingerprint": "d81571c831a4006b4b3754a65e0151411e9dde783978185c803320141c28bd59",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_structure"
+      ]
+    },
+    "dataset_00015": {
+      "ok": true,
+      "case_fingerprint": "e04163a87c7a04a9d3b04a6f69eb106f0b0901ba564e31d8581a554a78a2eaf4",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_structure"
+      ]
+    },
+    "dataset_00016": {
+      "ok": true,
+      "case_fingerprint": "9e79c8119b185b04579cd30b8cf10cefbde7be5d2ac42d5b616a17763aba081c",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_structure"
+      ]
+    },
+    "dataset_00017": {
+      "ok": true,
+      "case_fingerprint": "4cfff9bc38f315d11d4ce57cb35a25f37eebb036838272e5f8007d620bac9368",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_structure"
+      ]
+    },
+    "dataset_00018": {
+      "ok": true,
+      "case_fingerprint": "970faf222c5fac23c0ba467a142331a048ce228fdcb81b6345c1e207310791f3",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_structure"
+      ]
+    },
+    "dataset_00019": {
+      "ok": true,
+      "case_fingerprint": "7030eb5bb7d3ec317d2764fdfa488b4a495df1abaf42ef7577f8dd2e117edda7",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_structure"
+      ]
+    },
+    "dataset_00020": {
+      "ok": true,
+      "case_fingerprint": "63b7fcd975cefef7e1e41d1b0a5ca48b1a55b548f3315e4af91ee496a74a2305",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_structure"
+      ]
+    },
+    "dataset_00021": {
+      "ok": true,
+      "case_fingerprint": "579fad9955f693a099bb6ea67194e99c3ff64fd28fc7ccc22222f53abdca8d1b",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_structure"
+      ]
+    },
+    "dataset_00022": {
+      "ok": true,
+      "case_fingerprint": "d6c6bee3371946bcfec101f31740a757fb9e91906759df2ec42f7c8d9b607bb4",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_structure"
+      ]
+    },
+    "dataset_00023": {
+      "ok": true,
+      "case_fingerprint": "6e13f5f465986fdea38c1e8b20f4c259d813854c7ee6401828d975cfb881c498",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_structure"
+      ]
+    },
+    "dataset_00024": {
+      "ok": true,
+      "case_fingerprint": "af14ce90c24af123311e3857512f6e4c1aee5a69924b34114bb331549691793c",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_structure"
+      ]
+    },
+    "dataset_00025": {
+      "ok": true,
+      "case_fingerprint": "5ca866fbcee3f32e9bb4e71ed31bc04af320fe1cfe9514e9292cfd25b9db1f0b",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_structure"
+      ]
+    },
+    "dataset_00026": {
+      "ok": true,
+      "case_fingerprint": "203f68fc63b45bb1435dc447e5b6ae5d339e334a11c337d7692b8b3a8f8c361b",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_structure"
+      ]
+    },
+    "dataset_00027": {
+      "ok": true,
+      "case_fingerprint": "b3b08987883c23b965cd2595e839f9951eca1d7c1d4078daee4d32cf3355855c",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_structure"
+      ]
+    },
+    "dataset_00028": {
+      "ok": true,
+      "case_fingerprint": "ebb89f39995c342a5d7f53bcbe12a9e1dd2350a9290f88cb42020744ca3e0cd6",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_structure"
+      ]
+    },
+    "dataset_00029": {
+      "ok": true,
+      "case_fingerprint": "98f19176b70bda500a9c75311608c831a098808c2ed9c1e1d14f32e17fc59237",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_structure"
+      ]
+    },
+    "dataset_00030": {
+      "ok": true,
+      "case_fingerprint": "16ed6bcd72f623537c0f4a8fe315c19613e1f7130c53d051228a9afdde19b405",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_structure"
+      ]
+    },
+    "dataset_00031": {
+      "ok": true,
+      "case_fingerprint": "8f48e9ab742b27dd1b39732a896dacad99018f76279ff5f765ecf283a8b94409",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_structure"
+      ]
+    },
+    "dataset_00032": {
+      "ok": true,
+      "case_fingerprint": "219628925fe6ba6e16e8f65996b58e10dd120ca0b98e6e88e5dfdbcd4c6a4ec4",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_structure"
+      ]
+    },
+    "dataset_00033": {
+      "ok": true,
+      "case_fingerprint": "61697cc6b04e8292d5a31d0a9c1f8cd83c87abc81de15bd35387378529fe68e0",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_structure"
+      ]
+    },
+    "dataset_00034": {
+      "ok": true,
+      "case_fingerprint": "819ec5664eb484b1147374c559fe6de18976263ce3e382d9a5e3500c5c3e6a31",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_structure"
+      ]
+    },
+    "dataset_00035": {
+      "ok": true,
+      "case_fingerprint": "f3502475e47183dd6187aa0fc294b4da0a003ee83be0725613da9723792c02ac",
+      "errors": [],
+      "warnings": [],
+      "checks_passed": [
+        "cross_form_numeric",
+        "field_completeness",
+        "supporting_documents_shape",
+        "questionnaire_sidecar_match",
+        "output_integrity_structure"
+      ]
+    }
+  }
+}

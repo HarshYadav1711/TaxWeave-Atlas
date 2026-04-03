@@ -1,0 +1,84 @@
+{
+  "tax_year": 2023,
+  "profile": {
+    "primary_first_name": "Riley",
+    "primary_last_name": "Diaz",
+    "spouse_first_name": "Casey",
+    "spouse_last_name": "Diaz",
+    "filing_status": "married_filing_jointly",
+    "taxpayer_label": "Riley Diaz (synthetic)",
+    "synthetic_ssn_primary": "900-49-3119",
+    "synthetic_ssn_spouse": "900-95-2366",
+    "address": {
+      "line1": "100 Maple St",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "78701"
+    },
+    "primary_full_name": "Riley Diaz"
+  },
+  "questionnaire": {
+    "answers": {
+      "q_wages_reported": 144321,
+      "q_foreign_account": true,
+      "q_crypto": false,
+      "q_energy_credits": false
+    }
+  },
+  "income": {
+    "wages": 144321,
+    "interest": 3042,
+    "dividends_ordinary": 1572,
+    "federal_withholding": 31099,
+    "w2": {
+      "employer_name": "Riverside Test Labs Co",
+      "employer_ein": "00-5003735",
+      "employee_name": "Riley Diaz",
+      "employee_ssn": "900-49-3119",
+      "social_security_wages": 144321,
+      "medicare_wages": 144321
+    },
+    "forms_1099_int": {
+      "payer_name": "Synthetic Interest Payer NA",
+      "payer_tin": "00-5022946",
+      "recipient_name": "Riley Diaz",
+      "recipient_tin": "900-49-3119",
+      "interest_reported": 3042
+    }
+  },
+  "federal": {
+    "lines": {
+      "wages": 144321,
+      "taxable_interest": 3042,
+      "ordinary_dividends": 1572,
+      "agi": 148935,
+      "standard_deduction": 27700,
+      "taxable_income": 121235,
+      "total_tax": 22138,
+      "federal_withholding": 31099
+    }
+  },
+  "state": {
+    "code": "TX",
+    "adjustments": {
+      "additions": 0,
+      "subtractions": 0
+    },
+    "lines": {
+      "state_wages": 144321,
+      "additions": 0,
+      "subtractions": 0,
+      "state_taxable_income": 148935,
+      "state_tax": 0
+    },
+    "tax_computed": 0
+  },
+  "executive_summary": {
+    "agi": 148935,
+    "taxable_income": 121235,
+    "total_tax": 22138,
+    "federal_withholding": 31099,
+    "state_tax": 0,
+    "effective_rate_federal": 0.1486
+  }
+}

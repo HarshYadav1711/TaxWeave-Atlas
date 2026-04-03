@@ -1,0 +1,25 @@
+{
+  "format": "taxweave-atlas-dataset-files-v2",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-00014-000",
+  "tax_year": 2024,
+  "case_fingerprint": "d81571c831a4006b4b3754a65e0151411e9dde783978185c803320141c28bd59",
+  "case_json_sha256": "4a42a0b68f2dc7944b25d62df32d54b8625c8fd39d4ef265357a396a57d6aaab",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-00014-000/1. Client Summary/Client Summary.docx": "3584a4c4709f3209f5de2495eee85c4d88e6240a064c94cca56809078d236d22",
+    "2. Input Documents-20240101T000000Z-00014-000/2. Input Documents/Tax Document Attachments Summary.docx": "929d2d7f141ade24eb5086b9899ac8ed8cee102b6e88016fdc2e0f0df588f232",
+    "2. Input Documents-20240101T000000Z-00014-000/2. Input Documents/1099- DIV/1099-DIV MERCER.pdf": "25a111e292f8bc3435e194449d8bb8a36f028dfbbce00483df64a0b3fff1d8e9",
+    "2. Input Documents-20240101T000000Z-00014-000/2. Input Documents/1099-INT/1099-INT MERCER.pdf": "103d34366d7b08a7e95fc85a285c6e01fee00317b090cdb002432fa74ffedb58",
+    "2. Input Documents-20240101T000000Z-00014-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.xlsx": "0f8ddd07e52d874522b3c5ef7b9198e8f8aba0ebee302825a88a39ff5c807b75",
+    "2. Input Documents-20240101T000000Z-00014-000/2. Input Documents/Form W-2/Form W-2.pdf": "a2255e24825c42b7f53125565add5357bac65150f1ed237da5fd8ae14ebf346f",
+    "2. Input Documents-20240101T000000Z-00014-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "878179293b5fca4e28beb6493332d5ba3c46ac8fe8850668baa509427e166279",
+    "2. Input Documents-20240101T000000Z-00014-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.xlsx": "0f8ddd07e52d874522b3c5ef7b9198e8f8aba0ebee302825a88a39ff5c807b75",
+    "3. Complete form-20240101T000000Z-00014-000/3. Complete form/2024 Tax Return Documents (Skyler Mercer (synthetic)).pdf": "df78e27336a2b2327917d02255a8db1de9c449fe355684a7e30e393bdd87da8d",
+    "3. Complete form-20240101T000000Z-00014-000/3. Complete form/Completed forms - Summary.docx": "d933de4d212669c50ff12f6bc169e496c2c1c5dd76c97e0e5071f453b37cbd42",
+    "4. Executive Summary-20240101T000000Z-00014-000/4. Executive Summary/4. Summary_.docx": "2d96bf1960dfa65de08d468efb32d362d6d8dae486b1158136aada1339e11cd3",
+    "4. Executive Summary-20240101T000000Z-00014-000/4. Executive Summary/Executive Summary Skyler Mercer 2024.pdf": "74f607b92d420bc17c4307aef964f4aa537941693bda4500aadd2f6fea153d42",
+    "Prompt-20240101T000000Z-00014-000/Prompt/Tax Return Data - Prompt.docx": "1e73fd0206b8c9d256c7ed5b35475d2a3860307d21426204016c3a47e5fc11e8",
+    "Prompt-20240101T000000Z-00014-000/Prompt/Tax Return Data - Prompt.xml": "2e567b3515001b9fc76cfad7ffc4211b10e4a42ff1e71a0a565ae8ea1c0121d1"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

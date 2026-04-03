@@ -1,0 +1,159 @@
+{
+  "tax_year": 2024,
+  "profile": {
+    "primary_first_name": "Casey",
+    "primary_last_name": "Bennett",
+    "spouse_first_name": null,
+    "spouse_last_name": null,
+    "filing_status": "single",
+    "taxpayer_label": "Casey Bennett (synthetic)",
+    "synthetic_ssn_primary": "900-99-7918",
+    "synthetic_ssn_spouse": null,
+    "address": {
+      "line1": "300 Erie Blvd",
+      "line2": null,
+      "city": "Albany",
+      "state": "NY",
+      "zip": "12207"
+    },
+    "dependents_qualifying_children_under_17": 0,
+    "dependents_other": 1,
+    "primary_full_name": "Casey Bennett"
+  },
+  "questionnaire": {
+    "answers": {
+      "q_wages_reported": 103768,
+      "q_foreign_account": false,
+      "q_crypto": false,
+      "q_energy_credits": false,
+      "num_qualifying_children_under_17": 0,
+      "num_other_dependents": 1,
+      "itemized_deduction_elected": true,
+      "has_self_employment_income": false,
+      "has_retirement_distributions": true,
+      "extensions": {
+        "complexity_tier": "moderately_complex",
+        "stratum_state": "NY",
+        "stratum_tax_year": "2024"
+      }
+    }
+  },
+  "income": {
+    "wages": 103768,
+    "interest": 5692,
+    "dividends_ordinary": 24708,
+    "federal_withholding": 20551,
+    "w2": {
+      "employer_name": "Atlas Demo Manufacturing Inc",
+      "employer_ein": "09-9031901",
+      "employee_name": "Casey Bennett",
+      "employee_ssn": "900-99-7918",
+      "social_security_wages": 103768,
+      "medicare_wages": 103768
+    },
+    "forms_1099_int": {
+      "payer_name": "Great Plains Synthetic Credit Union",
+      "payer_tin": "09-9024499",
+      "recipient_name": "Casey Bennett",
+      "recipient_tin": "900-99-7918",
+      "interest_reported": 5692
+    },
+    "other_ordinary_income": {},
+    "passive_income": {
+      "retirement_distributions": 58156
+    }
+  },
+  "deductions": {
+    "elected_method": "itemized",
+    "standard_amount_override": null,
+    "itemized_components": {
+      "state_and_local_income_tax": 8830,
+      "charitable_cash": 4296,
+      "mortgage_interest": 7040
+    },
+    "adjustments_to_agi": {}
+  },
+  "credits": {
+    "credits": []
+  },
+  "supporting_documents": {
+    "documents": [
+      {
+        "kind": "w2",
+        "document_id": "W2-dataset_00100",
+        "display_name": "Synthetic Form W-2",
+        "key_amounts": {
+          "wages": 103768,
+          "federal_withholding": 20551
+        },
+        "key_strings": {
+          "employer_ein": "09-9031901"
+        }
+      },
+      {
+        "kind": "1099_int",
+        "document_id": "1099INT-dataset_00100",
+        "display_name": "Synthetic Form 1099-INT",
+        "key_amounts": {
+          "interest": 5692
+        },
+        "key_strings": {
+          "payer_tin": "09-9024499"
+        }
+      },
+      {
+        "kind": "1099_div",
+        "document_id": "1099DIV-dataset_00100",
+        "display_name": "Synthetic Form 1099-DIV",
+        "key_amounts": {
+          "ordinary_dividends": 24708
+        },
+        "key_strings": {
+          "payer_tin": "09-9024499"
+        }
+      }
+    ]
+  },
+  "federal": {
+    "lines": {
+      "wages": 103768,
+      "taxable_interest": 5692,
+      "ordinary_dividends": 24708,
+      "agi": 192324,
+      "standard_deduction": 20166,
+      "taxable_income": 172158,
+      "total_tax": 34360,
+      "federal_withholding": 20551,
+      "additional_lines": {
+        "statutory_standard_deduction": 14600,
+        "itemized_total": 20166
+      }
+    },
+    "form_references": []
+  },
+  "state": {
+    "code": "NY",
+    "adjustments": {
+      "additions": 0,
+      "subtractions": 0
+    },
+    "lines": {
+      "state_wages": 103768,
+      "additions": 0,
+      "subtractions": 0,
+      "state_taxable_income": 192324,
+      "state_tax": 11924,
+      "additional_lines": {}
+    },
+    "tax_computed": 11924,
+    "form_references": []
+  },
+  "executive_summary": {
+    "agi": 192324,
+    "taxable_income": 172158,
+    "total_tax": 34360,
+    "federal_withholding": 20551,
+    "state_tax": 11924,
+    "effective_rate_federal": 0.1787
+  }
+}

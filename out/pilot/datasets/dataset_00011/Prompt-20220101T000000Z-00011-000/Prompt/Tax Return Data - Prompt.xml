@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Return returnVersion="2022v5.0">
+  <ReturnHeader>
+    <TaxYr>2022</TaxYr>
+    <TaxPeriodBeginDt>2022-01-01</TaxPeriodBeginDt>
+    <TaxPeriodEndDt>2022-12-31</TaxPeriodEndDt>
+    <ReturnTypeCd>1040</ReturnTypeCd>
+    <Filer>
+      <PrimarySSN>900340838</PrimarySSN>
+      <NameLine1Txt>Emery Diaz</NameLine1Txt>
+      <PrimaryNameControlTxt>DIAZ</PrimaryNameControlTxt>
+      <USAddress>
+        <AddressLine1Txt>9 Hudson Row</AddressLine1Txt>
+        <CityNm>Rochester</CityNm>
+        <StateAbbreviationCd>NY</StateAbbreviationCd>
+        <ZIPCd>14604</ZIPCd>
+      </USAddress>
+    </Filer>
+  </ReturnHeader>
+  <TaxWeaveAtlasCoverage>
+    <SyntheticSubsetInd>true</SyntheticSubsetInd>
+    <UnmodeledSchedulesTxt>IRS1040Schedule2,IRS1040ScheduleC,IRS1040ScheduleSE,IRS1040Schedule8812,IRS8995,IRS4562</UnmodeledSchedulesTxt>
+  </TaxWeaveAtlasCoverage>
+  <ReturnData documentCnt="3">
+    <IRS1040 documentId="1">
+      <IndividualReturnFilingStatusCd>4</IndividualReturnFilingStatusCd>
+      <WagesAmt>47849</WagesAmt>
+      <TaxableInterestAmt>0</TaxableInterestAmt>
+      <OrdinaryDividendsAmt>9924</OrdinaryDividendsAmt>
+      <AdjustedGrossIncomeAmt>105534</AdjustedGrossIncomeAmt>
+      <TaxableIncomeAmt>86134</TaxableIncomeAmt>
+      <TotalTaxAmt>12002</TotalTaxAmt>
+      <WithholdingTaxAmt>6293</WithholdingTaxAmt>
+    </IRS1040>
+    <IRSW2 documentId="IRSW2-0">
+      <EmployeeSSN>900340838</EmployeeSSN>
+      <EmployerEIN>010033650</EmployerEIN>
+      <EmployerName>
+        <BusinessNameLine1Txt>Cedar Hollow Analytics LLC</BusinessNameLine1Txt>
+      </EmployerName>
+      <EmployeeNm>Emery Diaz</EmployeeNm>
+      <WagesAmt>47849</WagesAmt>
+      <WithholdingAmt>6293</WithholdingAmt>
+      <SocialSecurityWagesAmt>47849</SocialSecurityWagesAmt>
+      <MedicareWagesAndTipsAmt>47849</MedicareWagesAndTipsAmt>
+    </IRSW2>
+    <IRS1040ScheduleB documentId="IRS1040ScheduleB">
+      <InterestAmt>0</InterestAmt>
+      <TotalInterestAmt>0</TotalInterestAmt>
+      <OrdinaryDividendsAmt>9924</OrdinaryDividendsAmt>
+      <TotalOrdinaryDividendsAmt>9924</TotalOrdinaryDividendsAmt>
+    </IRS1040ScheduleB>
+  </ReturnData>
+</Return>
