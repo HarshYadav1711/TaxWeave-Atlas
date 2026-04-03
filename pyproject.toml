@@ -16,7 +16,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-dev = ["ruff>=0.3"]
+dev = ["ruff>=0.3", "pytest>=8.0"]
 
 [project.scripts]
 taxweave-atlas = "taxweave_atlas.cli:main"
@@ -27,3 +27,7 @@ where = ["src"]
 [tool.ruff]
 line-length = 100
 target-version = "py311"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

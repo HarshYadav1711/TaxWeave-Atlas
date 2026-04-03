@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import logging
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -11,6 +12,7 @@ from taxweave_atlas.generation.uniqueness import case_fingerprint
 from taxweave_atlas.orchestration.manifest import BatchPlan, DatasetPlan
 from taxweave_atlas.schema.ids import DatasetIdentity, stream_seed
 
+log = logging.getLogger(__name__)
 
 @dataclass(frozen=True, slots=True)
 class GenerationBatchResult:
@@ -46,6 +48,12 @@ def run_case_generation_batch(
 
     complexity_label = complexity_override or str(app.get("default_complexity", "mixed"))
 
+    log.info(
+        "starting batch: count=%d master_seed=%s write_pdfs=%s",
+        count,
+        master_seed,
+        write_pdfs,
+    )
     seen_fp: set[str] = set()
     dataset_plans: list[DatasetPlan] = []
 
@@ -93,6 +101,11 @@ def run_case_generation_batch(
 
             render_dataset_pdf_bundle(case, case_dir, reconcile_first=False)
 
+        log.debug("wrote %s fingerprint=%s", ident.slug, fp)
+        interval = 50 if count >= 200 else (20 if count >= 50 else 5)
+        if (i + 1) == 1 or (i + 1) == count or (i + 1) % interval == 0:
+            log.info("progress: %d/%d (%s)", i + 1, count, ident.slug)
+
         cx = case.questionnaire.answers.extensions.get("complexity_tier", complexity_label)
         dataset_plans.append(
             DatasetPlan(
@@ -132,4 +145,5 @@ def run_case_generation_batch(
     }
     (manifests / "batch_summary.json").write_text(json.dumps(summary, indent=2) + "\n", encoding="utf-8")
 
+    log.info("finished batch: %d datasets under %s", count, datasets_root)
     return GenerationBatchResult(output_dir=output, batch_plan_path=plan_path, count=count)
