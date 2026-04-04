@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-01516-000",
+  "tax_year": 2024,
+  "case_fingerprint": "52198959766942ca73d9afef19ea5e7250420a4ea3f0817d5c5f67b2ac2bfc54",
+  "case_json_sha256": "dc6ed5e3343a5260f2c13cfe3444905d2f7e31b8c36abe890c219dafae4fe6ad",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-01516-000/1. Client Summary/Client Summary.pdf": "7a77700975b1f43fc0ffcd23bdd93990453e973973a5b21e1a44be74397bf69e",
+    "2. Input Documents-20240101T000000Z-01516-000/2. Input Documents/Tax Document Attachments Summary.pdf": "6a96ff823c486594ca1d7b1fddb3410b2bbd8168b50124249143c6285ac9f615",
+    "2. Input Documents-20240101T000000Z-01516-000/2. Input Documents/1099- DIV/1099-DIV MERCER.pdf": "f07251bed76a14764dbd455c71e6d3c8092b86e95643311591f7648e6994b417",
+    "2. Input Documents-20240101T000000Z-01516-000/2. Input Documents/1099-INT/1099-INT MERCER.pdf": "7d54068bd7a79b285fe395d56f6a0f2ff0efb6dd76d963a173811083cfd97ef7",
+    "2. Input Documents-20240101T000000Z-01516-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "f63ac9324d70fd322e5120a23ce50e8bec73a1995b5de71074954d3a8c705a03",
+    "2. Input Documents-20240101T000000Z-01516-000/2. Input Documents/Form W-2/Form W-2.pdf": "c1c61273d1336b2c408663f488f52de298552ef5b2496897d33e5c1dbc94b3d6",
+    "2. Input Documents-20240101T000000Z-01516-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "f957b060928e6f9dbf4919003aef51a4900474a4205b6ce5bef6bce9971d78a0",
+    "2. Input Documents-20240101T000000Z-01516-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "0a854e916b37f73dedeb6a781a5c2419947fedc502fe34cd0815df32fb12817e",
+    "3. Complete form-20240101T000000Z-01516-000/3. Complete form/2024 Tax Return Documents (Emery Mercer (synthetic)).pdf": "dc758a0ba2f732748a4a0ac1272cbd845230da8008180385207c03c04de6bd60",
+    "3. Complete form-20240101T000000Z-01516-000/3. Complete form/Completed forms - Summary.pdf": "55ffb326aff4ee2899760cee48f442e94807284dee67324149be6b06009e96ac",
+    "4. Executive Summary-20240101T000000Z-01516-000/4. Executive Summary/Executive Summary Emery Mercer 2024.pdf": "90232d7ed7bc28db33b32a3c826f260e90cbee52c59d04d436622234c18879ee"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

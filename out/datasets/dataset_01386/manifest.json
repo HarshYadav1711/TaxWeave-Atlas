@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-01386-000",
+  "tax_year": 2022,
+  "case_fingerprint": "e9aa4cb7b411afd13431d0d01c21b55186f2aced0cd17a9a72dc2cd30e9e8577",
+  "case_json_sha256": "f503e8174c987297576ffdee35a28c676c35b6553b451d09575dd6791b188b67",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-01386-000/1. Client Summary/Client Summary.pdf": "bf88b7c25dbf2d73baf0cf0db3b7b86146a5ef1bb3c582c7e4eb7f838dbe586e",
+    "2. Input Documents-20220101T000000Z-01386-000/2. Input Documents/Tax Document Attachments Summary.pdf": "ed440ce8720e3aa7e2ea9ceac03c3dbf0fdd0fc0a7f48a359c014bd2d769bc81",
+    "2. Input Documents-20220101T000000Z-01386-000/2. Input Documents/1099- DIV/1099-DIV JENNINGS.pdf": "ffad388cfe966e2edc1a5c4650c39b20e9e83e680fd5f84c7d9495a5d4e6a912",
+    "2. Input Documents-20220101T000000Z-01386-000/2. Input Documents/1099-INT/1099-INT JENNINGS.pdf": "c9466c5284cdd77298b6a34513a151a2b68ad36831d4b13eebc50fc0947805a1",
+    "2. Input Documents-20220101T000000Z-01386-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "9f726b7c50a85d79ba8a9a4b126c78902dcf21681c46a7671681c2ecce2f8e07",
+    "2. Input Documents-20220101T000000Z-01386-000/2. Input Documents/Form W-2/Form W-2.pdf": "694551ffc5263e4801b704e68afb2c35c4b5b88d5ef75281793ab2e8a9a4d1e2",
+    "2. Input Documents-20220101T000000Z-01386-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "ac2827fb7f8890599c03f336f1febb1b369312e89b2c84c4f988b33b8bb2268d",
+    "2. Input Documents-20220101T000000Z-01386-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "f2715f62473b56a16d58bc18257c4490e9ef4048adf28f030c76f3cf88abda17",
+    "3. Complete form-20220101T000000Z-01386-000/3. Complete form/2022 Tax Return Documents (Jordan Jennings (synthetic)).pdf": "db7982d91eecf1f573b1e9953dad0aec46a9317ad6be61c4b1e67cf11ca23add",
+    "3. Complete form-20220101T000000Z-01386-000/3. Complete form/Completed forms - Summary.pdf": "675d1b3f7ee694e01225924e9bf5d4f1ef9f435ea69218bc185f54ca7d20b117",
+    "4. Executive Summary-20220101T000000Z-01386-000/4. Executive Summary/Executive Summary Jordan Jennings 2022.pdf": "8dc4fc219c1064c0995195323b945eebd9554f5812af3c23cec3ee7606fdffd9"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

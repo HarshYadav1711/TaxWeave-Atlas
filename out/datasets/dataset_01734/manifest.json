@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-01734-000",
+  "tax_year": 2020,
+  "case_fingerprint": "b84e47c6a2dd295011a9ed67d38a2ff3e59039e9fa9c65175a40d25fba07319b",
+  "case_json_sha256": "a2eeed900a7960742bc26e83238e0e8b2133dbb16d5109c78e097348033dcdec",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-01734-000/1. Client Summary/Client Summary.pdf": "ae7eb13f60a1e6635f798e954f97df9cfa871ae23991918b2846f239ff9f08ca",
+    "2. Input Documents-20200101T000000Z-01734-000/2. Input Documents/Tax Document Attachments Summary.pdf": "2d09b2a29b01e3483616fa2a8651f36bf387c9cb34d80964cd5a35df08430c81",
+    "2. Input Documents-20200101T000000Z-01734-000/2. Input Documents/1099- DIV/1099-DIV REYES.pdf": "7fba0bb0ef464ab05e238772aa809b1834f4b5d170dbba6a9def534c1e1248d0",
+    "2. Input Documents-20200101T000000Z-01734-000/2. Input Documents/1099-INT/1099-INT REYES.pdf": "0e41b4c729906e676ef15c97974fbda41c158ddd9c20c2650a2e8f4477ed61f5",
+    "2. Input Documents-20200101T000000Z-01734-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "a173134103d1027d7a94581c73aafe595839cae4a31a14fa0c9a6709e8933101",
+    "2. Input Documents-20200101T000000Z-01734-000/2. Input Documents/Form W-2/Form W-2.pdf": "8e49589d52310bc2ac06278300410ade2441a98338932420e3c99440ec29422f",
+    "2. Input Documents-20200101T000000Z-01734-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "1d2f16567fd8575c2a9c4a490d009f61400cf36126d8261ffc3e318e7fdb2b5d",
+    "2. Input Documents-20200101T000000Z-01734-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "db4bce883e980d1807eb563c84c9520782efe3918c518628ce7f396d2d0618c2",
+    "3. Complete form-20200101T000000Z-01734-000/3. Complete form/2020 Tax Return Documents (Jordan Reyes (synthetic)).pdf": "e112aaca0f4a20909a5e409402c41fb97dd2b5db13a84fae98c291c0d41cbbb8",
+    "3. Complete form-20200101T000000Z-01734-000/3. Complete form/Completed forms - Summary.pdf": "e89da6f19b6020d5ccb2f6d740260fe219133c7ab3f4ee7a789f7eef257898e7",
+    "4. Executive Summary-20200101T000000Z-01734-000/4. Executive Summary/Executive Summary Jordan Reyes 2020.pdf": "35b6b3dff25957a369cc3dceaf196ecc24530b13566f02cb7a6faffee653ee03"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

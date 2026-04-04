@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20210101T000000Z-00388-000",
+  "tax_year": 2021,
+  "case_fingerprint": "e5e34b9528b7deaafa9660c6b0bd301883f800d4257b1769359300cea0f2b2ba",
+  "case_json_sha256": "938ff1fc7262842cd405d9ad117f53e5eccc11651cd6b3804ba52872b0df0ea1",
+  "files_sha256": {
+    "1. Client Summary-20210101T000000Z-00388-000/1. Client Summary/Client Summary.pdf": "bf81c62d74731f102776d07f6f06a5290bbe610fe253a92eee2203be9e4accf0",
+    "2. Input Documents-20210101T000000Z-00388-000/2. Input Documents/Tax Document Attachments Summary.pdf": "31ddb20320d8e40b68ad7f3d9b46bd6b844ae684a47ffb35bb0b2d3a772dd19d",
+    "2. Input Documents-20210101T000000Z-00388-000/2. Input Documents/1099- DIV/1099-DIV NAVARRO.pdf": "78ceb06f1343cd4cedc32997039cb575711a55a8d004a75b35d2ea96556cea6b",
+    "2. Input Documents-20210101T000000Z-00388-000/2. Input Documents/1099-INT/1099-INT NAVARRO.pdf": "e89dd4d58dfbcfbef3ac75655e65d23e4e43ff4841d3c7130576d6001f076ada",
+    "2. Input Documents-20210101T000000Z-00388-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2021_.pdf": "2e7cef9007ade8a6997e3dbb45790db7d4eef033366183e4d1f91f4e4e885efd",
+    "2. Input Documents-20210101T000000Z-00388-000/2. Input Documents/Form W-2/Form W-2.pdf": "b7256c8565f600f3985506ea713428ca1ab864ec6b77fb78330a919dda930c1c",
+    "2. Input Documents-20210101T000000Z-00388-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "45294c3d1ed064141243b26ffb1944b344e644e8becce986d4a477dc0d9acb0a",
+    "2. Input Documents-20210101T000000Z-00388-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2021.pdf": "60d7649db680b9fc7477ac2c0cb9d165b80030020442145341e66cb5fb2bc839",
+    "3. Complete form-20210101T000000Z-00388-000/3. Complete form/2021 Tax Return Documents (Dakota Navarro (synthetic)).pdf": "6cc62f673e7c3d0a9168949e7bcf0b0a9267ffe1c334b03cee580d1ecb0a283d",
+    "3. Complete form-20210101T000000Z-00388-000/3. Complete form/Completed forms - Summary.pdf": "9c7d6610f61b04c038e049b56dece7d7c9407499eacd1ac45a8f8d84e5259ca5",
+    "4. Executive Summary-20210101T000000Z-00388-000/4. Executive Summary/Executive Summary Dakota Navarro 2021.pdf": "a5eef825af8442c72db8b6a668111c1fab530748f5e0dce62ca2ef8e7aa6cf7b"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

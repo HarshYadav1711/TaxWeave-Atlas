@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20250101T000000Z-01480-000",
+  "tax_year": 2025,
+  "case_fingerprint": "9a31766ec4c811a428c0afced1c801aca8744f76beed2141190b183b4566800d",
+  "case_json_sha256": "568c70d639f450a36bf65a6f6455c90517f06cc6bd7dffe17a2bc8321e75db17",
+  "files_sha256": {
+    "1. Client Summary-20250101T000000Z-01480-000/1. Client Summary/Client Summary.pdf": "72487cbde25b608364d6c408750e80cfac0f6eb468bc15c4d0211a34ed78bdc4",
+    "2. Input Documents-20250101T000000Z-01480-000/2. Input Documents/Tax Document Attachments Summary.pdf": "da1333e12f1668537c064bc758e11f6fe3898365eec2be0052afcaf70a308d5c",
+    "2. Input Documents-20250101T000000Z-01480-000/2. Input Documents/1099- DIV/1099-DIV HAYES.pdf": "c1a2a6c124a708fd9cee774c92fe6e52fc8834c8eb6f9a1e9d0adbf28f7e9afe",
+    "2. Input Documents-20250101T000000Z-01480-000/2. Input Documents/1099-INT/1099-INT HAYES.pdf": "a4a5384879470d6fad8624ed9e93d5cef9d5bc34807935a501e0b7e23b195c94",
+    "2. Input Documents-20250101T000000Z-01480-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2025_.pdf": "49b063a9cd75e6d7fc95bdc2b9496ad786a8959433e1340c2d697644d73da896",
+    "2. Input Documents-20250101T000000Z-01480-000/2. Input Documents/Form W-2/Form W-2.pdf": "d3a5f887883d89e92773120e188f211779e325eeff6299acab45f836348b8624",
+    "2. Input Documents-20250101T000000Z-01480-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "d7b1e4c309f33ccb7c5359134a247d69c1975b1c21e9154685126cedc7366832",
+    "2. Input Documents-20250101T000000Z-01480-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2025.pdf": "762385a4b6e9661e7e1da060b4043c8ee6bef6bacac3aaaba1b1142ebcb89f10",
+    "3. Complete form-20250101T000000Z-01480-000/3. Complete form/2025 Tax Return Documents (Dakota Hayes (synthetic)).pdf": "3705672581d22d1d8dbadba502b9476162dd42853a6842780b18ce2c59b1d919",
+    "3. Complete form-20250101T000000Z-01480-000/3. Complete form/Completed forms - Summary.pdf": "6abe1dfe238da30b111718149c50288764faaac3ff4cb55eeffe91cb22b12ed5",
+    "4. Executive Summary-20250101T000000Z-01480-000/4. Executive Summary/Executive Summary Dakota Hayes 2025.pdf": "a8f9ce98787cbff8862a20848986f4729b90219c1334b824f03c6fd6b6899cd7"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

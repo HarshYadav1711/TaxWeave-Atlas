@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-01593-000",
+  "tax_year": 2020,
+  "case_fingerprint": "247169a7bdedb9f2c18fdb0e571a6569812606339f461a9211081b762bca8abc",
+  "case_json_sha256": "6d54791e123881d9722debefde4046e088c57ad419a27599ba7d2101f4cc9da2",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-01593-000/1. Client Summary/Client Summary.pdf": "2301e82bc781e9feb09f9e4bbcee7a8d96167a7e1dddf001122ea34ac1ce8276",
+    "2. Input Documents-20200101T000000Z-01593-000/2. Input Documents/Tax Document Attachments Summary.pdf": "d9a273df8fb95e033a03a9b9c0493dcf354c20204563eca4e7a040b93887d51d",
+    "2. Input Documents-20200101T000000Z-01593-000/2. Input Documents/1099- DIV/1099-DIV MERCER.pdf": "6f6b7833abbb6e5c78d72d162e07acfc78a6881258962566a475e7a7d7b2765f",
+    "2. Input Documents-20200101T000000Z-01593-000/2. Input Documents/1099-INT/1099-INT MERCER.pdf": "0e75088872a1f17e5a48546d8f4df03fc32b4b87df3a0f3aba6fee0aa490710d",
+    "2. Input Documents-20200101T000000Z-01593-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "9aa4111173130c099df32314f0f1d5e80b41779331da6ce8bb68a7b0e70a9be9",
+    "2. Input Documents-20200101T000000Z-01593-000/2. Input Documents/Form W-2/Form W-2.pdf": "3587d702b65aa90eff3b17df396d7202250bb51e0128d85f6c742b00bb26d8f8",
+    "2. Input Documents-20200101T000000Z-01593-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "991f9125b549e78843393090798e8fc4d51326f80247019dc1ac12c1d729c1ff",
+    "2. Input Documents-20200101T000000Z-01593-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "1a920f593643f83d3c8cecff1c1d1af7882cc33262389b12feb88d26c0fa6b37",
+    "3. Complete form-20200101T000000Z-01593-000/3. Complete form/2020 Tax Return Documents (River Mercer (synthetic)).pdf": "d8086aee4480215805c9df3f9ed72c222361cc546e6f0128d1035e5995f26e0a",
+    "3. Complete form-20200101T000000Z-01593-000/3. Complete form/Completed forms - Summary.pdf": "c03fc26b07e34d24be5bb4a267de916b1fc6527a8c0cc1d61cea66ada4ba5152",
+    "4. Executive Summary-20200101T000000Z-01593-000/4. Executive Summary/Executive Summary River Mercer 2020.pdf": "3033da902952508b266a65221f8cfd1068bdf3aacbb7d93a9c08d9d8250a95c7"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

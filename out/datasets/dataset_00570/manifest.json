@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-00570-000",
+  "tax_year": 2020,
+  "case_fingerprint": "3ec07f518ebab0ab53e826992f25e1687319d19c31e8ddb4731bf7b7b0a007d4",
+  "case_json_sha256": "0104b447641574e5dae3524ff201419ebe26a66ed16d342868b4c898b83f9461",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-00570-000/1. Client Summary/Client Summary.pdf": "10cf09584f697f23e536db806b1ad850c05943b128311888d080cbaacb7c756c",
+    "2. Input Documents-20200101T000000Z-00570-000/2. Input Documents/Tax Document Attachments Summary.pdf": "0a743d8704f0bae213e516db5f527959ec07b643de2fd9284adccd76a9a6feba",
+    "2. Input Documents-20200101T000000Z-00570-000/2. Input Documents/1099- DIV/1099-DIV LAWSON.pdf": "f3410f8a183ae4651bead1af74d69b8ca06087c8fc701c5805973ca8d97a0ba6",
+    "2. Input Documents-20200101T000000Z-00570-000/2. Input Documents/1099-INT/1099-INT LAWSON.pdf": "aa349df465ba8d6efe10287e0ff6132ad6a154f471ddbced731a6504b595218a",
+    "2. Input Documents-20200101T000000Z-00570-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "34b3535408a24e585fc9cf15affa8ec39726fa08f4732c11705c57d0ee04e6e2",
+    "2. Input Documents-20200101T000000Z-00570-000/2. Input Documents/Form W-2/Form W-2.pdf": "118da2ea84b8800c6d3133e3e2d0a82c883d02310b4b843f143713f521ef72f1",
+    "2. Input Documents-20200101T000000Z-00570-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "d7ecba307988300e47b27fd07bc2fdc44389ea6b2a3f1ac27ae16a2d0affa101",
+    "2. Input Documents-20200101T000000Z-00570-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "45e77ad4da169c1ffda2e69f71ba35c9e68ec7541a2b5142552ce9f698e0a01c",
+    "3. Complete form-20200101T000000Z-00570-000/3. Complete form/2020 Tax Return Documents (Emery Lawson (synthetic)).pdf": "08fc8f460905f6542e70124e6572d097d4b2ec6fa98093c3d53af1d0220feeee",
+    "3. Complete form-20200101T000000Z-00570-000/3. Complete form/Completed forms - Summary.pdf": "8953dc281c79c98d1c3a255ac235df4709068e9411a2dd90360237fe5f617e33",
+    "4. Executive Summary-20200101T000000Z-00570-000/4. Executive Summary/Executive Summary Emery Lawson 2020.pdf": "985e4ad95c44163b84340058a81a23b46eff831841a308f8025fd8f6b073c2e5"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

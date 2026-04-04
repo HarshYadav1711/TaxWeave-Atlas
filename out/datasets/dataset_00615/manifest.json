@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-00615-000",
+  "tax_year": 2023,
+  "case_fingerprint": "59448c71b749d706c5069d6f484caa447fb64b493eab4aaa52e8d359376c76e5",
+  "case_json_sha256": "ad9a256ae9c82f65db063cb13e5e69855990823daa7bb510f8eea79311186125",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-00615-000/1. Client Summary/Client Summary.pdf": "c9ae821415da2806de124c6574fd05f8e91f27f733d0c7683c910f04cbca35d6",
+    "2. Input Documents-20230101T000000Z-00615-000/2. Input Documents/Tax Document Attachments Summary.pdf": "8521a1024aa47749101e7653f2767f7e218c95e8822a5c8dae6b1c47ffe2991b",
+    "2. Input Documents-20230101T000000Z-00615-000/2. Input Documents/1099- DIV/1099-DIV MERCER.pdf": "19b1a224242b9258bfd64d0e79251436d204502e97181cc2dbea0acb2aadb36d",
+    "2. Input Documents-20230101T000000Z-00615-000/2. Input Documents/1099-INT/1099-INT MERCER.pdf": "cf139aec90f26ee0d30cf3d6f6721565929f038c7b78e6849439b4d49aaac8d5",
+    "2. Input Documents-20230101T000000Z-00615-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "285624608757711fe6562d81bc3c0ece3b30f8e703865f546eae7e428d70d6e2",
+    "2. Input Documents-20230101T000000Z-00615-000/2. Input Documents/Form W-2/Form W-2.pdf": "4b00a1acd19c9604cb7b28522cda60968c6fd96791cfe64a950922fa112201ba",
+    "2. Input Documents-20230101T000000Z-00615-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "529879e111e2690ae3067e5aa71f3f8f55786b01093f467fb1d552f61a98f576",
+    "2. Input Documents-20230101T000000Z-00615-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "547fd76c15cae23176962f7b068dda965c490fb17b4e224c90395c5b6f3dfeea",
+    "3. Complete form-20230101T000000Z-00615-000/3. Complete form/2023 Tax Return Documents (River Mercer (synthetic)).pdf": "7213c4e03e0158544732454f634b0cde15e2752ed1d14757a3a1c46e283dfe18",
+    "3. Complete form-20230101T000000Z-00615-000/3. Complete form/Completed forms - Summary.pdf": "553b2c8059a1843e6c53ebb8d9042a158f4cca3e95e7c068fda05af1805fa981",
+    "4. Executive Summary-20230101T000000Z-00615-000/4. Executive Summary/Executive Summary River Mercer 2023.pdf": "5171cdb5411023d8dcfe907a91b5975ec0279b953ce17d5bc9354592ca42a552"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

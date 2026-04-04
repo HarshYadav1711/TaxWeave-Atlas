@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-01652-000",
+  "tax_year": 2020,
+  "case_fingerprint": "0fbc20f6cb76e86efda65ed151bebe0d76d52b2a0df92b37c45aeff6526f831a",
+  "case_json_sha256": "5ee1d029a927ca6b2d89f7e74c49b7a3372850ca8cf09326d25adedcce7b9485",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-01652-000/1. Client Summary/Client Summary.pdf": "fbbd5dbce471548ca86e0594da3a6f197aa166470e0a6aaae3016e247e2acfb8",
+    "2. Input Documents-20200101T000000Z-01652-000/2. Input Documents/Tax Document Attachments Summary.pdf": "9978f9d0c24f5933630fef4cbd1afc7c1a5741eb51a9cb1029c935682b85cc36",
+    "2. Input Documents-20200101T000000Z-01652-000/2. Input Documents/1099- DIV/1099-DIV OKORO.pdf": "bc2aea7de9dbf6ec297a4aaca26154490fda73434f47097c99eafc16ee20d10e",
+    "2. Input Documents-20200101T000000Z-01652-000/2. Input Documents/1099-INT/1099-INT OKORO.pdf": "b7922e04bca56ae82249accffdf0f11a4d3b4a5b8702c09c091957e190ff11c8",
+    "2. Input Documents-20200101T000000Z-01652-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "df88ae91b16aecb4894cfa8690e4cee39106f2ea381ea8d43f17af2db9fc4e8e",
+    "2. Input Documents-20200101T000000Z-01652-000/2. Input Documents/Form W-2/Form W-2.pdf": "3edcef0520ad1e1c45bd6ca7a207550a249ce45d43524f6ebd53f0f1e090a844",
+    "2. Input Documents-20200101T000000Z-01652-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "b1d2dfa38e4deb1b1c087b1f2527cf79af3f31b95c9ee5adff68b0c94c1117da",
+    "2. Input Documents-20200101T000000Z-01652-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "16ac0938827891b448feb19cdfdbce95d81be0983ac6bf6fe7752c8780d71a73",
+    "3. Complete form-20200101T000000Z-01652-000/3. Complete form/2020 Tax Return Documents (Emery Okoro (synthetic)).pdf": "da5e0797da286d60e55669ed7ea9f330cc0df9cbbcc1bd480d84493daf8a40e9",
+    "3. Complete form-20200101T000000Z-01652-000/3. Complete form/Completed forms - Summary.pdf": "4d623a5a3df191c8d7cba226112bdd9a637b8157b4718d649b27b64fb0c7aef7",
+    "4. Executive Summary-20200101T000000Z-01652-000/4. Executive Summary/Executive Summary Emery Okoro 2020.pdf": "46e1391bda44709f58f5ef691c54e487be7447c7f026a3e279390b50c7fea5cf"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

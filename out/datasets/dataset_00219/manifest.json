@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-00219-000",
+  "tax_year": 2024,
+  "case_fingerprint": "ec535aff41b77a6bf807b99e8b6b4bc21dc7ae70aa2b2adfc4944508593a2253",
+  "case_json_sha256": "dc6d036f3d36cd9e163ac08cfe3c1dbcdde2e7d9aa4a4e2b42e0b36345a7cb19",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-00219-000/1. Client Summary/Client Summary.pdf": "ec0f3dff2dc85ed166d178bd0b6133113680ccbf3454cd7bfa994e27a827646b",
+    "2. Input Documents-20240101T000000Z-00219-000/2. Input Documents/Tax Document Attachments Summary.pdf": "05081dca276e8ddb428d17a85cf9f8f47bf6aedfdc5144b3e946489672c16066",
+    "2. Input Documents-20240101T000000Z-00219-000/2. Input Documents/1099- DIV/1099-DIV REYES.pdf": "48c3c126bb72746f23c18ca7afc173dd30da76c782d789c6419daf763078b669",
+    "2. Input Documents-20240101T000000Z-00219-000/2. Input Documents/1099-INT/1099-INT REYES.pdf": "ffc5be6cecd6105b9601fdc6cbe5ed2ab6349689152a9564f5a9c18e51bb40e5",
+    "2. Input Documents-20240101T000000Z-00219-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "e2d1f3edc826da4f83a8ba89068d99c50dff78169457208fd2630c2fbe58eafa",
+    "2. Input Documents-20240101T000000Z-00219-000/2. Input Documents/Form W-2/Form W-2.pdf": "88ee24a268812c8e233a67404f2927c97ad4ca9fa0b53ff1f8852fe3e5414f27",
+    "2. Input Documents-20240101T000000Z-00219-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "c8d38c3173952264b2e52aed589332a2d1b6d857a3d4b4c00f8b90f71ee83e50",
+    "2. Input Documents-20240101T000000Z-00219-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "b8d4241a98775560d944b4ecd4b758a071600305045c990b7ee18a06307f869b",
+    "3. Complete form-20240101T000000Z-00219-000/3. Complete form/2024 Tax Return Documents (Finley Reyes (synthetic)).pdf": "d752d3401b15d623b05cceaf22ff9d9fbd9e095035909f535028d149b665f002",
+    "3. Complete form-20240101T000000Z-00219-000/3. Complete form/Completed forms - Summary.pdf": "03a5e0ced6186c2cfa91a2663a1c8330d220ba6f4781ca4c32257faff53e2b1a",
+    "4. Executive Summary-20240101T000000Z-00219-000/4. Executive Summary/Executive Summary Finley Reyes 2024.pdf": "0fe65b85496a4b7cb45fa13b25487cf640e09fa3e8b0a6357a7cd421a08554d4"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

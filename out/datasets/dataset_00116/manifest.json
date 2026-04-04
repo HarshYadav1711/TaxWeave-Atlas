@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-00116-000",
+  "tax_year": 2024,
+  "case_fingerprint": "f70c4e0e31ee75edeafd266d2994db5f4e9ec6b46b0059314ab1489f2caf3c27",
+  "case_json_sha256": "a07f0f0d1e639a3b75b78e5469682faa6bdf5a50e83ef569a9ea18422ce95e55",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-00116-000/1. Client Summary/Client Summary.pdf": "928554492a22d152f8f318574bea4fd3bd953b7e52cf277465a4d8128936ae44",
+    "2. Input Documents-20240101T000000Z-00116-000/2. Input Documents/Tax Document Attachments Summary.pdf": "0b4cf0ab9c97b3b8821209c451bb916350d9e55c30f563efed722dbbbc5c81c7",
+    "2. Input Documents-20240101T000000Z-00116-000/2. Input Documents/1099- DIV/1099-DIV INGRAM.pdf": "4cd139f148559e7f399819fef67db574c4830210ab6b17d439a65b3d0a387a2a",
+    "2. Input Documents-20240101T000000Z-00116-000/2. Input Documents/1099-INT/1099-INT INGRAM.pdf": "eb2698493b47bee7b50f815bf5247e38a453d3ee052ee57f0395549edd5a58e6",
+    "2. Input Documents-20240101T000000Z-00116-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "a231d9643380e9c432359135e7596be88bd039fe32ea110c641902938a3e7c4b",
+    "2. Input Documents-20240101T000000Z-00116-000/2. Input Documents/Form W-2/Form W-2.pdf": "eed921d74b36cd7d33400ff5d825dd6f14d5b9653c9373b6c733ff1de20cdbcd",
+    "2. Input Documents-20240101T000000Z-00116-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "e28e68c8561b8918947e5b16dcea62a0c081a67bbfe9e042ee8781d27a8926d2",
+    "2. Input Documents-20240101T000000Z-00116-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "f55aad718a4872e493022074bee2fe7b9c4c46bd6c7a095675b6905600dfc7d3",
+    "3. Complete form-20240101T000000Z-00116-000/3. Complete form/2024 Tax Return Documents (Quinn Ingram (synthetic)).pdf": "df82f12ae46081f83f63d296c94b9c15a7dde052f0f90b1f8cd37a22ebf5ffc1",
+    "3. Complete form-20240101T000000Z-00116-000/3. Complete form/Completed forms - Summary.pdf": "81a1151ebbe5a469285b868afe46e0434f5441b56aae39086596afb9d8324659",
+    "4. Executive Summary-20240101T000000Z-00116-000/4. Executive Summary/Executive Summary Quinn Ingram 2024.pdf": "fe85859f5709414a59121552333fca5a7b46bba34262ba87776f144f4273fac5"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

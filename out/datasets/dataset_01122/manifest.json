@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-01122-000",
+  "tax_year": 2024,
+  "case_fingerprint": "dbc5658530f7e510202f1ecedf2818b1068269c78233c6f766400434a96614e1",
+  "case_json_sha256": "930087ef8e898d8b65ff739811bf006305a752b1ed5b093e5cbb172623fba86b",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-01122-000/1. Client Summary/Client Summary.pdf": "a0e2be87004efbcca0e346dd419bb8f83899aa8a44739f357436c97708611399",
+    "2. Input Documents-20240101T000000Z-01122-000/2. Input Documents/Tax Document Attachments Summary.pdf": "3daad6a930d41c6262297881830a19462568f3a55ca48633304e60f82ed7dc55",
+    "2. Input Documents-20240101T000000Z-01122-000/2. Input Documents/1099- DIV/1099-DIV BENNETT.pdf": "7cf69db6180e9467ab947c4d091b83e4a97bb3a9385dc62380679f7c30b70aec",
+    "2. Input Documents-20240101T000000Z-01122-000/2. Input Documents/1099-INT/1099-INT BENNETT.pdf": "5fff788074875c72f9e30bba3eb7941546076b26a9c47b84eec64b6b10b5a357",
+    "2. Input Documents-20240101T000000Z-01122-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "f30949d25fce05261db82f0754288c25eba30927f68dbb6dda3f0c040aceb42e",
+    "2. Input Documents-20240101T000000Z-01122-000/2. Input Documents/Form W-2/Form W-2.pdf": "29668e7f7cae6f8ca25d1b0e1be4b1f67f8f825d856468485a533bc07af5f27d",
+    "2. Input Documents-20240101T000000Z-01122-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "8d6fec4d779f94fd639e28a3533df9044ccd25aa582c000d83e01d3ad8d0b213",
+    "2. Input Documents-20240101T000000Z-01122-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "428d7bab3dfed8f3da69211cf0a14490e35e9870612a4a7bfbfea0eadd42f78e",
+    "3. Complete form-20240101T000000Z-01122-000/3. Complete form/2024 Tax Return Documents (Casey Bennett (synthetic)).pdf": "3b30b1940d9a4d5aa57b57fc2627964ee5c860cca17c8d501c1930293f9b37bc",
+    "3. Complete form-20240101T000000Z-01122-000/3. Complete form/Completed forms - Summary.pdf": "268138c068f4f6cd548e8ae5673a9302dc9856129492c1e530b603e61b0e7aba",
+    "4. Executive Summary-20240101T000000Z-01122-000/4. Executive Summary/Executive Summary Casey Bennett 2024.pdf": "9f1bd0fa11fa6cc5f808c9814c8031949c9a79c5174e339773143d9bd45c4d93"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

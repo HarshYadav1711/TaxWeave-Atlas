@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-01512-000",
+  "tax_year": 2022,
+  "case_fingerprint": "fa52fd85939d956a8187b20862f98f1a4b10fad3c86674f2cf66645333375281",
+  "case_json_sha256": "6ba6dac910d8a9c1f70315ee9cf06c710719a92011062ce9814be9aa07e27d23",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-01512-000/1. Client Summary/Client Summary.pdf": "102666155090976f8ad2699abcdca873f973a563fa2987a33de9418dbb3fe8e3",
+    "2. Input Documents-20220101T000000Z-01512-000/2. Input Documents/Tax Document Attachments Summary.pdf": "0dd9d2c331830071671c44110109af2eafd781f1c7020f04976a97cc52074a8a",
+    "2. Input Documents-20220101T000000Z-01512-000/2. Input Documents/1099- DIV/1099-DIV PATEL.pdf": "46f1bd75ab96ba0766d98859a1f9e4857130035406dae3c8276215d0c5fc7407",
+    "2. Input Documents-20220101T000000Z-01512-000/2. Input Documents/1099-INT/1099-INT PATEL.pdf": "c6c8744f6f0257930526c4db0dba1c18c7f4a6e635fd2d200954d768e54a552e",
+    "2. Input Documents-20220101T000000Z-01512-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "02ebd7edb0aa9abd6f9fdee95f975d01c70344a35eb9042531d5e9a2e9443bf2",
+    "2. Input Documents-20220101T000000Z-01512-000/2. Input Documents/Form W-2/Form W-2.pdf": "59173f36d52058c65c75eb84ef7cc75ac1ebdde1045f59071ec6f82f38b49c9f",
+    "2. Input Documents-20220101T000000Z-01512-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "daec560b265d4fc7ce3ddd7dc8ee25eb25c323f6d80caaf8e354a70a3e5f29aa",
+    "2. Input Documents-20220101T000000Z-01512-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "439b119cd17835b56ad562beb0c414e30f91675551cac6b36eae87e968fc0ed1",
+    "3. Complete form-20220101T000000Z-01512-000/3. Complete form/2022 Tax Return Documents (Rowan Patel (synthetic)).pdf": "c23f7fc281671b3ff81ea666155d28b56cbdd6ba45fb802ff002701c39eab4a5",
+    "3. Complete form-20220101T000000Z-01512-000/3. Complete form/Completed forms - Summary.pdf": "69e30eb3eb09c1de4729678074f413fc369309126c7af1036d5797dffadcfa4b",
+    "4. Executive Summary-20220101T000000Z-01512-000/4. Executive Summary/Executive Summary Rowan Patel 2022.pdf": "0e4995c802e7038a4a01c27ac60b0c7d9041af29c390d4decd853e6cbcc2215a"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

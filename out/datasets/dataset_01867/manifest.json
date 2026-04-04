@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-01867-000",
+  "tax_year": 2024,
+  "case_fingerprint": "2f158db519070e5349e27b3995f94ebc2bea002e6b2dd4010fb0ee9881528b16",
+  "case_json_sha256": "5ea91d1bece2e129e24b8939fdb1d8891e502f5c474e65d97b9afb9da4b1ddbb",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-01867-000/1. Client Summary/Client Summary.pdf": "fb848c64114f2d430fd8d1ec4005b24f7d2cda21669e8003a0bea095f5e91d20",
+    "2. Input Documents-20240101T000000Z-01867-000/2. Input Documents/Tax Document Attachments Summary.pdf": "a05553cab370cca22d94cdb8ba715eb26f9395b2e4ddbc5c0c4085ba8b65a961",
+    "2. Input Documents-20240101T000000Z-01867-000/2. Input Documents/1099- DIV/1099-DIV HAYES.pdf": "8a12ff8496df06574bd089647557f2ba0f2c1e7d59ee73cd4d335b8ebe8f2fd0",
+    "2. Input Documents-20240101T000000Z-01867-000/2. Input Documents/1099-INT/1099-INT HAYES.pdf": "d7dfd963bf500ad8f4ab53b1a45c57c92160724f7a15f1344ce6264bafdcdf4c",
+    "2. Input Documents-20240101T000000Z-01867-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "45de082da820b910c71f4c6a9ec1e9e9fa0626c45cce98ad31152245f8d41f25",
+    "2. Input Documents-20240101T000000Z-01867-000/2. Input Documents/Form W-2/Form W-2.pdf": "fefd9218f10e2e1a39dbc06b0e1116cd8cbdd466a1527431d2c1d0315ba41fbe",
+    "2. Input Documents-20240101T000000Z-01867-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "20f84d77b55c1f0edfd34c5197106802a9788ddaaeeb956e335d221471c0d8e6",
+    "2. Input Documents-20240101T000000Z-01867-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "c2d4fb3eafa1641746f96e7f7e84832f73244112b2102e16fe005752baaa1d4a",
+    "3. Complete form-20240101T000000Z-01867-000/3. Complete form/2024 Tax Return Documents (Reese Hayes (synthetic)).pdf": "9c604d317c122ddca4e80bffefbf127386b5275271ad8f6df8da0e6422c28846",
+    "3. Complete form-20240101T000000Z-01867-000/3. Complete form/Completed forms - Summary.pdf": "76109ace5fac43ee01963101095fc51b32fe56926f5347ab58a369fdb17ec413",
+    "4. Executive Summary-20240101T000000Z-01867-000/4. Executive Summary/Executive Summary Reese Hayes 2024.pdf": "fea2a04537948010c11b94f24f8ff6118fd316c4b9d4954216c2823befde5eb0"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

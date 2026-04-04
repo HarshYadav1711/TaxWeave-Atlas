@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-00434-000",
+  "tax_year": 2023,
+  "case_fingerprint": "57c4f8c53a4291cfa863b1f3a3684c102e7e0d3e31f0e5f0af3a4d185af75397",
+  "case_json_sha256": "fc71e60d9030dbfe9e1ffc544b620af3f3e9bb13814b30b7375f461ea4fab40e",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-00434-000/1. Client Summary/Client Summary.pdf": "8150ba18bf66054c750958e0f4394c6ae8b9ced7194d91b639f9ce1210abf96d",
+    "2. Input Documents-20230101T000000Z-00434-000/2. Input Documents/Tax Document Attachments Summary.pdf": "1e160d504d9df1dd59ea118adc5fdf5cfe8e69b87347594f804596c770a5cf8a",
+    "2. Input Documents-20230101T000000Z-00434-000/2. Input Documents/1099- DIV/1099-DIV SULLIVAN.pdf": "3c6196be164fee8fd74519dc43332a81057eef9e69544bcea91d10fc4d3f4b3b",
+    "2. Input Documents-20230101T000000Z-00434-000/2. Input Documents/1099-INT/1099-INT SULLIVAN.pdf": "4a83bd706380a145d8c975edda9bca6774598f237047bb30814c31c203edc036",
+    "2. Input Documents-20230101T000000Z-00434-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "bccf5dfcdb4ac59871fd392df540d0551972a0336f2a296d1fb555c2a3527cfc",
+    "2. Input Documents-20230101T000000Z-00434-000/2. Input Documents/Form W-2/Form W-2.pdf": "bcadc34e6469a17ea0df67b96e57f1d3d5614633e5f235945b615582fc5a5c9f",
+    "2. Input Documents-20230101T000000Z-00434-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "3e1f33a13cceed05f717e423e883c0e54f4ba3a9e2f008440cfb3c4136de17f1",
+    "2. Input Documents-20230101T000000Z-00434-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "8d160ac1f5e477e74548baac02a4897bc62517279aa3b983b149d8e43448586d",
+    "3. Complete form-20230101T000000Z-00434-000/3. Complete form/2023 Tax Return Documents (Finley Sullivan (synthetic)).pdf": "7e8e4125230207f74ca1e636e5867378c2a4e2df41bb5d1e47cf08935492a863",
+    "3. Complete form-20230101T000000Z-00434-000/3. Complete form/Completed forms - Summary.pdf": "6e36edf5b9785d8be6919eaa594eed5ac231140e192823e614c7ab5b7b2519b5",
+    "4. Executive Summary-20230101T000000Z-00434-000/4. Executive Summary/Executive Summary Finley Sullivan 2023.pdf": "2ac49ab3ec40d4fb3ecaa786da752fb7e2f690cf472fb0e0cc3f4ff54e487c18"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

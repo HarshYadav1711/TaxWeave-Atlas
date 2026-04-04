@@ -6,17 +6,17 @@
   "case_fingerprint": "b1cf2ba90178362f48f78159562d5cf42f6bdca22ec9de2eeb72380d43adaa96",
   "case_json_sha256": "913d641652e90eabce9bd44f4f332c8ca60cafe87d0e2a544128e795fc73226e",
   "files_sha256": {
-    "1. Client Summary-20220101T000000Z-00044-000/1. Client Summary/Client Summary.pdf": "a60a2c37d900d8dd9686466105cf932af5793400dcbd0e0c8f16f0ad83203318",
-    "2. Input Documents-20220101T000000Z-00044-000/2. Input Documents/Tax Document Attachments Summary.pdf": "517f30fc90bd18a4a15fe4923dd1c130450a9beb38552e320b2c32a3f19fd5c3",
-    "2. Input Documents-20220101T000000Z-00044-000/2. Input Documents/1099- DIV/1099-DIV HAYES.pdf": "a725f5be1df6c066f54e16d687154e599d234e4362e33452d0c9f0ec25cca80e",
-    "2. Input Documents-20220101T000000Z-00044-000/2. Input Documents/1099-INT/1099-INT HAYES.pdf": "457c9dc3926e57ab7cf0904ffeadf94534f66b2d2cf090c5fef360018b70c602",
-    "2. Input Documents-20220101T000000Z-00044-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "e64bdb84da387d01dd6705d2d958d61b40d93691ab2b6aff9313846da9e84dfa",
-    "2. Input Documents-20220101T000000Z-00044-000/2. Input Documents/Form W-2/Form W-2.pdf": "188bbc577c20ebf5b68e4af0a5754982df11bbb1074101f78219cfe5ba134aa7",
-    "2. Input Documents-20220101T000000Z-00044-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "f1d889a9d2188ee4b5e00d4beaf71b30841c931664ace1370928cf0daa09e67a",
-    "2. Input Documents-20220101T000000Z-00044-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "37f1460d077ff50064d946332e64be33754aea3e37e5c5787fa372d36bbe10df",
-    "3. Complete form-20220101T000000Z-00044-000/3. Complete form/2022 Tax Return Documents (Dakota Hayes (synthetic)).pdf": "708181f9d490cf17ca98de00aed16254c35b93af8c126a4bf0b4a906bd788b47",
-    "3. Complete form-20220101T000000Z-00044-000/3. Complete form/Completed forms - Summary.pdf": "5dd7bd8103c71d5a224c9ab7ae75dcf77afb5ec916396c2170ef2212e1b8641b",
-    "4. Executive Summary-20220101T000000Z-00044-000/4. Executive Summary/Executive Summary Dakota Hayes 2022.pdf": "f35c3a9bcf0e2f6ffe22f12848644b55ed666ef0c0eb77fa5de3e33827efa206"
+    "1. Client Summary-20220101T000000Z-00044-000/1. Client Summary/Client Summary.pdf": "d8ba85d2895f1649c1aad66d6ec48f9567c81c410cb54fe94fc24810c39d1bb2",
+    "2. Input Documents-20220101T000000Z-00044-000/2. Input Documents/Tax Document Attachments Summary.pdf": "5584bfa00ff0886a046522adc32358141d58891c536956c7423548e9d79e8912",
+    "2. Input Documents-20220101T000000Z-00044-000/2. Input Documents/1099- DIV/1099-DIV HAYES.pdf": "3cf1d8550480a96f20d6449f08e373049d66c74591ea9e630433859099a960ab",
+    "2. Input Documents-20220101T000000Z-00044-000/2. Input Documents/1099-INT/1099-INT HAYES.pdf": "835d7dc43468914923a1afe3fcff331264965a57d475034b478159769b1186bd",
+    "2. Input Documents-20220101T000000Z-00044-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "ab68c06c3f5e0e3739ce0d4b305fc845d2120add22ee27295338c31400e30dc3",
+    "2. Input Documents-20220101T000000Z-00044-000/2. Input Documents/Form W-2/Form W-2.pdf": "f0b3b237a3d51654e30ef1d33dfc269558a5c391c53bcb7a7a817ae3a8e0618f",
+    "2. Input Documents-20220101T000000Z-00044-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "842d2049bfadfe3d58ae211f54a1f76fb0726dc6bb3d3d4d0cb7fda4b67e3002",
+    "2. Input Documents-20220101T000000Z-00044-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "525b54e84e53127a33971f212ccb39ca4522e18ef3cb606e46d0ec7cb6b4b91e",
+    "3. Complete form-20220101T000000Z-00044-000/3. Complete form/2022 Tax Return Documents (Dakota Hayes (synthetic)).pdf": "ad13a67edb2ca51f120da2c912538f2c949743c55eabfaecc8e0874ae84b58d2",
+    "3. Complete form-20220101T000000Z-00044-000/3. Complete form/Completed forms - Summary.pdf": "51c7c7a90be6aaff215368ebc25ab8902b232b7204afa1965523a159aae694fb",
+    "4. Executive Summary-20220101T000000Z-00044-000/4. Executive Summary/Executive Summary Dakota Hayes 2022.pdf": "1d416a646f9fee8fb3c530572c8c31ff7c76fbf077ac2c62430c8b2795ecd273"
   },
   "canonical_case_model": "SyntheticTaxCase"
 }

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-00437-000",
+  "tax_year": 2020,
+  "case_fingerprint": "644de3bbb5f599c40354f73f23fc1722c336d43858381bb80dd105462f1cb5e7",
+  "case_json_sha256": "947e1d68b362de81502214e5413dd354c47a56d1fccfa4b4fb4f0c333d824034",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-00437-000/1. Client Summary/Client Summary.pdf": "0cc0bfc3db349dd703fdaf81dc850fc538c297e0b5ff5e51ca87bc84b594c5af",
+    "2. Input Documents-20200101T000000Z-00437-000/2. Input Documents/Tax Document Attachments Summary.pdf": "fc5034c9d352221dc4c714df70b7caf48c8dabc35358122a1ec051a6eb294358",
+    "2. Input Documents-20200101T000000Z-00437-000/2. Input Documents/1099- DIV/1099-DIV DIAZ.pdf": "7935f0b72fc2791298e5a56d45b56d2b132d7e9b824e05eeca3553e1fe43a9b0",
+    "2. Input Documents-20200101T000000Z-00437-000/2. Input Documents/1099-INT/1099-INT DIAZ.pdf": "0e843e21e46b749b28b95f13c411595a5107aac5b2a6ad0942bde229fa0e478c",
+    "2. Input Documents-20200101T000000Z-00437-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "b8c6029864d730601e7f24e38f0689c1ce4e2553f45d280e99f08bfced935ccc",
+    "2. Input Documents-20200101T000000Z-00437-000/2. Input Documents/Form W-2/Form W-2.pdf": "102951dab27b8bf1e9419d3af1619fba5baa6b43ab2758d5f4bdce39590931b3",
+    "2. Input Documents-20200101T000000Z-00437-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "8e8e7e73d8c6181b10c92aef22e5823f5b2edf7d761214fd1023e0a35a24a346",
+    "2. Input Documents-20200101T000000Z-00437-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "04d12e3363608d47c8e9b16253cb018d1418f961c4216ab37e7daa2d881a004d",
+    "3. Complete form-20200101T000000Z-00437-000/3. Complete form/2020 Tax Return Documents (Dakota Diaz (synthetic)).pdf": "c6aa49016fcd2d77b05e154a23481ef1dab89d03f7f59ee12790adbead7aec95",
+    "3. Complete form-20200101T000000Z-00437-000/3. Complete form/Completed forms - Summary.pdf": "825df62a7670d602e5bf5ce5ba1b4fd256ff2f0c1c57efd7a1446a23f8b3d037",
+    "4. Executive Summary-20200101T000000Z-00437-000/4. Executive Summary/Executive Summary Dakota Diaz 2020.pdf": "0bfe5445175ec0ea21fc99d7a4803ad5f2b785dc307eb458d56796645c1793e0"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-00475-000",
+  "tax_year": 2022,
+  "case_fingerprint": "ffc9458b9ca55020e491accf5414e436ce9c8e5375c6fe60700096b07799aa0a",
+  "case_json_sha256": "9e67c1321101f9daea1f3e5ac23176f8228307d4c2699349abaa12c870edf76c",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-00475-000/1. Client Summary/Client Summary.pdf": "4ac5eb303b3c1b757edf60da2d84462df6c7a81a0df80bffb8341715a45dcff5",
+    "2. Input Documents-20220101T000000Z-00475-000/2. Input Documents/Tax Document Attachments Summary.pdf": "05d7589916ab0e4a59e558afa961ac6151a7d9d4282982b8dbdce5017a943d87",
+    "2. Input Documents-20220101T000000Z-00475-000/2. Input Documents/1099- DIV/1099-DIV MERCER.pdf": "a907b3f78ad141d6e4c168fe54357972d8705ee49593717a37e2baf1127507fa",
+    "2. Input Documents-20220101T000000Z-00475-000/2. Input Documents/1099-INT/1099-INT MERCER.pdf": "bb6f902176402fa620e6cdc689eed15540fe92890304cc1ceb51499f61784757",
+    "2. Input Documents-20220101T000000Z-00475-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "6c3b0ea37a5478920f14ad623bf5fd7d9ec7b2f3c1e77fbcf4c3707a97026873",
+    "2. Input Documents-20220101T000000Z-00475-000/2. Input Documents/Form W-2/Form W-2.pdf": "5cb8d9d71cb36c83eb877de2356f33d8bb927df705f4a5cf75d73b5ce35f9ec2",
+    "2. Input Documents-20220101T000000Z-00475-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "2a1985a0e9cfbba34ca333e7caf88ad913b153e783bfcc48ce5614f6e259b5c4",
+    "2. Input Documents-20220101T000000Z-00475-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "a710b911bb77321f95667640e0de1270e06cccc1713e143e510799bfeb85f33e",
+    "3. Complete form-20220101T000000Z-00475-000/3. Complete form/2022 Tax Return Documents (Emery Mercer (synthetic)).pdf": "bc155fee31b5625065036c826d428a4973880d6087bbb48b8d087f415f1a0ce3",
+    "3. Complete form-20220101T000000Z-00475-000/3. Complete form/Completed forms - Summary.pdf": "fb377f3c41eb471561aa30977df1f3f99566101af1a9c42dd3caec2f5956b878",
+    "4. Executive Summary-20220101T000000Z-00475-000/4. Executive Summary/Executive Summary Emery Mercer 2022.pdf": "ce0e6fa2d709d6d466b67e6fab484d4e02dd53e85429b5f796a9192d3c04d5a8"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

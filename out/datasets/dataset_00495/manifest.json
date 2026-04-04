@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20250101T000000Z-00495-000",
+  "tax_year": 2025,
+  "case_fingerprint": "e2f4d91b3cb7e7809494dba8efa2b06883125b06a41781786e73816f944b18dd",
+  "case_json_sha256": "482b30392e0d7d6142436adda26bfa5ff769feab7a2571d9da00107c2faeb95a",
+  "files_sha256": {
+    "1. Client Summary-20250101T000000Z-00495-000/1. Client Summary/Client Summary.pdf": "6f16b6eb0b0869a54418ee7d4c5d4435700858af588e6e5951d7181d82dac04c",
+    "2. Input Documents-20250101T000000Z-00495-000/2. Input Documents/Tax Document Attachments Summary.pdf": "344b5ddc548c17b9fffc26b101d0482aca5893258980c34da87f38d62e7c5f17",
+    "2. Input Documents-20250101T000000Z-00495-000/2. Input Documents/1099- DIV/1099-DIV SULLIVAN.pdf": "8d13746cb322bb839a56c2f12dd7a540b739a71d5450bac136812e9fc1ac4c67",
+    "2. Input Documents-20250101T000000Z-00495-000/2. Input Documents/1099-INT/1099-INT SULLIVAN.pdf": "147ac059c431b5804c913e165aca1523c00ec77fb17cd60f2ee36ee99df72d36",
+    "2. Input Documents-20250101T000000Z-00495-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2025_.pdf": "525eb9f965d271353e071c41ed58167204e2abf20e970f8d0e70317544285f01",
+    "2. Input Documents-20250101T000000Z-00495-000/2. Input Documents/Form W-2/Form W-2.pdf": "57595b74044ecf0dec8c26d1dde0e13a48a6110d413473fb76497ded4f0cdf48",
+    "2. Input Documents-20250101T000000Z-00495-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "e0bb4a61ece3b4795c3182992591bc109874e4231c84dc27a4f23c915429250f",
+    "2. Input Documents-20250101T000000Z-00495-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2025.pdf": "fe279905a44bd18702dcafeffff49333689e486e3475d1c583cd6c3f94f78ab3",
+    "3. Complete form-20250101T000000Z-00495-000/3. Complete form/2025 Tax Return Documents (Jordan Sullivan (synthetic)).pdf": "a4bab4acf0f8b19060f12f35312af29e4e083d48a9bc33704341a9a3d57574b0",
+    "3. Complete form-20250101T000000Z-00495-000/3. Complete form/Completed forms - Summary.pdf": "85a4360f1fc02585af3ac59d42643d1821a84edba476d1d2a335642cc5fe11fc",
+    "4. Executive Summary-20250101T000000Z-00495-000/4. Executive Summary/Executive Summary Jordan Sullivan 2025.pdf": "5fe9884f4ffe9679194f93b2f348e2ef5b919058f0e2e85c2eb1b90b8117923b"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

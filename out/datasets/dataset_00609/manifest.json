@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-00609-000",
+  "tax_year": 2024,
+  "case_fingerprint": "dceabcef07466ab07e6d6bfc27647c92c6dd36a73fb27818953742dbac940b50",
+  "case_json_sha256": "bc47d960637cb6624f98669311fa0b93516964f23a7785d351177f70c2a450d2",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-00609-000/1. Client Summary/Client Summary.pdf": "7c9febba745739d6acae29dd2797f3cb5593268ccb07d1bd0d33a4451c30bd8c",
+    "2. Input Documents-20240101T000000Z-00609-000/2. Input Documents/Tax Document Attachments Summary.pdf": "c2c6fa7f9f4c56f56a10fff76eba0e047e18898dcfcbf14cd71f55513259d95e",
+    "2. Input Documents-20240101T000000Z-00609-000/2. Input Documents/1099- DIV/1099-DIV FOSTER.pdf": "a916defbcc57a8b240f42a858bbfe3bfb2387af1b716cb77f5bd51bbed9764db",
+    "2. Input Documents-20240101T000000Z-00609-000/2. Input Documents/1099-INT/1099-INT FOSTER.pdf": "15ccedae526cba56b167bc25f69f9c68bc85f2c18f221e67b75ac044a7460091",
+    "2. Input Documents-20240101T000000Z-00609-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "8c6ec0d7cdddc30441ea94d68b28cbf2eea08e8738afaaf11a2e413842341c84",
+    "2. Input Documents-20240101T000000Z-00609-000/2. Input Documents/Form W-2/Form W-2.pdf": "e85e8c2ce4e77b7604bd20b0b8c2531af50ccbe49cdb52ffe72150887b75893f",
+    "2. Input Documents-20240101T000000Z-00609-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "b53ff83083d0319f7db998b539f4cb1970b26a1baf6b2337dc9ddce04bd7efc6",
+    "2. Input Documents-20240101T000000Z-00609-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "07591f9b68766a69f40f0f855c15f511966c1520867a2ea7ce4f9d5336f79109",
+    "3. Complete form-20240101T000000Z-00609-000/3. Complete form/2024 Tax Return Documents (Dakota Foster (synthetic)).pdf": "828f3fbd640fd7cad6bde48d04fddcb8a8aad96ef2e6302df0123f0c0a727659",
+    "3. Complete form-20240101T000000Z-00609-000/3. Complete form/Completed forms - Summary.pdf": "049b32fa003f5a1328084b04f1c9fe248478c9fad241d61efa5a5512d0f877c3",
+    "4. Executive Summary-20240101T000000Z-00609-000/4. Executive Summary/Executive Summary Dakota Foster 2024.pdf": "f05df124b778ea40aeee073d201f279664af0a5094a4ef00ad8d61c90637a498"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

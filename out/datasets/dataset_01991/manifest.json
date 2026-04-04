@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-01991-000",
+  "tax_year": 2020,
+  "case_fingerprint": "641d50273a746609aea58728b1e85b9d82e31512f9986de9e07b2d6cacbcf29b",
+  "case_json_sha256": "809dc6609ad88a14c65f7d68e498cd22fa7d48dab2c64ff384fe1d1c4ccd7f72",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-01991-000/1. Client Summary/Client Summary.pdf": "41433cd6a61a5c50b9e102e0531cd3429070054ac92d8560afd108e46c63756e",
+    "2. Input Documents-20200101T000000Z-01991-000/2. Input Documents/Tax Document Attachments Summary.pdf": "54adf0339818ece889e11d54f7a7f821903e2d9ddca783ba2605bca19dd0b632",
+    "2. Input Documents-20200101T000000Z-01991-000/2. Input Documents/1099- DIV/1099-DIV BENNETT.pdf": "78289476f8a6c2a9107a3cc075c4629a34634fd7ea5c77455f52518cb059786e",
+    "2. Input Documents-20200101T000000Z-01991-000/2. Input Documents/1099-INT/1099-INT BENNETT.pdf": "1f94d862b9cc2def6f686021f6fbc51e3cbbbcef92963af22ae41a0781341cfb",
+    "2. Input Documents-20200101T000000Z-01991-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "246d6da8318e7d518b3d771e04f1360d079b890a608bd977b5e154e7dd1c1ff2",
+    "2. Input Documents-20200101T000000Z-01991-000/2. Input Documents/Form W-2/Form W-2.pdf": "8855f85c48dc96543650d99f915c176cd4b8c578b6203ec6036ecfbac3d97bc4",
+    "2. Input Documents-20200101T000000Z-01991-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "c14e5ece97288d2f9a87726a98491c56ac96e52e81ad1d8fc313874d7e08a4f9",
+    "2. Input Documents-20200101T000000Z-01991-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "b29a8f2769ad687c18d63f7d2cd8e8cfb54bdf035332c82a5ad9ea393db9143c",
+    "3. Complete form-20200101T000000Z-01991-000/3. Complete form/2020 Tax Return Documents (Skyler Bennett (synthetic)).pdf": "e8dc13825188d68441d82ef2b37c769d899418b9c13fd0f70fe627d9a8f60457",
+    "3. Complete form-20200101T000000Z-01991-000/3. Complete form/Completed forms - Summary.pdf": "1f33a0fe6d75845e92964d5b5f6d7306790411316b42648782425d1f4d924af2",
+    "4. Executive Summary-20200101T000000Z-01991-000/4. Executive Summary/Executive Summary Skyler Bennett 2020.pdf": "8226ecc62c14693390aaa2e13f875e008c7a659c41d6f3c8e007ee522f7baae6"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

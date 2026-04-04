@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-00773-000",
+  "tax_year": 2022,
+  "case_fingerprint": "efa4e7fda7e62def98aec09eef665ef03d7230f0e7007599edf8b94c2a0654b1",
+  "case_json_sha256": "6342a84bc703e34828dd49d8b7a6e1e910c0923e9b7eff982c0b0b3bc62ea80f",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-00773-000/1. Client Summary/Client Summary.pdf": "ab26674f6284a570f7bdef2cdf1165fa87debd5e331a9f2b115f647aa308862a",
+    "2. Input Documents-20220101T000000Z-00773-000/2. Input Documents/Tax Document Attachments Summary.pdf": "cc00ab3a7d5f12474edcc7d3c35e30c20ecd0ae82e85534a88558ce5a1239b1b",
+    "2. Input Documents-20220101T000000Z-00773-000/2. Input Documents/1099- DIV/1099-DIV PATEL.pdf": "3e9d935396455f8114303cd6240e0ba3f30b8c49d43238db25f861d85103088b",
+    "2. Input Documents-20220101T000000Z-00773-000/2. Input Documents/1099-INT/1099-INT PATEL.pdf": "0351d54a98a1c3bfed4216530ba0a91179ad5e251695abd557ebf2c46b44f292",
+    "2. Input Documents-20220101T000000Z-00773-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "dacb862f31a05e819f979d202480bced6ebd6614e56bd4dbca8428c4f79989a3",
+    "2. Input Documents-20220101T000000Z-00773-000/2. Input Documents/Form W-2/Form W-2.pdf": "25f32c81506b5f70c719505d5ad0f896aab87780ea3cc405cf5aafe39c619ec8",
+    "2. Input Documents-20220101T000000Z-00773-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "500941320fcd7dba5f5cb3ef54f868a4afa168d00df77341308de02c24f0812d",
+    "2. Input Documents-20220101T000000Z-00773-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "b36665c5f6b686a0009ee1874a2642f8dc5b20487292c2ad57e002b7d5379087",
+    "3. Complete form-20220101T000000Z-00773-000/3. Complete form/2022 Tax Return Documents (Reese Patel (synthetic)).pdf": "28bf7c4061d7c973e65f2098b606f104a7a4ad863c98dbb60232cbeabbff7075",
+    "3. Complete form-20220101T000000Z-00773-000/3. Complete form/Completed forms - Summary.pdf": "bb89c082f5a920b4efab6a6186c440174b5c9945e23ae1accdde2ae01e6231c6",
+    "4. Executive Summary-20220101T000000Z-00773-000/4. Executive Summary/Executive Summary Reese Patel 2022.pdf": "ff63c24a7b748cd2d062de782c5c172583f03c40f300059b9c9446b89b898203"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

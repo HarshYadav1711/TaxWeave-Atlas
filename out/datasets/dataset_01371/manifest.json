@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-01371-000",
+  "tax_year": 2023,
+  "case_fingerprint": "990abb081473840ac58b9b102e23129a303367a5669773e157dab5d852883f54",
+  "case_json_sha256": "439d9af87d2468576fe5da299226797b52df0a77a63b38679a280422aba8656f",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-01371-000/1. Client Summary/Client Summary.pdf": "d07acd28c9bc2cb2496a37ac7d030b2398057af347bfbe5974062e3050b12823",
+    "2. Input Documents-20230101T000000Z-01371-000/2. Input Documents/Tax Document Attachments Summary.pdf": "5d1b0568486d9318a1f6b9d6f36ad94d25554edb49259d3e275fe645c21b2c1d",
+    "2. Input Documents-20230101T000000Z-01371-000/2. Input Documents/1099- DIV/1099-DIV LAWSON.pdf": "a610c04ab32b1c84a8aceee3f8a8ce90d82e59982f8d8ff0aac988834c418a38",
+    "2. Input Documents-20230101T000000Z-01371-000/2. Input Documents/1099-INT/1099-INT LAWSON.pdf": "1a38394021a1052ecfa44aa631bf060e5c83350e5c9143d0b6fb3dc2feab2b88",
+    "2. Input Documents-20230101T000000Z-01371-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "0fcc0ad99c15381783c4917763b80e86550b62e6a540f28c413ef25819cee969",
+    "2. Input Documents-20230101T000000Z-01371-000/2. Input Documents/Form W-2/Form W-2.pdf": "4f028e189dbdd95de839ce5cec67d5341c7c98eb651413af4adf5344587c3224",
+    "2. Input Documents-20230101T000000Z-01371-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "821b9901751e57a65c0422888aea62f5383530f73b0a5a90343859f972aa9891",
+    "2. Input Documents-20230101T000000Z-01371-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "0a6402124f891745cecd6b2933c5c4207c761b6013d5dd2928f59cb023ace81f",
+    "3. Complete form-20230101T000000Z-01371-000/3. Complete form/2023 Tax Return Documents (Skyler Lawson (synthetic)).pdf": "7b6c50d1d5ec78917a184675019d88126ccd28409639fcc8a27c2441aec0ebb6",
+    "3. Complete form-20230101T000000Z-01371-000/3. Complete form/Completed forms - Summary.pdf": "886ff30c746e2a8e823c67ada90dd4b544f8e7e27d1549b423fa6209e7749e1c",
+    "4. Executive Summary-20230101T000000Z-01371-000/4. Executive Summary/Executive Summary Skyler Lawson 2023.pdf": "1510353294e8fd7a121944c7a4d6739107f997b82f445bf106c7b6ae8f1c3ad0"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

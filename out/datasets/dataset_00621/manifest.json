@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-00621-000",
+  "tax_year": 2020,
+  "case_fingerprint": "bd57d493516cf5937fb7351d8b3c3e18d3ab90c6fc85649a2be5101a6034a4b5",
+  "case_json_sha256": "4a59953b5c2f2c29bb91e8419f81fa8f05ab33ba32d164056a63f1bea216e319",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-00621-000/1. Client Summary/Client Summary.pdf": "453300ac95ec919f3ce0fdb9d6e3962ce708e8a0704538e0ad957ad100c79233",
+    "2. Input Documents-20200101T000000Z-00621-000/2. Input Documents/Tax Document Attachments Summary.pdf": "28497b6c5012042b128278a91dacb4ce08c9f2c866a23467a33202e530a34241",
+    "2. Input Documents-20200101T000000Z-00621-000/2. Input Documents/1099- DIV/1099-DIV OKORO.pdf": "280f08fa07dc638a144def6ba68191dd73d9951907a1896c19323b82b51c5183",
+    "2. Input Documents-20200101T000000Z-00621-000/2. Input Documents/1099-INT/1099-INT OKORO.pdf": "799bdae892753e0381de127ae7c711eed7d135c19136e2998782488883849fc8",
+    "2. Input Documents-20200101T000000Z-00621-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "7590c19c864907a4b5378e36dbe7aecede5cb9233e84780ef8709a624c4ea784",
+    "2. Input Documents-20200101T000000Z-00621-000/2. Input Documents/Form W-2/Form W-2.pdf": "3463d5b73eb5b34b2444b5953bc4fda58e6f57b63b93a776f090fa328aae0f9e",
+    "2. Input Documents-20200101T000000Z-00621-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "280f548430ee6743dd9628c15c7430fe5b733406d39d01e6ed066d257fd82052",
+    "2. Input Documents-20200101T000000Z-00621-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "e9d793527daf3d60fa23096bb68b2a0f978f48654e15e16b0b84db0983d9a620",
+    "3. Complete form-20200101T000000Z-00621-000/3. Complete form/2020 Tax Return Documents (Skyler Okoro (synthetic)).pdf": "57936dc649cf3b241bf774f961c1d7f8ed3246d71f1b8760b84ed61f63bb07da",
+    "3. Complete form-20200101T000000Z-00621-000/3. Complete form/Completed forms - Summary.pdf": "768a24eec9573d75fa52b7fd5d6747a6fe1809ed0bcd766cb31f1acaec1c5d27",
+    "4. Executive Summary-20200101T000000Z-00621-000/4. Executive Summary/Executive Summary Skyler Okoro 2020.pdf": "63da4a49f99c47c6c4bd714bd1ed2496303e72e91e896cf5201973fe12861d9a"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-01833-000",
+  "tax_year": 2023,
+  "case_fingerprint": "2cde4b1114ce7634dd14065967fd80e168993d5eb7f9b60d8a1f1eaeb7aeaea8",
+  "case_json_sha256": "a9b1c9f646930024479cb7bd56eaf73114450035a748990a052bb64ad08eb5e0",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-01833-000/1. Client Summary/Client Summary.pdf": "7d72e788696006982388dcabbf2140c825ecf924591e49bfb5370c3325c977a0",
+    "2. Input Documents-20230101T000000Z-01833-000/2. Input Documents/Tax Document Attachments Summary.pdf": "7c5c5b6f6d583b805ba072239e646ce6aa8156d7e1db28fadf19ec49358ac434",
+    "2. Input Documents-20230101T000000Z-01833-000/2. Input Documents/1099- DIV/1099-DIV INGRAM.pdf": "e3251aec71a5f7f97c99ef27ba6598163571b3199ca20de3dca433ba4cf99527",
+    "2. Input Documents-20230101T000000Z-01833-000/2. Input Documents/1099-INT/1099-INT INGRAM.pdf": "7a9327ccd155f31004ae3af31cd64706a453e9da915efe9870fd5f63d5059e97",
+    "2. Input Documents-20230101T000000Z-01833-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "b71c3224eed796162377fbe97bbf259c09277b7cc4d66985d560a5d9903d6150",
+    "2. Input Documents-20230101T000000Z-01833-000/2. Input Documents/Form W-2/Form W-2.pdf": "4c63f71f3fe49d4e2b7bf950771848d679f04b84b1119a5490837f12e8e6cf90",
+    "2. Input Documents-20230101T000000Z-01833-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "0a24fcc6986bda67accabd872ada1f76e3aefc7e80f964227c622011dee127f4",
+    "2. Input Documents-20230101T000000Z-01833-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "7ceb67709617a57f9ca7a25a8165807000c59aa01300eaa10bde0565f3fb936b",
+    "3. Complete form-20230101T000000Z-01833-000/3. Complete form/2023 Tax Return Documents (Skyler Ingram (synthetic)).pdf": "44752131e87e2f2a716ac0cfe2f70cff99bacaccec7a15dacc1d2d399d5f240e",
+    "3. Complete form-20230101T000000Z-01833-000/3. Complete form/Completed forms - Summary.pdf": "d3b16b103c834e8820ffe314d0424e129f4349ffb05512d8918a54798c8aee71",
+    "4. Executive Summary-20230101T000000Z-01833-000/4. Executive Summary/Executive Summary Skyler Ingram 2023.pdf": "d9338007876b104391bc310f63beed305b8dc902282b8d50a778105bc9904df8"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

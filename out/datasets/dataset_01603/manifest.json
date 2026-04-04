@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-01603-000",
+  "tax_year": 2023,
+  "case_fingerprint": "8289b3ae1f9966743586fe95bd80028f9f4f24abadd0c5efdf2d10491ee4fe1f",
+  "case_json_sha256": "dfc1a52a47d774566eaec9f1f3ef0e54c3de3be8ac8498320b1ed507c6383b05",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-01603-000/1. Client Summary/Client Summary.pdf": "1de82ee10aa37c7b9ada12893169a783d4badaf97a6809851eb6fe10e1ba76e9",
+    "2. Input Documents-20230101T000000Z-01603-000/2. Input Documents/Tax Document Attachments Summary.pdf": "e4230a47308f72657d37bcea6a4e6fbec70e8acacef8760f66db073bc6b753b6",
+    "2. Input Documents-20230101T000000Z-01603-000/2. Input Documents/1099- DIV/1099-DIV JENNINGS.pdf": "6a04e0ea6268617f62a27bbede86f5b64a574cd54421e8a3ad0a52fdcd88402a",
+    "2. Input Documents-20230101T000000Z-01603-000/2. Input Documents/1099-INT/1099-INT JENNINGS.pdf": "68c47ce876362254ed1c0818073b93e3f8fb4f9ab7ed486f6c2cb6ca8bb9aa53",
+    "2. Input Documents-20230101T000000Z-01603-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "2b41f4564fd762ea2239ade8623d4140d81926370f2577b5e5bde5e03e1f2a7f",
+    "2. Input Documents-20230101T000000Z-01603-000/2. Input Documents/Form W-2/Form W-2.pdf": "d494e69114933a91c0a49044b1c220db7734cc4198c47018eae3e3be6bed2348",
+    "2. Input Documents-20230101T000000Z-01603-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "3034793f23db8802d3d0a8a7b282351b257a63951950801fec96f7b30e9d9a70",
+    "2. Input Documents-20230101T000000Z-01603-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "49b3ccecd4313d6adc5ff4c7f9ec4dd1ff827f13b3b6000801ab86f95aa80ab6",
+    "3. Complete form-20230101T000000Z-01603-000/3. Complete form/2023 Tax Return Documents (Casey Jennings (synthetic)).pdf": "781916d4b37454a776808934fed010fbb77ec43d0d9ca8736c935181fb8d3a21",
+    "3. Complete form-20230101T000000Z-01603-000/3. Complete form/Completed forms - Summary.pdf": "971be01a78bf564c01c0c2900f23c2633560e89642d54863a532a21f90b17196",
+    "4. Executive Summary-20230101T000000Z-01603-000/4. Executive Summary/Executive Summary Casey Jennings 2023.pdf": "fa31e07e5e9c35fc820cb2d96a6e168a11ccfa15659733f9f83112010250e6a6"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

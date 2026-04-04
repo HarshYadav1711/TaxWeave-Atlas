@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-01894-000",
+  "tax_year": 2020,
+  "case_fingerprint": "d62b42c68eedc3292586194ffb09ce3fc705f500b64cf4190bbcdc96ec3e8176",
+  "case_json_sha256": "aa9efc4bccbfaa1259e61e4ccd5c219bc8c2b57039d97054d3d51ba029839656",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-01894-000/1. Client Summary/Client Summary.pdf": "634e3a667dc555e1ef6afa1b10acf4f30f60ef2f63d23a00dee610f53dd4933a",
+    "2. Input Documents-20200101T000000Z-01894-000/2. Input Documents/Tax Document Attachments Summary.pdf": "70a01dceb68bc756d81238cd55709587897a4ef90595231d66794cf886432914",
+    "2. Input Documents-20200101T000000Z-01894-000/2. Input Documents/1099- DIV/1099-DIV DIAZ.pdf": "687bc94467f0cb5b3959f1b326a1863ede140dfd999455a698b30aea0e6d56e0",
+    "2. Input Documents-20200101T000000Z-01894-000/2. Input Documents/1099-INT/1099-INT DIAZ.pdf": "d41e34af640e867fb33bb4267ec270b4967206cfbdeff7ecb7245f81e07a7f74",
+    "2. Input Documents-20200101T000000Z-01894-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "cb07d1242a66dafe7aa2beab45d2ec829613f6d88ee443bf0cb521fe776d5783",
+    "2. Input Documents-20200101T000000Z-01894-000/2. Input Documents/Form W-2/Form W-2.pdf": "62f69c60f2f62a436e62b1e38136fe58d0db20780b5e4b2c2ee4d5ba5b8b578c",
+    "2. Input Documents-20200101T000000Z-01894-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "dff7f42bee079b7c76db625a97dfbaf1afbe7dda5d4ce97702920f8f2f50e787",
+    "2. Input Documents-20200101T000000Z-01894-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "e24f9e0d92e7fee73ef5c61b7f78c201d5a26311bb401547fb8f464309879348",
+    "3. Complete form-20200101T000000Z-01894-000/3. Complete form/2020 Tax Return Documents (Rowan Diaz (synthetic)).pdf": "9d7de6995bf9d03f9bc9124e41ff4fa75da7bb86df776d71c6f7ea44f282d463",
+    "3. Complete form-20200101T000000Z-01894-000/3. Complete form/Completed forms - Summary.pdf": "72a9185792ad0f6e7b6ff955ffe5d53f4fc954d367a6ee053f1824e38660c3c0",
+    "4. Executive Summary-20200101T000000Z-01894-000/4. Executive Summary/Executive Summary Rowan Diaz 2020.pdf": "29346974597925cb1bd09cb0b3bce1ac88a07ee555e3093aec568e2f39bfb71f"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

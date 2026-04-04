@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-01182-000",
+  "tax_year": 2023,
+  "case_fingerprint": "7a83e8083994a7d20e66ac2ee528026868fc3df7abf313c5d5c3ba99138b06f4",
+  "case_json_sha256": "cf6d8d76a901837777fcf492e41716f55fc574e3e9ba0db355baa377566991d3",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-01182-000/1. Client Summary/Client Summary.pdf": "dbc260b198ace602fbbb61aaaa8b5ae249188b6191188aaaf5c57bce844be289",
+    "2. Input Documents-20230101T000000Z-01182-000/2. Input Documents/Tax Document Attachments Summary.pdf": "2617d4947066fc9bd354461e47426a545626a05a613f33b5873ff3c0c488e504",
+    "2. Input Documents-20230101T000000Z-01182-000/2. Input Documents/1099- DIV/1099-DIV LAWSON.pdf": "057f48acc3b0e835693fb7722a3a7cb6397b6c7d363d564e714c27bb19ede8fe",
+    "2. Input Documents-20230101T000000Z-01182-000/2. Input Documents/1099-INT/1099-INT LAWSON.pdf": "5425b3ec66dddb1eb083fb98b7e7b393a9abb5ff563e1a5e8d7315787093f54b",
+    "2. Input Documents-20230101T000000Z-01182-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "55774acfe71eb8912dd61147b560b1ea935035034dbdefda976bd4ddc69e0bac",
+    "2. Input Documents-20230101T000000Z-01182-000/2. Input Documents/Form W-2/Form W-2.pdf": "0b75ae34d4002c6c3ada70857627be5ee1b888d15c64b052797df0b7008e4897",
+    "2. Input Documents-20230101T000000Z-01182-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "38b073197637f4d06f58035f7bca1ebadcb29b7ef23f1c324f20e4b0ef812326",
+    "2. Input Documents-20230101T000000Z-01182-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "c905e75e1b958600546804b0db4dada055bc25242b7aab64b69936236af2d812",
+    "3. Complete form-20230101T000000Z-01182-000/3. Complete form/2023 Tax Return Documents (Dakota Lawson (synthetic)).pdf": "28f2417472fdce2d3caf5c0ac835d71444eb3e06a646108425888ab7c76d7354",
+    "3. Complete form-20230101T000000Z-01182-000/3. Complete form/Completed forms - Summary.pdf": "0fa043db0b25d8c944e9de3b1e93f1ba9d4f105e495de6664af73183f1acde7f",
+    "4. Executive Summary-20230101T000000Z-01182-000/4. Executive Summary/Executive Summary Dakota Lawson 2023.pdf": "b0e5b1e23811962fc7875c02d5506c11ee1f63dac9226a288fb152be8e4d5c4c"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

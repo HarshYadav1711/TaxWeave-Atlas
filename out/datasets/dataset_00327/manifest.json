@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-00327-000",
+  "tax_year": 2024,
+  "case_fingerprint": "b2dab159f0115bca8e47d2df3e4e344d58c23a2ca4cf26f251886fc9e2e2d787",
+  "case_json_sha256": "0422c123044647f33a82009b0842d8f5794faaa7a82a92f2eb82cc2d3eca752a",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-00327-000/1. Client Summary/Client Summary.pdf": "48d233b5d5df3c502b886b48e78de30a592195513790c7315ae2394b30b324fb",
+    "2. Input Documents-20240101T000000Z-00327-000/2. Input Documents/Tax Document Attachments Summary.pdf": "0d067b17b1aa375c852563506c2d28a329e4a4341c6a8c6e03bceffba9cecf01",
+    "2. Input Documents-20240101T000000Z-00327-000/2. Input Documents/1099- DIV/1099-DIV KELLER.pdf": "40fcffaa013fe4940e51727bb475d4b254023bb2463bc162fc89acee50228b62",
+    "2. Input Documents-20240101T000000Z-00327-000/2. Input Documents/1099-INT/1099-INT KELLER.pdf": "00e3e0c86b2efb39282082d206d5edd3a032b037de2fa70a2a5dc885fdd862bd",
+    "2. Input Documents-20240101T000000Z-00327-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "09db2fa473c5c8bf6f0f25dc076f4d8047286d3e83541d555b3c7abd90b0d14a",
+    "2. Input Documents-20240101T000000Z-00327-000/2. Input Documents/Form W-2/Form W-2.pdf": "7b457b2bea00fa87badd7d9c1cf772ce87717e07904eaf9581b35d80b6043fc9",
+    "2. Input Documents-20240101T000000Z-00327-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "9ca00914abdb4bacb578d78f6d88d016b7f48e45d75834d409f24a07d76be249",
+    "2. Input Documents-20240101T000000Z-00327-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "e5ee185222a9849639e32d0045b8a1d6f870cd1563c8372f6905992e911f73e5",
+    "3. Complete form-20240101T000000Z-00327-000/3. Complete form/2024 Tax Return Documents (Quinn Keller (synthetic)).pdf": "93199bda0fff4ea059856da73ff7afd785a96aafe229c902db718436432333d5",
+    "3. Complete form-20240101T000000Z-00327-000/3. Complete form/Completed forms - Summary.pdf": "52f2391133946ba1b92554a2cd1dd888c4b003528debd51d2e4dd51af2e9d69e",
+    "4. Executive Summary-20240101T000000Z-00327-000/4. Executive Summary/Executive Summary Quinn Keller 2024.pdf": "8e7a48d8509c18f210fbd96d1b965ebfa4fa733c236fbba61d865c43638b900f"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

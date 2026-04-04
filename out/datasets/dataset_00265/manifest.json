@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-00265-000",
+  "tax_year": 2024,
+  "case_fingerprint": "6d6bf79018aa212d643ad57349486391997b6b7df7b944988e893f8c8b9ee6b3",
+  "case_json_sha256": "dca952e24b3943a15e9a95723e8d8365caef41e75b29ee95f06d5501fd9dca23",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-00265-000/1. Client Summary/Client Summary.pdf": "655c0953e785e3de663a1204de37955057491a140ae605a2006b25cd7a102891",
+    "2. Input Documents-20240101T000000Z-00265-000/2. Input Documents/Tax Document Attachments Summary.pdf": "d518bf27db892042dbe8f45e29408f0071039b27d2acc9c4aeb5f02ecc4f9799",
+    "2. Input Documents-20240101T000000Z-00265-000/2. Input Documents/1099- DIV/1099-DIV OKORO.pdf": "d7fd05d886ee60df0a0420c740eef739dcc8c98707f25c3d09bc5a1c1038b8ba",
+    "2. Input Documents-20240101T000000Z-00265-000/2. Input Documents/1099-INT/1099-INT OKORO.pdf": "062bf8884614fd492837b1b9fe0d887c76ab937c14db96b56080c8cb164c8dd8",
+    "2. Input Documents-20240101T000000Z-00265-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "63f5f21f40c8b9679d889cd752508c5d9c45dfff88c5ff28ab1da65e9cb9a6d5",
+    "2. Input Documents-20240101T000000Z-00265-000/2. Input Documents/Form W-2/Form W-2.pdf": "c6f5a8d9f1fb588ee53aa9aa16bf1a7c1894b8b7a7322312ff5b6e9f8ee055fa",
+    "2. Input Documents-20240101T000000Z-00265-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "175443bb8cb2469fff1f2ce1a91c371533cb01113312f0bc0669b3607e50491e",
+    "2. Input Documents-20240101T000000Z-00265-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "34cfc25b3270ef242538443d0357900a4f60e47655351c20df6394f0bd55bcbb",
+    "3. Complete form-20240101T000000Z-00265-000/3. Complete form/2024 Tax Return Documents (Morgan Okoro (synthetic)).pdf": "99c3b4549c5df4169e387c0a39552fda36eb21decd2b5a7a07df8cac9937438d",
+    "3. Complete form-20240101T000000Z-00265-000/3. Complete form/Completed forms - Summary.pdf": "73f17bdb26164d70c7044143484cb8169aa0c80b796311f7b8eaf8789ca56b27",
+    "4. Executive Summary-20240101T000000Z-00265-000/4. Executive Summary/Executive Summary Morgan Okoro 2024.pdf": "ba21e503b603ea27482847df1f73ffda6389ccac497e80039be265324d37cd86"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

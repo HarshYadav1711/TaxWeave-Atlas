@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-00708-000",
+  "tax_year": 2020,
+  "case_fingerprint": "d8ab01741614bce614d0dcd47cdf0622132e6bfeae6c4d92e5a5698fbbc88249",
+  "case_json_sha256": "f974d9d4ac9b1d1fbec3321060d4286cd0c9c645bd610fae9abd8a12253d4ea1",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-00708-000/1. Client Summary/Client Summary.pdf": "857d7301d92aa04b6e066ccdfba0e716d534c9f845ca7b7b50422d266997e428",
+    "2. Input Documents-20200101T000000Z-00708-000/2. Input Documents/Tax Document Attachments Summary.pdf": "62713452526b8d6b92cdae0a276c73bca79bbd7737bcf66ec83e484f726bc2ce",
+    "2. Input Documents-20200101T000000Z-00708-000/2. Input Documents/1099- DIV/1099-DIV BENNETT.pdf": "cd013daa7cd5b386bc2d31df1b5552e78d1f499eb2574cdf16120ce4de7218af",
+    "2. Input Documents-20200101T000000Z-00708-000/2. Input Documents/1099-INT/1099-INT BENNETT.pdf": "9011c4b94975f9bda115a2caec78b9c48869290bd5a33e9ca0815eae631209a1",
+    "2. Input Documents-20200101T000000Z-00708-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "fb4ca966b0b6c2dbae43e2277381642b4bff489516ea64f157a607aa71d4f62b",
+    "2. Input Documents-20200101T000000Z-00708-000/2. Input Documents/Form W-2/Form W-2.pdf": "ac9f2b845e60497756131728da4c658d35dad6eb116274bef3c493be37a43931",
+    "2. Input Documents-20200101T000000Z-00708-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "d63241d2672bde73d079c855592836d476eab8700f6a20e281b199876c4d895d",
+    "2. Input Documents-20200101T000000Z-00708-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "631f786963ac387e05f5f6da50e51a94f444e58ff7c019c35db3b75b4fc1f654",
+    "3. Complete form-20200101T000000Z-00708-000/3. Complete form/2020 Tax Return Documents (Quinn Bennett (synthetic)).pdf": "887c66b7737f1c0f6092353661ed51e6c1c629f27975918de13507d1aa596fe1",
+    "3. Complete form-20200101T000000Z-00708-000/3. Complete form/Completed forms - Summary.pdf": "c5a658e1438a86f62f68a0ae371ee7bcce9b003816b70039b56d2ebbb719c730",
+    "4. Executive Summary-20200101T000000Z-00708-000/4. Executive Summary/Executive Summary Quinn Bennett 2020.pdf": "54dff32c8f30d1b71bfe16faeb628c2fc11fb53416a231a091792ededd99c796"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

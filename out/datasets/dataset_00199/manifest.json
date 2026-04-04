@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-00199-000",
+  "tax_year": 2024,
+  "case_fingerprint": "58079518721d5b5e2202b8a9931ef78752456f840eb10731f85e1d79f71f0ccb",
+  "case_json_sha256": "6621edee5c1e7b6848e73804e540c44821729229a592ff983f334a0b3e2e98c0",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-00199-000/1. Client Summary/Client Summary.pdf": "9d2b5ca46b0d9ad69c3af16652d19a4bd63b4beded7332d20c9b2fb949cc8283",
+    "2. Input Documents-20240101T000000Z-00199-000/2. Input Documents/Tax Document Attachments Summary.pdf": "db3ec4c3728fbeff72b0be0c716bfbfd0e1f4bad4bfb3e12ae11529f4b4c3ce4",
+    "2. Input Documents-20240101T000000Z-00199-000/2. Input Documents/1099- DIV/1099-DIV NAVARRO.pdf": "ce4f0a1dced9c841bb0ccbd9d6ffda1e62b6dc97472869f154cea778e97044ef",
+    "2. Input Documents-20240101T000000Z-00199-000/2. Input Documents/1099-INT/1099-INT NAVARRO.pdf": "f140720970ef29897a9691b0375e7b7c723a9cb81bbcd3965332e9048453a81a",
+    "2. Input Documents-20240101T000000Z-00199-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "14a56d3517b9cf1f17f7fb65eb062a7e3f73740b113467d8628e90676afc0a06",
+    "2. Input Documents-20240101T000000Z-00199-000/2. Input Documents/Form W-2/Form W-2.pdf": "0934c745e44cd2c86eaea22d7e86398de1e4e7b32c92892ce55e1fcf13843027",
+    "2. Input Documents-20240101T000000Z-00199-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "30c71f8a88fbe0c3c4268993f0e163b3bbd3426b75f624f4f3a7cd195bf8fabc",
+    "2. Input Documents-20240101T000000Z-00199-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "16eab0823c30934b7687b40b20d3d502a7b12b5ac17d5422720a1dbf75974eb7",
+    "3. Complete form-20240101T000000Z-00199-000/3. Complete form/2024 Tax Return Documents (Sage Navarro (synthetic)).pdf": "93629dd941b0d8aaccab6f85aa1b69ae8466869ac66c528f45c0c4267f70e080",
+    "3. Complete form-20240101T000000Z-00199-000/3. Complete form/Completed forms - Summary.pdf": "30c71e9e34b5d6e514daf64ab999a639850569417ae1de782fe81186f71cf055",
+    "4. Executive Summary-20240101T000000Z-00199-000/4. Executive Summary/Executive Summary Sage Navarro 2024.pdf": "11f8ed082399c5ce821c4e3290a5833d6309a44b872557cfbd178cb75852da5d"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-00832-000",
+  "tax_year": 2023,
+  "case_fingerprint": "edafefd20841697d82b4c9bd14ac96a22b1fd78496f54e743d778434847dd22d",
+  "case_json_sha256": "97b4939fe6d944ba4034f5d7055078ad5832aca6974ff9aae43ff7626cfda63a",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-00832-000/1. Client Summary/Client Summary.pdf": "03148f0d802d2c5a22bde90cd3fe948628030f95fdedad4278ca373dd38c440a",
+    "2. Input Documents-20230101T000000Z-00832-000/2. Input Documents/Tax Document Attachments Summary.pdf": "0bee9395f09cf030650d88c61414b858a98043c3dd957eb0ed7653b26a654bd4",
+    "2. Input Documents-20230101T000000Z-00832-000/2. Input Documents/1099- DIV/1099-DIV JENNINGS.pdf": "4145f0ff9e55239314cc677a635125ecf282da8890aba1546a1a4c5ea0546962",
+    "2. Input Documents-20230101T000000Z-00832-000/2. Input Documents/1099-INT/1099-INT JENNINGS.pdf": "c7c098d880d2d11b7c9ebffb89beca399bed04fa465c55272b2cf8be6713212b",
+    "2. Input Documents-20230101T000000Z-00832-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "ae1795975aed2ddae654dc60efc508403d6eea4e48184e9928f04818afbb1496",
+    "2. Input Documents-20230101T000000Z-00832-000/2. Input Documents/Form W-2/Form W-2.pdf": "1ef4e5be44d90c582da94c9eb39885364e2c552d970f6fe556131994a29be449",
+    "2. Input Documents-20230101T000000Z-00832-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "27dcc683bad54e868173fa7301c5af256529c848361910a3cacbf7ee0373ebf9",
+    "2. Input Documents-20230101T000000Z-00832-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "e2c0bcdc7b22236a7f6eb7f490581970a065348b90e8865c12ec54e9253bbae8",
+    "3. Complete form-20230101T000000Z-00832-000/3. Complete form/2023 Tax Return Documents (Quinn Jennings (synthetic)).pdf": "ee16d1279d3cb8f5f43ca19f62b38b99c242d08edd8822e30eb4e8499658df01",
+    "3. Complete form-20230101T000000Z-00832-000/3. Complete form/Completed forms - Summary.pdf": "4589fa9b0b9da518b715eda841080b95950a2d17319b142b72bf117be193f29e",
+    "4. Executive Summary-20230101T000000Z-00832-000/4. Executive Summary/Executive Summary Quinn Jennings 2023.pdf": "4fcc53bb847aae8d0f9146eb1f342312d67357d4c130627622f0c6ffcb498df4"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

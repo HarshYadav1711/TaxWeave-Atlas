@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-00294-000",
+  "tax_year": 2020,
+  "case_fingerprint": "c837de6c63561f960514fe221fb694dfb690078d07e80147ccdec1b548922be6",
+  "case_json_sha256": "ca35a282faf5a9936f4692d074b1737af706443ae07b5f2f4d7963a3e7f0d50a",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-00294-000/1. Client Summary/Client Summary.pdf": "0398f869485848e2c746f92d9d5369a4d2dcb09d6227700d82c64032da4962f9",
+    "2. Input Documents-20200101T000000Z-00294-000/2. Input Documents/Tax Document Attachments Summary.pdf": "ebda38f521f9653d1aac9c617d3c98f0e5078ee55096bb9b212ffd427def1d21",
+    "2. Input Documents-20200101T000000Z-00294-000/2. Input Documents/1099- DIV/1099-DIV CARTER.pdf": "cbb859c006f3dfecbdb2af6315d5dac27261df57201ba8c6b00fb3a32e76becb",
+    "2. Input Documents-20200101T000000Z-00294-000/2. Input Documents/1099-INT/1099-INT CARTER.pdf": "e2d5091592cb7280ef2ef16b6d4bfc0f07dfcdc024735ea29239cefa4cc77805",
+    "2. Input Documents-20200101T000000Z-00294-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "6e1c575f01c3395754d1d6fc5fd1436cabacfa72a28cc3bccceb4700a1c4b6ef",
+    "2. Input Documents-20200101T000000Z-00294-000/2. Input Documents/Form W-2/Form W-2.pdf": "0f55ba71569c9c7afd094660ce60be97816044e8804546e15f864fff77275c94",
+    "2. Input Documents-20200101T000000Z-00294-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "ac125bc65a29a6caad70f96a9f2c4269dc59781f0692d7f5fa19713b3b37dfa7",
+    "2. Input Documents-20200101T000000Z-00294-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "dca9e41a06223757137648492904a58543f4b1c2f7e26e83b6b8f0409c381290",
+    "3. Complete form-20200101T000000Z-00294-000/3. Complete form/2020 Tax Return Documents (Reese Carter (synthetic)).pdf": "7a2963e422cfd248f456a46be06509e6702fe7147780db41aba0b03adf49ae5c",
+    "3. Complete form-20200101T000000Z-00294-000/3. Complete form/Completed forms - Summary.pdf": "74292c1ef4220757fda400b70f669238c1a142c572af2c2689b74f674e099a27",
+    "4. Executive Summary-20200101T000000Z-00294-000/4. Executive Summary/Executive Summary Reese Carter 2020.pdf": "e813a998f7bfcc73fbdebf5239cf3053de4b1bc487d466f31b95c05d5a7773e9"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

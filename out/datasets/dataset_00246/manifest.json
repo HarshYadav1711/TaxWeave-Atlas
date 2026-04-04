@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20250101T000000Z-00246-000",
+  "tax_year": 2025,
+  "case_fingerprint": "30ea9164f7af1938e6a0c3dab94319150cd01caba8a21eb4f6d4a0fb9e7123fb",
+  "case_json_sha256": "888f908389d80fa34aeda2e155b9ab158851930f490116d53bccf55501a592d8",
+  "files_sha256": {
+    "1. Client Summary-20250101T000000Z-00246-000/1. Client Summary/Client Summary.pdf": "0e6fd80cc9d86535e5ddc052695f593467bfee3db840acf1ae4ed0712d310795",
+    "2. Input Documents-20250101T000000Z-00246-000/2. Input Documents/Tax Document Attachments Summary.pdf": "1225f491853e3c2c1a5515f179dff526d907987cd10e117757ff6d982867b9c5",
+    "2. Input Documents-20250101T000000Z-00246-000/2. Input Documents/1099- DIV/1099-DIV PATEL.pdf": "c90bf4610c708ed63b646a39e3d0f43a9782ab2d0fa3921fc77ce6b29a059d51",
+    "2. Input Documents-20250101T000000Z-00246-000/2. Input Documents/1099-INT/1099-INT PATEL.pdf": "337498ab5a582d32a48948bed3292c3e88fefe6229b1bda8ceec37b65a605f71",
+    "2. Input Documents-20250101T000000Z-00246-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2025_.pdf": "a33c53cb1160a97a5d2b857fba5dac04748f385cb1334f7150988404dedeb1c8",
+    "2. Input Documents-20250101T000000Z-00246-000/2. Input Documents/Form W-2/Form W-2.pdf": "7ce99d4a46f731382161823c77cfe6241fbdf3e4066263ed5f899020803edd5e",
+    "2. Input Documents-20250101T000000Z-00246-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "80ef381636daaa043e601907e102787afda68291f41c09e40307fcf4bdc26115",
+    "2. Input Documents-20250101T000000Z-00246-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2025.pdf": "7f705e4ab588bc9417e2b5676d01e72666023d078ec36e25c123e0bfdea6fffc",
+    "3. Complete form-20250101T000000Z-00246-000/3. Complete form/2025 Tax Return Documents (Skyler Patel (synthetic)).pdf": "92c0bcbd1f02b69bb9327f41a45f441bf322a19a3f2a994f93c8b85111afb1e1",
+    "3. Complete form-20250101T000000Z-00246-000/3. Complete form/Completed forms - Summary.pdf": "9a54dc2bb79098e52aa4f3ab294da732e48ed2da7858b97e539f6553e2f70fd2",
+    "4. Executive Summary-20250101T000000Z-00246-000/4. Executive Summary/Executive Summary Skyler Patel 2025.pdf": "e296e20359abc2827fa3a92e1708798144915b719fc523f757921b00cc93c7ea"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

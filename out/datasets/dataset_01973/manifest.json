@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-01973-000",
+  "tax_year": 2020,
+  "case_fingerprint": "816fd42f98a32be43041de95d613a3c11343992f49528cacfec9ebcbf64a0e77",
+  "case_json_sha256": "6d0359f9cdd30ab52c8bdb5c6b5b6edd1e2b31cb1ce494d4713d6773cfe014a7",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-01973-000/1. Client Summary/Client Summary.pdf": "a082a12f3fe51508c99a22f716ac01f1469fd29f40e816dd4d7149635d5a7f80",
+    "2. Input Documents-20200101T000000Z-01973-000/2. Input Documents/Tax Document Attachments Summary.pdf": "51da840f0323b4251bd992aaaf4fab103a30144367d2a16c957b1867b5593a63",
+    "2. Input Documents-20200101T000000Z-01973-000/2. Input Documents/1099- DIV/1099-DIV JENNINGS.pdf": "ae897765a5bb8344cf5c150616901041d2baefe83295e898a47a81cae5fd1c15",
+    "2. Input Documents-20200101T000000Z-01973-000/2. Input Documents/1099-INT/1099-INT JENNINGS.pdf": "a50b7a6594c496581d33cd458aaf0580d188e1f14d253621da828d258b9623d5",
+    "2. Input Documents-20200101T000000Z-01973-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "b3a597cdac5cdbe8d5cf5b1938fd56207c4c5c7108011e3213c9cd2f7873ab3a",
+    "2. Input Documents-20200101T000000Z-01973-000/2. Input Documents/Form W-2/Form W-2.pdf": "40bdf9adc84474353efc9b9f9e996a6ee3da53e8ba1f164e805d136e324decb9",
+    "2. Input Documents-20200101T000000Z-01973-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "acd69033b57da6d796618a33646ee9103b863d4cc68be5106e88612a348baf26",
+    "2. Input Documents-20200101T000000Z-01973-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "e1f6e590ca5aeda0166231f7a9f5d1d48f4bc35ba74a1b8000e762d116f43b7b",
+    "3. Complete form-20200101T000000Z-01973-000/3. Complete form/2020 Tax Return Documents (Emery Jennings (synthetic)).pdf": "5d8da1f480843bf1ae41dce67dfa4dd3f948b642cc9ccc48bdccb4a40f4c9d38",
+    "3. Complete form-20200101T000000Z-01973-000/3. Complete form/Completed forms - Summary.pdf": "28e2cdf9e12f9aa1b6edd0e2199ecd1dc18b9d6bb17e14c3d887c987e35be0ea",
+    "4. Executive Summary-20200101T000000Z-01973-000/4. Executive Summary/Executive Summary Emery Jennings 2020.pdf": "c5bed1b7830defe638874ca13703c4df311f2f8d283de81c4c0358ade404c570"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-01279-000",
+  "tax_year": 2023,
+  "case_fingerprint": "88c84a86f94b86049e26200f566796ed17f66e48c908311ba4258469162de833",
+  "case_json_sha256": "7ad7401bddf4c8edae65befc0091c25168ab572a92dc86fcff66b081dc1ecf3f",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-01279-000/1. Client Summary/Client Summary.pdf": "17fcb581c6d81d5bfb3d5e57e9fd4cb1ddb3fd7ad0b19549c3e3be922a9ceef5",
+    "2. Input Documents-20230101T000000Z-01279-000/2. Input Documents/Tax Document Attachments Summary.pdf": "f7c1e71f2e248c04b978c39d24749ba89e1f3d2b29b4446b18cd51af794f338a",
+    "2. Input Documents-20230101T000000Z-01279-000/2. Input Documents/1099- DIV/1099-DIV REYES.pdf": "85d70de0ce7d5763089d9f64f1ed01cd1e587f48d6bfc9ba94fda41c086effc0",
+    "2. Input Documents-20230101T000000Z-01279-000/2. Input Documents/1099-INT/1099-INT REYES.pdf": "931f1111db066a000eae4ee4fc3a1a1487d4210969eb88d4088bfcc13fa286ae",
+    "2. Input Documents-20230101T000000Z-01279-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "03a820f488058e9e31c2d4824508b4693f0b90685782f55c92ab38b5c80b1348",
+    "2. Input Documents-20230101T000000Z-01279-000/2. Input Documents/Form W-2/Form W-2.pdf": "79c5cc0c0b3b280cc173018f812a3312cb91b0d7e7f729fcf87e30b131bbc757",
+    "2. Input Documents-20230101T000000Z-01279-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "d4aa7dcd12d483f2817306a1e607b29fe878337aeefd1accb5a3ddca28ea22b7",
+    "2. Input Documents-20230101T000000Z-01279-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "8e57f2d28fbbb573a5895e1b5bc48d9451eb355da0588eb01ccde1571828d6f1",
+    "3. Complete form-20230101T000000Z-01279-000/3. Complete form/2023 Tax Return Documents (River Reyes (synthetic)).pdf": "a21cbd4f91d79425bf3dc5243368c047a65d5258ff1daca8d1996071d9efd4b2",
+    "3. Complete form-20230101T000000Z-01279-000/3. Complete form/Completed forms - Summary.pdf": "7873d21d663c81597c9072802a318c948722ae5d2dfefd196659f22779f7c0c3",
+    "4. Executive Summary-20230101T000000Z-01279-000/4. Executive Summary/Executive Summary River Reyes 2023.pdf": "371c6e6b077be84dae4258cad57a7a366e1119440cb734422f819f2528b0c0d4"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-00251-000",
+  "tax_year": 2024,
+  "case_fingerprint": "f61b73b1566db4559aa3d7ef8ca9832d02fc589e2945dc6c90d2bbeebae016e4",
+  "case_json_sha256": "42246e8f8003f9b3e51c536b00796811f1d8534ce9d369d55bbfe965690753c3",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-00251-000/1. Client Summary/Client Summary.pdf": "65e486e7f06c427edfeacc32ebb54f3ad580bd4184872e3469a2b816dbd1bb2a",
+    "2. Input Documents-20240101T000000Z-00251-000/2. Input Documents/Tax Document Attachments Summary.pdf": "e3932f3993d8327bd3821a760ab111135eb7cd2695c344e72fee883759396aac",
+    "2. Input Documents-20240101T000000Z-00251-000/2. Input Documents/1099- DIV/1099-DIV REYES.pdf": "a34e6c274fdb22c2fa44a58531017b29fc7a535ba382e9465cb86bb5cf9046be",
+    "2. Input Documents-20240101T000000Z-00251-000/2. Input Documents/1099-INT/1099-INT REYES.pdf": "6075afbfd0c397bf1b45452e5ea97b306ee89307ec9ebeae8fef07183fc4224c",
+    "2. Input Documents-20240101T000000Z-00251-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "fb530416905ad29df6fb24346741f2ade5cd061283aadcae2c75bf9c2cff532d",
+    "2. Input Documents-20240101T000000Z-00251-000/2. Input Documents/Form W-2/Form W-2.pdf": "fd7ec7e13a7d04560e9fa202c8aada2a53d91a49de0a14a052dc1494e6edd230",
+    "2. Input Documents-20240101T000000Z-00251-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "1c7cecbe5c18951918300fc2cd0a6371792a9db27c139651cc5fc27b1de1fe82",
+    "2. Input Documents-20240101T000000Z-00251-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "513ca3569629731a73ecddbd8140afbafda61e55c9d6f295993df139165c2f76",
+    "3. Complete form-20240101T000000Z-00251-000/3. Complete form/2024 Tax Return Documents (Jordan Reyes (synthetic)).pdf": "da3287b408e493257143df1680150c7b0b30c4bd5f5daa71a5f4607df199a100",
+    "3. Complete form-20240101T000000Z-00251-000/3. Complete form/Completed forms - Summary.pdf": "b9f537674f7f5335d5245681c977cc20b00fdeb1cc521dae275d4495522d81ca",
+    "4. Executive Summary-20240101T000000Z-00251-000/4. Executive Summary/Executive Summary Jordan Reyes 2024.pdf": "bdbda1f9a71cd6383a6245f3aa05c21161d6198fb21fa446a6893d6d1ad53f2c"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

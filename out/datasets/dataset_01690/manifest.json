@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-01690-000",
+  "tax_year": 2024,
+  "case_fingerprint": "1cfb2ecbc0e7842916b79afa640b545517a4cdb4a0f9d7a25f9868d4b081268d",
+  "case_json_sha256": "93b7802212bd993020277a5b36c9eb6758f3391f60cd09b0da39f0a7f8cdd588",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-01690-000/1. Client Summary/Client Summary.pdf": "26edc3fa054ff08dc21eb25ba6165bf6dc2a11cc9e62d02f597374e9cafada5d",
+    "2. Input Documents-20240101T000000Z-01690-000/2. Input Documents/Tax Document Attachments Summary.pdf": "bff051345bf0eb758fc3db4c278e8bcdaf8426ff56099071aced113a88adc249",
+    "2. Input Documents-20240101T000000Z-01690-000/2. Input Documents/1099- DIV/1099-DIV OKORO.pdf": "2426e686402ab0a09411e9951aabb1c756fcfa7e1859315202e3e0c10b9b2905",
+    "2. Input Documents-20240101T000000Z-01690-000/2. Input Documents/1099-INT/1099-INT OKORO.pdf": "de5c647ec07eeb9c8fda404076dbec52a828ed1c036f82ff42f49f083765e56c",
+    "2. Input Documents-20240101T000000Z-01690-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "63dbaa30168877d3b353638d755761bb4e2b44629fe02e9da6313196f548c615",
+    "2. Input Documents-20240101T000000Z-01690-000/2. Input Documents/Form W-2/Form W-2.pdf": "8246dfa403143020847392f9c5955a25b28fe8bac9c3172a77959b5aa7217f88",
+    "2. Input Documents-20240101T000000Z-01690-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "e758f5068be90ae9aba994d83d52ba95ba3b62b1c04c07373c93a54dc83d1619",
+    "2. Input Documents-20240101T000000Z-01690-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "bf8274837762729a0fd695760bec5c33438a7f4faf761f63b20cfd67a96e6616",
+    "3. Complete form-20240101T000000Z-01690-000/3. Complete form/2024 Tax Return Documents (Rowan Okoro (synthetic)).pdf": "ad21975c4193532852c473527a1ad7d13e32e3069a5222244aa3fb2bfc094d07",
+    "3. Complete form-20240101T000000Z-01690-000/3. Complete form/Completed forms - Summary.pdf": "a789a1045fc6c974c13eea4d2718ddabcd748e5caff68c4f7a376a976ba8799c",
+    "4. Executive Summary-20240101T000000Z-01690-000/4. Executive Summary/Executive Summary Rowan Okoro 2024.pdf": "73a32a045d6b7f469881074fd81612ac0822cd3212a01826a1bfc5ce9aae4a3e"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

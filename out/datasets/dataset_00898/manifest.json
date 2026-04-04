@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20210101T000000Z-00898-000",
+  "tax_year": 2021,
+  "case_fingerprint": "376c8dd19441a4975024c4a9756844869829474dca5377c12fae1a9b4aff6f54",
+  "case_json_sha256": "ae5d545a12f3443d4b4e4f612d59f567f4de102e677be07c9b8788cde3ac2f73",
+  "files_sha256": {
+    "1. Client Summary-20210101T000000Z-00898-000/1. Client Summary/Client Summary.pdf": "d8bc45a31d31f421834b9298b481afaf2c2d82ace1b2524decc2ec110d6ae4fe",
+    "2. Input Documents-20210101T000000Z-00898-000/2. Input Documents/Tax Document Attachments Summary.pdf": "c05e5766535579909520094251c1c83cf25545c65a805a38ee935fedd21487d5",
+    "2. Input Documents-20210101T000000Z-00898-000/2. Input Documents/1099- DIV/1099-DIV CARTER.pdf": "a7f8b2b1e41c223bd332d393565636c05b162aab5ec02d0d3303a6c24739636c",
+    "2. Input Documents-20210101T000000Z-00898-000/2. Input Documents/1099-INT/1099-INT CARTER.pdf": "f132b2e26f858278dc972dccdb63f1d07aa1f5c512fdca0fd04e71d2184e0c2f",
+    "2. Input Documents-20210101T000000Z-00898-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2021_.pdf": "7e350628c18f45002605b724542ad4e88cff86de9ce3e329c6a70ad063789e99",
+    "2. Input Documents-20210101T000000Z-00898-000/2. Input Documents/Form W-2/Form W-2.pdf": "09d655aba1d11245ecd5d087b282494ab815613a1d7a90cb117984d3eac3bdaf",
+    "2. Input Documents-20210101T000000Z-00898-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "f817f9dfc0abf09dfa8229ebbc60236718679c4c5700a937e9d8e940966b3933",
+    "2. Input Documents-20210101T000000Z-00898-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2021.pdf": "d460889930eddff13f2fd1c1be990c824ca798c831fb826f24cf37f52841377e",
+    "3. Complete form-20210101T000000Z-00898-000/3. Complete form/2021 Tax Return Documents (Parker Carter (synthetic)).pdf": "074b4cdb317c6ffd6cbe639efb60fdc2925856564f1fc09922ea808a02a9a7e9",
+    "3. Complete form-20210101T000000Z-00898-000/3. Complete form/Completed forms - Summary.pdf": "182a89d2ee7426dfc791431bf49a7af27c26a8257b60e78153c111021cef0984",
+    "4. Executive Summary-20210101T000000Z-00898-000/4. Executive Summary/Executive Summary Parker Carter 2021.pdf": "ece6136b14f13a66adf864486c7c865d4bfb5f2d5dd85c5ab4e0ea605f115087"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

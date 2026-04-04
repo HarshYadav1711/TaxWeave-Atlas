@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20250101T000000Z-01856-000",
+  "tax_year": 2025,
+  "case_fingerprint": "89de758b8f9bb74224056f675c785f3aedea9ebcaf28c17653d78ba44349e9ed",
+  "case_json_sha256": "b8ac38758480519a000ad60766717e00be1927c0d13ec688563a0b3960cb196a",
+  "files_sha256": {
+    "1. Client Summary-20250101T000000Z-01856-000/1. Client Summary/Client Summary.pdf": "a8139c36e0569a1d58c4d474d4e4b9caa93d6fa75f903a7f70c22067e15a65ff",
+    "2. Input Documents-20250101T000000Z-01856-000/2. Input Documents/Tax Document Attachments Summary.pdf": "fb9a296f78f13b45e9346785f156fc7a60e7a5c3a3fd5f26b13cdd73dc3793f0",
+    "2. Input Documents-20250101T000000Z-01856-000/2. Input Documents/1099- DIV/1099-DIV DIAZ.pdf": "2e7e5b2a6ddf370065b512cf8e9b1c31003732275a0c6d206002145047c64d48",
+    "2. Input Documents-20250101T000000Z-01856-000/2. Input Documents/1099-INT/1099-INT DIAZ.pdf": "e5a937d29fbee9feec2a11c129a5117db8215ba5004bc1d71ac805903daff231",
+    "2. Input Documents-20250101T000000Z-01856-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2025_.pdf": "c3ac28be1eaaac9f7433dc01ff8790a2cf393246087ea4d647707915240fc722",
+    "2. Input Documents-20250101T000000Z-01856-000/2. Input Documents/Form W-2/Form W-2.pdf": "aaf36d6f660e888e97a4806bdf8aa9e5811170da56713085bbac8ee38518a7a6",
+    "2. Input Documents-20250101T000000Z-01856-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "a553965955957d7ab52ff5dc5ff5a3eccff3c0b1752143d399b8374243b95597",
+    "2. Input Documents-20250101T000000Z-01856-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2025.pdf": "6a50e517fd96b60bd569b99c38d9ee8dd16a1ac0bb9ad95c92a576a647e382a7",
+    "3. Complete form-20250101T000000Z-01856-000/3. Complete form/2025 Tax Return Documents (Sage Diaz (synthetic)).pdf": "5a97108fbbd0699015674cefb253773df6fc4d1e4e45e7ab5b16eb5fda2446d9",
+    "3. Complete form-20250101T000000Z-01856-000/3. Complete form/Completed forms - Summary.pdf": "8e8c5dac3d0be9cf2a846fa76af3df2ef3cab136b5e99a30e35471d3a47c1ea5",
+    "4. Executive Summary-20250101T000000Z-01856-000/4. Executive Summary/Executive Summary Sage Diaz 2025.pdf": "d496876eeebc6bf4240088a435e1d20ba95129ba83eee7ec22798a128ab24a7f"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

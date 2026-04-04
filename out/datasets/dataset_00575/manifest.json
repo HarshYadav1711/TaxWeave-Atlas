@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-00575-000",
+  "tax_year": 2020,
+  "case_fingerprint": "86c03f9e03635895a53b546bf810704ff6a7b2ff4f219693e768a5468a7926b3",
+  "case_json_sha256": "1bb31a1b80326f07e2446e50a4a123d8c8282d66c3b50bfa7ba891f3487b3eef",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-00575-000/1. Client Summary/Client Summary.pdf": "701709f87821738525c166a3b58291928b51d0d179395b5f248651a36f2bf37e",
+    "2. Input Documents-20200101T000000Z-00575-000/2. Input Documents/Tax Document Attachments Summary.pdf": "ca86ef3b72df674f20da9b197e5cead7fc1c196e9492672bbf867991a0bab8da",
+    "2. Input Documents-20200101T000000Z-00575-000/2. Input Documents/1099- DIV/1099-DIV NAVARRO.pdf": "41e3f407fd2a214cf655cbd2134b72fc2425944b3faca5378930f74446b0b96a",
+    "2. Input Documents-20200101T000000Z-00575-000/2. Input Documents/1099-INT/1099-INT NAVARRO.pdf": "cbec270193d138afeefe6aca55cf30ec9c5a961c4f007bded372b863f1389c77",
+    "2. Input Documents-20200101T000000Z-00575-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "e8fa4c10b2471bca77b0f5eb144ed666edd2c37beda8293346021fb43935ae30",
+    "2. Input Documents-20200101T000000Z-00575-000/2. Input Documents/Form W-2/Form W-2.pdf": "bfd76e93d6130e5d9353081745f13abf01a17cb152bde040975b8f95cf964818",
+    "2. Input Documents-20200101T000000Z-00575-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "387dd7100c3563e38e9f67c597a85aaf104f7cb2a264f90728ce3e1cec2a2140",
+    "2. Input Documents-20200101T000000Z-00575-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "8b71474f297d5bdc048928274531ee89f66cb4ad974cb50a8e36afa5496c8951",
+    "3. Complete form-20200101T000000Z-00575-000/3. Complete form/2020 Tax Return Documents (Casey Navarro (synthetic)).pdf": "3ad7842d6c6e225a67b024a4d9f1903eb1330604403c93584b1cd58157277ca4",
+    "3. Complete form-20200101T000000Z-00575-000/3. Complete form/Completed forms - Summary.pdf": "47ca2201b1334b092bad548d999d4956181096281550c824f96e65dce2e7fe38",
+    "4. Executive Summary-20200101T000000Z-00575-000/4. Executive Summary/Executive Summary Casey Navarro 2020.pdf": "499d992704667c9dc603f05a356d3c6eb8ac36e1502e395bcaaad75c2a0d5717"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

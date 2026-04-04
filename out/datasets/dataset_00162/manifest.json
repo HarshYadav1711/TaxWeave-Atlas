@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20210101T000000Z-00162-000",
+  "tax_year": 2021,
+  "case_fingerprint": "0244283214366223f218676f8ddab77a732930576b7786540930465a4e46b2e6",
+  "case_json_sha256": "c06b3a691ac164601812502cd92bb936e655f98c95428b8185f3be3dbd60c0d0",
+  "files_sha256": {
+    "1. Client Summary-20210101T000000Z-00162-000/1. Client Summary/Client Summary.pdf": "76989f968f9d83edcf0c84780839ce61d4b1a32b36bdf347203ace8797cd309b",
+    "2. Input Documents-20210101T000000Z-00162-000/2. Input Documents/Tax Document Attachments Summary.pdf": "3d202b2f336489649fbe8bd03f5defefe7a7f383a1b3cb6f99331c7da231804d",
+    "2. Input Documents-20210101T000000Z-00162-000/2. Input Documents/1099- DIV/1099-DIV INGRAM.pdf": "e4239b0d07697c98a5c6f9bc9a4cd37c5f61bd4c6b9ebea29eb6da85aecfc8a3",
+    "2. Input Documents-20210101T000000Z-00162-000/2. Input Documents/1099-INT/1099-INT INGRAM.pdf": "d24dfee06948ed635150c5ac7c9844776d0c2614627246e19cb64caa609a8b7e",
+    "2. Input Documents-20210101T000000Z-00162-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2021_.pdf": "1b65e4d1b40e6b72d3293fe5f4b993d2b01e702cc5b56f8f1008a7e8516ace36",
+    "2. Input Documents-20210101T000000Z-00162-000/2. Input Documents/Form W-2/Form W-2.pdf": "76e29d1e6fc0654390a4477626d949d97f55f415e2b5defb8de7cfc1051180f0",
+    "2. Input Documents-20210101T000000Z-00162-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "26d4b0837774b6b6626b887fd38a6b2a8888ecbb2776d05b736a1fd855b52343",
+    "2. Input Documents-20210101T000000Z-00162-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2021.pdf": "5aedd95838faa7c2c145dd56b1e9f19e381dc6a0bb0b76be8dc0b822896f2ef1",
+    "3. Complete form-20210101T000000Z-00162-000/3. Complete form/2021 Tax Return Documents (River Ingram (synthetic)).pdf": "4513f603b8592590b07a89bab81a2d067a9b1e60caf280165c78b0974505a46e",
+    "3. Complete form-20210101T000000Z-00162-000/3. Complete form/Completed forms - Summary.pdf": "5eeda7ec5484080d2fef2ffd700f63971a5e1c7fe714b1d7a452a59a66bcbf42",
+    "4. Executive Summary-20210101T000000Z-00162-000/4. Executive Summary/Executive Summary River Ingram 2021.pdf": "35169db4f987d48b45637fa0e8de67f6d779fe14aa9fb84b8433d87e3dbb8553"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

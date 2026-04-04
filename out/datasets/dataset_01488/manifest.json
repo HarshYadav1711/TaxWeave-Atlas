@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-01488-000",
+  "tax_year": 2020,
+  "case_fingerprint": "5ad14fa8a1e3d7e940383b588168612831dbce89b4b53a8d8057a3faede409cb",
+  "case_json_sha256": "7b47523597b5fd78b9d8f8d68702e65ceb59929dbf5d4081efcc368d5f60d4b7",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-01488-000/1. Client Summary/Client Summary.pdf": "569a033b28378d99c8312fe3583f3c64c2b23224b8316c99e5d6e6398f6ebb52",
+    "2. Input Documents-20200101T000000Z-01488-000/2. Input Documents/Tax Document Attachments Summary.pdf": "dc8c4976634203ea6ede18366def26768753605c96958d9ef4a4993025eafd18",
+    "2. Input Documents-20200101T000000Z-01488-000/2. Input Documents/1099- DIV/1099-DIV FOSTER.pdf": "7e74c86b309eb434f2a1d77142b181e989e8388493da423e94147a6d9ed29a16",
+    "2. Input Documents-20200101T000000Z-01488-000/2. Input Documents/1099-INT/1099-INT FOSTER.pdf": "14361f2cb0950824aece494e8ecc87b34cff356fa983305b5c1cb03986464d9e",
+    "2. Input Documents-20200101T000000Z-01488-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "ea76b0e3bddd7192e630019cb815dee4fd9f9026e0b91c5dd8904bedff58d9be",
+    "2. Input Documents-20200101T000000Z-01488-000/2. Input Documents/Form W-2/Form W-2.pdf": "ccaeac6e709e16f4b29a72fce3b4f0d522ef1c29720f50d55c2c64be19aae73d",
+    "2. Input Documents-20200101T000000Z-01488-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "001f0c04a0943a86362a579d0e0f853ccbe16c25808584accacd65ede3b91396",
+    "2. Input Documents-20200101T000000Z-01488-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "9f94636a70fe041152844683bb83acce0d02db7ef51a482042766c021c417608",
+    "3. Complete form-20200101T000000Z-01488-000/3. Complete form/2020 Tax Return Documents (Reese Foster (synthetic)).pdf": "a2bab718f82e52fc5fb90a2e432850bd3b852acf5062b5c9c838a3dab7e5721a",
+    "3. Complete form-20200101T000000Z-01488-000/3. Complete form/Completed forms - Summary.pdf": "e5d312171d0457f0ab31f9f690c0145e5441b1255903d5c7d8a968d1cdaca80d",
+    "4. Executive Summary-20200101T000000Z-01488-000/4. Executive Summary/Executive Summary Reese Foster 2020.pdf": "1094c452be18b745d0ae1525e948819ad1e252239a44a3ee72862073053bda09"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20210101T000000Z-01825-000",
+  "tax_year": 2021,
+  "case_fingerprint": "77c04ec1c4c110fcd9c1c0d1b45b010192523d23e123a0157f9c0653d656768e",
+  "case_json_sha256": "433441f94d1b231a445c9df62858446f179d39a76cf6cc08faeee1f2ae1ba838",
+  "files_sha256": {
+    "1. Client Summary-20210101T000000Z-01825-000/1. Client Summary/Client Summary.pdf": "cebf45e681a30450c3da021e673ed03455761e0ad1ccfbf3986d7c153f80601e",
+    "2. Input Documents-20210101T000000Z-01825-000/2. Input Documents/Tax Document Attachments Summary.pdf": "6a728335fc9ee2b3d5f4760da34357fa20d9eba3b9e2c2f967c09c8936bfb46e",
+    "2. Input Documents-20210101T000000Z-01825-000/2. Input Documents/1099- DIV/1099-DIV FOSTER.pdf": "d262bc7b3b60fecf3e627f2db5285c535b571a24049e23395f45d6fab912e9b8",
+    "2. Input Documents-20210101T000000Z-01825-000/2. Input Documents/1099-INT/1099-INT FOSTER.pdf": "16e5716ab15c45c3a94eb7a6feece84f84883e0ea6606802174e850458dfcf3f",
+    "2. Input Documents-20210101T000000Z-01825-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2021_.pdf": "0bf30fd36fbf631609962e898748645821e98276e3d27f36087dc8b568e73c52",
+    "2. Input Documents-20210101T000000Z-01825-000/2. Input Documents/Form W-2/Form W-2.pdf": "5addb79c75e1a70a1db3b15f8168df338b5641a3189935cdfd4722cc10e15981",
+    "2. Input Documents-20210101T000000Z-01825-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "35dbcaa0d8bef88e094ab1961d107739f3a0c1382c76f5db6ace3ed6d99367c3",
+    "2. Input Documents-20210101T000000Z-01825-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2021.pdf": "a3f23ffd51035bd9d7d2b28448195ce250c334d18925f2e4499d0b761371bfdd",
+    "3. Complete form-20210101T000000Z-01825-000/3. Complete form/2021 Tax Return Documents (Casey Foster (synthetic)).pdf": "c1b6344a6311a764de1fd846ea99abb28903ed766fd3bb74a1aa74c5630ca9f9",
+    "3. Complete form-20210101T000000Z-01825-000/3. Complete form/Completed forms - Summary.pdf": "c418415447e34932f7b5312171f90cd083180f97c81f6eb4272d3339e31c9611",
+    "4. Executive Summary-20210101T000000Z-01825-000/4. Executive Summary/Executive Summary Casey Foster 2021.pdf": "e414de8867cd1e48022dc068ac2e2701dd4b0acfb087aa4a6155ed2a0bd38170"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

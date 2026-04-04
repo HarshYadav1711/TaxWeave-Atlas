@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-01572-000",
+  "tax_year": 2024,
+  "case_fingerprint": "5e5b5a600d3fa508d187dd283bb291f75368328e8abace96708074819b2df13c",
+  "case_json_sha256": "dc584d60b3fce5e32088b42e2715114772e8c4bd9e3cf29c8c983b4763a1c066",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-01572-000/1. Client Summary/Client Summary.pdf": "66a2e77c811dfd73a31166f47d774423c465ec986ff4c0cb9cfec57295140844",
+    "2. Input Documents-20240101T000000Z-01572-000/2. Input Documents/Tax Document Attachments Summary.pdf": "5aaa96325aa4496b723144f68d0be4aa1aacc1f5bb55ab6026bd1b0e0d52e8a9",
+    "2. Input Documents-20240101T000000Z-01572-000/2. Input Documents/1099- DIV/1099-DIV JENNINGS.pdf": "7693d6f8ab8031646a77a1c2d4f2ab7bb9235334f9489141654cf1f002fa78ff",
+    "2. Input Documents-20240101T000000Z-01572-000/2. Input Documents/1099-INT/1099-INT JENNINGS.pdf": "591e4410327c9fdb073611748a63591c7b1eee54c4cb7155ac89feeeea52736c",
+    "2. Input Documents-20240101T000000Z-01572-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "d20a5974ad1933197c76dfa9590e1f593c47a5189959800b25afa1fbee155236",
+    "2. Input Documents-20240101T000000Z-01572-000/2. Input Documents/Form W-2/Form W-2.pdf": "d5dc71a4c799144bb59f2459f0740b8690b7e5dfc95d84b4ea84485299f4520d",
+    "2. Input Documents-20240101T000000Z-01572-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "11ab00e20233097d29ee59b3ef9a24e45925699fb872587e7a5c756e8a7e7741",
+    "2. Input Documents-20240101T000000Z-01572-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "d36a8e480c59054deee24fc6e0df92622223560428d6feca3c7b2b819525827b",
+    "3. Complete form-20240101T000000Z-01572-000/3. Complete form/2024 Tax Return Documents (Parker Jennings (synthetic)).pdf": "ebca1149ce941ee450184148e140ab6e415ec34c9f39ad48f24f8d99aa2e431f",
+    "3. Complete form-20240101T000000Z-01572-000/3. Complete form/Completed forms - Summary.pdf": "d70a4cc4cdca03d4875834b4bc392e264d615ac4b612f1feb280c753a5610fed",
+    "4. Executive Summary-20240101T000000Z-01572-000/4. Executive Summary/Executive Summary Parker Jennings 2024.pdf": "db9e19fdf8f36c1f39f49704ec5314f1765d0fd4b34f0edd74a72e9ffa7f1164"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

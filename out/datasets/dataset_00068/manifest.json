@@ -6,17 +6,17 @@
   "case_fingerprint": "ee1cd9325ec7dc04ada06be112212fe5e4bc3e3528306e61592810b4d457c2ae",
   "case_json_sha256": "4fdd1717ff219098e71fa87fca70dfded6b704010f5953a41cdf2eaad17a4da7",
   "files_sha256": {
-    "1. Client Summary-20220101T000000Z-00068-000/1. Client Summary/Client Summary.pdf": "e191b53493eb7eee8ee84c264e065bafd577559672f6c886ccc9983282a95935",
-    "2. Input Documents-20220101T000000Z-00068-000/2. Input Documents/Tax Document Attachments Summary.pdf": "9b9deeaac1e605d1c268d775e6b5b31473a90a8228bc61ef5944553e2e47e2ed",
-    "2. Input Documents-20220101T000000Z-00068-000/2. Input Documents/1099- DIV/1099-DIV PATEL.pdf": "e9dee3bcf1e005064ddf61a6533b8f9d1ac5733afc63e9342d8ecc8508f6c84d",
-    "2. Input Documents-20220101T000000Z-00068-000/2. Input Documents/1099-INT/1099-INT PATEL.pdf": "1afb42e9a12cfa298022ebada8a578ab334aa57f745294bca9d345a0b1d3c37e",
-    "2. Input Documents-20220101T000000Z-00068-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "21df8b35c98a451851eb8bf58a01dc9e03ca0b85ded56fee7c56fda397f2f473",
-    "2. Input Documents-20220101T000000Z-00068-000/2. Input Documents/Form W-2/Form W-2.pdf": "a1011267c8eb4a3cb370c1678797ae1c172d057bb2abe717d7c1519c785e8997",
-    "2. Input Documents-20220101T000000Z-00068-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "e00d6632e6a37ea1ee66c5336c7cd009282f7d95e1450ae60092ca15185efef7",
-    "2. Input Documents-20220101T000000Z-00068-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "353aea17bbbe16c4ec7db4f9308dbbf0dc83e8cd658208c54a56e64ad6876d6b",
-    "3. Complete form-20220101T000000Z-00068-000/3. Complete form/2022 Tax Return Documents (Emery Patel (synthetic)).pdf": "9330847d8651ef9e630457c7976aa3f286d47c023c6453154f95b685a84198ac",
-    "3. Complete form-20220101T000000Z-00068-000/3. Complete form/Completed forms - Summary.pdf": "91fb547cc98cd4fd4c50e08da7d26457d036ae22b63423a5c6e4b294ce269c68",
-    "4. Executive Summary-20220101T000000Z-00068-000/4. Executive Summary/Executive Summary Emery Patel 2022.pdf": "1e59124303de2a172ed4d1081e5ea7c976e195c0c07cf28db9f53db3fb98092e"
+    "1. Client Summary-20220101T000000Z-00068-000/1. Client Summary/Client Summary.pdf": "328684c38d81100c4d3205688327257ba31c7bd243198d3d3eb27e9d5a216097",
+    "2. Input Documents-20220101T000000Z-00068-000/2. Input Documents/Tax Document Attachments Summary.pdf": "7e893248aae9beafa559709fdb88e293a3d77f73386cf5bc459693f92347de0a",
+    "2. Input Documents-20220101T000000Z-00068-000/2. Input Documents/1099- DIV/1099-DIV PATEL.pdf": "2f9224fddc202db57d9464f7fca5a0a849502d2ac69b09ecdc3d4c8fd1f6680e",
+    "2. Input Documents-20220101T000000Z-00068-000/2. Input Documents/1099-INT/1099-INT PATEL.pdf": "efef8e640a00b76709b71caf9964552557a19e8fbe8762346c80352bcb70a87e",
+    "2. Input Documents-20220101T000000Z-00068-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "35b950e0e9399c4c1faaf0260954d6e3a8b781111f54db2554c41f62ce135b8b",
+    "2. Input Documents-20220101T000000Z-00068-000/2. Input Documents/Form W-2/Form W-2.pdf": "fa46fcc329b1d7c23ec802f3e614f1054d4aad81d689ff65b9a69e03f750061a",
+    "2. Input Documents-20220101T000000Z-00068-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "2027a348a828598c6aa75f147e2b3ea5099a8c2bd52569eab206d35ea7e251ce",
+    "2. Input Documents-20220101T000000Z-00068-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "8ed07fa034afc2bcd7c6297f5999814b16be059e86c8de028f8611f15f36311d",
+    "3. Complete form-20220101T000000Z-00068-000/3. Complete form/2022 Tax Return Documents (Emery Patel (synthetic)).pdf": "f663c7b9e67fb8aa64642bebf485dad2f764279dd36684ce34c41a1d1089e364",
+    "3. Complete form-20220101T000000Z-00068-000/3. Complete form/Completed forms - Summary.pdf": "65b7e457e3e8f5d356dac1c93f240c8b04fd700544052272370f9d84657425db",
+    "4. Executive Summary-20220101T000000Z-00068-000/4. Executive Summary/Executive Summary Emery Patel 2022.pdf": "2647b75c89852431fa5bf289a4b63e44ac72efb460cd8dbcff255555b8d4b3e4"
   },
   "canonical_case_model": "SyntheticTaxCase"
 }

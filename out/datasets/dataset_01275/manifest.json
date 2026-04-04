@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-01275-000",
+  "tax_year": 2022,
+  "case_fingerprint": "b3b26d47a29838115dd6fa1119240d0be3b3cee9318ada67a2bf91d7b76837c7",
+  "case_json_sha256": "e12e1947fbcf3c42f13d72f86f2e36d34fa4f391afe1ca04acb648c1f82c05e7",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-01275-000/1. Client Summary/Client Summary.pdf": "4693dae5c75a8c0b732b3a5eb0e0d42443be4ce0127231d398b68637040edd4b",
+    "2. Input Documents-20220101T000000Z-01275-000/2. Input Documents/Tax Document Attachments Summary.pdf": "eca96eeaa5d3381ed57b86dd0666952ac3a29d8eca9d5a44f20e462b0ff33aaa",
+    "2. Input Documents-20220101T000000Z-01275-000/2. Input Documents/1099- DIV/1099-DIV LAWSON.pdf": "b3e12adfedfc9c929fe3c17109ca9c58b919049b4f8ef2dc5b1f29bdde95cb27",
+    "2. Input Documents-20220101T000000Z-01275-000/2. Input Documents/1099-INT/1099-INT LAWSON.pdf": "545734f855cbe4a84446854fd3a66be7c10fe67b6cb5907c79d3f2278230babc",
+    "2. Input Documents-20220101T000000Z-01275-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "65bb8973c81c18bcbb611665d013487a225e53ceafd978e1a05535286dd0bfc1",
+    "2. Input Documents-20220101T000000Z-01275-000/2. Input Documents/Form W-2/Form W-2.pdf": "321dd8c1144cae70290cdae97fbd3d70223d100ee9e4eefa9fca349a48ec5690",
+    "2. Input Documents-20220101T000000Z-01275-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "8ba5b31297b6de4c49efe8cebbb823d6326be1f5fed95a455ab34fefd3e65076",
+    "2. Input Documents-20220101T000000Z-01275-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "24c32ac19412a60542692756d9b661a1c3099056e32034ea70104d45bec9f51a",
+    "3. Complete form-20220101T000000Z-01275-000/3. Complete form/2022 Tax Return Documents (River Lawson (synthetic)).pdf": "158940aedcccf0239f09390921a12cfd411f68658052f71fdc04aa4933da9e4c",
+    "3. Complete form-20220101T000000Z-01275-000/3. Complete form/Completed forms - Summary.pdf": "b26a9cfe11eb80d3ed0edc990ae45699956e2970b20842b34c81ecb788b20415",
+    "4. Executive Summary-20220101T000000Z-01275-000/4. Executive Summary/Executive Summary River Lawson 2022.pdf": "d4b3ca3f1a7ed2da77d936c1e1b0abbbe36ded1086e856a8ccd68a7b0feef914"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

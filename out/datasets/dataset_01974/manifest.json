@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-01974-000",
+  "tax_year": 2020,
+  "case_fingerprint": "087bee8279a18c069156117a703870b0cf42b169a1129e5584a5d6eaff2397dd",
+  "case_json_sha256": "5e3dbc159257628e729c3f1c40eddcfc4dcc04ae2ed62d587bb56800b8eece8f",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-01974-000/1. Client Summary/Client Summary.pdf": "c1e9646595d8806ec8adb6f810355781633586e96e16caff489288537da47d7e",
+    "2. Input Documents-20200101T000000Z-01974-000/2. Input Documents/Tax Document Attachments Summary.pdf": "002e59ed05c503326ced2b6d1be4f88fa6c40a386850e1d4acb04faf9e219db7",
+    "2. Input Documents-20200101T000000Z-01974-000/2. Input Documents/1099- DIV/1099-DIV REYES.pdf": "f2bae1f8b9b393a559579ca157cc1b65c68e4045367f1be1bf0a82c22577b559",
+    "2. Input Documents-20200101T000000Z-01974-000/2. Input Documents/1099-INT/1099-INT REYES.pdf": "b9c945bd2d466a2064886a17940131fa8072a40eced0c70c2433717c16eab55b",
+    "2. Input Documents-20200101T000000Z-01974-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "63d77d190c1b499f64a6c94205183e0572a394c1966c1255d9c91ebfc434668e",
+    "2. Input Documents-20200101T000000Z-01974-000/2. Input Documents/Form W-2/Form W-2.pdf": "e83c0c0b57052845f5aba2387e068ac93790c7af9cfc1546a5794c9bf2b322ff",
+    "2. Input Documents-20200101T000000Z-01974-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "d63229cf45d26fa87485f5ca9ef87b0c621ee961343ab7c7ed8e4f085365a94c",
+    "2. Input Documents-20200101T000000Z-01974-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "7bd542fd85f66b900aff733ac923bd7ff39ed30bdcf797985b25401d5c185c4a",
+    "3. Complete form-20200101T000000Z-01974-000/3. Complete form/2020 Tax Return Documents (Quinn Reyes (synthetic)).pdf": "7111df1a93c09f6360891ecbe71c64348ef6dd20ca71f54bc43b444f97ded607",
+    "3. Complete form-20200101T000000Z-01974-000/3. Complete form/Completed forms - Summary.pdf": "c2038c37454ca5e12bdb23d49194b17d67644166f228ccf1653ff2d82e4d4803",
+    "4. Executive Summary-20200101T000000Z-01974-000/4. Executive Summary/Executive Summary Quinn Reyes 2020.pdf": "109f0f6f14f8ae95a22604a43bd3c7dfd0861b96fb686f3f8bfb99b8a1755844"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

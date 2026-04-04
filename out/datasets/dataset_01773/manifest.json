@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-01773-000",
+  "tax_year": 2024,
+  "case_fingerprint": "9a042f8f79b414744924676e0cf33ebd85e5d60552f7213ce6b12f9c7fdb9f3e",
+  "case_json_sha256": "a687c260768bc8299cb4993440152e0a569b47caf0718ae27f396c835e149e99",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-01773-000/1. Client Summary/Client Summary.pdf": "2ba479b4a5652cb8ec29b20641b6fd56506661b2e70cc61996b1ea80206616c8",
+    "2. Input Documents-20240101T000000Z-01773-000/2. Input Documents/Tax Document Attachments Summary.pdf": "0c858fe0b4c0dc00f82f61c552eb54006f09f0f132e4e0240426f4e7a027e5a2",
+    "2. Input Documents-20240101T000000Z-01773-000/2. Input Documents/1099- DIV/1099-DIV OKORO.pdf": "3925d5f639f8a88f89c52ed007a3f457decb2faf550483d77ab67d4178ee85ca",
+    "2. Input Documents-20240101T000000Z-01773-000/2. Input Documents/1099-INT/1099-INT OKORO.pdf": "d1213651e9d3a2590cd673052153c72dc6a3af78915ba5f3f30d6adaa026cfdf",
+    "2. Input Documents-20240101T000000Z-01773-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "1867265285fd2179233053b2fdc014caffb122b362a5ea6b201b3f08e08f449b",
+    "2. Input Documents-20240101T000000Z-01773-000/2. Input Documents/Form W-2/Form W-2.pdf": "1ad569749e35ec88a453bdc6417494c75c9fb0da82756d66f2c58b33c9b14d7e",
+    "2. Input Documents-20240101T000000Z-01773-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "46bb83c1576ce1ca71d8459e36893c9fe2d41a860ed01399f2e47a9beed0f3cc",
+    "2. Input Documents-20240101T000000Z-01773-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "5a91a96bb0edd59221e0bf131246cae76845eef633528f4d9c53c754fb70def9",
+    "3. Complete form-20240101T000000Z-01773-000/3. Complete form/2024 Tax Return Documents (Dakota Okoro (synthetic)).pdf": "34677602a060ed14ab61c831e27e88b2cb2a880b6a68b11e70f9a6e8b43a944f",
+    "3. Complete form-20240101T000000Z-01773-000/3. Complete form/Completed forms - Summary.pdf": "353574fb9969081dfa603c595d40e343596eb32e0aeeeea6cdab9d2d0db872a0",
+    "4. Executive Summary-20240101T000000Z-01773-000/4. Executive Summary/Executive Summary Dakota Okoro 2024.pdf": "88bbc8e22006284ee7da19a66ab51008e3237e2e093c410a568ac0c926e47e1b"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-00808-000",
+  "tax_year": 2020,
+  "case_fingerprint": "e0b0dd20c7b8c4c95cd983a8f0754284fd18ff304fca185b403d70c85565a8ca",
+  "case_json_sha256": "7b7e1736e15ecbc3733f6afb9c5633621844925a57cdbdaafc7d32cb5e3f5371",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-00808-000/1. Client Summary/Client Summary.pdf": "4275c17ebd2789903bc44dfe095b5834773cd44a2a80d2e16c36c955a0c5f431",
+    "2. Input Documents-20200101T000000Z-00808-000/2. Input Documents/Tax Document Attachments Summary.pdf": "37cc8cc8f4997a52b49ae36d083d195c27cb2fed560e8df85ce4247529677d98",
+    "2. Input Documents-20200101T000000Z-00808-000/2. Input Documents/1099- DIV/1099-DIV MERCER.pdf": "34c3143f5a4a0913f21de1d6ed69583fc0fe3c9ae559a9d46537a0760eba8927",
+    "2. Input Documents-20200101T000000Z-00808-000/2. Input Documents/1099-INT/1099-INT MERCER.pdf": "2b514a14aae06dcd7be77a0c46f1eecc7cb456e66905721a99acd85e236872a7",
+    "2. Input Documents-20200101T000000Z-00808-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "4f07e71a24d594fc8912247150fcca1562632f04e98ca8c361de6c8edfe524fd",
+    "2. Input Documents-20200101T000000Z-00808-000/2. Input Documents/Form W-2/Form W-2.pdf": "880e297a1d2401023813e8633cb04904910b9eb3f0d9dfb58572d2df45619d25",
+    "2. Input Documents-20200101T000000Z-00808-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "cd5b09d288f27f329f8d48b234d7f3b77ab32d77e771b5e801fcc96bc28f61f7",
+    "2. Input Documents-20200101T000000Z-00808-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "2349f8e610e50c227d4429116d37fa46d6ca9d4e6085e9b11d49756c49193b84",
+    "3. Complete form-20200101T000000Z-00808-000/3. Complete form/2020 Tax Return Documents (Finley Mercer (synthetic)).pdf": "b3aadebb4bf32598ddbf2de6957d62ee4ac0b5f8e138add8bc924598b016fa7e",
+    "3. Complete form-20200101T000000Z-00808-000/3. Complete form/Completed forms - Summary.pdf": "1144180a84832f452a3bce46fe82164c0ca280e927f0a5a325495f2151dd4f6e",
+    "4. Executive Summary-20200101T000000Z-00808-000/4. Executive Summary/Executive Summary Finley Mercer 2020.pdf": "5eede29e55611c34eaf446e159fd866b888316d502000297f69858c0ff0b3b24"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

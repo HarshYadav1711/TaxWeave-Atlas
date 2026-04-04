@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20210101T000000Z-01479-000",
+  "tax_year": 2021,
+  "case_fingerprint": "aa63d49e66dd22fc04ed3622926e0c67d369945b2cc42a488ef24546836874c4",
+  "case_json_sha256": "5bb9f1ac4a33948bc00c59ee7ad1491f3dfd12186cf9b7683c817fb01246378a",
+  "files_sha256": {
+    "1. Client Summary-20210101T000000Z-01479-000/1. Client Summary/Client Summary.pdf": "3760125fff20e3b07c64a785c09560b2968c6f351816c88ca5bb44b6cad1dbdf",
+    "2. Input Documents-20210101T000000Z-01479-000/2. Input Documents/Tax Document Attachments Summary.pdf": "3905182a563fb54efd00a702f5a02b2e97d2f12fb20ab66dbc165fe93853601d",
+    "2. Input Documents-20210101T000000Z-01479-000/2. Input Documents/1099- DIV/1099-DIV OKORO.pdf": "ef0f4f69ed852a0d5ec9201bba01cc9645636f7dd0026f9de25c8800942d50c7",
+    "2. Input Documents-20210101T000000Z-01479-000/2. Input Documents/1099-INT/1099-INT OKORO.pdf": "8648c162aad5b05e4859b0aca5302ff35f13e13b79808034a596549c6267381d",
+    "2. Input Documents-20210101T000000Z-01479-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2021_.pdf": "18f63cddacd2ea16afcb7be2a8eeb91e3fdef8db4a5ac3cd58e529c76a94b3dd",
+    "2. Input Documents-20210101T000000Z-01479-000/2. Input Documents/Form W-2/Form W-2.pdf": "13bab27d98dafcfc07bc081a682cf7fd068d3db7f2763441d0e056c061440e8f",
+    "2. Input Documents-20210101T000000Z-01479-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "73945857a5ae5395b46e91f53c88e91398b2fae6c64300956c6a8f9a2635de6b",
+    "2. Input Documents-20210101T000000Z-01479-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2021.pdf": "43de61339e18664105b4d3810c7c030d6aae0b5884439c3968f31e8a16533d19",
+    "3. Complete form-20210101T000000Z-01479-000/3. Complete form/2021 Tax Return Documents (Jordan Okoro (synthetic)).pdf": "293cde1f747002ed9d7342d4865fd04a06617dba9d038eaf67a7b5a6afee9c06",
+    "3. Complete form-20210101T000000Z-01479-000/3. Complete form/Completed forms - Summary.pdf": "6f6a9525f7fe0f2fe8e20bd3a293d417a1176af517aed1786010b9451c8a0ff2",
+    "4. Executive Summary-20210101T000000Z-01479-000/4. Executive Summary/Executive Summary Jordan Okoro 2021.pdf": "ba75662c5d71d58aaea4025997e994e6b4a9092047b5dad02e00a823072bf103"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

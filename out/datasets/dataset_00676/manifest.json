@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-00676-000",
+  "tax_year": 2022,
+  "case_fingerprint": "5fdf7d8d6ad05b117bc94b28558550230d2804d6a12a8276092ef75140aa4575",
+  "case_json_sha256": "20b8e3b8f617b6b8b0ba0cbfe9c3be7704ead3f8fc29beb63728a371c3ce683f",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-00676-000/1. Client Summary/Client Summary.pdf": "3753ed9f734ebb404c2e1852721a73bd2b6927538ecb3be4a3cd67f51c9a23e3",
+    "2. Input Documents-20220101T000000Z-00676-000/2. Input Documents/Tax Document Attachments Summary.pdf": "30a78df816d783737e63ead5c6c3306439bc890766721dea7689d475d946f446",
+    "2. Input Documents-20220101T000000Z-00676-000/2. Input Documents/1099- DIV/1099-DIV SULLIVAN.pdf": "f2a9f92b19c79e12e46fd0fafe39d8cc92105967e4f68f7591168d739f6c6823",
+    "2. Input Documents-20220101T000000Z-00676-000/2. Input Documents/1099-INT/1099-INT SULLIVAN.pdf": "a5bb260eaf90c9d91dc44fb0215043aa201eec9f7da51dc2fd1e48bc02a4ea05",
+    "2. Input Documents-20220101T000000Z-00676-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "08185ba86af3bab3145ebfe6dce11a37ff07aacf286fb512e4eab8c461e3032f",
+    "2. Input Documents-20220101T000000Z-00676-000/2. Input Documents/Form W-2/Form W-2.pdf": "169d365a638662e6973c579ee725dabff4036eef4faf640650ae59d4d088caf1",
+    "2. Input Documents-20220101T000000Z-00676-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "9b1b99c2b01e18c173dca44237c50032fb1ffa4332f09f1193cb6ffaf3243aab",
+    "2. Input Documents-20220101T000000Z-00676-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "6de702bd5eec541bf60d82eedb9467bfb5de0d82265bd6dbf4b924b8cfa0b819",
+    "3. Complete form-20220101T000000Z-00676-000/3. Complete form/2022 Tax Return Documents (River Sullivan (synthetic)).pdf": "c8169dd638767eb88b33657460ef11b470e7d58a27dae20f21940a34c9facf2f",
+    "3. Complete form-20220101T000000Z-00676-000/3. Complete form/Completed forms - Summary.pdf": "72ebdbb44eb3948e0392effcf6ea2fdd2966e80c0d70a21b607a4896f1e1a68a",
+    "4. Executive Summary-20220101T000000Z-00676-000/4. Executive Summary/Executive Summary River Sullivan 2022.pdf": "c6de2c3eafd2d6c9cbf9e97dc6eb6ae6b0fd98ce2f9f43807c5698d0f127ba98"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

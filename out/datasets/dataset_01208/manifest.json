@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-01208-000",
+  "tax_year": 2022,
+  "case_fingerprint": "8076f4c7221c121b1264a9e041bb5588a15fc8f992d77494f8215c2696f3fc11",
+  "case_json_sha256": "20f97c64a36ffcb8ee27c9efdc178a41d2decc2e0803e61852e1d0e21d592f98",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-01208-000/1. Client Summary/Client Summary.pdf": "ae2806b9049846f557686cdaa0f19286b9e7d553a97c16f7172429a3e7e3040f",
+    "2. Input Documents-20220101T000000Z-01208-000/2. Input Documents/Tax Document Attachments Summary.pdf": "0c2342bf1fe46da0874a5fe30a179b193891939e580d4127962c06616efff5e9",
+    "2. Input Documents-20220101T000000Z-01208-000/2. Input Documents/1099- DIV/1099-DIV KELLER.pdf": "d9f584a46534ded15156eda4a0515563fbbf6c167d1dd0c0280a092996f4b3c7",
+    "2. Input Documents-20220101T000000Z-01208-000/2. Input Documents/1099-INT/1099-INT KELLER.pdf": "39af470591b6f350d5a1546996372cbaeed0e26a758dad15e36358586a4a255d",
+    "2. Input Documents-20220101T000000Z-01208-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "b04bc32916233e6b0ebc8268f1bbe7f7539f48d3eba35532648079cfe55308c9",
+    "2. Input Documents-20220101T000000Z-01208-000/2. Input Documents/Form W-2/Form W-2.pdf": "4c203408bae46b783e3224464b900fe160f09070d8bdf3b2aeb825f31ad7514b",
+    "2. Input Documents-20220101T000000Z-01208-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "91e3805996904fe565e92a6290c5de2122ce263958e128af55fcc081795a7335",
+    "2. Input Documents-20220101T000000Z-01208-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "ffa1477ad197f31237663bfeff8f89b1486c2b9db9e6ca64787184626bf0257f",
+    "3. Complete form-20220101T000000Z-01208-000/3. Complete form/2022 Tax Return Documents (Riley Keller (synthetic)).pdf": "6b2cc520bf60843bb953ea00d612d2432d8f474dfa01433f237226798baf72cd",
+    "3. Complete form-20220101T000000Z-01208-000/3. Complete form/Completed forms - Summary.pdf": "2142fe2ba812aa9a319f26bf40305571f6e6b2a5facc8e144ea0de7e9edcc815",
+    "4. Executive Summary-20220101T000000Z-01208-000/4. Executive Summary/Executive Summary Riley Keller 2022.pdf": "e522a1e858e78f8c28693eff5a1a6f4f25bf5346ae62f1c1232457b1805f5a4f"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

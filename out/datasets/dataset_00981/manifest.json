@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-00981-000",
+  "tax_year": 2024,
+  "case_fingerprint": "f220637bc388138d18e52ae8615312b309a1c0dde80c3c1e7c85861691c6ee62",
+  "case_json_sha256": "b47981fbf14b99bf9737381826a1e65e2163119ba810837e443ce7152f755faa",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-00981-000/1. Client Summary/Client Summary.pdf": "6bf389303f47712fc3317d888ef82c267bfd9c1de7bccd59d9175a4984510061",
+    "2. Input Documents-20240101T000000Z-00981-000/2. Input Documents/Tax Document Attachments Summary.pdf": "84ac3d88d0a587c3cf192b092c3458cba02d493fa748e86709c30b576207b284",
+    "2. Input Documents-20240101T000000Z-00981-000/2. Input Documents/1099- DIV/1099-DIV DIAZ.pdf": "28ca00a8b41260cf7b3d94a90a2d5bf1421335df8421e374ff80034802502811",
+    "2. Input Documents-20240101T000000Z-00981-000/2. Input Documents/1099-INT/1099-INT DIAZ.pdf": "106d65dc37f5d1e5c5c8b2f68e2cde427b7c16cedeb5413a21e0cb82597f4854",
+    "2. Input Documents-20240101T000000Z-00981-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "1d7ac85669f14d38f6d4019c94117451e071bc44c3ab47f9163bfc4cbd0b7558",
+    "2. Input Documents-20240101T000000Z-00981-000/2. Input Documents/Form W-2/Form W-2.pdf": "d065541b65c88d1bb7281083642b105d6aa12bd30df9efad04e7df6c3a91ce7e",
+    "2. Input Documents-20240101T000000Z-00981-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "0e956e5fc5b514f00fe842c7c03be6094afe7f9ef8762cabd32bdd8eeb2f0121",
+    "2. Input Documents-20240101T000000Z-00981-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "5adb57a2a77412fea3c91e085979a388d12596eab8749087872f9530b489258e",
+    "3. Complete form-20240101T000000Z-00981-000/3. Complete form/2024 Tax Return Documents (Emery Diaz (synthetic)).pdf": "1e5d2156fe7139e2a97ca789102077d1abee422774fd08b58cb1945d57e1f1ea",
+    "3. Complete form-20240101T000000Z-00981-000/3. Complete form/Completed forms - Summary.pdf": "e80c707dc5b6b41a4ed849b0e7e143a7606c36c64359906f1c25ab90439e45cd",
+    "4. Executive Summary-20240101T000000Z-00981-000/4. Executive Summary/Executive Summary Emery Diaz 2024.pdf": "26bfa09675116cf016b95f0b0612c3b5038e9681e1bf3311cfe444c98b94414c"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

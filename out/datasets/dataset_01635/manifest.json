@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-01635-000",
+  "tax_year": 2024,
+  "case_fingerprint": "3f704abeb6454b564e9ccda4a050199285e9a81cbd7369c5be5aa812adb60c60",
+  "case_json_sha256": "2f0692323823d303ba65ac3a8848f3903b572c2203efb816ad5f25aca12fc294",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-01635-000/1. Client Summary/Client Summary.pdf": "b1c7372904cacc313dd04abda2cfc4176de8ab74cd796116b419d310c76bec58",
+    "2. Input Documents-20240101T000000Z-01635-000/2. Input Documents/Tax Document Attachments Summary.pdf": "b8c404667de836e3cc80be40c15b8796fe20544e1ed21345bb1563995886483d",
+    "2. Input Documents-20240101T000000Z-01635-000/2. Input Documents/1099- DIV/1099-DIV KELLER.pdf": "9162612a47a5aa5805ffc89b273bf0f5987e13135032da456e2fb17993840289",
+    "2. Input Documents-20240101T000000Z-01635-000/2. Input Documents/1099-INT/1099-INT KELLER.pdf": "be366c928d0c84fc18e1c88f776d294d9b53211d596de081d2435817875ea9c0",
+    "2. Input Documents-20240101T000000Z-01635-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "725cdc71ac9046c71a918c7be99d93cb714eba6597601f049566c19e0d2523e4",
+    "2. Input Documents-20240101T000000Z-01635-000/2. Input Documents/Form W-2/Form W-2.pdf": "ccce00374ce22993ef58779a8e2c2c68d76aa5375de64c8c542c7d30c1782966",
+    "2. Input Documents-20240101T000000Z-01635-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "03f3e8755e1b9ad71bfa35ceebd570a00236d6f89b042cf2d99ba71dc6ddd6d8",
+    "2. Input Documents-20240101T000000Z-01635-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "d142526039beee68adef2b31b538a8102cb463020d81696af94b829ac802716f",
+    "3. Complete form-20240101T000000Z-01635-000/3. Complete form/2024 Tax Return Documents (Dakota Keller (synthetic)).pdf": "b7b75e8b4b3b4b8324286611122aa7b86937e386d3419211b5527f115fdd5d45",
+    "3. Complete form-20240101T000000Z-01635-000/3. Complete form/Completed forms - Summary.pdf": "b7379672328a2a605f28904ac4e61ee0feae22244f188fa828119569b18b3f8e",
+    "4. Executive Summary-20240101T000000Z-01635-000/4. Executive Summary/Executive Summary Dakota Keller 2024.pdf": "efcdba82de980180fffc5d7f68b10dc19da1039c1d6a07f9566137d8f987115c"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

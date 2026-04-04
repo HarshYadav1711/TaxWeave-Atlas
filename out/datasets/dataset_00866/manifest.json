@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-00866-000",
+  "tax_year": 2024,
+  "case_fingerprint": "1cb433246382fbc6d8ec4ce453cf8f2e0b2f06b71b1ba0a42c4efdc7eaba0dfb",
+  "case_json_sha256": "e6c48c8f417e3c4a4180c1aeb3e522fdef2de449001b311a5e1bd2cc2223d5b7",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-00866-000/1. Client Summary/Client Summary.pdf": "920f541163ff37556ab4df44858de4fd86e68f286bbde1ee76b250a0e0cc0340",
+    "2. Input Documents-20240101T000000Z-00866-000/2. Input Documents/Tax Document Attachments Summary.pdf": "bfd6939091418613950479c6e593c6b71e77b6b70bb725653c3c5a7ecf5e5c3a",
+    "2. Input Documents-20240101T000000Z-00866-000/2. Input Documents/1099- DIV/1099-DIV HAYES.pdf": "6427459e11997f9768f77478b267277fbf6c80e32bef827e9a6b0c1089df7f07",
+    "2. Input Documents-20240101T000000Z-00866-000/2. Input Documents/1099-INT/1099-INT HAYES.pdf": "45a35ba6f1c074601136640d495d6057f68bf30f63c2e8c58a7579f12350a82b",
+    "2. Input Documents-20240101T000000Z-00866-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "26fa0291552e0d2dc6454529decec7d10a3f6a8d2ec6e476ef4a00dab7fda99b",
+    "2. Input Documents-20240101T000000Z-00866-000/2. Input Documents/Form W-2/Form W-2.pdf": "17e4131a6dd0658ee41a9fb299c2db7a32c41f75eaf0da1c81dbecdd88948bbe",
+    "2. Input Documents-20240101T000000Z-00866-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "1915dca259838e5cee275202d372514818d0cea7778afc79e6bdf75a29267715",
+    "2. Input Documents-20240101T000000Z-00866-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "a4a30d186318329caac49dfa6727123fdb4094c458fea33bdb2d126778c4320f",
+    "3. Complete form-20240101T000000Z-00866-000/3. Complete form/2024 Tax Return Documents (Riley Hayes (synthetic)).pdf": "02583336e011fd20f2f060775527b8704f3ba5fc557b2c7fb2b902ab8553d1a1",
+    "3. Complete form-20240101T000000Z-00866-000/3. Complete form/Completed forms - Summary.pdf": "7fb295fd44a9aeaf51206d25641f726b09c0f44a6288af6eb922f91b15cce3f9",
+    "4. Executive Summary-20240101T000000Z-00866-000/4. Executive Summary/Executive Summary Riley Hayes 2024.pdf": "f7d02e42cbafe4e48bb165fbaef98de5017a188ccb21fc715fea4cd96c3685b0"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

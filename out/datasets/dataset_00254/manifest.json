@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20250101T000000Z-00254-000",
+  "tax_year": 2025,
+  "case_fingerprint": "50ebba7f831871158e31e4c14151c390feb043bf3d30cb22c7ef896774dab296",
+  "case_json_sha256": "78ac5f23f91a1b7356f3cae545e9c29f422050b7e560ab90833a0cdc10c35057",
+  "files_sha256": {
+    "1. Client Summary-20250101T000000Z-00254-000/1. Client Summary/Client Summary.pdf": "c588b09c63fe3e522f5a9208bd2424cda2a89b23668f6a5a71a999ea73f460ae",
+    "2. Input Documents-20250101T000000Z-00254-000/2. Input Documents/Tax Document Attachments Summary.pdf": "5409e4b8f381ce89a4f1a952df096f7b36d91357f2872a7372ff5fc2476854e6",
+    "2. Input Documents-20250101T000000Z-00254-000/2. Input Documents/1099- DIV/1099-DIV BENNETT.pdf": "5a4c70707e49754be64c5cda48cf90454a5e61b38a7d721774eb4dab097af6b4",
+    "2. Input Documents-20250101T000000Z-00254-000/2. Input Documents/1099-INT/1099-INT BENNETT.pdf": "495d00d16b4258eb39ec1ecd1bdce4982995cd6a4d66e228eedf7e33112bbffe",
+    "2. Input Documents-20250101T000000Z-00254-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2025_.pdf": "d6b205fbe7833962b305e39aba7c8cedd6a132ac38c8a858c35f93c95416438c",
+    "2. Input Documents-20250101T000000Z-00254-000/2. Input Documents/Form W-2/Form W-2.pdf": "5c6d41e16122c39fc46fa0141d2f84ec432902bab0e8bec5a8336373003fca6e",
+    "2. Input Documents-20250101T000000Z-00254-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "700ff5b87bd03a433d96186c716abf0c470812582e42923af0fc5aad2b427e35",
+    "2. Input Documents-20250101T000000Z-00254-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2025.pdf": "1f9093c834ee4beb9306a258188f87da4f8fdbd670339365ec60db5565772450",
+    "3. Complete form-20250101T000000Z-00254-000/3. Complete form/2025 Tax Return Documents (Finley Bennett (synthetic)).pdf": "19a19cc96e83a2d74eab52e7e90840c472739a2a22d9916ea0b4bd3ecdaa985e",
+    "3. Complete form-20250101T000000Z-00254-000/3. Complete form/Completed forms - Summary.pdf": "947ea18b7badbaff3fbbd2f842efcb6ddc16f1f81f3d592d5fe3f76d4121a7a1",
+    "4. Executive Summary-20250101T000000Z-00254-000/4. Executive Summary/Executive Summary Finley Bennett 2025.pdf": "176d6765cdd1af8f2232472ced8f9c85276dd24040e75675f8b5c68d4b683bff"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

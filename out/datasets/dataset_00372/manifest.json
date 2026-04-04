@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-00372-000",
+  "tax_year": 2024,
+  "case_fingerprint": "989dddab84f092a2ba20345a6012b3d50ea6dcabdbf3d35a5d9e6c19cb8007d2",
+  "case_json_sha256": "1e6e95123c12d5e1c3823fcabaaa68196892db6bb4a5ab9216a3eccd7838031e",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-00372-000/1. Client Summary/Client Summary.pdf": "bdbcd464d4bb48d58e72516576cd4d954d7eb699dc3f06e4ffeb09839b65f64d",
+    "2. Input Documents-20240101T000000Z-00372-000/2. Input Documents/Tax Document Attachments Summary.pdf": "364eaa112eb7adc50c6ad88e7d0bb01b42765394b15f38207e039c16e3ef5ae9",
+    "2. Input Documents-20240101T000000Z-00372-000/2. Input Documents/1099- DIV/1099-DIV OKORO.pdf": "e17d960ff88d0336577dccaff3414835b31f6692d747975eabd211d986345e68",
+    "2. Input Documents-20240101T000000Z-00372-000/2. Input Documents/1099-INT/1099-INT OKORO.pdf": "c307aa11e85e01731f1f9cbdc541cb40968772f6e25d8806836dfed8f81abbfe",
+    "2. Input Documents-20240101T000000Z-00372-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "c771a0a764831beb1678c89cc29adee944bd624da876ee3119bbda43e7864e9d",
+    "2. Input Documents-20240101T000000Z-00372-000/2. Input Documents/Form W-2/Form W-2.pdf": "15ee757f130cd003426f2f2adbad30483e4d4e1ae8b01d084d0d57d8cab4e8a4",
+    "2. Input Documents-20240101T000000Z-00372-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "9f0bd5d3f48bad9b086e943ed9cd0a9c1f172328ddd64fa6f09909b81f7832e6",
+    "2. Input Documents-20240101T000000Z-00372-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "8bcbd75a2e7330ee1c0f6a1b2508f2d73019440f1830f8bfb3cc4d7179edba29",
+    "3. Complete form-20240101T000000Z-00372-000/3. Complete form/2024 Tax Return Documents (Reese Okoro (synthetic)).pdf": "f349eecd8b62385b784cacc39df485dd187f180e0c91488c93c3d3976bc3177b",
+    "3. Complete form-20240101T000000Z-00372-000/3. Complete form/Completed forms - Summary.pdf": "60897a5f53c9a3d1437e23c161bc04211e8d990e238b3ac0083e86aac9626237",
+    "4. Executive Summary-20240101T000000Z-00372-000/4. Executive Summary/Executive Summary Reese Okoro 2024.pdf": "577e962f4386d2eb4e1dc1dda5042531eed41d03fc0e9e5d9a1ab68b66cbd9bc"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

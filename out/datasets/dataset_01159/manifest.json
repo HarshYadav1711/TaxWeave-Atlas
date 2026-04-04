@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-01159-000",
+  "tax_year": 2020,
+  "case_fingerprint": "5e87f2432e6328ca1b1a5a05d2f25a23b8cd78500785f43abbeb5d910dc65253",
+  "case_json_sha256": "305d308d1dee1dfe532ef024c730ea82bf6f6ad6d6335d444dca991915cf5af7",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-01159-000/1. Client Summary/Client Summary.pdf": "7301602f1a192e32459fba6abac8918232987608bc8695c3f2a4933678af89b8",
+    "2. Input Documents-20200101T000000Z-01159-000/2. Input Documents/Tax Document Attachments Summary.pdf": "def944964ad11fa5a51add0a5d723884cb6d91d44b1205ea7394755af733937a",
+    "2. Input Documents-20200101T000000Z-01159-000/2. Input Documents/1099- DIV/1099-DIV KELLER.pdf": "379f2fd226f1f55ffa968df56273397eba2d61310903df9cfef047aaaf0df9c5",
+    "2. Input Documents-20200101T000000Z-01159-000/2. Input Documents/1099-INT/1099-INT KELLER.pdf": "eb6aa7ebe5b74794622cd69638e938a3b2e861da0ccb86cdfb9828a38d05b15e",
+    "2. Input Documents-20200101T000000Z-01159-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "dc3fcca454cb9ab49f6c55e4ad7f0cde4ba56aa359fc332bbf645d83e1539fe1",
+    "2. Input Documents-20200101T000000Z-01159-000/2. Input Documents/Form W-2/Form W-2.pdf": "2ba6f44b546d0581b11138157c7707acb37be73e54b642dc9450b0161b32007e",
+    "2. Input Documents-20200101T000000Z-01159-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "93159958e2b9e7c13a68e031bdf9fbed5cb1369c23abcef79b1a508f83c6b662",
+    "2. Input Documents-20200101T000000Z-01159-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "2e02ac60bd569ec39503a33dba435e643f15cd191a115020e624d1250137c4ef",
+    "3. Complete form-20200101T000000Z-01159-000/3. Complete form/2020 Tax Return Documents (Riley Keller (synthetic)).pdf": "2e51c69a177ccde666baefa8967f21f255cae3ffed1b09ffdd09e04d8da4176e",
+    "3. Complete form-20200101T000000Z-01159-000/3. Complete form/Completed forms - Summary.pdf": "d982289d4c9771a21d0da78ac753978218bed45891fa9900f9f6cc3c470bee34",
+    "4. Executive Summary-20200101T000000Z-01159-000/4. Executive Summary/Executive Summary Riley Keller 2020.pdf": "96208b789f221bc88b2365dfe17adeddeb637ab3646df62bfbc8a292e4cc9823"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

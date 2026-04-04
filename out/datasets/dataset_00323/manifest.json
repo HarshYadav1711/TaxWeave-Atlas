@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-00323-000",
+  "tax_year": 2020,
+  "case_fingerprint": "27537c6798e17a40a18c3c56af5f8f8ee209040747f948aa3fd26427caa59c4f",
+  "case_json_sha256": "e5e642026768fc4eab84836757988c4409328a6c6634374b56ae2ea077c7b86d",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-00323-000/1. Client Summary/Client Summary.pdf": "8fec5cbdef8609095c9ec328af057142b538a950581a79f7ca05962cbf1f5aee",
+    "2. Input Documents-20200101T000000Z-00323-000/2. Input Documents/Tax Document Attachments Summary.pdf": "419cc85045ad4b802edac1ab5163931071d2346ff739990d3c352036f7262560",
+    "2. Input Documents-20200101T000000Z-00323-000/2. Input Documents/1099- DIV/1099-DIV BENNETT.pdf": "08857ff03c2cff9008d9799ee8f556efbf8369a0b8dfb1dec0d23ee0bb731959",
+    "2. Input Documents-20200101T000000Z-00323-000/2. Input Documents/1099-INT/1099-INT BENNETT.pdf": "fcf509509990dfc92ffd569111ff3a95a8f376d368709885da3a6bad86b97a30",
+    "2. Input Documents-20200101T000000Z-00323-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "74317ba436d7f063efb5e9808e16b62a7826c21496f47223e04df12006ff79e3",
+    "2. Input Documents-20200101T000000Z-00323-000/2. Input Documents/Form W-2/Form W-2.pdf": "a66130c7d73c843da8fbb7e29906024895404d8ee92f2a5bab65b312b6403804",
+    "2. Input Documents-20200101T000000Z-00323-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "e57c6c64123bda5a4c96b7e9fd9f576a7cd7960c063a81beec005c64c37abea0",
+    "2. Input Documents-20200101T000000Z-00323-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "7c24567906bf0cf6184d893212e5a04ba937c3b7ebe20eb1add57ed86a76144b",
+    "3. Complete form-20200101T000000Z-00323-000/3. Complete form/2020 Tax Return Documents (Avery Bennett (synthetic)).pdf": "2f82521077109db1d49b5d9c89dc5e343b38801a04f047fd4dca1a64a36a3160",
+    "3. Complete form-20200101T000000Z-00323-000/3. Complete form/Completed forms - Summary.pdf": "96ab077e45c8d76b6cd46b18fa41842fbd14963c59b18674baac838e9708b61c",
+    "4. Executive Summary-20200101T000000Z-00323-000/4. Executive Summary/Executive Summary Avery Bennett 2020.pdf": "1e521c6e7fd62f590640cf59b5b4a7cbf56a253cae0f5f764272e790493b5b76"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -6,17 +6,17 @@
   "case_fingerprint": "5837c8723541186e56438cfdf42bc2a0cea3d296dc5eeca610d6b42ec782934f",
   "case_json_sha256": "cd30f2cc6d7da10b20043745a2cf4eb91334824f21fbd66f66f07dd9edf39da7",
   "files_sha256": {
-    "1. Client Summary-20220101T000000Z-00028-000/1. Client Summary/Client Summary.pdf": "53488155828e543c8da332bc137f07a756a051d36d89a710da3f82f7621826fb",
-    "2. Input Documents-20220101T000000Z-00028-000/2. Input Documents/Tax Document Attachments Summary.pdf": "7abdfefa12ad64126bbf02281f172b86cc78be6038f23f029aa20df824e220b5",
-    "2. Input Documents-20220101T000000Z-00028-000/2. Input Documents/1099- DIV/1099-DIV PATEL.pdf": "4fcc06faee49dd88a41d3680c5929ad73198e0c7c6cfd22d7fe815714d8ba834",
-    "2. Input Documents-20220101T000000Z-00028-000/2. Input Documents/1099-INT/1099-INT PATEL.pdf": "ecdbd75a89d07c970d9c228e7e983012e70c478b2ab1cafe94825f2d1673b380",
-    "2. Input Documents-20220101T000000Z-00028-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "55dd668b98e04eece1ebdd911605b3fac303911e1227a2334f942736370dcdea",
-    "2. Input Documents-20220101T000000Z-00028-000/2. Input Documents/Form W-2/Form W-2.pdf": "7e5a8a51090cc9af7d27430b1a438a637b468600a16f5940cc46a7bc94d1b3f7",
-    "2. Input Documents-20220101T000000Z-00028-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "13839858ca16d9b637e910fbafa8b5a6becc20effafae0740f7541c8242e7021",
-    "2. Input Documents-20220101T000000Z-00028-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "5e93764780aa9ccb970c32c2e83c2dededbff6b3d3052397570fdff48c57662c",
-    "3. Complete form-20220101T000000Z-00028-000/3. Complete form/2022 Tax Return Documents (Dakota Patel (synthetic)).pdf": "354d41a8387cde39079f20883e91f0b5765f2ec7a22dba93aec55e4c1b7351cc",
-    "3. Complete form-20220101T000000Z-00028-000/3. Complete form/Completed forms - Summary.pdf": "f14ad72c913b3a39c984a6eed8ea1ddd66d768facd389023cf6fb6153d8c1ef6",
-    "4. Executive Summary-20220101T000000Z-00028-000/4. Executive Summary/Executive Summary Dakota Patel 2022.pdf": "147453d6521b325064efbff5e9b5e18654598e70df0322bd1d2a2fa87259a389"
+    "1. Client Summary-20220101T000000Z-00028-000/1. Client Summary/Client Summary.pdf": "f80a768c3bd2a9fcd051e3ba04c977f4a7e12f076ce2e4592397da92e97739bb",
+    "2. Input Documents-20220101T000000Z-00028-000/2. Input Documents/Tax Document Attachments Summary.pdf": "f0794e49bea01d917756b9517b29e860681103236284d2b4486a4f052d207b35",
+    "2. Input Documents-20220101T000000Z-00028-000/2. Input Documents/1099- DIV/1099-DIV PATEL.pdf": "987cd30f2e6251a7b7f1f01bd91a42fe29cd86a2a6590784ddb286363e82f8c1",
+    "2. Input Documents-20220101T000000Z-00028-000/2. Input Documents/1099-INT/1099-INT PATEL.pdf": "24e5cc872f3816c386ea8d0bdd2c8fbaf0dba44ab68891ab0d19ebfdb0202878",
+    "2. Input Documents-20220101T000000Z-00028-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "12cd3dd6fe0fc255eea5f06a2f219d1fa6db85de202add9c906bdf92b90b87ce",
+    "2. Input Documents-20220101T000000Z-00028-000/2. Input Documents/Form W-2/Form W-2.pdf": "c7ab4bc86c9ea63fbfacf19d1beebd60f69ce21449f45b50c8c4f6dc60006b93",
+    "2. Input Documents-20220101T000000Z-00028-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "810bf841557764255253857983377fc896b4006610fa0866141719a49043061d",
+    "2. Input Documents-20220101T000000Z-00028-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "9a50ad7fa4c81c74a6ee7b68ca4675bbf90d518e2a0085c7bd38880517a44d01",
+    "3. Complete form-20220101T000000Z-00028-000/3. Complete form/2022 Tax Return Documents (Dakota Patel (synthetic)).pdf": "c1b9afcf434cda74305910b40ecd5a7947cffcffca9f31da01d6f85f47fdb246",
+    "3. Complete form-20220101T000000Z-00028-000/3. Complete form/Completed forms - Summary.pdf": "46277d6e49c0d2a91f6403cb21f254e55e20453ff0d3272395bc13dbe926050a",
+    "4. Executive Summary-20220101T000000Z-00028-000/4. Executive Summary/Executive Summary Dakota Patel 2022.pdf": "cd472641d2ae72d209b4622b0d1feffbebaa16a5c44170c502c07854bb4ecbe4"
   },
   "canonical_case_model": "SyntheticTaxCase"
 }

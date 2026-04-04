@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20210101T000000Z-00878-000",
+  "tax_year": 2021,
+  "case_fingerprint": "60582079ac7075b05c2cdb6c655df32cc8ccc40bb7b4562621aa0585d90d0013",
+  "case_json_sha256": "20ffd22efc400ce6d72831270d7a306989b261cbc54c723805d7176ab11a227f",
+  "files_sha256": {
+    "1. Client Summary-20210101T000000Z-00878-000/1. Client Summary/Client Summary.pdf": "10e98eb498fe54dc9c723e2e99e771df1732f81be16655585922cccf7b951f59",
+    "2. Input Documents-20210101T000000Z-00878-000/2. Input Documents/Tax Document Attachments Summary.pdf": "4b1c591641313215a9237785f3a8aa0bae027a366aeb5f8daf681a2030e20728",
+    "2. Input Documents-20210101T000000Z-00878-000/2. Input Documents/1099- DIV/1099-DIV REYES.pdf": "351b1084027a701573a19ce7bd9ce069fc1c0f5b9bc32295e5c48ad55befab74",
+    "2. Input Documents-20210101T000000Z-00878-000/2. Input Documents/1099-INT/1099-INT REYES.pdf": "80133cacdb4ec6671c3f8b42510731ac9a58d69ef562e68c6c6a46961c20d944",
+    "2. Input Documents-20210101T000000Z-00878-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2021_.pdf": "aef10bdb9ce8ead36c3337686feb7a2c0f851dba59a685eeb5779b4379a51a06",
+    "2. Input Documents-20210101T000000Z-00878-000/2. Input Documents/Form W-2/Form W-2.pdf": "4e6d41fcfc05d92162f61c301a6cd21a860ef8b86a2a12df563ccc20bc476187",
+    "2. Input Documents-20210101T000000Z-00878-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "ca96609c4a64d3aa8d3f62fb2ba5a6ea155703bcad6c2f6cb07fb762883723d9",
+    "2. Input Documents-20210101T000000Z-00878-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2021.pdf": "5dac435bb1c930496d5facdf968b7b1dc780d165fba44df46506f3de36715d05",
+    "3. Complete form-20210101T000000Z-00878-000/3. Complete form/2021 Tax Return Documents (Jordan Reyes (synthetic)).pdf": "874883610481420cdd8b614b6ad501fd14063c67a4fd229d01e55e21b30a8058",
+    "3. Complete form-20210101T000000Z-00878-000/3. Complete form/Completed forms - Summary.pdf": "14566cbac9d297abe2a09a89957043bfa1a99f89b81958c3f1418d1d9b4d7e2b",
+    "4. Executive Summary-20210101T000000Z-00878-000/4. Executive Summary/Executive Summary Jordan Reyes 2021.pdf": "9237ca848cb2520d3a619f21841a5c5cc45790f2faa2ae3db3a53a453668f824"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

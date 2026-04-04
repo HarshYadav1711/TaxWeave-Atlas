@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-00880-000",
+  "tax_year": 2020,
+  "case_fingerprint": "a4bddd582640bde653a92421c2b88b19fe3195d5bd8b15bc9e5daaed12dbb676",
+  "case_json_sha256": "c0276768542a5a1afdbcc54e221e5c4d0f4469e7b130ee5b21ea204c201fdcb0",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-00880-000/1. Client Summary/Client Summary.pdf": "a938060878b86e4e9586f5918ceb36095daa72cae95821935f01bddf1549b5f1",
+    "2. Input Documents-20200101T000000Z-00880-000/2. Input Documents/Tax Document Attachments Summary.pdf": "eebce26d98b9a07742bbf108428168e13c0c346500c9f4266ca40c8cb511bc55",
+    "2. Input Documents-20200101T000000Z-00880-000/2. Input Documents/1099- DIV/1099-DIV INGRAM.pdf": "69780f9afda01510c3238b6e03cd90a63e333b6842a04521baf33e2a5d2985c1",
+    "2. Input Documents-20200101T000000Z-00880-000/2. Input Documents/1099-INT/1099-INT INGRAM.pdf": "1e505a1e590cc34ed49b96a916923d0b37db2ab54b6e8cc5f9cb04edb8b66252",
+    "2. Input Documents-20200101T000000Z-00880-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "c592af1b886a1fa23331cf451029400b249ae8bc8f2b78c01373266aed282b98",
+    "2. Input Documents-20200101T000000Z-00880-000/2. Input Documents/Form W-2/Form W-2.pdf": "fb0225658c476092f711bfa242a2e16543efc7ab8bad8ab5149db0d0ec5ebfbc",
+    "2. Input Documents-20200101T000000Z-00880-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "c35aa81cda1aa4fb3cd02ed4a0fa709399d63f0198e2ced5a41b1e22d2e4ef8e",
+    "2. Input Documents-20200101T000000Z-00880-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "5f10fd691e98dd40d53644e4c3245797fba4227a59ba888cd0fc24164d4a551c",
+    "3. Complete form-20200101T000000Z-00880-000/3. Complete form/2020 Tax Return Documents (Skyler Ingram (synthetic)).pdf": "c29ee49866b800743246de23c0d4a53a3d9bd7ae399eb88943444f02fbda40c3",
+    "3. Complete form-20200101T000000Z-00880-000/3. Complete form/Completed forms - Summary.pdf": "4587fdad496e5a44ad1e50f4ca28b4d1c41ca7002b8e256360de442d5b331b3a",
+    "4. Executive Summary-20200101T000000Z-00880-000/4. Executive Summary/Executive Summary Skyler Ingram 2020.pdf": "fe69665393191b6f2b4ca9cdb141ca08fc1a90433c7169423a459f76cd8e39b0"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

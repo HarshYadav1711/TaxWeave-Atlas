@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-01997-000",
+  "tax_year": 2022,
+  "case_fingerprint": "7bc6537ae71922b32458e63abe50e48b7541248a2a69ae4be7d533491834f93e",
+  "case_json_sha256": "11b206918b261d55efee7579ed1c20625c569f060ac856fc01232e2e2dac1e87",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-01997-000/1. Client Summary/Client Summary.pdf": "5c16e9bbefb2c41fc5f7cc507ae436af5c80b813b7a91c35722e5ed9fd3b35be",
+    "2. Input Documents-20220101T000000Z-01997-000/2. Input Documents/Tax Document Attachments Summary.pdf": "a6eff1d2fe297f09ee60ab9103cb1c918462dea3dcbd98eb3a812795d7a68b8b",
+    "2. Input Documents-20220101T000000Z-01997-000/2. Input Documents/1099- DIV/1099-DIV CARTER.pdf": "25dea82954d519ccf635a3277c9e232e9e95b85bfa83374a40dabeef07a96310",
+    "2. Input Documents-20220101T000000Z-01997-000/2. Input Documents/1099-INT/1099-INT CARTER.pdf": "24d5aa40ff247b2d5ad7c011cf28c94e3fd33f1e91e80f2c675ba4988e48726d",
+    "2. Input Documents-20220101T000000Z-01997-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "0862e7bda96cee7cf2ac29732462a8d0a2d69bfe0b53faf3ad290216ac8129c7",
+    "2. Input Documents-20220101T000000Z-01997-000/2. Input Documents/Form W-2/Form W-2.pdf": "c0ead00a670adec10ca8a4fa8864d365c6724b82bab5be183c6a4be250410ee7",
+    "2. Input Documents-20220101T000000Z-01997-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "7fcbf1b25e8ce549c84c209eac33784b36f106340dac26d7ad984e37b791132c",
+    "2. Input Documents-20220101T000000Z-01997-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "1b3f1916464e40e31e84700c056c911e8944c867086248543159c1b4d0af12e2",
+    "3. Complete form-20220101T000000Z-01997-000/3. Complete form/2022 Tax Return Documents (Quinn Carter (synthetic)).pdf": "b4b5c9e078a8897e7022b1bbca7840f290c78ce0b3a9282a9bf28b0ed4304836",
+    "3. Complete form-20220101T000000Z-01997-000/3. Complete form/Completed forms - Summary.pdf": "81f308b472e75ea7fc908c6da9f62d3752928c39fd54166b9ca1c68e6f43d1c3",
+    "4. Executive Summary-20220101T000000Z-01997-000/4. Executive Summary/Executive Summary Quinn Carter 2022.pdf": "a998f9d85472e136d88bcad12dda2913cbf18ba129e7a9ce45e296d56bd14e54"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

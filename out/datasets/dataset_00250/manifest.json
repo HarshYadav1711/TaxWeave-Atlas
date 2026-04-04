@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-00250-000",
+  "tax_year": 2023,
+  "case_fingerprint": "1f8ddabceddbd74b2fd96f3c935006cb7240d0b77826e846a38f6656e088f46a",
+  "case_json_sha256": "6d59ab6fa487e0ff51c0056adef1d9b193ab82e2c0b8669873610466dbac7a09",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-00250-000/1. Client Summary/Client Summary.pdf": "135d0ca1583eeb1d6ba992974bb03c85b9a9257901d5f0820894ee6ebe6b5dcf",
+    "2. Input Documents-20230101T000000Z-00250-000/2. Input Documents/Tax Document Attachments Summary.pdf": "be2f27aa13a9d3d8339fa9cdbb65879a0204c0ee62a03d5e25269f63352120ea",
+    "2. Input Documents-20230101T000000Z-00250-000/2. Input Documents/1099- DIV/1099-DIV FOSTER.pdf": "04a35e7931b3324cfcbebde1a2b4289bfdb59a7cd1a4319c5acdac8e4a00cd8e",
+    "2. Input Documents-20230101T000000Z-00250-000/2. Input Documents/1099-INT/1099-INT FOSTER.pdf": "7aaef95d03500d8e0ef9e8cd8c15209a01ca34ab6b194b2f68ea73fc3d2c4632",
+    "2. Input Documents-20230101T000000Z-00250-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "f74e39b5fd0a74f34c416f2cdae90763d545a6488f7733c54c130c343d6f7614",
+    "2. Input Documents-20230101T000000Z-00250-000/2. Input Documents/Form W-2/Form W-2.pdf": "cd05a5d6e9aaebf7b5367cc32a165dc03b376bf91e465d601aee228df88d60f3",
+    "2. Input Documents-20230101T000000Z-00250-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "8188f7f3e84609ec4e2bb4d81dfc4241fbb7164fc2f40c9720618d871c7ca68a",
+    "2. Input Documents-20230101T000000Z-00250-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "cd0b509558a1063a9837dafe52543daba345310955f8d9bc55899bc4686a2065",
+    "3. Complete form-20230101T000000Z-00250-000/3. Complete form/2023 Tax Return Documents (Avery Foster (synthetic)).pdf": "06c5c3296d94d46b20e9f8439048429aa7d860454d074f44ec98c0e0302c0046",
+    "3. Complete form-20230101T000000Z-00250-000/3. Complete form/Completed forms - Summary.pdf": "29c45557f6baefe9579786c38dc66c319e0605c402939742cb69ce827c3f791b",
+    "4. Executive Summary-20230101T000000Z-00250-000/4. Executive Summary/Executive Summary Avery Foster 2023.pdf": "2bf3797e97df51787ce25401579acae59d281efd963ae12649eebd96853f0450"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

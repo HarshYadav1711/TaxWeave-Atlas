@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-01907-000",
+  "tax_year": 2023,
+  "case_fingerprint": "3050f66576ad5b6215276d9e1282658d888d423f8619c7eac5269b18d26750f2",
+  "case_json_sha256": "319961823b13fbb63d972bc99ca64a95590a56164e1b459fccacbb2a4659c13f",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-01907-000/1. Client Summary/Client Summary.pdf": "a523ce825c5d53ea6be43830c5df947036ae984f08902e1bd689c3ddea746aa1",
+    "2. Input Documents-20230101T000000Z-01907-000/2. Input Documents/Tax Document Attachments Summary.pdf": "69e26f783bcd88e8992197db0c88c008c354be39fc5ce1af4edf5b2520922492",
+    "2. Input Documents-20230101T000000Z-01907-000/2. Input Documents/1099- DIV/1099-DIV CARTER.pdf": "cb7b24adf0137bbfbc240faa818de9c552f9d08eb404d76c9c663ee8dc4f0ba1",
+    "2. Input Documents-20230101T000000Z-01907-000/2. Input Documents/1099-INT/1099-INT CARTER.pdf": "01563a57aa9bb393b87172b81255ddbf59299005a04aed54da8407d55f2e7c27",
+    "2. Input Documents-20230101T000000Z-01907-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "e719f31850f7ed53e49a3dc4c4ea6fc49c6762468cc3b59db7edc3e633788cb7",
+    "2. Input Documents-20230101T000000Z-01907-000/2. Input Documents/Form W-2/Form W-2.pdf": "86daf1e092b9958b110feff9d3c9ca4bec88822cd0edc277dd19f3cd6c98a73e",
+    "2. Input Documents-20230101T000000Z-01907-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "8921051cea249cd09c1b3fff589436e8e327f4e2c774e737319b84bae19075b0",
+    "2. Input Documents-20230101T000000Z-01907-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "15880e4d57c6c3c6b102d44f79211396487cf8450503011905eb60ed9dd81527",
+    "3. Complete form-20230101T000000Z-01907-000/3. Complete form/2023 Tax Return Documents (Morgan Carter (synthetic)).pdf": "b6f5c77778bfc429503142a50610fee358caeac717dd94037af342d82c5394a2",
+    "3. Complete form-20230101T000000Z-01907-000/3. Complete form/Completed forms - Summary.pdf": "afa793bc8abb284c644aff8e60f88cdb74b149900c2b2ae01d918f4e7d1ee715",
+    "4. Executive Summary-20230101T000000Z-01907-000/4. Executive Summary/Executive Summary Morgan Carter 2023.pdf": "4f46c081bf4d947f76ef2aa50f4655bac0144c994f2a7a1d4024e5f247647a6b"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

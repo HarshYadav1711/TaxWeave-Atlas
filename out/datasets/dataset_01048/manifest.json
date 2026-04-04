@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-01048-000",
+  "tax_year": 2024,
+  "case_fingerprint": "cd6ec871b6b1ab531c15f9125183e428dd802ea99da99bab4da95ba2ed8011a2",
+  "case_json_sha256": "e3b75c6c693ecabab479b5e4aa2828b0dc97029e51a26cc97ee03cbfe47107e3",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-01048-000/1. Client Summary/Client Summary.pdf": "6387c1a51656a801922f15b02fbf79d18c36689cd35a2929f90a53f079f0f457",
+    "2. Input Documents-20240101T000000Z-01048-000/2. Input Documents/Tax Document Attachments Summary.pdf": "8e23a5d4bc892ad1f8cc6a0b29ff1eb3b03ad05cd3892b52771fa23a7c4d28fd",
+    "2. Input Documents-20240101T000000Z-01048-000/2. Input Documents/1099- DIV/1099-DIV LAWSON.pdf": "a7cc79d1276d7664f5e20ae22c02476c92d830d3561d3e16f4823eb8acc73ad4",
+    "2. Input Documents-20240101T000000Z-01048-000/2. Input Documents/1099-INT/1099-INT LAWSON.pdf": "d574503fbdd9f10e7cb0af86ab41e12acce6a699328e88ce0c4c25d602337398",
+    "2. Input Documents-20240101T000000Z-01048-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "17f8fc988495e7dfa3c56cdae937c43558b31504a779ab507dbbce1c4246f506",
+    "2. Input Documents-20240101T000000Z-01048-000/2. Input Documents/Form W-2/Form W-2.pdf": "f7bde6e1c96fdde537c26bf066d80fa4b28743e0306955332c3b6d113b45afe5",
+    "2. Input Documents-20240101T000000Z-01048-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "e44dcc95fef8ab0e5a7464fa62c303e528b672237ac97ca7820eaf7677b347a7",
+    "2. Input Documents-20240101T000000Z-01048-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "d79ce3b4ad4ddc8905396aab3a0a3d4aa24dea791df4654ed80d2f4d74cd08c5",
+    "3. Complete form-20240101T000000Z-01048-000/3. Complete form/2024 Tax Return Documents (Parker Lawson (synthetic)).pdf": "3c230833af897c0a03cc003f7d74a9da906ad429cc94f4294e4f7cc1d58bafba",
+    "3. Complete form-20240101T000000Z-01048-000/3. Complete form/Completed forms - Summary.pdf": "28ba0828122ddd33d27c66308bc8bc370ba7568970abe5b14107f801be9b9023",
+    "4. Executive Summary-20240101T000000Z-01048-000/4. Executive Summary/Executive Summary Parker Lawson 2024.pdf": "7e78faa5eb8fc5b5e2015c8b4f8a5a88d77ae6c30e2df6b2a485b7b9e8b59093"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

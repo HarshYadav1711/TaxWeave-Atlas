@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-00728-000",
+  "tax_year": 2024,
+  "case_fingerprint": "28fa55e357b9b6f34e312fff4004d881c6f20f005944e3565aadacdd1ca2cb12",
+  "case_json_sha256": "3d8ce8fd3f484b22e499cce2fdd39a8dbec383ff721b4d32e52705d4fdb1f7b9",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-00728-000/1. Client Summary/Client Summary.pdf": "2c622c454615fc6e6acf53f1a0a58aa5914ee2157161032736749f090e8ff655",
+    "2. Input Documents-20240101T000000Z-00728-000/2. Input Documents/Tax Document Attachments Summary.pdf": "2fa65a7d25d2a58412ac1f58d4d784cf75e2cd6f49b18d75bb666ea6cbd77bf7",
+    "2. Input Documents-20240101T000000Z-00728-000/2. Input Documents/1099- DIV/1099-DIV MERCER.pdf": "54350623aae354af9c5ed26e2e4ab5987856704131a25429142804c66e88300d",
+    "2. Input Documents-20240101T000000Z-00728-000/2. Input Documents/1099-INT/1099-INT MERCER.pdf": "8b35d6ce27d4b2a9a125d6b18f55c27000017bb3b45925375088081ba9179fee",
+    "2. Input Documents-20240101T000000Z-00728-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "e861b0aa125095fa41fcae4085f01c25c4110748ff45f3d4721d7d44ee3ef749",
+    "2. Input Documents-20240101T000000Z-00728-000/2. Input Documents/Form W-2/Form W-2.pdf": "370130da31c14e6cb83bc31eb8cffa96ba649b269a05e25e3ffd3a4305b2f8b1",
+    "2. Input Documents-20240101T000000Z-00728-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "9f71af0849041d507e0b63dcd84d0e335cfa972339692d196832ce7ebd0a84ae",
+    "2. Input Documents-20240101T000000Z-00728-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "10eb49bd63599f5095fe55f56ea6febddea83c7984aa802094a77e0bd7948739",
+    "3. Complete form-20240101T000000Z-00728-000/3. Complete form/2024 Tax Return Documents (Rowan Mercer (synthetic)).pdf": "7277b6ea46bf7c7437f346f5a1c3418959acfa4ffa3f874b4873028f2fdd8095",
+    "3. Complete form-20240101T000000Z-00728-000/3. Complete form/Completed forms - Summary.pdf": "49d638d41cea68cb6adaa558c7005ccd487de4e8ae12e30c5b39540a197f9ce2",
+    "4. Executive Summary-20240101T000000Z-00728-000/4. Executive Summary/Executive Summary Rowan Mercer 2024.pdf": "fe51df9a36470014363bb47d1210f0400e7cb7a67a993bc188961c7724d0d164"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

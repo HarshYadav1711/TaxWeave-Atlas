@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-00534-000",
+  "tax_year": 2020,
+  "case_fingerprint": "dcb6795aac285bd87ae4034b666edc8902c4587cf27ce792f40a22290b3b2350",
+  "case_json_sha256": "7e1bf45b72def350d04fe8ad9fb263824d055cfdf0757cbcf4205f4b77dfa02d",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-00534-000/1. Client Summary/Client Summary.pdf": "49c99e53d91053ede4a50ffa37bd45549f29fd0850ad5d43bce2665224f265fc",
+    "2. Input Documents-20200101T000000Z-00534-000/2. Input Documents/Tax Document Attachments Summary.pdf": "19c19c297eb6f167a194ba80588fa9ae8f6cda3976498e9a6979fc6fd83fcf76",
+    "2. Input Documents-20200101T000000Z-00534-000/2. Input Documents/1099- DIV/1099-DIV INGRAM.pdf": "f3b258d377610fba38c6d76eebe6ab62929b1997aa5edc160e18d21120c2f5c9",
+    "2. Input Documents-20200101T000000Z-00534-000/2. Input Documents/1099-INT/1099-INT INGRAM.pdf": "b28c31ad27ab8c2bddcda61dfe35ade2fb41762e17ed67e33e106269373c2011",
+    "2. Input Documents-20200101T000000Z-00534-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "7af23f3bac342fa35d4fc292f281793be0aa4784f50c66ce77ad3c07814f7f03",
+    "2. Input Documents-20200101T000000Z-00534-000/2. Input Documents/Form W-2/Form W-2.pdf": "b875dc39d63eed06f9567a8ab1640c743eba0d2d337a19471585ae33968546c1",
+    "2. Input Documents-20200101T000000Z-00534-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "31ad8247b8bc8a9c2a51b324e6c209570b41acd969568638cbfcfab6cf5da441",
+    "2. Input Documents-20200101T000000Z-00534-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "a49e81b575e76795f9c00e88215db5f7ef75f84e45f6606db600b9198d4cc4f3",
+    "3. Complete form-20200101T000000Z-00534-000/3. Complete form/2020 Tax Return Documents (Avery Ingram (synthetic)).pdf": "40e05879e9968a404d2006197492504aa381a779f0ace24e9a923fb62ce7e90b",
+    "3. Complete form-20200101T000000Z-00534-000/3. Complete form/Completed forms - Summary.pdf": "65ab163ad64941cd544565aa61cc7303237dacd8c347426cb38ba2771b1c2239",
+    "4. Executive Summary-20200101T000000Z-00534-000/4. Executive Summary/Executive Summary Avery Ingram 2020.pdf": "cc18f09b4f2e7c471b245392f5f6c06a4b9adfa1a555d8b571b165ec5f6957e7"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

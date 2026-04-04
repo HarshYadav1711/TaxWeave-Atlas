@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20250101T000000Z-00129-000",
+  "tax_year": 2025,
+  "case_fingerprint": "0932d2a103574888e90ce621f1ef3493901eb9f2f5652309d2c22a7c5cc5377b",
+  "case_json_sha256": "4f6004f1dd3f9ea8ca8d583883029a402d2239bef9ebc1c262528144f5c12d91",
+  "files_sha256": {
+    "1. Client Summary-20250101T000000Z-00129-000/1. Client Summary/Client Summary.pdf": "783ae159231bcedaf840cf004615d066402c86f865479f73cbb4f47628d06a70",
+    "2. Input Documents-20250101T000000Z-00129-000/2. Input Documents/Tax Document Attachments Summary.pdf": "3e7517d0257c2d1fdb79654337a3238d2a591fb6f336bfa2fb6c0de09cb0d35d",
+    "2. Input Documents-20250101T000000Z-00129-000/2. Input Documents/1099- DIV/1099-DIV INGRAM.pdf": "ea1f6f8c65ad277a8813b26a9c428eb69b88ae084659a4c88a2e4d3df50d560e",
+    "2. Input Documents-20250101T000000Z-00129-000/2. Input Documents/1099-INT/1099-INT INGRAM.pdf": "cdbb8e70c2433513a56c322112243e22d94a4314383cb768c0c9e009e280bc32",
+    "2. Input Documents-20250101T000000Z-00129-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2025_.pdf": "800b4caf09751203b689454a046d905abe89389c75306ff5491bcb10ceca3058",
+    "2. Input Documents-20250101T000000Z-00129-000/2. Input Documents/Form W-2/Form W-2.pdf": "52287d996f4b1821d6910dcec321652d22c48f6a92b8eebf19879c7256e9b7e1",
+    "2. Input Documents-20250101T000000Z-00129-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "4b74632c594355ffea4fb3e6e6c5f208bed0f173e840e9acd3b657be21adf272",
+    "2. Input Documents-20250101T000000Z-00129-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2025.pdf": "61e2fd1543573709718416e62f27655f1e290a40dd312c7202b6dea944c6e250",
+    "3. Complete form-20250101T000000Z-00129-000/3. Complete form/2025 Tax Return Documents (Parker Ingram (synthetic)).pdf": "b9471f1c6dbdb35ec7ab3a59bf0f23544b8a1c2c70be73fbc0c0ed3990c48f32",
+    "3. Complete form-20250101T000000Z-00129-000/3. Complete form/Completed forms - Summary.pdf": "2ae5f601f37a5d230b1ff12f9fa4fedb7ca2c7794123502a1be4ee6c44c325ad",
+    "4. Executive Summary-20250101T000000Z-00129-000/4. Executive Summary/Executive Summary Parker Ingram 2025.pdf": "ab759a6404311a828f29716650f1300f3274723f4cea2aae5359e061ee50ba00"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

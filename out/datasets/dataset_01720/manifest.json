@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-01720-000",
+  "tax_year": 2024,
+  "case_fingerprint": "47132154b6d0b7c18c925bf5a96d3568f37663e47a13555b4a40934f808ed16f",
+  "case_json_sha256": "e4bfdbcc1c78c5649d41a9aa74822b1a32e191f354773eaedfe73b7f6b47d930",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-01720-000/1. Client Summary/Client Summary.pdf": "bdfbcbcbf81f4d3c2fa25ae8acf0841b4f0efa09fe099373a2078e94fd638917",
+    "2. Input Documents-20240101T000000Z-01720-000/2. Input Documents/Tax Document Attachments Summary.pdf": "bb9677f2dc9726943a58f701f227c8fd491c79695964f5deb28d63895fe1ac7b",
+    "2. Input Documents-20240101T000000Z-01720-000/2. Input Documents/1099- DIV/1099-DIV MERCER.pdf": "de26a0d85f05e58f7d9347fd1c5bd8c85bd906ad4be6a19498f8b0a8f51b9134",
+    "2. Input Documents-20240101T000000Z-01720-000/2. Input Documents/1099-INT/1099-INT MERCER.pdf": "b5732d1d790fb46b3754fc519192604455ac9af9fb332095e7e8a85d34b1b061",
+    "2. Input Documents-20240101T000000Z-01720-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "c10456975e0def1b2d6aa9a306972935a629da26fb45ddaad6f0baf8c1937081",
+    "2. Input Documents-20240101T000000Z-01720-000/2. Input Documents/Form W-2/Form W-2.pdf": "0d79b57bf463b80a3c9241f4c6579db67172004102c88bb1c3973bff78aaf279",
+    "2. Input Documents-20240101T000000Z-01720-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "f1f58d17d8cfca1429291fbfd4e10143364ae2a1be488e8f22f56ca7e161d47b",
+    "2. Input Documents-20240101T000000Z-01720-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "7267f21b71d3359defa87a2ec8997add57d6027cb3e008ac93f872fea0fe3276",
+    "3. Complete form-20240101T000000Z-01720-000/3. Complete form/2024 Tax Return Documents (Parker Mercer (synthetic)).pdf": "e4b58a46b9d6ebd3d3d76eee8a8ca8e1d7daa75374dc69f754c0b3a8509ef8d9",
+    "3. Complete form-20240101T000000Z-01720-000/3. Complete form/Completed forms - Summary.pdf": "3a4cad69b74831045d4373006836bc5c373dfa3be99c5eb6beea39ce434d5562",
+    "4. Executive Summary-20240101T000000Z-01720-000/4. Executive Summary/Executive Summary Parker Mercer 2024.pdf": "57a196ace84e502621eced02aee63876190e2809710bfd6c66d6621fb61c2aff"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

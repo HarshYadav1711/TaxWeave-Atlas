@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-00114-000",
+  "tax_year": 2023,
+  "case_fingerprint": "33a3cd62036f597922e0c2b1e90ea953cd6c1d4271c690080edcfc6905fcd011",
+  "case_json_sha256": "1d52a66b06c86f93ecea6bc95e2e78d9db351650b0dd8a5102edb9fd0a897513",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-00114-000/1. Client Summary/Client Summary.pdf": "8bc623f6976008eb460f7b8a27cb9e7ff7c2396e35dde82940607b583b4a7ff5",
+    "2. Input Documents-20230101T000000Z-00114-000/2. Input Documents/Tax Document Attachments Summary.pdf": "0c547249ad1de398502c49a3322f914b68a21493161d6b5770bc6cf433bf34a2",
+    "2. Input Documents-20230101T000000Z-00114-000/2. Input Documents/1099- DIV/1099-DIV PATEL.pdf": "26241d00f6199cf7fb73ac205714deea208aba26ed3b89c90f9bbab8d06a6767",
+    "2. Input Documents-20230101T000000Z-00114-000/2. Input Documents/1099-INT/1099-INT PATEL.pdf": "d9e6f60d808ebe784db1d6b2098f7820b187d75bc764c50933b89965203bbed4",
+    "2. Input Documents-20230101T000000Z-00114-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "87265c812f1b013cd718ce09eab5314f8f403f5f1ed9e233bc6dce706fc873e6",
+    "2. Input Documents-20230101T000000Z-00114-000/2. Input Documents/Form W-2/Form W-2.pdf": "0ba594b55f07bd53342ad64d52e7bc47c46a54729afb208ff1336267ba615c9c",
+    "2. Input Documents-20230101T000000Z-00114-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "64a032f055b48b0ffafb52d7ff386db85e1be7cbac5311aa3feaf3c7ddb288b0",
+    "2. Input Documents-20230101T000000Z-00114-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "f368f7d49137e48e99461066f97c27564b5a93ce94542fab80a9c6eee39298aa",
+    "3. Complete form-20230101T000000Z-00114-000/3. Complete form/2023 Tax Return Documents (Parker Patel (synthetic)).pdf": "95583fa758827042d709b89188c249fec35235c14133d0201121f1c2b7878bc7",
+    "3. Complete form-20230101T000000Z-00114-000/3. Complete form/Completed forms - Summary.pdf": "622444d45c042db699e1e803f11d125be44ecd9c58a176b779ddd89abdc94fe8",
+    "4. Executive Summary-20230101T000000Z-00114-000/4. Executive Summary/Executive Summary Parker Patel 2023.pdf": "03558beb1e06e883f709deea19d5a6ab7eef364be1737979facf27ce22e26045"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

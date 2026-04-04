@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20210101T000000Z-01861-000",
+  "tax_year": 2021,
+  "case_fingerprint": "de19bb337a8f34290a5c73fe93f124c0c9e1b71f5cee5792724b625e20ceb827",
+  "case_json_sha256": "0df73c933dec60071577b1ca03ce83604d61149102ca682a93699ddc463cdc92",
+  "files_sha256": {
+    "1. Client Summary-20210101T000000Z-01861-000/1. Client Summary/Client Summary.pdf": "c1efe4d4c7ace2c97e36986fce7cc43fcaed659c693c4036f581e823b65171e5",
+    "2. Input Documents-20210101T000000Z-01861-000/2. Input Documents/Tax Document Attachments Summary.pdf": "32ddefc0d62a9ab47c3b99a218d2e19103706219ed065e5ea710dbb9420a96e7",
+    "2. Input Documents-20210101T000000Z-01861-000/2. Input Documents/1099- DIV/1099-DIV MERCER.pdf": "a3282193f285d02b5093535acf6e63509fcb3a33aa479707b7ba407f229f2a66",
+    "2. Input Documents-20210101T000000Z-01861-000/2. Input Documents/1099-INT/1099-INT MERCER.pdf": "377f956f404ebb912ed2ccdde36cf51abb06543c44bff87e7c5b2eda588af87c",
+    "2. Input Documents-20210101T000000Z-01861-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2021_.pdf": "67f96e6df53788f2166427d22052f418e4b1e489f3aff47390122185823ce98f",
+    "2. Input Documents-20210101T000000Z-01861-000/2. Input Documents/Form W-2/Form W-2.pdf": "8b9ead8101f1a0056d062d4dc30251d07c049c473af6a939bdbe62c6d672af45",
+    "2. Input Documents-20210101T000000Z-01861-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "9ff9f66584aeb34ef5de580239cc97d8f04e5343e74a201995d855d82560e8e4",
+    "2. Input Documents-20210101T000000Z-01861-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2021.pdf": "f675eb2dacabe4fdd643b5cdfc92e3a225309561ffbac10957777f38d14de4a5",
+    "3. Complete form-20210101T000000Z-01861-000/3. Complete form/2021 Tax Return Documents (Casey Mercer (synthetic)).pdf": "8dc8214e9b9b0aa353ef8dffb810fe706673c43064484281f6332a9458f4f7eb",
+    "3. Complete form-20210101T000000Z-01861-000/3. Complete form/Completed forms - Summary.pdf": "2445392934c93bfbcd009a454ce274e302337d712e2437982eae39c521ce83c5",
+    "4. Executive Summary-20210101T000000Z-01861-000/4. Executive Summary/Executive Summary Casey Mercer 2021.pdf": "3e49f3a0e84b2adfc981928d9986c0f3b6defc9da6abf792296a82a7b0eca0b0"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

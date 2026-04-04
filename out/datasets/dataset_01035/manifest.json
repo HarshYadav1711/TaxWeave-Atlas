@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20250101T000000Z-01035-000",
+  "tax_year": 2025,
+  "case_fingerprint": "90cbabfc4d0dbb5326b80ce66daa79a8ff737941686c0b6d92af416335086a17",
+  "case_json_sha256": "c48a91d9cdc74ace4f16894caeba2ce15511851fc326990e80fa299fe41151f4",
+  "files_sha256": {
+    "1. Client Summary-20250101T000000Z-01035-000/1. Client Summary/Client Summary.pdf": "5ede48ee41df80d8608afa446282169d2fb2be10e18d0895b6a79b54862dddef",
+    "2. Input Documents-20250101T000000Z-01035-000/2. Input Documents/Tax Document Attachments Summary.pdf": "6e090459823a9dc8837cef5f6ede6a6e0e001ebbcfc04182eb80a6a1bc44b218",
+    "2. Input Documents-20250101T000000Z-01035-000/2. Input Documents/1099- DIV/1099-DIV JENNINGS.pdf": "7cea8ca44ee256daf20a4658d30520f87a93021a9541a126b033e2e32c91d5cd",
+    "2. Input Documents-20250101T000000Z-01035-000/2. Input Documents/1099-INT/1099-INT JENNINGS.pdf": "741644553eb177f22429e3a2db9c1019f9899f837b4df046f55b667869dc9c50",
+    "2. Input Documents-20250101T000000Z-01035-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2025_.pdf": "13a40ddb2681f94406029e8e9cd43980ab9d8bce958f6178c7722b330c834662",
+    "2. Input Documents-20250101T000000Z-01035-000/2. Input Documents/Form W-2/Form W-2.pdf": "330e7a6f9e3baa9b542628e2db2f4f499af5303ac78db07e2664952bf523e061",
+    "2. Input Documents-20250101T000000Z-01035-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "27d17ab6e0440161ffdccbfb9304f5b09ad7d703a5c1b30eab27068ede24a889",
+    "2. Input Documents-20250101T000000Z-01035-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2025.pdf": "4171bbb64aa972f27a5f4b3cfebac021060c754dba5a7b893fb62cf0b5853eb9",
+    "3. Complete form-20250101T000000Z-01035-000/3. Complete form/2025 Tax Return Documents (Sage Jennings (synthetic)).pdf": "5987d4a10d51d75d7ecb83b5f4d0727dba9c90214bc8b33c75c437db63401c9e",
+    "3. Complete form-20250101T000000Z-01035-000/3. Complete form/Completed forms - Summary.pdf": "6b74431ab96ceb4961072d21ce1d3d606bcabda1f09eef5f1860e95f041c88d5",
+    "4. Executive Summary-20250101T000000Z-01035-000/4. Executive Summary/Executive Summary Sage Jennings 2025.pdf": "3ff66ba630f62a9dfd965388f84fc382826215ae4204e726953ec472a8f25ba4"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-01523-000",
+  "tax_year": 2023,
+  "case_fingerprint": "dcea9ed5bf3d23032673e63cb33c45ebbdf3616348d7492f8300bb9941ed9043",
+  "case_json_sha256": "b8a315cb79b1feb49c88227dcc6642fc1fc622bee7537d814896f9dee6989ab9",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-01523-000/1. Client Summary/Client Summary.pdf": "b4e4dcc4035748fac9dc6e24a4595fcaa817118dbb975e8dad045fc75c95d662",
+    "2. Input Documents-20230101T000000Z-01523-000/2. Input Documents/Tax Document Attachments Summary.pdf": "4ae81add8127b6065284c657f1c275ba739cb232a65ce8f3e19ff93acbd4306d",
+    "2. Input Documents-20230101T000000Z-01523-000/2. Input Documents/1099- DIV/1099-DIV FOSTER.pdf": "d8103b54f4bc17a5e31ac790ab81ef3a53de55abd17c36217de0e2c6841bec66",
+    "2. Input Documents-20230101T000000Z-01523-000/2. Input Documents/1099-INT/1099-INT FOSTER.pdf": "b8e38d657252d8236032b6c1b0f311aaddb5e236025f364ef8c19244d65d1bac",
+    "2. Input Documents-20230101T000000Z-01523-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "f42d760933becdf3727975fff478ddbe5bf6643d5e1a10475f57655704e82d87",
+    "2. Input Documents-20230101T000000Z-01523-000/2. Input Documents/Form W-2/Form W-2.pdf": "23481c2b50576835ef901ac614eabaf0b57b0d68d9b4a4368611d5ba26801108",
+    "2. Input Documents-20230101T000000Z-01523-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "e69d44368a2c6c1c06db156f7d137f202e3b09da70906bc31302cc89182413e5",
+    "2. Input Documents-20230101T000000Z-01523-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "9c7be5c907e06f288440eef7a443ca4165803f7245fc7a0b8e00106662595bf7",
+    "3. Complete form-20230101T000000Z-01523-000/3. Complete form/2023 Tax Return Documents (Casey Foster (synthetic)).pdf": "5871dadec06fa822d69d54da82cbf19674a1c823682db8a86d2a483b60386f76",
+    "3. Complete form-20230101T000000Z-01523-000/3. Complete form/Completed forms - Summary.pdf": "3f91f93da77c190438d89f71c6e5fe2076f51c743c9d0127ea70ed205646e5c5",
+    "4. Executive Summary-20230101T000000Z-01523-000/4. Executive Summary/Executive Summary Casey Foster 2023.pdf": "8d13d466c29b62c40c9ac59ea05d5419b712d911c5a0fdbb8aab7a9acb1c128a"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

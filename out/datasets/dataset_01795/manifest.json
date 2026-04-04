@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-01795-000",
+  "tax_year": 2023,
+  "case_fingerprint": "f980b45c6543072029f85306017547e38169c09c9f4a900128af7dac4b85cf59",
+  "case_json_sha256": "aae52bf3511e6a99607ea52dc26f72fbc1221300959ce03ddbf7c43305a6799e",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-01795-000/1. Client Summary/Client Summary.pdf": "8b4749a55fc0dfcf7c4dcdc92897dfb5b5eefd3dad46f5dd84db0284a9988cc7",
+    "2. Input Documents-20230101T000000Z-01795-000/2. Input Documents/Tax Document Attachments Summary.pdf": "360d911c91f7c331c3549b17880e0b2d62b292e20d03fca0e30c85b7ad09bd2c",
+    "2. Input Documents-20230101T000000Z-01795-000/2. Input Documents/1099- DIV/1099-DIV LAWSON.pdf": "6f310354813cb818c685e0fd630c78633f6c05ddce02ed101dd95588e8381e54",
+    "2. Input Documents-20230101T000000Z-01795-000/2. Input Documents/1099-INT/1099-INT LAWSON.pdf": "fbd9b0aa98f52f91e22bb6206605d1c6d6ddd25d12f5e07dbb3730eb5f8b2f5a",
+    "2. Input Documents-20230101T000000Z-01795-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "07dca4f2584a325647ea8334ea3987c0e988904905ce4b4178e062901ae52548",
+    "2. Input Documents-20230101T000000Z-01795-000/2. Input Documents/Form W-2/Form W-2.pdf": "ee653acf0b27edbb53364c9d26b89e50beb678854172f34e5db0c251d9dacf8d",
+    "2. Input Documents-20230101T000000Z-01795-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "50192da69c19020eab5827f405512190533da97c9fbc444a17bf0a9c11b68840",
+    "2. Input Documents-20230101T000000Z-01795-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "c299e40594743e7f0e101ee882bb292cfd93c997160323a34f5581c2273ba180",
+    "3. Complete form-20230101T000000Z-01795-000/3. Complete form/2023 Tax Return Documents (Morgan Lawson (synthetic)).pdf": "42e671dc7962567dbd6e328d2dfa0456cd021274f18f751d96f5494f67834cdb",
+    "3. Complete form-20230101T000000Z-01795-000/3. Complete form/Completed forms - Summary.pdf": "c35f0d1407832fee48e70f8d3d7a66f146c5e1199ae07e0a4093d66b3ff3e307",
+    "4. Executive Summary-20230101T000000Z-01795-000/4. Executive Summary/Executive Summary Morgan Lawson 2023.pdf": "c40cd910cdfb7d05b3248487fb7d49f287bbc1b64e8c22eb2b4ed660688d848e"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20210101T000000Z-01303-000",
+  "tax_year": 2021,
+  "case_fingerprint": "0ee4c75288832fc2c1c0fee6028eb449e7b0eb52e66b62c8447b4d54d9b9436d",
+  "case_json_sha256": "b4360db93896aa75d0615312ac47b31267e9d225148577455f464428f62443e2",
+  "files_sha256": {
+    "1. Client Summary-20210101T000000Z-01303-000/1. Client Summary/Client Summary.pdf": "68006f31b7dc1a4cc1820bbf575a1f768b889ff6d669343fe3b8333d13e7bcbc",
+    "2. Input Documents-20210101T000000Z-01303-000/2. Input Documents/Tax Document Attachments Summary.pdf": "38f70c91ca118d0c5538ad19f716a07ada7cba3f406f34ccc3e1d2d7b5e9fc64",
+    "2. Input Documents-20210101T000000Z-01303-000/2. Input Documents/1099- DIV/1099-DIV OKORO.pdf": "2ffd74ed3d4cd689abefe110332aefc7a58102e8163d27652ceb3021647f6d7b",
+    "2. Input Documents-20210101T000000Z-01303-000/2. Input Documents/1099-INT/1099-INT OKORO.pdf": "d91d782bfb495d79e2ef213bf8709df5fd22ab880514cdde0a4dd3843532fc47",
+    "2. Input Documents-20210101T000000Z-01303-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2021_.pdf": "09d8df29c16e70f58ba5a9b3e6093253d26a1f9dc3c6d6b5fcaba8a2b1844851",
+    "2. Input Documents-20210101T000000Z-01303-000/2. Input Documents/Form W-2/Form W-2.pdf": "3dd4011fbca36043254c721fff97e78158cf344e9b0e99a5bab7b3477d25589d",
+    "2. Input Documents-20210101T000000Z-01303-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "7bce9bf1ab3cf0eace811c7ccef4af5462b797671af9690e430d1c66110a05c1",
+    "2. Input Documents-20210101T000000Z-01303-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2021.pdf": "76618d5a87bf7dacfaaf6517659469fb6b7647fe14b7fa34ee8c4e0b814809b6",
+    "3. Complete form-20210101T000000Z-01303-000/3. Complete form/2021 Tax Return Documents (Finley Okoro (synthetic)).pdf": "363b84f7ccb89800e56b1720f8593134bc2e851015dbd2a02cfc66ae10d600dc",
+    "3. Complete form-20210101T000000Z-01303-000/3. Complete form/Completed forms - Summary.pdf": "85adbb4b58031403f1a04077068e3afd48067cec4c9d48202f275c8e3ef31f58",
+    "4. Executive Summary-20210101T000000Z-01303-000/4. Executive Summary/Executive Summary Finley Okoro 2021.pdf": "c51b3974195da14266cbf187d4da88544dd12f317c0cee388b33e62fe576ab1e"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

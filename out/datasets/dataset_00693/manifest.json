@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-00693-000",
+  "tax_year": 2023,
+  "case_fingerprint": "9c801f36540a2b5f0e3f8d93f62b4fe3c54a3aeadc4251da2ee0bfd5a1c2942b",
+  "case_json_sha256": "8588d748c57f73f3cd56a15f2e1ac57d8ab44f52379399959b6920b51980c7ff",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-00693-000/1. Client Summary/Client Summary.pdf": "89df22860c3e2450bccdaee4a2db5d454e5e6369f32e509bf962cdc0b086db07",
+    "2. Input Documents-20230101T000000Z-00693-000/2. Input Documents/Tax Document Attachments Summary.pdf": "7b505097c2885860747eaaf42bd26eeb2bb27af0e888842feddc065fc5a2491b",
+    "2. Input Documents-20230101T000000Z-00693-000/2. Input Documents/1099- DIV/1099-DIV PATEL.pdf": "558cf01c8eb0fd1512bc57b0773c4ca43c75138270d80bee536073bff41e4319",
+    "2. Input Documents-20230101T000000Z-00693-000/2. Input Documents/1099-INT/1099-INT PATEL.pdf": "26398bfce0eb2d4ed3fce3a6bf180b339aba25a1a39467929ed0e272669909ca",
+    "2. Input Documents-20230101T000000Z-00693-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "ff625dca7b7fd7319a9d806f71153ea485280862209b2cf423452ea44ef8cdb3",
+    "2. Input Documents-20230101T000000Z-00693-000/2. Input Documents/Form W-2/Form W-2.pdf": "7d3a6b885d4b6b58648d3ec625119ed20ab7d14a7defbf3091f0dfd8eca1baa6",
+    "2. Input Documents-20230101T000000Z-00693-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "2ead63caa4e4b224186b4501bfef23ca7dda06b18299310917543af60206b8a7",
+    "2. Input Documents-20230101T000000Z-00693-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "5b92b54da05682fbb3b58e8fd529fce2673c09b1085814665e3d95d71d0d3ab1",
+    "3. Complete form-20230101T000000Z-00693-000/3. Complete form/2023 Tax Return Documents (Casey Patel (synthetic)).pdf": "8661274bb7b493e302c3cd7a7e1845ef6116146ab105c7bdb194476aebb88bc0",
+    "3. Complete form-20230101T000000Z-00693-000/3. Complete form/Completed forms - Summary.pdf": "ad7b0c6ad9efb2c3f26ae42d270fed75642320978629b63d24ef7eb145a91cf3",
+    "4. Executive Summary-20230101T000000Z-00693-000/4. Executive Summary/Executive Summary Casey Patel 2023.pdf": "5f8aa35f43d38c7d43be8d4dfeafe5bd974a9928806fe76347c036bdf44f3919"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-01772-000",
+  "tax_year": 2024,
+  "case_fingerprint": "1d0456a5553245d9e0f8ad70f0b5958ac6f7c2378571a7ffa28a144a7e520ba0",
+  "case_json_sha256": "e8770928e7950a1748c79de6b9725c2aeaa8f2cfabee5a5f58ca80c279b6f3bd",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-01772-000/1. Client Summary/Client Summary.pdf": "96815bf1fb5d3bfee97d9a272182a1700df4f41a2f3e5e7e8692413cf221c961",
+    "2. Input Documents-20240101T000000Z-01772-000/2. Input Documents/Tax Document Attachments Summary.pdf": "dc44d473e01c2a4c3d636c53639f4bbe31197afd284cee0e5bc34a1310746f31",
+    "2. Input Documents-20240101T000000Z-01772-000/2. Input Documents/1099- DIV/1099-DIV REYES.pdf": "d317452b1537082bfb74592861dffee84e0abc5e274373ac1aac65cbc76730ea",
+    "2. Input Documents-20240101T000000Z-01772-000/2. Input Documents/1099-INT/1099-INT REYES.pdf": "f57651014f661f02912e32bf4b19b096b5682186d671f44314dd3b3cce053ff8",
+    "2. Input Documents-20240101T000000Z-01772-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "cf87a4211011c1fc7fd21bc73d2a6e20e6fcd4f50a19d01c7b0446a068622296",
+    "2. Input Documents-20240101T000000Z-01772-000/2. Input Documents/Form W-2/Form W-2.pdf": "f6ff7a23931e64306e7e98f8cedbbe397aebe0e2e393377e89174e2b384ff4fe",
+    "2. Input Documents-20240101T000000Z-01772-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "6102ed9bebc04a79e7068818102d266dddaaacb6a1ee07fb9d0ffdf788913762",
+    "2. Input Documents-20240101T000000Z-01772-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "cee44d1c739c4af23c3e8740078ecb4c8ed08a309f1ee734dba2f253faff9dc0",
+    "3. Complete form-20240101T000000Z-01772-000/3. Complete form/2024 Tax Return Documents (Dakota Reyes (synthetic)).pdf": "47b4f8ef9e43272163011dd2a6f246351cc035923bfa8b332c2388bee0092914",
+    "3. Complete form-20240101T000000Z-01772-000/3. Complete form/Completed forms - Summary.pdf": "f740065d46c3adb32c65d6f50c8367ee22e22b4ce59903016278e87da04f3408",
+    "4. Executive Summary-20240101T000000Z-01772-000/4. Executive Summary/Executive Summary Dakota Reyes 2024.pdf": "d9e18fe3a2464fa0657e38f826dc620d26ad8c91958979fc8d2039d628afc697"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

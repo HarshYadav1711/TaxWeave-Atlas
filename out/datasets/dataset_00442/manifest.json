@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-00442-000",
+  "tax_year": 2023,
+  "case_fingerprint": "ba159ed6f9e19f2a39989152222adf80d632eae653b03c7b97096c0bd69bcce3",
+  "case_json_sha256": "395d0f854da4e714e3eb5008d571746036688526c2d6d5fe3a28706fcff9301a",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-00442-000/1. Client Summary/Client Summary.pdf": "a87e37f25b34faabcec1e27bcb6c50b2e13c9a4c596e756ef069c8a1cfd1ee3e",
+    "2. Input Documents-20230101T000000Z-00442-000/2. Input Documents/Tax Document Attachments Summary.pdf": "204407880763ae61d81b762c1114e416599330fc52c10880ba4503d0b2dab35e",
+    "2. Input Documents-20230101T000000Z-00442-000/2. Input Documents/1099- DIV/1099-DIV FOSTER.pdf": "c188d7dc132d23c76296c00fb263e51757727c6422f50b36b5d0ba243c0dfb8c",
+    "2. Input Documents-20230101T000000Z-00442-000/2. Input Documents/1099-INT/1099-INT FOSTER.pdf": "b3be531005386c4e462892cf137f943dbceedccbaaf491a014536203f25bfc2e",
+    "2. Input Documents-20230101T000000Z-00442-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "46082af2b508d5662777618249120bb7aa3d1be1db2300b721daac8e94e4844f",
+    "2. Input Documents-20230101T000000Z-00442-000/2. Input Documents/Form W-2/Form W-2.pdf": "7a77bfb388467a6c9ed224c7230f92c7b4f9980680b8a209a5fcaad6b719a9cc",
+    "2. Input Documents-20230101T000000Z-00442-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "8f8009180feb8e0f42addb0b4eef5231a3429d5f8c461fb7983c9d0ee75026c2",
+    "2. Input Documents-20230101T000000Z-00442-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "db2c161b956f23e3e118521fb8e83a6576fc1360648236c510b5fd87da164cc7",
+    "3. Complete form-20230101T000000Z-00442-000/3. Complete form/2023 Tax Return Documents (Dakota Foster (synthetic)).pdf": "eed65b9c1ec9c3413d9a921f088aae9efb6d7924f04f5f85db58d3964352118d",
+    "3. Complete form-20230101T000000Z-00442-000/3. Complete form/Completed forms - Summary.pdf": "2056d597bf3439d94a4797f4e5fe0413b6ccb22fff17b7f94e31443af4a0deea",
+    "4. Executive Summary-20230101T000000Z-00442-000/4. Executive Summary/Executive Summary Dakota Foster 2023.pdf": "353da588884fb42cf9975b53139c6b9478616f4c5c47d72c066f7b2abefb3e73"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

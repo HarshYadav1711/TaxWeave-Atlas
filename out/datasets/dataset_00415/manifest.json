@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-00415-000",
+  "tax_year": 2020,
+  "case_fingerprint": "8cd1efc55e9c90f8dba2abb565b377ac3edd9b48200b887b8af383a34fbc37c0",
+  "case_json_sha256": "a5e43b2f0ccbdd4e885f3e28bf50d025ff021ffaa18ff23802297a832944f45c",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-00415-000/1. Client Summary/Client Summary.pdf": "7809f4a7a6f62964b88fbc8e3eca303164b869e9575d1a33ef90d86e9c1ba5c5",
+    "2. Input Documents-20200101T000000Z-00415-000/2. Input Documents/Tax Document Attachments Summary.pdf": "6d7e98e6a986afbf99d1f63cffa90fe456eb5d53744e0391c4c3a7f096ac8566",
+    "2. Input Documents-20200101T000000Z-00415-000/2. Input Documents/1099- DIV/1099-DIV PATEL.pdf": "be8cd9c2985886f62eb50a83bf091c93aba388b8960977b6b51fb9bcd28ae0fa",
+    "2. Input Documents-20200101T000000Z-00415-000/2. Input Documents/1099-INT/1099-INT PATEL.pdf": "ac791f1958fa0c51c202ec0432740064e0517b3ce4eda8aa4718ddde21072b1d",
+    "2. Input Documents-20200101T000000Z-00415-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "655cb3e23d5933541046ab17befd8c0a1b05e2d998da66c0763aeb463d9bb52d",
+    "2. Input Documents-20200101T000000Z-00415-000/2. Input Documents/Form W-2/Form W-2.pdf": "b5c7e4a47642b207abeb5194c3d13eed3c856c23df2539ca81a42f29453fe545",
+    "2. Input Documents-20200101T000000Z-00415-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "6d442ed1a0c190d04f1c16ecef563f73c7bd84ae5c3c349001749baecbdea0e1",
+    "2. Input Documents-20200101T000000Z-00415-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "78b94db3d1a852fa863f04cbf20cb7482758a7c2ec2522623a5a3b2a3b4e32a6",
+    "3. Complete form-20200101T000000Z-00415-000/3. Complete form/2020 Tax Return Documents (River Patel (synthetic)).pdf": "8c934cdff1ed91353b74d356b8bcab362c4c740e8c61515bd4ab17fc32fc74a6",
+    "3. Complete form-20200101T000000Z-00415-000/3. Complete form/Completed forms - Summary.pdf": "8a78c695f135c582c40b0257587c9cfd536986c462f7f7f726f1132a59256906",
+    "4. Executive Summary-20200101T000000Z-00415-000/4. Executive Summary/Executive Summary River Patel 2020.pdf": "dd1ed1095cdffa42198e949abe91b9cd4522190e164a18b0b569ef56838a06dc"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

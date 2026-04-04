@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-00723-000",
+  "tax_year": 2024,
+  "case_fingerprint": "617a71cf80fe01f85b1ad791f691c8c8259e71f5705e70ebac5e7c002df7e149",
+  "case_json_sha256": "b64af9351902108fdaf9de478d3a49a9ebd3a3f58e9448a46bbcbcf6eedd90b1",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-00723-000/1. Client Summary/Client Summary.pdf": "24d6a9bc10b95829aeb460157c298423a121c98d75d91af9ab16141075ef2b48",
+    "2. Input Documents-20240101T000000Z-00723-000/2. Input Documents/Tax Document Attachments Summary.pdf": "ad6304f40c75fcc7dd624b81b6ee0794d6e827e6b1919aaee940a13c01702050",
+    "2. Input Documents-20240101T000000Z-00723-000/2. Input Documents/1099- DIV/1099-DIV KELLER.pdf": "0d0d09f9bbe812840749503ab3f24326e55d6916ea27f7f063bd337694f7478c",
+    "2. Input Documents-20240101T000000Z-00723-000/2. Input Documents/1099-INT/1099-INT KELLER.pdf": "c350e0c82b8f95d47a1dcfb57f6adff0bab677bb9a8a1413c0eb99307794360e",
+    "2. Input Documents-20240101T000000Z-00723-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "df25531641a40f3bd336871e916ff236064d4074201042a4e8180165ba87469f",
+    "2. Input Documents-20240101T000000Z-00723-000/2. Input Documents/Form W-2/Form W-2.pdf": "c052d3dc6680da4ab9d0c7866106ee036cd21b98bb5384e63ce1b294bf942d17",
+    "2. Input Documents-20240101T000000Z-00723-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "988000c5b7b6a8c9377a6c299cc922343ccf6c67628d0ae047009c109fd1c92e",
+    "2. Input Documents-20240101T000000Z-00723-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "0bbdd0fbc35d71f8e49aec150b0faed1e3b762fee94e98ea1306f6e001e6b8bf",
+    "3. Complete form-20240101T000000Z-00723-000/3. Complete form/2024 Tax Return Documents (Finley Keller (synthetic)).pdf": "42557f8401ab4d90413b56cf919da445ddda0850b2eb0e51b9d192bfe9adeebb",
+    "3. Complete form-20240101T000000Z-00723-000/3. Complete form/Completed forms - Summary.pdf": "a73420c8e3aa505a5bc4b77215af0df82c4fef55d6c5e7b8b86e745c37a40cd7",
+    "4. Executive Summary-20240101T000000Z-00723-000/4. Executive Summary/Executive Summary Finley Keller 2024.pdf": "90f4159a818bcbde40fb7637b6a3954acaa3679c3d8006dab9e1f38c9db19e72"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

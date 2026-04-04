@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-01342-000",
+  "tax_year": 2020,
+  "case_fingerprint": "dabeb15d35aacf13e8c2eb6e55e3b04d5962c48202a4ff68a0c97ec237e33d70",
+  "case_json_sha256": "ccad990f17b55d92c8ae0fef82f33d7fba938a633c3b2fb3569a9d12ad7bc79e",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-01342-000/1. Client Summary/Client Summary.pdf": "3002ea4f1cfa3fb66efb1236640919a0ad902a657b750fa15f8b8d47cba22208",
+    "2. Input Documents-20200101T000000Z-01342-000/2. Input Documents/Tax Document Attachments Summary.pdf": "a420c083c215d8e3112ab7402ba469bb5ca5530c46372b28506ffe30ec0393af",
+    "2. Input Documents-20200101T000000Z-01342-000/2. Input Documents/1099- DIV/1099-DIV JENNINGS.pdf": "434a4890d96a230c5652465f067a43a84b1227173cbe954a6565841c95624c2e",
+    "2. Input Documents-20200101T000000Z-01342-000/2. Input Documents/1099-INT/1099-INT JENNINGS.pdf": "5f256b1f599411f02633ee3b9af82f17ca1e2998f995a82ec31fa2710d98d519",
+    "2. Input Documents-20200101T000000Z-01342-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "7d5cf8d707eb5deee3a3fc6c6e5907ae0c3ddd9c49bfaf2dd9f2f02ea2bf45e0",
+    "2. Input Documents-20200101T000000Z-01342-000/2. Input Documents/Form W-2/Form W-2.pdf": "c3554ba108f529858e5c243195e031132eb13058dff088797d2602631f2eb973",
+    "2. Input Documents-20200101T000000Z-01342-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "e39c5682abe1bc95e87c357d190d6319de144bb5b5e59bc6a56590515c608649",
+    "2. Input Documents-20200101T000000Z-01342-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "667dc259ac74b79de71e78c1e7afa7a83ad0641c459e46d7f1c7636a39e31ea1",
+    "3. Complete form-20200101T000000Z-01342-000/3. Complete form/2020 Tax Return Documents (Quinn Jennings (synthetic)).pdf": "d36ba94584d2d752d58ffb3ca1e9e4e3905f009d7c6f5249f3b47c5c73b5d22c",
+    "3. Complete form-20200101T000000Z-01342-000/3. Complete form/Completed forms - Summary.pdf": "08ccee5e3891337573133441dc8d27364c5afa9a51404d849d107b2ccd2ba7ce",
+    "4. Executive Summary-20200101T000000Z-01342-000/4. Executive Summary/Executive Summary Quinn Jennings 2020.pdf": "8d77dbba7e632c9742080af33d427ddb9cd85debad0d96cc775157eb9c8e4c65"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

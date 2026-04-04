@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-01679-000",
+  "tax_year": 2020,
+  "case_fingerprint": "830f227aab3f23628db0676c8104b929d8a929967aade0771faf4640103a3f6a",
+  "case_json_sha256": "f65e9314f1735ec1f3eef18be77a10b7d20b46722f305a7bc478f1ff9dd9b787",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-01679-000/1. Client Summary/Client Summary.pdf": "6dcccd44f36a0d096ae6944afd39b037460d3f0cb1d463cb75a1b411f02a69c3",
+    "2. Input Documents-20200101T000000Z-01679-000/2. Input Documents/Tax Document Attachments Summary.pdf": "22b27309029e5b1411b3d3f488497c34eadc6636803e1e8725195207bdc29919",
+    "2. Input Documents-20200101T000000Z-01679-000/2. Input Documents/1099- DIV/1099-DIV FOSTER.pdf": "7c751b89da0f03984535c339b64debcf74d86cf73c83e967937a1e4698e21604",
+    "2. Input Documents-20200101T000000Z-01679-000/2. Input Documents/1099-INT/1099-INT FOSTER.pdf": "05a682f38d80e7a9adcbd260bc898fc7c931431de55139c4024f64cd105b9f7a",
+    "2. Input Documents-20200101T000000Z-01679-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "780723f5ef5039b44a1087885ba4e562321a270eddc30162e47389481d7adb9b",
+    "2. Input Documents-20200101T000000Z-01679-000/2. Input Documents/Form W-2/Form W-2.pdf": "e8a8530c497f69822698546a5b8577f876d169fbeff27ba1f2a2a2c0b5d6dcf3",
+    "2. Input Documents-20200101T000000Z-01679-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "9a57de94d4f098365faed43c3f4af06b8fe8a5aa085d7ca8fe6dc961564fe44a",
+    "2. Input Documents-20200101T000000Z-01679-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "0ce015aac63a6f65b6772ebad5d9aaf39ef769e7c3168886b2afdb8205323aca",
+    "3. Complete form-20200101T000000Z-01679-000/3. Complete form/2020 Tax Return Documents (Morgan Foster (synthetic)).pdf": "6271eefc8a55dee4f7874a4c67dac6b20127f406e8e84f273bb63a4f6286a6e4",
+    "3. Complete form-20200101T000000Z-01679-000/3. Complete form/Completed forms - Summary.pdf": "34b91366eb202a4b2b952d73f0e7999a26b963ae54d1423cbb7f1cfae1f3723e",
+    "4. Executive Summary-20200101T000000Z-01679-000/4. Executive Summary/Executive Summary Morgan Foster 2020.pdf": "003388c7aad182a31fc2d1cf6f4a8db64a02f158fafd8ac193819fb5eebd4d0b"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

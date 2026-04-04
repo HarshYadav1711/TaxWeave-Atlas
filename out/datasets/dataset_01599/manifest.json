@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-01599-000",
+  "tax_year": 2023,
+  "case_fingerprint": "16ed78208baaad8149c23346581cfab798c651728fd5c989ed8264a05b3263ba",
+  "case_json_sha256": "c0383f4e2852d659acd20ddb22e60732336e34b8748936961723ede20a003652",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-01599-000/1. Client Summary/Client Summary.pdf": "b3a01f768a78ced152cb91a4c1a35961a81dd98114d3354c9df10c4212f8cf05",
+    "2. Input Documents-20230101T000000Z-01599-000/2. Input Documents/Tax Document Attachments Summary.pdf": "b2b16ca710e2fd7fdc0e91033a59760ec696d12491957d3003d2a33fa017e48f",
+    "2. Input Documents-20230101T000000Z-01599-000/2. Input Documents/1099- DIV/1099-DIV CARTER.pdf": "c221082d865be2a27cccdbd75b3babcbfd82766f68dcc1efa64d9b2056910cbc",
+    "2. Input Documents-20230101T000000Z-01599-000/2. Input Documents/1099-INT/1099-INT CARTER.pdf": "211855d45649932c7cccf8e93376bc75a18b5969bf8942c019f1d73956f782a4",
+    "2. Input Documents-20230101T000000Z-01599-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "71bd6b5402f4dc01631cec04457a8f93c84a0dece9e79d09b119847ae72270b0",
+    "2. Input Documents-20230101T000000Z-01599-000/2. Input Documents/Form W-2/Form W-2.pdf": "2f0c9b272537b258d2d7bff992a02150fea0e82589929c9e7fc0736e568c2669",
+    "2. Input Documents-20230101T000000Z-01599-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "1fdd398eedf59c5922b0c3ae1d374125d070d2620a0284d20cafea794eb42fe2",
+    "2. Input Documents-20230101T000000Z-01599-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "7c5f23f2b816cafcd584930569979c0ad77553af7585d532b568acd0f44328b9",
+    "3. Complete form-20230101T000000Z-01599-000/3. Complete form/2023 Tax Return Documents (River Carter (synthetic)).pdf": "b503d5db8e39e7d5debf76539d9f0c8320675644b444de5d30932ccb64df664a",
+    "3. Complete form-20230101T000000Z-01599-000/3. Complete form/Completed forms - Summary.pdf": "2c4c02a509fcdde756168f4567b94095ff786286726201f36ba14004ddfb13c8",
+    "4. Executive Summary-20230101T000000Z-01599-000/4. Executive Summary/Executive Summary River Carter 2023.pdf": "a58b40393ee6899a35557c1ed826c2670c5bd575d198de323dc524a14eec4b76"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

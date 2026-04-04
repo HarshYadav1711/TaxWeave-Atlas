@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-00789-000",
+  "tax_year": 2023,
+  "case_fingerprint": "1a33ddee073f12e05ac0dbdd89b7e918a889a393a615d1628b788204211585d7",
+  "case_json_sha256": "2fd3e3c1eebe4f2579fe4a1071275e8251c4c3d038f55a0cc2a5ee798f7eeb89",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-00789-000/1. Client Summary/Client Summary.pdf": "71f637a6ca4f6344e13677091da53665a929e1d46d690d25e810f07ac9d696e8",
+    "2. Input Documents-20230101T000000Z-00789-000/2. Input Documents/Tax Document Attachments Summary.pdf": "a0d2f9ff8c34d17ff76b4eed389e10dc0fd08fbdfb79ed5d3291d982b68a25c5",
+    "2. Input Documents-20230101T000000Z-00789-000/2. Input Documents/1099- DIV/1099-DIV BENNETT.pdf": "946c42da6bd647138561b8a657bd2953ca32af54bbcb6efcaf93517151d65730",
+    "2. Input Documents-20230101T000000Z-00789-000/2. Input Documents/1099-INT/1099-INT BENNETT.pdf": "4ae2e58a190f227380e948a2bd9ed248d9ce1b596067f68585664f773dae91c4",
+    "2. Input Documents-20230101T000000Z-00789-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "9baf0eab8ffbce6db88487cc7cf6d9efebbb969a7853c4fa4ed83cbd86cdb048",
+    "2. Input Documents-20230101T000000Z-00789-000/2. Input Documents/Form W-2/Form W-2.pdf": "0dcb941a39a7eafd520477f12333be0fe21597f3b6b45b918966f7487ab04dfc",
+    "2. Input Documents-20230101T000000Z-00789-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "2219b0d0f9e6e908d1a5da786f3fd5d99d4b9f1196463af0948c7b1a11620531",
+    "2. Input Documents-20230101T000000Z-00789-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "864267d6fded38b808f14d35874c52fa16f566ca45504f2853f323ae851aa1ba",
+    "3. Complete form-20230101T000000Z-00789-000/3. Complete form/2023 Tax Return Documents (Sage Bennett (synthetic)).pdf": "bd2ad52a28a64cd27cf81fed009c97f62a171709c02dfed4ce345ef045b45c4c",
+    "3. Complete form-20230101T000000Z-00789-000/3. Complete form/Completed forms - Summary.pdf": "71cede33c7e4732c8e489e80c7926f229e40e3333b3fcf5543e8367d678d5dc3",
+    "4. Executive Summary-20230101T000000Z-00789-000/4. Executive Summary/Executive Summary Sage Bennett 2023.pdf": "8aebf644c267494e7654f96f555f1d4680cc229c8a2048170ba9592c276643aa"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

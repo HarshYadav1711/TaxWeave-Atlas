@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20250101T000000Z-00732-000",
+  "tax_year": 2025,
+  "case_fingerprint": "3709bb2e4321c250e0e6ed50a8ab29d3f1e1c4dc48ad25a08e16e7bd4a799897",
+  "case_json_sha256": "f67664fdfc0a39e29f60f29e76cfb29bf0f6e64d5959503db2a14703dd2c195c",
+  "files_sha256": {
+    "1. Client Summary-20250101T000000Z-00732-000/1. Client Summary/Client Summary.pdf": "502b4b6c942dcd9a486f2a63e3221e6d4f0efed150477cb1934c2b76bec3279e",
+    "2. Input Documents-20250101T000000Z-00732-000/2. Input Documents/Tax Document Attachments Summary.pdf": "2c8ab631b83497cd28774bdb325ecefb97bb6f7ce125d83ed44792a26b637427",
+    "2. Input Documents-20250101T000000Z-00732-000/2. Input Documents/1099- DIV/1099-DIV SULLIVAN.pdf": "18069bb6ef1e8ace04b5ec59ff61c30cd4cad5d6dee98f07e88c1b8d4244e427",
+    "2. Input Documents-20250101T000000Z-00732-000/2. Input Documents/1099-INT/1099-INT SULLIVAN.pdf": "b8e77b3292171ea3aec441c79e8da6f8625bae6a976aafffcd84c0d43f9d5954",
+    "2. Input Documents-20250101T000000Z-00732-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2025_.pdf": "896e9c211e1f0acd0c79cc710182094c7534bd30dbc74651ea7d78922307a779",
+    "2. Input Documents-20250101T000000Z-00732-000/2. Input Documents/Form W-2/Form W-2.pdf": "2c8d2b3b99cbb4be7500d6aa3f3834b3b30308c636d36c0ecf2b9a7470da1b92",
+    "2. Input Documents-20250101T000000Z-00732-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "f22a5115350bb7b00e6e5d6a542e2c6ddc3e287bb4e6d87dfe9c80c989d8284d",
+    "2. Input Documents-20250101T000000Z-00732-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2025.pdf": "2c9f0519c176d0d06de3729dc6a60ee28807d954540eb7776bd8652558b5a44b",
+    "3. Complete form-20250101T000000Z-00732-000/3. Complete form/2025 Tax Return Documents (Casey Sullivan (synthetic)).pdf": "7d39c2c484d4724f77b0b1d2e7348c816c22f29fc55e5a88bd87a6fa4748eefe",
+    "3. Complete form-20250101T000000Z-00732-000/3. Complete form/Completed forms - Summary.pdf": "ce7b7b21dd51dfe811aa87a2118f23cfa827773851800ad898731b5b7a388384",
+    "4. Executive Summary-20250101T000000Z-00732-000/4. Executive Summary/Executive Summary Casey Sullivan 2025.pdf": "b94b601ad11c00950c6572146263efc7e845d7dd231a29dacaf0c157bdce5c5f"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

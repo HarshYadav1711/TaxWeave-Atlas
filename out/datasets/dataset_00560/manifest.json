@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-00560-000",
+  "tax_year": 2023,
+  "case_fingerprint": "f21d89982573d49dd8f6e490f5ec1b3370c9faeee3614a29fb41981f75db48ea",
+  "case_json_sha256": "af4526ce28077927efcc6913a295870c3cbd0cb38967495c4156df5db2b75866",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-00560-000/1. Client Summary/Client Summary.pdf": "af24007e60992fa02a601e8494b7108435c64d162c4972f6a9969d66dce1a313",
+    "2. Input Documents-20230101T000000Z-00560-000/2. Input Documents/Tax Document Attachments Summary.pdf": "fdffe29d3d15b7f0d8bfbf71cbca1aed054d1255e1e9ed131985c22f5aa1e6de",
+    "2. Input Documents-20230101T000000Z-00560-000/2. Input Documents/1099- DIV/1099-DIV OKORO.pdf": "5a31812c20da6bd116867aad531e1e75ad4f7da690ee4d37aad35a3cba5ea9a6",
+    "2. Input Documents-20230101T000000Z-00560-000/2. Input Documents/1099-INT/1099-INT OKORO.pdf": "b4035475e65a2a484aacd6a4d9295cf395fd9739e1c84f40540c7573e65dcc1f",
+    "2. Input Documents-20230101T000000Z-00560-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "98f36dd51efd9d6a6583f2b56b5c6b93d30b5196e11b1e0b39aad858cef4ceec",
+    "2. Input Documents-20230101T000000Z-00560-000/2. Input Documents/Form W-2/Form W-2.pdf": "0289fec4d742d9b9a44bc115cbcb607bc28f023b6c08440115143d6d688e3663",
+    "2. Input Documents-20230101T000000Z-00560-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "7d7fa3e7a96b60350e6e38cf7291aa82831a0e1d84786dedefb6ae8a802fec4f",
+    "2. Input Documents-20230101T000000Z-00560-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "bac4e17a3eda39f99509344c9f743a4318fa86fcb3e0d320e706d051e03eb0f7",
+    "3. Complete form-20230101T000000Z-00560-000/3. Complete form/2023 Tax Return Documents (Dakota Okoro (synthetic)).pdf": "d529261b89bbdac0fef7781868fa0977c999a8388c61c540de7f6d0ee3118604",
+    "3. Complete form-20230101T000000Z-00560-000/3. Complete form/Completed forms - Summary.pdf": "5ff44d71b919aa61bb67a400b50b69fd47aa417820929b81610a427b937423fc",
+    "4. Executive Summary-20230101T000000Z-00560-000/4. Executive Summary/Executive Summary Dakota Okoro 2023.pdf": "c0fb6178631d546d7c2d1424730701a8e5cd7939b97599ca7cfb1b3487dc2c7d"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

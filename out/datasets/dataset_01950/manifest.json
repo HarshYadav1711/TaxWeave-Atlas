@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20250101T000000Z-01950-000",
+  "tax_year": 2025,
+  "case_fingerprint": "05f89956719d31f8715dc298357d4e71b50fc1122f84634a6ed5e2521d6ffa7e",
+  "case_json_sha256": "4f9a913938e39e1daddb31d47381f4493814d6b283e3a72fedeccd73c7c63877",
+  "files_sha256": {
+    "1. Client Summary-20250101T000000Z-01950-000/1. Client Summary/Client Summary.pdf": "a1d21e1679ea898887124c55ffe490552d9b2f6b6acb25a02f5471fa1eda23d3",
+    "2. Input Documents-20250101T000000Z-01950-000/2. Input Documents/Tax Document Attachments Summary.pdf": "9b39b5c118e716e30d10c67900045fafe2be62d3e1f745262815ed56925fd3d9",
+    "2. Input Documents-20250101T000000Z-01950-000/2. Input Documents/1099- DIV/1099-DIV KELLER.pdf": "5adfb4f490c02f37b870a9a22bb1e2f639dff3100c366c2bb0a6bee0f90b3dad",
+    "2. Input Documents-20250101T000000Z-01950-000/2. Input Documents/1099-INT/1099-INT KELLER.pdf": "afa144bf0789a1056b4c60536caae274e7436326c831d68197bb5f624f663caa",
+    "2. Input Documents-20250101T000000Z-01950-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2025_.pdf": "ba5e8ad6eb58ee9067d5b8722295a7a58b7bdedea00b8a8ebf74973b40360931",
+    "2. Input Documents-20250101T000000Z-01950-000/2. Input Documents/Form W-2/Form W-2.pdf": "8d8968a32f0bfd29846b8a21ad635afd1783a39025a07286570b76b9666fbaee",
+    "2. Input Documents-20250101T000000Z-01950-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "a28a71bc9e35cf211557e0486fe8eed4c615386742b4aea979b5b56c037c0d91",
+    "2. Input Documents-20250101T000000Z-01950-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2025.pdf": "e45f3c543cc448003e7001ab3619a66f7c8961229b2780131ee4dbdde369bd79",
+    "3. Complete form-20250101T000000Z-01950-000/3. Complete form/2025 Tax Return Documents (Casey Keller (synthetic)).pdf": "f22bc4f89dad12c9286f563bce0eaa23a6fd2477004fa9909efb76c378b91a8b",
+    "3. Complete form-20250101T000000Z-01950-000/3. Complete form/Completed forms - Summary.pdf": "b28f16beb35ba8b8b862b9ef6c9f9073e7c4f1fd58164c51c9387834da21f2d0",
+    "4. Executive Summary-20250101T000000Z-01950-000/4. Executive Summary/Executive Summary Casey Keller 2025.pdf": "eb56913a03fe9ff445af19438e41a3df8901a8ded3cba6fb16c9835ec7a70945"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

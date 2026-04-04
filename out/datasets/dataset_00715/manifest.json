@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-00715-000",
+  "tax_year": 2024,
+  "case_fingerprint": "0455ba7a220a0a93d20a0dc6116a665ceeb16f5a394f2d7394718a685dc695e6",
+  "case_json_sha256": "3807133cba790b12907a1bfeeec4edf287cba71af1445d7c5d10767c4a4ffc9e",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-00715-000/1. Client Summary/Client Summary.pdf": "4411db9de9830682b9b2ab32f4d2140a6fa8a8cab4da3d79178a17112c90cc8b",
+    "2. Input Documents-20240101T000000Z-00715-000/2. Input Documents/Tax Document Attachments Summary.pdf": "8c106bb349501cb471c01b94c8f991739eac91538b758d1b1e7779bfbce0fbe2",
+    "2. Input Documents-20240101T000000Z-00715-000/2. Input Documents/1099- DIV/1099-DIV HAYES.pdf": "7b24c2a36bd4eb384d11049cd2b798bdc010f2f159d2e8c61eb7559003bbd90b",
+    "2. Input Documents-20240101T000000Z-00715-000/2. Input Documents/1099-INT/1099-INT HAYES.pdf": "2c144b540e68a9f3d9212b729593bbb346b709ac4e9642735e3b145dc9080a2d",
+    "2. Input Documents-20240101T000000Z-00715-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "e5efea7b5f19a15c8dec0185bb0c7060eba2ae7eb512a2d82e91b1ba55c239d6",
+    "2. Input Documents-20240101T000000Z-00715-000/2. Input Documents/Form W-2/Form W-2.pdf": "b08d2be9dbb6b59295e1ff080a6f321dee42e879acf79efcd0132b90df7da54a",
+    "2. Input Documents-20240101T000000Z-00715-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "e3bfa1c67435aff6cc9000d5be9f20a2879523b94e471b98b9a93f2031e6fa8b",
+    "2. Input Documents-20240101T000000Z-00715-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "70bcb660f32000af71353b51ad9b5ddaffe6e401a002d7e52d6d4d372b86bd68",
+    "3. Complete form-20240101T000000Z-00715-000/3. Complete form/2024 Tax Return Documents (Avery Hayes (synthetic)).pdf": "c1e2ac6160d983a40244df27f0837741fbf56c0313f1e546615a5a5c3b7fa542",
+    "3. Complete form-20240101T000000Z-00715-000/3. Complete form/Completed forms - Summary.pdf": "67e9946002840e1da05d101d4b60fd53068343025d73a95f6f51b77a1578d520",
+    "4. Executive Summary-20240101T000000Z-00715-000/4. Executive Summary/Executive Summary Avery Hayes 2024.pdf": "b688f2e46325d58a0958ce86922babfc105b247f6f5bbe6115024a302aa80b00"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

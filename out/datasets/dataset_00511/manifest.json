@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-00511-000",
+  "tax_year": 2022,
+  "case_fingerprint": "4a1ce2a60b06b5f033834a40c70fee7282e6bd65f5ca8a2eaa735f559665e0e9",
+  "case_json_sha256": "8a610ca731358d1bb06cdc99f7856115a2047ea9c795c6a908f5d0c497e3f6c7",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-00511-000/1. Client Summary/Client Summary.pdf": "0846b479aff10a51b7df050d733ccb7baa01ad210ad12d2b1d82daa62e9ff1f0",
+    "2. Input Documents-20220101T000000Z-00511-000/2. Input Documents/Tax Document Attachments Summary.pdf": "061039417341dcd776a583e77f608fc7a73fe47d64ff8620770e1b3ff967ed20",
+    "2. Input Documents-20220101T000000Z-00511-000/2. Input Documents/1099- DIV/1099-DIV DIAZ.pdf": "961b5b876e6bca1d5f281de71f555adcc7682530a9e3d6fe2650cfe24a113117",
+    "2. Input Documents-20220101T000000Z-00511-000/2. Input Documents/1099-INT/1099-INT DIAZ.pdf": "b7258cb786c5e79a929d993161f27d2f11bae33949d15614b260ab07a7ca678a",
+    "2. Input Documents-20220101T000000Z-00511-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "25243abea99546e118ae57b76e197e12af7c53a45d268f3de3ae1a1ba4c101f2",
+    "2. Input Documents-20220101T000000Z-00511-000/2. Input Documents/Form W-2/Form W-2.pdf": "3398141891c4203fa234471542116e2457b3e53e6728a4de27d869008f0c8589",
+    "2. Input Documents-20220101T000000Z-00511-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "2e7dcd6413a0c38f9e0db46d4b181f266b785fc66afeda22a20c3120ce7972b2",
+    "2. Input Documents-20220101T000000Z-00511-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "3e220a610d06fe1a073826786eb43366cedcbcfd19455e8036043b9317c6d043",
+    "3. Complete form-20220101T000000Z-00511-000/3. Complete form/2022 Tax Return Documents (River Diaz (synthetic)).pdf": "41a0f8d0ac749182f4f021e498eb09e669d0df6b7b1c4f406cd73779fa7b076e",
+    "3. Complete form-20220101T000000Z-00511-000/3. Complete form/Completed forms - Summary.pdf": "958dcf71b616f9a1aec88935bc160091afd6939ef463e6e9275bd1f929ae88bd",
+    "4. Executive Summary-20220101T000000Z-00511-000/4. Executive Summary/Executive Summary River Diaz 2022.pdf": "a26c76db807501447e7fa0d20b7801efa49c8bf3c8cd33f9026ea6bfec4fe7bb"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

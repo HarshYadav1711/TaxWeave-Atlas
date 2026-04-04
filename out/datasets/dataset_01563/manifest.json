@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-01563-000",
+  "tax_year": 2023,
+  "case_fingerprint": "147460226c49197335cbedd8afb55c11197f80dbcebeddaf06e927dc8e68f652",
+  "case_json_sha256": "23fe3a0d0da1f52e58032fea517760d02366eddeb464346bf73b3671fbcf10d7",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-01563-000/1. Client Summary/Client Summary.pdf": "1fdfb8406bc565091377efa85f41b3734ccb37e38ffd3e2d0bebce06e6c8593c",
+    "2. Input Documents-20230101T000000Z-01563-000/2. Input Documents/Tax Document Attachments Summary.pdf": "c149ff3a90633c50032e5eb454d98554a969eed2a374ad4b9c6b1075095101e3",
+    "2. Input Documents-20230101T000000Z-01563-000/2. Input Documents/1099- DIV/1099-DIV FOSTER.pdf": "fc30dfd341638645207a18b586f08f2628b02463c9a7e2d99fda829df0ed93c6",
+    "2. Input Documents-20230101T000000Z-01563-000/2. Input Documents/1099-INT/1099-INT FOSTER.pdf": "28aebd9ea7a30bb1c8d7777ca60c25d3d465e82a9e8e2494bd0db43e93369ef8",
+    "2. Input Documents-20230101T000000Z-01563-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "0e5b21157567e0ea6a1aa22312967fe2fb4231973de60d0f9e8ce124e9dd9cb0",
+    "2. Input Documents-20230101T000000Z-01563-000/2. Input Documents/Form W-2/Form W-2.pdf": "d1ad705e29f79c1f7424e257f6e8bc739217338dfc28cd417f898bdd05108697",
+    "2. Input Documents-20230101T000000Z-01563-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "65343f8c904a743ab053832076861ba44be25f6da56ddb331d170dc4a8f6ee27",
+    "2. Input Documents-20230101T000000Z-01563-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "368cda77f9dd21ab609517859f7d43a9fc69b7131f3ede6ea1a930c3947cb414",
+    "3. Complete form-20230101T000000Z-01563-000/3. Complete form/2023 Tax Return Documents (Rowan Foster (synthetic)).pdf": "38cccb531f895d8852bb27c7b0a3f9971c7d58228b4ea06c6a3b3d3b4bf0f2c2",
+    "3. Complete form-20230101T000000Z-01563-000/3. Complete form/Completed forms - Summary.pdf": "2283fc16ceaa8d40a240495d7189c75a4c5372a3ab91aff8d5fa3669a5ce1249",
+    "4. Executive Summary-20230101T000000Z-01563-000/4. Executive Summary/Executive Summary Rowan Foster 2023.pdf": "297a2c72631145a5e4fe1f62472c1be66f67a12dc4449120b51ca4fc662ed512"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

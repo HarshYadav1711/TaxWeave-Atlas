@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20210101T000000Z-01444-000",
+  "tax_year": 2021,
+  "case_fingerprint": "b1f64b83a0a445524a058ea988e474c9344f66b8c7e8eec157da0409444b99e0",
+  "case_json_sha256": "1d018c330d5a89894bf5ecc874114a1e27ee24d43423e08e9858677056f0f671",
+  "files_sha256": {
+    "1. Client Summary-20210101T000000Z-01444-000/1. Client Summary/Client Summary.pdf": "236b8bac392b9e372b76bb0afc653cbbbba8d896db9b96fab37c38c22fcaf096",
+    "2. Input Documents-20210101T000000Z-01444-000/2. Input Documents/Tax Document Attachments Summary.pdf": "b20b4070ea776e3fa672e5a2882f5f8f4d302c4b58bd09e9621b9399537934a8",
+    "2. Input Documents-20210101T000000Z-01444-000/2. Input Documents/1099- DIV/1099-DIV PATEL.pdf": "e1642b9cb9822717e0621a7b5e50227c84fa03d8d46265c20bd4d9e81de8e50b",
+    "2. Input Documents-20210101T000000Z-01444-000/2. Input Documents/1099-INT/1099-INT PATEL.pdf": "f7d8000def68ea60cd89dc2498f04a965b03251c40c6c1418c6e2c32eef5abc4",
+    "2. Input Documents-20210101T000000Z-01444-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2021_.pdf": "6e95a49db875f7905f2f9d38ecdfccdf75c5a44a9d208b12a4f767abcc02ee7e",
+    "2. Input Documents-20210101T000000Z-01444-000/2. Input Documents/Form W-2/Form W-2.pdf": "46a6d38c9e951a6df739b4ecaadc41d75abf2619a7fa7dc7d4066311fe3deaf8",
+    "2. Input Documents-20210101T000000Z-01444-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "057c71a77faebf2c03f435ead3c56a29466d42d8e0da429ab222df3c43ac36ed",
+    "2. Input Documents-20210101T000000Z-01444-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2021.pdf": "ae7d33fdac2276274ef94dd96beff65ecd159519b8f0fc8c9052aa6263a4423c",
+    "3. Complete form-20210101T000000Z-01444-000/3. Complete form/2021 Tax Return Documents (Sage Patel (synthetic)).pdf": "a162590ea9e435d1446342a258b1fe973f1ab7a199be4a30448b86ef026d7a27",
+    "3. Complete form-20210101T000000Z-01444-000/3. Complete form/Completed forms - Summary.pdf": "9ac5ab1c59b7bd20e50d2cdb6c86caaf4f6c0287a19769a6d185dc9452f34498",
+    "4. Executive Summary-20210101T000000Z-01444-000/4. Executive Summary/Executive Summary Sage Patel 2021.pdf": "b4f2bd357dd056f6744ff2d78094ad3102dbdcaeba62ef50328c5acc02c43054"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

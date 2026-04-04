@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20250101T000000Z-01456-000",
+  "tax_year": 2025,
+  "case_fingerprint": "9804062ee4defa0f73089938ee2cc56e9594d246a0284dc9a237673d3113c461",
+  "case_json_sha256": "bd9475493c4b02f44bd40810a7ddb2889c09c266d5ab97151c558b7fce63c2cd",
+  "files_sha256": {
+    "1. Client Summary-20250101T000000Z-01456-000/1. Client Summary/Client Summary.pdf": "560c40301a2a3bdfe029519e56b8bc4d7ee2bc5698cd218c05f64d15756c7ef5",
+    "2. Input Documents-20250101T000000Z-01456-000/2. Input Documents/Tax Document Attachments Summary.pdf": "600907d2a5ebd39f1873a03b28453edc239eca6f65464ce46397c2dec819277b",
+    "2. Input Documents-20250101T000000Z-01456-000/2. Input Documents/1099- DIV/1099-DIV CARTER.pdf": "1966cfb5539e9c4e18e1f6d4ba5d90a00456d5ec0d00fb14a0d9a7ac44b1ed8e",
+    "2. Input Documents-20250101T000000Z-01456-000/2. Input Documents/1099-INT/1099-INT CARTER.pdf": "d908b896cbbcd2de2ea04153a1dff22e70efcedf84f529bbdf75d3c3e20a1683",
+    "2. Input Documents-20250101T000000Z-01456-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2025_.pdf": "c66529f17b0318d14a8c47f42174bc6df8e972cefc2f097fb78208f8195fdb6b",
+    "2. Input Documents-20250101T000000Z-01456-000/2. Input Documents/Form W-2/Form W-2.pdf": "cf449697289b5411810bfb612eb86bfb39ee72a0ae25843bafe81eb4badaa7e7",
+    "2. Input Documents-20250101T000000Z-01456-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "6a1f510c5d92f4b26625bd3916b6be117694f3c33a1eaa56606545dd5ba62f17",
+    "2. Input Documents-20250101T000000Z-01456-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2025.pdf": "e7a9cf0e8ffcbef1b4705dbf720bec37b625d51b318a07286dcc35e13ae6ac9c",
+    "3. Complete form-20250101T000000Z-01456-000/3. Complete form/2025 Tax Return Documents (Dakota Carter (synthetic)).pdf": "7ee5b06dc161d822ead5abece47e4ceef5ba7a4162db74a74827a05be2564859",
+    "3. Complete form-20250101T000000Z-01456-000/3. Complete form/Completed forms - Summary.pdf": "750d55f1020935f260bf7c5ad0919373d875e677d2c973ce63b104f0ed8deeff",
+    "4. Executive Summary-20250101T000000Z-01456-000/4. Executive Summary/Executive Summary Dakota Carter 2025.pdf": "bedaeb50b9476a671a732bde7cd7768cbde3f9ae24e4cf84e5dd24efe9ec66af"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

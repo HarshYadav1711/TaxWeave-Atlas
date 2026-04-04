@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-00459-000",
+  "tax_year": 2022,
+  "case_fingerprint": "22b654ba1ef7dd3199da84a79c8b692cd5bc3107cd9d5f8d8045e57da5538a73",
+  "case_json_sha256": "9d1d0395cc32c035afead0529275711de594e9063ff6a2f2915de3a08d4ca86a",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-00459-000/1. Client Summary/Client Summary.pdf": "a730126c714dfe09526f80cbc7a3a23d6d928dd62c66a0eb31fa2b440bdaa41d",
+    "2. Input Documents-20220101T000000Z-00459-000/2. Input Documents/Tax Document Attachments Summary.pdf": "497758b605c0300a5f17c9bd3267136c58339f7d29c0c20ad32174578a352169",
+    "2. Input Documents-20220101T000000Z-00459-000/2. Input Documents/1099- DIV/1099-DIV NAVARRO.pdf": "64ebea5f63068055638b6577188965fc1a6327e607b16a8904ec98c6f168e116",
+    "2. Input Documents-20220101T000000Z-00459-000/2. Input Documents/1099-INT/1099-INT NAVARRO.pdf": "9036a3990ada0003d77a7cb99ce09ec6ebbf1c929d373ba5ba0e0841f3a20f22",
+    "2. Input Documents-20220101T000000Z-00459-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "d6973dba07489c9b467bb8c02f9870fa475007bc6bda89bb6695633667cde772",
+    "2. Input Documents-20220101T000000Z-00459-000/2. Input Documents/Form W-2/Form W-2.pdf": "236244231521e0a2a24b708dbd3d159ed24685e67c9313c85dad89b3a198071e",
+    "2. Input Documents-20220101T000000Z-00459-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "a6fe6b63f58eefe38e9316295ac50fe725c19e437719cdf38583310dd363a284",
+    "2. Input Documents-20220101T000000Z-00459-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "02d8de8b6e53983cb55ed14c6dd8c8c0ce70e4adae39fb875503e81646dbf20b",
+    "3. Complete form-20220101T000000Z-00459-000/3. Complete form/2022 Tax Return Documents (Rowan Navarro (synthetic)).pdf": "c7b1b37f0342cf881f4fbac80da9493e668a7aeb4e08428ae738f052e79d799a",
+    "3. Complete form-20220101T000000Z-00459-000/3. Complete form/Completed forms - Summary.pdf": "d1d732bb239ead6cb5a7bafa2c55de8e12b36e4824d7254db17793cc27d4ec5b",
+    "4. Executive Summary-20220101T000000Z-00459-000/4. Executive Summary/Executive Summary Rowan Navarro 2022.pdf": "aa23ad863d4b2e119be42bee6c445fb0f277595b2de0d91889ceef879525efb1"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

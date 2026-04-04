@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-01600-000",
+  "tax_year": 2022,
+  "case_fingerprint": "b8987492406d8e648819d246c2fe756373765ec87dacfac9e130dab72adc9b4a",
+  "case_json_sha256": "1b07f67734d1b50c31f919b8ae80b3d4a06a5373ec596f99e287f29a5bc2803a",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-01600-000/1. Client Summary/Client Summary.pdf": "ff10cee52f77b9e9bc5bf328a91b056725d70ffdbc4062fc173eee8ccf7fb408",
+    "2. Input Documents-20220101T000000Z-01600-000/2. Input Documents/Tax Document Attachments Summary.pdf": "a424078604cc4ed7f8080b6cc506566195c5099734a66ba626a2b2d98943add6",
+    "2. Input Documents-20220101T000000Z-01600-000/2. Input Documents/1099- DIV/1099-DIV OKORO.pdf": "3fd9ad480c4e2c062d6ecdddf7d1ab9e465f51a5c35eb0948abf782a44aff13d",
+    "2. Input Documents-20220101T000000Z-01600-000/2. Input Documents/1099-INT/1099-INT OKORO.pdf": "37698e6676a96917de64a649df01d082109e1671ce8a2eb1b841a32323c31fcf",
+    "2. Input Documents-20220101T000000Z-01600-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "2fb32256316f32ff3b5413f90a645b8d004216eda9192a04e40bddf21b328c68",
+    "2. Input Documents-20220101T000000Z-01600-000/2. Input Documents/Form W-2/Form W-2.pdf": "1a140fb89e392d5965e4d3233eed5925162e06b23b64d16767eb68aab6171221",
+    "2. Input Documents-20220101T000000Z-01600-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "3c11eeeef21d16711679c85cd233656ac0113e37c9a2db718258fbc83d8b3c3b",
+    "2. Input Documents-20220101T000000Z-01600-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "202476966f278ecaf99b2a55ea0617dbb7cd1e682b4aaa3a04e3ce5bbc1215cb",
+    "3. Complete form-20220101T000000Z-01600-000/3. Complete form/2022 Tax Return Documents (Sage Okoro (synthetic)).pdf": "af8d7e4c9a90c03274aef3a2027e6a05647f8358b1e7bc4330ebc0fa3770da88",
+    "3. Complete form-20220101T000000Z-01600-000/3. Complete form/Completed forms - Summary.pdf": "ae3167fd1ac5b2a4a9cdd28e5571ec7345d335e7b403b48a631db7694651dff9",
+    "4. Executive Summary-20220101T000000Z-01600-000/4. Executive Summary/Executive Summary Sage Okoro 2022.pdf": "ba659af33b0606c99897a0283d184a2fd4db3173691135be3537081fb7b2444f"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

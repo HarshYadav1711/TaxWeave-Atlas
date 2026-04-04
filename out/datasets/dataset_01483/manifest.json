@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-01483-000",
+  "tax_year": 2020,
+  "case_fingerprint": "94a43ff3f356be225a1ce4563903106ea440cb47f5876c31289770a82867be3c",
+  "case_json_sha256": "2e03ea5e7d2c37bbf53e366a8b43955d1b43824e91bcefd114a6b40eb40088f8",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-01483-000/1. Client Summary/Client Summary.pdf": "928fb7019905fa0b006d76aadb7255c788d0683f926d45d4ed41390fda86e2e3",
+    "2. Input Documents-20200101T000000Z-01483-000/2. Input Documents/Tax Document Attachments Summary.pdf": "c8d67b7066bf49dffd52567afe5c3d789b57aa1db0a3d972063f8e6f71e7c69e",
+    "2. Input Documents-20200101T000000Z-01483-000/2. Input Documents/1099- DIV/1099-DIV OKORO.pdf": "ec0a2a83757a66f78c1a3510a11e62de8ca8d466fa13af25cc81f9452379460a",
+    "2. Input Documents-20200101T000000Z-01483-000/2. Input Documents/1099-INT/1099-INT OKORO.pdf": "4520a4ca8dde9a608955434e1c43037d2e8029f14a41838a24f8bf96e8c9e751",
+    "2. Input Documents-20200101T000000Z-01483-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "9548e0f9af0005a293885ecf73e23eb3bbb812f5dc77e62843717b3009ebe2ea",
+    "2. Input Documents-20200101T000000Z-01483-000/2. Input Documents/Form W-2/Form W-2.pdf": "57b958ad1361136d62fb8d52434bd566d13ee1fdfe4572648cc236599ebec4e8",
+    "2. Input Documents-20200101T000000Z-01483-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "f5b2fa5e0eee03b119d4b5b7e0d3e87368884340906283adc052c06206d5df48",
+    "2. Input Documents-20200101T000000Z-01483-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "094a3a8188ef198d8139da7379330f076d366beec2de63958040501ff8a086cf",
+    "3. Complete form-20200101T000000Z-01483-000/3. Complete form/2020 Tax Return Documents (Parker Okoro (synthetic)).pdf": "651547fd4efaa7f9c0e3a076eebbcdcc42735aa8ef1288a3c99826fa534e5f7a",
+    "3. Complete form-20200101T000000Z-01483-000/3. Complete form/Completed forms - Summary.pdf": "4d9c7030a3fce82e4931c012ac6437489b7e68c69a1093980a6a45e3fcccd6c9",
+    "4. Executive Summary-20200101T000000Z-01483-000/4. Executive Summary/Executive Summary Parker Okoro 2020.pdf": "401edc856a3e5cea44df0fc10512b2911cd2f6df0b2fe9cd4567289793e25b55"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

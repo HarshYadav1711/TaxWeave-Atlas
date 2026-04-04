@@ -6,17 +6,17 @@
   "case_fingerprint": "6c5bc1459434610c524441dd7c25cc59ea1b7df20e5bfc467b816439f15f194d",
   "case_json_sha256": "46684352c4819221b4225e51f829a945301ebdb3e036ed9efd2a59215535721c",
   "files_sha256": {
-    "1. Client Summary-20230101T000000Z-00064-000/1. Client Summary/Client Summary.pdf": "d4ce086c6cbd855ed6bf01dd3c4376442d2e096fa2edf3ffaf5be706c30a0faf",
-    "2. Input Documents-20230101T000000Z-00064-000/2. Input Documents/Tax Document Attachments Summary.pdf": "f340291d47578ba8d4f0811f88cafece67ec5857e076b3cf2c2f79f74706ea42",
-    "2. Input Documents-20230101T000000Z-00064-000/2. Input Documents/1099- DIV/1099-DIV HAYES.pdf": "34413cd802ec40a8a6e61c26dd33be20e383a9ae8921bd39bee432e35d73a7cb",
-    "2. Input Documents-20230101T000000Z-00064-000/2. Input Documents/1099-INT/1099-INT HAYES.pdf": "2c9f96ae1f8b1eb47c4bffe861cf3bf7bfcb820b9b5760ae0dda89edf68b82d2",
-    "2. Input Documents-20230101T000000Z-00064-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "8203b0efc9bc8b90affc25e3df2bec78c1443c5149a5bbb75919fd3a43b7665b",
-    "2. Input Documents-20230101T000000Z-00064-000/2. Input Documents/Form W-2/Form W-2.pdf": "e37cb92cac414f8553b9a62afffd1be88a610312cec4f99f6ffb49722bed609a",
-    "2. Input Documents-20230101T000000Z-00064-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "72bbe5165f5f4307ab2d916563c6d3c661d9d0b877fa19a64f5526c75722e5c2",
-    "2. Input Documents-20230101T000000Z-00064-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "f3a7b6c7f8009d659a9c63155d0da0e077ca7c8852d0253d6dfa4dbb7e5b6e7e",
-    "3. Complete form-20230101T000000Z-00064-000/3. Complete form/2023 Tax Return Documents (Jordan Hayes (synthetic)).pdf": "5157a5daa494344873d0e17d67ed3846ad791da6dfc227666238168b77d99a57",
-    "3. Complete form-20230101T000000Z-00064-000/3. Complete form/Completed forms - Summary.pdf": "e64a08709425d60df1872c504bc782e045fdf302a17fc5c89c816a9019eca621",
-    "4. Executive Summary-20230101T000000Z-00064-000/4. Executive Summary/Executive Summary Jordan Hayes 2023.pdf": "9648e43688aef889a331f2766751a9e02a7f3689982acc94a751d514ff6b2c16"
+    "1. Client Summary-20230101T000000Z-00064-000/1. Client Summary/Client Summary.pdf": "15bc951049733878a0fab73daf5bfc4e5b644f2ee8e15e223fdd41264483c6e3",
+    "2. Input Documents-20230101T000000Z-00064-000/2. Input Documents/Tax Document Attachments Summary.pdf": "ef51afe9c91936bc607b48856f120aaf18b1ffac99690ef7116fc5db6c3091a6",
+    "2. Input Documents-20230101T000000Z-00064-000/2. Input Documents/1099- DIV/1099-DIV HAYES.pdf": "73fa0d3ec2c6f8672a2f7d2970cacfa7a4ee81110a8d0d4abc51223238daa78b",
+    "2. Input Documents-20230101T000000Z-00064-000/2. Input Documents/1099-INT/1099-INT HAYES.pdf": "e37162e443f0265c663fb1244f66d651f329f5001ff445eb2a21c95f8cd559d8",
+    "2. Input Documents-20230101T000000Z-00064-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "0adf80288517dcb4084f0a718b03d9db29c6ee9a3e41f14b8432aa818c114ba7",
+    "2. Input Documents-20230101T000000Z-00064-000/2. Input Documents/Form W-2/Form W-2.pdf": "a3f7e2a24812184821f4e76e0c8ae71c52f87e626f2e9fa8bc62ccd1f8d4f91a",
+    "2. Input Documents-20230101T000000Z-00064-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "b8fdeb8dc1597eda07af445cbe820f7c63db1e1d4ce1d0a923f7177848e71c2b",
+    "2. Input Documents-20230101T000000Z-00064-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "0b92677cebe73b22c928213a281cabc41725aa409c244ff7b381b9b4fa7c191c",
+    "3. Complete form-20230101T000000Z-00064-000/3. Complete form/2023 Tax Return Documents (Jordan Hayes (synthetic)).pdf": "15673964a5efce59d6d56e732bea85f0b2c91ed2f830f1191fe86d176cfd1e25",
+    "3. Complete form-20230101T000000Z-00064-000/3. Complete form/Completed forms - Summary.pdf": "b82cb855443a1ea8c9973d2034e0539403b90ef3ff4a9a07aa5c5662af693dba",
+    "4. Executive Summary-20230101T000000Z-00064-000/4. Executive Summary/Executive Summary Jordan Hayes 2023.pdf": "0b9a320b81a1f4e47ecd0b4f8f8a54f685a2c6aaf982b0aa20090b7fd7795152"
   },
   "canonical_case_model": "SyntheticTaxCase"
 }

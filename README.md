@@ -129,9 +129,11 @@ Use **`-v`** on any command for DEBUG-level logging (verbose).
 | `pilot` | Small run (default **10** rows). |
 | `generate` | Large run (default **2000** rows). |
 | `produce pilot\|weekly` | Generate then **`validate-batch`**; weekly default **350** rows unless `--count` is set. |
-| `validate-batch PATH` | Post-hoc checks on an existing output root. |
-| `render-pdfs TARGET` | Rebuild PDFs from `_staging/.../case.json` or a batch root. |
+| `validate-batch ./out` | Post-hoc checks on an existing batch root. |
+| `render-pdfs ./out` | Rerender PDFs for every dataset under `./out/_staging/datasets/`, or pass one `dataset_…` folder / `case.json`. |
 | `validate-specs` | Gate before trusting config or spec edits. |
+
+**PowerShell:** use a real path after `render-pdfs` or `validate-batch`. Do not type placeholders like `<path>` — `<` is a reserved operator and triggers a parse error.
 
 **Large batch example**
 

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-00921-000",
+  "tax_year": 2020,
+  "case_fingerprint": "f1a2f0a2506b8610fc2653dd1d92e450c9e5455b4d39ff16884c8549102e9048",
+  "case_json_sha256": "041327fa979da94e63bbbb0f7ed38d33b3d82d33ab60c683bd19f0ae48686728",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-00921-000/1. Client Summary/Client Summary.pdf": "ef5a4ec419233921816db4ba292015f79e0b323d0bfeb36a8127e2268bd423a9",
+    "2. Input Documents-20200101T000000Z-00921-000/2. Input Documents/Tax Document Attachments Summary.pdf": "5358213d8b1c1f68daf1000057e093fcf302bccf51a0015c15ebc761cf253dd5",
+    "2. Input Documents-20200101T000000Z-00921-000/2. Input Documents/1099- DIV/1099-DIV DIAZ.pdf": "4b3a57a5ab0f594c65fa679b82e0ad3d2fed4a8b0e40a8d2d2c1ae424a909abb",
+    "2. Input Documents-20200101T000000Z-00921-000/2. Input Documents/1099-INT/1099-INT DIAZ.pdf": "e8919ca2d5fbf39b38afe5e56175e4b6e559fca35434a11d6fe8c3f49a8ae268",
+    "2. Input Documents-20200101T000000Z-00921-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "36a05dab5a638598d03af4413e2bdfd28b98000a12fefea6cf36b66520ede308",
+    "2. Input Documents-20200101T000000Z-00921-000/2. Input Documents/Form W-2/Form W-2.pdf": "7a29d30544c94be0cf163e53665fe8a4a939c6d02dc986cc6890b78470b85b6e",
+    "2. Input Documents-20200101T000000Z-00921-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "2ff5f0154fcb8c1beb545622d2cf8a8759faadf04ce91cca90289c0dec912928",
+    "2. Input Documents-20200101T000000Z-00921-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "c47008431f38bb2d74af059b43bc60ce2dd2ea86786b98da5523ab531130a8fa",
+    "3. Complete form-20200101T000000Z-00921-000/3. Complete form/2020 Tax Return Documents (Avery Diaz (synthetic)).pdf": "c180b4f3cd0c8630f3bf4fb0626fbc788991d2ff94c318ef4cb801e08e3cc0bc",
+    "3. Complete form-20200101T000000Z-00921-000/3. Complete form/Completed forms - Summary.pdf": "d20344dc8eebbc7a03d7fbe2d695a0a1613c623468612ffaaa546f0a625f590a",
+    "4. Executive Summary-20200101T000000Z-00921-000/4. Executive Summary/Executive Summary Avery Diaz 2020.pdf": "12386db658d66d8f5163a2d346f8b3d590af1b300fa60961dbf4743a4ecff3e9"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

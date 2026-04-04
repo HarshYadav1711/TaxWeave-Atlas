@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-00338-000",
+  "tax_year": 2023,
+  "case_fingerprint": "889e7660fc3d7bf52a1832e2568211e6b50d4a4b20e3933df060d8dc4feb45ef",
+  "case_json_sha256": "bfca5c2bb17d009e67e6dcccab3255b365b9c484989d30d9b5db292e473860cd",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-00338-000/1. Client Summary/Client Summary.pdf": "5087e0f1df9446fbd0d06ac7bc12fcbfec5c5558999ca94877e17258dc48d0a6",
+    "2. Input Documents-20230101T000000Z-00338-000/2. Input Documents/Tax Document Attachments Summary.pdf": "8bd9add72b8628029df77419d50e258adb26de19fc0b1e03fdb6fd6d60bf40c7",
+    "2. Input Documents-20230101T000000Z-00338-000/2. Input Documents/1099- DIV/1099-DIV HAYES.pdf": "ad3e45b34ca492ef9a2dde4cef09ba64e27e480e28584200ed7b044781a37752",
+    "2. Input Documents-20230101T000000Z-00338-000/2. Input Documents/1099-INT/1099-INT HAYES.pdf": "f8c204334d3674eb4576c9b7bfdaec6fea9b6e3d07831b4f389a747038f7d87b",
+    "2. Input Documents-20230101T000000Z-00338-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "42878b448fccd6c1bc0487e1bdb8631ddf080bf3e877d4c34fe2618ac68fb36c",
+    "2. Input Documents-20230101T000000Z-00338-000/2. Input Documents/Form W-2/Form W-2.pdf": "9e0b282e288d0e2bb47f9f42b3e16043a64dc47514611edcd37e26aeca20a173",
+    "2. Input Documents-20230101T000000Z-00338-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "963006c6bae92efd449dd4de526bab151893a98f124cd284d515b45e48d7036b",
+    "2. Input Documents-20230101T000000Z-00338-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "23f47fff3dad727fb8e47a4d20e4c68208fbc230edefcf58a034f69f88291ca7",
+    "3. Complete form-20230101T000000Z-00338-000/3. Complete form/2023 Tax Return Documents (Sage Hayes (synthetic)).pdf": "a24dfc118a5aa878fa37c18d733c5acc512a6a94a279eb73af5200d700921c4b",
+    "3. Complete form-20230101T000000Z-00338-000/3. Complete form/Completed forms - Summary.pdf": "90c3848c560e382c6306815ffdd5efa22fb16a687a82843dee81ea5224fe58a8",
+    "4. Executive Summary-20230101T000000Z-00338-000/4. Executive Summary/Executive Summary Sage Hayes 2023.pdf": "a315de2cec56db92f4aa8b269614755f57b876eb6412bd2bee78eac5d65f4fd6"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

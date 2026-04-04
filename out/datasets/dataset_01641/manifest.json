@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-01641-000",
+  "tax_year": 2020,
+  "case_fingerprint": "4f706c5ecb043247891b91b5310df1dcefe8bf21a36ddaf8dfb7948db2d9540e",
+  "case_json_sha256": "da795d85541cc94433b0cbaa1536ebfc26e0a260a6cd04a84adc923dff9b3401",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-01641-000/1. Client Summary/Client Summary.pdf": "016ebb09b19bda63ad49e45557f8e34b7953b2cc0b8bf7b7d2bc08723d6ba252",
+    "2. Input Documents-20200101T000000Z-01641-000/2. Input Documents/Tax Document Attachments Summary.pdf": "30547d1db7ab0fe3681581ff200f7f30a204b05be2f453a172c5973b3d291596",
+    "2. Input Documents-20200101T000000Z-01641-000/2. Input Documents/1099- DIV/1099-DIV MERCER.pdf": "5fcfaaf34d5e29d053408fd4125f2c6332f0c767aab7e45312baeefa516d455b",
+    "2. Input Documents-20200101T000000Z-01641-000/2. Input Documents/1099-INT/1099-INT MERCER.pdf": "9d94b3d80ecaa98e7b001f8582cb8dfef2bc04372c635f791e72657b663a9eb3",
+    "2. Input Documents-20200101T000000Z-01641-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "28718b3cf4751dafd0d5c21ce506c81564a463533f13e06f5755ea4355b5595f",
+    "2. Input Documents-20200101T000000Z-01641-000/2. Input Documents/Form W-2/Form W-2.pdf": "807e8cb9c548e8a3259539f4e1ac76517116d4a4259b073c76901f14e1e971c2",
+    "2. Input Documents-20200101T000000Z-01641-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "b6c2579522653636956acbadf0598bd7fac298d74f58988dbb80034e97b3f1c9",
+    "2. Input Documents-20200101T000000Z-01641-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "060189230e00cda00eccb22fbf08714d295606346720bd9a1b68d86fbcbbd61c",
+    "3. Complete form-20200101T000000Z-01641-000/3. Complete form/2020 Tax Return Documents (Jordan Mercer (synthetic)).pdf": "8b488ddde4a1604ce5a93960feec7c81cb7f6880a70c96506f80920be58b6653",
+    "3. Complete form-20200101T000000Z-01641-000/3. Complete form/Completed forms - Summary.pdf": "c473eb317b899678bed9d5812fc759364948933eefdb0e83d3e5d339285cb027",
+    "4. Executive Summary-20200101T000000Z-01641-000/4. Executive Summary/Executive Summary Jordan Mercer 2020.pdf": "bf44cb1815566a759f1cd9aaf3510a53a9aa7058194ba5868e885cab2bd824af"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

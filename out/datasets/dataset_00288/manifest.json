@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-00288-000",
+  "tax_year": 2024,
+  "case_fingerprint": "4c4acd10c390e8da012045ecc16b3ca32a7225c7555c4cf95cf899e6ed288235",
+  "case_json_sha256": "4ff66a5789438f7c5e6ee00a93f0ea76d91cb5c9d89309da76743f42408b5a0d",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-00288-000/1. Client Summary/Client Summary.pdf": "f5e14be58395f8cb27193e8312b35f0f604b6841b76cfe5db0e96a8e4bc229c4",
+    "2. Input Documents-20240101T000000Z-00288-000/2. Input Documents/Tax Document Attachments Summary.pdf": "ad4aac7f68e28b360a306af8de0a128fc15d64801de857ef700c7d6a41bc4266",
+    "2. Input Documents-20240101T000000Z-00288-000/2. Input Documents/1099- DIV/1099-DIV PATEL.pdf": "fc7aaa34b5da37a80541aea3102d54257e0d5449966d64d249a993f87f845868",
+    "2. Input Documents-20240101T000000Z-00288-000/2. Input Documents/1099-INT/1099-INT PATEL.pdf": "fda1d6a8040be0b5d8daf7f3da44b88a21eb2c5b993bd59f413e6d13ad3ce590",
+    "2. Input Documents-20240101T000000Z-00288-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "5bd377e4197e849f7f84549ac7b134683b0e0ea6b5509595a0479126e895e451",
+    "2. Input Documents-20240101T000000Z-00288-000/2. Input Documents/Form W-2/Form W-2.pdf": "8c958f80ddaa7fbe3d35fd188303d234c25e933747edb4b7269ac49071a2ec4c",
+    "2. Input Documents-20240101T000000Z-00288-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "9ae14601174dd8f715b26def6cdac3d811ab2fd6ac8369c0679ea35c5d5bf883",
+    "2. Input Documents-20240101T000000Z-00288-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "bb405740a4ded009ea2cad8a8b5695807080998ddc17e46011a5b537d57abd79",
+    "3. Complete form-20240101T000000Z-00288-000/3. Complete form/2024 Tax Return Documents (Avery Patel (synthetic)).pdf": "6e894ef0cd3daa84beb6b3f3c2532cb7bd5b65c2a57533105d1c6886be6951d2",
+    "3. Complete form-20240101T000000Z-00288-000/3. Complete form/Completed forms - Summary.pdf": "bffdf2e1ee949e265cb46b6ef65ff0555ad15d3a796f0eefdc8592381e783bc2",
+    "4. Executive Summary-20240101T000000Z-00288-000/4. Executive Summary/Executive Summary Avery Patel 2024.pdf": "5f548c11b63f5411c3a3f9b52cb7b21b1c812e9696a88a71b181cb1bd7a02570"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

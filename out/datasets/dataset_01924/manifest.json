@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-01924-000",
+  "tax_year": 2023,
+  "case_fingerprint": "414c20230b4050e2a30d836d6ad34f73cf46b933e6a8305ce138f231561eb3a2",
+  "case_json_sha256": "4173698505d2641beb379b7745c8365805d8ca327c99e0925a5243a558b51613",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-01924-000/1. Client Summary/Client Summary.pdf": "93b575a75eabe55e722d30e95dd0b596617e0d29df3519ef9777e6c6a228b191",
+    "2. Input Documents-20230101T000000Z-01924-000/2. Input Documents/Tax Document Attachments Summary.pdf": "658a872b52322adfab9e0680f905235f21df1f6b34d93bd20e1fd4e4913180f8",
+    "2. Input Documents-20230101T000000Z-01924-000/2. Input Documents/1099- DIV/1099-DIV DIAZ.pdf": "ee17d3a485c18ec6d1768b46310821bdfa83709a5e3d072ad616963d18127885",
+    "2. Input Documents-20230101T000000Z-01924-000/2. Input Documents/1099-INT/1099-INT DIAZ.pdf": "0d16bab77c79bcc57d6365c0a888373280ddb1d74570cc5485440f8f04bcdf96",
+    "2. Input Documents-20230101T000000Z-01924-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "1b8866ca5b1d53a8d5c6f7499ee92784603beca6528da9a7f0af66bf4d5c43a2",
+    "2. Input Documents-20230101T000000Z-01924-000/2. Input Documents/Form W-2/Form W-2.pdf": "7bf834baea81288e6a6c706f6e350e083ad390e78bf92534b8be3b176c2ab681",
+    "2. Input Documents-20230101T000000Z-01924-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "6c8473a8989700cdb431148f71462107e4773e04dea7e1b693c55b879bb26ad3",
+    "2. Input Documents-20230101T000000Z-01924-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "1ec653ae2fbaea181019d33fd36c6654a4fb8c8315c6e57d33062ddacd73d6a1",
+    "3. Complete form-20230101T000000Z-01924-000/3. Complete form/2023 Tax Return Documents (Morgan Diaz (synthetic)).pdf": "05381bd76fe4fa9bf128ab66f974aedcc630f88b3f37f00e08eb9c77b173ba64",
+    "3. Complete form-20230101T000000Z-01924-000/3. Complete form/Completed forms - Summary.pdf": "aff026388d9d716be91d6422285d26591a9a8ceb57928dc4ec05b9a5dd1d176b",
+    "4. Executive Summary-20230101T000000Z-01924-000/4. Executive Summary/Executive Summary Morgan Diaz 2023.pdf": "0d26df360ff466028f773f43cb905019536c0d5a7353ab7fbca6b638bcd592f9"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

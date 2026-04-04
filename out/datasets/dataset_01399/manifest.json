@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20250101T000000Z-01399-000",
+  "tax_year": 2025,
+  "case_fingerprint": "f5e1e2c9bf2bc85a4dc10b3dda296a990be83cc9e3e01fe9bfb10a5665ff5533",
+  "case_json_sha256": "c01e5e9ec308ced5bec1717f9bd0896dd8cdd1ef16f5c4436fef795c15218c92",
+  "files_sha256": {
+    "1. Client Summary-20250101T000000Z-01399-000/1. Client Summary/Client Summary.pdf": "9f5c029db534da53447482bac4fe29b0252ac7c9d7eedb509b4df5cb4194eaa1",
+    "2. Input Documents-20250101T000000Z-01399-000/2. Input Documents/Tax Document Attachments Summary.pdf": "4da17783005ab44231a89a92bc2a36c5489bdc5a430d2e95dcb1d328d7ff276f",
+    "2. Input Documents-20250101T000000Z-01399-000/2. Input Documents/1099- DIV/1099-DIV LAWSON.pdf": "bbd2181529869616362c5ba55afb30e89c751277fc3b1a6576e660d81011bd06",
+    "2. Input Documents-20250101T000000Z-01399-000/2. Input Documents/1099-INT/1099-INT LAWSON.pdf": "793de1794efb1eee1cc6a897a82522480df3121409115d6f508777cc28216b62",
+    "2. Input Documents-20250101T000000Z-01399-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2025_.pdf": "3728c3b642df14c1e4b6758fc3af7c3ad0b2945b260d5a14c15b09ed8450d4dd",
+    "2. Input Documents-20250101T000000Z-01399-000/2. Input Documents/Form W-2/Form W-2.pdf": "dd1de05f1bb2c24150559db030cca664163bdc993d942ed07ccc3fee3735d8a9",
+    "2. Input Documents-20250101T000000Z-01399-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "be64e65b6a3d999808d78a0d6e01f4b26d027371ba437ab7f1e97ef85da90afa",
+    "2. Input Documents-20250101T000000Z-01399-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2025.pdf": "fe28fcf344d40d64efe419c86a81c9ff556ac44e90af1444e5b3a8db53edc83d",
+    "3. Complete form-20250101T000000Z-01399-000/3. Complete form/2025 Tax Return Documents (Riley Lawson (synthetic)).pdf": "3ee5f989561172da0f1091ef0c08f020cb2e04d7bf81a543c5556b7a41f0e77b",
+    "3. Complete form-20250101T000000Z-01399-000/3. Complete form/Completed forms - Summary.pdf": "c00951afad042e39c5a179aab82d0ab610a4e03481c837adcdc0bda44dbb6882",
+    "4. Executive Summary-20250101T000000Z-01399-000/4. Executive Summary/Executive Summary Riley Lawson 2025.pdf": "4dfb39ef38e741ffbb26c2e76d079e9df27cc114b9e9b21a7a8ca7195655dd5f"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

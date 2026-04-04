@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-00963-000",
+  "tax_year": 2023,
+  "case_fingerprint": "e1c59e32918d862decd0fa4a8cdcd2b564c3f103f1f462661eaae565af6c2375",
+  "case_json_sha256": "02184c144d282af44025761798064e7763710a56ce6149b3c99f8073a0268dc7",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-00963-000/1. Client Summary/Client Summary.pdf": "87c3252b5ed74c80ce76f7c4b637f186f357f2c836a7223a25b7ea02d6b4f66e",
+    "2. Input Documents-20230101T000000Z-00963-000/2. Input Documents/Tax Document Attachments Summary.pdf": "daf4880c8d8513495661f8d92f71d3f812acd2b9bd1747393c58429383107d52",
+    "2. Input Documents-20230101T000000Z-00963-000/2. Input Documents/1099- DIV/1099-DIV INGRAM.pdf": "69f483de3af972fad0df351ae46d838fb25674c4baf597ffb2f54b57cfa8b5d3",
+    "2. Input Documents-20230101T000000Z-00963-000/2. Input Documents/1099-INT/1099-INT INGRAM.pdf": "cb3431b17c3a246d00f245af30f6d5c1690e1c7e89343b8c798ab09f59b9eb34",
+    "2. Input Documents-20230101T000000Z-00963-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "c21af82e719316f511890a5648dddddb4f7841b9568928d218a46a8fb7a54795",
+    "2. Input Documents-20230101T000000Z-00963-000/2. Input Documents/Form W-2/Form W-2.pdf": "8a4ffe0c188cbc48693024b72d288cc5c758df543442d6a19add2535266525b2",
+    "2. Input Documents-20230101T000000Z-00963-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "30d82857cf3e28865b53a5f0ec308a6ee5d0edd8ee3f0021e9532e74e1e3e75e",
+    "2. Input Documents-20230101T000000Z-00963-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "8851b01256a5ff9366870373926ccf01a8f1610f2901506b50104d78a6d5b6d4",
+    "3. Complete form-20230101T000000Z-00963-000/3. Complete form/2023 Tax Return Documents (Emery Ingram (synthetic)).pdf": "f69edf621a6e0a56ac9be0042a17a14136cac69fe63ba3f25af9e9b791ad1c2d",
+    "3. Complete form-20230101T000000Z-00963-000/3. Complete form/Completed forms - Summary.pdf": "67dfba4f58ea500f2e84adbbd300f2161d2fa4b61001dbbcfeb0c04de67e0edd",
+    "4. Executive Summary-20230101T000000Z-00963-000/4. Executive Summary/Executive Summary Emery Ingram 2023.pdf": "799cac7442fb28c922212c3f52b75be9ea9c54d765a79988d5661bd40b3d0c2c"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

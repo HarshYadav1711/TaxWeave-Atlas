@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-00257-000",
+  "tax_year": 2020,
+  "case_fingerprint": "6b1aaa30a490c8d120dc3fbe90372d2a6ccf9b84dfbd70b5a41a882b3c1bf66b",
+  "case_json_sha256": "3c04070a6d484923b06b683193483ef2d990794e3c0504c216d8046971c4a8f4",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-00257-000/1. Client Summary/Client Summary.pdf": "2a26898783015ce58559ca187850a633d9ca454c2631e4b6fb33b47e56da97c2",
+    "2. Input Documents-20200101T000000Z-00257-000/2. Input Documents/Tax Document Attachments Summary.pdf": "266ea33df79cde755026a63298830d09a4862b0c784815a9cf70300be6a8d4ae",
+    "2. Input Documents-20200101T000000Z-00257-000/2. Input Documents/1099- DIV/1099-DIV SULLIVAN.pdf": "3741bc1e5115876a88cdc976de418563083f3b0aea4746023572c85918b9e8a1",
+    "2. Input Documents-20200101T000000Z-00257-000/2. Input Documents/1099-INT/1099-INT SULLIVAN.pdf": "85bd0ecb4fdff19ca156cca121c506cbe0ee60a1c7970626b9f90544b51fcc10",
+    "2. Input Documents-20200101T000000Z-00257-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "6bc34e4c82c315a60dfc5c1ae2dacba44b0d31a49220d05d55999dbfdce87d41",
+    "2. Input Documents-20200101T000000Z-00257-000/2. Input Documents/Form W-2/Form W-2.pdf": "ba4a5836221dd80a111b0e15bc9dc9f9c8734168a78d90119b7b8958bad0a80a",
+    "2. Input Documents-20200101T000000Z-00257-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "50208e093e04a8230785a90184188e507bfe584977b8eb9ff712d82529a27f48",
+    "2. Input Documents-20200101T000000Z-00257-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "23ac1fff5c356875b567845540fa571c53a60a96a6af0b9315bc11b561ad5efe",
+    "3. Complete form-20200101T000000Z-00257-000/3. Complete form/2020 Tax Return Documents (Rowan Sullivan (synthetic)).pdf": "73e732d142ae3aa14ddc3f21900104c3ac081f9c1233d727b8adc388a8425154",
+    "3. Complete form-20200101T000000Z-00257-000/3. Complete form/Completed forms - Summary.pdf": "d69914015b09fc4737b50ca78dde1ee94bfa1af68b46ea00c40e4ee8c99f4737",
+    "4. Executive Summary-20200101T000000Z-00257-000/4. Executive Summary/Executive Summary Rowan Sullivan 2020.pdf": "d4af03a2cdd53f8b400f5a93fd352b7bd23f384b4f2672b029e67f2b7bb35ff6"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

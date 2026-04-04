@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-01642-000",
+  "tax_year": 2023,
+  "case_fingerprint": "e4016a57bfe3f6916fd0294d1ef89811fd8e124a52217cc2be51f55db4cc6831",
+  "case_json_sha256": "789bed59553879cd40d29910eda4830dcfa80833672d063129ca210c8d3df0e5",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-01642-000/1. Client Summary/Client Summary.pdf": "f9f44cc947cfb40d290df6610cb0e347e02344dc90f01b79c039d96cd2fa022a",
+    "2. Input Documents-20230101T000000Z-01642-000/2. Input Documents/Tax Document Attachments Summary.pdf": "5c77923ea69913ddd7ff593fa8339f057ce8885647517b41a309b95a88c06a9e",
+    "2. Input Documents-20230101T000000Z-01642-000/2. Input Documents/1099- DIV/1099-DIV JENNINGS.pdf": "a8376cce8b4c501c69b4904198481bb0237fac816a74c72a7af972563553dab0",
+    "2. Input Documents-20230101T000000Z-01642-000/2. Input Documents/1099-INT/1099-INT JENNINGS.pdf": "a3cc01c37c8d967067b7ec56b6e111ca8a4a0282a26927393cd2a12190cd8af7",
+    "2. Input Documents-20230101T000000Z-01642-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "e56bf3c6ee6a9dc7c72adb401f636a39bb223d600731e11d66c628f49e220042",
+    "2. Input Documents-20230101T000000Z-01642-000/2. Input Documents/Form W-2/Form W-2.pdf": "5c52cea70fcf5462e409c96023c8a934813563a3e5ff9ec6e07e0b56d8e09d68",
+    "2. Input Documents-20230101T000000Z-01642-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "3c0fdd39718ea213651f910ac1d22fe6a2ee6ec0cf1886f6786d528f5f24157f",
+    "2. Input Documents-20230101T000000Z-01642-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "f805686099feddc6ff53d852516b66803a9d6f3dc80f7b9f3c6b5fa3ae7ac14c",
+    "3. Complete form-20230101T000000Z-01642-000/3. Complete form/2023 Tax Return Documents (Avery Jennings (synthetic)).pdf": "737ff15aa1260cd2bcf191280ba6cf72466df0a9ac6ebe515e08c43fe2eb08b7",
+    "3. Complete form-20230101T000000Z-01642-000/3. Complete form/Completed forms - Summary.pdf": "5e44e3d7ea42af5c75778e8184dec352ea68b513ce233c7b2d657843f63ce47f",
+    "4. Executive Summary-20230101T000000Z-01642-000/4. Executive Summary/Executive Summary Avery Jennings 2023.pdf": "2abf776aff61a3ece89fc39527b07fb70ee577fea0ae8072a62526165a332210"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

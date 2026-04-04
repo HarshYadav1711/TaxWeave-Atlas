@@ -6,17 +6,17 @@
   "case_fingerprint": "5d3c8c4de57a93eb7dd9237e9f3a46e12bffce801a4a108b9e91811d94550452",
   "case_json_sha256": "d5b1c91bdf448647e82a47414ac27f371e595f0a771598d88a27ced2fd5b5f05",
   "files_sha256": {
-    "1. Client Summary-20240101T000000Z-00041-000/1. Client Summary/Client Summary.pdf": "b5415cbe24ff17ca2ea41bcef41a94d077c40bc203b44cd5b71f41f471510e42",
-    "2. Input Documents-20240101T000000Z-00041-000/2. Input Documents/Tax Document Attachments Summary.pdf": "73c236b79a5790fe9d69438cc3f052207a8820902307e32ea384ac5de66f5d72",
-    "2. Input Documents-20240101T000000Z-00041-000/2. Input Documents/1099- DIV/1099-DIV SULLIVAN.pdf": "63757a2a8bc4d081198c4e4e63d3e243964f28f330cdad8f0823a19becf6dcf8",
-    "2. Input Documents-20240101T000000Z-00041-000/2. Input Documents/1099-INT/1099-INT SULLIVAN.pdf": "09cb69b702d52eae3dbbc683e5ae58442db83a18416b22e68c6c8129f095fe85",
-    "2. Input Documents-20240101T000000Z-00041-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "f35b1795a7b11596141db10ae69ac5f723a00aafc88ea42ccc1158936f69bff8",
-    "2. Input Documents-20240101T000000Z-00041-000/2. Input Documents/Form W-2/Form W-2.pdf": "8b12d3ba81ae03fb8690238ec95c1c5e9f03a20dd3f56fc66620b85561d07132",
-    "2. Input Documents-20240101T000000Z-00041-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "2fbcd3405752346c429d18825675fa2fb1dc80717a6ae0ff515e93fae00d5d39",
-    "2. Input Documents-20240101T000000Z-00041-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "23a8f8304ae006b72e0e05c5da1bad4d21dafd3143b33a4f155cd22c17cab463",
-    "3. Complete form-20240101T000000Z-00041-000/3. Complete form/2024 Tax Return Documents (Dakota Sullivan (synthetic)).pdf": "58bd7517bc7d8370f2c1af3d4bee54c992138157963f4518908ec764154e5f5a",
-    "3. Complete form-20240101T000000Z-00041-000/3. Complete form/Completed forms - Summary.pdf": "8c340a616998d9995dcf7c7b3e268a34cea8c626fd18d6200b1ca222d5c1cc57",
-    "4. Executive Summary-20240101T000000Z-00041-000/4. Executive Summary/Executive Summary Dakota Sullivan 2024.pdf": "a8eb5ff4fb6ef115f68f3d77bda0c54a965dde9819c55ff85fbe39315698b4e4"
+    "1. Client Summary-20240101T000000Z-00041-000/1. Client Summary/Client Summary.pdf": "aeff2f10d42d4a3a9b17cfa745b170f0e598726bcd5765491d7da30ad4535d1d",
+    "2. Input Documents-20240101T000000Z-00041-000/2. Input Documents/Tax Document Attachments Summary.pdf": "74f07377a20ce12a2de49e4cdb659752ad08bf2aa535ac8dfa23e374b951a74b",
+    "2. Input Documents-20240101T000000Z-00041-000/2. Input Documents/1099- DIV/1099-DIV SULLIVAN.pdf": "f4c4bcc3bbd678b1f1fff43bef9d9c88bae25b35560016621d0757336a31c9df",
+    "2. Input Documents-20240101T000000Z-00041-000/2. Input Documents/1099-INT/1099-INT SULLIVAN.pdf": "6a34d71dc1796a11f1c9be1489f4ce96aca69d02f688ae1307e54cf6c2745540",
+    "2. Input Documents-20240101T000000Z-00041-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "9d2c9bc928f2ee8a029e35464f6af80f2005099f7953e7d9adc0ae7a19bac4c6",
+    "2. Input Documents-20240101T000000Z-00041-000/2. Input Documents/Form W-2/Form W-2.pdf": "78620d4a4c5be89b82f61dd7464cd73b02a847193edc636ea50839e07c51e343",
+    "2. Input Documents-20240101T000000Z-00041-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "ae4b3294852ec8dc4dea8f4f887a31b2e35b3bef36a63daff0bea4cef6cc2561",
+    "2. Input Documents-20240101T000000Z-00041-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "0290a396e2cc59a6ca3d2935914cd28af17fe42aca1c236cabb8f5582b9bd949",
+    "3. Complete form-20240101T000000Z-00041-000/3. Complete form/2024 Tax Return Documents (Dakota Sullivan (synthetic)).pdf": "be10bb6d43b3f0dc7d5ddc554b35f989e127cb6a33d5c4f5df98eaf6ac8a2162",
+    "3. Complete form-20240101T000000Z-00041-000/3. Complete form/Completed forms - Summary.pdf": "bdd3c8500e8bc6703edd5e0811dbf8750eedd25ce97a691c8e22300e2c299ae1",
+    "4. Executive Summary-20240101T000000Z-00041-000/4. Executive Summary/Executive Summary Dakota Sullivan 2024.pdf": "b9072867c78ca6d2b057fc253c2f0db8d944c26a55f897e28d1a49d2de3763a0"
   },
   "canonical_case_model": "SyntheticTaxCase"
 }

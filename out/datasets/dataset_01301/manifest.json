@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-01301-000",
+  "tax_year": 2023,
+  "case_fingerprint": "deedc8fc804ab233792e4300976743e0590ac3eb158421135fa55fc964442b50",
+  "case_json_sha256": "a94966cf9a446369d507f97da4ce8b710ad4e303f0bd7defd2ee184b16b32648",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-01301-000/1. Client Summary/Client Summary.pdf": "3b8cebff3a873324206408b025ac2609e70e0ae63579e8e8ffe201a3b8085bef",
+    "2. Input Documents-20230101T000000Z-01301-000/2. Input Documents/Tax Document Attachments Summary.pdf": "a2d7ef425decc829b1fd0ce94a8b9c450fee037755ca411a6fc7a47ce4daefa6",
+    "2. Input Documents-20230101T000000Z-01301-000/2. Input Documents/1099- DIV/1099-DIV CARTER.pdf": "1c277d4d83b3f94ffa5f034af4d66924976a65ec25e2b5f235ecbae875ab09d3",
+    "2. Input Documents-20230101T000000Z-01301-000/2. Input Documents/1099-INT/1099-INT CARTER.pdf": "6ea8104bf4356865d7ce839adb94f26e101b30d7747b511fc220477f995eaf51",
+    "2. Input Documents-20230101T000000Z-01301-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "176552179d4eff16cce80f58e66687eedcab92e1e0917702183aeec88d6ac6a5",
+    "2. Input Documents-20230101T000000Z-01301-000/2. Input Documents/Form W-2/Form W-2.pdf": "8a04b4904f204fbf477a1f8298422ab4fcafa9238f45b075af44cc9daa5190b8",
+    "2. Input Documents-20230101T000000Z-01301-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "f8018a2677a3bd5dbfe989547995d4575bc5b532856f897acbed282f4f361495",
+    "2. Input Documents-20230101T000000Z-01301-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "faa04cd926feeabea1e54a581733cc3711f516ff64089d45185912d4574f0ef5",
+    "3. Complete form-20230101T000000Z-01301-000/3. Complete form/2023 Tax Return Documents (Rowan Carter (synthetic)).pdf": "ab16fe42a82ec17e4a30da67ea398db23c93dbb04dbb50da045b62cf56728f21",
+    "3. Complete form-20230101T000000Z-01301-000/3. Complete form/Completed forms - Summary.pdf": "18136188ce9630149db41ef81ffaaea22dca1e2e9bc6c983f75a721853264235",
+    "4. Executive Summary-20230101T000000Z-01301-000/4. Executive Summary/Executive Summary Rowan Carter 2023.pdf": "cd65cb18dcc273165596a7e307e65a6570f6156bfabe34a0775c314626d56256"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

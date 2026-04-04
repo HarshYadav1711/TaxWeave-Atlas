@@ -6,17 +6,17 @@
   "case_fingerprint": "fbea29f6f02974b54f96ab524fe0667242ce715b00c8d06e90de96614e0b073c",
   "case_json_sha256": "5955a53d6b7a1f7c64365a18f11a00bc099ba65c8e097d438ebebab3b49f43fc",
   "files_sha256": {
-    "1. Client Summary-20230101T000000Z-00040-000/1. Client Summary/Client Summary.pdf": "4ed214bfc0c8654f9bf94738da597400b3bf092871f294787977f6b9089fa019",
-    "2. Input Documents-20230101T000000Z-00040-000/2. Input Documents/Tax Document Attachments Summary.pdf": "6c9a1181eb674ad1f63daaf5dfba000c3e17c106bee3829fb0c79f598fc9e219",
-    "2. Input Documents-20230101T000000Z-00040-000/2. Input Documents/1099- DIV/1099-DIV FOSTER.pdf": "911d65294e33a7120cd929096aec92fa3694ed46543837a947ed21e878b3f5e1",
-    "2. Input Documents-20230101T000000Z-00040-000/2. Input Documents/1099-INT/1099-INT FOSTER.pdf": "3a94a030c0e35f5aa5d4c2e5729c8ebdf451e6aa013c0df29587c4e28c214709",
-    "2. Input Documents-20230101T000000Z-00040-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "f1bb993927d41958cf028f55e827f65b1b09b4ce3802597fd7bb39eb5e297349",
-    "2. Input Documents-20230101T000000Z-00040-000/2. Input Documents/Form W-2/Form W-2.pdf": "5e44b0cb9bf5e1c5a584024f7c47b5ac98b60f54f75ca1eff563ba83f0746f90",
-    "2. Input Documents-20230101T000000Z-00040-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "0bf5199b1bcf4b983fd0e6b8cd982d8c8ebc0918ba3cc3920dc8e657c4affd42",
-    "2. Input Documents-20230101T000000Z-00040-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "c06e7a36087cba88866c511cf6f3677cf3a7ef65921342601ee96f3fb1aa5a15",
-    "3. Complete form-20230101T000000Z-00040-000/3. Complete form/2023 Tax Return Documents (Riley Foster (synthetic)).pdf": "82db57e27f09f3195c6855e76a998d047f801a8ec988912cf4829d52ef9052d6",
-    "3. Complete form-20230101T000000Z-00040-000/3. Complete form/Completed forms - Summary.pdf": "753016a202f57566cd51c50a82e264e268b22970d33627e11f0371ac5846fba7",
-    "4. Executive Summary-20230101T000000Z-00040-000/4. Executive Summary/Executive Summary Riley Foster 2023.pdf": "91e0a3b5862760eee6be7f248ad6af872a85bd3173549632f06256c772b51af1"
+    "1. Client Summary-20230101T000000Z-00040-000/1. Client Summary/Client Summary.pdf": "9b46021239d146ff3ce5b5c064f2ba857bc821366bd826772ca04303e46ccf0c",
+    "2. Input Documents-20230101T000000Z-00040-000/2. Input Documents/Tax Document Attachments Summary.pdf": "d2ec2d8b5830f6b0c12bd16681a21a10ce0be9ac3cb832a5e6960dacdfeacc4f",
+    "2. Input Documents-20230101T000000Z-00040-000/2. Input Documents/1099- DIV/1099-DIV FOSTER.pdf": "b3b298cf39282456f9a1e914dd44e2555af2e4ae89c9c0d55b0f5af076067d4d",
+    "2. Input Documents-20230101T000000Z-00040-000/2. Input Documents/1099-INT/1099-INT FOSTER.pdf": "944e0380f15e224dd2df5913aa3939e6436e94d5efccd35126c5a09516cb6599",
+    "2. Input Documents-20230101T000000Z-00040-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "dcf303b9a0238152e2537fd922573c86637944786a70aa2f7be115bc329a1061",
+    "2. Input Documents-20230101T000000Z-00040-000/2. Input Documents/Form W-2/Form W-2.pdf": "77d9b89b4fff633fd870c09d7fc06c90ab3472c07ba4d4829db36eb556878ea2",
+    "2. Input Documents-20230101T000000Z-00040-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "b189f0167ab4015ee29af29e434b944c135462e7f9973f0a122626832753bf77",
+    "2. Input Documents-20230101T000000Z-00040-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "3eb17214311d8f11061749e861d79e9f3d227c2f5916eecdada54fa674311a95",
+    "3. Complete form-20230101T000000Z-00040-000/3. Complete form/2023 Tax Return Documents (Riley Foster (synthetic)).pdf": "971652cdacd8d7cc23cc97bd8c249dbb92cec40492915219258b86f815a5ffb6",
+    "3. Complete form-20230101T000000Z-00040-000/3. Complete form/Completed forms - Summary.pdf": "ee817da48a2b8067bffd1d6185f106d6209d151d094ddbf9a17a6cb6011a854d",
+    "4. Executive Summary-20230101T000000Z-00040-000/4. Executive Summary/Executive Summary Riley Foster 2023.pdf": "9479dd6b607493e326cb5d056af7fded26c9e9239ee81cbe6b86522d296d5d61"
   },
   "canonical_case_model": "SyntheticTaxCase"
 }

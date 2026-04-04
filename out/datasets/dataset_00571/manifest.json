@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20210101T000000Z-00571-000",
+  "tax_year": 2021,
+  "case_fingerprint": "6c16f58552a83a193c81aab9961cf64000c478618cc2ff1f20fbf899f58cbded",
+  "case_json_sha256": "a6faa0d046462e05dc9252e86864c8651541562f804a32589673c1a1d87dae20",
+  "files_sha256": {
+    "1. Client Summary-20210101T000000Z-00571-000/1. Client Summary/Client Summary.pdf": "c799bedd9e62078ed310db0e86ed1149943ff4f8b18553c6bf0c29fe2594b6e8",
+    "2. Input Documents-20210101T000000Z-00571-000/2. Input Documents/Tax Document Attachments Summary.pdf": "772be4e48eae2e67c6b8fbe554f1c3e483dc2098cc1558de32d8b1a09cc30593",
+    "2. Input Documents-20210101T000000Z-00571-000/2. Input Documents/1099- DIV/1099-DIV MERCER.pdf": "332233b699893d45a1c9a3a9ab350fdb3561c1dca55c94d90d0672d2cc91d403",
+    "2. Input Documents-20210101T000000Z-00571-000/2. Input Documents/1099-INT/1099-INT MERCER.pdf": "7900b622958831862adcf27cc1db9ec8b7b66c3260acdbad41a85b58dd0b69f8",
+    "2. Input Documents-20210101T000000Z-00571-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2021_.pdf": "407658b53048c70d404aa19ac99dafce5630eaa257a7a43603a7cbbb7b67455b",
+    "2. Input Documents-20210101T000000Z-00571-000/2. Input Documents/Form W-2/Form W-2.pdf": "0b6200b510711f628a57e76426bdd7be011beb3c1ec219ec26e32f1f2cd0fe1a",
+    "2. Input Documents-20210101T000000Z-00571-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "0c4b5b1bd153207030e1567301ca84a1f0ab6922d518a3aff0f21a9837501d43",
+    "2. Input Documents-20210101T000000Z-00571-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2021.pdf": "b3b60281f9f73385895ed8ea9786fb69dabfd646cf89a7551b30d9586ad8a134",
+    "3. Complete form-20210101T000000Z-00571-000/3. Complete form/2021 Tax Return Documents (Avery Mercer (synthetic)).pdf": "2c6e2663330be7ad9a36e8beb88d98eee94f2e725b409975a29853be4a7075a1",
+    "3. Complete form-20210101T000000Z-00571-000/3. Complete form/Completed forms - Summary.pdf": "f88f6040a6b8c19292f5c2a962cb68c540036f0c2dec01ec364573e56c457a63",
+    "4. Executive Summary-20210101T000000Z-00571-000/4. Executive Summary/Executive Summary Avery Mercer 2021.pdf": "5d2e4627c00770c10c133818faa225507b90f75fd61b4512fcb25a98a67415fa"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

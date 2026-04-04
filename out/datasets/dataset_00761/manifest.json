@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-00761-000",
+  "tax_year": 2020,
+  "case_fingerprint": "7ff2a90c4786505877d44c395d5d2a13b49292295359926b3b03b14ebb29af3e",
+  "case_json_sha256": "285d02db413fa9f03a35440213717a5a4dfe0b0a5cc1b719f22f4d29390b0e37",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-00761-000/1. Client Summary/Client Summary.pdf": "58d6c850421d9902711e56856227c4c1f148876fa9e8c027de3a7db7389f3f43",
+    "2. Input Documents-20200101T000000Z-00761-000/2. Input Documents/Tax Document Attachments Summary.pdf": "60a9ee6fc1c6966f1408600b8f9e49b0294580aea9071fedd253da2cee6f1c1f",
+    "2. Input Documents-20200101T000000Z-00761-000/2. Input Documents/1099- DIV/1099-DIV JENNINGS.pdf": "6bd63ef0e482f3a2b5cc882fb12d3169d9fb077921e79bf9f0499af7c0b56fce",
+    "2. Input Documents-20200101T000000Z-00761-000/2. Input Documents/1099-INT/1099-INT JENNINGS.pdf": "09e204c566760fc82185b488e9bdfa96ef6bd2df1584efdf11c44fcc1ed77b55",
+    "2. Input Documents-20200101T000000Z-00761-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "214d45047a728620755df43fd1bb0dc3a8b49c4c72a58e4ce7d0d219daeb06d3",
+    "2. Input Documents-20200101T000000Z-00761-000/2. Input Documents/Form W-2/Form W-2.pdf": "95770fab502776cb6df4fe251c0cac1746223d67c3a8fd166804127c4c7049eb",
+    "2. Input Documents-20200101T000000Z-00761-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "04aca9e0e6a938b0727d92fa0d13f15873da500576e8dca50c87b44751e9af3b",
+    "2. Input Documents-20200101T000000Z-00761-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "535644330f9ac9c1222e4768a5553476044f9de359dba984a63f48f6a96ddb6d",
+    "3. Complete form-20200101T000000Z-00761-000/3. Complete form/2020 Tax Return Documents (Dakota Jennings (synthetic)).pdf": "12ecac92957737c845491d1abbab889c82925e137a21d52ea30062cd8f630540",
+    "3. Complete form-20200101T000000Z-00761-000/3. Complete form/Completed forms - Summary.pdf": "30231bb875fc91920226cad3c85c00e9b4c1076e2fb99596a29c0399f1d83ab5",
+    "4. Executive Summary-20200101T000000Z-00761-000/4. Executive Summary/Executive Summary Dakota Jennings 2020.pdf": "f6ab62a52dc6b35cdf2df13204a7c4448b9725dbec2445d56de132e2c9255c4d"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

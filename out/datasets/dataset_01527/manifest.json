@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20250101T000000Z-01527-000",
+  "tax_year": 2025,
+  "case_fingerprint": "f089a952b40c32dbbaf66ee754fba4b929e440ae333a9dced624705d2602a8d1",
+  "case_json_sha256": "45bf6dea5651f29b2e1a730b18df8c88c8fee77f3346c0dfe98488381b81a6ce",
+  "files_sha256": {
+    "1. Client Summary-20250101T000000Z-01527-000/1. Client Summary/Client Summary.pdf": "f7034644508ce810f3ffae2450e3061f1f705c28ca8bc869d4bfb2359a4895d7",
+    "2. Input Documents-20250101T000000Z-01527-000/2. Input Documents/Tax Document Attachments Summary.pdf": "45f827b397c6bbbd6168ec95c26eaa87eec073803af551cd48e5c5b57fccfeed",
+    "2. Input Documents-20250101T000000Z-01527-000/2. Input Documents/1099- DIV/1099-DIV KELLER.pdf": "21684b93abdd2ff2b1b15209811fa4aabfb9fbd45881797bad3623e76fa157c2",
+    "2. Input Documents-20250101T000000Z-01527-000/2. Input Documents/1099-INT/1099-INT KELLER.pdf": "539bf9cf4eae8912fdefecb20633d244cbac2ec648ec09aba32b1e6614fe6945",
+    "2. Input Documents-20250101T000000Z-01527-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2025_.pdf": "14f6fc2772526ee0f33454b0e645a630f13cceb77873ce674b3c47b6d1fc1417",
+    "2. Input Documents-20250101T000000Z-01527-000/2. Input Documents/Form W-2/Form W-2.pdf": "7fd2d3354ae1c8bb7481978439e0bb9c3073ed178802ee9c7668bb6f7f56c385",
+    "2. Input Documents-20250101T000000Z-01527-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "ba8ec38fddc25e10af396f7104a24f8be6d2965425027ed0286246074a26a3d3",
+    "2. Input Documents-20250101T000000Z-01527-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2025.pdf": "bc19c90ddb0adee28c1e4a703f4250be93af3795aa681a1b32fab66455b57947",
+    "3. Complete form-20250101T000000Z-01527-000/3. Complete form/2025 Tax Return Documents (River Keller (synthetic)).pdf": "b681c69eebe4049c128e091712b1f8587f370360c93241b127c0e307befd2ee6",
+    "3. Complete form-20250101T000000Z-01527-000/3. Complete form/Completed forms - Summary.pdf": "84c5637a6c3322848f4d2e2ff108011b8c5675f5de34293eae12882e2d40d975",
+    "4. Executive Summary-20250101T000000Z-01527-000/4. Executive Summary/Executive Summary River Keller 2025.pdf": "7fffa9b81c696c0bebc1790beb8e5345baf4d324ffd473697da2651cbc89a99c"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

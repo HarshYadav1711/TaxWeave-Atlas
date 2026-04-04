@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-01396-000",
+  "tax_year": 2023,
+  "case_fingerprint": "eaf7df03d15f82b61cfe7475e37957849238ac6d674136191fd07b1efb250983",
+  "case_json_sha256": "171fc04915f172368823bbe8b6531e979f86533c71c5f1f360fa0d6e111d1407",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-01396-000/1. Client Summary/Client Summary.pdf": "c0b004090594882e5dea8bc871c4fada3b245e94fb4aab1829cf5b07737c1bf6",
+    "2. Input Documents-20230101T000000Z-01396-000/2. Input Documents/Tax Document Attachments Summary.pdf": "c72e153e0c5cf1fc286b1cf8182d7e20039659fbf5d73d273cad60bca27d3d5b",
+    "2. Input Documents-20230101T000000Z-01396-000/2. Input Documents/1099- DIV/1099-DIV CARTER.pdf": "9e8250f0568081c7c87d242250bdb9cce95a7fa420c9e86716c65f1d71a68362",
+    "2. Input Documents-20230101T000000Z-01396-000/2. Input Documents/1099-INT/1099-INT CARTER.pdf": "20760a7f332f8e0d3934c4d5b4469b2a938d1f864fab63aedc47f9cdd5c54bd8",
+    "2. Input Documents-20230101T000000Z-01396-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "63de15863f74e56f63ca1e6ca4c9fed9622acfc2f3317271ca706a0981f7f8ca",
+    "2. Input Documents-20230101T000000Z-01396-000/2. Input Documents/Form W-2/Form W-2.pdf": "646de58ce33810d2171388576ae6bb9374970917bc39b080d3d85161b6cfe27a",
+    "2. Input Documents-20230101T000000Z-01396-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "b7f3e15dc1c48bf1add9ccb54d7bcd9d1045b26173904373baf7c626665b3bb8",
+    "2. Input Documents-20230101T000000Z-01396-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "5e0335c284c0016779a30fcd36f4561550a392fba4891b7bc7baf6b535b563d6",
+    "3. Complete form-20230101T000000Z-01396-000/3. Complete form/2023 Tax Return Documents (Parker Carter (synthetic)).pdf": "592714b1c9a9c0a657680fd186ac66d753a6150f01429c1978df9f68fd4ae726",
+    "3. Complete form-20230101T000000Z-01396-000/3. Complete form/Completed forms - Summary.pdf": "1251b4f21c49f108228826bf4f4a7909e5edc4c5d4a999d325fdca6fae749146",
+    "4. Executive Summary-20230101T000000Z-01396-000/4. Executive Summary/Executive Summary Parker Carter 2023.pdf": "af45afbabd8158ae234427c29eb0e745f618c4697af7744c3ed2e323903feada"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

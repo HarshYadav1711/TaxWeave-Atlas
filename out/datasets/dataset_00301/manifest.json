@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20210101T000000Z-00301-000",
+  "tax_year": 2021,
+  "case_fingerprint": "010e27e2f59c81873c7bbeaefd0046537803986e041dfa449a198bd80d5529fc",
+  "case_json_sha256": "fda4949cc57c8885c2ff0b23f569f92c8a6392d1e91408024f2aa7055e2a11c5",
+  "files_sha256": {
+    "1. Client Summary-20210101T000000Z-00301-000/1. Client Summary/Client Summary.pdf": "ddaad05fe7a724b28f5ee2908681efb2dd39cca1952e560155be1c99fb2b9ffe",
+    "2. Input Documents-20210101T000000Z-00301-000/2. Input Documents/Tax Document Attachments Summary.pdf": "e99f5de6e755b2badf41569c539e2c131bba700e7fa3550f3ab8c52c5233dd36",
+    "2. Input Documents-20210101T000000Z-00301-000/2. Input Documents/1099- DIV/1099-DIV BENNETT.pdf": "93dfd39e330ae0313a0bcfdfa5359fc75dd84d5ee7bf71e2cdade1f5fdeadba6",
+    "2. Input Documents-20210101T000000Z-00301-000/2. Input Documents/1099-INT/1099-INT BENNETT.pdf": "6116fb94f3de296aa2d96710be9b11dd2d2630d765b662acda1f97eecb440858",
+    "2. Input Documents-20210101T000000Z-00301-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2021_.pdf": "55fb430207c529f8927cd5964f63f32eeeaef0e5ce8117fa8b95ab22ae853799",
+    "2. Input Documents-20210101T000000Z-00301-000/2. Input Documents/Form W-2/Form W-2.pdf": "5c12135abadd9468a0596fae2351d5717436c93b2ecc6e0ff9e44b64d8570200",
+    "2. Input Documents-20210101T000000Z-00301-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "93bea2a4594b5762fa363882a69f01aff5965b76242d0e967cbe0fa014ad4796",
+    "2. Input Documents-20210101T000000Z-00301-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2021.pdf": "b2deb0c1cb91021f8e0f14756330023d8226eb09234cda93ba57b70e185beefd",
+    "3. Complete form-20210101T000000Z-00301-000/3. Complete form/2021 Tax Return Documents (Jordan Bennett (synthetic)).pdf": "1887304cea945d0f6402a02fe0a78cafb2fa1c25b8a33da64dde8f7b684d74a1",
+    "3. Complete form-20210101T000000Z-00301-000/3. Complete form/Completed forms - Summary.pdf": "c2af740595f1a909d5b4123b41c56c7124917b0cfea191cae4540dae8393a6bf",
+    "4. Executive Summary-20210101T000000Z-00301-000/4. Executive Summary/Executive Summary Jordan Bennett 2021.pdf": "f79e372ab1fb37c82944e97bb651fb203d6a75b162cbca7222dca900be495083"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

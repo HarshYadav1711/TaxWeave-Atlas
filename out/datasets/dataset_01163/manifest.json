@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-01163-000",
+  "tax_year": 2020,
+  "case_fingerprint": "1ddc31e0ba822127d05291d3e254c17b87e4b2af35fe456bbf07bc268355e08b",
+  "case_json_sha256": "b112e868a46eb8f2c4747c6b06937e448facab6f0c2f0452fa1333896bbd2683",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-01163-000/1. Client Summary/Client Summary.pdf": "66a27d73b44e063eb98a5661ceb0dc25efb17885c85d70877e172e6d7162783c",
+    "2. Input Documents-20200101T000000Z-01163-000/2. Input Documents/Tax Document Attachments Summary.pdf": "9b305f0065a505b26c9cc0294e8c57071ec9fcb79498983afdc07ee9c7ca304e",
+    "2. Input Documents-20200101T000000Z-01163-000/2. Input Documents/1099- DIV/1099-DIV CARTER.pdf": "12dc62128126127d5376c7a07ae0337238595135d1e89c9c93336daab9d3737f",
+    "2. Input Documents-20200101T000000Z-01163-000/2. Input Documents/1099-INT/1099-INT CARTER.pdf": "c71ae2819351eca35cd01762922facabcd87347c59617927bd71461717514162",
+    "2. Input Documents-20200101T000000Z-01163-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "ba41dffc877fe4a346a572ffccc6339d42dcc9556edacf03111565bb49638332",
+    "2. Input Documents-20200101T000000Z-01163-000/2. Input Documents/Form W-2/Form W-2.pdf": "fb61bb465e5a8a0f3f829ac6e9f392be0b59760bbacf281eded6e314186183d1",
+    "2. Input Documents-20200101T000000Z-01163-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "974f3ef3d53f05dd484ed238148b41d536fb975829d533b55002bb45b12d2e9e",
+    "2. Input Documents-20200101T000000Z-01163-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "8c890badffc0fc756f285d4b6933d8fde9445a441cedb9770acfe695f7e0077e",
+    "3. Complete form-20200101T000000Z-01163-000/3. Complete form/2020 Tax Return Documents (Jordan Carter (synthetic)).pdf": "a04f8d8065a4d2bc02a0f9df42bbf897bab1e5279c62d73869ba5cea4f5d015f",
+    "3. Complete form-20200101T000000Z-01163-000/3. Complete form/Completed forms - Summary.pdf": "582332b2fe890a8c820ef58b744738e0d43a7713cf54b33981e72b163898891f",
+    "4. Executive Summary-20200101T000000Z-01163-000/4. Executive Summary/Executive Summary Jordan Carter 2020.pdf": "025a2531ba6f8a946f4b9c543c1fdc7a26b0a64c939dff8f85327b7c2465d7ee"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

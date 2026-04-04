@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-00218-000",
+  "tax_year": 2020,
+  "case_fingerprint": "a6a3c7c557f0c2e9e9598e203d76ca8bca496082d9d27062c939ac5051509a7d",
+  "case_json_sha256": "5439c0f6f24fe224f4e8614d4593a9d07a05a4974ff6bb03d900432ab5a52cc9",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-00218-000/1. Client Summary/Client Summary.pdf": "c7a5dd34ab749b032129504a3347f215d19db1e5ac7562c7aa6ae42c3dfd1924",
+    "2. Input Documents-20200101T000000Z-00218-000/2. Input Documents/Tax Document Attachments Summary.pdf": "0d469316d109fd0d74b03d0239ea4e32132c1fef2a5c51797c8dfc64b20ac4ee",
+    "2. Input Documents-20200101T000000Z-00218-000/2. Input Documents/1099- DIV/1099-DIV REYES.pdf": "299baa4b7b7698f98393683c86e5338fb84ac832d815993217e20503dfb7158f",
+    "2. Input Documents-20200101T000000Z-00218-000/2. Input Documents/1099-INT/1099-INT REYES.pdf": "e4c0aeb534435e29921ad9a3f4ede0275b840b33e1741f49e17ad6fb05367f9d",
+    "2. Input Documents-20200101T000000Z-00218-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "fd3bc237e2f53e8a4bc8259cb79419661848c8448afdee1073962babd80dcb00",
+    "2. Input Documents-20200101T000000Z-00218-000/2. Input Documents/Form W-2/Form W-2.pdf": "794b6cfdef4f67967ac5f98d396a8b96c2c48cb14279bc181a4908b5944c8fd5",
+    "2. Input Documents-20200101T000000Z-00218-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "e5a0496b4169c7a6394b2e645d84e7fc4e5654f6effb24a168ec97cc8890ad7c",
+    "2. Input Documents-20200101T000000Z-00218-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "21032f26c445f4f95f49fa4d5cad977364fa3b0d832ce9b916d2ca0ef4f0bcab",
+    "3. Complete form-20200101T000000Z-00218-000/3. Complete form/2020 Tax Return Documents (Riley Reyes (synthetic)).pdf": "ee8a49806aa3b13372231956f5e718128df7b2b6455d2a4681d2d9491b006ecc",
+    "3. Complete form-20200101T000000Z-00218-000/3. Complete form/Completed forms - Summary.pdf": "d3679b38a675cc59906f122a65a63df797c0e283d9bcb36eff16d75e6e40754e",
+    "4. Executive Summary-20200101T000000Z-00218-000/4. Executive Summary/Executive Summary Riley Reyes 2020.pdf": "fe9641db2150e936db44a797602e2fe2253d0b510b98357fefa1b7c0ffdaf1cf"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

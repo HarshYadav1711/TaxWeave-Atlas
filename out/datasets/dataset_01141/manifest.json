@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20210101T000000Z-01141-000",
+  "tax_year": 2021,
+  "case_fingerprint": "721872ea7df866df95152f36d2ff499ca7e43181f20816affbbca75b8166b7e0",
+  "case_json_sha256": "7ea413bece0a30125f16e46259ca9273666fa32744592d6f9f9e70931912cd85",
+  "files_sha256": {
+    "1. Client Summary-20210101T000000Z-01141-000/1. Client Summary/Client Summary.pdf": "42ba9b13564d4ef167be6581a365387319f112f2a23d506dbd43af352d92dcf6",
+    "2. Input Documents-20210101T000000Z-01141-000/2. Input Documents/Tax Document Attachments Summary.pdf": "18352192b762608b92f4e87551f6f5aa1aed2da5b6af27cae9eb54025f4a0663",
+    "2. Input Documents-20210101T000000Z-01141-000/2. Input Documents/1099- DIV/1099-DIV CARTER.pdf": "ec39005c3f44e2af1df84a348e993fcfa805e7a70ac7f7d957dd231703ed71f7",
+    "2. Input Documents-20210101T000000Z-01141-000/2. Input Documents/1099-INT/1099-INT CARTER.pdf": "ee6db10c1f9e2d00112c3d0ab1beff4c1d01f2e4412adec83d0913ba405a1de9",
+    "2. Input Documents-20210101T000000Z-01141-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2021_.pdf": "c13514f76f25585a653adf35f7532a543e865c8d8dfd395bf9943b0a333dac2b",
+    "2. Input Documents-20210101T000000Z-01141-000/2. Input Documents/Form W-2/Form W-2.pdf": "1a816cd9f51781250ccda5876a705afd0e0a71c3bac7e6c975201604f03f08b6",
+    "2. Input Documents-20210101T000000Z-01141-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "743765fc87253790a76a3666ac217a75c9876e092345a1b89d9c7d764f9fe3a4",
+    "2. Input Documents-20210101T000000Z-01141-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2021.pdf": "3c4a5638ebf261d27a4b8a32243b333976f649304c759f7bf1441844fb4e81b4",
+    "3. Complete form-20210101T000000Z-01141-000/3. Complete form/2021 Tax Return Documents (Casey Carter (synthetic)).pdf": "fedfbb9a319a4f62fa1133a71f3f633b43c2cc106ad11900b48ffbecf1650a1c",
+    "3. Complete form-20210101T000000Z-01141-000/3. Complete form/Completed forms - Summary.pdf": "18e31358f75c4760bdc16dcc1a99ad64c2794f4190fe919b0a3155fb48acc416",
+    "4. Executive Summary-20210101T000000Z-01141-000/4. Executive Summary/Executive Summary Casey Carter 2021.pdf": "aba042ec26b560816bcf7f2ede24f010f3d90a89e3c702b45fa82a8846e26de8"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

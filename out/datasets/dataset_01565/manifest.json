@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-01565-000",
+  "tax_year": 2024,
+  "case_fingerprint": "ea12a32c72572e97e792e0964bda28c22a734ae27723a92c90229a30ba47b2b2",
+  "case_json_sha256": "72d642293f8780cc6858b3fbabe2bb54f8004be0fd5d483f64566a6b3bd67e96",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-01565-000/1. Client Summary/Client Summary.pdf": "7ef14525ffdc4a75641f4c22426683cf0d6ce781e807167bd76dd5067b6fd8e5",
+    "2. Input Documents-20240101T000000Z-01565-000/2. Input Documents/Tax Document Attachments Summary.pdf": "beab35ac633ec19081271c96bf1c5a25c6e33f129df33f294a119e5cb134a6dd",
+    "2. Input Documents-20240101T000000Z-01565-000/2. Input Documents/1099- DIV/1099-DIV DIAZ.pdf": "6292305434452892ac968ad74ad174f37f1f2798078dcb7617602bf56725c993",
+    "2. Input Documents-20240101T000000Z-01565-000/2. Input Documents/1099-INT/1099-INT DIAZ.pdf": "c6878763156bc7adb73e9979e6756e55cc9bfb7fd3f59e1aeefbfe3c41baed9f",
+    "2. Input Documents-20240101T000000Z-01565-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "5520c763272e4b659aebf1d5a5b43e2ce36810ce326ab307f007356b11b645be",
+    "2. Input Documents-20240101T000000Z-01565-000/2. Input Documents/Form W-2/Form W-2.pdf": "2cbaee80bfb08b7949ab10ffc42ebc992227acbc19fcb20e7a4cc80812f3cbe9",
+    "2. Input Documents-20240101T000000Z-01565-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "b34e1e641627547258c9bb4b2f3af3c9cee46bea0f667d78ae0f4a1d43a0c850",
+    "2. Input Documents-20240101T000000Z-01565-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "79119f7b924d26eb07890d3f1b17abecfa5b228698f6f2b964145c93bfc4e967",
+    "3. Complete form-20240101T000000Z-01565-000/3. Complete form/2024 Tax Return Documents (Rowan Diaz (synthetic)).pdf": "b3c5941717db0ef61c12910a02d399d6da840157e7d70c87c897eb959413593c",
+    "3. Complete form-20240101T000000Z-01565-000/3. Complete form/Completed forms - Summary.pdf": "603caf5c6b53d6361083ca83b66a1232ce0d3dfcf0d1b3b6b4ff63f3ed8dc849",
+    "4. Executive Summary-20240101T000000Z-01565-000/4. Executive Summary/Executive Summary Rowan Diaz 2024.pdf": "1ac9d7eeccaa218d8724561c0477cf52ba2c971120921d5847a6bd0c2846e3cb"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

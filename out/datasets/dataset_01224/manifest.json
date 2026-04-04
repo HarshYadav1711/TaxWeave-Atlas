@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20250101T000000Z-01224-000",
+  "tax_year": 2025,
+  "case_fingerprint": "14a6baf266c8159059ad08557dcb25986d266490018dc75d4fe97088d283c0e7",
+  "case_json_sha256": "c9bfe39cc5be0ac05715ed0433b84345b19ec323436cc3aff744d4204f36d22e",
+  "files_sha256": {
+    "1. Client Summary-20250101T000000Z-01224-000/1. Client Summary/Client Summary.pdf": "d1c037152b4918498a965ecf2d468b7276c0a79991e0271c695cd69e770814d5",
+    "2. Input Documents-20250101T000000Z-01224-000/2. Input Documents/Tax Document Attachments Summary.pdf": "d6fcd9b6552663fb53c27ee13f9fb18e37f38c67d3b4a77a29f44083e6e3fbac",
+    "2. Input Documents-20250101T000000Z-01224-000/2. Input Documents/1099- DIV/1099-DIV KELLER.pdf": "771c1e32ed781b59f58c30f31b7d6ea5722ce447970655ca9e18f7a95dbf9d5c",
+    "2. Input Documents-20250101T000000Z-01224-000/2. Input Documents/1099-INT/1099-INT KELLER.pdf": "a81ebc2c828fcf0eb12a4a80783f487767d8a4486e46d21e7a34e87f28649835",
+    "2. Input Documents-20250101T000000Z-01224-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2025_.pdf": "cfbbd985846b96431639af1b7bd3fc7d6a3fcdf49c8296df927d6863e17afe52",
+    "2. Input Documents-20250101T000000Z-01224-000/2. Input Documents/Form W-2/Form W-2.pdf": "fef1d5dc7be64378ea076bdf5097cadfaeca4798e7791344868a3d38c36976a8",
+    "2. Input Documents-20250101T000000Z-01224-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "09b7758a50c790a9416371a146703b5ed1178c9f8e3695259f09ce66eb408e54",
+    "2. Input Documents-20250101T000000Z-01224-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2025.pdf": "b03c464a7c4e5c60a6e6f29ce2427dae21e53527397c7b74cd1da02711805bfe",
+    "3. Complete form-20250101T000000Z-01224-000/3. Complete form/2025 Tax Return Documents (Emery Keller (synthetic)).pdf": "c0d59740323de6d9fac94e5bed34e62d688c92b3bef2044418da06ec41bcabdd",
+    "3. Complete form-20250101T000000Z-01224-000/3. Complete form/Completed forms - Summary.pdf": "b7a6909866fdc894c4ab1c580c745450f70e57b394e2c923189c2a5b67830423",
+    "4. Executive Summary-20250101T000000Z-01224-000/4. Executive Summary/Executive Summary Emery Keller 2025.pdf": "997679cd14417e4d217bdaba6a9bb88f5cc717bfceccae92c49ce4621e82da1f"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

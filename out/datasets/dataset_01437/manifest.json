@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-01437-000",
+  "tax_year": 2024,
+  "case_fingerprint": "fcd7fbb3043dff1e6491fecb717f53ac456029d26968bc5e7f688d1d4b8a52cc",
+  "case_json_sha256": "985ada69253ec3b8b95542fe0f848d313e44183e40d0d30be25d345607a7f86b",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-01437-000/1. Client Summary/Client Summary.pdf": "1798cde0c73fda2368d07a0b3b0b3587754d41b2ece22fd8be8d6d8541571832",
+    "2. Input Documents-20240101T000000Z-01437-000/2. Input Documents/Tax Document Attachments Summary.pdf": "8506051826d221b27378c2ba5c3ed7f68f7b9ef63c7b73178b9074e14f687275",
+    "2. Input Documents-20240101T000000Z-01437-000/2. Input Documents/1099- DIV/1099-DIV JENNINGS.pdf": "1cb26d487d24b89f863f79354f2c2bc2c4e3b4ec01180da1713ed616cece4202",
+    "2. Input Documents-20240101T000000Z-01437-000/2. Input Documents/1099-INT/1099-INT JENNINGS.pdf": "d6d463df89fa6601c82b77831a138b2220b682b1e828fcb6af20b3cd49f0a67d",
+    "2. Input Documents-20240101T000000Z-01437-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "5a61b3e4bff5443e3fc3fb3cd0cf58ee71b1d26d1c92a70903847ab628d9f7ae",
+    "2. Input Documents-20240101T000000Z-01437-000/2. Input Documents/Form W-2/Form W-2.pdf": "9f202da5feb18ecba03d47b0bc4d3a984cbb9c8cc48f445c63b0e3f937883597",
+    "2. Input Documents-20240101T000000Z-01437-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "a0e189173a0a87e3ee2317fa5a90302c7287ddb5785e52480b7a3a98beeae846",
+    "2. Input Documents-20240101T000000Z-01437-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "f7f80f7e45f7c63d78e9e87e3232713fc8781d4b1515cc371a3206c1600a5bf8",
+    "3. Complete form-20240101T000000Z-01437-000/3. Complete form/2024 Tax Return Documents (Rowan Jennings (synthetic)).pdf": "fcff568822a4e5442de8e067f83a91a6f227d683e8ddd42711db4c67793c8a1a",
+    "3. Complete form-20240101T000000Z-01437-000/3. Complete form/Completed forms - Summary.pdf": "ecb219e6157785e858382177d27d751594354dfbd990a46df410555a50a0f457",
+    "4. Executive Summary-20240101T000000Z-01437-000/4. Executive Summary/Executive Summary Rowan Jennings 2024.pdf": "e6790e7038f3d7f119fc8872d7c30221c7b3e3cc59c68869f5394749a93bbac0"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

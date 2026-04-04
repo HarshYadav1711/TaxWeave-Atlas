@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-00649-000",
+  "tax_year": 2023,
+  "case_fingerprint": "ac0d995edd76f09f59d83417c3b7e4fa05eb15999d2f88012f149921c03e892d",
+  "case_json_sha256": "a36b9ae1904a9f5032b681ace6a1e05b97cdafd0a2b9800376231281b0bd377b",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-00649-000/1. Client Summary/Client Summary.pdf": "49eebcbc40c83d0c90ca49fcadafb2de903bdcd87eecba458e7f1afecb9b548e",
+    "2. Input Documents-20230101T000000Z-00649-000/2. Input Documents/Tax Document Attachments Summary.pdf": "c4c18165969609574b3930ffd0791017314379dc136eb1752aa3b719ca55a1de",
+    "2. Input Documents-20230101T000000Z-00649-000/2. Input Documents/1099- DIV/1099-DIV DIAZ.pdf": "bf2d46ba6d88e81c634c3275017f348d3ffdfb291c7a087781b8e2cc431f7de6",
+    "2. Input Documents-20230101T000000Z-00649-000/2. Input Documents/1099-INT/1099-INT DIAZ.pdf": "3c176e09990958c64ad3a699edddb4abd6ea7b02ce7636f103d16aed1c5ed22e",
+    "2. Input Documents-20230101T000000Z-00649-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "6f7a30fd044319a5f694daa5c361a86786ea22f9ab9cdaf5a9e321fcbe673387",
+    "2. Input Documents-20230101T000000Z-00649-000/2. Input Documents/Form W-2/Form W-2.pdf": "5b36e052a0bd633f330fe5d5ac4427abeb298a37e6fc42b6b8e77628fd8a64b6",
+    "2. Input Documents-20230101T000000Z-00649-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "9dcc7f8676fedb855f6f0f0f23275130513f74b2ac51d3982b670ad77d57e80d",
+    "2. Input Documents-20230101T000000Z-00649-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "90307427aceb6dc0e5b1fa1943182bc4c00367cae0c7cf309633412bcb5ebeee",
+    "3. Complete form-20230101T000000Z-00649-000/3. Complete form/2023 Tax Return Documents (Rowan Diaz (synthetic)).pdf": "af9d7c9a0df2fc52de6b4de03bd1cd64c7593fd40ad31d143ecdf5960635e9e3",
+    "3. Complete form-20230101T000000Z-00649-000/3. Complete form/Completed forms - Summary.pdf": "509d0eb8e57b6f2f6f0c3c58f77d5ce5da77c43599c226646d69b7528c48118b",
+    "4. Executive Summary-20230101T000000Z-00649-000/4. Executive Summary/Executive Summary Rowan Diaz 2023.pdf": "04ffd5d99b3da62fed66d2fcacfa128cefe2cef9491e35eba2645963a0090dd7"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

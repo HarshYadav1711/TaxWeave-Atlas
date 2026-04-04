@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-01860-000",
+  "tax_year": 2020,
+  "case_fingerprint": "068b31cc8c62cf438281256b64fa5b54f29bca8f303cadef9f83f2f042be45a3",
+  "case_json_sha256": "a74ad79b5497adc49dfdf043bbe18fe7d7892b4543ab3a440a4076cb631da5c2",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-01860-000/1. Client Summary/Client Summary.pdf": "76bd219a2ae9081e78e9c2ef2fce324e21729c52bd4802f23ae8883863ccda02",
+    "2. Input Documents-20200101T000000Z-01860-000/2. Input Documents/Tax Document Attachments Summary.pdf": "baea02c840674adf99aa047dd8fde039103cf92cb1c3334db0fb0b6d2cfb1631",
+    "2. Input Documents-20200101T000000Z-01860-000/2. Input Documents/1099- DIV/1099-DIV CARTER.pdf": "59eb970146996f76c1a98239d9237039f8bdbadc1a741428eb756db314363ae6",
+    "2. Input Documents-20200101T000000Z-01860-000/2. Input Documents/1099-INT/1099-INT CARTER.pdf": "631af77528600c7ccc3d3e9cd768902f2c2bd7b2edae699a7ec335cdb7c7ffa4",
+    "2. Input Documents-20200101T000000Z-01860-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "862a336c4926ade9cd765ac86eccdd7a5f58e0310bfe76c571bb97ad19bf1e61",
+    "2. Input Documents-20200101T000000Z-01860-000/2. Input Documents/Form W-2/Form W-2.pdf": "ac8a169c674aaec619a8ddbc0b176b8e9ed36444fd1e0f1a8c2d17b2e065a9ef",
+    "2. Input Documents-20200101T000000Z-01860-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "4a6ecd2e1e92eba332b7347dc66fc68215700b8d00e3c8cbf8ecfca3a446b686",
+    "2. Input Documents-20200101T000000Z-01860-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "dee21b14c5c8ee75ef52f3f45c745e66c37f1ecdaf3668a5971abe41eefa692a",
+    "3. Complete form-20200101T000000Z-01860-000/3. Complete form/2020 Tax Return Documents (Quinn Carter (synthetic)).pdf": "dbb9d98b1e150b3ed25d0aef4d8678c161e7c3e0484f416c8eeb9e08e23d92d2",
+    "3. Complete form-20200101T000000Z-01860-000/3. Complete form/Completed forms - Summary.pdf": "b212e6f44faff1d6130881c299d7609c9c46715385c3ad0a27879bf864eae0d6",
+    "4. Executive Summary-20200101T000000Z-01860-000/4. Executive Summary/Executive Summary Quinn Carter 2020.pdf": "e879858e08042f2b854e3be21e5bab47576cbb4cc9982d3b4c916a60f15881f0"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-00796-000",
+  "tax_year": 2020,
+  "case_fingerprint": "a4c4b700903427b184c7aa5e644a3ea1674a5d53b513910beeb13adc0bc7f67a",
+  "case_json_sha256": "01e1ded9818e017ad225ff2a738720dee4cb8ffc346cc1daa0c38458a392f989",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-00796-000/1. Client Summary/Client Summary.pdf": "2a9611dac1f3dd05ab7add17f04705e40090a9b974184ae6082c8475f3e5f3ab",
+    "2. Input Documents-20200101T000000Z-00796-000/2. Input Documents/Tax Document Attachments Summary.pdf": "9231421018076a825d6adf2797d3b764ba5471d634a31313c400763f44aa0573",
+    "2. Input Documents-20200101T000000Z-00796-000/2. Input Documents/1099- DIV/1099-DIV HAYES.pdf": "ea041ce6d2832d1d839fda9163e5e70a488f961b0d12f1ec2cbb8d8277101446",
+    "2. Input Documents-20200101T000000Z-00796-000/2. Input Documents/1099-INT/1099-INT HAYES.pdf": "efa186cb44f82bb1fea4af21263ca1af4513d9cb9e45002aaf6007509910c4c3",
+    "2. Input Documents-20200101T000000Z-00796-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "bf824f077cce08a9c68b10daaab763307c9c89f466d6ab272cfd14d36171de26",
+    "2. Input Documents-20200101T000000Z-00796-000/2. Input Documents/Form W-2/Form W-2.pdf": "4d831256250b9f2ad92b320e7dcb415900491c5f5bf8bf19d47979b5acece2de",
+    "2. Input Documents-20200101T000000Z-00796-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "7fdbc487a8863fc2aa14aa9c08dc58e0b45dbd2fdc733154db8e0e4203791c96",
+    "2. Input Documents-20200101T000000Z-00796-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "dd6fa93ffa1830f347fe093ad1b93b178f550f941b74c8f82ef1a8ad97aed719",
+    "3. Complete form-20200101T000000Z-00796-000/3. Complete form/2020 Tax Return Documents (Quinn Hayes (synthetic)).pdf": "5433d25a9e73c20e5af83d89b31a20a7e20af63c09272770965b34530a0580b1",
+    "3. Complete form-20200101T000000Z-00796-000/3. Complete form/Completed forms - Summary.pdf": "c89d8c0d994885f3686a09c8bdd42b5cccbf08aaab14f2e910918d9aac85db03",
+    "4. Executive Summary-20200101T000000Z-00796-000/4. Executive Summary/Executive Summary Quinn Hayes 2020.pdf": "4c3062f000b3ed4be3d0a0c52a3985ecd09ab289351c6d56b5aade7ca143996d"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

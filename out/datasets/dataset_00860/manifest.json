@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20210101T000000Z-00860-000",
+  "tax_year": 2021,
+  "case_fingerprint": "81b52342feaa45fc31b2a20bf06906dd8a2379db9528e54873bc2c2391ab070d",
+  "case_json_sha256": "a9049c4885f0bebf223b7e0ff535616b88c5cbd96b5a5172490d458e1cb224f7",
+  "files_sha256": {
+    "1. Client Summary-20210101T000000Z-00860-000/1. Client Summary/Client Summary.pdf": "bbd25053c3c8bb7fde212e35cc359129539f3097348d75861a8bed88ed0e8c69",
+    "2. Input Documents-20210101T000000Z-00860-000/2. Input Documents/Tax Document Attachments Summary.pdf": "c6ff525fb63734ab775df3ee9e12110adef12d06c1e8f925de1af0817a72935a",
+    "2. Input Documents-20210101T000000Z-00860-000/2. Input Documents/1099- DIV/1099-DIV SULLIVAN.pdf": "ae222b5c4889d368d48cea4278cd07d1ae1c90ee93151d1dc797a95f2297ecdc",
+    "2. Input Documents-20210101T000000Z-00860-000/2. Input Documents/1099-INT/1099-INT SULLIVAN.pdf": "81012e8756bec69c03bdc863e71db70482015e6fc678aa1fb031b6b1447c200b",
+    "2. Input Documents-20210101T000000Z-00860-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2021_.pdf": "d1de3fa225920b202a366427d17d0a8a682a977344b1cdd763eeb551d54d356b",
+    "2. Input Documents-20210101T000000Z-00860-000/2. Input Documents/Form W-2/Form W-2.pdf": "1f1643dfb1ddc5e9090dde2986ea1c75634f0f1d1f7cfecfe77882cf76e228ac",
+    "2. Input Documents-20210101T000000Z-00860-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "23d784a55c8675a4c153b86a9d3626bbfab4979ec8af93de0c696b664e514ff4",
+    "2. Input Documents-20210101T000000Z-00860-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2021.pdf": "0b8b1500781763d69f872373e1e205a15c54a16cfc93d2dedd2e35322d9148b1",
+    "3. Complete form-20210101T000000Z-00860-000/3. Complete form/2021 Tax Return Documents (Dakota Sullivan (synthetic)).pdf": "0fb998107f0e396af2bfb266d6024bc152e38edafa2ff0523ef1009d73570d2e",
+    "3. Complete form-20210101T000000Z-00860-000/3. Complete form/Completed forms - Summary.pdf": "9fe480696820fe611f28d6e06db9ceb766bb71a5795c187ba0be912c46a97823",
+    "4. Executive Summary-20210101T000000Z-00860-000/4. Executive Summary/Executive Summary Dakota Sullivan 2021.pdf": "65563d79b78bfd86939a34fcb2e0e60a00ce76a60373c1ecaf2449baa30ada38"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

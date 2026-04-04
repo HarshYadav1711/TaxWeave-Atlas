@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-00318-000",
+  "tax_year": 2020,
+  "case_fingerprint": "cf91c737b75eaf4e7ab5a7eff89a8f3e80101a1dfc4f6b310d02200013fd8191",
+  "case_json_sha256": "19ab8ef8d6e8b754c304f5dd0c603c5a24433c21aa09ce492c56db1c63fba19f",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-00318-000/1. Client Summary/Client Summary.pdf": "c834594109b87af039da913685b271a7f70235d8c4bd7d8bb51b7bd75438fc79",
+    "2. Input Documents-20200101T000000Z-00318-000/2. Input Documents/Tax Document Attachments Summary.pdf": "5804e114e032721545a2c0f19469021ace34e21f4fdbf5c409bab39ae124cdb8",
+    "2. Input Documents-20200101T000000Z-00318-000/2. Input Documents/1099- DIV/1099-DIV JENNINGS.pdf": "abce8a45d26fc394328105f6d3bb32f7cd2568d9d5e6f68141a05c064f1130a6",
+    "2. Input Documents-20200101T000000Z-00318-000/2. Input Documents/1099-INT/1099-INT JENNINGS.pdf": "3a07a893b8be7cf330b72de22380f040a7f51192640b4eff68cc1eee70e767b9",
+    "2. Input Documents-20200101T000000Z-00318-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "a5c392a95f58fa8f0aa1d6f31673e450f58e313fbd342993458052967c947f42",
+    "2. Input Documents-20200101T000000Z-00318-000/2. Input Documents/Form W-2/Form W-2.pdf": "e666e70ec1648360fa17ab9f2a22f5f502d9dadb727ae4acca9282529c799b52",
+    "2. Input Documents-20200101T000000Z-00318-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "1178c708a0fdba0586e52689c61d63ea2156d37ffdc27e0b65a85b53461175f8",
+    "2. Input Documents-20200101T000000Z-00318-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "00f3a83ffbd0572627d2a1a601c5129f6a10f9f0df2add3b6ec1a5fbdec8bc12",
+    "3. Complete form-20200101T000000Z-00318-000/3. Complete form/2020 Tax Return Documents (Morgan Jennings (synthetic)).pdf": "2b962c089ce6e80c1ae92b2be2a8eea8bec85308bdcb59fa064cc28493e95747",
+    "3. Complete form-20200101T000000Z-00318-000/3. Complete form/Completed forms - Summary.pdf": "faba1a071461144e104666bcfff4cb584095fb9676e9a1c92de8b1830a223a3c",
+    "4. Executive Summary-20200101T000000Z-00318-000/4. Executive Summary/Executive Summary Morgan Jennings 2020.pdf": "faf5294ca7266434fc69016b9a487234fea0e8d42723aefccbe7564ee8cccc6e"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

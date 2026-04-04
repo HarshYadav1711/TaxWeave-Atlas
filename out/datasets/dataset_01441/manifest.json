@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20250101T000000Z-01441-000",
+  "tax_year": 2025,
+  "case_fingerprint": "7e46cbcfb2a0592c9e6e829184d9be2025fcb94292a2c17ef77e6e11c5f8e639",
+  "case_json_sha256": "6112b159e9589a7933010eabaf0e31d7baf6237e0a842c52c13db6fed52322d0",
+  "files_sha256": {
+    "1. Client Summary-20250101T000000Z-01441-000/1. Client Summary/Client Summary.pdf": "47cb68aa021a0ec7c69efab25e9a292ed73048d4baacfa0eb77548f0a749cffc",
+    "2. Input Documents-20250101T000000Z-01441-000/2. Input Documents/Tax Document Attachments Summary.pdf": "6391827a0fd349003fa42fa7cd365599168f7908ec014df8f1bede4368d788d9",
+    "2. Input Documents-20250101T000000Z-01441-000/2. Input Documents/1099- DIV/1099-DIV PATEL.pdf": "03788a23d64992ccd6fa5a5d7decd37b0a82b369351f0796c8bd8bd546254968",
+    "2. Input Documents-20250101T000000Z-01441-000/2. Input Documents/1099-INT/1099-INT PATEL.pdf": "767c491d48f27149b494d600eec2aa83a5b5d8f0f5d857fd1b4f0d8ed8441e3c",
+    "2. Input Documents-20250101T000000Z-01441-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2025_.pdf": "42a5574906a0292a24378ee987e494859c9765cff00ccd07aee3465362ed18bd",
+    "2. Input Documents-20250101T000000Z-01441-000/2. Input Documents/Form W-2/Form W-2.pdf": "b1185bbd052273054b3113ee2a06e1e460ebffe20370c84e22c97f4aaa73914a",
+    "2. Input Documents-20250101T000000Z-01441-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "872db164437b7a2138603f28905b81abab1b76bc2bef4c22a1c0d6c17ff2e47e",
+    "2. Input Documents-20250101T000000Z-01441-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2025.pdf": "85c320e9285b5ce298ced15fef08a1c126f3900f351cb5dd7ff08de9c80b2d9c",
+    "3. Complete form-20250101T000000Z-01441-000/3. Complete form/2025 Tax Return Documents (Avery Patel (synthetic)).pdf": "4780f9b52a03e678d1bd13fcea63f461a1ba410bda08a15321de2137623078fa",
+    "3. Complete form-20250101T000000Z-01441-000/3. Complete form/Completed forms - Summary.pdf": "67a1471b1fb0d4bcd0b1919244c77d76e628cae9c8cdc009bd991bf63c5b443a",
+    "4. Executive Summary-20250101T000000Z-01441-000/4. Executive Summary/Executive Summary Avery Patel 2025.pdf": "1ce5f0de228b2fcbda54d80d3f53ba2a89d3f95853f22a3b944331349c8c7c88"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

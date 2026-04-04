@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-00168-000",
+  "tax_year": 2020,
+  "case_fingerprint": "1804ce15a4e76117fc091d1d917cb7668eebf0e750fe3b16ded4234f37062de8",
+  "case_json_sha256": "3a1aabedb52ec64d5d15282b6f68b4eb27dd5b17a254fb3d7fd0bd984567669c",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-00168-000/1. Client Summary/Client Summary.pdf": "557fa52766d2154f032f7076d38e61e0220bd280d90e36e93db04e5cc1c9df6b",
+    "2. Input Documents-20200101T000000Z-00168-000/2. Input Documents/Tax Document Attachments Summary.pdf": "aa9d2259501698d351879e908518b0d15080f2ac88c03d1377d332237e8cd3ba",
+    "2. Input Documents-20200101T000000Z-00168-000/2. Input Documents/1099- DIV/1099-DIV LAWSON.pdf": "f02e241edeb5c4ad6ec4c3c25021f3dd6a5d9a7b35b6facbf7946a4d37761b2d",
+    "2. Input Documents-20200101T000000Z-00168-000/2. Input Documents/1099-INT/1099-INT LAWSON.pdf": "354568e92266eae780fd9578209e70d0c801459664660f3f9429dd906d489666",
+    "2. Input Documents-20200101T000000Z-00168-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "10e0d33403b0af60b3ad9d7c17c8026cce8faa20be325f5f681e141cb19d9426",
+    "2. Input Documents-20200101T000000Z-00168-000/2. Input Documents/Form W-2/Form W-2.pdf": "bc92201a460314318f847e0c2485f572c59aaeb4932f66afafd4cfab2abe1e0a",
+    "2. Input Documents-20200101T000000Z-00168-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "9f2749145c6cad4d142468f32b42dd4121613302458134f340e42126f6f1437c",
+    "2. Input Documents-20200101T000000Z-00168-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "c420eec3407999fb62a05afb0d2078f36bfbe25125565ef1af18eafdd7b09c36",
+    "3. Complete form-20200101T000000Z-00168-000/3. Complete form/2020 Tax Return Documents (Dakota Lawson (synthetic)).pdf": "6e5c697eb71daa8079adf9f826d01a94c803c896e86751ba08980b9cc1af8946",
+    "3. Complete form-20200101T000000Z-00168-000/3. Complete form/Completed forms - Summary.pdf": "f245210fc03b248df4b188159984f7447748d96d74ed5cc899ec200854ea3dff",
+    "4. Executive Summary-20200101T000000Z-00168-000/4. Executive Summary/Executive Summary Dakota Lawson 2020.pdf": "8e98f3b26cca5181bd8b8a9b8c73dba8a987ac4db22c92f054cf003072c2a3d1"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

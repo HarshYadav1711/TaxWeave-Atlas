@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-01178-000",
+  "tax_year": 2022,
+  "case_fingerprint": "7fa674236e68085f2bc471e752709509fd84e70c1c047b148045bf00ff646cff",
+  "case_json_sha256": "4881253e301b4187fc9c1fe7aa2ddc1ef040a50b7ef082de225f8f40ea7e5efc",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-01178-000/1. Client Summary/Client Summary.pdf": "a39faa5d02cdc6b4d4584587997ddff8454db3aa9d48bb1133a20d74ad210027",
+    "2. Input Documents-20220101T000000Z-01178-000/2. Input Documents/Tax Document Attachments Summary.pdf": "cc6614fdcf52e39060a3fa680c13ebd027eba53f54e870fde89cdbfcc8408e3d",
+    "2. Input Documents-20220101T000000Z-01178-000/2. Input Documents/1099- DIV/1099-DIV REYES.pdf": "11920e8e5b36991ed635ad8374f18b2a1844b1025fc79b6dbe6e3020a3fd05cd",
+    "2. Input Documents-20220101T000000Z-01178-000/2. Input Documents/1099-INT/1099-INT REYES.pdf": "f263d4e8d85a7b2c6ccb3af483e94c77169f165a358b37ceffaa38433ef6b09b",
+    "2. Input Documents-20220101T000000Z-01178-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "ae8ccc3fb177049e24731c6970991f373e40917e2171bc10ed941e042c163bef",
+    "2. Input Documents-20220101T000000Z-01178-000/2. Input Documents/Form W-2/Form W-2.pdf": "9fc1d6d6e03791aed6936fd54d6a2c14f550f8e159707cb9bdfcd22c517cac1a",
+    "2. Input Documents-20220101T000000Z-01178-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "0d2ec81bfc2b67910ab4c79613d2f1870969919e2e34bef9138810417931a0e8",
+    "2. Input Documents-20220101T000000Z-01178-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "6becedb3d04e76420e81a101f43ba2a0d7cf18e3b38aace53e866412d27bee4b",
+    "3. Complete form-20220101T000000Z-01178-000/3. Complete form/2022 Tax Return Documents (Parker Reyes (synthetic)).pdf": "771c451e4187ab38d9585e4e4f2a73624e01477ca555fe507b6f1e6056cf9700",
+    "3. Complete form-20220101T000000Z-01178-000/3. Complete form/Completed forms - Summary.pdf": "e1d19339d689ead8263171c587df06ded86be827a1de1c1143340d59ff227641",
+    "4. Executive Summary-20220101T000000Z-01178-000/4. Executive Summary/Executive Summary Parker Reyes 2022.pdf": "bfe1f20bad6abbb5b25bd09039ca9ebb1a2738ccdeb70a8a0c59bd63383f17d5"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

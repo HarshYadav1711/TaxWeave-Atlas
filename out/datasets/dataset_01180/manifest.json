@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-01180-000",
+  "tax_year": 2020,
+  "case_fingerprint": "658cbce2107ce7c6b3f6c51159de5faabc4aa978261bf67b8feda33cf026ea65",
+  "case_json_sha256": "04ade619822c57e2919f6d25d07c55c026de214f4fd348816d02449fae9d6f2a",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-01180-000/1. Client Summary/Client Summary.pdf": "0827c4e103f4282187fd459125e8f282e0652c37e4454f62ec414cfb37b5b541",
+    "2. Input Documents-20200101T000000Z-01180-000/2. Input Documents/Tax Document Attachments Summary.pdf": "083df8948bae5bb42eccbe2e185894b219c1db676c4cdb471d531d97c700ec8c",
+    "2. Input Documents-20200101T000000Z-01180-000/2. Input Documents/1099- DIV/1099-DIV NAVARRO.pdf": "b3cc66e910b4f1d243556c3c25da4a8e3595a8f3fe40d4b5f3aa5971adac2055",
+    "2. Input Documents-20200101T000000Z-01180-000/2. Input Documents/1099-INT/1099-INT NAVARRO.pdf": "3ab5b04aec6c7a28435854b1ffae8389494b92fa03b6ea52c520f578880afa62",
+    "2. Input Documents-20200101T000000Z-01180-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "570f6e418b494f32c0cd42aaf2737524337eb06cac631de346a96d88ea9a6617",
+    "2. Input Documents-20200101T000000Z-01180-000/2. Input Documents/Form W-2/Form W-2.pdf": "9d25f8d4130f7cc84c6ce2069e33278a345455c49016e9fdcc7dd91ccb4c1541",
+    "2. Input Documents-20200101T000000Z-01180-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "73ed3d23d4373beed90f4ff0e7093fd21c1b7bcac34193ca4f2d76cc5f852b0f",
+    "2. Input Documents-20200101T000000Z-01180-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "5747fc54644163d7b87ee2bf0b6bc3f769de366fe063a47372a9629f65bc9f54",
+    "3. Complete form-20200101T000000Z-01180-000/3. Complete form/2020 Tax Return Documents (River Navarro (synthetic)).pdf": "7d75bcb186cb48ba0363f8bb5b83560cd544a86caea362cd484fe6686dd0f959",
+    "3. Complete form-20200101T000000Z-01180-000/3. Complete form/Completed forms - Summary.pdf": "e07a9b43b1d3b3599272c31b8ff039ca78a758030bb076d1e27b363fc079620b",
+    "4. Executive Summary-20200101T000000Z-01180-000/4. Executive Summary/Executive Summary River Navarro 2020.pdf": "b99ac2f585868660272ee8750132cae68c0878587f16ddc38a6593ca1f7590d3"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

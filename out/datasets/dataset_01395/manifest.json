@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-01395-000",
+  "tax_year": 2023,
+  "case_fingerprint": "86039cf2cb9a7609bc15699c001d6319f0e21f53f3d9c250cb8d5658470226d3",
+  "case_json_sha256": "376223158ea36bc5d9bdc3386ab441a0cef5d6256c4dbfc5c91aac51bd4964ab",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-01395-000/1. Client Summary/Client Summary.pdf": "458071529301731e61c00586b22d544b762a68141be87aa08bb821f55e202f0e",
+    "2. Input Documents-20230101T000000Z-01395-000/2. Input Documents/Tax Document Attachments Summary.pdf": "05582629b7cc1f15c7ed6349f61130294248368ef3fd135b06e8abbec0140ac4",
+    "2. Input Documents-20230101T000000Z-01395-000/2. Input Documents/1099- DIV/1099-DIV BENNETT.pdf": "0d6d189b0088303f2962fa8a6c76241761583dd7bddc495800112abb0f7141bf",
+    "2. Input Documents-20230101T000000Z-01395-000/2. Input Documents/1099-INT/1099-INT BENNETT.pdf": "8f267f640bca887dc4ee8ab5aa0e31eac47a47ca72670e4033bdad1c318c5b51",
+    "2. Input Documents-20230101T000000Z-01395-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "35b9358683fbecad604c466c661b2b76a5ebd9ac6166c1d4c1a5c0fb84719ee7",
+    "2. Input Documents-20230101T000000Z-01395-000/2. Input Documents/Form W-2/Form W-2.pdf": "d268acc4cb4d535ce4148f80cc3c88b1e46e9013a4b316e886ebf0ed309ff60d",
+    "2. Input Documents-20230101T000000Z-01395-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "868f76f19816da7751b95b66d7c251e1fb76c8ea4b373021fce6c61831543e55",
+    "2. Input Documents-20230101T000000Z-01395-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "c70bae9c2691bdeb21eb8469c48fa2212819994093f91737ba0891ae3d87252c",
+    "3. Complete form-20230101T000000Z-01395-000/3. Complete form/2023 Tax Return Documents (Rowan Bennett (synthetic)).pdf": "165bceebccb75433778769f4e66b3ec0e2b238b1391c9ff2d3cda7d495b915a9",
+    "3. Complete form-20230101T000000Z-01395-000/3. Complete form/Completed forms - Summary.pdf": "ae9bddd3ee757cb34fa7b34d387ea50f61d112c72c55a76db5290bc68ab96069",
+    "4. Executive Summary-20230101T000000Z-01395-000/4. Executive Summary/Executive Summary Rowan Bennett 2023.pdf": "68a7dacd1a75c9e1c6d3db4f1d46e749e296760234ac0f1b3985dd8103c3e624"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

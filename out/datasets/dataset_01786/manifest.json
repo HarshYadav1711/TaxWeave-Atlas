@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-01786-000",
+  "tax_year": 2024,
+  "case_fingerprint": "c04a21bdddc58b12339a29e9371480b45904820b6b0b24e85ac584530d623da6",
+  "case_json_sha256": "cbbe5d5089102b12473e4a6f952bbc8dd1c7d5425ad277995515dddd5df0203d",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-01786-000/1. Client Summary/Client Summary.pdf": "b519b310eb51aa148bb4a55902f34164bf8f9d54f9b56f31c93a336e1c572960",
+    "2. Input Documents-20240101T000000Z-01786-000/2. Input Documents/Tax Document Attachments Summary.pdf": "9424d2b9d5ed79184f5be9d02cbe76cff27e3fb1f291403b25188abbc9f46bd6",
+    "2. Input Documents-20240101T000000Z-01786-000/2. Input Documents/1099- DIV/1099-DIV PATEL.pdf": "e90dfa0654521f740b5381532bff533b7f868859e5e3d236f29cb47d78becb27",
+    "2. Input Documents-20240101T000000Z-01786-000/2. Input Documents/1099-INT/1099-INT PATEL.pdf": "ddf78d0edfc9cce1eefe33943a46c13445a86f73e8e16ce6417bd3e528733bd7",
+    "2. Input Documents-20240101T000000Z-01786-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "d4421436a723046d6cd7a839c9af244322b826f5218c0ae5dc220e6bd105955e",
+    "2. Input Documents-20240101T000000Z-01786-000/2. Input Documents/Form W-2/Form W-2.pdf": "27fe5c9f2674dc9b3ac3b545fa3e11c7cb1903fd923eb2fac65254bb89292aed",
+    "2. Input Documents-20240101T000000Z-01786-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "c43e0986a57d130c5797a587e08d786edb6e57f644d2ab8877f5fa37fc8c23f8",
+    "2. Input Documents-20240101T000000Z-01786-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "760c979749e7a1317235a80ad383abc65091427679810460736a6deec5cc7e2d",
+    "3. Complete form-20240101T000000Z-01786-000/3. Complete form/2024 Tax Return Documents (Dakota Patel (synthetic)).pdf": "92e765801e70b337a757e6edfbca5c47a7eef45963b1cb474e962bbfa041d16f",
+    "3. Complete form-20240101T000000Z-01786-000/3. Complete form/Completed forms - Summary.pdf": "0dad1977e920231d8755601989fab2915a1ec4108b03aa8fee68c2a9e5580045",
+    "4. Executive Summary-20240101T000000Z-01786-000/4. Executive Summary/Executive Summary Dakota Patel 2024.pdf": "24c00f3166e8c6589ca875ae5bf8ca6b0eedbae6d08d1056c0b88145897302e3"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

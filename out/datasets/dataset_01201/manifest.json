@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-01201-000",
+  "tax_year": 2022,
+  "case_fingerprint": "af49faa6717db4cbd5a869b51e7ed8fad65833139629684da677bc7ee512aa29",
+  "case_json_sha256": "3a2d68158813d49bcdc069b82cb6929789674888cdb3cac340de15a7510e0fed",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-01201-000/1. Client Summary/Client Summary.pdf": "f2dbcf73912f788234899df6874fcebe218822fdab29b8fb24b9685765d218a0",
+    "2. Input Documents-20220101T000000Z-01201-000/2. Input Documents/Tax Document Attachments Summary.pdf": "0ad5fc64490bd10ab7ea37a54ce4841e1f7a2e5b812e064c9299ca690f716e5d",
+    "2. Input Documents-20220101T000000Z-01201-000/2. Input Documents/1099- DIV/1099-DIV DIAZ.pdf": "8c95c1ddc5581d6665429509a98ffe91508840239622a348f0ae8f9e7d5460ac",
+    "2. Input Documents-20220101T000000Z-01201-000/2. Input Documents/1099-INT/1099-INT DIAZ.pdf": "6b46eb86eddfad1c6d7a261b3e93aa09a45add56ed7c8664d0d4b45642f14747",
+    "2. Input Documents-20220101T000000Z-01201-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "c44940659482b73f6672ccd9806e1749b7072e870c7408b6a366716077fa9f63",
+    "2. Input Documents-20220101T000000Z-01201-000/2. Input Documents/Form W-2/Form W-2.pdf": "018e67732babeb59ad15327d02b1e052e9b00fa3d22da16d0ca2131e8bd025c7",
+    "2. Input Documents-20220101T000000Z-01201-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "f146126200ae916f3d41ee058b7b94a1ecc327b391438f8a68753c193b0a9211",
+    "2. Input Documents-20220101T000000Z-01201-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "6e9f72d764c6cca38bf3cebe6b65c9f22507db94df8b1ec0dfb5057e1e7d90de",
+    "3. Complete form-20220101T000000Z-01201-000/3. Complete form/2022 Tax Return Documents (Skyler Diaz (synthetic)).pdf": "ec7082d84a922897179ab59c53c9352121fd3839bedd92fda0bfe0154c195464",
+    "3. Complete form-20220101T000000Z-01201-000/3. Complete form/Completed forms - Summary.pdf": "1bb471c40d22bc13dc8effa6fb7986cf79e1c8367b98e4959e0f3c28d4e37421",
+    "4. Executive Summary-20220101T000000Z-01201-000/4. Executive Summary/Executive Summary Skyler Diaz 2022.pdf": "3e41bf942978a18bcf6b18a18f748efd54250bf22f5a8fdb7bfbca8383733a30"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

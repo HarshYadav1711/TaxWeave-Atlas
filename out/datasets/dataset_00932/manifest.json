@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-00932-000",
+  "tax_year": 2020,
+  "case_fingerprint": "a7e4e007569f8eb33b9155e8f8dfa37284c827e7b53b3dba0886bd5a9d6f0d9b",
+  "case_json_sha256": "7321854dcf06cc07af8491b68a424f2f2a9012b4bb10788bc640cf322674fc54",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-00932-000/1. Client Summary/Client Summary.pdf": "21db27e78522513b05c1233d27558499cb562427aa74033e5c0330606936ae91",
+    "2. Input Documents-20200101T000000Z-00932-000/2. Input Documents/Tax Document Attachments Summary.pdf": "bdea87ae5931eaf36f74678077c5ef12c12e57dc1c86943a331461b03b4d2ee3",
+    "2. Input Documents-20200101T000000Z-00932-000/2. Input Documents/1099- DIV/1099-DIV DIAZ.pdf": "fcc580814da44c45f0ba1ed406f733ba21a8480bdfb85a2e972e03752edacbd4",
+    "2. Input Documents-20200101T000000Z-00932-000/2. Input Documents/1099-INT/1099-INT DIAZ.pdf": "0c0d6739b8ce5004143d2cf3cd6f03f360834f4669c9373e29d618971cf24030",
+    "2. Input Documents-20200101T000000Z-00932-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "98c2bd994b97596377e74019cac82e6b7c71f7a5bff3764b5a5290fd1c94bf9a",
+    "2. Input Documents-20200101T000000Z-00932-000/2. Input Documents/Form W-2/Form W-2.pdf": "452aec296137e863d3841b246ef5e38ddf9e5092be5424f89a330b01ffd152f2",
+    "2. Input Documents-20200101T000000Z-00932-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "bfffc4c0678c5819d514a60fe20b5ae5c8041082c17217eba1c1c32647029ff2",
+    "2. Input Documents-20200101T000000Z-00932-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "2f5b630f4ba59561b99ef2cadb074eb514e06b84e2efb093a4cbe33db64bbc29",
+    "3. Complete form-20200101T000000Z-00932-000/3. Complete form/2020 Tax Return Documents (Jordan Diaz (synthetic)).pdf": "690257cdc4b3c5358f1627141ad560d9d00e15c218edf12f0a1dbd9cd9bdfc10",
+    "3. Complete form-20200101T000000Z-00932-000/3. Complete form/Completed forms - Summary.pdf": "0c953f42e340bd586b781661b5665b579b85f13950da0196a15c8b7c8a7b5a3b",
+    "4. Executive Summary-20200101T000000Z-00932-000/4. Executive Summary/Executive Summary Jordan Diaz 2020.pdf": "d118bee6a88fc2cd02532ef95d39588b9919de0d313b10dcccb42f2f10b31069"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

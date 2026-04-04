@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-00278-000",
+  "tax_year": 2024,
+  "case_fingerprint": "c4186a21da77d741120c3001896a3a876aa7573e6e6145d3279cc8d9d0e20a19",
+  "case_json_sha256": "b87923760ba72ea00aedf04bba2e4ee1ac20bf31867737b6525735a2a6aa636f",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-00278-000/1. Client Summary/Client Summary.pdf": "62c62705c9fd02e1d977d0a48930855e7b64fcf1eab7f568fb63bd62aeca484b",
+    "2. Input Documents-20240101T000000Z-00278-000/2. Input Documents/Tax Document Attachments Summary.pdf": "385421f4b7a8d655da0664da7c24851b24e7347a945a394230dcd01e5d906faa",
+    "2. Input Documents-20240101T000000Z-00278-000/2. Input Documents/1099- DIV/1099-DIV PATEL.pdf": "06722863764e613c1d42dad7ebf3b50bdd33f104075dd444e170b100cb5da326",
+    "2. Input Documents-20240101T000000Z-00278-000/2. Input Documents/1099-INT/1099-INT PATEL.pdf": "869e619082a38a4c197644644d205bce60355566f7c9ca41101f10fa7fb65b4b",
+    "2. Input Documents-20240101T000000Z-00278-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "56a139144c864cfa88b0365fc3d8c9a8cf54d65c441e113692066c1bd9d966d9",
+    "2. Input Documents-20240101T000000Z-00278-000/2. Input Documents/Form W-2/Form W-2.pdf": "3aee46151a9c982e8de5a1a654f827af8eaffc9387dd001a7086c565d16e7253",
+    "2. Input Documents-20240101T000000Z-00278-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "946c6333117766a5491b365c989ccd6a859734f5b39b82c6730903669b399e14",
+    "2. Input Documents-20240101T000000Z-00278-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "2ec7e74e05bce48be92068bbcfee48e1f370b48cecfe52367cef21e0cd19d6ec",
+    "3. Complete form-20240101T000000Z-00278-000/3. Complete form/2024 Tax Return Documents (Sage Patel (synthetic)).pdf": "5923135cbe1862010f6a8002cb4aaf7d442259eddce40b2133a12159aa3df75e",
+    "3. Complete form-20240101T000000Z-00278-000/3. Complete form/Completed forms - Summary.pdf": "00d1608238110bb99742709df48eb72905122fadbb35e7d380baeae95c84c94a",
+    "4. Executive Summary-20240101T000000Z-00278-000/4. Executive Summary/Executive Summary Sage Patel 2024.pdf": "771613b15c8baa4dac5d93da22e34e9268520e5315ff726499af2d62d724261c"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

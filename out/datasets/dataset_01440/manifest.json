@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-01440-000",
+  "tax_year": 2022,
+  "case_fingerprint": "3f4fc193809701396064055a4550b173b546d0d21caa1816fb5d4b87c623190c",
+  "case_json_sha256": "447e9275df0274c94349ffa8a06178ea45afd99ef174f3d5fa052c4c107fceba",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-01440-000/1. Client Summary/Client Summary.pdf": "1dbf3e6d27d6263c620ad02e5d70491ca79537712c5e57f0ac009cff1a8898e8",
+    "2. Input Documents-20220101T000000Z-01440-000/2. Input Documents/Tax Document Attachments Summary.pdf": "d097b8ef5aa0ded4ffa15fad734452f1a5b2d7ec3cf7b7e6470c5d614c5c1017",
+    "2. Input Documents-20220101T000000Z-01440-000/2. Input Documents/1099- DIV/1099-DIV NAVARRO.pdf": "b1aee06f66c7d394e43d8e885a32eba180e6f7761437d8abd28afb19ef1a6b0c",
+    "2. Input Documents-20220101T000000Z-01440-000/2. Input Documents/1099-INT/1099-INT NAVARRO.pdf": "40f20fb2b0b0980f5b39ad25376393154da2c9b18bacad121282a69ec06bf614",
+    "2. Input Documents-20220101T000000Z-01440-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "528282b316a1259a7695ee286b60a966a9cad7a13cd8f2fd2f919dba9404817b",
+    "2. Input Documents-20220101T000000Z-01440-000/2. Input Documents/Form W-2/Form W-2.pdf": "5dce26e04266cee4f7a267dce01f6a05cade7e0ac3b91cd1ddf3ae306687cbe0",
+    "2. Input Documents-20220101T000000Z-01440-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "fff71a64021d601392cf115d02e7f5cc3b8a080f8c50c46423393301d98404d1",
+    "2. Input Documents-20220101T000000Z-01440-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "0865d974da128f874b0f59a90f15cbdbde0b0571f8340c4fc1293ef2a14a7d87",
+    "3. Complete form-20220101T000000Z-01440-000/3. Complete form/2022 Tax Return Documents (Dakota Navarro (synthetic)).pdf": "b68db27f4b440160c0e6dcf248adb887de1913a591b310acf1a499a306f3e31e",
+    "3. Complete form-20220101T000000Z-01440-000/3. Complete form/Completed forms - Summary.pdf": "bf752b36b433dc558094355cab344e44b6079e420a8c27ca17262458d329b01b",
+    "4. Executive Summary-20220101T000000Z-01440-000/4. Executive Summary/Executive Summary Dakota Navarro 2022.pdf": "0bf2cda7503730a48ec681905f231b9fe93c1908587e99d1b47b6dcfe81b677b"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

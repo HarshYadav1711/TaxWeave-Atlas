@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20250101T000000Z-00363-000",
+  "tax_year": 2025,
+  "case_fingerprint": "e31ebbc3f0e73e1fba4dba827f23bf44e294d13838baef2575511f8124b139a8",
+  "case_json_sha256": "b78c92013f086a0944798c2214f4cfa6d7fbfe48cf37096f1bea39759d2f2388",
+  "files_sha256": {
+    "1. Client Summary-20250101T000000Z-00363-000/1. Client Summary/Client Summary.pdf": "227fb9c33beac8bdeb2a7c856bcb17321ead9e5c8ffcb2e276f03e75a5d82f5a",
+    "2. Input Documents-20250101T000000Z-00363-000/2. Input Documents/Tax Document Attachments Summary.pdf": "0be8b870f74d0f20dae340d32d2e983dd6694a85ff202a0e34543d9378c09de0",
+    "2. Input Documents-20250101T000000Z-00363-000/2. Input Documents/1099- DIV/1099-DIV HAYES.pdf": "9139c94703108945630ba8e7d2de35f9900d93bdd4041c7d3ef1efe2f6717abb",
+    "2. Input Documents-20250101T000000Z-00363-000/2. Input Documents/1099-INT/1099-INT HAYES.pdf": "77f8f717ae0dd46a01b8b6d1e2588507300555c35ce9b4b7745fe1d18123589b",
+    "2. Input Documents-20250101T000000Z-00363-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2025_.pdf": "5151a76c8a04c3d0ffb8e8c767eec4bb20f4ed9741124e8f74f84422fdc8bac4",
+    "2. Input Documents-20250101T000000Z-00363-000/2. Input Documents/Form W-2/Form W-2.pdf": "debdbb9b26b9480475529479aa37b276e9585f4ae06603f07e7e846ce9b5f7a9",
+    "2. Input Documents-20250101T000000Z-00363-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "833199e27ad0c037a98d4fe8230f95cce16df1f099702d83469ead52db14ddaa",
+    "2. Input Documents-20250101T000000Z-00363-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2025.pdf": "bd364a96a8e09407be2b372c729cc070660b4ba5a2b44822cc0d068a38780da2",
+    "3. Complete form-20250101T000000Z-00363-000/3. Complete form/2025 Tax Return Documents (Parker Hayes (synthetic)).pdf": "5e322d306fac34dc29bfe79e7cf9ddb74f3ffc5622e2d38bee5edcc54abbdfdc",
+    "3. Complete form-20250101T000000Z-00363-000/3. Complete form/Completed forms - Summary.pdf": "f784f0420c4ecdb34c0a5b717f1fce7101321a8d977ed42499e75e764f7d237f",
+    "4. Executive Summary-20250101T000000Z-00363-000/4. Executive Summary/Executive Summary Parker Hayes 2025.pdf": "95512ace8607c85f055ce3b36472687f345a0234e426dabdeb0b991d14136f29"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

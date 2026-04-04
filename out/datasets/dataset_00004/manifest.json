@@ -6,17 +6,17 @@
   "case_fingerprint": "06e796966bff363617f643145ccaef7fefc0575fc635ba1647e2ee1abc6470c9",
   "case_json_sha256": "7d062648ff5eed9ec2e479de84693a059ba92a01eef97bad00afa21e0cb57859",
   "files_sha256": {
-    "1. Client Summary-20240101T000000Z-00004-000/1. Client Summary/Client Summary.pdf": "51561ded6d581370625dd106ba8445fab45bea919dd689b48730cbe4432b7a2c",
-    "2. Input Documents-20240101T000000Z-00004-000/2. Input Documents/Tax Document Attachments Summary.pdf": "fdfae818f2e41bacea872478f74dc655e71f45735a8dee3b49661d85fc64d752",
-    "2. Input Documents-20240101T000000Z-00004-000/2. Input Documents/1099- DIV/1099-DIV CARTER.pdf": "d9e0660318cc78f1841a4515f712aa3a6324e752487e87ffed9d71acf72b7c54",
-    "2. Input Documents-20240101T000000Z-00004-000/2. Input Documents/1099-INT/1099-INT CARTER.pdf": "8fc78977d61dfe7191c19e99d24ce70e566bbbceb5a7b9921e358954186b446b",
-    "2. Input Documents-20240101T000000Z-00004-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "09a55b10c7eb0cbbd3e2e7f11014f159d8d4b09894ac07d7b3fd356d3cb6a13e",
-    "2. Input Documents-20240101T000000Z-00004-000/2. Input Documents/Form W-2/Form W-2.pdf": "b62a703a12367efc063cbbcb0145d777839477fd05598c9b3e88b92a86693e57",
-    "2. Input Documents-20240101T000000Z-00004-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "1f985033879dbcb401ce4c05e25e05f539739f2f0846f9b723c2c0c72c027540",
-    "2. Input Documents-20240101T000000Z-00004-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "27b6002d0ccd46e2135b0ee532aa3303dc5842f014139c1629446a52740d4575",
-    "3. Complete form-20240101T000000Z-00004-000/3. Complete form/2024 Tax Return Documents (Finley Carter (synthetic)).pdf": "4779fe8fb46eaa8a94fc2e34bf97211594a2697c62a6831120969465234bbd6b",
-    "3. Complete form-20240101T000000Z-00004-000/3. Complete form/Completed forms - Summary.pdf": "e55ff1372c2f29f69ae125092ee1955035109ec0cff8917d65f1ecca5f6f2e83",
-    "4. Executive Summary-20240101T000000Z-00004-000/4. Executive Summary/Executive Summary Finley Carter 2024.pdf": "b8f5b3fda0683eb29e5e4f58aaf2ae82ea233ec89fd130e85787a8d308e6108e"
+    "1. Client Summary-20240101T000000Z-00004-000/1. Client Summary/Client Summary.pdf": "fccbd02c15db95395d985a1c8113c33cb3fde394953847cb8b89aabd31dd41f4",
+    "2. Input Documents-20240101T000000Z-00004-000/2. Input Documents/Tax Document Attachments Summary.pdf": "c6d98f10b29499c73a16faee8d382e5c9f3b2fc89a9748630ba661f44c04fffe",
+    "2. Input Documents-20240101T000000Z-00004-000/2. Input Documents/1099- DIV/1099-DIV CARTER.pdf": "2477627deb3a6c1361594a58a3d593ca96d07e1c0aec67cf2cf289ff8859e7e6",
+    "2. Input Documents-20240101T000000Z-00004-000/2. Input Documents/1099-INT/1099-INT CARTER.pdf": "316327c03aabb50105cd7e73621644162bea6410ccd87cc60cba9435b0fa30e6",
+    "2. Input Documents-20240101T000000Z-00004-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "5315e87b764eac6a34f9f3ec181b0aacaa1ab7c02a5947fdeb85fcc998dfa8d1",
+    "2. Input Documents-20240101T000000Z-00004-000/2. Input Documents/Form W-2/Form W-2.pdf": "49d9965d3640debb7d32c319a25b3075a60a4525ebd81a6e9fa61c97d7a90933",
+    "2. Input Documents-20240101T000000Z-00004-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "a688e9b8c840eafd2fd2703da0586caa377c0302e65446dd130885a6ffbe02f0",
+    "2. Input Documents-20240101T000000Z-00004-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "779719d9d9265a29c6e5bbbe396b4ad6b82e396b7e7e96289b100bd0ddf12600",
+    "3. Complete form-20240101T000000Z-00004-000/3. Complete form/2024 Tax Return Documents (Finley Carter (synthetic)).pdf": "407dfbe321580a4567e67eb8551924686f4c6d5f0f1a88396d1bb2fed2f60a9f",
+    "3. Complete form-20240101T000000Z-00004-000/3. Complete form/Completed forms - Summary.pdf": "a56db1faa2c7ef10d5c0c983d083dafe0e782f1e7273a1e5fb5d33c9fc93c9ba",
+    "4. Executive Summary-20240101T000000Z-00004-000/4. Executive Summary/Executive Summary Finley Carter 2024.pdf": "8bf9b795608f52b0a1e18b637d4ae9660a490ced6d2de653cf4dc922225c9218"
   },
   "canonical_case_model": "SyntheticTaxCase"
 }

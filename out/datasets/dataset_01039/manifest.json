@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-01039-000",
+  "tax_year": 2022,
+  "case_fingerprint": "b003d9be30cc5b43e2d90e05b4f81b23078900341f6b6983c219d5559bb7b128",
+  "case_json_sha256": "4be352f6617ad44fb044b499a024358567f2a75ff24d3551ff4b1442b6c57bfb",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-01039-000/1. Client Summary/Client Summary.pdf": "ef6a288ee03c4855d21cdf4f7e75e0b175df1daf08216b5ec8e0b6fa0fc6a60a",
+    "2. Input Documents-20220101T000000Z-01039-000/2. Input Documents/Tax Document Attachments Summary.pdf": "dc4de0fa92daa18a2d03c5b4d363dd8cf7a03f8e288b2a0dbaaf0739589fd643",
+    "2. Input Documents-20220101T000000Z-01039-000/2. Input Documents/1099- DIV/1099-DIV INGRAM.pdf": "9a54ab87a912b8f83fba2ff2ccd4248c6d1af4d739c646ff43d8c2608c85f6f8",
+    "2. Input Documents-20220101T000000Z-01039-000/2. Input Documents/1099-INT/1099-INT INGRAM.pdf": "777b8d681103fe22f590a1de9e4c87bdcb620df399ba0ab065d9e8b904d874e3",
+    "2. Input Documents-20220101T000000Z-01039-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "021cb377f3e6ad8f30f2ecaacdcf8d2b131c8f8830232ca885c83ede2fcde349",
+    "2. Input Documents-20220101T000000Z-01039-000/2. Input Documents/Form W-2/Form W-2.pdf": "059b8ca92b101fed2161e1f26d87660575be78462f08fa9668e43ad3ac19a511",
+    "2. Input Documents-20220101T000000Z-01039-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "6e5a6b69b6d9b16414119a1071d001bd1826452aa48889a5e09012211355def3",
+    "2. Input Documents-20220101T000000Z-01039-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "df50523b87259f4c618588b5aafdfc5bc17bff32b885b50dd66b9cfcfc9b5e8f",
+    "3. Complete form-20220101T000000Z-01039-000/3. Complete form/2022 Tax Return Documents (Casey Ingram (synthetic)).pdf": "cdf6ecdb6234169d7c395795e0c6adccca0a0cd5bdc979b8b1f2f7b4a73efc94",
+    "3. Complete form-20220101T000000Z-01039-000/3. Complete form/Completed forms - Summary.pdf": "68c0cf03da43fe860c764ecfccd9a74c197df510ac51faec4f501ef8e32465aa",
+    "4. Executive Summary-20220101T000000Z-01039-000/4. Executive Summary/Executive Summary Casey Ingram 2022.pdf": "7c4715faab51afe6a64f94dd1308dd67250c2d7463dfa8e69386f46b16d26214"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

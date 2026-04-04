@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-01658-000",
+  "tax_year": 2024,
+  "case_fingerprint": "9cb5b09f323003f631be9d23841361a88d21b74d47a7037125118c2ae1e18360",
+  "case_json_sha256": "3f9f0c0896fc0a26bd3e579e89831d1017bed211c9492b3231d9f87f9f743f2b",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-01658-000/1. Client Summary/Client Summary.pdf": "092ced0b2add706b77eec02f16c58c9e6aa5c551848c65516fc75f6379d1cb94",
+    "2. Input Documents-20240101T000000Z-01658-000/2. Input Documents/Tax Document Attachments Summary.pdf": "a6ffd773acaedf94950f53127e53ceab73627caf00fa057f78cc37c30b3905a2",
+    "2. Input Documents-20240101T000000Z-01658-000/2. Input Documents/1099- DIV/1099-DIV INGRAM.pdf": "2eaf7011f775d380bfbfeac91f1060034e82df0fb431e3f75c1acee19b467a8b",
+    "2. Input Documents-20240101T000000Z-01658-000/2. Input Documents/1099-INT/1099-INT INGRAM.pdf": "3f675a8c6825cfb7e9ebe1a606629364087270369b68848547d5056d2b7644af",
+    "2. Input Documents-20240101T000000Z-01658-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "6ae0008cdaa8129d4d4410df88f6b932b4bd9a5a4d2880c3fa9239d5062edfe0",
+    "2. Input Documents-20240101T000000Z-01658-000/2. Input Documents/Form W-2/Form W-2.pdf": "453c3943cc5bac28893bfc2db1706878d9007e79eb3b0e8c802198a068fc01f2",
+    "2. Input Documents-20240101T000000Z-01658-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "295bd6e9cd7e025e2f752a68a65b10c1c79e329eb22d21235f954a3ec61b01ef",
+    "2. Input Documents-20240101T000000Z-01658-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "9edde2eea844f574c3b231dda0dfa0473f3dbd50b57975d40f25a0bdd2eff75b",
+    "3. Complete form-20240101T000000Z-01658-000/3. Complete form/2024 Tax Return Documents (Reese Ingram (synthetic)).pdf": "6d4546842bf995c4ce7247a2b3cb7d03da5fba53eb8e8006deeeab38c44e5e02",
+    "3. Complete form-20240101T000000Z-01658-000/3. Complete form/Completed forms - Summary.pdf": "7af2d455746fc4aa32c6ef5bcdde1fdb0f3a3155241e067e0ce7f5ffe26c6a9b",
+    "4. Executive Summary-20240101T000000Z-01658-000/4. Executive Summary/Executive Summary Reese Ingram 2024.pdf": "58325f0208c31430ad4837cc90840b76ddc2d46ca2b38dd1830742dd76168c60"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

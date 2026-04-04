@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-01197-000",
+  "tax_year": 2024,
+  "case_fingerprint": "be748daa28559fc0910b92fc30707f34b93780af10223f2274a6cd1f4045d10d",
+  "case_json_sha256": "42117036f1f643bfad751ddba3cd4609de1482c6a984a5c6fde64d6642418a08",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-01197-000/1. Client Summary/Client Summary.pdf": "94f5ecfa5ceec5099d241bdbd0f0bd55f049359e91ec1e7a2accd8c53a5c26b2",
+    "2. Input Documents-20240101T000000Z-01197-000/2. Input Documents/Tax Document Attachments Summary.pdf": "f9b0e79d4bb35410a7b37b17105bfbf4b7cee42818047b93d96c6bdb8488d7e7",
+    "2. Input Documents-20240101T000000Z-01197-000/2. Input Documents/1099- DIV/1099-DIV OKORO.pdf": "9101a9f10d03534aaaf0ae06d3cfd0f4edc3b6b4a90abfd7e34fcc9680abdc6f",
+    "2. Input Documents-20240101T000000Z-01197-000/2. Input Documents/1099-INT/1099-INT OKORO.pdf": "6ee1ad428b325d3950d30961136923f615fa17bd68c946787fd2872a395e0462",
+    "2. Input Documents-20240101T000000Z-01197-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "4773a817ae4477cb818981d97930a7ee06dbdba727a96c0ed3a41edd65a87a8a",
+    "2. Input Documents-20240101T000000Z-01197-000/2. Input Documents/Form W-2/Form W-2.pdf": "8722af23a7cfea3543c57badb5bf3008370ee9301377126d4d5488b3359be81e",
+    "2. Input Documents-20240101T000000Z-01197-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "80f6b9125ebf2e38ce61bdd9ba424fee2c80961a9ef18a4e01f3755895ff27ed",
+    "2. Input Documents-20240101T000000Z-01197-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "8cb3100e56882d8d10446078996278519b4e293498ca9251b679a64ab601a78f",
+    "3. Complete form-20240101T000000Z-01197-000/3. Complete form/2024 Tax Return Documents (Riley Okoro (synthetic)).pdf": "a0a5b3ebbf424fa5ce6220927dcf892f74d3c0e134aed9cd49459662d13c8466",
+    "3. Complete form-20240101T000000Z-01197-000/3. Complete form/Completed forms - Summary.pdf": "22d0a20c9600271fa81e0a6ef0a33b9153dbe8e60df95266c9e66c3a5f5f5531",
+    "4. Executive Summary-20240101T000000Z-01197-000/4. Executive Summary/Executive Summary Riley Okoro 2024.pdf": "96081e666f09884dd654761ed933008febb88870489e47c9a72decf1f600bf22"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

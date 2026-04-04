@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-00264-000",
+  "tax_year": 2023,
+  "case_fingerprint": "70e6f6df7f548da01dc9c27d79fc1419b0bb9790fb55bde92bdb043fd7e6f609",
+  "case_json_sha256": "2d52011c3ae0d376ebae246eedb36503198a6a9484fd1d108dc0f6ff065dc373",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-00264-000/1. Client Summary/Client Summary.pdf": "6c11f0a3b0eb93ad7ed7dee60b599357736620de77282ebaa421d0ad97333725",
+    "2. Input Documents-20230101T000000Z-00264-000/2. Input Documents/Tax Document Attachments Summary.pdf": "c78ce2fcf4744d94c884867721ea8170da1c3e2aa781831af6a31190fd02dd21",
+    "2. Input Documents-20230101T000000Z-00264-000/2. Input Documents/1099- DIV/1099-DIV DIAZ.pdf": "2fe2f37578d207390ccae06723afb2cb8531b3e90f2bad240ccd61b4e42c1030",
+    "2. Input Documents-20230101T000000Z-00264-000/2. Input Documents/1099-INT/1099-INT DIAZ.pdf": "e1af9c2c7a2c148ac7c12d30bf9a8f84b752ca1e301896000bac173ca6dab441",
+    "2. Input Documents-20230101T000000Z-00264-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "ae2eeb2a212c8453379d5deaa326676a4416fb71dcd6b6e85f31462db6fc6e89",
+    "2. Input Documents-20230101T000000Z-00264-000/2. Input Documents/Form W-2/Form W-2.pdf": "7ab456952daa4396eef1298b7eda852d874cd6295c64579fcd747a88d5ac4ec9",
+    "2. Input Documents-20230101T000000Z-00264-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "bcad6e75934525fcdba90951be542e030ab3af0d02379e57ac9cb3fe11a432a5",
+    "2. Input Documents-20230101T000000Z-00264-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "2355e358a0795becadca93ec884779efb5eaa956ac20e75475d8a12b88d0760a",
+    "3. Complete form-20230101T000000Z-00264-000/3. Complete form/2023 Tax Return Documents (Parker Diaz (synthetic)).pdf": "aeeeebc7382ad67ac070ffe9dad223ab24ef335608a25e038eef89c5159fa9c2",
+    "3. Complete form-20230101T000000Z-00264-000/3. Complete form/Completed forms - Summary.pdf": "099ed1544eece601442fbc5fd926ac27412411e6bbaae8d7874927e7d290d0a8",
+    "4. Executive Summary-20230101T000000Z-00264-000/4. Executive Summary/Executive Summary Parker Diaz 2023.pdf": "c0a2148807cb1f8938050b9771021cddf3efc350f70b1cbf532997cadfc56ecd"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-01626-000",
+  "tax_year": 2023,
+  "case_fingerprint": "3c21857bdc75880052ac8091546b7f16665bf435d79730befdad7263767a1e9c",
+  "case_json_sha256": "25d9428a60f4ce640a98844e64a5a9db9b3bc6dd8a2a7f34000a60dd9dc3ce18",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-01626-000/1. Client Summary/Client Summary.pdf": "52d423eaa5dfd7fb216bd6b9b3eabb510ae9214d5f884982183b8158b2da618d",
+    "2. Input Documents-20230101T000000Z-01626-000/2. Input Documents/Tax Document Attachments Summary.pdf": "009cc1df43a3a1ec7f88feb9c0dc3ddfee65e1aa9b6bd4773338ba36fb0ea854",
+    "2. Input Documents-20230101T000000Z-01626-000/2. Input Documents/1099- DIV/1099-DIV NAVARRO.pdf": "a0c753699d8675650c0f9544abdb6bc4ff2a36aa665f690207c75d0a1f27c218",
+    "2. Input Documents-20230101T000000Z-01626-000/2. Input Documents/1099-INT/1099-INT NAVARRO.pdf": "3dee6f23fba9995f2d686c9edd3092e152d979667a3c97b33ab28f1fedcbfdb8",
+    "2. Input Documents-20230101T000000Z-01626-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "9388e033631292f7ec2fd51b76f00696c7ff0051bd75193791450af07d59db04",
+    "2. Input Documents-20230101T000000Z-01626-000/2. Input Documents/Form W-2/Form W-2.pdf": "8e9dca44d709750035d43c1d14d4ab1e91ed76a302408a11915d50789b87e13f",
+    "2. Input Documents-20230101T000000Z-01626-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "21095e41d56859cc4aaf2c2258be40156f1f7c02272fad10caad470623f24ed2",
+    "2. Input Documents-20230101T000000Z-01626-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "8cf303e6c7e9dd1c5b47f9e2ab3977d8b61e96e39d1070c61969245f279ee3bc",
+    "3. Complete form-20230101T000000Z-01626-000/3. Complete form/2023 Tax Return Documents (River Navarro (synthetic)).pdf": "e8542ea57270e15c674acad10f93abe98a71991722e2fc0d276fde30ce998645",
+    "3. Complete form-20230101T000000Z-01626-000/3. Complete form/Completed forms - Summary.pdf": "a7bb05989315feafe0c87a27ea59f8a63786644e2d463e3ead0f9d8fdb6b1283",
+    "4. Executive Summary-20230101T000000Z-01626-000/4. Executive Summary/Executive Summary River Navarro 2023.pdf": "bbb393c95bb74f80f0d096473ebe6fb0e9ab79c7378ee31e95b296e01948b28d"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

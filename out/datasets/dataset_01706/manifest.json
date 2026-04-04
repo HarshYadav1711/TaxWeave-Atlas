@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20250101T000000Z-01706-000",
+  "tax_year": 2025,
+  "case_fingerprint": "38c3103c902ff3469ea3dab59f49f3eb46f92eef2a86c854c1b4e6f25c34a16e",
+  "case_json_sha256": "1ae898bb80b65a4c4bac0e1895862f9393beaa7c51e53571aa76903733740a3b",
+  "files_sha256": {
+    "1. Client Summary-20250101T000000Z-01706-000/1. Client Summary/Client Summary.pdf": "05a2f73e8a76096fc4142ef0077789b92404a6906e0089256b9747fad751f31d",
+    "2. Input Documents-20250101T000000Z-01706-000/2. Input Documents/Tax Document Attachments Summary.pdf": "36a0d9cd7e70415a8c682c5e2d95d8e4f1e086c39d45e0481e48dad862f18a69",
+    "2. Input Documents-20250101T000000Z-01706-000/2. Input Documents/1099- DIV/1099-DIV CARTER.pdf": "eb8d325cd4bd4d50cbde6e3d728adb764edb084a963c79f91711d17ed7ba6689",
+    "2. Input Documents-20250101T000000Z-01706-000/2. Input Documents/1099-INT/1099-INT CARTER.pdf": "ebc481a84f6cba94888bf573f0ea8cb94a1006736632d8df3d1df12f60db6913",
+    "2. Input Documents-20250101T000000Z-01706-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2025_.pdf": "823faca70b821ef628b7034574b476d96c7b80153eab43269ee7ea03622e74f4",
+    "2. Input Documents-20250101T000000Z-01706-000/2. Input Documents/Form W-2/Form W-2.pdf": "50ca05156e1db0def4f11ad358065c6c626cd4aadca3c13a117ba1d1a2cbc763",
+    "2. Input Documents-20250101T000000Z-01706-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "a0d8ccd444347a558e63cb8cffb2d501369dad3cd792989b4c9969e504984c50",
+    "2. Input Documents-20250101T000000Z-01706-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2025.pdf": "6747e6df4f2cdba784e8f1145b64a1b021b787a48175e41aade6844362f91131",
+    "3. Complete form-20250101T000000Z-01706-000/3. Complete form/2025 Tax Return Documents (Finley Carter (synthetic)).pdf": "610472460bcbddfe55167480c9cb356eb111183273d5dd62206b1372d4e674a3",
+    "3. Complete form-20250101T000000Z-01706-000/3. Complete form/Completed forms - Summary.pdf": "7e8cd4f965aa7608f06b932fdde4a20aaa30f33f07fe0c8e698c9292455b74c5",
+    "4. Executive Summary-20250101T000000Z-01706-000/4. Executive Summary/Executive Summary Finley Carter 2025.pdf": "9c681c76cd8c75f5d488055f1e85b0a622b8b8881106e5c4d8540e138830cc6e"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

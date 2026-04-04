@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-00717-000",
+  "tax_year": 2022,
+  "case_fingerprint": "6a824c3711d58e4c7ee76b65746da6a1dd67cef33952d87f78e49d017349520a",
+  "case_json_sha256": "c7a7e25e3d5f3aa03b7ffd8d2fd6f2ae8e00fbccdb4051d74c0e24ef14d5af11",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-00717-000/1. Client Summary/Client Summary.pdf": "36bf5beb0814008a27a58c4f2453f197184b8194e41048e2c7c456707c18f0b8",
+    "2. Input Documents-20220101T000000Z-00717-000/2. Input Documents/Tax Document Attachments Summary.pdf": "7b796228f5880bdd4c9a0f2da4b7c1f3817fd434230741e247087ffca4a863c1",
+    "2. Input Documents-20220101T000000Z-00717-000/2. Input Documents/1099- DIV/1099-DIV SULLIVAN.pdf": "3956e942c1c1817c99489e7d8ef951e6292efdc6ed3a0fee642ea1827a1cf9e2",
+    "2. Input Documents-20220101T000000Z-00717-000/2. Input Documents/1099-INT/1099-INT SULLIVAN.pdf": "8db07403e3bfb54f299f26be2e71da32b28c3b1d817aff4ab4791d0b8db24114",
+    "2. Input Documents-20220101T000000Z-00717-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "1bdb4d834a3b3ce81b39bbd58307292a7e895fb6b673e138b31b7cd2dd37426f",
+    "2. Input Documents-20220101T000000Z-00717-000/2. Input Documents/Form W-2/Form W-2.pdf": "e8f23278b18e923b20e75ae41695eb72c2767069e5f600dfd8d4f7281b0cbf6e",
+    "2. Input Documents-20220101T000000Z-00717-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "862eb75fac16e8c922f3037ade77ba7f87006d42b2b7aa49a60952f5910b9f53",
+    "2. Input Documents-20220101T000000Z-00717-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "42be987bb978bdacfc3a33ba59c48aed4557b6b5eff999681a10f3ae5d5c6b98",
+    "3. Complete form-20220101T000000Z-00717-000/3. Complete form/2022 Tax Return Documents (Skyler Sullivan (synthetic)).pdf": "88d9ba6238a08aef668b5d17607d89f483e3c668a2b3e4f1ebd7fe9edbb86d0a",
+    "3. Complete form-20220101T000000Z-00717-000/3. Complete form/Completed forms - Summary.pdf": "056bc5edba7898fe3b1e9815935e8fd98e8719f05e6afb1bb2daa8608a25b285",
+    "4. Executive Summary-20220101T000000Z-00717-000/4. Executive Summary/Executive Summary Skyler Sullivan 2022.pdf": "fbf44c5b19d13d9e31ec276a9a40eea3e4fd100563cb6d0a82f587f5dde1b43d"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

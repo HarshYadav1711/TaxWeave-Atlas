@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-01043-000",
+  "tax_year": 2020,
+  "case_fingerprint": "6c1b33939e5730e04a921cdaadcc063ec9c4c3bad1ca25b96cb908c5f10ed0b4",
+  "case_json_sha256": "edc5b154d8aab9b6e9f8e996b25772e5f843a73b84491511535506a888598326",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-01043-000/1. Client Summary/Client Summary.pdf": "7730b132babd4898c23d39a302311dbb772c30d89b02fffa38478a10087d0c76",
+    "2. Input Documents-20200101T000000Z-01043-000/2. Input Documents/Tax Document Attachments Summary.pdf": "fb17ff8ba37fb3c1163cfd7af57f23834df131255d1a0c73e9d2b0ce32820637",
+    "2. Input Documents-20200101T000000Z-01043-000/2. Input Documents/1099- DIV/1099-DIV FOSTER.pdf": "78415054f7402d127ef19ec05dfbf53be095320c25c3c4ab65f80717760ad9aa",
+    "2. Input Documents-20200101T000000Z-01043-000/2. Input Documents/1099-INT/1099-INT FOSTER.pdf": "d570765c0eae759e216a4f3a967df62be84b78795f4f460891c6b5958a097c1a",
+    "2. Input Documents-20200101T000000Z-01043-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "f84dd2a5c800ec99eb64f7ea5d8d18990ee4a6d720829c51c59a96a5dcd8d170",
+    "2. Input Documents-20200101T000000Z-01043-000/2. Input Documents/Form W-2/Form W-2.pdf": "5ed361a03c41d26b2a82b8706b97ff3d8f748fa9e3c2be6363931666f0a81e26",
+    "2. Input Documents-20200101T000000Z-01043-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "42219c23a9bd4845882e246b0186e4fb4faad224aca47fdff5062778a65cd9c1",
+    "2. Input Documents-20200101T000000Z-01043-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "bd8494b4bcdaf19e66b004b5adda02db48b9c3031cf08ea78671ccd427648b5d",
+    "3. Complete form-20200101T000000Z-01043-000/3. Complete form/2020 Tax Return Documents (Quinn Foster (synthetic)).pdf": "ac9b977c313fe95f6205c8a6b6bea53a42867db42b393152cc83e70434740207",
+    "3. Complete form-20200101T000000Z-01043-000/3. Complete form/Completed forms - Summary.pdf": "c2ba048f86a7f8fef1ace288f29539a1a50b0081607872798a4985573673b39e",
+    "4. Executive Summary-20200101T000000Z-01043-000/4. Executive Summary/Executive Summary Quinn Foster 2020.pdf": "3d3a68d17634865fb24b587db6c7b642bee98dd89830d040b3f764c959c29f79"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

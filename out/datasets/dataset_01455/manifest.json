@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20250101T000000Z-01455-000",
+  "tax_year": 2025,
+  "case_fingerprint": "493d948abee4dffc97b9313f55604aeea422f4b1bd7b7e3800c33a0b2e368356",
+  "case_json_sha256": "39b65f89ecbea31fc10b526ff026470f8d1f5d6a23f205c2a9a42db540453dc5",
+  "files_sha256": {
+    "1. Client Summary-20250101T000000Z-01455-000/1. Client Summary/Client Summary.pdf": "25a5e73048fab749d5858d6ff84da4492a099e31fcbc1469b638e9cd83185ceb",
+    "2. Input Documents-20250101T000000Z-01455-000/2. Input Documents/Tax Document Attachments Summary.pdf": "f10aae74896ccd51409add9738d355abcacf4af8bbd7d771c7b387fb21ed9b23",
+    "2. Input Documents-20250101T000000Z-01455-000/2. Input Documents/1099- DIV/1099-DIV MERCER.pdf": "8b5e6a68743bae8ecf403519499c1ad00c0d2bb2e265c11964ccd1c7aae46c81",
+    "2. Input Documents-20250101T000000Z-01455-000/2. Input Documents/1099-INT/1099-INT MERCER.pdf": "16fc91cac92a056a1ca1864b263fdb708499f84ad7d45a56c76d265d4d2b2795",
+    "2. Input Documents-20250101T000000Z-01455-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2025_.pdf": "25c018ae0c3afc1525a46c6f1161b798df62511e1c9df336e0af0ea6b478c305",
+    "2. Input Documents-20250101T000000Z-01455-000/2. Input Documents/Form W-2/Form W-2.pdf": "c73016ca4e80fa3efc6f90cea0f93f5d97d25f190240708b40c46dd5a129821b",
+    "2. Input Documents-20250101T000000Z-01455-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "2a0972e65a5fb7c6cef3f9e62e70d11ffa6a911d95ab7ae9171ab87246c6a74a",
+    "2. Input Documents-20250101T000000Z-01455-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2025.pdf": "8f43903fb4590cb17ae542f424f21e07c347e24ce8ed6cd00ce22f4358fa4b31",
+    "3. Complete form-20250101T000000Z-01455-000/3. Complete form/2025 Tax Return Documents (Riley Mercer (synthetic)).pdf": "a11527b5d9130fdd06187c66eb8159b4010890e3e73b09ee159dd969580cdf58",
+    "3. Complete form-20250101T000000Z-01455-000/3. Complete form/Completed forms - Summary.pdf": "c923e85d0849860527ed9043542654f02d02d155debb7ddb369240040811cde8",
+    "4. Executive Summary-20250101T000000Z-01455-000/4. Executive Summary/Executive Summary Riley Mercer 2025.pdf": "e45b10368ce5efb8ab1b94751bf2ffe8648c4683fd1aed58e2b9c2fb12cd0df5"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

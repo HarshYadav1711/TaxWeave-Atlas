@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-00231-000",
+  "tax_year": 2022,
+  "case_fingerprint": "da45d6cb18ce40b576834077285f6af8819e252270890517d718f3e576e62a8b",
+  "case_json_sha256": "2ee4f67ccf7275aca3d7d1a88acc13ddcc9883475eb0ccd796ec971246802220",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-00231-000/1. Client Summary/Client Summary.pdf": "4c6796f616fe81bdc7c19d18bfd496bb88e7b95af1f1939bd68956bd1fbcf054",
+    "2. Input Documents-20220101T000000Z-00231-000/2. Input Documents/Tax Document Attachments Summary.pdf": "7cd6cab68be53999cbc79b7337a8df5fe834dfae6c22c0341485d2a12d16f4c7",
+    "2. Input Documents-20220101T000000Z-00231-000/2. Input Documents/1099- DIV/1099-DIV FOSTER.pdf": "9200525fb7d7ed2b96f96461db41e0defa31c289f4dce5ef9dfc33d5ceb54f7d",
+    "2. Input Documents-20220101T000000Z-00231-000/2. Input Documents/1099-INT/1099-INT FOSTER.pdf": "7dfeae8703c76f12439e416d7570ef963a289e42a4de80f005a8896f5894f4fa",
+    "2. Input Documents-20220101T000000Z-00231-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "c652a3abf687a4cfced78d8853378591b7e6bf65bf6bec2d3a9a3cf8824652b9",
+    "2. Input Documents-20220101T000000Z-00231-000/2. Input Documents/Form W-2/Form W-2.pdf": "d6d103c394030f1cf9a12a38632259f7b5b773ccf44354671cc1c7c6c32171bb",
+    "2. Input Documents-20220101T000000Z-00231-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "927e70734a9a03a3dc96b819ec57e10e672f73a3235a586ba419ef5f8de2c6a3",
+    "2. Input Documents-20220101T000000Z-00231-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "ea6eaff80cfe4aaf767abb9b4c41dc9dfd1ffec0f1ca70751ae37046c4dfabb4",
+    "3. Complete form-20220101T000000Z-00231-000/3. Complete form/2022 Tax Return Documents (Quinn Foster (synthetic)).pdf": "640f39c0d64f2935146a9854ce8134be6992ca5bd64ed46aafadbec82ac94300",
+    "3. Complete form-20220101T000000Z-00231-000/3. Complete form/Completed forms - Summary.pdf": "b919e6820c4114684038c85a44c0decae21983897b3e259af73cd8ad45e86dfd",
+    "4. Executive Summary-20220101T000000Z-00231-000/4. Executive Summary/Executive Summary Quinn Foster 2022.pdf": "56b3669d9a8baaf36faeba5d8c7317f1c6b735a2bfe07490bed081b0765e2da8"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

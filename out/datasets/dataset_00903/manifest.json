@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-00903-000",
+  "tax_year": 2024,
+  "case_fingerprint": "b517afb21bd87c5dc0475d9bcacf366db7f8bcf759292de1bb6f00518e8c70e9",
+  "case_json_sha256": "4409857c00032a20d6acf16bbf36ebf6f1e86c8faed665d2f12d642294c6d9b6",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-00903-000/1. Client Summary/Client Summary.pdf": "670567dd7236fda52815f8951447132cf0b2e94cd761ccd231555f0f1ebdf022",
+    "2. Input Documents-20240101T000000Z-00903-000/2. Input Documents/Tax Document Attachments Summary.pdf": "7b3cf5969bc6277f678a25a3498657838fa59fa41a98cf3eab095211aa76f1f6",
+    "2. Input Documents-20240101T000000Z-00903-000/2. Input Documents/1099- DIV/1099-DIV FOSTER.pdf": "63dba66a112982b7332a88943b0509abb08200c8ae9d6a80c9d9b2b30fe294b8",
+    "2. Input Documents-20240101T000000Z-00903-000/2. Input Documents/1099-INT/1099-INT FOSTER.pdf": "6a0b2b466aa05652a7cffd088bc5811b75d67746c5b0a4da020b721264c8fdba",
+    "2. Input Documents-20240101T000000Z-00903-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "5c1a5cd5607030ce5b43a0b2092e851c10420f808035ff98632c7a9e01878e6b",
+    "2. Input Documents-20240101T000000Z-00903-000/2. Input Documents/Form W-2/Form W-2.pdf": "b8dc431f7062f126cc55ba3fe650aa9d85cea5d46957232e7a324e3803ae1ecc",
+    "2. Input Documents-20240101T000000Z-00903-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "8861f931d69b1068b76d6f17deba7d1d462634f0dbc4db06a28206095a2f09be",
+    "2. Input Documents-20240101T000000Z-00903-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "65ebc8d5f64409ac44ef0c50ced6746fa2c6947390dc6815b49b3a264688231d",
+    "3. Complete form-20240101T000000Z-00903-000/3. Complete form/2024 Tax Return Documents (Finley Foster (synthetic)).pdf": "34e13e20f77b42a8f62961208756caa5ab852b6667ea182bb31c4b0526a37c4a",
+    "3. Complete form-20240101T000000Z-00903-000/3. Complete form/Completed forms - Summary.pdf": "6af70bf0a41874666b19eb54ba6a5ae5c91e509a5e508932637e8e0ea9a9f632",
+    "4. Executive Summary-20240101T000000Z-00903-000/4. Executive Summary/Executive Summary Finley Foster 2024.pdf": "183b344f25ca757adcb8f18d39fa00db39e3bdea39865f1d0bafa9f313c44e16"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

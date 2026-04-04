@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20250101T000000Z-00283-000",
+  "tax_year": 2025,
+  "case_fingerprint": "ad46fee6d7a5e6472384c02f0087537326fd13f9a93b7c4be244ecafc449a716",
+  "case_json_sha256": "282dadae5eb00b5fb0885786a4d145ef81c231cc18388e41b8aca60ea2379a14",
+  "files_sha256": {
+    "1. Client Summary-20250101T000000Z-00283-000/1. Client Summary/Client Summary.pdf": "4270bac3c653a3c72368fb8c75b6f296740a29019693b33a911bf344619a2eab",
+    "2. Input Documents-20250101T000000Z-00283-000/2. Input Documents/Tax Document Attachments Summary.pdf": "b408563e00500b251cac520b28400473c45fb2a09bd615d204abe56adb8714ab",
+    "2. Input Documents-20250101T000000Z-00283-000/2. Input Documents/1099- DIV/1099-DIV FOSTER.pdf": "5835747169f33bae45729e14296e1ab7a87141e58a7374166a1053f8995f31ee",
+    "2. Input Documents-20250101T000000Z-00283-000/2. Input Documents/1099-INT/1099-INT FOSTER.pdf": "f27bad1e53cbca12757b26b19c7227e86a88db751e2cd1440902b3278ab66bb1",
+    "2. Input Documents-20250101T000000Z-00283-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2025_.pdf": "cb06091f79ed16a244271955fcc2755de08cfed6d9bb7fe28f495a0ac0d36827",
+    "2. Input Documents-20250101T000000Z-00283-000/2. Input Documents/Form W-2/Form W-2.pdf": "9f7baf93995bf436b7dcc2fdf48970e3c5a5a883b9d2e464d1006b55830d6376",
+    "2. Input Documents-20250101T000000Z-00283-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "89211761539b84bedfff3d5a2a72ebf35bc6114aa64bca384160c64ab81599a0",
+    "2. Input Documents-20250101T000000Z-00283-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2025.pdf": "09aa4dc9013214c80b665c33e47c81f4dc1670073a5c535602879b4fd4bf43f5",
+    "3. Complete form-20250101T000000Z-00283-000/3. Complete form/2025 Tax Return Documents (Sage Foster (synthetic)).pdf": "ac0aa4be99ad0d204691664ecd24766c9600b0fc6069ddfe582eb9b66fa45980",
+    "3. Complete form-20250101T000000Z-00283-000/3. Complete form/Completed forms - Summary.pdf": "727b4c2d85c8a95baf54ae9e3658b2824cb08e78e8fbfd148eff218026f3fee2",
+    "4. Executive Summary-20250101T000000Z-00283-000/4. Executive Summary/Executive Summary Sage Foster 2025.pdf": "d6d5eea95f1f280cc1ce68a22bc67cbf2c8885780dd6233a9e5bd1e65329643f"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

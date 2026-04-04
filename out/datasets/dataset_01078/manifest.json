@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-01078-000",
+  "tax_year": 2020,
+  "case_fingerprint": "7d204f285796558f6e8de73335483ab08eb0c9b350a3fef493129dd06ce69a84",
+  "case_json_sha256": "6b64bc03fc6b84e4b9c63ff37f51532e256f1d76f454f1b3e14e82cd81b569e6",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-01078-000/1. Client Summary/Client Summary.pdf": "54cf4895a4e04bf63abbe6df5d83121ee86946955b1b3be874b696f9b2751efd",
+    "2. Input Documents-20200101T000000Z-01078-000/2. Input Documents/Tax Document Attachments Summary.pdf": "3d9293d2013f3591ac54135837c129131aff93c5343f33693d9d154e5c763a00",
+    "2. Input Documents-20200101T000000Z-01078-000/2. Input Documents/1099- DIV/1099-DIV KELLER.pdf": "e74ab0450e4e21d75aaa3250a1a87b6774bfafa46957e0075f3a965b80712403",
+    "2. Input Documents-20200101T000000Z-01078-000/2. Input Documents/1099-INT/1099-INT KELLER.pdf": "59f77ba80d95c0fdb5b3c7ba875c98c8b5b9ff76317e1e4ef0d703c7cffd3f40",
+    "2. Input Documents-20200101T000000Z-01078-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "a1cf8f736213477826c04d3a2e29ce9fc5ce2103600e85c221f0956739f02e45",
+    "2. Input Documents-20200101T000000Z-01078-000/2. Input Documents/Form W-2/Form W-2.pdf": "547be4a345c14b801ea41e75e5d24ed8915adfc42ecde9a223d72d2363a6d052",
+    "2. Input Documents-20200101T000000Z-01078-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "9a30e60726424abfc9cbf0e960f9e313edf44bffcfa342ef3b2b1e2fe39054f0",
+    "2. Input Documents-20200101T000000Z-01078-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "ea72bb5ebeee7759373888b1b106909acd0bacdb96a452dc229f1c7615bcb2d5",
+    "3. Complete form-20200101T000000Z-01078-000/3. Complete form/2020 Tax Return Documents (Skyler Keller (synthetic)).pdf": "a902b14c017c1bf6c4c1286d80bd02793349d7b2028c2d9b1a99cf50f4c7ca56",
+    "3. Complete form-20200101T000000Z-01078-000/3. Complete form/Completed forms - Summary.pdf": "01af5cf860bcbc035482654a4059dbe8cf2170d1c3dc6acd9b3d9d25621daebf",
+    "4. Executive Summary-20200101T000000Z-01078-000/4. Executive Summary/Executive Summary Skyler Keller 2020.pdf": "f7f80e1a0781bf291b496688ef9481e822cfe521260dcdcb103d36d0729765b8"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

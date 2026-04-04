@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-00536-000",
+  "tax_year": 2023,
+  "case_fingerprint": "6cc17176c725a2aa0046fd5f04b8b09e139b53afe54ece6deedbedc9bb3f8121",
+  "case_json_sha256": "ac9fa7f75ffab85e602a1b48720b012210e7bbc7d9d6091cd67b05c67b80c4e9",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-00536-000/1. Client Summary/Client Summary.pdf": "cfa9598f622d726cf4ee1894a102b24fe321fd6ab645b71c0744bff8838c8ae0",
+    "2. Input Documents-20230101T000000Z-00536-000/2. Input Documents/Tax Document Attachments Summary.pdf": "98e117aed67671dd2a7ee52bfd95914d3a1482107804e189d2d4fe48f2e6f9c6",
+    "2. Input Documents-20230101T000000Z-00536-000/2. Input Documents/1099- DIV/1099-DIV FOSTER.pdf": "4ca85b6a11e48380ccb53147ccebd4775f7fda65b911f9062e2230a2f3f7674f",
+    "2. Input Documents-20230101T000000Z-00536-000/2. Input Documents/1099-INT/1099-INT FOSTER.pdf": "3ce750ad3ddd2a8e19490581d4dc75617b8abd138290e74b5b3e57d5b2520be9",
+    "2. Input Documents-20230101T000000Z-00536-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "bdc7db8ac9f2921433c2603a4bceb4de33433566f468c20692167dbc6dcc5563",
+    "2. Input Documents-20230101T000000Z-00536-000/2. Input Documents/Form W-2/Form W-2.pdf": "7a0a9da29ea149803100e872d3630d21a76bc044aa95c811cfcd1e83433a3c5e",
+    "2. Input Documents-20230101T000000Z-00536-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "a2b713853c35af2a300448df5575410329f9ba255e7ec4186da4b10f38d644ef",
+    "2. Input Documents-20230101T000000Z-00536-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "6d9a4badecced2418e24c8dfced4cbf820d4e6e6c7bfcda7122bd6d6afc2499e",
+    "3. Complete form-20230101T000000Z-00536-000/3. Complete form/2023 Tax Return Documents (Morgan Foster (synthetic)).pdf": "282678e5cc5f10ccf7c8039155f33bdc20250be14036e30321966acba9d09ae7",
+    "3. Complete form-20230101T000000Z-00536-000/3. Complete form/Completed forms - Summary.pdf": "0b5586c7540e3dea8f00cdd73fee8d915c982113a026bc4f5f829a1ab878ea7f",
+    "4. Executive Summary-20230101T000000Z-00536-000/4. Executive Summary/Executive Summary Morgan Foster 2023.pdf": "eb5976553e7a0fbf93434e344e2f9a65d7576d9b98e2cc110001638cb1046f56"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-00214-000",
+  "tax_year": 2024,
+  "case_fingerprint": "10bc0031c4d275bebdaa10cadd8de5a50d73412ed1f41a975f2fde885662677d",
+  "case_json_sha256": "c146efccbf2382d34f78d7d350168cfa5ed0270b85c8387d246f220d625d8647",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-00214-000/1. Client Summary/Client Summary.pdf": "1d9f85d15198a9c77b90c2e97f11f164b343e48e07c4766d5053d6733805269a",
+    "2. Input Documents-20240101T000000Z-00214-000/2. Input Documents/Tax Document Attachments Summary.pdf": "58019ba37d49f22d9a2f6231484b2a252c645474ab36869c2ccdba4c631c5b2d",
+    "2. Input Documents-20240101T000000Z-00214-000/2. Input Documents/1099- DIV/1099-DIV REYES.pdf": "03f7bd4abf05d8a29eb0867adb22542e48abdb6cb237c02fb826cbfb02fd2f3c",
+    "2. Input Documents-20240101T000000Z-00214-000/2. Input Documents/1099-INT/1099-INT REYES.pdf": "c0551edab1e52b1990dd796d963667748d9eb40eb42d061f2221999b8327dfc8",
+    "2. Input Documents-20240101T000000Z-00214-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "7a013ea9b05461c5c68caff77a99d15153936b128a5777c57d5b463ae7100eeb",
+    "2. Input Documents-20240101T000000Z-00214-000/2. Input Documents/Form W-2/Form W-2.pdf": "315ba0caaa73e9fb9c27583c35fb0c9d859e756d546e56b03113d9fe67fa6c3f",
+    "2. Input Documents-20240101T000000Z-00214-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "10640671fb486519b968a6b42c77e2fdb59dee307c3896f1a302cc46e9433c89",
+    "2. Input Documents-20240101T000000Z-00214-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "d36c71809d0f3acd61d1de5d7013c94cecc432c24741f190a3dfd93d20926838",
+    "3. Complete form-20240101T000000Z-00214-000/3. Complete form/2024 Tax Return Documents (Rowan Reyes (synthetic)).pdf": "a3e5b9ce62def564b10d6b92c493621f88b5fd1bb2abc31c9e8a93b139d61b06",
+    "3. Complete form-20240101T000000Z-00214-000/3. Complete form/Completed forms - Summary.pdf": "0151999f6e433220d6d9de3bcb167104cce0b89439e81e7660b52986d12aaf76",
+    "4. Executive Summary-20240101T000000Z-00214-000/4. Executive Summary/Executive Summary Rowan Reyes 2024.pdf": "2f8fbd104097f56aeda81ef445d190912599bf6486b4b27f9e82ec4e0fbef96d"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

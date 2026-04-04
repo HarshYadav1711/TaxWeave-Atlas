@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-01250-000",
+  "tax_year": 2020,
+  "case_fingerprint": "fe6240e7dba5aaaf42c47d6f5ff5e4c56e83432d69ebf34716eb360197f25a41",
+  "case_json_sha256": "f9bbe4f3e27ace0447a4cf9c93da197b63c34366066a1b4a69da20fab0fb60c5",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-01250-000/1. Client Summary/Client Summary.pdf": "3fc92e8ede58d50b65a4ce235de994ac4a52e08a8d8470124c53e074607a7ffa",
+    "2. Input Documents-20200101T000000Z-01250-000/2. Input Documents/Tax Document Attachments Summary.pdf": "6915c13828f205d8fb71e1d2d45cd72071f8d02218a448825c9a3215f47f3e3b",
+    "2. Input Documents-20200101T000000Z-01250-000/2. Input Documents/1099- DIV/1099-DIV REYES.pdf": "7a0f61c117f686805b37d8b86341c57ca7f2cd838bbd47a3ad5fd1f2ef8861ab",
+    "2. Input Documents-20200101T000000Z-01250-000/2. Input Documents/1099-INT/1099-INT REYES.pdf": "638bcb157964a8c8bb08b5e30c88b801e2fcba0426e04581edc9f85b9a32695e",
+    "2. Input Documents-20200101T000000Z-01250-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "aab4e1e3f3e4698efdd8d7dc4265356ea7c633faf0c7f6ca9c8a7dfa3b91f87d",
+    "2. Input Documents-20200101T000000Z-01250-000/2. Input Documents/Form W-2/Form W-2.pdf": "ba68d24a47d75f952f54a6e74b3835e19c7681ff160e34ef805d9c5e1127cdb5",
+    "2. Input Documents-20200101T000000Z-01250-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "f9f826f11f665a8fe0b1e1a07ee024ac35047728512cbaa231dc029b395b6f2f",
+    "2. Input Documents-20200101T000000Z-01250-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "1d1c50d5025ffec0da0520c27bc3b5d5436f08c9e2c55caea23ef6997dce587f",
+    "3. Complete form-20200101T000000Z-01250-000/3. Complete form/2020 Tax Return Documents (Skyler Reyes (synthetic)).pdf": "a58ae6393906fb76bc5dbf65357ba043198fcb5511b1f369968df62b055a0075",
+    "3. Complete form-20200101T000000Z-01250-000/3. Complete form/Completed forms - Summary.pdf": "b90c308d8b1b77dce27a3c5c73d5fe1ef41ed2adf10442131025ade7d13dfdbd",
+    "4. Executive Summary-20200101T000000Z-01250-000/4. Executive Summary/Executive Summary Skyler Reyes 2020.pdf": "71c2aee35175999cfaf4965db29857889ccc645e64c37d8fe8e0abea1bc9c95c"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-01969-000",
+  "tax_year": 2024,
+  "case_fingerprint": "903c241220a667e356e2ee3e44add92b641f77d65669775a362b15d2ea855de8",
+  "case_json_sha256": "961a9ebf81740ba2153bb256d96997d6c12349531aacd06cf667fdc0e8d89386",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-01969-000/1. Client Summary/Client Summary.pdf": "05c708c03be857c9385dfb4c16572d1f4ce419611764962ec20c0cf7de533580",
+    "2. Input Documents-20240101T000000Z-01969-000/2. Input Documents/Tax Document Attachments Summary.pdf": "b9f6d7daf7f615a6fad5857d1ce2d44be0d3a9998a6070ff96cf15260c3349f9",
+    "2. Input Documents-20240101T000000Z-01969-000/2. Input Documents/1099- DIV/1099-DIV HAYES.pdf": "aa369eedd2195495d3f391ad430ce98893134d19dac48b37dc21a8efbb16c5f6",
+    "2. Input Documents-20240101T000000Z-01969-000/2. Input Documents/1099-INT/1099-INT HAYES.pdf": "b7a71fae3b9da7a01b166c151cc070b20c4c8a2b014caf408b649a6da13fecc3",
+    "2. Input Documents-20240101T000000Z-01969-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "b665c6d03b63fb35739da7cba582d4e27fbe9ad6345280c2dd86ade58e9e3508",
+    "2. Input Documents-20240101T000000Z-01969-000/2. Input Documents/Form W-2/Form W-2.pdf": "521736966549b7c0180c84adbc0a99e6180dd06900d671051dd65e3c29b57193",
+    "2. Input Documents-20240101T000000Z-01969-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "33901420d3a5dc923fca31db2555620dd1abd994e341a2bd10611d23829b171e",
+    "2. Input Documents-20240101T000000Z-01969-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "b926bde7b8f35620c3c1dfb4d536bc0f7134779cdc7fba6464e805968a5d5a32",
+    "3. Complete form-20240101T000000Z-01969-000/3. Complete form/2024 Tax Return Documents (Skyler Hayes (synthetic)).pdf": "ab60130425e550e52c0810b56aaaae0887d858dca145b1c8bccd133366542bec",
+    "3. Complete form-20240101T000000Z-01969-000/3. Complete form/Completed forms - Summary.pdf": "818abbc7bff3211fcf60bb1c6b9b45ccd7c74f454a7967b94e4b3a4e6420adb9",
+    "4. Executive Summary-20240101T000000Z-01969-000/4. Executive Summary/Executive Summary Skyler Hayes 2024.pdf": "02d0f0f363a4ca95cb763ee529e02afb7d9a435db826ff149c07151b247815fd"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

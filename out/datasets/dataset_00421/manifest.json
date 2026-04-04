@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20250101T000000Z-00421-000",
+  "tax_year": 2025,
+  "case_fingerprint": "098e42c470c1b7342459c638a69d78d90712dc88320f9e6a440f4218d19f095e",
+  "case_json_sha256": "b42a7f959f5c74e36c29409e439a91d87cbb4269e115a419cd783f64243e798f",
+  "files_sha256": {
+    "1. Client Summary-20250101T000000Z-00421-000/1. Client Summary/Client Summary.pdf": "b2217da031768151bc8ee0443a24e8ca166b21bcb755f210d2dbd3f8dc8d78cc",
+    "2. Input Documents-20250101T000000Z-00421-000/2. Input Documents/Tax Document Attachments Summary.pdf": "8e56d9d357c0054091262fd7695c3820c0f00bc6a2e5664fbe21eca7f099741e",
+    "2. Input Documents-20250101T000000Z-00421-000/2. Input Documents/1099- DIV/1099-DIV FOSTER.pdf": "3ed477d8f1c767728992e2d22d2fd3d4ed0a4db582a82c9c348e9b17b1b858f6",
+    "2. Input Documents-20250101T000000Z-00421-000/2. Input Documents/1099-INT/1099-INT FOSTER.pdf": "9d77e42aba8ce38f35c66daa0150144110655886337bd99de243153238d66005",
+    "2. Input Documents-20250101T000000Z-00421-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2025_.pdf": "06246c20b93caa648499075e7ba03b40752068258097c4aacbbd2187a90f6a3f",
+    "2. Input Documents-20250101T000000Z-00421-000/2. Input Documents/Form W-2/Form W-2.pdf": "fe8554da20ee3ce734c724f51a878cb6f04250ca0011a1167224c63869684b90",
+    "2. Input Documents-20250101T000000Z-00421-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "32546a88b79dd6133dc23039b2cd5cb6b4f52be505d95a7b0a5bb93757f3064b",
+    "2. Input Documents-20250101T000000Z-00421-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2025.pdf": "f26e3b4883d8838d01dbf77d5e154292c5e8dba22eee7d163b9ac6a17b06bd75",
+    "3. Complete form-20250101T000000Z-00421-000/3. Complete form/2025 Tax Return Documents (River Foster (synthetic)).pdf": "786771d6fae608eb6521b3eed6fa3b2f280c2c1eb97ecb7d18d17a4ec51e3b93",
+    "3. Complete form-20250101T000000Z-00421-000/3. Complete form/Completed forms - Summary.pdf": "f04a6780fe7eaf37181a31450c3ffec94956dca86194fb924b1f679878367363",
+    "4. Executive Summary-20250101T000000Z-00421-000/4. Executive Summary/Executive Summary River Foster 2025.pdf": "eb8905a70d9ef5557af26229639f6a79f3bc0cea87fa5e5851d5ea17790aef65"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

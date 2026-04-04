@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-00501-000",
+  "tax_year": 2020,
+  "case_fingerprint": "a6ebec4eb66c14da5500a1b673155192a42226ed0f84ec11c528fe2d2cc48fc1",
+  "case_json_sha256": "a3a1e4c779d9f3c886236ae5cd19a3f91a45d267dae0f703b7b8143482c65a5b",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-00501-000/1. Client Summary/Client Summary.pdf": "1589a9bc3a953ecdbcf7ea446da7f685496de0c9f705700c4e20451b222713a3",
+    "2. Input Documents-20200101T000000Z-00501-000/2. Input Documents/Tax Document Attachments Summary.pdf": "eea554d4b6d144a673155d4f9d1eb6bae7eee6a4c9ecb88fc9c3c8f44803287a",
+    "2. Input Documents-20200101T000000Z-00501-000/2. Input Documents/1099- DIV/1099-DIV INGRAM.pdf": "05bdf5038a3348a22f9c33526935f46cc053578a874c3fe87572f821816a01e9",
+    "2. Input Documents-20200101T000000Z-00501-000/2. Input Documents/1099-INT/1099-INT INGRAM.pdf": "80fc98c0825114e9e1b828fbd2c4f7399498e4e064cb0dfba8645c377105cdc0",
+    "2. Input Documents-20200101T000000Z-00501-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "0d6fd6494dca26dfdecd45bf0dd7f352a66642731976796e561c9b69e6370371",
+    "2. Input Documents-20200101T000000Z-00501-000/2. Input Documents/Form W-2/Form W-2.pdf": "d911d6961dc01306db531f028bddc891845cb52dcf6b9f5e2cc8f42e5f99fee4",
+    "2. Input Documents-20200101T000000Z-00501-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "8581f6352d6e86f63aaa1d35443d02179ca7a78af5551452061379465d641e99",
+    "2. Input Documents-20200101T000000Z-00501-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "6b6edeff6d5eb4a589703bfda01430a208be0c4f0ab6fba937133cf7afbbf34c",
+    "3. Complete form-20200101T000000Z-00501-000/3. Complete form/2020 Tax Return Documents (Rowan Ingram (synthetic)).pdf": "054497fcac25dc1f298ad511eda52590ed63a81a7565dfb0d789d473602217a5",
+    "3. Complete form-20200101T000000Z-00501-000/3. Complete form/Completed forms - Summary.pdf": "39c4820f0f825acc2e9c892266403f3c1273c313082b0f4e3c8d81143d941d21",
+    "4. Executive Summary-20200101T000000Z-00501-000/4. Executive Summary/Executive Summary Rowan Ingram 2020.pdf": "2da147233f166ad9ad1d340ac8cdab71cf3e7035db418300544a2e18589c1fcf"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

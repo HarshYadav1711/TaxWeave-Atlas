@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-00859-000",
+  "tax_year": 2020,
+  "case_fingerprint": "fcf370b2efc1218c5cce66a700e8e37a3ab5ba133b0afaf5518f12150db60aa0",
+  "case_json_sha256": "a58beb66be1353376f7022f3b1582f615ae06ba1814ab12dd4e8006717bf1a6c",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-00859-000/1. Client Summary/Client Summary.pdf": "036fa8e3f16e08e96a914d65f8175beda7ccd0a13179bae3450e6fbcfc6a3fff",
+    "2. Input Documents-20200101T000000Z-00859-000/2. Input Documents/Tax Document Attachments Summary.pdf": "cd0f5b5f3de490a7edb1909407455e5a7f643c9a71c5c5a4acd86c9bb43df37d",
+    "2. Input Documents-20200101T000000Z-00859-000/2. Input Documents/1099- DIV/1099-DIV LAWSON.pdf": "ee28ad99d65dafaecd2aa36fb82be669775693a2bdeb2567cc274b6778bcef5c",
+    "2. Input Documents-20200101T000000Z-00859-000/2. Input Documents/1099-INT/1099-INT LAWSON.pdf": "d1243a3d14d47844f205f5e3763a7d51a8de28a355bc2fd7b6099f259c10de21",
+    "2. Input Documents-20200101T000000Z-00859-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "87cb372ccd00722bdfd3ecb8ad92148b95d78093b0c100703dbf740172729c74",
+    "2. Input Documents-20200101T000000Z-00859-000/2. Input Documents/Form W-2/Form W-2.pdf": "9cb23e76b9eb64879732b0f6bf97e55f40db6fbd67fb155c8131425612824d7c",
+    "2. Input Documents-20200101T000000Z-00859-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "ceefeaede1c74821b06059dd8bb51cfb562bea4952dac213f7ccc9270500135c",
+    "2. Input Documents-20200101T000000Z-00859-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "fc3b3e1a9419c5e38a2a9db45b1e7474d2bc91f670ce3e6cbf26460147f346f5",
+    "3. Complete form-20200101T000000Z-00859-000/3. Complete form/2020 Tax Return Documents (Quinn Lawson (synthetic)).pdf": "536a385e655c3fe8f280c1a0de780702caac65cd1d223ddfd9c7f62974d7073e",
+    "3. Complete form-20200101T000000Z-00859-000/3. Complete form/Completed forms - Summary.pdf": "c4e5b01796f890ddbf97f1f44663d9f63a76a068654ca492bab8a5ca39cf1915",
+    "4. Executive Summary-20200101T000000Z-00859-000/4. Executive Summary/Executive Summary Quinn Lawson 2020.pdf": "6cd0e8e9fa675a1b49165798d80f4527b361d2a55600e3ac37d3670ca517ab88"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

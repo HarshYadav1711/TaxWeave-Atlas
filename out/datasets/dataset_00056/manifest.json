@@ -6,17 +6,17 @@
   "case_fingerprint": "4e6ffd25bbbd3a6972420944c6db094d51d5486bd356448a1c2f99aba35da4ec",
   "case_json_sha256": "5463cb206f993a45fecb26403cb1c9dc5bb2663710f52d0392ccfb790de91cf3",
   "files_sha256": {
-    "1. Client Summary-20250101T000000Z-00056-000/1. Client Summary/Client Summary.pdf": "981c24a402a962ca5dab48008947c2f6d08d566d1d9df810f63e19d3c19caf28",
-    "2. Input Documents-20250101T000000Z-00056-000/2. Input Documents/Tax Document Attachments Summary.pdf": "5cc9f6667266fad54c7593f8a3048c839825c3a1d942b81901a1c5f101f9bbc2",
-    "2. Input Documents-20250101T000000Z-00056-000/2. Input Documents/1099- DIV/1099-DIV REYES.pdf": "e22143d7623494f14c7998c132b493e5a41e047207fb3cc3876702863adee73d",
-    "2. Input Documents-20250101T000000Z-00056-000/2. Input Documents/1099-INT/1099-INT REYES.pdf": "599f4796f96c1c254a7f6714821adc470972e0ceb7216cbe5796752049293e03",
-    "2. Input Documents-20250101T000000Z-00056-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2025_.pdf": "76507b7e2f4b561fa719bdb2fe06d32e70081c07184057e8acca853a73e55021",
-    "2. Input Documents-20250101T000000Z-00056-000/2. Input Documents/Form W-2/Form W-2.pdf": "3cde5b627e1979093d7e75b4852ca8422cae92aea86023cf24aed868c71dc6fb",
-    "2. Input Documents-20250101T000000Z-00056-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "ed181eb623a2dc28d00d1eea478418ab8b2f0cd40cf10d04dfa9fe298294b10c",
-    "2. Input Documents-20250101T000000Z-00056-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2025.pdf": "5374ffbcc7fd15780c3110c6cf11ae022214d6bf53038881a0f51def9fade77b",
-    "3. Complete form-20250101T000000Z-00056-000/3. Complete form/2025 Tax Return Documents (Casey Reyes (synthetic)).pdf": "7d828f290a0e8b536ab7c43b3cef6d96e356f810b3456409d4e42c07902d8b22",
-    "3. Complete form-20250101T000000Z-00056-000/3. Complete form/Completed forms - Summary.pdf": "ef6c571a6d6c316d85665b7a45594a258dcd95ec0d4c48dd20d27a57761d3bf3",
-    "4. Executive Summary-20250101T000000Z-00056-000/4. Executive Summary/Executive Summary Casey Reyes 2025.pdf": "a1a5eb3d7d7dcae8eeb1f8a2bfe5a40c3843c8f7a3a7ee111a6c8e58c94024a4"
+    "1. Client Summary-20250101T000000Z-00056-000/1. Client Summary/Client Summary.pdf": "167395226f20c03d72ec9a162ed7891215f7b8109de146371a9702bc84e6d3fe",
+    "2. Input Documents-20250101T000000Z-00056-000/2. Input Documents/Tax Document Attachments Summary.pdf": "c76e1791adaec0cf3db0fb36b5d07ea9ae2f026e9623bd25597cf623d399d76f",
+    "2. Input Documents-20250101T000000Z-00056-000/2. Input Documents/1099- DIV/1099-DIV REYES.pdf": "7a305f294f76319dda275a261116d03818aa14d9294396c0c45f27b2463adf27",
+    "2. Input Documents-20250101T000000Z-00056-000/2. Input Documents/1099-INT/1099-INT REYES.pdf": "0900bb02e340491df86dbd45306052fe8b0f9ce8d11f829c6ab71e3d9fb2dbb3",
+    "2. Input Documents-20250101T000000Z-00056-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2025_.pdf": "25bd63b4896175acbe75ac746b6b0cb675c9c7497d218f1be243f6584aeec884",
+    "2. Input Documents-20250101T000000Z-00056-000/2. Input Documents/Form W-2/Form W-2.pdf": "db090d54eef1ea0187963fdc151a251ba00dfdefbfbe6e2ec45fdf0a87c3cf1b",
+    "2. Input Documents-20250101T000000Z-00056-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "d0369ab2c5a17269feadbbca60ef7f2b76aed74d0a1ee9d18ad34b0de6164fbc",
+    "2. Input Documents-20250101T000000Z-00056-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2025.pdf": "dc7a8d844b9555890cfb4b9a02ffc070ebb876329470b3bb80377eb0f1f6ee86",
+    "3. Complete form-20250101T000000Z-00056-000/3. Complete form/2025 Tax Return Documents (Casey Reyes (synthetic)).pdf": "d3c315a5ed72afaf50c21e0f4135bf8f4dd250142bb8c8cd4c7200b770b3a3c2",
+    "3. Complete form-20250101T000000Z-00056-000/3. Complete form/Completed forms - Summary.pdf": "f37efa6b9a6762e018923c2c136e93eca476fc63db291d624c938c72ccfd363b",
+    "4. Executive Summary-20250101T000000Z-00056-000/4. Executive Summary/Executive Summary Casey Reyes 2025.pdf": "fa7444a0071411607a1dac212d18dfaa6506b08c47064017a169c04a9b0fd420"
   },
   "canonical_case_model": "SyntheticTaxCase"
 }

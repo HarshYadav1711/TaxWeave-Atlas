@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-01268-000",
+  "tax_year": 2022,
+  "case_fingerprint": "eb4f0304b6b618bc6d6159e2d8361685ea19b105c7d34ca8f2c7502018b298d9",
+  "case_json_sha256": "f5560b0e54721621fcdc445fbda062d8f918aba6530785590685f923eedb09e6",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-01268-000/1. Client Summary/Client Summary.pdf": "768eac683b7d9cb1abe0730be479d957cc6a0fecb1b98ee2042248573145c5c8",
+    "2. Input Documents-20220101T000000Z-01268-000/2. Input Documents/Tax Document Attachments Summary.pdf": "c5165592971b23eba64e53e9d4a3e62871085de685203f616623fe1077c1f1e0",
+    "2. Input Documents-20220101T000000Z-01268-000/2. Input Documents/1099- DIV/1099-DIV MERCER.pdf": "2f5a119b537a2ac028e993823b559ef2a6d2d4779d10e5e7f2cf9334b17b25d9",
+    "2. Input Documents-20220101T000000Z-01268-000/2. Input Documents/1099-INT/1099-INT MERCER.pdf": "8220521c4ec896efb6ce8c52ba089aaf258c67af3d74c5fcaaa7dd54edd50145",
+    "2. Input Documents-20220101T000000Z-01268-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "ff3316523fa8564a11f8fd4a8352c7b5b9ace812cb058fdd979c2bb15d361447",
+    "2. Input Documents-20220101T000000Z-01268-000/2. Input Documents/Form W-2/Form W-2.pdf": "bd652fe73049634663df80d82177022bffa5bb73dbf590ba895009a9207e2bed",
+    "2. Input Documents-20220101T000000Z-01268-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "ff896946543db9da3626778dae2b5bfc7c13c414af9c861db06f2c0ba683dcee",
+    "2. Input Documents-20220101T000000Z-01268-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "67e553524b78422cd6b6ce68e0b7b1a4faa00a59551c8b2e96aa709c4048152e",
+    "3. Complete form-20220101T000000Z-01268-000/3. Complete form/2022 Tax Return Documents (Reese Mercer (synthetic)).pdf": "8a53cf522ebe252e81f81a67dcf4d869829a581b5a903fa030acf29c859430a3",
+    "3. Complete form-20220101T000000Z-01268-000/3. Complete form/Completed forms - Summary.pdf": "3559a0839c0f81201ef0d183f98ddeff1bfd3c03d272ce16d8a6c1b47229f9a0",
+    "4. Executive Summary-20220101T000000Z-01268-000/4. Executive Summary/Executive Summary Reese Mercer 2022.pdf": "3de4edef3a8cfcef854d7b5c9d1eec208c2a8caceb0c9debcb33164c9043c556"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-00933-000",
+  "tax_year": 2022,
+  "case_fingerprint": "b17f0561c4ed7564fe4b5697faac55efd5d7bfd4e2308bc78627f7ad919b28f6",
+  "case_json_sha256": "0927733a62ac97694b37e7793758a10639a8bf45fe0a56b166477e8b5dbae3a0",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-00933-000/1. Client Summary/Client Summary.pdf": "69b8496c8db29b057faf6267a2992bec4699d081735f34f2651ae37517731231",
+    "2. Input Documents-20220101T000000Z-00933-000/2. Input Documents/Tax Document Attachments Summary.pdf": "50d3bc33f2b77cd16a03a3d2f1a4cfbc35437002e85bf8d1a7fcb458b52068be",
+    "2. Input Documents-20220101T000000Z-00933-000/2. Input Documents/1099- DIV/1099-DIV DIAZ.pdf": "16505a6517a773787565c2e44d1c11dfbacda288bd59449ec97974d7fc528257",
+    "2. Input Documents-20220101T000000Z-00933-000/2. Input Documents/1099-INT/1099-INT DIAZ.pdf": "7160d0f15f7578dfe94c15532c0820d67d2229adbff6fff5c560de25b37c9b04",
+    "2. Input Documents-20220101T000000Z-00933-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "cbb2dae7edb4c7107f5d13d149e7086641af7495c0c4b7211db8f5120d96421a",
+    "2. Input Documents-20220101T000000Z-00933-000/2. Input Documents/Form W-2/Form W-2.pdf": "9e259b02deaad8655a21a632596284075f031a67ef0868f322f4858e5f1243a5",
+    "2. Input Documents-20220101T000000Z-00933-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "bb5d21a5ad1913b49270149a21f88c4b5eefdb2526c0207900d266c278a95383",
+    "2. Input Documents-20220101T000000Z-00933-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "b943aa104d5d555c7641bcd60118ee8f8ef9c608d2b988addc34975553aebc32",
+    "3. Complete form-20220101T000000Z-00933-000/3. Complete form/2022 Tax Return Documents (Riley Diaz (synthetic)).pdf": "6aab19911a5a42ffa31f194239bde13b90783c8c43d93b49d45a01b726f71938",
+    "3. Complete form-20220101T000000Z-00933-000/3. Complete form/Completed forms - Summary.pdf": "3facdeb413f0df1808abb25742ce19d8070c49c60508d7fa29fc2655cef108f5",
+    "4. Executive Summary-20220101T000000Z-00933-000/4. Executive Summary/Executive Summary Riley Diaz 2022.pdf": "49f4b82fd07cfe9b024f8c7116404e2be50395875a3a45f816cc286fcf29d829"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-00241-000",
+  "tax_year": 2022,
+  "case_fingerprint": "37b3d8a27956a7637183af9e84d49990f5b62b2d999f4194ba7f3a4d3ab345f6",
+  "case_json_sha256": "7ea2b732dfb58d0fa6718b2039b4082b1e396ee154a553801cc76a2ca886c370",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-00241-000/1. Client Summary/Client Summary.pdf": "e310fcf4ed5ba1683139d22fee6309bc8ddbbfe02ed10dec33aa0c25ca78692e",
+    "2. Input Documents-20220101T000000Z-00241-000/2. Input Documents/Tax Document Attachments Summary.pdf": "312140c7063acd2eb00e8c3284a19dbb7f3d360f29d77ae758ead2687fab60e5",
+    "2. Input Documents-20220101T000000Z-00241-000/2. Input Documents/1099- DIV/1099-DIV CARTER.pdf": "6460352def9eced49dc74b2d2ed6720baf56c14287ebc2e274a93733b3748cd2",
+    "2. Input Documents-20220101T000000Z-00241-000/2. Input Documents/1099-INT/1099-INT CARTER.pdf": "0f37968ec839807c76de9d459146ad3d9f09c7e8ad2c1106d0452e6ef59d5641",
+    "2. Input Documents-20220101T000000Z-00241-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "b4db8eca0a10329769ac31aaff36aa6fdaf8a31c39b46d7ccabd4a30e0c9f747",
+    "2. Input Documents-20220101T000000Z-00241-000/2. Input Documents/Form W-2/Form W-2.pdf": "963fa6dbbf9dd20122927aad6bff018ba6d8daab83b31eb1e0a74aca2df55c55",
+    "2. Input Documents-20220101T000000Z-00241-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "75d04fdcd489f0c9fd50221d7a0dbb261f9e1b9ab5dbe1eafd1d434ed9207a99",
+    "2. Input Documents-20220101T000000Z-00241-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "45beac1d14609badd5f72670b52946ee4a927d6bb6ad6f088ffc5fcc78233e48",
+    "3. Complete form-20220101T000000Z-00241-000/3. Complete form/2022 Tax Return Documents (Jordan Carter (synthetic)).pdf": "4c092e9d4db70d0a8e31cf78f6b65b6c2ec5e79f9969c6bbc35ff463add5b08c",
+    "3. Complete form-20220101T000000Z-00241-000/3. Complete form/Completed forms - Summary.pdf": "011bf13478d02058364ee4f3b8c25df299d3bf653d57a695087cab64fd88b53c",
+    "4. Executive Summary-20220101T000000Z-00241-000/4. Executive Summary/Executive Summary Jordan Carter 2022.pdf": "d0ecf11c9440b555dfc9f44d29c29a04ea196b5c54e985057b8b75324834248f"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-01909-000",
+  "tax_year": 2020,
+  "case_fingerprint": "9f242f2513c03fead416b63b7d8a312c36df5cc9a8d5aeb21e206f3e050cbd61",
+  "case_json_sha256": "61651615bbf35a2a50c553ffbae5344d3b9c6ee4940e2c4b2209ddff9dbb0243",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-01909-000/1. Client Summary/Client Summary.pdf": "bf87b1e27f70d28c8d3402c9fe4d53d1b4b37e10b4167311c6d72f24543b6a72",
+    "2. Input Documents-20200101T000000Z-01909-000/2. Input Documents/Tax Document Attachments Summary.pdf": "3ad44b89e261f2802e7f1024f1c63eb9026aae5ac8b6be4219abc790b6af5818",
+    "2. Input Documents-20200101T000000Z-01909-000/2. Input Documents/1099- DIV/1099-DIV OKORO.pdf": "e0a2a454ba1d6c17dfe47178dbbb8741dddde390afd92dbcc2e08c3b49e6cd5d",
+    "2. Input Documents-20200101T000000Z-01909-000/2. Input Documents/1099-INT/1099-INT OKORO.pdf": "b98d3fe1c7e673046ae72dee1b7400c39751e56a24114317c73ddc804a82cb53",
+    "2. Input Documents-20200101T000000Z-01909-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "307bd426da2a6f56cfe652b68f2f76723f3c05547c1247fcdc39631109cb0a0e",
+    "2. Input Documents-20200101T000000Z-01909-000/2. Input Documents/Form W-2/Form W-2.pdf": "c5a71c1977e61ab07701197e2b20f2a50fa309908fd4bda67ba6023411ad5774",
+    "2. Input Documents-20200101T000000Z-01909-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "ddb1f14aa5c89ac0526cd93118543a44e247b1efbdbac1d61610c0c678e5ccd5",
+    "2. Input Documents-20200101T000000Z-01909-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "1d9966949d6d9212ed2a4075442addd76aeef3fbc74a575ff5d37f2d2546046e",
+    "3. Complete form-20200101T000000Z-01909-000/3. Complete form/2020 Tax Return Documents (Quinn Okoro (synthetic)).pdf": "9089ccfac565d3e298aa71dbdb63a19c2c5642509e6506d8f52d55fef44560b7",
+    "3. Complete form-20200101T000000Z-01909-000/3. Complete form/Completed forms - Summary.pdf": "b9b2c0a29f06e6ecadebff15d52cc3140c334275ffdd98ccde178cb93d220b3a",
+    "4. Executive Summary-20200101T000000Z-01909-000/4. Executive Summary/Executive Summary Quinn Okoro 2020.pdf": "6ac8d304d1964d6b27a505dd2f77dffa93547dd495e5a32845e5a7e219d5eede"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

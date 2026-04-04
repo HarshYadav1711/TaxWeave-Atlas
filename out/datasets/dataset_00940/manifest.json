@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20210101T000000Z-00940-000",
+  "tax_year": 2021,
+  "case_fingerprint": "33cc34de84ffcffcc21645724184b797ab295593716c756fb84e2399459f3845",
+  "case_json_sha256": "cadf2753b4e853ff7cb19856e009f2ea859b146434a8ea825bf7424bcdbce968",
+  "files_sha256": {
+    "1. Client Summary-20210101T000000Z-00940-000/1. Client Summary/Client Summary.pdf": "498949ec1e7bfb5875e78669758d36e586090563df384a6d83aaab891d460590",
+    "2. Input Documents-20210101T000000Z-00940-000/2. Input Documents/Tax Document Attachments Summary.pdf": "fc6f779ffbcbc38ea40a6181a15ef233b0f0abdbc64cacce0bcf06be8bfef180",
+    "2. Input Documents-20210101T000000Z-00940-000/2. Input Documents/1099- DIV/1099-DIV PATEL.pdf": "be05da3fcbe12ca46b224352af6fc60f5420c43f5f52b1b42f4850b2f703ee7f",
+    "2. Input Documents-20210101T000000Z-00940-000/2. Input Documents/1099-INT/1099-INT PATEL.pdf": "cd817de4937c632cd0106e3a8b6e8239c2d94f1021357c412d502e81b4f20408",
+    "2. Input Documents-20210101T000000Z-00940-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2021_.pdf": "a380dfc0027c4c3b7c74f9bab6a3e23ba0087ad3208fc839786b2a01cedfae57",
+    "2. Input Documents-20210101T000000Z-00940-000/2. Input Documents/Form W-2/Form W-2.pdf": "1078df74bf55e706325f42c46fcd4612812fd897cbdbef0bc269f92474910a55",
+    "2. Input Documents-20210101T000000Z-00940-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "190ba211c3fb7186b83d00bded12d18b5b12c0c12d77b06815aa9a44e687333b",
+    "2. Input Documents-20210101T000000Z-00940-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2021.pdf": "34e23b1e20fa73267168e926315f16e4469a9dd2e375dc5034fa9d2d8b5d8cc7",
+    "3. Complete form-20210101T000000Z-00940-000/3. Complete form/2021 Tax Return Documents (Reese Patel (synthetic)).pdf": "96fe2fe8c9a2c808a1efa3b9d2476edde6aa1243a57de8795be27ebdf39d7ccb",
+    "3. Complete form-20210101T000000Z-00940-000/3. Complete form/Completed forms - Summary.pdf": "6e9b10ebd684407275fa991d29e8c0fdf9161cd97bb93f9f2c2b3837afa49349",
+    "4. Executive Summary-20210101T000000Z-00940-000/4. Executive Summary/Executive Summary Reese Patel 2021.pdf": "30bdfe0309c42a2f91bbf82c7ae80ba6b1e8350e06990531f38c7fee52260dc5"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-01077-000",
+  "tax_year": 2022,
+  "case_fingerprint": "6282ed58356bcd993cc5b5049fb7d2b913dcd381ad6a627f9402fb3dbb26f431",
+  "case_json_sha256": "15655506e605d7f43a376b73a02faf77582c3c022415779e6d454be6cbc3eff2",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-01077-000/1. Client Summary/Client Summary.pdf": "bba716e6cc2fccbdc64efdea1cf09c605965ef1d05993df33242c37e513f0017",
+    "2. Input Documents-20220101T000000Z-01077-000/2. Input Documents/Tax Document Attachments Summary.pdf": "fa0332416e495cabba0a8ac560ed37af9cf9f68a34ee022b4618f11e38d72e34",
+    "2. Input Documents-20220101T000000Z-01077-000/2. Input Documents/1099- DIV/1099-DIV JENNINGS.pdf": "2346320d8dbd3cbbdbfbc0b0f669bc602a5b40e3f67866ca1576741c8d595bf5",
+    "2. Input Documents-20220101T000000Z-01077-000/2. Input Documents/1099-INT/1099-INT JENNINGS.pdf": "0e7358468b44ec51c4d0e5a3f17ada3a0e876870c5e1541c5cfc45db5e2bc218",
+    "2. Input Documents-20220101T000000Z-01077-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "ca1f21bfbc0fb2393433054f960027002941532a677442aa0285e795f0c41f4a",
+    "2. Input Documents-20220101T000000Z-01077-000/2. Input Documents/Form W-2/Form W-2.pdf": "8c9b7bd1a1dd42368422364ab258d3d5b0e960e5d39f842c3ab00c866bdff7a4",
+    "2. Input Documents-20220101T000000Z-01077-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "a1d0bd9297f221ba0c4dc964c69d35a9e5d02d69219e5643821fdaf51ee00443",
+    "2. Input Documents-20220101T000000Z-01077-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "d1fb84bd233ca17668b9bd1076ea632d09429812fafffbfaf517f9272e95b82b",
+    "3. Complete form-20220101T000000Z-01077-000/3. Complete form/2022 Tax Return Documents (Riley Jennings (synthetic)).pdf": "72abd5bc3bd97b054b2e8fe0f7919236cd57fc373cec65e85b1a1504e88fbb73",
+    "3. Complete form-20220101T000000Z-01077-000/3. Complete form/Completed forms - Summary.pdf": "2073a95899cb57d39cc759019c2398bf06d6649f0a303ed5bfde3df5874ecf3c",
+    "4. Executive Summary-20220101T000000Z-01077-000/4. Executive Summary/Executive Summary Riley Jennings 2022.pdf": "74c2432828525c1f73ac68d0886f52433531e73214c0cf5d08e6fdb76c6bf94e"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

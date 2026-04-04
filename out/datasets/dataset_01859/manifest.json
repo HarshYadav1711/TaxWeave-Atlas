@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-01859-000",
+  "tax_year": 2023,
+  "case_fingerprint": "5826b68d107c82081bd0ec08318b69f13f792fa9633e5ceaf0a85c9180c0c689",
+  "case_json_sha256": "10f84bce8fb4e548625b2857eb9644257319c8bb8237bda174d079e687c4811e",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-01859-000/1. Client Summary/Client Summary.pdf": "8cdfeb58faab2e650e279970685c13c3208b6b3a315f6f7b1ddf3a99f8b2e00d",
+    "2. Input Documents-20230101T000000Z-01859-000/2. Input Documents/Tax Document Attachments Summary.pdf": "19fcea70ce4fd6586d8f0f6e2caa1d89cdbe6644552617a17a67a9803268d5c4",
+    "2. Input Documents-20230101T000000Z-01859-000/2. Input Documents/1099- DIV/1099-DIV BENNETT.pdf": "e46ea1a60f96fbcbc8e6c85e4106a440a473832e7f2da2b606adfb004d0598f5",
+    "2. Input Documents-20230101T000000Z-01859-000/2. Input Documents/1099-INT/1099-INT BENNETT.pdf": "07cc0b916179788158714bc7de47c747eb828db6751b999e53260599953dc8a1",
+    "2. Input Documents-20230101T000000Z-01859-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "422a184c335c023055bfa0b9f0e759ee260e58528e8b2ff2c822df89c4a2303e",
+    "2. Input Documents-20230101T000000Z-01859-000/2. Input Documents/Form W-2/Form W-2.pdf": "c5391dc12f211395ed588fa438acaf995d16e08f4b875561a415b2c92c419b69",
+    "2. Input Documents-20230101T000000Z-01859-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "983872489b3cbfe404bb28290041e533203cb4e9b58a3739fbbf0242d0cf76e0",
+    "2. Input Documents-20230101T000000Z-01859-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "6b25de4b7958418b4940da8740e01f4277da63c1d886753abeda0907c6b3a15d",
+    "3. Complete form-20230101T000000Z-01859-000/3. Complete form/2023 Tax Return Documents (Skyler Bennett (synthetic)).pdf": "2aa8f8f86168273e41966f5ffe199b93685e71f57ac7df5eafb41e7952f7ce73",
+    "3. Complete form-20230101T000000Z-01859-000/3. Complete form/Completed forms - Summary.pdf": "e9112e2acaf915917bd4dca852a4f089fe72d74b21573d81429ec3ffbe2eb17d",
+    "4. Executive Summary-20230101T000000Z-01859-000/4. Executive Summary/Executive Summary Skyler Bennett 2023.pdf": "1806e6e8b4df841d061b809fc15e44806152924ed67e7ff03fe813c06cd0ae25"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

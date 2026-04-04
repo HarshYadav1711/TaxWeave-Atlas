@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-00171-000",
+  "tax_year": 2024,
+  "case_fingerprint": "351d54b0d53885b9ef35808f23a6bf0d700b9d045b9afda0767e810f22a2ba75",
+  "case_json_sha256": "f7f0e84dd2f10ca15b8bbbcdae09952d484a6b0d782e9c25c886bd025812c658",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-00171-000/1. Client Summary/Client Summary.pdf": "0cfc6363461eabb54e57dea9805ec7692b32c9379fdcfef37756d56f5fdd3a26",
+    "2. Input Documents-20240101T000000Z-00171-000/2. Input Documents/Tax Document Attachments Summary.pdf": "9d28267a0bb85d1387b3fd3e78ab84cb086d7b1090f85929ac7ddb782505c26f",
+    "2. Input Documents-20240101T000000Z-00171-000/2. Input Documents/1099- DIV/1099-DIV PATEL.pdf": "8b407ab7cc7eeb99a6996d1fdea761cd9b65584df4a6da516d03b554e83e19e3",
+    "2. Input Documents-20240101T000000Z-00171-000/2. Input Documents/1099-INT/1099-INT PATEL.pdf": "082cdfd9fed6083d939cfc51d6076e2a2d54dc0d661024a5869b3878c5601b92",
+    "2. Input Documents-20240101T000000Z-00171-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "055b604c59abd2481bcfc3114314ab68c82404f81307aae2714b094d071cf79e",
+    "2. Input Documents-20240101T000000Z-00171-000/2. Input Documents/Form W-2/Form W-2.pdf": "dfc739969c1b3d2f3b8c4142ed4df9e8917ec1752f4428cd21a9134ac0bb2769",
+    "2. Input Documents-20240101T000000Z-00171-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "335be56925c7973f0a607fd69fa518b1d92e13061ee1101c3cdb67dc2d6e6641",
+    "2. Input Documents-20240101T000000Z-00171-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "04482e693dfdae655fc9ebf6ff87b805cefbedd5430672ed96e0af763b9bc987",
+    "3. Complete form-20240101T000000Z-00171-000/3. Complete form/2024 Tax Return Documents (Quinn Patel (synthetic)).pdf": "935f64a28c8adba0902fb75a6113d599537fc67ed506f5ffafa75fda9058a06d",
+    "3. Complete form-20240101T000000Z-00171-000/3. Complete form/Completed forms - Summary.pdf": "070c3516b1ee08de91fffd820d3a93c06f00bc60d4dc3444b2c55eff1453b4c5",
+    "4. Executive Summary-20240101T000000Z-00171-000/4. Executive Summary/Executive Summary Quinn Patel 2024.pdf": "ef63162a99b9c642f61f0387cf8f2da422bb531b41ad28ab10389ee95595c40e"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

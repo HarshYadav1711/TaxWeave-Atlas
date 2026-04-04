@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-00284-000",
+  "tax_year": 2023,
+  "case_fingerprint": "dfb4c2188104df4c1a5f317208c22de13e855ef3df19c9b06f6b9b1f156ceec5",
+  "case_json_sha256": "e05145bc13709f41555ef64d3f1f23d0014fb0e426b2a0f9435bd0a7ded78d16",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-00284-000/1. Client Summary/Client Summary.pdf": "07537ca0566ee417bc83d2c918939413df4e04a5776c7e1ddd942f675f2bcaa7",
+    "2. Input Documents-20230101T000000Z-00284-000/2. Input Documents/Tax Document Attachments Summary.pdf": "44ba5fce0a3d5ff3eef70f11356e092f08c73cd0ca41bddf36a7e51ad62efc3f",
+    "2. Input Documents-20230101T000000Z-00284-000/2. Input Documents/1099- DIV/1099-DIV PATEL.pdf": "5e21710844fbb78602dc4024080efa13f58abfec9d8a076d3aa5bb0f1908864a",
+    "2. Input Documents-20230101T000000Z-00284-000/2. Input Documents/1099-INT/1099-INT PATEL.pdf": "9a933fa3b19cae79f5a662d07d51bf7f069c17e95bc2f74d10a9dcf1ee4e2a0b",
+    "2. Input Documents-20230101T000000Z-00284-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "423596f8c0e8392fee0b7acd563138323b79a6ff330cbbbcf2d95ac23cc0da4f",
+    "2. Input Documents-20230101T000000Z-00284-000/2. Input Documents/Form W-2/Form W-2.pdf": "7241ad2873a902550cb3440bc06525989ae902e7a03213868f02b0d783c4a299",
+    "2. Input Documents-20230101T000000Z-00284-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "14228b8920c1524b77ee6e7d87816c42d7d6745f409baec9e18013f607f60332",
+    "2. Input Documents-20230101T000000Z-00284-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "b41308e43afe8ea23b90c4a4660711d66b841e1a60ecd5da7ce2b86b63bda75a",
+    "3. Complete form-20230101T000000Z-00284-000/3. Complete form/2023 Tax Return Documents (Rowan Patel (synthetic)).pdf": "3707c36e3ffa4288f97080e5a2d9a38d2dd22506d446c94879b8072552b85b64",
+    "3. Complete form-20230101T000000Z-00284-000/3. Complete form/Completed forms - Summary.pdf": "1cf788a9147e4f5fe5152115cf5711dba343cf694ff5f5a103a53d0bb5edc412",
+    "4. Executive Summary-20230101T000000Z-00284-000/4. Executive Summary/Executive Summary Rowan Patel 2023.pdf": "c90f9da1adc12de685d384fb34a78843fcd41c0b4130741a938dcd51a4a24911"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

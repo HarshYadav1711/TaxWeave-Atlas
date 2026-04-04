@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-00574-000",
+  "tax_year": 2023,
+  "case_fingerprint": "64b9b5cf683e8f199f165f59b1e0570342970fa0f7117112bbc23d64cd8d0da3",
+  "case_json_sha256": "32edf1f9cdcbc20c1631a4076820bdaf6c1ca79cc164630b919a473676535b36",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-00574-000/1. Client Summary/Client Summary.pdf": "92df72c78367d32896200ccb7cd50a9bb1a0812b8e90c402f901d8cc03783d7e",
+    "2. Input Documents-20230101T000000Z-00574-000/2. Input Documents/Tax Document Attachments Summary.pdf": "1227d8515c1656f53b6b597e4e242207a0a1c0f206a8c6f85ff9b3a9f5507d3a",
+    "2. Input Documents-20230101T000000Z-00574-000/2. Input Documents/1099- DIV/1099-DIV MERCER.pdf": "6f7c01b61e55e32b45f30cadb11cf0252d99e3d8e09c59ce7374f8d5715d84f8",
+    "2. Input Documents-20230101T000000Z-00574-000/2. Input Documents/1099-INT/1099-INT MERCER.pdf": "8b6f250a23553c86fed9aea06bff4a0b7f6198af4337319f47cc342f62108d85",
+    "2. Input Documents-20230101T000000Z-00574-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "62bca139517542755efe30d59fb9ed688268946d713db4dbe27d78935bc6fd04",
+    "2. Input Documents-20230101T000000Z-00574-000/2. Input Documents/Form W-2/Form W-2.pdf": "54e231cae4995601586a9664c084d0a45eacdb932e471523088715cab948325b",
+    "2. Input Documents-20230101T000000Z-00574-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "ecf7b02cbd8b439512b0700ae28b66b44415b313390a4b6ebd3bc8be3c0004b0",
+    "2. Input Documents-20230101T000000Z-00574-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "6b57d7906f28d63eda85ea853bd1d58eaf4ea6f0d19361ef91ce5594f4d27eff",
+    "3. Complete form-20230101T000000Z-00574-000/3. Complete form/2023 Tax Return Documents (Finley Mercer (synthetic)).pdf": "ef183449fe1a04fa1966869b40c164130f9073935e239d311d4bc25481abacf4",
+    "3. Complete form-20230101T000000Z-00574-000/3. Complete form/Completed forms - Summary.pdf": "403fbc58f18e325d2049902f1a7c4263a542984a276890a96f639e765bb61ff3",
+    "4. Executive Summary-20230101T000000Z-00574-000/4. Executive Summary/Executive Summary Finley Mercer 2023.pdf": "283b2ac9d2d9ae4427a58e2cbc9866b2e0ada3a3f631bc1115d85d8ed0b444cf"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

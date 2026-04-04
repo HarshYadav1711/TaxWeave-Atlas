@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20210101T000000Z-00096-000",
+  "tax_year": 2021,
+  "case_fingerprint": "147fbc74d9af34a42f3531057ac31621a78e169601a23a107aa9523cb4f66b09",
+  "case_json_sha256": "bdcace6f3383125cc497c850dcfc896a27681fe00e69011ecdc0bf6cf8328e14",
+  "files_sha256": {
+    "1. Client Summary-20210101T000000Z-00096-000/1. Client Summary/Client Summary.pdf": "21e5e305e861e50574c3559f0da6b743c231c54a6562cc7d51cf4b44dbf76d34",
+    "2. Input Documents-20210101T000000Z-00096-000/2. Input Documents/Tax Document Attachments Summary.pdf": "4819f7b4080447765e4364a09eac7d53aaee58146d28ca2a0997edb504123266",
+    "2. Input Documents-20210101T000000Z-00096-000/2. Input Documents/1099- DIV/1099-DIV NAVARRO.pdf": "734cbace14f2c83498237a3b3aa10c23fc488d772b0b8bb5016b394fcdaebb4b",
+    "2. Input Documents-20210101T000000Z-00096-000/2. Input Documents/1099-INT/1099-INT NAVARRO.pdf": "a97c0668de66b72bedc62fcd994a1f120650d9dcd0676930ccddf18e9b5a1569",
+    "2. Input Documents-20210101T000000Z-00096-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2021_.pdf": "ae807cb51473f617f51a326d527b86d8c3c49e33f278764b906ea959e363389f",
+    "2. Input Documents-20210101T000000Z-00096-000/2. Input Documents/Form W-2/Form W-2.pdf": "84a04a400cf2e86427871b4a07f23b9a64bafa14f43cfb88b762141e35695e74",
+    "2. Input Documents-20210101T000000Z-00096-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "2266f27d2aa989db86f8ddb561ddbaca5f6bea95e756252418d12e373787bf62",
+    "2. Input Documents-20210101T000000Z-00096-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2021.pdf": "53252ff6d34fd606441af949d1c8b5cc1f22dd9b49bc2979f24cc56fd290ebb9",
+    "3. Complete form-20210101T000000Z-00096-000/3. Complete form/2021 Tax Return Documents (Skyler Navarro (synthetic)).pdf": "cb46174206e924c49a572d268264cfd6981d95dd84442993e6300711994c514a",
+    "3. Complete form-20210101T000000Z-00096-000/3. Complete form/Completed forms - Summary.pdf": "9d52df580a5c0bdeeb7c4fff2eb2d7356b0fb42652424c955c9fd04d986e2177",
+    "4. Executive Summary-20210101T000000Z-00096-000/4. Executive Summary/Executive Summary Skyler Navarro 2021.pdf": "0e184dc097d4fda1a50bb90119bc80978bec73d8200cc78091c44640953d43d2"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

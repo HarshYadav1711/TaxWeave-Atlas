@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-01331-000",
+  "tax_year": 2023,
+  "case_fingerprint": "5bc579786b20cf1676fcde020613607276496ea4455b770468bcbe4424f3b3d7",
+  "case_json_sha256": "595a0dfa594a072ae456dd86f7598abc5caae34dfbfdfc932df0949c17fe4d9a",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-01331-000/1. Client Summary/Client Summary.pdf": "a50b8f245c17bcd361dc8b1cfc917294862027d5f96450fa6d8e4f155c44433a",
+    "2. Input Documents-20230101T000000Z-01331-000/2. Input Documents/Tax Document Attachments Summary.pdf": "708d48f76207826f9707022bab0e375422301c8bf4f4f0c7e9727e0945269bfc",
+    "2. Input Documents-20230101T000000Z-01331-000/2. Input Documents/1099- DIV/1099-DIV CARTER.pdf": "e6e8069c1ab1a52e1c8236f9b9b6bcb9fbaffca96614a22fa0db1e262b4edbb4",
+    "2. Input Documents-20230101T000000Z-01331-000/2. Input Documents/1099-INT/1099-INT CARTER.pdf": "e6a347c7cd72e92b60215208b0d9d10ddb118d58c3b3ffb2948857ba608e1203",
+    "2. Input Documents-20230101T000000Z-01331-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "7521f0bd3d10679ef7609910763afab581870568800daff0cd0c0b2ba47cfe54",
+    "2. Input Documents-20230101T000000Z-01331-000/2. Input Documents/Form W-2/Form W-2.pdf": "7f097e4776c9b07379cacc4cf050da6a3c01436e546cc9a3e03f8faeed9cf94e",
+    "2. Input Documents-20230101T000000Z-01331-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "2fa56b8a27c6b09f8123928fe40cf07e92c1a9fb4f9261128421fb230bb85294",
+    "2. Input Documents-20230101T000000Z-01331-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "26908a596a5a6a7158a70a624e3faf959020f52f2fc9a9d5ef9a6b99cec847c9",
+    "3. Complete form-20230101T000000Z-01331-000/3. Complete form/2023 Tax Return Documents (Skyler Carter (synthetic)).pdf": "2b40cc159c422f1bf84d2d28093a8b3a59beef1fd3003df87e80445fca512964",
+    "3. Complete form-20230101T000000Z-01331-000/3. Complete form/Completed forms - Summary.pdf": "f041596ecef636f66eaf24b4f8be910cd969d231fd48422fb0ea70d3a388613c",
+    "4. Executive Summary-20230101T000000Z-01331-000/4. Executive Summary/Executive Summary Skyler Carter 2023.pdf": "623c3f92a5bc48b65197ec987634dc1974033534122d1ba172df54c4449814f6"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

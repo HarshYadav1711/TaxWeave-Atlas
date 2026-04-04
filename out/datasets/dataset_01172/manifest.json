@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-01172-000",
+  "tax_year": 2020,
+  "case_fingerprint": "31340574af14ba9cd8c1749d8007de502633ea135b7c3e4b64650d06888d46c2",
+  "case_json_sha256": "7edfe2c1a31046241d4ff25822a2d639cd1d0a70bc7f8e4568a6a170eecf05d4",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-01172-000/1. Client Summary/Client Summary.pdf": "1227a1b19570fc096e6602178895991cea7e0bd1d97a98b65a6caa24522cd00a",
+    "2. Input Documents-20200101T000000Z-01172-000/2. Input Documents/Tax Document Attachments Summary.pdf": "106edcb16972439f9755db500da72319acba9145968f3e3b29f74b1a4861926a",
+    "2. Input Documents-20200101T000000Z-01172-000/2. Input Documents/1099- DIV/1099-DIV MERCER.pdf": "e6c8d3f6804c5ced91740345a7490b8e610b1db0a1bd0cf1a57be54c76268b07",
+    "2. Input Documents-20200101T000000Z-01172-000/2. Input Documents/1099-INT/1099-INT MERCER.pdf": "76958dd76c0a3f3bed6314830cbde354d527c37970fc52981fdb43466a6df6c4",
+    "2. Input Documents-20200101T000000Z-01172-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "358deff5de93ef575cac3ef6ea4ec08f5c93e03d2375fb6bad7c89eaed9be78e",
+    "2. Input Documents-20200101T000000Z-01172-000/2. Input Documents/Form W-2/Form W-2.pdf": "33edae8dcfd3d26317834540f83f51a7ff287bd7899b057544369dcf1a7549e0",
+    "2. Input Documents-20200101T000000Z-01172-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "1a8307d62b0b780d43cb89113e259cb686db86bafded240bc4acbae224f657e4",
+    "2. Input Documents-20200101T000000Z-01172-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "50c52387eaac1288c1d993b246634ed99bb00d1c2a364ed1a60e0d31a21d1fe1",
+    "3. Complete form-20200101T000000Z-01172-000/3. Complete form/2020 Tax Return Documents (Quinn Mercer (synthetic)).pdf": "c2071ce7ff3e7f0a9c7b0ea52c7bf3d392df722e2c3fdb7aa56baa825c3fbab7",
+    "3. Complete form-20200101T000000Z-01172-000/3. Complete form/Completed forms - Summary.pdf": "dcc6f75fa80d11d7a0afd623150149de5fa53f954bfefbec53eb131bcdabd7c2",
+    "4. Executive Summary-20200101T000000Z-01172-000/4. Executive Summary/Executive Summary Quinn Mercer 2020.pdf": "1574a7cb407833041c82e89a19bc8a7372841cf78e1b240e5cb1d3bf31a07fac"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

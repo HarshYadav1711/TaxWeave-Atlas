@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20210101T000000Z-00091-000",
+  "tax_year": 2021,
+  "case_fingerprint": "06879fbe38aed5e23902759390b8656486f17cb1eb6c4c034598ada4c2c0c6d4",
+  "case_json_sha256": "4bc656c32722933184beba68fb5970cb323388444515563f35e8c04a86365976",
+  "files_sha256": {
+    "1. Client Summary-20210101T000000Z-00091-000/1. Client Summary/Client Summary.pdf": "494b01b443df8eac251dc7f70ccb605562dd022ec24dba894cc0b95cba109c60",
+    "2. Input Documents-20210101T000000Z-00091-000/2. Input Documents/Tax Document Attachments Summary.pdf": "2d0f07b2fa3e73cfe421f9a91c901dfb2189da2a06d53d3195b55fa798380788",
+    "2. Input Documents-20210101T000000Z-00091-000/2. Input Documents/1099- DIV/1099-DIV JENNINGS.pdf": "a9cd89f2a8d847e38e0b4f8d2dc6fe46ccf14933403f9ee329869a4b62c099d0",
+    "2. Input Documents-20210101T000000Z-00091-000/2. Input Documents/1099-INT/1099-INT JENNINGS.pdf": "6ef7e8c07c753850fbeece55284f5e69b42b652fc4a08e6089340cec534bdf64",
+    "2. Input Documents-20210101T000000Z-00091-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2021_.pdf": "4287f2801d7543ad0c902ba7ed5d8cd19afc72982c99270eda34e778deb042e3",
+    "2. Input Documents-20210101T000000Z-00091-000/2. Input Documents/Form W-2/Form W-2.pdf": "220b957ded5b4582632af307277d62144bcd2107221fc96f254561ba2539b8a3",
+    "2. Input Documents-20210101T000000Z-00091-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "da137419f0af8a15401d3faab1b5044ed86fab3d20a26e732038f1a0eee359a1",
+    "2. Input Documents-20210101T000000Z-00091-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2021.pdf": "74c41983f45617a6ad0c013c048840f222f7675b920480bcbad9cf231c2f3513",
+    "3. Complete form-20210101T000000Z-00091-000/3. Complete form/2021 Tax Return Documents (Reese Jennings (synthetic)).pdf": "2ba06fe72c29f0146bfc0e9e9f16247e8d229075f612d4d281d00a3732c51233",
+    "3. Complete form-20210101T000000Z-00091-000/3. Complete form/Completed forms - Summary.pdf": "7739a407049b314dd58382bdf617ca34760e09e7d200a1652c4faaf8387d5746",
+    "4. Executive Summary-20210101T000000Z-00091-000/4. Executive Summary/Executive Summary Reese Jennings 2021.pdf": "5db141e7bab4c079b371d3889da95c10d6ea7efb7f1d977c90ac7cd616d17d90"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

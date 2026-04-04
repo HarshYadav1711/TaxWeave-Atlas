@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-01198-000",
+  "tax_year": 2020,
+  "case_fingerprint": "f7aa41956f22a383b59266933cb317c5ac401eedce56725d7dc49792344169a4",
+  "case_json_sha256": "5d36664106989b3ea4a873051dece577bf00b29818c7f1341d10ff2c889cde37",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-01198-000/1. Client Summary/Client Summary.pdf": "19950c3b803a2c442c1071674d7c35723473532f1e187e7c72935ad0eb9ccb3e",
+    "2. Input Documents-20200101T000000Z-01198-000/2. Input Documents/Tax Document Attachments Summary.pdf": "42822ed70a04185e59eab3eeba491b32fd9859257776cdb9d3eb7cb61f74fa46",
+    "2. Input Documents-20200101T000000Z-01198-000/2. Input Documents/1099- DIV/1099-DIV REYES.pdf": "6e71f037e2b6dfdaad6734e4d81f95574e08211c469717f49b235545c3b4f27c",
+    "2. Input Documents-20200101T000000Z-01198-000/2. Input Documents/1099-INT/1099-INT REYES.pdf": "77ac4dac5cd37b901c7a32c0bf9fb0a7d338db4dc2f39a83f38268383680893a",
+    "2. Input Documents-20200101T000000Z-01198-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "a6d1f6b7b9a4d17c1e4a05b61cd85e3ea763adf79958b957ef9dea8bc5c88bfa",
+    "2. Input Documents-20200101T000000Z-01198-000/2. Input Documents/Form W-2/Form W-2.pdf": "3722622d7c6a198adba228e5ec04f7b71f276b58e11978194cbeaea3f4f26c1a",
+    "2. Input Documents-20200101T000000Z-01198-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "9e69214dbfbd813cbec6fdfb05f987845f3a996b913e6f477b4840b246d89131",
+    "2. Input Documents-20200101T000000Z-01198-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "6327652f2ae6c9715a17df4d4fd6c0f6217c1b7956efbe202f66b8fae124e32c",
+    "3. Complete form-20200101T000000Z-01198-000/3. Complete form/2020 Tax Return Documents (Emery Reyes (synthetic)).pdf": "77184ff378e9adf4f3e1a0b31a529b62b1f4724c1b812ef0480d53f5e75602ee",
+    "3. Complete form-20200101T000000Z-01198-000/3. Complete form/Completed forms - Summary.pdf": "f9775d15c0053be5adfd8df452dc6d13fbeb3c0de5d1637dd5a959955ef9d8ec",
+    "4. Executive Summary-20200101T000000Z-01198-000/4. Executive Summary/Executive Summary Emery Reyes 2020.pdf": "1605fe627c5d3ccc87e6c64d01ea68a34a6625b1dac6b32be9a71776e5f98856"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

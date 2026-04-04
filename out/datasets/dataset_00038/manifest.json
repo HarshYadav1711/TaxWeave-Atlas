@@ -6,17 +6,17 @@
   "case_fingerprint": "8ebde9e227ce6e5eb11e9482d7df4991f5b3c978a12aff894effddd907f341fc",
   "case_json_sha256": "5e4658a217f65d80cdc15a5135b027fe4bc6efbf4baf34de98c098c6f4b7dd50",
   "files_sha256": {
-    "1. Client Summary-20230101T000000Z-00038-000/1. Client Summary/Client Summary.pdf": "0973a54d658971cc6cf6b18b3400c3a98e6e0556dcc394be8cad19b8376b857a",
-    "2. Input Documents-20230101T000000Z-00038-000/2. Input Documents/Tax Document Attachments Summary.pdf": "84a0e9e8109dafa558c8b2d75fe2d239148c9069233f5546586e15c4e7ed2d27",
-    "2. Input Documents-20230101T000000Z-00038-000/2. Input Documents/1099- DIV/1099-DIV DIAZ.pdf": "c1992e71b68e5f632642b94397ea50f12411236d8b6e9b2c847b186c6d7bbad7",
-    "2. Input Documents-20230101T000000Z-00038-000/2. Input Documents/1099-INT/1099-INT DIAZ.pdf": "b4c7fbc348c4fcd9cd669cf09a896845c57703490cfbc3e6aeffbf3454389c54",
-    "2. Input Documents-20230101T000000Z-00038-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "6d788e3925bb9a94d20c155f85b16d4e740a8dfa841c66aca9a134cbc758eb12",
-    "2. Input Documents-20230101T000000Z-00038-000/2. Input Documents/Form W-2/Form W-2.pdf": "dc5f9e54fd0da2c097b76a5fda451f0564e148700f25ab26970aecb5fc6aea9b",
-    "2. Input Documents-20230101T000000Z-00038-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "c971064f50d34cf5e939f7b2beea8a8fa106097012ea293152009b96cd6f2baf",
-    "2. Input Documents-20230101T000000Z-00038-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "b2fcd3cd557c91c9fab4497a7a9136d41bf3a9a790e40da669eb2ca2151faeb2",
-    "3. Complete form-20230101T000000Z-00038-000/3. Complete form/2023 Tax Return Documents (Finley Diaz (synthetic)).pdf": "6bf6736ea31bde3139987941c99b6342b28deaa73447170c99e1e695b8c503a3",
-    "3. Complete form-20230101T000000Z-00038-000/3. Complete form/Completed forms - Summary.pdf": "def8f1739c8ccc9b1cb2eb5a73fa053c26235c1afc02ae2d806d00641a67b857",
-    "4. Executive Summary-20230101T000000Z-00038-000/4. Executive Summary/Executive Summary Finley Diaz 2023.pdf": "2c20a66448cc504691341380a1a366b63a0e67b5ed3a857a92ca9e5243140ac4"
+    "1. Client Summary-20230101T000000Z-00038-000/1. Client Summary/Client Summary.pdf": "5a1b12907d72ef436f34692a9bc7c3ebfc72b118a9e6a32bbd60787839a29cd9",
+    "2. Input Documents-20230101T000000Z-00038-000/2. Input Documents/Tax Document Attachments Summary.pdf": "3923b0f40e5299072c28b6e686661def361c39cf42db37f0bdfa42a3bf7f9fb7",
+    "2. Input Documents-20230101T000000Z-00038-000/2. Input Documents/1099- DIV/1099-DIV DIAZ.pdf": "1465ddfd1302909c5c2581db4ba5ee165643654a8e9127286aafbeedba333d6c",
+    "2. Input Documents-20230101T000000Z-00038-000/2. Input Documents/1099-INT/1099-INT DIAZ.pdf": "940ec450654ce3ac4ac7023f29ce950ad5843e5d1a6211c7ebd258387f5fc5c7",
+    "2. Input Documents-20230101T000000Z-00038-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "84a860e8eb99b3aecef889d8ddc276e4f062f794381bd841d976a88fe7353bdb",
+    "2. Input Documents-20230101T000000Z-00038-000/2. Input Documents/Form W-2/Form W-2.pdf": "ae7f86fc57372b86675e0819024c2178e68cc20ba24f3c80cf56ccf100b552d6",
+    "2. Input Documents-20230101T000000Z-00038-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "d3e82701b729e9617dd23dcbc0bfbb1628800a53b8b45dd4828479aaa2754eab",
+    "2. Input Documents-20230101T000000Z-00038-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "62dfa3cd38c60438fd040d6da92b90777c60b2601a0f6a9e7d7418ec21be2f48",
+    "3. Complete form-20230101T000000Z-00038-000/3. Complete form/2023 Tax Return Documents (Finley Diaz (synthetic)).pdf": "c8d9bd653b4249fbf8c52056004759b8d26a8edfa549630dc08e14fe4a5cc5be",
+    "3. Complete form-20230101T000000Z-00038-000/3. Complete form/Completed forms - Summary.pdf": "e1fb8b2071f515456d00ef7ec4dda75d1d8cbda39e3a71e6e89d67193493bf79",
+    "4. Executive Summary-20230101T000000Z-00038-000/4. Executive Summary/Executive Summary Finley Diaz 2023.pdf": "f90846047188ed992bb8fd2b26b75a6b8d3e66cf975ef668b5b61e102ed88d24"
   },
   "canonical_case_model": "SyntheticTaxCase"
 }

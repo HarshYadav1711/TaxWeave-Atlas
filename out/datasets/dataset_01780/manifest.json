@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-01780-000",
+  "tax_year": 2023,
+  "case_fingerprint": "b7d86b490e7cffdd2c6e0fc82541e77aacf217fd8e8c4d3155ca80af01416fba",
+  "case_json_sha256": "3efdf1fdc267edddc55d638474316cdbe66b9545e1a3aeb36c4686bf32d0185d",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-01780-000/1. Client Summary/Client Summary.pdf": "d7a6a4c48062f140cc33417760a2bdc84b36585600819ef6435447f8563b7050",
+    "2. Input Documents-20230101T000000Z-01780-000/2. Input Documents/Tax Document Attachments Summary.pdf": "8e6ae355255f4c3f867c4150e021d3545abd8d9d542becda7489be9863fd9ead",
+    "2. Input Documents-20230101T000000Z-01780-000/2. Input Documents/1099- DIV/1099-DIV PATEL.pdf": "ea06522f48a198bc4c89b35aa146d805f89e58c2b884aa9f65e864d89c4d3034",
+    "2. Input Documents-20230101T000000Z-01780-000/2. Input Documents/1099-INT/1099-INT PATEL.pdf": "a2d95e647d1b8863f3ecfde08700ab118b889469d21780fc620a4aba5c0c7a07",
+    "2. Input Documents-20230101T000000Z-01780-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "5e9b60534cdc812c1c48e463b6e6d42d1d8d0061080f7316c73ba0b968241fff",
+    "2. Input Documents-20230101T000000Z-01780-000/2. Input Documents/Form W-2/Form W-2.pdf": "6e1d9f8ed7daf889647eb061e4778fa094bb662cc4efc5a67332877159fd4324",
+    "2. Input Documents-20230101T000000Z-01780-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "8cb4da9b5faf8ef0b8c4af614448b4cdb7c52c266febf9796ee352bd28cfc2bb",
+    "2. Input Documents-20230101T000000Z-01780-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "a628c07af11a370a22fd738a233c93bb699f1207415892eacf5e79d0e903c4c0",
+    "3. Complete form-20230101T000000Z-01780-000/3. Complete form/2023 Tax Return Documents (River Patel (synthetic)).pdf": "da77984a716c89704eacdd0543271d6111ca2b9cbd15c1a5f7e6907359a76775",
+    "3. Complete form-20230101T000000Z-01780-000/3. Complete form/Completed forms - Summary.pdf": "358dc8c604d9e64f7f2610b85beab2016db073c5ae3dea7e1f4769a677e852a5",
+    "4. Executive Summary-20230101T000000Z-01780-000/4. Executive Summary/Executive Summary River Patel 2023.pdf": "683adbdabe20ebf5e58031545f1dd1fcb24e4b5551c183b0889fecbd7accb028"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

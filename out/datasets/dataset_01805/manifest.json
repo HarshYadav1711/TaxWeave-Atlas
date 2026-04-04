@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-01805-000",
+  "tax_year": 2020,
+  "case_fingerprint": "8ca5eddbd709d209ebe4e451508979d76bf0d14fd7ab409193b55ae0331e5c85",
+  "case_json_sha256": "37a17f28edd286dc27e988ce9e623efc3e13a99164cc3e3f5c780c001de7feb8",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-01805-000/1. Client Summary/Client Summary.pdf": "83be401334248911a8a9d60d11a56b50f35fc970be13dfb2082c3a7b18f751df",
+    "2. Input Documents-20200101T000000Z-01805-000/2. Input Documents/Tax Document Attachments Summary.pdf": "dc6cb29b3749d096acf9a256a94de148aee4e17f2a91934504dfeb03fa270a55",
+    "2. Input Documents-20200101T000000Z-01805-000/2. Input Documents/1099- DIV/1099-DIV BENNETT.pdf": "2223d3a60d2bea1bcd1145adf3e963b1b77a2607092670fe2e8ed4cf2b4c4ecb",
+    "2. Input Documents-20200101T000000Z-01805-000/2. Input Documents/1099-INT/1099-INT BENNETT.pdf": "7c627c9e419af09ca7747e8d885651ebce949d615b403b08505b9ae5a8ddad38",
+    "2. Input Documents-20200101T000000Z-01805-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "f73fce492538b1054d4e77cbe72d60fb3c138f9119eaace6af1aa4059b9fb151",
+    "2. Input Documents-20200101T000000Z-01805-000/2. Input Documents/Form W-2/Form W-2.pdf": "9baa1e272054a397be94719779e1dc9956f2d88368eb5f11cb6d2cdd67ba9efc",
+    "2. Input Documents-20200101T000000Z-01805-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "f7574e30a3e9f3b348b2c8a781ed5a56be203f0b9054f3bea06920361d232a83",
+    "2. Input Documents-20200101T000000Z-01805-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "ec8a225634fb93145c17660ffc0655a398f832111ab49f4f8853392ab1c0ab7e",
+    "3. Complete form-20200101T000000Z-01805-000/3. Complete form/2020 Tax Return Documents (Dakota Bennett (synthetic)).pdf": "c295c78e8cbc32db7da8752d5c8c53af55f5a7e326ada90ad262fe39afa79d23",
+    "3. Complete form-20200101T000000Z-01805-000/3. Complete form/Completed forms - Summary.pdf": "49a71d1fb21717c50a670207de07e95c76ba4f4dfe3142e2795d42881011f290",
+    "4. Executive Summary-20200101T000000Z-01805-000/4. Executive Summary/Executive Summary Dakota Bennett 2020.pdf": "04db1fff0bb56ed77b2057f3165314ff6977fd98dd02a7ff778f1377e4ed889a"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

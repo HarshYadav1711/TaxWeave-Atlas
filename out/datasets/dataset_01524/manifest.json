@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-01524-000",
+  "tax_year": 2024,
+  "case_fingerprint": "88490036709be3b21a07d0ca58c4bb04de0ae2e7580a56d871fbc7f8d2838bd1",
+  "case_json_sha256": "e871821142096fa8db0f6921bd31b353cd55b35f4cf606dee88b4ae2ced6a976",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-01524-000/1. Client Summary/Client Summary.pdf": "c9f13ebc0b1a762f5d81d2bdf1d8fe026ae3583c6c786b08be77ea136d6d1416",
+    "2. Input Documents-20240101T000000Z-01524-000/2. Input Documents/Tax Document Attachments Summary.pdf": "0a31de8afa62ebd6da5985a74c1f1850ebb19b12bb87a901fe890bfba558f4a8",
+    "2. Input Documents-20240101T000000Z-01524-000/2. Input Documents/1099- DIV/1099-DIV MERCER.pdf": "4da06112eea83baf1b8bf7bfa1e013fb274929d0ffb5379df6c872466b6453d7",
+    "2. Input Documents-20240101T000000Z-01524-000/2. Input Documents/1099-INT/1099-INT MERCER.pdf": "9862fbc4400d2456299bc902d50cd4e0a9396d811648ede738d7c8f0f561371d",
+    "2. Input Documents-20240101T000000Z-01524-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "e77c36be556e0294e5c962808e552e1fa7800065acfc1c5b7e57a66d39678661",
+    "2. Input Documents-20240101T000000Z-01524-000/2. Input Documents/Form W-2/Form W-2.pdf": "85b0580c3678d4635b67cb8d9dcf1234ac6d78f742805433fedbe27d049d981d",
+    "2. Input Documents-20240101T000000Z-01524-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "acb9fb949ad458408df506fdfe189fe934f2e40e4e06f11a2b05bd1b13b87871",
+    "2. Input Documents-20240101T000000Z-01524-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "013762501d1e3603de6d9c86b3857dde7ad0c073b7ab92f260f9bbca18d0e576",
+    "3. Complete form-20240101T000000Z-01524-000/3. Complete form/2024 Tax Return Documents (Morgan Mercer (synthetic)).pdf": "8411d779a8e1e927abdae18d532379e9173e43d3ce252a92b74af4eaff11e0ea",
+    "3. Complete form-20240101T000000Z-01524-000/3. Complete form/Completed forms - Summary.pdf": "68ff3417f8c33a49723715b983eb994fc5927c80a533bf97af8cdfcb829d7900",
+    "4. Executive Summary-20240101T000000Z-01524-000/4. Executive Summary/Executive Summary Morgan Mercer 2024.pdf": "ca85f7ea8f57b02055c0ff9dadb64d84ee3ab5d4ce03a7ac88cd7fb3e25dd3f5"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

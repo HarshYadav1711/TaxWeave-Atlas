@@ -6,17 +6,17 @@
   "case_fingerprint": "33dd7fa9186ee78f4f77386f1b9ee0e6dda1cefda790a16d267a8ef030a33d2e",
   "case_json_sha256": "e7f339ec03aef42fcb033912a8451f0100f5b0ef1d09ea68421f3f85dee1101f",
   "files_sha256": {
-    "1. Client Summary-20240101T000000Z-00052-000/1. Client Summary/Client Summary.pdf": "89e3a92c31246ff7d55c33c6f8a86eb51e22cc9ad4d716138f78867e2d47eb51",
-    "2. Input Documents-20240101T000000Z-00052-000/2. Input Documents/Tax Document Attachments Summary.pdf": "c55912f9328d4f4556211141feac8a06baa75f7e1bf6440537a26003057c9fc6",
-    "2. Input Documents-20240101T000000Z-00052-000/2. Input Documents/1099- DIV/1099-DIV BENNETT.pdf": "93896b83c5156963cc00126f781b42c0b9020eea694f7f7ce998247dbb868d77",
-    "2. Input Documents-20240101T000000Z-00052-000/2. Input Documents/1099-INT/1099-INT BENNETT.pdf": "e2954a2db79075a17c8f347614c72ecef7b006eeb28207d13731cc2c84c937d6",
-    "2. Input Documents-20240101T000000Z-00052-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "eb5fee40036171f67a4f95114d8dd480531942b0ce5538b203569b7bf7749a3f",
-    "2. Input Documents-20240101T000000Z-00052-000/2. Input Documents/Form W-2/Form W-2.pdf": "3ee535dabc7a3e4810ac97197e299637cec1ecb6ae4300ac0b16e365b58396db",
-    "2. Input Documents-20240101T000000Z-00052-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "f11ab540c9565e534fd67aba3f77dddb60b1d08d5767184b977b0b8f64f8cd63",
-    "2. Input Documents-20240101T000000Z-00052-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "676b32a8ae2ba83793035dcc49e7b8decb98b476156983982b7a73b401d16a04",
-    "3. Complete form-20240101T000000Z-00052-000/3. Complete form/2024 Tax Return Documents (Parker Bennett (synthetic)).pdf": "36de4635052011b8a1ca06cf3371b74b74fabb945a094bc39aeb078fa8db25f6",
-    "3. Complete form-20240101T000000Z-00052-000/3. Complete form/Completed forms - Summary.pdf": "a8b659ac09168d0f09f6a584a6092c369dc92ac3ee32cfb12e0b4ea41da221a9",
-    "4. Executive Summary-20240101T000000Z-00052-000/4. Executive Summary/Executive Summary Parker Bennett 2024.pdf": "aead1f06c23da4decccfec177b8ad279ee37fd59b61bdeafad61dd2eee471a75"
+    "1. Client Summary-20240101T000000Z-00052-000/1. Client Summary/Client Summary.pdf": "d953f7d58644d3b123c74f96d77b4191a59d2c3fc1308fb87d003b8d87fda56a",
+    "2. Input Documents-20240101T000000Z-00052-000/2. Input Documents/Tax Document Attachments Summary.pdf": "f26a3588c21189a0ca5e2742af82981932bb2d2c851a03f6443e7a8d6f856886",
+    "2. Input Documents-20240101T000000Z-00052-000/2. Input Documents/1099- DIV/1099-DIV BENNETT.pdf": "c89b41e273572d8cf2253b782df46048aebc83a97e25552a941f78978379b855",
+    "2. Input Documents-20240101T000000Z-00052-000/2. Input Documents/1099-INT/1099-INT BENNETT.pdf": "6b9ac36851829397a140f70c4193588e1455af12db611cb91375b8c410ff4d2e",
+    "2. Input Documents-20240101T000000Z-00052-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "0264ff832ed6c926b4a36b64b6e3ad2409241e29f126ff453b98c60bfd0ad9b8",
+    "2. Input Documents-20240101T000000Z-00052-000/2. Input Documents/Form W-2/Form W-2.pdf": "8b4479a567673f5cdfe3f66b669f56128c1fecfaed70e2cc775030bc19204393",
+    "2. Input Documents-20240101T000000Z-00052-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "ed5e2f7b5b983d128e48a07189460a46535308d9ad0ff63aff0c7e0d89c3ead8",
+    "2. Input Documents-20240101T000000Z-00052-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "2dc794f2a34c0dd2ae51062745caf56e5225866c96f82ef516fbe98c112f363a",
+    "3. Complete form-20240101T000000Z-00052-000/3. Complete form/2024 Tax Return Documents (Parker Bennett (synthetic)).pdf": "299213a5149725733a4295e00142893c2030eea61ac9376562b82ad58a048769",
+    "3. Complete form-20240101T000000Z-00052-000/3. Complete form/Completed forms - Summary.pdf": "7a9335810e99e56553141c268355967ac2ff73aedc3f7eae7a2386b58d9d8413",
+    "4. Executive Summary-20240101T000000Z-00052-000/4. Executive Summary/Executive Summary Parker Bennett 2024.pdf": "d638eba60300c68534c700854debabf73ee35bc10fa5df08d29cbf95c3a800b3"
   },
   "canonical_case_model": "SyntheticTaxCase"
 }

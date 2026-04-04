@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-00661-000",
+  "tax_year": 2023,
+  "case_fingerprint": "0753e42a43f7abc87a2d7f63f8f838cf5f839981f216047d9f2825ee1bd314a6",
+  "case_json_sha256": "ecb2421c69e267adbd692eadbeaa52a6f7f2b2aeff95dc7badab2814d70b2ef9",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-00661-000/1. Client Summary/Client Summary.pdf": "9a704a801bc4945db52ecdb2d2bf8e07048975f1db4d9f17d129989ff49fabf7",
+    "2. Input Documents-20230101T000000Z-00661-000/2. Input Documents/Tax Document Attachments Summary.pdf": "abd46b0e22dd2e0ca9998e6296c2e60b249c24e04e0a72363785f56cbd636709",
+    "2. Input Documents-20230101T000000Z-00661-000/2. Input Documents/1099- DIV/1099-DIV MERCER.pdf": "fd1769de879c2e578fba123a7ed852d64cbcfa45b5dfcd7517b95c95a1b6270f",
+    "2. Input Documents-20230101T000000Z-00661-000/2. Input Documents/1099-INT/1099-INT MERCER.pdf": "93619755b0bda8da96855df348f011412a91a4d7d18d9508195aa15067be2408",
+    "2. Input Documents-20230101T000000Z-00661-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "24aacd204a310246347b6f637de581e676bc835e10039a03f31950643701a1f9",
+    "2. Input Documents-20230101T000000Z-00661-000/2. Input Documents/Form W-2/Form W-2.pdf": "1c9c5f2d718a70efb02933e7439e74fb1c727545132b3581884c16083bb9bfef",
+    "2. Input Documents-20230101T000000Z-00661-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "c4418690a97e616ae924897ca6a2caf91dddb8f1b0acd35bd9838f6e71e5d2a3",
+    "2. Input Documents-20230101T000000Z-00661-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "c1fb5b1c92f2f85013fcaa8e5508fef6636073722c23826f831d3fcc1d2904af",
+    "3. Complete form-20230101T000000Z-00661-000/3. Complete form/2023 Tax Return Documents (Quinn Mercer (synthetic)).pdf": "0077b22c79b81b25f3885755250e683157972967cd2a39421386bd45b6d2c602",
+    "3. Complete form-20230101T000000Z-00661-000/3. Complete form/Completed forms - Summary.pdf": "d40f3fc00b3ec523d1ee1297bbcecaee42578d6def56f5bd070af122ba5fc3ae",
+    "4. Executive Summary-20230101T000000Z-00661-000/4. Executive Summary/Executive Summary Quinn Mercer 2023.pdf": "06afa657f9002a6e3e4a6a95ecae51cd91dc1eb862960aa2fc8232d9c68fd920"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-00644-000",
+  "tax_year": 2023,
+  "case_fingerprint": "dd9f709c8dc5b6ba13b1116439e87e2ba8a6a9bd1e6275c38d6747909e2f46f8",
+  "case_json_sha256": "6569b93800f548a41b2b3e8e52d9b45969e6a3a0fd0d69944f5b86d5b713285f",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-00644-000/1. Client Summary/Client Summary.pdf": "de9e4b6759094128f8c2855c49b1351bc14018f722fdaef9308904ba9d33c783",
+    "2. Input Documents-20230101T000000Z-00644-000/2. Input Documents/Tax Document Attachments Summary.pdf": "fd5c1161e7cccbadb0fafe7084ce2b9908c446b07187f9eb097b75908b352bfb",
+    "2. Input Documents-20230101T000000Z-00644-000/2. Input Documents/1099- DIV/1099-DIV DIAZ.pdf": "bd59c30b4daaaae5e2c7fb32df1f3e42b933c7b470edc24edc674697de550cf8",
+    "2. Input Documents-20230101T000000Z-00644-000/2. Input Documents/1099-INT/1099-INT DIAZ.pdf": "d67f8abb1d9739490a828f34eb4441cde840fe7025530c217d56043db7866312",
+    "2. Input Documents-20230101T000000Z-00644-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "a64426acac1a6f6ee92d202bd14e41d4144602a873c28f4a97e17d1b871f2ea8",
+    "2. Input Documents-20230101T000000Z-00644-000/2. Input Documents/Form W-2/Form W-2.pdf": "2cfd846df95d151d161324f8fcb1604e9a303ceb97f6d8e3ed6bd136d44f9bda",
+    "2. Input Documents-20230101T000000Z-00644-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "af43175576819d1912bbe0a00c79d0be713cc6f146c4ebd63a8755e69e09f567",
+    "2. Input Documents-20230101T000000Z-00644-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "bb203c4b93cb0650d0ff260ab9e08678b28cd7775caa16f7518629c342afb6af",
+    "3. Complete form-20230101T000000Z-00644-000/3. Complete form/2023 Tax Return Documents (Avery Diaz (synthetic)).pdf": "f82ab6b12e44d508f6c78b38eb1dbd876a2437765b16a65e3c5cbfb0bbd00ecc",
+    "3. Complete form-20230101T000000Z-00644-000/3. Complete form/Completed forms - Summary.pdf": "f85e6ef2d89b4f8d862ce21ecabc2db9e676333fca27e312e9e02ffacf7050b4",
+    "4. Executive Summary-20230101T000000Z-00644-000/4. Executive Summary/Executive Summary Avery Diaz 2023.pdf": "e1df17aa6bc6d5010f199e409cbac4dd726c15226fa7278ace115ab759722b51"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

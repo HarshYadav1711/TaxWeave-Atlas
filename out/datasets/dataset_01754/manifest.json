@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-01754-000",
+  "tax_year": 2020,
+  "case_fingerprint": "4ad184a758a49baf00519a2d7e18e1d656e8b6054793cf13c96f34c84c513e29",
+  "case_json_sha256": "af70c5dedf5ac2377eb86fd1d09e8125f92dcab7bd95766f174186646aea8338",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-01754-000/1. Client Summary/Client Summary.pdf": "28d8ba441c371ea0d491a777e7ddbda168f1fc365bbfd23fc24a529a9943ea92",
+    "2. Input Documents-20200101T000000Z-01754-000/2. Input Documents/Tax Document Attachments Summary.pdf": "72d92bf67988c882e8b2dc20582236e96a243fa411dcaea2de9537b4ee0ae25f",
+    "2. Input Documents-20200101T000000Z-01754-000/2. Input Documents/1099- DIV/1099-DIV FOSTER.pdf": "73f08df574400357f191e2dbb01de1d259ee69b6c44e3e15b68988425d51b29a",
+    "2. Input Documents-20200101T000000Z-01754-000/2. Input Documents/1099-INT/1099-INT FOSTER.pdf": "933e194512d42ac5edc304a4c9ecef4411ed6edd55d5cb9f988a5633161214b8",
+    "2. Input Documents-20200101T000000Z-01754-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "e8728aaba7986798f5443408ec024c5ba404d4d51951bbf4cd18e3b461358c63",
+    "2. Input Documents-20200101T000000Z-01754-000/2. Input Documents/Form W-2/Form W-2.pdf": "37d54abcc03b05530791931e1e482423f079a1a57206959f250315e86cb69053",
+    "2. Input Documents-20200101T000000Z-01754-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "8493388c5106f1b50ea02f230665993361e0cc4181028582c89dd21041478b14",
+    "2. Input Documents-20200101T000000Z-01754-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "a5be528e96d041dfa4ba415da04121d701b19685f3eaa29b3194a4265adf2b95",
+    "3. Complete form-20200101T000000Z-01754-000/3. Complete form/2020 Tax Return Documents (Casey Foster (synthetic)).pdf": "a27f96a3b7cba79ed17e8680cd9f3729efd1848b1616d7508c084b0e593551b5",
+    "3. Complete form-20200101T000000Z-01754-000/3. Complete form/Completed forms - Summary.pdf": "ce546f1185fc754e102fd5d2c800e777ba59f7b40721fcbfc43a84f3c4218309",
+    "4. Executive Summary-20200101T000000Z-01754-000/4. Executive Summary/Executive Summary Casey Foster 2020.pdf": "e2533f54e09c7e3888e9d416d4ee22358417ab706861cc6c87281c822e671d51"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

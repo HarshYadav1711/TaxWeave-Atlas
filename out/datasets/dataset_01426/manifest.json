@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20210101T000000Z-01426-000",
+  "tax_year": 2021,
+  "case_fingerprint": "4fce3c85799f8e915a97af3703f891af2c9ba433620f046ad390c524fade44b0",
+  "case_json_sha256": "ea8de600995b0a607e68da993c17b97aa87504fa493285235e1f3ebb7ab16a36",
+  "files_sha256": {
+    "1. Client Summary-20210101T000000Z-01426-000/1. Client Summary/Client Summary.pdf": "d2367b2bd368defa4028327a567b652e68704bafb95aa185ab924040ebbfb6a0",
+    "2. Input Documents-20210101T000000Z-01426-000/2. Input Documents/Tax Document Attachments Summary.pdf": "a9ac0922efba2e1ad7859d9d1f993986825c6155dfe85aae47851cef60ade6bf",
+    "2. Input Documents-20210101T000000Z-01426-000/2. Input Documents/1099- DIV/1099-DIV KELLER.pdf": "fcda44b819dc70ae4bc79b25c07dadf191452fe5e6d51a91016fba2e988f6388",
+    "2. Input Documents-20210101T000000Z-01426-000/2. Input Documents/1099-INT/1099-INT KELLER.pdf": "18bb24604e1e460f1899e48810a59c30760a858a7c50e235b51ecbf40eb1534c",
+    "2. Input Documents-20210101T000000Z-01426-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2021_.pdf": "4055c8a2b7dd19fbc06c0626c0737da4183cc373087a2be4fc80b56056259e9b",
+    "2. Input Documents-20210101T000000Z-01426-000/2. Input Documents/Form W-2/Form W-2.pdf": "7ea9866bb5a25bacf831ed73d1ccd1ea80d0744be1b147d1a76a43e058e983d8",
+    "2. Input Documents-20210101T000000Z-01426-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "3cb5152eb3d2f6d92068525845afec347d5c13e05e6e4afcd2b08f14e5ffe6e9",
+    "2. Input Documents-20210101T000000Z-01426-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2021.pdf": "51d49390426b65798225a4578b5ab7193798fdde511042af86b15d27d319e652",
+    "3. Complete form-20210101T000000Z-01426-000/3. Complete form/2021 Tax Return Documents (Rowan Keller (synthetic)).pdf": "e576ea8c56a2364e1db77951c3d68fae091d8b8d1b37b863c7aca14c69039b0a",
+    "3. Complete form-20210101T000000Z-01426-000/3. Complete form/Completed forms - Summary.pdf": "44ab36fc28aadd2df246c4a7edb7a6a6a8186f975faac96f66b7aefee15368a5",
+    "4. Executive Summary-20210101T000000Z-01426-000/4. Executive Summary/Executive Summary Rowan Keller 2021.pdf": "c5597791de17737f2c55c53b12503122942551f4f50a3b63c8c3d7f11313795c"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

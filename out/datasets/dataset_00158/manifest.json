@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-00158-000",
+  "tax_year": 2022,
+  "case_fingerprint": "7e48588b47787d3f814fdea38a983ca91c9e54a49493069a5a0ddd8ed3b92da2",
+  "case_json_sha256": "ee1abb4eca5bcee07682b587b5bfd128b6293fd263ddcf226f3d115e9508a9bf",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-00158-000/1. Client Summary/Client Summary.pdf": "891f25970579ed9101efe8c9aa2e72d20e7d53225b92b5b20c32cda8640515e5",
+    "2. Input Documents-20220101T000000Z-00158-000/2. Input Documents/Tax Document Attachments Summary.pdf": "2672ccf7ae453985681fe3c4e3e2faa29f9f8da0ab165d764a785070b9cab61b",
+    "2. Input Documents-20220101T000000Z-00158-000/2. Input Documents/1099- DIV/1099-DIV LAWSON.pdf": "bb78a6d1eab56679d82886e59e7120ef9fa51c1adfe9e0434ee0f76eaedb19af",
+    "2. Input Documents-20220101T000000Z-00158-000/2. Input Documents/1099-INT/1099-INT LAWSON.pdf": "5ce349297eccbfd10abf82b220b9de6f85595ba7e94bb8eb58ce21148e358e9a",
+    "2. Input Documents-20220101T000000Z-00158-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "dc10c97d7e0a591956e76da32aa87536efbaa3859be60fe60a00d387facfb296",
+    "2. Input Documents-20220101T000000Z-00158-000/2. Input Documents/Form W-2/Form W-2.pdf": "60ad27635ee527982da526e361eeebb1d3fb9ca8bafb0723fe8bbd9022b4ad32",
+    "2. Input Documents-20220101T000000Z-00158-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "abb5fdce91b60c8d8933bfe0c58ab94785caf5cd62bc511aa0e7165af315c843",
+    "2. Input Documents-20220101T000000Z-00158-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "c4e4a7ac5da9ef6e0e1f814f6eac4bcddec266490e09ee1fb2e92ac4c0361d90",
+    "3. Complete form-20220101T000000Z-00158-000/3. Complete form/2022 Tax Return Documents (Reese Lawson (synthetic)).pdf": "c792802072a19b08560b8c6d76540632e03095c56548d6e1796daf84ecd1e416",
+    "3. Complete form-20220101T000000Z-00158-000/3. Complete form/Completed forms - Summary.pdf": "9a96800f0534af5e79eb604fdda4bc226934d948709664e8cb8e85d2fa238f33",
+    "4. Executive Summary-20220101T000000Z-00158-000/4. Executive Summary/Executive Summary Reese Lawson 2022.pdf": "3c0e396b4aac3943ee5212e3ec64fbc869f6f3c8b33a5b2b968d16938771cf20"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

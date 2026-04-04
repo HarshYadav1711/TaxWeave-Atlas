@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-01654-000",
+  "tax_year": 2023,
+  "case_fingerprint": "13ac4c0f9491b36ab85e0364e46f57ad667dc5f4dced8032e755fff2ac82d520",
+  "case_json_sha256": "506ac0f2ab21d035bf4c899c0d0b45b9ff9269e84c40c5e00376d9920eb29cf0",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-01654-000/1. Client Summary/Client Summary.pdf": "dbd007e39accd1c207e3396ef150b2952d5c2bc5d585b9e746f4a7a4b35167f9",
+    "2. Input Documents-20230101T000000Z-01654-000/2. Input Documents/Tax Document Attachments Summary.pdf": "43aac3b9c987849bf5dc3d5ef27e1dc5b5c4260063db33b3026fa6fdf8013071",
+    "2. Input Documents-20230101T000000Z-01654-000/2. Input Documents/1099- DIV/1099-DIV HAYES.pdf": "810344ab1d785aa673d1299453d0ba2c89a66f7f6a109e59d318f491c7c63ab8",
+    "2. Input Documents-20230101T000000Z-01654-000/2. Input Documents/1099-INT/1099-INT HAYES.pdf": "61b66dec85f877d5d588d94830cbba92c52fdc475d581f22568b6bc6481bd13e",
+    "2. Input Documents-20230101T000000Z-01654-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "9b67726788222f53b52f3ac336c968746da62b6bda7501ba9317df76bdcf53db",
+    "2. Input Documents-20230101T000000Z-01654-000/2. Input Documents/Form W-2/Form W-2.pdf": "f3d94fdb3dc64dec9946ab5d8ed0d74471a3a943367c7ac61b757aedd32b54f2",
+    "2. Input Documents-20230101T000000Z-01654-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "cacaf7c94e2e286b2946974ed07e77a5e2f0dd4b566e56e81a314e6a671bc389",
+    "2. Input Documents-20230101T000000Z-01654-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "e4711808a322ae9b136448200b0541862c6b918d83cd9251423376b4ce0f84f2",
+    "3. Complete form-20230101T000000Z-01654-000/3. Complete form/2023 Tax Return Documents (Morgan Hayes (synthetic)).pdf": "e0a93dc3bebfeb92e68ba42a8f0e2401afbc53853e1ce61ff840c10492e08587",
+    "3. Complete form-20230101T000000Z-01654-000/3. Complete form/Completed forms - Summary.pdf": "0e98f3dc153cee07eaf4333ceff852d115ce7ba4a2522479490c12303e4e7dcb",
+    "4. Executive Summary-20230101T000000Z-01654-000/4. Executive Summary/Executive Summary Morgan Hayes 2023.pdf": "8f633ab6bac4b62747d78728aa2d9403f70a25a99f6916a0f09117fc008a8854"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

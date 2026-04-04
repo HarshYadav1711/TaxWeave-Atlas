@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-00870-000",
+  "tax_year": 2022,
+  "case_fingerprint": "0ff2f80cbfbcf8e416eb2414bd51744f10226765459e1df9e3592a0bf704d9c0",
+  "case_json_sha256": "419a5015473458f9d4a1e1a53fdd51a06bc7658c25876ea19399edc67e9bc703",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-00870-000/1. Client Summary/Client Summary.pdf": "69cbe9e5369effc2cc5c0b394e2f871503de0a339f26c1886c4bf1d729fe3c8c",
+    "2. Input Documents-20220101T000000Z-00870-000/2. Input Documents/Tax Document Attachments Summary.pdf": "1eb5f4efc043c9abde50d79a39c8b53ac5c9e782e2be1a868de08cb7218c2ebb",
+    "2. Input Documents-20220101T000000Z-00870-000/2. Input Documents/1099- DIV/1099-DIV INGRAM.pdf": "e46fd1c88d4c81704d2623eb4360f5345e3ef1f3762fc56283dbc6021f6acebd",
+    "2. Input Documents-20220101T000000Z-00870-000/2. Input Documents/1099-INT/1099-INT INGRAM.pdf": "5f02fc1b8a42d326a4f83f7d957009ce5f7fe37fdd0b5dae3306f45fb5ad8481",
+    "2. Input Documents-20220101T000000Z-00870-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "d636e51fa8e2dd4799f599a15cfaede35e336edd5ae566c533432cf94ede44a2",
+    "2. Input Documents-20220101T000000Z-00870-000/2. Input Documents/Form W-2/Form W-2.pdf": "d21a2aeb5a63d770e44ee0ed092a05303a56944ea04e29f401a4e49827342e69",
+    "2. Input Documents-20220101T000000Z-00870-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "3000ab5c806eda87e997f8d0d78eacc974359096ed7d4f6f36d4a5987bcee6e3",
+    "2. Input Documents-20220101T000000Z-00870-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "275ef83e18022dac42897dbf58fc98afd688c8a3e2756c5c4458524811bd0534",
+    "3. Complete form-20220101T000000Z-00870-000/3. Complete form/2022 Tax Return Documents (Reese Ingram (synthetic)).pdf": "862e9bca48f970499ff6873201ca1a728643a132412500d04ba5e1113e8bdd25",
+    "3. Complete form-20220101T000000Z-00870-000/3. Complete form/Completed forms - Summary.pdf": "6c60de52c951db3c895a8d650cd01d0296b82af28062454f41b4dded910955f8",
+    "4. Executive Summary-20220101T000000Z-00870-000/4. Executive Summary/Executive Summary Reese Ingram 2022.pdf": "4085fc8f65c12a886029b9de7bd32cc71a4ee6789aa1d691d1a0756e099e18fb"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

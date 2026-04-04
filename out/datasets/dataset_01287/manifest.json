@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-01287-000",
+  "tax_year": 2022,
+  "case_fingerprint": "a348d20a82313217bf346f19be59b4397d567fa7950768c8bb01d8c6ad28bb49",
+  "case_json_sha256": "561f8e796fede3f0035df4451d9abe7a5a2f6e08b32dded7c79aa47a203d09a5",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-01287-000/1. Client Summary/Client Summary.pdf": "e5237f7b4f2f8d1edc35e384911ca4620614b380f0de2675d593382a7fdc9f36",
+    "2. Input Documents-20220101T000000Z-01287-000/2. Input Documents/Tax Document Attachments Summary.pdf": "48b8319c38c87cd956bc8dabb2b56f3bec525aaa1606ffb16b5bb29ce5182088",
+    "2. Input Documents-20220101T000000Z-01287-000/2. Input Documents/1099- DIV/1099-DIV BENNETT.pdf": "4315a37bdb33fb99e091e46f632f2e60b800a94b616428fee25c37fdb342af59",
+    "2. Input Documents-20220101T000000Z-01287-000/2. Input Documents/1099-INT/1099-INT BENNETT.pdf": "9fa58a7a2533d537b8a5fd59acbbd874b9c6872afb22f3ca1605271dc4b9bcc9",
+    "2. Input Documents-20220101T000000Z-01287-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "8ce901cbf91179e4e448820c02af3da6da8ef3f8e5c319e0ea3a0bd44bb8aeb9",
+    "2. Input Documents-20220101T000000Z-01287-000/2. Input Documents/Form W-2/Form W-2.pdf": "4975113f675eea5782f35d2a1123e8fa7b6e49912191feddfee5eec403235488",
+    "2. Input Documents-20220101T000000Z-01287-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "c41adb44ea259440559505caef7d864cd2b2329961aa3c4f0f5093ae311152cf",
+    "2. Input Documents-20220101T000000Z-01287-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "7987bee05fff2e09dcb6e2e693d9850064d5b93c718550b78210f365d2e1af46",
+    "3. Complete form-20220101T000000Z-01287-000/3. Complete form/2022 Tax Return Documents (Sage Bennett (synthetic)).pdf": "6d3800f36de637ff6e06f76951daaf0c516ceac25806fdbb4f89924a43469128",
+    "3. Complete form-20220101T000000Z-01287-000/3. Complete form/Completed forms - Summary.pdf": "002c7ca2f2c128272ccdf389d9e8486996a90e20b8ca26518043215a902946a5",
+    "4. Executive Summary-20220101T000000Z-01287-000/4. Executive Summary/Executive Summary Sage Bennett 2022.pdf": "0c818d47ef8c32177f088b2d32cfc9530f16a5dded50a1f94e6389b32ba2dc48"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

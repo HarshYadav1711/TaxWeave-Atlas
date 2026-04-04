@@ -6,17 +6,17 @@
   "case_fingerprint": "f8a105c8df091ab2c661fc1ff14437cc36248822cd283c8aa470bce725e87701",
   "case_json_sha256": "a6fac7f8d3c1013db15e7ae6ce9a64fadf9b0d55d147dc098a4d32d4dbfce1b2",
   "files_sha256": {
-    "1. Client Summary-20240101T000000Z-00024-000/1. Client Summary/Client Summary.pdf": "c3c2d42e16b20d9236b81ea7e6e4d0d37d31484845bc5e3ef6ed455031e4fa34",
-    "2. Input Documents-20240101T000000Z-00024-000/2. Input Documents/Tax Document Attachments Summary.pdf": "ef4d17388eae565e69d1bda8c93a1a1c5acf40fc14fbaa906a4ff49597fbf522",
-    "2. Input Documents-20240101T000000Z-00024-000/2. Input Documents/1099- DIV/1099-DIV FOSTER.pdf": "22a172059dba2662a7d167e2d425d242c79f602cd0cfc2a85752b9252adcffd4",
-    "2. Input Documents-20240101T000000Z-00024-000/2. Input Documents/1099-INT/1099-INT FOSTER.pdf": "73bc80e82e9914ab3a84468e6404e2ae1e1a6778216665e5af6657e747953ed7",
-    "2. Input Documents-20240101T000000Z-00024-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "e3f71faf7e4753ccc2a6936f0a4356a309776deb164bbd94a75a73c98269c58f",
-    "2. Input Documents-20240101T000000Z-00024-000/2. Input Documents/Form W-2/Form W-2.pdf": "ce97488c8c8245a855917b06c6e26102c065d193f0c753acceb9d0b7a48e7f98",
-    "2. Input Documents-20240101T000000Z-00024-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "be5bfb90f79c102707857e181c9f2e398e9cb537b2e51d8ecd145ab502324719",
-    "2. Input Documents-20240101T000000Z-00024-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "22254f3e3cd450a90d029835dc6daf0d64d3376e3e62632e2b358073be2f3715",
-    "3. Complete form-20240101T000000Z-00024-000/3. Complete form/2024 Tax Return Documents (Finley Foster (synthetic)).pdf": "70c0ce7d2172cb447828eca0ee1fa41496d55d1aadf182a01e2103961b573150",
-    "3. Complete form-20240101T000000Z-00024-000/3. Complete form/Completed forms - Summary.pdf": "c8bd60492ddda5469653eaadcdab150904fa6d245e3c25c01714a3ca597b39bb",
-    "4. Executive Summary-20240101T000000Z-00024-000/4. Executive Summary/Executive Summary Finley Foster 2024.pdf": "571fa3a06b4e9c6ef8faff860b2439a38b7603c787ecbdc75adf0447b1d3fe65"
+    "1. Client Summary-20240101T000000Z-00024-000/1. Client Summary/Client Summary.pdf": "3297571c28293bd853070d2edb9d96850eb33d1dbe5e2719a9b8df3f9a6acd24",
+    "2. Input Documents-20240101T000000Z-00024-000/2. Input Documents/Tax Document Attachments Summary.pdf": "2bc83b2d80540f52f6ab93c09f400663797278c311b1b91749275395a84876bf",
+    "2. Input Documents-20240101T000000Z-00024-000/2. Input Documents/1099- DIV/1099-DIV FOSTER.pdf": "110ff39ea038a5c8140fd75d1d1fa13fcb5caab28af73f0739b29d0ebecf07c6",
+    "2. Input Documents-20240101T000000Z-00024-000/2. Input Documents/1099-INT/1099-INT FOSTER.pdf": "86235b46aedfe0d5f77a639e8ef15f17d5a09a9d46fe656c4211e27e8700f216",
+    "2. Input Documents-20240101T000000Z-00024-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "9b133aac446ab193218e6127f3dd450c9d2d1e0fa3712e2c19dd74d4fd219d9c",
+    "2. Input Documents-20240101T000000Z-00024-000/2. Input Documents/Form W-2/Form W-2.pdf": "9bba13c08b6674924237d8beeaa7a8fdc6487d29a7767a50b78aa93eb37f22d3",
+    "2. Input Documents-20240101T000000Z-00024-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "109e906d235ac542865fc25057aa7b950f159f3490af639756ac239779ffe8d1",
+    "2. Input Documents-20240101T000000Z-00024-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "ec4dc07e71b26ac0b16eb603445549a6021e3a43bb43e339a146124b7c316995",
+    "3. Complete form-20240101T000000Z-00024-000/3. Complete form/2024 Tax Return Documents (Finley Foster (synthetic)).pdf": "da658074b60797a4a6f51745cedb5fd533f622453094974d2369508a84a3be1c",
+    "3. Complete form-20240101T000000Z-00024-000/3. Complete form/Completed forms - Summary.pdf": "7ae3d139aed013acbdb0ade7e523f1a08760e3bbb133282bc61efccef0f6799b",
+    "4. Executive Summary-20240101T000000Z-00024-000/4. Executive Summary/Executive Summary Finley Foster 2024.pdf": "677739b9919f8127c174997726a6d2f7d8ec3be12e31526dc3f09c6ae2eb9b17"
   },
   "canonical_case_model": "SyntheticTaxCase"
 }

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-01886-000",
+  "tax_year": 2022,
+  "case_fingerprint": "4b4dc2f16a3e2077a36a24585346cd0f53bfbfd6bcc97ff8385612ca2616c02f",
+  "case_json_sha256": "763dbb61b6f09055162c0c732f85e9154b2c808b518457e9b8b4ffaf237fcd0c",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-01886-000/1. Client Summary/Client Summary.pdf": "cfc1a04f66a57cb78e64911933cad48629a51e5668f095a28d6016ce8b572853",
+    "2. Input Documents-20220101T000000Z-01886-000/2. Input Documents/Tax Document Attachments Summary.pdf": "4aa81e1416b643bb980016127cbc89d7297be0df98fb0fe70d2d0d295cfb78eb",
+    "2. Input Documents-20220101T000000Z-01886-000/2. Input Documents/1099- DIV/1099-DIV CARTER.pdf": "f669190b0d5b30e24a2275cf2100ed2ee7eeab12bff32cb7edc655805de6341b",
+    "2. Input Documents-20220101T000000Z-01886-000/2. Input Documents/1099-INT/1099-INT CARTER.pdf": "5544194dfca9bac53e3bcb9e500ddeb2a0bc0bb3f5e6b785d4901093dceba825",
+    "2. Input Documents-20220101T000000Z-01886-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "8add02b605a685a26ff5d8b3679e2831091004944f63d560a77e00b35737cc27",
+    "2. Input Documents-20220101T000000Z-01886-000/2. Input Documents/Form W-2/Form W-2.pdf": "a4359c79433f62642a093a99ba875b7d21f241f428a63a0e3ecaee5e60becd3d",
+    "2. Input Documents-20220101T000000Z-01886-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "0820b964b5877176e85c901a7d09f42c3d7d1486b569b7d64155a945ae3d7442",
+    "2. Input Documents-20220101T000000Z-01886-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "f8f51e5538839f4213a20905b7cde1bbe128110702b93c8d1583d37a47832d8e",
+    "3. Complete form-20220101T000000Z-01886-000/3. Complete form/2022 Tax Return Documents (Riley Carter (synthetic)).pdf": "14b2004673938bee5c343ce009e77a96d645ff89fb89bf8b976adb3ed9cd68d3",
+    "3. Complete form-20220101T000000Z-01886-000/3. Complete form/Completed forms - Summary.pdf": "34999e154a2206800265ef54d126d6b44f95ec09275d4ba11223b2d443cdd398",
+    "4. Executive Summary-20220101T000000Z-01886-000/4. Executive Summary/Executive Summary Riley Carter 2022.pdf": "b99c30187771f531a709afb1429a5eb7f8cdad6272011ba0acbf47dbb198664b"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

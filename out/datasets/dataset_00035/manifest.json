@@ -6,17 +6,17 @@
   "case_fingerprint": "dbe8595988294e3e0108d426d12e4f064e330b80e835e9ac3459610439609cc6",
   "case_json_sha256": "c1de94890a7da086deb344ea0b647805732f98d6f11e75e63e230a419e92199d",
   "files_sha256": {
-    "1. Client Summary-20240101T000000Z-00035-000/1. Client Summary/Client Summary.pdf": "7f3b858349e4779f56bdbf70db64892bb7265aa7019e03e81549cb597d83bec4",
-    "2. Input Documents-20240101T000000Z-00035-000/2. Input Documents/Tax Document Attachments Summary.pdf": "5518e78eff58201d8c4d1d6192f3ddb791c8e30906dddf58a0008089ed87ef7b",
-    "2. Input Documents-20240101T000000Z-00035-000/2. Input Documents/1099- DIV/1099-DIV NAVARRO.pdf": "53c89702ad04cabb57f1dbaed7305ce449f453bf0b4c1599583b39d0af69b13b",
-    "2. Input Documents-20240101T000000Z-00035-000/2. Input Documents/1099-INT/1099-INT NAVARRO.pdf": "526f60dfc992c35c030ef8637aa732a6ead7acca4cddad7d55a55aa4c4a52bb6",
-    "2. Input Documents-20240101T000000Z-00035-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "0bced7234bff9b2fed47b9edc10f4e405807b88dfd70155f6edeb5619f906f15",
-    "2. Input Documents-20240101T000000Z-00035-000/2. Input Documents/Form W-2/Form W-2.pdf": "858df9c45372ba35b0529191e401b8c33311b6b5757756cae68955b15efe0e5c",
-    "2. Input Documents-20240101T000000Z-00035-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "ad994be02f0e0813d32b238248bd8017b20cc7884fd05ca4d75a6725e003fe1e",
-    "2. Input Documents-20240101T000000Z-00035-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "1b7f5ac1bac6682851eb73db1b5a5ca27744f82dd38c58d34f49f6845e86a238",
-    "3. Complete form-20240101T000000Z-00035-000/3. Complete form/2024 Tax Return Documents (Finley Navarro (synthetic)).pdf": "d2056a514969cffd034e0f6a9eb68c70c53fc653edbe9d8d52d792a521bbb842",
-    "3. Complete form-20240101T000000Z-00035-000/3. Complete form/Completed forms - Summary.pdf": "a7f1cae3f1bae269fdab583be8b9e9377b785dfb97eff95a9c57d900f12b10e3",
-    "4. Executive Summary-20240101T000000Z-00035-000/4. Executive Summary/Executive Summary Finley Navarro 2024.pdf": "7e7269e2071e4404ecb50519c2e69d0a7bd0d1bba514a8d7c24aa05928b74f5a"
+    "1. Client Summary-20240101T000000Z-00035-000/1. Client Summary/Client Summary.pdf": "20618580b4419cf1b4d9ead823950256151caee06797e3dbd8a550189fcead12",
+    "2. Input Documents-20240101T000000Z-00035-000/2. Input Documents/Tax Document Attachments Summary.pdf": "6f4cf444ac6748015b768d813ba43bcfa0bf62ebec3ed5726631b114f6e22dc6",
+    "2. Input Documents-20240101T000000Z-00035-000/2. Input Documents/1099- DIV/1099-DIV NAVARRO.pdf": "c599677f542d4eb7a7b1fd5df70fc3059e8edf7620a1640d96761e6f754e543d",
+    "2. Input Documents-20240101T000000Z-00035-000/2. Input Documents/1099-INT/1099-INT NAVARRO.pdf": "7ef7542db1bcaa6b520a783aa5d363c4082d473b66bbd908cc0646491f924b07",
+    "2. Input Documents-20240101T000000Z-00035-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "037938c74cec70b1147468687e6004854ebbc3492effa4dcdb7bdefbfe8700f3",
+    "2. Input Documents-20240101T000000Z-00035-000/2. Input Documents/Form W-2/Form W-2.pdf": "ee7675681d24bbd7cd4ede2a31b4de20cc99391a1820b73b9af30fc8cb9c4292",
+    "2. Input Documents-20240101T000000Z-00035-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "2c023b4f390de8f6f3bf12c948a6ffa08ed8c648ad07fe64887eeb2f3b141a9d",
+    "2. Input Documents-20240101T000000Z-00035-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "698e59d30d0c9eb7983eb2608cccaf1642363e687e27155314fd87577881d9b3",
+    "3. Complete form-20240101T000000Z-00035-000/3. Complete form/2024 Tax Return Documents (Finley Navarro (synthetic)).pdf": "592c2b2aeb9e054e69d05f7640705f4dee14d11cd611ad096ad45253fc523649",
+    "3. Complete form-20240101T000000Z-00035-000/3. Complete form/Completed forms - Summary.pdf": "6c84cb412bc92d17fbe164df266a195505fdac1723dc379dbdf259b47de7e233",
+    "4. Executive Summary-20240101T000000Z-00035-000/4. Executive Summary/Executive Summary Finley Navarro 2024.pdf": "1d533f26ef9f0ca10408c70957884fc0df716dfa8277231f13763368df0e059e"
   },
   "canonical_case_model": "SyntheticTaxCase"
 }

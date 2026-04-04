@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-01135-000",
+  "tax_year": 2023,
+  "case_fingerprint": "2e4e21ffff0217a85af063bf136d0002493fd4c2af08c06e13f42abd6da9f2a1",
+  "case_json_sha256": "e09f054c5be8b15197619e69b5d6bd4a817cd76dfff32edd9c912782752b9c88",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-01135-000/1. Client Summary/Client Summary.pdf": "772cec77e8d159787dbf1a870fb293cdfa910b69462b763e96b213fa0e76eb77",
+    "2. Input Documents-20230101T000000Z-01135-000/2. Input Documents/Tax Document Attachments Summary.pdf": "332d2d0e4d6df71185620e2c06043bcc91f50c5edaa3a9f02ab792f92afd3ce9",
+    "2. Input Documents-20230101T000000Z-01135-000/2. Input Documents/1099- DIV/1099-DIV SULLIVAN.pdf": "f64106c166a1995b2f1db18cbea2016271a4a748795643174bd1e9aff95e65ea",
+    "2. Input Documents-20230101T000000Z-01135-000/2. Input Documents/1099-INT/1099-INT SULLIVAN.pdf": "7fc1cb29e94e4f72f27cc97f355751fcc7865a04ebd4817a7a698b229d18839b",
+    "2. Input Documents-20230101T000000Z-01135-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "e0394616ec631dc112395f2d5e34f81488a3de8e2576984843bfb6781cd36c16",
+    "2. Input Documents-20230101T000000Z-01135-000/2. Input Documents/Form W-2/Form W-2.pdf": "1116f47df679fb21bb905e10b586f7a3ecb72226a09faf11985ef1d88094a01d",
+    "2. Input Documents-20230101T000000Z-01135-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "bbaf6638e4ae4a567f06966bbc61636df40272e2168e6460676f61ee347749e4",
+    "2. Input Documents-20230101T000000Z-01135-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "8c24701f8d92ce9264a9832cc4803903490c8a21eafe0be6f1cd9e34ffcd7255",
+    "3. Complete form-20230101T000000Z-01135-000/3. Complete form/2023 Tax Return Documents (River Sullivan (synthetic)).pdf": "7072d02e50abf04fca991684359aa7b92519bc9c377c3f2207002947d7a4148d",
+    "3. Complete form-20230101T000000Z-01135-000/3. Complete form/Completed forms - Summary.pdf": "0d8fd2788e4eabfcf3ff637b5859f205d450fa44c12d03692b84c73cc1e217c3",
+    "4. Executive Summary-20230101T000000Z-01135-000/4. Executive Summary/Executive Summary River Sullivan 2023.pdf": "2f303402b4200a50d4f2ff73846a16d38a33f1085c1f7374986b926f739b0753"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

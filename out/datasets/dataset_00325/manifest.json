@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20250101T000000Z-00325-000",
+  "tax_year": 2025,
+  "case_fingerprint": "2f77fa95d10b01561de704c41e50d7afef495c95efb28fb41b7a418319a7c107",
+  "case_json_sha256": "7c7924b095e6ab1b1f4a7ce656743c809d409b37698c5e1a9e6d8c7b209d5ccf",
+  "files_sha256": {
+    "1. Client Summary-20250101T000000Z-00325-000/1. Client Summary/Client Summary.pdf": "0bd28fea1210567f2ed3dfca2d7782e7f0172f96b3ea901591f923765f674df9",
+    "2. Input Documents-20250101T000000Z-00325-000/2. Input Documents/Tax Document Attachments Summary.pdf": "9ca030234e9438242152db32c4543c3a1ab87520dadf5b23ed038d4179827571",
+    "2. Input Documents-20250101T000000Z-00325-000/2. Input Documents/1099- DIV/1099-DIV JENNINGS.pdf": "f740ca37316635e68fd2fbb2a5121195e509856e9cd346ccc68422747c26d340",
+    "2. Input Documents-20250101T000000Z-00325-000/2. Input Documents/1099-INT/1099-INT JENNINGS.pdf": "3bdfc3d68e999e00f8d151ea1338f95b9126a59ae2b629f1611b6b87da04941c",
+    "2. Input Documents-20250101T000000Z-00325-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2025_.pdf": "801c258b98c5ace8a61196e64d8eccbdc9ba7a0db63afe7efa109a9251378a13",
+    "2. Input Documents-20250101T000000Z-00325-000/2. Input Documents/Form W-2/Form W-2.pdf": "1872c1d4a4fe8595c5508c4480ffe3dfd070611290ad323670456dfe7e1a9b31",
+    "2. Input Documents-20250101T000000Z-00325-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "6c3c6a45b631fb73009911eeb587f3c2602d64cfd31c16c7fda3cea28bfd05e2",
+    "2. Input Documents-20250101T000000Z-00325-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2025.pdf": "5ac4eb2136662e76b7e8192b7fc485f187e9963e2f8bcf6087bbeaa1b674f125",
+    "3. Complete form-20250101T000000Z-00325-000/3. Complete form/2025 Tax Return Documents (River Jennings (synthetic)).pdf": "6d094c455133e2ef1a6f91588bbca55a05c033a3987ceab356eb8e27bccacd17",
+    "3. Complete form-20250101T000000Z-00325-000/3. Complete form/Completed forms - Summary.pdf": "64b861d65c4bce361f8026e4286b40ee58dc7a7f3bb87c63a54dfdca6c3d1cf8",
+    "4. Executive Summary-20250101T000000Z-00325-000/4. Executive Summary/Executive Summary River Jennings 2025.pdf": "d1bd1952b34ed28f26e2a00982b633cf1f9f9571862bd72c74509b174c86b5d9"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

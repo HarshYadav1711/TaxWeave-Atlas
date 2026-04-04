@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20210101T000000Z-01547-000",
+  "tax_year": 2021,
+  "case_fingerprint": "288b039a8e705eb807243a50c4a066cc7194fb922b874e828f7e6e455a96311c",
+  "case_json_sha256": "d1fc6b136835d5174d31361fe4c241d728e4be8c84d1cfd37583104a0ec960f5",
+  "files_sha256": {
+    "1. Client Summary-20210101T000000Z-01547-000/1. Client Summary/Client Summary.pdf": "7d6237084b06169007251a2b90de5ec320e6612c3267d7328adef24035e83405",
+    "2. Input Documents-20210101T000000Z-01547-000/2. Input Documents/Tax Document Attachments Summary.pdf": "84445b5b73f3725ea34f6be43269cb0a2aa2fdee726657401483f3b45625073c",
+    "2. Input Documents-20210101T000000Z-01547-000/2. Input Documents/1099- DIV/1099-DIV MERCER.pdf": "e8cb597a04f26dde94763664b47d939260bf15c6a93d07de9a1e12401016d10b",
+    "2. Input Documents-20210101T000000Z-01547-000/2. Input Documents/1099-INT/1099-INT MERCER.pdf": "c5a55e75ca35f524c1554303fc4c14098aa5fc88988263ae357859a1429e36a4",
+    "2. Input Documents-20210101T000000Z-01547-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2021_.pdf": "6f1695a2caee203d5fc48f8080d5863198931b3e94db50750684ee85560f0336",
+    "2. Input Documents-20210101T000000Z-01547-000/2. Input Documents/Form W-2/Form W-2.pdf": "5747422a2b93ae8617aefcf07b602a891d5702da27d62313bfece79ccf8a1ea7",
+    "2. Input Documents-20210101T000000Z-01547-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "605d9c45f7b5c940c8fdf07503ad43f392e55b63fb201592c27f8dd4ec3d6e38",
+    "2. Input Documents-20210101T000000Z-01547-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2021.pdf": "21e6928e591ea9d12d9e4501fc5f9402a2d87c24e2f7c7303854b90e27a42a6d",
+    "3. Complete form-20210101T000000Z-01547-000/3. Complete form/2021 Tax Return Documents (Dakota Mercer (synthetic)).pdf": "746e1843ffb69d93a87d12dd4480387b354224ade0efd1f6757926a2e079098d",
+    "3. Complete form-20210101T000000Z-01547-000/3. Complete form/Completed forms - Summary.pdf": "6b3b9fa82b3c329d4b017b52d626965bdea6a6aa5a9a09f845c2d2841ac9f118",
+    "4. Executive Summary-20210101T000000Z-01547-000/4. Executive Summary/Executive Summary Dakota Mercer 2021.pdf": "ebc9d620c6757c6abe6c7c4174889f0b23de5af0aa1e914f9c9c0ce0d75a7539"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

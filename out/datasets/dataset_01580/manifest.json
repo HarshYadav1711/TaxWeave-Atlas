@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-01580-000",
+  "tax_year": 2022,
+  "case_fingerprint": "72659c4c7cb92ed882d4a2b3dc9c3eb70ae7dfdc294e6e65eb827bc84c093964",
+  "case_json_sha256": "488d0757b6579996b76cb6860c3f086447cd2aac33779b4adb9f7f7e6e773bb0",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-01580-000/1. Client Summary/Client Summary.pdf": "5383e315f288a14e17690ea436edc73a181b94c493a1949ff29fbbc1a8356c0f",
+    "2. Input Documents-20220101T000000Z-01580-000/2. Input Documents/Tax Document Attachments Summary.pdf": "3c9bc0145c240c2eb9d0288dff7078d39030ea5c5aaab69cca3ff810a37204d2",
+    "2. Input Documents-20220101T000000Z-01580-000/2. Input Documents/1099- DIV/1099-DIV LAWSON.pdf": "0147babe388f52456300e158d5d5d5af0aa2dfa0ee4d0b884648f621b5afa674",
+    "2. Input Documents-20220101T000000Z-01580-000/2. Input Documents/1099-INT/1099-INT LAWSON.pdf": "d6325e25a5fb7b1330e6255bfd50d74c57dc1cf6b439bebdb03c0305a01a6b2b",
+    "2. Input Documents-20220101T000000Z-01580-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "1939d4b07fa1dcd2b833e884945183c04378387e8803e65d0d3fdc8597de7f2b",
+    "2. Input Documents-20220101T000000Z-01580-000/2. Input Documents/Form W-2/Form W-2.pdf": "0e6ab9a430206a9b62604bfb4b84bb6fb0ad49a1823a1ae85a3134de95e65f94",
+    "2. Input Documents-20220101T000000Z-01580-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "12300860e16053a72b7328f37fd14492783d9ab639b05faef3e2ebdd0e46f6da",
+    "2. Input Documents-20220101T000000Z-01580-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "4c71d3ce8c45563cf5a7f12c8edee7032513bad4c319adf76d2879fb89eb664e",
+    "3. Complete form-20220101T000000Z-01580-000/3. Complete form/2022 Tax Return Documents (Emery Lawson (synthetic)).pdf": "5f226aba9e16a6ea89303cbc742c43339ffd3b7d9c3f196e6d9376bf8f1aa045",
+    "3. Complete form-20220101T000000Z-01580-000/3. Complete form/Completed forms - Summary.pdf": "a0fdc333f8b454cf1c39e12ca5a91608f755607c436db221eb2a4f5b712427d9",
+    "4. Executive Summary-20220101T000000Z-01580-000/4. Executive Summary/Executive Summary Emery Lawson 2022.pdf": "451d05499b001d561a0a98139b7b1ce5a0e9ff2b4bf602b86e4ca75c0e9ba5ca"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-01214-000",
+  "tax_year": 2024,
+  "case_fingerprint": "15088ffc23f0917d8b04c60fb87d703aa0d28fb8acf4ed6d6f4e972b7d0f404e",
+  "case_json_sha256": "5db513b3db9139181d78f5ebab41950ef6d7ccc463aa19678caa50a5d97b7f76",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-01214-000/1. Client Summary/Client Summary.pdf": "8cf65fc42125fd02a845a209edb85b2031d0fed1f6487f105587939ad7fa3f09",
+    "2. Input Documents-20240101T000000Z-01214-000/2. Input Documents/Tax Document Attachments Summary.pdf": "6922ad59ec8d14556bcc3ea76f02f71cd23b7c8abd6ee6bb63fdbdac30235198",
+    "2. Input Documents-20240101T000000Z-01214-000/2. Input Documents/1099- DIV/1099-DIV BENNETT.pdf": "dcdbebf33880d1ea848ff94c0a7b654d27f31f2989a338d4b627eaa8ceb90bdb",
+    "2. Input Documents-20240101T000000Z-01214-000/2. Input Documents/1099-INT/1099-INT BENNETT.pdf": "a2496a1f856227b422f4a8c47ae8f3886c02a961775d4fcc5ad5a84384899950",
+    "2. Input Documents-20240101T000000Z-01214-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "ab08d554a12efad2c986af53ed33b01ec6787274665b86ff0e85695e71c1a6bb",
+    "2. Input Documents-20240101T000000Z-01214-000/2. Input Documents/Form W-2/Form W-2.pdf": "e44fe0e2923f032988e0c20699e8b04f4f30c427b47b64beae9d1b126d9d8bfc",
+    "2. Input Documents-20240101T000000Z-01214-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "12b84874419895d9cba5d752c48e90ef99b3f559d989fc5c2cffe1e3a3adfb9b",
+    "2. Input Documents-20240101T000000Z-01214-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "efff9fb50bdf1c629c2eaf4697991c80ee4953e2f538de72b9e89775781ca9d7",
+    "3. Complete form-20240101T000000Z-01214-000/3. Complete form/2024 Tax Return Documents (Reese Bennett (synthetic)).pdf": "0e98f17dcf99074e7af40ebf23b96e35d6c53c8a25d6f139246006fbf3148e7c",
+    "3. Complete form-20240101T000000Z-01214-000/3. Complete form/Completed forms - Summary.pdf": "aaee66bb9b69f65d552d7f59e5beb7cf8c8100d83938ffb1deac88d795d748db",
+    "4. Executive Summary-20240101T000000Z-01214-000/4. Executive Summary/Executive Summary Reese Bennett 2024.pdf": "7555e2cba20aa61acb4ca970055f77903626dfcc6a860d8afc2fb827f99617d5"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

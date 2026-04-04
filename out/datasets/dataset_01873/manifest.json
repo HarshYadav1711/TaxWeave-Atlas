@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-01873-000",
+  "tax_year": 2023,
+  "case_fingerprint": "1c8c4d6d43755540a1ca6c40cf5583a8d3896992ea4c3a7949cb550123636ff1",
+  "case_json_sha256": "03a267a40d03e7264566bad61fff335e980ed12099c7c13fe7c49816048ad229",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-01873-000/1. Client Summary/Client Summary.pdf": "d310f4aa83c1ff1c1636cb50b8d8f25035bbbc7e35ab194043b530a7a106ef6e",
+    "2. Input Documents-20230101T000000Z-01873-000/2. Input Documents/Tax Document Attachments Summary.pdf": "fb08a20e5f46ee5b980da162f6e597c60470f4d02c98acdd7283e8a1190d3108",
+    "2. Input Documents-20230101T000000Z-01873-000/2. Input Documents/1099- DIV/1099-DIV KELLER.pdf": "76fa31db1af38d1b8f6cfb338359fa48e00f17f685d8c8f12e5f588723934205",
+    "2. Input Documents-20230101T000000Z-01873-000/2. Input Documents/1099-INT/1099-INT KELLER.pdf": "80ddc45aaa30120f2a605517c0eca8b662ca768ee010aa8a9d5ecedde13d9d1e",
+    "2. Input Documents-20230101T000000Z-01873-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "e05c52dd76c37232f5dd220368232a01716c1014f47cea62372e36f9403a514f",
+    "2. Input Documents-20230101T000000Z-01873-000/2. Input Documents/Form W-2/Form W-2.pdf": "c46206af31d81d4608fef592d6e155f101802c88ff5c0983d563b2303dae7050",
+    "2. Input Documents-20230101T000000Z-01873-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "5be8ef315cb4fc55fb2c1862da014837a1a76cbea579193ab90f21e57ec2fc6b",
+    "2. Input Documents-20230101T000000Z-01873-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "3da7bdfb2a7662ed19634138d6130b7ecca9a5f4beee640d77678e407b0040fa",
+    "3. Complete form-20230101T000000Z-01873-000/3. Complete form/2023 Tax Return Documents (Sage Keller (synthetic)).pdf": "d6bdbf6256d87791fde601e2149b87d734d26ba880c907060a8970694ad3636f",
+    "3. Complete form-20230101T000000Z-01873-000/3. Complete form/Completed forms - Summary.pdf": "ba8a2ccd37dd4a54bd477ccd93ff0b18eda189eeb124228188b956835b2fae95",
+    "4. Executive Summary-20230101T000000Z-01873-000/4. Executive Summary/Executive Summary Sage Keller 2023.pdf": "2d3c90dc7b1bd3c11626955d138de195890301400acf8621dc48da2e4902fec4"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

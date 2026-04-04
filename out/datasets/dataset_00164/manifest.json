@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-00164-000",
+  "tax_year": 2024,
+  "case_fingerprint": "a264b5cdb16f378ce9943ef4e394d15911f96b7ee553ee948aafe695cc6265ef",
+  "case_json_sha256": "bdf56531424a8326445b2744fa1b1fbfe7bf96cd2ddee94e0c0226e70028a113",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-00164-000/1. Client Summary/Client Summary.pdf": "5719bfb299eaae7cf2f77bce709c8618f5ff8b41150e03a99860f75b41c5bbe3",
+    "2. Input Documents-20240101T000000Z-00164-000/2. Input Documents/Tax Document Attachments Summary.pdf": "70ed61504461710bb9861374d3fc39b9b14f26229215e5fe471f7fa344ed4be6",
+    "2. Input Documents-20240101T000000Z-00164-000/2. Input Documents/1099- DIV/1099-DIV OKORO.pdf": "7b98348c07003fb75227632265454aa2b084185ea94c8576bef8878d8414e6c4",
+    "2. Input Documents-20240101T000000Z-00164-000/2. Input Documents/1099-INT/1099-INT OKORO.pdf": "aec14d6654923d7312234466100aa945596ee25e296a7ff3ed128aa43e098bf1",
+    "2. Input Documents-20240101T000000Z-00164-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "2a6163d4fb9e698cbe75e41757a24813ffb839c69cde7e087693614c5b9fc2d4",
+    "2. Input Documents-20240101T000000Z-00164-000/2. Input Documents/Form W-2/Form W-2.pdf": "5172ed402892aa547cb48be0d9c45fca4c5cf5ad3c7f562aa478ba9c69ce4bd1",
+    "2. Input Documents-20240101T000000Z-00164-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "76371b924eb40d3b5145ff4c8c9639c84a00423cba0aef09b7bb33e5d3b5656e",
+    "2. Input Documents-20240101T000000Z-00164-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "04f44b456173adc487352a4d04e1df7a37890e4815f337c46efabca1e75373c6",
+    "3. Complete form-20240101T000000Z-00164-000/3. Complete form/2024 Tax Return Documents (Emery Okoro (synthetic)).pdf": "e21f011b7b536c17fb0e4c5d9d0a41581a6712dbec3552d170185e22cbc14543",
+    "3. Complete form-20240101T000000Z-00164-000/3. Complete form/Completed forms - Summary.pdf": "5d2a38b69d0cfd90f9ae455a51d3f64ebf9fdfb477dcfa63ab7829b3a78cf929",
+    "4. Executive Summary-20240101T000000Z-00164-000/4. Executive Summary/Executive Summary Emery Okoro 2024.pdf": "daa2d9c40a93c34681a7f8798a894f553d09e4b90c4fd3a40fd9752d4a2e4c20"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

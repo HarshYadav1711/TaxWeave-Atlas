@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20250101T000000Z-00651-000",
+  "tax_year": 2025,
+  "case_fingerprint": "2b3eaa34b917706509f6718bf17521b30703b60fc34d66af6dddcd82e194a49d",
+  "case_json_sha256": "7d70317e8f95ba6ab0c29f8aeb7d0de6c24713f7b00c56b2f7c2fbba77b68288",
+  "files_sha256": {
+    "1. Client Summary-20250101T000000Z-00651-000/1. Client Summary/Client Summary.pdf": "346409ed5cdcb1084daa2d0e387dc7d13302471909ec1f8d60d647a4c8ca9028",
+    "2. Input Documents-20250101T000000Z-00651-000/2. Input Documents/Tax Document Attachments Summary.pdf": "4885fadef3d903c058cd05caed84a6a5285ce94876e88927e9d24113d3c22738",
+    "2. Input Documents-20250101T000000Z-00651-000/2. Input Documents/1099- DIV/1099-DIV REYES.pdf": "9a3773e11fb923b9cc0288f4aa2929e4ef761e98a4030e7b22ec3256c85ec321",
+    "2. Input Documents-20250101T000000Z-00651-000/2. Input Documents/1099-INT/1099-INT REYES.pdf": "948ec4578dee4f04fb6c0c7e1e49f76025790dcbfefc538c6fbe5d5e2c5cdc08",
+    "2. Input Documents-20250101T000000Z-00651-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2025_.pdf": "d7d71c31b3d4103d7d016bd0a0c050d99536bbda61d7f00a8506046750fae6cb",
+    "2. Input Documents-20250101T000000Z-00651-000/2. Input Documents/Form W-2/Form W-2.pdf": "1d9e465806fcbf238854a91b315a294e2ec29a9b9d14be983904d8dc469ba6a2",
+    "2. Input Documents-20250101T000000Z-00651-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "94e78a52d1046e1b6d936b3fe73682d0e794feb23c930a72bc3bff06f48f79d1",
+    "2. Input Documents-20250101T000000Z-00651-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2025.pdf": "119f79ebdaf71663c525096a27a33524b4fb3b153389a450974f8588b829e84f",
+    "3. Complete form-20250101T000000Z-00651-000/3. Complete form/2025 Tax Return Documents (Avery Reyes (synthetic)).pdf": "92f056ea80fe7444b5132b284d1916cf8e52a724eb24d2c51a02289a7db8078e",
+    "3. Complete form-20250101T000000Z-00651-000/3. Complete form/Completed forms - Summary.pdf": "11dc3013e119015dc71fc00a202862a63dacc271aae7f7ef0670f2862931ecef",
+    "4. Executive Summary-20250101T000000Z-00651-000/4. Executive Summary/Executive Summary Avery Reyes 2025.pdf": "8d72e5653de58eb29f13f53060d7af3aa42f3b843353bbc3998e760a78bfa913"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-01526-000",
+  "tax_year": 2023,
+  "case_fingerprint": "c3fb1b708e3b6f17ba295326a2c0235b5eeed694034850e269f23ba7e9a4e89f",
+  "case_json_sha256": "21c269b9c223845a4610c2be6bdd1619fd2825e000bcbb1ad9bb2abab4cd2957",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-01526-000/1. Client Summary/Client Summary.pdf": "25ff31ce6780cffafde48ebcd549b3b222d038b7b35fe8a8bd81dfa259b1dc31",
+    "2. Input Documents-20230101T000000Z-01526-000/2. Input Documents/Tax Document Attachments Summary.pdf": "917454c618f4d0dab730baf6292a188802b5bd0664535027f836efd9cdda7062",
+    "2. Input Documents-20230101T000000Z-01526-000/2. Input Documents/1099- DIV/1099-DIV HAYES.pdf": "fe9759b2551066a3c1bc98a7503df2cb71ba1706a890c9a74fa164d0e7905ea2",
+    "2. Input Documents-20230101T000000Z-01526-000/2. Input Documents/1099-INT/1099-INT HAYES.pdf": "bbee4e12e5218938a54a0988029d48d313875a9a4ba8472342824d77356ceb86",
+    "2. Input Documents-20230101T000000Z-01526-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "49f98632bbe1f845393168532ca00fd49b36a990b238e4c5db0812506af84e97",
+    "2. Input Documents-20230101T000000Z-01526-000/2. Input Documents/Form W-2/Form W-2.pdf": "0c361c5597c70278e152bd94b261be2324909b7dd7e7305c387d533c3f2a82bd",
+    "2. Input Documents-20230101T000000Z-01526-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "607a24601074c02f5100069ef10657eada8859d698d5ea332989b91b8b12456a",
+    "2. Input Documents-20230101T000000Z-01526-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "725ef7ad3fca7f9ed67a31795891cc77df9c9921369fa53dbd1f799456bc2064",
+    "3. Complete form-20230101T000000Z-01526-000/3. Complete form/2023 Tax Return Documents (Rowan Hayes (synthetic)).pdf": "faf7ce9097fe0034038766ff66dab88124e5d402cd050196d706ca9260682029",
+    "3. Complete form-20230101T000000Z-01526-000/3. Complete form/Completed forms - Summary.pdf": "32681c37741c54f26362e454ceff9dd746ebaa2af28d0e8b9345913c44db9101",
+    "4. Executive Summary-20230101T000000Z-01526-000/4. Executive Summary/Executive Summary Rowan Hayes 2023.pdf": "f7d0d42784562b589c1089d4167955d16142c35839ca541ad1a486fe760676fc"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

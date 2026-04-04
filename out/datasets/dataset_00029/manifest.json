@@ -6,17 +6,17 @@
   "case_fingerprint": "6e4f2735f94c15d839aa846e2eefce9f81603a8835f4d5839ff8fd84183db7bb",
   "case_json_sha256": "95b54cb4af57c7e334cf14b0944421193d0e410404370acb991193fae74f4824",
   "files_sha256": {
-    "1. Client Summary-20230101T000000Z-00029-000/1. Client Summary/Client Summary.pdf": "8508405de16536a77ccf6d0e1979a11e2eb1b6e60dafc13384b5853c4cc49f07",
-    "2. Input Documents-20230101T000000Z-00029-000/2. Input Documents/Tax Document Attachments Summary.pdf": "030bdf1809b0993d348f285a0a336596a78a8208eca69b481dafe13774901423",
-    "2. Input Documents-20230101T000000Z-00029-000/2. Input Documents/1099- DIV/1099-DIV MERCER.pdf": "cae4a641614f274fbe490c45a2c6758008856cee029ae0d8788e254696f9820d",
-    "2. Input Documents-20230101T000000Z-00029-000/2. Input Documents/1099-INT/1099-INT MERCER.pdf": "c0d79e32cafa0295e69d50d3914cf0d1de19d9dfa74847eafc66bce54f18bbca",
-    "2. Input Documents-20230101T000000Z-00029-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "b3314548c83e62e8d4369172440605a493cb34e10cc5d900c63b53e879c61553",
-    "2. Input Documents-20230101T000000Z-00029-000/2. Input Documents/Form W-2/Form W-2.pdf": "00ce698f4eef0d607277673e93643c4df70765c992a800b373e404badf5901cf",
-    "2. Input Documents-20230101T000000Z-00029-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "bb7219c671e310b945b3ed12bcd378d11341b40004785b197161dc2af9383122",
-    "2. Input Documents-20230101T000000Z-00029-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "102416a07fdbde2989356929d3cff720092492b72e1eb3d7f7d17901a16b846f",
-    "3. Complete form-20230101T000000Z-00029-000/3. Complete form/2023 Tax Return Documents (Avery Mercer (synthetic)).pdf": "9b32ac9aa89971679975cdb09bc4c23917756bf759fbeda4054a91f14bd06800",
-    "3. Complete form-20230101T000000Z-00029-000/3. Complete form/Completed forms - Summary.pdf": "fde95fce4f527e6011663e40088a3616e000e60006783ba8fd29509e21887319",
-    "4. Executive Summary-20230101T000000Z-00029-000/4. Executive Summary/Executive Summary Avery Mercer 2023.pdf": "2149171f28ef97007f3907ceff4c16425d4b150555cbf1b46f15e4e84b9db470"
+    "1. Client Summary-20230101T000000Z-00029-000/1. Client Summary/Client Summary.pdf": "e836213d0bae842efcc5b33f73bdeeed41b062cc2ed3b8343e78282985a0383d",
+    "2. Input Documents-20230101T000000Z-00029-000/2. Input Documents/Tax Document Attachments Summary.pdf": "b2fe0a3486ec09eca6047f75cfd68128aa2c011336eaa5347a9db64ccc3e49dc",
+    "2. Input Documents-20230101T000000Z-00029-000/2. Input Documents/1099- DIV/1099-DIV MERCER.pdf": "c8ecaec2016326cbda6f9c514dbe3fff8b838e6fe0e86d49c1f7939bdf9b4863",
+    "2. Input Documents-20230101T000000Z-00029-000/2. Input Documents/1099-INT/1099-INT MERCER.pdf": "ed5f94fb2bd19cfddce242b18270b8d9f2a835739b472ae2559f6f161a46e83a",
+    "2. Input Documents-20230101T000000Z-00029-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "44245c866315e166f7bcf389d73403138ae366a252cec5c875b4b4bb174d8c4d",
+    "2. Input Documents-20230101T000000Z-00029-000/2. Input Documents/Form W-2/Form W-2.pdf": "50d535e720ef24b6e59c7db6303db38c3f29a677a6154d8c3b89f7566e1ac972",
+    "2. Input Documents-20230101T000000Z-00029-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "222ce17ecc1d8fff0369efb926dc40a8a1784397b6b7ec79810b8378ba67602d",
+    "2. Input Documents-20230101T000000Z-00029-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "c7c0aaf60b6c4369cf6568e117af1780d66932c58e4b36180299eb1dcc91fba2",
+    "3. Complete form-20230101T000000Z-00029-000/3. Complete form/2023 Tax Return Documents (Avery Mercer (synthetic)).pdf": "beae77136306e54c6caf4b683b4d3c0222f909cbcac4e8a398ecd4d46f92738b",
+    "3. Complete form-20230101T000000Z-00029-000/3. Complete form/Completed forms - Summary.pdf": "b4b94fd15e10d399acbd55cb4ffa512edc28fbea1a7740aaa3684cf35e80f2f9",
+    "4. Executive Summary-20230101T000000Z-00029-000/4. Executive Summary/Executive Summary Avery Mercer 2023.pdf": "9d38d0cc92eb9abe8370c3f4e2cf27047179c05e399d3a3b72fb3d0da2d596dc"
   },
   "canonical_case_model": "SyntheticTaxCase"
 }

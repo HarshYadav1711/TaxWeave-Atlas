@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-00206-000",
+  "tax_year": 2022,
+  "case_fingerprint": "92e54be59ef369eb76d8963885f042d26091ff3abd7def0b92152bfc5653146e",
+  "case_json_sha256": "4016f2c59afc4a396798bb8a870bf28a896a8529fdd9612f3080a9f87b24952f",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-00206-000/1. Client Summary/Client Summary.pdf": "a312a44794398051deccbd89f4a71a0f88f8bee7dfa182670458a36cfba4dfe0",
+    "2. Input Documents-20220101T000000Z-00206-000/2. Input Documents/Tax Document Attachments Summary.pdf": "52531aa456ed07e22dee3a294b360f5aa65876924f895cb515f14d68f86517d3",
+    "2. Input Documents-20220101T000000Z-00206-000/2. Input Documents/1099- DIV/1099-DIV OKORO.pdf": "96768c0d040b66e5d6da42ae282ca640b4a73a9ed6f9ed7bea7fc8b0c646488d",
+    "2. Input Documents-20220101T000000Z-00206-000/2. Input Documents/1099-INT/1099-INT OKORO.pdf": "208c6bbce06bf7d3bfe093de66221184d4f0b0fee7d07aad477c95594202b6ee",
+    "2. Input Documents-20220101T000000Z-00206-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "85bcf993bba80419391b9c788f8d9dbd0ebc62fb4c865c499c59af4880b50d36",
+    "2. Input Documents-20220101T000000Z-00206-000/2. Input Documents/Form W-2/Form W-2.pdf": "40a9256922973249df536439e5d91b483d8352bba2d7a78dfd2b56dfab91527f",
+    "2. Input Documents-20220101T000000Z-00206-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "9da8aebabcc3d8837d15e2285e1d389152efbf25f140bfd8d4142ee2e8be75fd",
+    "2. Input Documents-20220101T000000Z-00206-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "35fe88febaa163312f9536549067a170ffc0f9d7fcc9c3c5709b556db9db1591",
+    "3. Complete form-20220101T000000Z-00206-000/3. Complete form/2022 Tax Return Documents (Parker Okoro (synthetic)).pdf": "e8b88c10e3fdf53e5791bf815de6302dec66e9781ca4332d7858f90b38f62020",
+    "3. Complete form-20220101T000000Z-00206-000/3. Complete form/Completed forms - Summary.pdf": "46eb38b0c379235e12295f9939e0a1e3a59dc28f65d2e536b586a21d3b7a1f02",
+    "4. Executive Summary-20220101T000000Z-00206-000/4. Executive Summary/Executive Summary Parker Okoro 2022.pdf": "80fe65bd403ba3f2b057a528446d1f8197abd5a38fc01049a4c91c72e37e99c5"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

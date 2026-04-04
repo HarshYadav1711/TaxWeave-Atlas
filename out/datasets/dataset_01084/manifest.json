@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-01084-000",
+  "tax_year": 2024,
+  "case_fingerprint": "6adbe6351a9b4875e338d2e3b2e692f5128e1b6f77b2e51893a67cbf4aa03c2e",
+  "case_json_sha256": "19895284b0983852c6d634308dc249c387f88f773f4d4871bf3b71a4fc332f6a",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-01084-000/1. Client Summary/Client Summary.pdf": "c79fe04b33f46a9f2c15938b3ae4c5f449f8351bf479064b786eaca967968b7a",
+    "2. Input Documents-20240101T000000Z-01084-000/2. Input Documents/Tax Document Attachments Summary.pdf": "a6aef965dc7a2ed2ba5936c2cf8a9e72148f34f03a261e5892e9dede30367247",
+    "2. Input Documents-20240101T000000Z-01084-000/2. Input Documents/1099- DIV/1099-DIV SULLIVAN.pdf": "79c98eafe8b1a00f4b981759ae12e479945f48aefbc059c4ac808ba12d62960a",
+    "2. Input Documents-20240101T000000Z-01084-000/2. Input Documents/1099-INT/1099-INT SULLIVAN.pdf": "78aaf79cc886dab542331482209e0d90543908932af761978d65fa9a1407190d",
+    "2. Input Documents-20240101T000000Z-01084-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "f4a8681f74650ddf36f861317812777c66ddb277da48139156c693f872d7b502",
+    "2. Input Documents-20240101T000000Z-01084-000/2. Input Documents/Form W-2/Form W-2.pdf": "79e56bd178e26f1c72999b249f0a32d16289c6a0e47105726ceb5005530c9281",
+    "2. Input Documents-20240101T000000Z-01084-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "f183c70d9cc295ca537aaaae300708681f0a958ed0cec1156c42e48121d434a3",
+    "2. Input Documents-20240101T000000Z-01084-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "845001bc04d7569c8de6f1820e884a4c82d220112653102f66008276c87888c9",
+    "3. Complete form-20240101T000000Z-01084-000/3. Complete form/2024 Tax Return Documents (Parker Sullivan (synthetic)).pdf": "a9a15862d964240fc8ab6d19399bcccec34e39a83e6a801aafca554acf1cdc49",
+    "3. Complete form-20240101T000000Z-01084-000/3. Complete form/Completed forms - Summary.pdf": "805933a67ffbc491404d4b28f2719f5bf9cc2ff041e9f41fc714743ee7c50ea0",
+    "4. Executive Summary-20240101T000000Z-01084-000/4. Executive Summary/Executive Summary Parker Sullivan 2024.pdf": "b5221403f814fbcec54172de82622c2395bf994e23a1bf8630c7fc72d1cec5cb"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

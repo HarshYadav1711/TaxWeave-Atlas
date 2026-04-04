@@ -311,14 +311,28 @@ def cmd_validate_specs() -> None:
 
 
 @main.command("render-pdfs")
-@click.argument("target", type=click.Path(path_type=Path, exists=True))
+@click.argument(
+    "target",
+    type=click.Path(path_type=Path, exists=True),
+    metavar="BATCH_ROOT_OR_CASE_JSON",
+)
 @click.option(
     "--reconcile",
     is_flag=True,
     help="Reconcile from source fields before render (stale case.json)",
 )
 def cmd_render_pdfs(target: Path, reconcile: bool) -> None:
-    """Regenerate staging + PDF-only export from _staging/datasets/.../case.json or batch root."""
+    """
+    Regenerate staging + PDF-only export.
+
+    TARGET must be a real path on disk. In PowerShell the character < is reserved;
+    typing a placeholder like <path> causes a parser error — use e.g. ./out instead.
+
+    \b
+      Batch (all datasets):  python -m taxweave_atlas render-pdfs ./out
+      One case folder:       python -m taxweave_atlas render-pdfs ./out/_staging/datasets/dataset_00001
+      Single case.json:      python -m taxweave_atlas render-pdfs ./out/_staging/datasets/dataset_00001/case.json
+    """
     from taxweave_atlas.pdf.pipeline import (
         load_case_from_path,
         render_dataset_deliverable_trees,

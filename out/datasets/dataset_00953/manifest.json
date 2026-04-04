@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-00953-000",
+  "tax_year": 2022,
+  "case_fingerprint": "7c732628ddac9bf886aa855ba3f7df137d672c114e8c210d589a32690c9ed118",
+  "case_json_sha256": "58334d5a6084e989ed985ad87541f33fd53aa4e893479c861a04bda220330050",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-00953-000/1. Client Summary/Client Summary.pdf": "dfc0172ed97c419df3bd751b0de6088f1d0f74e017f905ac30499fc440d74e23",
+    "2. Input Documents-20220101T000000Z-00953-000/2. Input Documents/Tax Document Attachments Summary.pdf": "f791f318f1f20f0a84d81a8881865a834392c97d24f6d6736ebff37168be42a6",
+    "2. Input Documents-20220101T000000Z-00953-000/2. Input Documents/1099- DIV/1099-DIV PATEL.pdf": "db7adf714f55ed0de22a74c8d3f1c6b91ae36e2a25d692474145fcec46a86277",
+    "2. Input Documents-20220101T000000Z-00953-000/2. Input Documents/1099-INT/1099-INT PATEL.pdf": "992cc335b72adec48a971a89e7dce250052f213c3fe18b04502756a1bc716337",
+    "2. Input Documents-20220101T000000Z-00953-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "29504087c7b7ffb3d79b490f747eb1144fbeb8ef539244f30b3c7165e122d5ef",
+    "2. Input Documents-20220101T000000Z-00953-000/2. Input Documents/Form W-2/Form W-2.pdf": "3167cce9c64dbb05a9b753c6d0fa34b3b0e7770cd2af16849f3333ba29f91dc4",
+    "2. Input Documents-20220101T000000Z-00953-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "df8f494c3c6bcbe8b2e4680d3767b497c4375b531e85de5c93930c5fa9d0c6e5",
+    "2. Input Documents-20220101T000000Z-00953-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "4489414fa8b19be391c1aeb614d2371836a2e66c9f771ed815a6167544b8b7e5",
+    "3. Complete form-20220101T000000Z-00953-000/3. Complete form/2022 Tax Return Documents (Jordan Patel (synthetic)).pdf": "ec34fb63a444f2ef4c6e2011371320d16fab79bd92f3cfb29aa3bc1746511594",
+    "3. Complete form-20220101T000000Z-00953-000/3. Complete form/Completed forms - Summary.pdf": "40950068284b092201aedb5c2cc029785b611f8287c7bd85431de2347325c7a0",
+    "4. Executive Summary-20220101T000000Z-00953-000/4. Executive Summary/Executive Summary Jordan Patel 2022.pdf": "7d0a3a0884aaa4c9870b626b30cb29769bad00ad4f4f7a4c2a4978194ff358f1"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

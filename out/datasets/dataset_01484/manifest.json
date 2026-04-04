@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-01484-000",
+  "tax_year": 2024,
+  "case_fingerprint": "7d8c132dcf9e03097d1f41f35af4d5bc085f1bc4538da9102c5efd780c9df215",
+  "case_json_sha256": "f5837ffbbd0e479f54731b8b308b3706460692a209cf95c088003783dbb3c977",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-01484-000/1. Client Summary/Client Summary.pdf": "1dfef126ededc2b123de4bb3ea577c61f576027f63daab77394629c2815a6108",
+    "2. Input Documents-20240101T000000Z-01484-000/2. Input Documents/Tax Document Attachments Summary.pdf": "09985e0d9785b56026c624ee30224246aca25c9f10500525687c2bdecc706eac",
+    "2. Input Documents-20240101T000000Z-01484-000/2. Input Documents/1099- DIV/1099-DIV DIAZ.pdf": "f0a1643e42eac5846837034d5641873dbfc0fdbd39bc45233e0c0d77ba266e72",
+    "2. Input Documents-20240101T000000Z-01484-000/2. Input Documents/1099-INT/1099-INT DIAZ.pdf": "3f0ef7e2bb163aefc6f03f80a47289f98c65312855c0d44bcc9e1f098d2ccb59",
+    "2. Input Documents-20240101T000000Z-01484-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "c136a859e66b714711959b7284821768180c639707504697ad991004bc4ca0ce",
+    "2. Input Documents-20240101T000000Z-01484-000/2. Input Documents/Form W-2/Form W-2.pdf": "5d5bd24a6453df0b79269c800ed621bd19dcd2245d6027a8839053f428efad66",
+    "2. Input Documents-20240101T000000Z-01484-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "84a71dd0da8fd01b6320e4e6b8f2b7484e61b9eabac79bf5fc927657d580414b",
+    "2. Input Documents-20240101T000000Z-01484-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "6751d492fb25d0f4438e265a05863b67930be08876d072dcc09aa66dbd1fee08",
+    "3. Complete form-20240101T000000Z-01484-000/3. Complete form/2024 Tax Return Documents (Quinn Diaz (synthetic)).pdf": "cbdf1646d5dfb4e32862cd7ee0115253380d48bd67b3d13896d7d6312ad0e15d",
+    "3. Complete form-20240101T000000Z-01484-000/3. Complete form/Completed forms - Summary.pdf": "78f074f8240717e721304c00e4809007c3388e1991f89aa029b6a56da9de69bb",
+    "4. Executive Summary-20240101T000000Z-01484-000/4. Executive Summary/Executive Summary Quinn Diaz 2024.pdf": "c026285a91b77e9042f583dd2bf9a1920b1913626264fd4af25ed2ad8a1decc4"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

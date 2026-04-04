@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20250101T000000Z-00191-000",
+  "tax_year": 2025,
+  "case_fingerprint": "93726e0cc8ad81d6702fd76d2817b80464d3b55dcf8db236fcfa92d677e6aee7",
+  "case_json_sha256": "1096be48abb9eaf0641c07a02257782928852979142090b5b48ff47d7c6e1604",
+  "files_sha256": {
+    "1. Client Summary-20250101T000000Z-00191-000/1. Client Summary/Client Summary.pdf": "40afa208a53de6bd7b30d6e5093da252b19a52b20f50440aba14373b34dd8a48",
+    "2. Input Documents-20250101T000000Z-00191-000/2. Input Documents/Tax Document Attachments Summary.pdf": "3e8d80cc540fb281c4ce3fee1322034910fa735962eed1784724d644605b3bb2",
+    "2. Input Documents-20250101T000000Z-00191-000/2. Input Documents/1099- DIV/1099-DIV FOSTER.pdf": "ada757cd6f5dca8f7c7aee88f1b4e9707ceef2d9d66f0596bef945eb1b525bd3",
+    "2. Input Documents-20250101T000000Z-00191-000/2. Input Documents/1099-INT/1099-INT FOSTER.pdf": "0b77cb497d43877d29f1d3fbed1ba15bea621d332fc0df019292e8dc6d6d1c2a",
+    "2. Input Documents-20250101T000000Z-00191-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2025_.pdf": "e35836bcfaaf6083e8a4d1345bdf1d57d3d6fef463d9f6f80a9823480c6725bc",
+    "2. Input Documents-20250101T000000Z-00191-000/2. Input Documents/Form W-2/Form W-2.pdf": "e9d2648c59b0ba4216916f67c23b8ca6b3282c8f8cf322192ec6b7d38c2bd51d",
+    "2. Input Documents-20250101T000000Z-00191-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "4152499db5202a90c69014f1adc1385a2063af6f8dc176e35187fa51d1be3b8c",
+    "2. Input Documents-20250101T000000Z-00191-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2025.pdf": "4bd4146a1488f4c951e30b27243bbe60c070d64f39aff83e3cf7e4bbef7418d8",
+    "3. Complete form-20250101T000000Z-00191-000/3. Complete form/2025 Tax Return Documents (Emery Foster (synthetic)).pdf": "b2ad12edbdc8c8ed9b2312d694dd1db0156f1ab8bd2e4549368af3dd4bf889bb",
+    "3. Complete form-20250101T000000Z-00191-000/3. Complete form/Completed forms - Summary.pdf": "30c7ef22dce03cc794fd20f3755ce69e4ed004324105a018920b455909d6be60",
+    "4. Executive Summary-20250101T000000Z-00191-000/4. Executive Summary/Executive Summary Emery Foster 2025.pdf": "a7e358135f602ebb06e2e17152d67a3924a8951d7b9bf5178c4b480a48274501"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-00165-000",
+  "tax_year": 2020,
+  "case_fingerprint": "6bb3db854267e609fe6bf5e282dd96dd584d75e87e964fac63f279eb0c7c344e",
+  "case_json_sha256": "6f852a9a3dcc688fe49b3c71eb75883a3a449db8b108de2f3d5a30b427327269",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-00165-000/1. Client Summary/Client Summary.pdf": "ae908474a1a54916a4acfcde337930e0c6b6e372ed1564f24830be34cfcb5d62",
+    "2. Input Documents-20200101T000000Z-00165-000/2. Input Documents/Tax Document Attachments Summary.pdf": "d003ae12f098426316a3930c42dfa8004baca3574661a0189c13ec5025b86c2f",
+    "2. Input Documents-20200101T000000Z-00165-000/2. Input Documents/1099- DIV/1099-DIV OKORO.pdf": "7a46e33b2bc3875deec967b9caab5cc760c20e55dc3103b244a69f4065de2d84",
+    "2. Input Documents-20200101T000000Z-00165-000/2. Input Documents/1099-INT/1099-INT OKORO.pdf": "d3b9653932d378bcf5160262f3134665889369a545f150cbc4fdb3210c1d830d",
+    "2. Input Documents-20200101T000000Z-00165-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "14cf4beafa17b9005ac92bb2989cc6cdee72d1dd9c93b0e96776e5db2fbab280",
+    "2. Input Documents-20200101T000000Z-00165-000/2. Input Documents/Form W-2/Form W-2.pdf": "20410ca0f44466b6d8b862fbcff5d2b70f25af28a21fb828a81194b9d0a664f4",
+    "2. Input Documents-20200101T000000Z-00165-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "59cfee521e6381ecb7c418d0448064a7a23dba0a9722eba4255b7c14921b67a6",
+    "2. Input Documents-20200101T000000Z-00165-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "7ca79532b65db4746a62d67af4590f309f66b7b00496d94080b0caa4ff7003b7",
+    "3. Complete form-20200101T000000Z-00165-000/3. Complete form/2020 Tax Return Documents (Sage Okoro (synthetic)).pdf": "5b435d649523159e68ee9f25a7f72e021449ce543c972d4254b2be6ac4519aec",
+    "3. Complete form-20200101T000000Z-00165-000/3. Complete form/Completed forms - Summary.pdf": "fea72c3194d2759ada4c4b9bdabc165a4cf2bb239fd7db8427cecd8cefcdb44b",
+    "4. Executive Summary-20200101T000000Z-00165-000/4. Executive Summary/Executive Summary Sage Okoro 2020.pdf": "ea9d493904129cd6b4f0467c5622c98e1a6b14783eec22d1613021b684edc85f"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

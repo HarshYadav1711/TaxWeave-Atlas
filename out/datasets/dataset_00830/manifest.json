@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-00830-000",
+  "tax_year": 2022,
+  "case_fingerprint": "54548aa9fabbab08f3a7e8a314349a270e0639b871577f6a983c509aa3311c9a",
+  "case_json_sha256": "5648c4fed298f73f837c42ea77dc0aa2e7ec6f2ec0d0e9e9a5cbcd2dd0e27471",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-00830-000/1. Client Summary/Client Summary.pdf": "cb4b569bdd7f97893bc887f85fc269c8c0fe62eeaeff63c5d5917cda9d4bde48",
+    "2. Input Documents-20220101T000000Z-00830-000/2. Input Documents/Tax Document Attachments Summary.pdf": "5e52c8d6cae5a14df8c13fed5cb67572dc7e33a73238f4114cfc6859de72ecb4",
+    "2. Input Documents-20220101T000000Z-00830-000/2. Input Documents/1099- DIV/1099-DIV HAYES.pdf": "2abc004d86d881dc4d7a25d6497bd8502558d5c7cd857dab7383b153ded05894",
+    "2. Input Documents-20220101T000000Z-00830-000/2. Input Documents/1099-INT/1099-INT HAYES.pdf": "2c0e330d9c07bcc753a50d352d169c2b8c2c0b81c6d43a48e572d8e92b84e276",
+    "2. Input Documents-20220101T000000Z-00830-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "82e1a85bff60b0c7a1b0c5cb5edb73a0df33833736ebf4cac0b44b6ad9330748",
+    "2. Input Documents-20220101T000000Z-00830-000/2. Input Documents/Form W-2/Form W-2.pdf": "7e94e4145f12ee401716692e34a1c031f50db59f50354bc63710b8bce0c27c4a",
+    "2. Input Documents-20220101T000000Z-00830-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "1a760756b4cf234d326f0b0a319cdc04eba361ff2bacc73bdcfdbe3b4dc433af",
+    "2. Input Documents-20220101T000000Z-00830-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "46b9fe090ff84e1cc6ee6339edbfa113a8b2ba20fa7668d67865e3d0b73e0962",
+    "3. Complete form-20220101T000000Z-00830-000/3. Complete form/2022 Tax Return Documents (River Hayes (synthetic)).pdf": "2691cd03f39fe5539d55e408e1f58e8b9ed718d8a9c029f1fc2718f83413db78",
+    "3. Complete form-20220101T000000Z-00830-000/3. Complete form/Completed forms - Summary.pdf": "acabe74c0571f5efac03525aea06786ad98d72183124df18cc9fe19f2acc15f9",
+    "4. Executive Summary-20220101T000000Z-00830-000/4. Executive Summary/Executive Summary River Hayes 2022.pdf": "ae08278c9dea737428e054269d48d4dcf93edfef575dc9f9070db3f34a5e76d1"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

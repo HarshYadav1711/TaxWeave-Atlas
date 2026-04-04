@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20250101T000000Z-01998-000",
+  "tax_year": 2025,
+  "case_fingerprint": "09ce6091384b517665f6a1b70c8b7030b02eceb695cf789bb8497c82edc3f6b4",
+  "case_json_sha256": "cb5e02b3c3dea59843fe5db612de70b5a739e1bb0fe3ee1bc3b435f5c35f4b2e",
+  "files_sha256": {
+    "1. Client Summary-20250101T000000Z-01998-000/1. Client Summary/Client Summary.pdf": "5c71dd2e0dd000eeda0435ccecae0d92b0a32d1d865ea3288b109547b09c7fa3",
+    "2. Input Documents-20250101T000000Z-01998-000/2. Input Documents/Tax Document Attachments Summary.pdf": "99cc9625014ee2d776da46815cef25bf1d6ce7a70809fd0be3ba20c013ef3505",
+    "2. Input Documents-20250101T000000Z-01998-000/2. Input Documents/1099- DIV/1099-DIV KELLER.pdf": "da8fffd10a99065bf2329aa3a50907d3a048da8cf13f55ca023b1d651b871b67",
+    "2. Input Documents-20250101T000000Z-01998-000/2. Input Documents/1099-INT/1099-INT KELLER.pdf": "1a1fc32b67f4000b976f7f465d825a9cecdb25d569882c1f924c0aac715e6581",
+    "2. Input Documents-20250101T000000Z-01998-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2025_.pdf": "e6ba58c5a63e889d16bf9310a6fbb56f25d5717842f8523864407322a6c8dc6a",
+    "2. Input Documents-20250101T000000Z-01998-000/2. Input Documents/Form W-2/Form W-2.pdf": "398311d57e7382934da1a44943fdea2096c86bd7a816f0fc2b42d3676ddb66ac",
+    "2. Input Documents-20250101T000000Z-01998-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "206ddb7ac415f794f8d8ad0d126f72d7f48f08f16ed0ed85f54fef156e4879cc",
+    "2. Input Documents-20250101T000000Z-01998-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2025.pdf": "158fcdb90b717165c05f9707fc93bcd0dcce76817cbb72010eae1f768a8a0968",
+    "3. Complete form-20250101T000000Z-01998-000/3. Complete form/2025 Tax Return Documents (Rowan Keller (synthetic)).pdf": "5d86bf7b259c017442166c849b19805cefca5f7c9607740e8a19d0a1116ad5ac",
+    "3. Complete form-20250101T000000Z-01998-000/3. Complete form/Completed forms - Summary.pdf": "d6355e6bdbf39039c5988541c3bc89e6fd974bad4629ff6ffce5aa1a5d8878db",
+    "4. Executive Summary-20250101T000000Z-01998-000/4. Executive Summary/Executive Summary Rowan Keller 2025.pdf": "59fb53a6b3c1de696d651561c2f1b35270107704bd1376d890fb985140608d24"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-01613-000",
+  "tax_year": 2022,
+  "case_fingerprint": "879b3b544701d495865882883584988ef0114f056dc4ad05cf656e1b2e923453",
+  "case_json_sha256": "e137de45528aad552dc8c526a676520c84a3ad1ea541ac807fdeefbd2ce82de8",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-01613-000/1. Client Summary/Client Summary.pdf": "61cf589096320aaa3f309e72686cfa2d2d9b225f4faf25a35cf9f8896284c9ae",
+    "2. Input Documents-20220101T000000Z-01613-000/2. Input Documents/Tax Document Attachments Summary.pdf": "b40cb510b48db7c652b2fb406e18156a2bb0e13aea2bf45c95224a4f491061c3",
+    "2. Input Documents-20220101T000000Z-01613-000/2. Input Documents/1099- DIV/1099-DIV FOSTER.pdf": "60c6fa0f67f75c00e1d2ead40838846df280f62ab46e3c646b76e24cc2f72fe0",
+    "2. Input Documents-20220101T000000Z-01613-000/2. Input Documents/1099-INT/1099-INT FOSTER.pdf": "6404c4d561c89b65808b0276ced52585bb521ee3401c8c0ab063a2bea17b6674",
+    "2. Input Documents-20220101T000000Z-01613-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "238e5b4271a04b6d4d0a6d836b2322561015da6b198a0f33a4b042bb9c00b3e9",
+    "2. Input Documents-20220101T000000Z-01613-000/2. Input Documents/Form W-2/Form W-2.pdf": "3e7cae0961864d62935bdeb1c9f89b2fea2bb35a6841b1aa5922fa27c7e2b29f",
+    "2. Input Documents-20220101T000000Z-01613-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "9c3847ecc22bb08feaa0b15aa3449213620a5344b50466295582b4b8bb78b6a4",
+    "2. Input Documents-20220101T000000Z-01613-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "208213549a6bdc11000e4bec8db13c922518978cbf507769c5cc54bc12a0341b",
+    "3. Complete form-20220101T000000Z-01613-000/3. Complete form/2022 Tax Return Documents (Casey Foster (synthetic)).pdf": "84f22b339759afaadc3dbf984227bcbe786303a36ec21ba79b54b0d73a65ced9",
+    "3. Complete form-20220101T000000Z-01613-000/3. Complete form/Completed forms - Summary.pdf": "669a4ea5430c0c64ba15f5abc34830305a9bb05d4f9dedcf4f956bb70eca16ad",
+    "4. Executive Summary-20220101T000000Z-01613-000/4. Executive Summary/Executive Summary Casey Foster 2022.pdf": "da92a222dbbc45e2a12922a05e8e52e9ea5f043279677648f49f7a26bc8a1dd9"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-00980-000",
+  "tax_year": 2023,
+  "case_fingerprint": "a1d76b6bc8db706507a44e7ba976dbd8371ca366df6e89eb1a04d53fa57c1549",
+  "case_json_sha256": "f693a0b1aecef4473067bd9cc147ce3420f605f5c6d5a8cb818d1f761e5be4a6",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-00980-000/1. Client Summary/Client Summary.pdf": "856b74a09f0889494b2628fc3e302e7b35167a842ca32220f93960fca7167f91",
+    "2. Input Documents-20230101T000000Z-00980-000/2. Input Documents/Tax Document Attachments Summary.pdf": "a666ef556a5f23e620d15b51dfceeb5f60c23b18c04efa548b251f109125f661",
+    "2. Input Documents-20230101T000000Z-00980-000/2. Input Documents/1099- DIV/1099-DIV CARTER.pdf": "850cb472c7f34c2489bacece53355fdb9964864b6d756ce4cd6132fbea2f20ae",
+    "2. Input Documents-20230101T000000Z-00980-000/2. Input Documents/1099-INT/1099-INT CARTER.pdf": "d87c8cc9a2fb971f41237fa92954dcfd652ff3ff629f69430c9d07c150ab4a16",
+    "2. Input Documents-20230101T000000Z-00980-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "dff4f0887127ba19645510a60e395ae2224243a2c16688ad748aef6edbcf25de",
+    "2. Input Documents-20230101T000000Z-00980-000/2. Input Documents/Form W-2/Form W-2.pdf": "a7704a5d3bc8c3579693482befdbbdec729860ab8f510aab771b84c0354d92b6",
+    "2. Input Documents-20230101T000000Z-00980-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "d6ad572f45c3a39ec125e21e7b5686af00a98b228e9a1041b188bd02726f5ca0",
+    "2. Input Documents-20230101T000000Z-00980-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "2251870b9bdb1a6c5ed0e879bf94933aa0a53a8e2be219da477e41942aa812d6",
+    "3. Complete form-20230101T000000Z-00980-000/3. Complete form/2023 Tax Return Documents (Jordan Carter (synthetic)).pdf": "3728c1e27b36346b9c0bcdd9e0395f1380072edbec384958aa18fac2d782c09a",
+    "3. Complete form-20230101T000000Z-00980-000/3. Complete form/Completed forms - Summary.pdf": "82efd8c5f92c3a936cf2c49b1486bec43345078cdf77d9810f74099b83c0163e",
+    "4. Executive Summary-20230101T000000Z-00980-000/4. Executive Summary/Executive Summary Jordan Carter 2023.pdf": "ec83a2504984170d701e73402a5cd073b135aa2ff3988f160ec85bd111d27e80"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

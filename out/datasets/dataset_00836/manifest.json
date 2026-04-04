@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-00836-000",
+  "tax_year": 2023,
+  "case_fingerprint": "d3ddfe2bde219a24cbcb2aba30ee0c0db4c5ec76e1a9c7e9296f6e7f1d37a0d0",
+  "case_json_sha256": "7d12ad45708d9ac44afd421d2a406ca2ef6c940bebb8c8e9cf9271f01881f31c",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-00836-000/1. Client Summary/Client Summary.pdf": "dd31478d7e40b776b84578be975f7d9b9b4534868d08d5ceacc761255bfe9d2e",
+    "2. Input Documents-20230101T000000Z-00836-000/2. Input Documents/Tax Document Attachments Summary.pdf": "8d4b279ec5f0e17c613d1847c15d5349e3533c54df776d491a2d159e93936953",
+    "2. Input Documents-20230101T000000Z-00836-000/2. Input Documents/1099- DIV/1099-DIV OKORO.pdf": "106c7a099e3fe4ee41d67cf1524bc6540a92558a81e82aa62b57160c0d408fd4",
+    "2. Input Documents-20230101T000000Z-00836-000/2. Input Documents/1099-INT/1099-INT OKORO.pdf": "8c9cbdf916477d160f0016e5d307be8f1db884a0fe66e4a32a1c294d9d6a5a8d",
+    "2. Input Documents-20230101T000000Z-00836-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "203a32742752e3ef7ecbc6d8dcb37276d716874355e71f55f845b2b67f33f754",
+    "2. Input Documents-20230101T000000Z-00836-000/2. Input Documents/Form W-2/Form W-2.pdf": "01095c7d34b6d06683c198042ae2bd1f556cda986e5fd5f5299b14e3672a10c0",
+    "2. Input Documents-20230101T000000Z-00836-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "ccd69410e7cb218650758e2ac18fe5c2940ca95941c7d05f14eb681b440165de",
+    "2. Input Documents-20230101T000000Z-00836-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "430e720b0b99ff950565d86302fabadc16459217902837a4725dcd83dfa9889f",
+    "3. Complete form-20230101T000000Z-00836-000/3. Complete form/2023 Tax Return Documents (Finley Okoro (synthetic)).pdf": "c578aea4f9e421f99ee821cc544994f8a4df04e13c3f06f712159a8a7f9f7ad5",
+    "3. Complete form-20230101T000000Z-00836-000/3. Complete form/Completed forms - Summary.pdf": "c301ee490d686a6381eb4589eea56ded9eb70f15b01de381db8459f225d42fee",
+    "4. Executive Summary-20230101T000000Z-00836-000/4. Executive Summary/Executive Summary Finley Okoro 2023.pdf": "9a08ea49bbc9da778139b3eea13899a223c4f8a05230f4ca8c7943f4aac8d048"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-00397-000",
+  "tax_year": 2022,
+  "case_fingerprint": "2f19bc5b4888bd1fd82d4e77b4891f1a3cea730015f96bfd4e5887f274bfc751",
+  "case_json_sha256": "2d321c56ac139171f4529eddfaf28ad252750b337ccdc79fcaa302df38882bcb",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-00397-000/1. Client Summary/Client Summary.pdf": "ed7b9001282e8b90fad96a8b59a02277f2632cba25322c99cfd510d36bbd4370",
+    "2. Input Documents-20220101T000000Z-00397-000/2. Input Documents/Tax Document Attachments Summary.pdf": "80b3e2ea6a7f3646f198012265f93fb48e0d621109d5e702b22bcb32d6fb11bf",
+    "2. Input Documents-20220101T000000Z-00397-000/2. Input Documents/1099- DIV/1099-DIV MERCER.pdf": "50c14d568546377fb7551629ad7325ec16e55dedc573e75a9cf74c0301d184c6",
+    "2. Input Documents-20220101T000000Z-00397-000/2. Input Documents/1099-INT/1099-INT MERCER.pdf": "05a44bd6acff83051640348c121110e40fb90e437292d07c254cc9c7287cec2e",
+    "2. Input Documents-20220101T000000Z-00397-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "926397f01f2f4b36d73089ef8cbc2491347138342a6fa748f55aa91053136ec8",
+    "2. Input Documents-20220101T000000Z-00397-000/2. Input Documents/Form W-2/Form W-2.pdf": "cfddd515a82da6bfc23d059ed41cfcac988c114156e48266348e16ea32ab11bd",
+    "2. Input Documents-20220101T000000Z-00397-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "b7498d9a3b9fec1bac0345e3e3d98b3dbf27934c47d0001b4eff3e50b845d968",
+    "2. Input Documents-20220101T000000Z-00397-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "fea2fe4b4074d0ffe2c2a42d24dc2b6b896594f8fa309b85f3f8e50db6c2a31a",
+    "3. Complete form-20220101T000000Z-00397-000/3. Complete form/2022 Tax Return Documents (Rowan Mercer (synthetic)).pdf": "c2ec0bbcaf20bb4f729d4305b3ef2b8c9aa299943cdd4883388dac8c56517a84",
+    "3. Complete form-20220101T000000Z-00397-000/3. Complete form/Completed forms - Summary.pdf": "d0187b187c63138f6d89f5b83721a83d8be4326954999a568e9af80b1c0194a5",
+    "4. Executive Summary-20220101T000000Z-00397-000/4. Executive Summary/Executive Summary Rowan Mercer 2022.pdf": "1096010b908711bde45faa5da4799620624f99b6e417f1e4cc9bb1c97284801c"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

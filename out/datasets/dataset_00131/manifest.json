@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-00131-000",
+  "tax_year": 2022,
+  "case_fingerprint": "93b18c0e4ae8989b21e4d2916058dd7a9cdebe9e192a47ea2255b29d483fedd4",
+  "case_json_sha256": "4c25331402ac5fdbe358fae26c42883ce967006f5bc3e2816adba1eaa6696f00",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-00131-000/1. Client Summary/Client Summary.pdf": "19819c4e86ff19bba070e991c479557fd82e4daf3bba4d9aa2c6b39c06807187",
+    "2. Input Documents-20220101T000000Z-00131-000/2. Input Documents/Tax Document Attachments Summary.pdf": "72110ff882046e310e9ad0b6a5b7a11e3b4bafe35765597750897cdd35dbfb86",
+    "2. Input Documents-20220101T000000Z-00131-000/2. Input Documents/1099- DIV/1099-DIV LAWSON.pdf": "148d6c7eca2666abf0d967db4a60b7908a158ddc818f99f9e7216ee22d5ba512",
+    "2. Input Documents-20220101T000000Z-00131-000/2. Input Documents/1099-INT/1099-INT LAWSON.pdf": "a54ef65eb40ac607aaa71497c2c98273decf752f7160cf9e3640624458d44146",
+    "2. Input Documents-20220101T000000Z-00131-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "abeec6cab18224a9a87c5c079a48da2a69b4aacb84ce211d7c57b66463b06d76",
+    "2. Input Documents-20220101T000000Z-00131-000/2. Input Documents/Form W-2/Form W-2.pdf": "f4db920ac66541620d53ac39edd8bb6191b930569c407539a4f2d16749809170",
+    "2. Input Documents-20220101T000000Z-00131-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "58dd1b07942fd3bf59fd6b2e6fbc9ef13c7c67749cce2ca4f2ab16162f6411a6",
+    "2. Input Documents-20220101T000000Z-00131-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "a2ad4b93fbf9d88d482c24d1fbb4d344b9b2b5919a09e3aad6dee1193bff3acb",
+    "3. Complete form-20220101T000000Z-00131-000/3. Complete form/2022 Tax Return Documents (Sage Lawson (synthetic)).pdf": "46793e5ebe83edb4331927f3ecd7e0ae993e5053b746ad6bba9dd7dab4c8d7f8",
+    "3. Complete form-20220101T000000Z-00131-000/3. Complete form/Completed forms - Summary.pdf": "6025e45a9d51aa7b017c9746f8509c247d0fa8cf8deba0d6f5f17e699f20fddc",
+    "4. Executive Summary-20220101T000000Z-00131-000/4. Executive Summary/Executive Summary Sage Lawson 2022.pdf": "c15ec0b5ed8123e70ca6bd93e323e3abdd73688038044db55cea41d0b569ce65"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-00390-000",
+  "tax_year": 2024,
+  "case_fingerprint": "f495aa8d1c204e64c3acfd87c43f948e7ecb4a93879d6a4382d8f0e9fa582ff5",
+  "case_json_sha256": "ca66f2ee084532420dd210570c8a6e43f0239f28ad4a238a2eb8eee9a4036e80",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-00390-000/1. Client Summary/Client Summary.pdf": "1d6f5fb65e232df4e2683041d2099c1e6c8fe37962263db17a4153aa1237122f",
+    "2. Input Documents-20240101T000000Z-00390-000/2. Input Documents/Tax Document Attachments Summary.pdf": "4ad755a71435bc55dbab6bd165db295eb14f5e17876cefbd1e27bcf777325711",
+    "2. Input Documents-20240101T000000Z-00390-000/2. Input Documents/1099- DIV/1099-DIV CARTER.pdf": "cb7ee6a3261113206151f29d43d58547d8d1ebd395b1096e994b9271e3f9ea6d",
+    "2. Input Documents-20240101T000000Z-00390-000/2. Input Documents/1099-INT/1099-INT CARTER.pdf": "c0e96b4515091bfc94f1f16483c94bea3a7dc60f81c1c273d5df22ac98e27ce1",
+    "2. Input Documents-20240101T000000Z-00390-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "fb4fad7c0b17770a524e56a77a12b9ec01f28622af824ee57f3ccb6c1dd65691",
+    "2. Input Documents-20240101T000000Z-00390-000/2. Input Documents/Form W-2/Form W-2.pdf": "5de0c883b6cc6d115f4867ccb89daef4889f32ba7c91bd3ea455ec6401f87222",
+    "2. Input Documents-20240101T000000Z-00390-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "a9b22340a6c391a1edafae7a328332eed6776d792addf13ccb0acde2ee1e0276",
+    "2. Input Documents-20240101T000000Z-00390-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "e1c0bde06ea7d87b2c6767853479325bc92282f40383f3b75176a8fd3ac3bbfd",
+    "3. Complete form-20240101T000000Z-00390-000/3. Complete form/2024 Tax Return Documents (Riley Carter (synthetic)).pdf": "23e6bd62cbe85d21b9abecbab7b7ccdef95fb24f63ff42b6e855de8c5ab9711b",
+    "3. Complete form-20240101T000000Z-00390-000/3. Complete form/Completed forms - Summary.pdf": "7e8edcafcda667bfba0e3550afa071773c9f89796835db1b67844929f6737ccc",
+    "4. Executive Summary-20240101T000000Z-00390-000/4. Executive Summary/Executive Summary Riley Carter 2024.pdf": "372bf8df838b5db85542e6bdfc2ce8afaa95129fe2a96201153d39740db9a908"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

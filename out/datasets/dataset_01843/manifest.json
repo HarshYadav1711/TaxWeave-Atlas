@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-01843-000",
+  "tax_year": 2023,
+  "case_fingerprint": "b364a454e27a510b4b99c84365a0cffb76b0dfef7f278efc71473b41de48e413",
+  "case_json_sha256": "1fe11b3298acfe2874e3d3244f763445baf56695507a336f8645c7044aa0d133",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-01843-000/1. Client Summary/Client Summary.pdf": "114a5f8e04e0442952885fcf12a1e2ce902f92cc43c8b47109e7f0343d6baaed",
+    "2. Input Documents-20230101T000000Z-01843-000/2. Input Documents/Tax Document Attachments Summary.pdf": "71640a4a716707d1af523018f89d17d5171ac9d3ea3ead280ade5468ceb1abd0",
+    "2. Input Documents-20230101T000000Z-01843-000/2. Input Documents/1099- DIV/1099-DIV INGRAM.pdf": "d58b0272cef71445fe650561ad7f9248a39062978efc5495516b83f68eabae01",
+    "2. Input Documents-20230101T000000Z-01843-000/2. Input Documents/1099-INT/1099-INT INGRAM.pdf": "4dfff9cc12935c53f025c15e4e18e71614205aebd3986f029b4ad29de5b50ea0",
+    "2. Input Documents-20230101T000000Z-01843-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "e91fd4f91795c2456c86421297573ae0796812dd8d0044221a03a6010815fadc",
+    "2. Input Documents-20230101T000000Z-01843-000/2. Input Documents/Form W-2/Form W-2.pdf": "9d52a721d102247fbe7fb303144d4e45f7e3a6a65261825423edfa79570ce4a6",
+    "2. Input Documents-20230101T000000Z-01843-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "1b441a83c82e40d411cfc995ba14c655a9de11b6bc101491753570f944930420",
+    "2. Input Documents-20230101T000000Z-01843-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "6960f507e0db8265da3774eac5baf146566b284168937b37ad5dd3bbbb46ed4e",
+    "3. Complete form-20230101T000000Z-01843-000/3. Complete form/2023 Tax Return Documents (Finley Ingram (synthetic)).pdf": "75af17bd83a60f7c8a17cf8464b997ae36d45e1d3efa247fe642239475cab723",
+    "3. Complete form-20230101T000000Z-01843-000/3. Complete form/Completed forms - Summary.pdf": "2228ca874bfc5fbba921eb3826c5c577099704dfdd4109f6353ad38c8ae68005",
+    "4. Executive Summary-20230101T000000Z-01843-000/4. Executive Summary/Executive Summary Finley Ingram 2023.pdf": "760d4d986e314618051c290a0ed4c2cf0b8c88b7de2ee9028943e45bf6e25353"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

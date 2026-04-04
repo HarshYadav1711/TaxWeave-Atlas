@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-00612-000",
+  "tax_year": 2024,
+  "case_fingerprint": "c6b9b179cfe08a64ba7d461d32efc8914226852e39404dad90390baa29b1cbb7",
+  "case_json_sha256": "bf8dc30c252f81c1206ff3cf3eaec4ba710f4710ef0bef4240f1764511e5dd82",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-00612-000/1. Client Summary/Client Summary.pdf": "f6fe10fdbf5deec72398cf562fc22191b6a06ce4ca443ce5f3a8eee6baeb1ebc",
+    "2. Input Documents-20240101T000000Z-00612-000/2. Input Documents/Tax Document Attachments Summary.pdf": "166fa614cdde37f29a489527287ed221fdd168ef840159a6ede1c7461c14671a",
+    "2. Input Documents-20240101T000000Z-00612-000/2. Input Documents/1099- DIV/1099-DIV DIAZ.pdf": "e277f5faffc51d85d6ea7843c66a840f4eac4c0a6e9b2bdae2623663e9cf00cd",
+    "2. Input Documents-20240101T000000Z-00612-000/2. Input Documents/1099-INT/1099-INT DIAZ.pdf": "02e19e5dc7def149fe4a8ff20e3fc65d1d422f2bd751a6c9a6771e9891e5e245",
+    "2. Input Documents-20240101T000000Z-00612-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "76ff9812060ccfd5976852e7ce424bd9778a6560b0224cb794ab02168d71bdd7",
+    "2. Input Documents-20240101T000000Z-00612-000/2. Input Documents/Form W-2/Form W-2.pdf": "4244c44fb093f53c4e6d66c5c1396255fc51e9266dae706152cb4b04382f06f9",
+    "2. Input Documents-20240101T000000Z-00612-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "749733d5a8318c7129741116e7c9c7660e02248ff13429f4195d2f492f289d8b",
+    "2. Input Documents-20240101T000000Z-00612-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "f339d33deebfaba75069f2b9a9109ea52bc9b9ddf3b372999cb9235f5efc736f",
+    "3. Complete form-20240101T000000Z-00612-000/3. Complete form/2024 Tax Return Documents (Reese Diaz (synthetic)).pdf": "3a5681bd706b02cb10ff45a8cbc353275e5eadce1eb7ec83a25661f2de737bc8",
+    "3. Complete form-20240101T000000Z-00612-000/3. Complete form/Completed forms - Summary.pdf": "5c719ce954575bda0f3755cd868590880b3817c4d6a515bb11082f83b2674639",
+    "4. Executive Summary-20240101T000000Z-00612-000/4. Executive Summary/Executive Summary Reese Diaz 2024.pdf": "78c07a164ee996afa2c1ef857ac410b643f909afe930b777b11c85ad1a771ed3"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

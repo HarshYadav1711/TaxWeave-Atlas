@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-01544-000",
+  "tax_year": 2020,
+  "case_fingerprint": "e35b7c78ee48fe09dd03d9ba635d2df679f740f6a0ed11f59469764dfe999895",
+  "case_json_sha256": "6ecde095567c3067516c67ff0b76637c34ec38969fc1f91a1d896b1d7162dc16",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-01544-000/1. Client Summary/Client Summary.pdf": "25fc2669e99dc6f78815dcb82f2058b8e1410b98eb0cc1ab594647fb410b9a86",
+    "2. Input Documents-20200101T000000Z-01544-000/2. Input Documents/Tax Document Attachments Summary.pdf": "e4e2282d85e55f52496016c057ecb2c6c473c614d096bd779e52899a5d47ac7c",
+    "2. Input Documents-20200101T000000Z-01544-000/2. Input Documents/1099- DIV/1099-DIV OKORO.pdf": "80b3858e4246ce4922266863fc58271aa212203811b741776b3741f32455dce8",
+    "2. Input Documents-20200101T000000Z-01544-000/2. Input Documents/1099-INT/1099-INT OKORO.pdf": "4b65ef576512ebfd9429095f331ebdefbb5b89167804cf7d4e61bd0da7bbd54b",
+    "2. Input Documents-20200101T000000Z-01544-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "531e9ede2d077f17f35dad18b14849d3dcb1c17b080599a2b96cc33ea29cac54",
+    "2. Input Documents-20200101T000000Z-01544-000/2. Input Documents/Form W-2/Form W-2.pdf": "0f891a406aaa781849d6b8899b6980a381bfb37843113a7a939063947b6d8d8a",
+    "2. Input Documents-20200101T000000Z-01544-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "6497c1d3523e4bdbf47c98f4df15ef52fadef2e37165cf4de534c85a303e7139",
+    "2. Input Documents-20200101T000000Z-01544-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "f890fb70a04c43f3f588f11c9f60056f19ec6ceea6cbf5e2ff0b5284d8d8461c",
+    "3. Complete form-20200101T000000Z-01544-000/3. Complete form/2020 Tax Return Documents (Jordan Okoro (synthetic)).pdf": "c1c4f6ddf01534c322538583127cc6c7e065706e272f2319f00d81bfb25df48c",
+    "3. Complete form-20200101T000000Z-01544-000/3. Complete form/Completed forms - Summary.pdf": "bbef82da1f86e6b08069762b0954c67cc4a88f573fbc3667399cff3f7aaeee49",
+    "4. Executive Summary-20200101T000000Z-01544-000/4. Executive Summary/Executive Summary Jordan Okoro 2020.pdf": "a2497df0f9852bbb0df7f7eb10a15298e55a2d4ab175d614342db1f6f52a5834"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

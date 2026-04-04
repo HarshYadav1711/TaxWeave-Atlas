@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-00804-000",
+  "tax_year": 2022,
+  "case_fingerprint": "d580c71c455c2fade4ed7b4f81e9f2411358eae10183cf6e0fef165b57facc03",
+  "case_json_sha256": "7742d29c7684bf563f5cf14a4b26f62f7b46967c0983f5afd060756a0656e97e",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-00804-000/1. Client Summary/Client Summary.pdf": "de4231c29af22e5765e071c24ae2a74a53a49f308fa5fb8326f4bc44cba4f194",
+    "2. Input Documents-20220101T000000Z-00804-000/2. Input Documents/Tax Document Attachments Summary.pdf": "4c001b029d9888dc38ff610b62986bd73499e10db7309f0d8b32f18c22dc0eaa",
+    "2. Input Documents-20220101T000000Z-00804-000/2. Input Documents/1099- DIV/1099-DIV CARTER.pdf": "ad94add3aa39102b4ae1f27f3639ce9a92ce41dc80331a97aad808bc44fd2c06",
+    "2. Input Documents-20220101T000000Z-00804-000/2. Input Documents/1099-INT/1099-INT CARTER.pdf": "7c2fb014d5ed9e11cef791e0e03719635d02d517e4f243e9ce1f1824314a8be3",
+    "2. Input Documents-20220101T000000Z-00804-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "519cdb814d396ec864b551e3752e3f329a568f22ec0ece2bc91e565e754600d9",
+    "2. Input Documents-20220101T000000Z-00804-000/2. Input Documents/Form W-2/Form W-2.pdf": "a7e6c42bbc87698118c8a40bdbeaadacf401ea65cc58acf24709349352de7037",
+    "2. Input Documents-20220101T000000Z-00804-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "6cc6c0e3c17a628fb751a3719016283abc743da890593bfbaa0dbe39cf0a8bfb",
+    "2. Input Documents-20220101T000000Z-00804-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "a05d80442025bed6f12b59c7cbe72ae65d67d271e199ab33c7817b92f4261ae1",
+    "3. Complete form-20220101T000000Z-00804-000/3. Complete form/2022 Tax Return Documents (Morgan Carter (synthetic)).pdf": "1141ea02483132d8c12ed175e7f7b3d9c3e9b01a6dc5ec7815fa464eb460f486",
+    "3. Complete form-20220101T000000Z-00804-000/3. Complete form/Completed forms - Summary.pdf": "af04cb33f0e0dce3160fc64184a91cf8f2fbef5439c7542b9903c3803e5fe298",
+    "4. Executive Summary-20220101T000000Z-00804-000/4. Executive Summary/Executive Summary Morgan Carter 2022.pdf": "190f4870726ee5c475f5fb262826052fa5c24d705ae25a2756f879875dc69bb9"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-01099-000",
+  "tax_year": 2020,
+  "case_fingerprint": "d663f55bc210b18d44af550ebef9258d39a3ad57bda3dd36bf7b02eaf659909b",
+  "case_json_sha256": "352bf43670c5d57f2cf353d9759706a78886930e618dfc506dcfa50c6bb6f044",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-01099-000/1. Client Summary/Client Summary.pdf": "1a8a9c5cd10c6ae8e0664d0a9b59759f1dd9ebe18b69c21be2c1bca208d67185",
+    "2. Input Documents-20200101T000000Z-01099-000/2. Input Documents/Tax Document Attachments Summary.pdf": "e5ab74bde02442875fa7d8401d913c19d0b18998d9d2ee89e95e20ac0d1a4203",
+    "2. Input Documents-20200101T000000Z-01099-000/2. Input Documents/1099- DIV/1099-DIV BENNETT.pdf": "5ccf84fcb3effac1642db4623d5a97962e94459ce1f5cd4643e8a3b28cd5c2d3",
+    "2. Input Documents-20200101T000000Z-01099-000/2. Input Documents/1099-INT/1099-INT BENNETT.pdf": "e2f4dfd2914d5a752723b4b7b70ca81d43803ce965c56757b04c7fb7c9b67288",
+    "2. Input Documents-20200101T000000Z-01099-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "2a1cc380943b7fda8fc46c84ada126195077f5245adc3e483e6b3bbcd64deb0a",
+    "2. Input Documents-20200101T000000Z-01099-000/2. Input Documents/Form W-2/Form W-2.pdf": "5e129059cb9f5108fab11a1fb5ee6c4abb50b1d52b5dea8d3353f3510bbe2a03",
+    "2. Input Documents-20200101T000000Z-01099-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "306b2da662a71f865bc01ce24a89b6455a821a7f3588cd6ea5e3e719e2ca508c",
+    "2. Input Documents-20200101T000000Z-01099-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "999701a736b482b0900645dfd4c96fd302c4ae43e8df77e2f58fdb210b9960bd",
+    "3. Complete form-20200101T000000Z-01099-000/3. Complete form/2020 Tax Return Documents (Morgan Bennett (synthetic)).pdf": "868b467cd95797f0c05b0046bb94c5b4fc2cd834bcc0fc456a546b66e1542e1a",
+    "3. Complete form-20200101T000000Z-01099-000/3. Complete form/Completed forms - Summary.pdf": "7ee863bd481857a0b1039330c530ee0ebfaeeb341ffcf660e9ca0e082d97471b",
+    "4. Executive Summary-20200101T000000Z-01099-000/4. Executive Summary/Executive Summary Morgan Bennett 2020.pdf": "abcb1625fef56c15114d8134604d450f45851138b35f55eb0c4fece351f9b0dd"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

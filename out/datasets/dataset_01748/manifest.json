@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-01748-000",
+  "tax_year": 2022,
+  "case_fingerprint": "2c2a10154c22f2d7ddc78b6ec909d5c39900ee85991aa3095e833e1125de8b2e",
+  "case_json_sha256": "5092663c7741b156cd4d998dc767800c55c46ba59ad4229df020ab6b11b765be",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-01748-000/1. Client Summary/Client Summary.pdf": "f9e8fa0a6da22d5dc3059d6fda6a6e18a6e3fbed9ec1984db088bd6950600368",
+    "2. Input Documents-20220101T000000Z-01748-000/2. Input Documents/Tax Document Attachments Summary.pdf": "1c910c9e18cc3ac65afea528c70c88bd52d72a55b4f40a6e50cf4e26ff9d206e",
+    "2. Input Documents-20220101T000000Z-01748-000/2. Input Documents/1099- DIV/1099-DIV SULLIVAN.pdf": "a7a070f72815709b9edc96f002f87c0cf5999ef07b2a6ba37316422efbd4477d",
+    "2. Input Documents-20220101T000000Z-01748-000/2. Input Documents/1099-INT/1099-INT SULLIVAN.pdf": "f5f984a66642240247157989e02a35ffcc28db7440dac05e32f3105d193e17df",
+    "2. Input Documents-20220101T000000Z-01748-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "200a97d1b8e5c6d358ac5dcd8432f60809cc18f2ae425b1a9b844d598ddc3ff7",
+    "2. Input Documents-20220101T000000Z-01748-000/2. Input Documents/Form W-2/Form W-2.pdf": "c1cd64d2392279f3ceb8bb7eacf20f37926816af90b8d6b9f12355e4501faf3e",
+    "2. Input Documents-20220101T000000Z-01748-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "d6e263623d17a8fb4aa4cfffdf1c5ca966c4d6b8897a37be6686fff560fa3505",
+    "2. Input Documents-20220101T000000Z-01748-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "dd6d4fcf54cff2a794d0d8571251f1e67967a827e8ebdc73e57323d161ae0362",
+    "3. Complete form-20220101T000000Z-01748-000/3. Complete form/2022 Tax Return Documents (Riley Sullivan (synthetic)).pdf": "a45e0e08fea11c84ff5b7ce6c4b21ad75a8cf51a99ba8b427d59f8c8a36fa7ca",
+    "3. Complete form-20220101T000000Z-01748-000/3. Complete form/Completed forms - Summary.pdf": "9a82d1052fc912c268b44f7db0acf9fa81295cb6e95f751451833f3013c99ded",
+    "4. Executive Summary-20220101T000000Z-01748-000/4. Executive Summary/Executive Summary Riley Sullivan 2022.pdf": "a8a181c05919a0943993fda52d504bb85a0a480f1d07ed18a2368c1b80446572"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-00904-000",
+  "tax_year": 2020,
+  "case_fingerprint": "c21970e9a1cfe85a4d679463f5dbc6c9094d2729d4f4fba88352d9bffb4c657a",
+  "case_json_sha256": "d4a76228a706ddb3e5bed6bdb37815b880652df45a0d55933facd59989ed5695",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-00904-000/1. Client Summary/Client Summary.pdf": "a13716568ed1094067f2d171d3aff52b5921af887b56448f87068504109fa119",
+    "2. Input Documents-20200101T000000Z-00904-000/2. Input Documents/Tax Document Attachments Summary.pdf": "52f42b771c3020318b68240a091d78d8d48cfc4be6250f572749641e038825df",
+    "2. Input Documents-20200101T000000Z-00904-000/2. Input Documents/1099- DIV/1099-DIV SULLIVAN.pdf": "99419bb699a74378ee11d0232fb10b3b04919b01904ca815224f04447d2a4a81",
+    "2. Input Documents-20200101T000000Z-00904-000/2. Input Documents/1099-INT/1099-INT SULLIVAN.pdf": "7e090a4ddfd8e2578f0d62d54c7e05222502ef90a24d0b9392a41849cfefc84f",
+    "2. Input Documents-20200101T000000Z-00904-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "20b2270d3a48ca1e1335e0fc16f7a23b912a04992a91f497b6127654c8172a3f",
+    "2. Input Documents-20200101T000000Z-00904-000/2. Input Documents/Form W-2/Form W-2.pdf": "33c1d73ef5608473139b8dd003dbe3c2ba4f232d1f5a25eff628cb1fefd58c5e",
+    "2. Input Documents-20200101T000000Z-00904-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "c727b0960c75c000b7613bed27cce3e723350b7af7f55245c1da988d23025bf6",
+    "2. Input Documents-20200101T000000Z-00904-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "e8d26749fead013ccebf53f027881110a31283be5b8c20f1cfc143faeb8bad6e",
+    "3. Complete form-20200101T000000Z-00904-000/3. Complete form/2020 Tax Return Documents (Riley Sullivan (synthetic)).pdf": "15028a73425e2c4feed4c974ee756c8f7f22946e91a99d9a111cbd8baca17e6a",
+    "3. Complete form-20200101T000000Z-00904-000/3. Complete form/Completed forms - Summary.pdf": "28113d9047bf7b71c45c8f018925032b544b1d02f5a0d96ee02978724d0ec18c",
+    "4. Executive Summary-20200101T000000Z-00904-000/4. Executive Summary/Executive Summary Riley Sullivan 2020.pdf": "c9314eeddec9cee50af54e09bb045730794fb23ffd4494feb4a52bf28975a097"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

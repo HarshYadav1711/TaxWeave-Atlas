@@ -6,17 +6,17 @@
   "case_fingerprint": "0c059e4e0832964916c0a26cc8e9ea57516984dee7322d5477084d481546a761",
   "case_json_sha256": "2c243038dab493ce34ffd909e2e114c63a56077d99a02c12d1f26a642d5c2cbd",
   "files_sha256": {
-    "1. Client Summary-20240101T000000Z-00026-000/1. Client Summary/Client Summary.pdf": "64a21d1c4733074e4ca6c66bd132d4061db466545315d645e4536d57ac72c1be",
-    "2. Input Documents-20240101T000000Z-00026-000/2. Input Documents/Tax Document Attachments Summary.pdf": "45fe40889b57a27ba92d3dfb23f17898aed999fc242c1ca2ef6f754797608307",
-    "2. Input Documents-20240101T000000Z-00026-000/2. Input Documents/1099- DIV/1099-DIV OKORO.pdf": "9824dca2c7a8fec7b5fb87fa7061fe3dd0643751721cf3d8b64bcb79b04544ad",
-    "2. Input Documents-20240101T000000Z-00026-000/2. Input Documents/1099-INT/1099-INT OKORO.pdf": "3690531d4629cdc0294960e22afb7fd8b3dbbf210b7ea49b5b62c28d70036a0f",
-    "2. Input Documents-20240101T000000Z-00026-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "d2e949fff46fa84daee6b05a2dfe6f70d81f04be87bbe0724341309c62159803",
-    "2. Input Documents-20240101T000000Z-00026-000/2. Input Documents/Form W-2/Form W-2.pdf": "cf6a57860ee490c6e27dad5a69ba4dda000a2bfd203fd6ee2e5786c5f2028511",
-    "2. Input Documents-20240101T000000Z-00026-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "27cfd178c2392b7af84d2194faf6d2f1f2c7b71fd81d1f4349a80389f2209529",
-    "2. Input Documents-20240101T000000Z-00026-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "f7098d2438b8c9e0c637241e92365332cb39f84de1708ee22f1860cc6bcac8ea",
-    "3. Complete form-20240101T000000Z-00026-000/3. Complete form/2024 Tax Return Documents (Parker Okoro (synthetic)).pdf": "0a8026aebf80a21f4fda8f08b95b38d1f85d6a4b02e0822189c2c313c1aa1e10",
-    "3. Complete form-20240101T000000Z-00026-000/3. Complete form/Completed forms - Summary.pdf": "e82de7c62e64aa020c4a5e1dd0fe6643d944b4afc1e00a2ad4ae4005382caed0",
-    "4. Executive Summary-20240101T000000Z-00026-000/4. Executive Summary/Executive Summary Parker Okoro 2024.pdf": "99630ff7d695c0c41ae5218d58ec79dc42970afcef59c47c3ddfdcdc2cbd038c"
+    "1. Client Summary-20240101T000000Z-00026-000/1. Client Summary/Client Summary.pdf": "3cb87d021b31c6b7e9b427d3a769f27e2b8831ea9300bf16a7dbe19005ee3f4d",
+    "2. Input Documents-20240101T000000Z-00026-000/2. Input Documents/Tax Document Attachments Summary.pdf": "62ae7fc02c68165b7de94373d48b33b8d52c6f789ca436b8373c2bb079dcd798",
+    "2. Input Documents-20240101T000000Z-00026-000/2. Input Documents/1099- DIV/1099-DIV OKORO.pdf": "f7943629efd5e9680e71cca10e6283bcc24681336857e9154be9ea030064b27b",
+    "2. Input Documents-20240101T000000Z-00026-000/2. Input Documents/1099-INT/1099-INT OKORO.pdf": "2a62aff167ff20551416bb52ecb0b91f102cae0ddf9c3a240909e43dd1c0a3d7",
+    "2. Input Documents-20240101T000000Z-00026-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "3e4a287916557e3726513057bfe80643a24218081b5dedad52f23a9fd4af75cd",
+    "2. Input Documents-20240101T000000Z-00026-000/2. Input Documents/Form W-2/Form W-2.pdf": "f43e2aee45d1dd48d0969cb87160d136fb33444ff78e64a1ad07a724bf5bf953",
+    "2. Input Documents-20240101T000000Z-00026-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "cc79206047d4743b275d1086ec493fb0e30e191fa21e4007bd81cdf68bb063f8",
+    "2. Input Documents-20240101T000000Z-00026-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "c7559ba9f10117c6d588d95764c5f22f694ea4d755e0dcf64ef706bd4a8e99a1",
+    "3. Complete form-20240101T000000Z-00026-000/3. Complete form/2024 Tax Return Documents (Parker Okoro (synthetic)).pdf": "08bc969b2ffce5034a2701715e5b0aeb1a9fd33e0929638739c7dfbd8d68a695",
+    "3. Complete form-20240101T000000Z-00026-000/3. Complete form/Completed forms - Summary.pdf": "c34b66e01cb60d9e0caf07ce518678716f7623184883e1ab8b26898a75e5ccf0",
+    "4. Executive Summary-20240101T000000Z-00026-000/4. Executive Summary/Executive Summary Parker Okoro 2024.pdf": "5a44358a251a100005415b1594141916b4bca8b7c8a0f67f92720146a51d0b0f"
   },
   "canonical_case_model": "SyntheticTaxCase"
 }

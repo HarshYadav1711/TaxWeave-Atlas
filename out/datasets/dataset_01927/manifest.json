@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-01927-000",
+  "tax_year": 2022,
+  "case_fingerprint": "c098226f11b36b9b34e939d0f63c301f8ce94fa3489746dc4231580d53e187b3",
+  "case_json_sha256": "859f8c49aa54606b386b1b0852a3a40ee84f68e0a1360e60757cb88d6474a72c",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-01927-000/1. Client Summary/Client Summary.pdf": "d273b4af48b864d6e69949d9ab02bc68d9527e9a58720dc279f97b690f81e673",
+    "2. Input Documents-20220101T000000Z-01927-000/2. Input Documents/Tax Document Attachments Summary.pdf": "a34ef835706d6a459b8dc4cead6a47b6e840edaa8d11814b09b6b7d11d400692",
+    "2. Input Documents-20220101T000000Z-01927-000/2. Input Documents/1099- DIV/1099-DIV PATEL.pdf": "d411500761129c977d67d1cc2686cf574c335fffb68947268d66a6d4a4cdefcb",
+    "2. Input Documents-20220101T000000Z-01927-000/2. Input Documents/1099-INT/1099-INT PATEL.pdf": "9bf7adbfb2920fbd41fb0494d81bf0e6ae4f741b1aad4454cb1d89fd4755ca7e",
+    "2. Input Documents-20220101T000000Z-01927-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "1945212ba760f998e02ed0b5d742458f9afaf5b84b3ec6215cdc22beaba19910",
+    "2. Input Documents-20220101T000000Z-01927-000/2. Input Documents/Form W-2/Form W-2.pdf": "2517a5cb3d7bedf6afcbb1cddad23709d35e3ee843a7355e4ce4aacdfc5e6e3a",
+    "2. Input Documents-20220101T000000Z-01927-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "280ae845f3fa1f60cd0a54f2b0e3b793009c2836ea631910a47a9b3df75712f0",
+    "2. Input Documents-20220101T000000Z-01927-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "d50b8b4d8ec87a05815eb6f0e2d55e68b4869bff7977e3009c84fd4eef8b8526",
+    "3. Complete form-20220101T000000Z-01927-000/3. Complete form/2022 Tax Return Documents (Morgan Patel (synthetic)).pdf": "5c4294bd58567912421ee9859701c77303ea071d6bb5d71f10ec6b202b914dbe",
+    "3. Complete form-20220101T000000Z-01927-000/3. Complete form/Completed forms - Summary.pdf": "878b78b96112acfe1926871855a0ba61223dc797e6afdf61f98c98bc9b1d4d77",
+    "4. Executive Summary-20220101T000000Z-01927-000/4. Executive Summary/Executive Summary Morgan Patel 2022.pdf": "b3358bea064e3c7b9cad947cf96294a28f770c512bfbfde1e10052f1f7b89d16"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

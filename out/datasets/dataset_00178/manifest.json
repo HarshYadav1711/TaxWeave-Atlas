@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-00178-000",
+  "tax_year": 2023,
+  "case_fingerprint": "cba0385609e44d2d8c51919ff6c7ecab136ae4c87c7cd285c7a5cc49826e2dfc",
+  "case_json_sha256": "84db96dd07faf97d1fb1aa81827dd61c1b9266e8c6fe37535158080a22236908",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-00178-000/1. Client Summary/Client Summary.pdf": "04ae40e3cf7e5f6a3582f07c12af87b55bfa8006d6ec9c1a4f3fc5f77a673feb",
+    "2. Input Documents-20230101T000000Z-00178-000/2. Input Documents/Tax Document Attachments Summary.pdf": "05e2bc7beada4adea2dd548e43279eb4394c62f60bcd6edcafa1e65371abd3a2",
+    "2. Input Documents-20230101T000000Z-00178-000/2. Input Documents/1099- DIV/1099-DIV HAYES.pdf": "41a1fb4ee63ea0eb330b8f6582f0b886bd7d23254f5dcb78c441c5d7ababfe5e",
+    "2. Input Documents-20230101T000000Z-00178-000/2. Input Documents/1099-INT/1099-INT HAYES.pdf": "0f3f2dd2ace40de0437ebb42f02a163b98ac5c89176cdefa8bbfb64a849b4455",
+    "2. Input Documents-20230101T000000Z-00178-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "c68a6d7cdd2bf5c38bf4012302b33bf0da967cc3fabc1577f6a4e193169b9abd",
+    "2. Input Documents-20230101T000000Z-00178-000/2. Input Documents/Form W-2/Form W-2.pdf": "90cedec2914fb5c5d797b82a8e201a7dbfe35bd8fa02f60d3a9e5098ff1499b8",
+    "2. Input Documents-20230101T000000Z-00178-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "0313dea2646a5fd00c6d60d6037c1d1f54d224fa3c6f235d3a90123ac5de097e",
+    "2. Input Documents-20230101T000000Z-00178-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "2c5d0799f52d4b05eea61b77fd0b69431322b32c49a60a396b9f0c9ae800a40f",
+    "3. Complete form-20230101T000000Z-00178-000/3. Complete form/2023 Tax Return Documents (Quinn Hayes (synthetic)).pdf": "a53579b0f294c45ade0a2aaa7339beacb8e5d2354c22924440b3b6d8b3b845c0",
+    "3. Complete form-20230101T000000Z-00178-000/3. Complete form/Completed forms - Summary.pdf": "46cb17cf5c355fd5e2f84f47c6a19ff80f618a71c87cb7c7f490be760f3b6284",
+    "4. Executive Summary-20230101T000000Z-00178-000/4. Executive Summary/Executive Summary Quinn Hayes 2023.pdf": "547f57c01307aed5dd370172ee8bf51b266cebef981022e0ee3c52c7242f961f"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-00400-000",
+  "tax_year": 2024,
+  "case_fingerprint": "8fbd101db68f5d5286cd806981b1099ec4ad39a0a5c8bce20ce68fa0a912190b",
+  "case_json_sha256": "3cec774ebc9bc6a3ce55ef762af29701d6ffd1e93b3c3fbc823d8b05891042e4",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-00400-000/1. Client Summary/Client Summary.pdf": "f9a11db24f1ff308acccf9cc7b050bb4b9a8a7d602e5aba434c1bb1633eeb5aa",
+    "2. Input Documents-20240101T000000Z-00400-000/2. Input Documents/Tax Document Attachments Summary.pdf": "c19dda3cc18577be6ae2675916578107347b52250f31994dc9084e3f39c93679",
+    "2. Input Documents-20240101T000000Z-00400-000/2. Input Documents/1099- DIV/1099-DIV MERCER.pdf": "698d68d8733730122e74d74199f34d6224a18ea8626a2f23daf96ca6cf4fcfe6",
+    "2. Input Documents-20240101T000000Z-00400-000/2. Input Documents/1099-INT/1099-INT MERCER.pdf": "5ec5489f7a19121efd747ccb04de41d89a261978dd2dbbc312a01907ee1fd9e3",
+    "2. Input Documents-20240101T000000Z-00400-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "1b4b87ab2a735a7e729ed007d6143452e7d1adcf87081192afb3379c471bc30c",
+    "2. Input Documents-20240101T000000Z-00400-000/2. Input Documents/Form W-2/Form W-2.pdf": "6bb16cbdcc364c041d162c6d213efff281040bd57e5aeba420ea7a94dd2bebc5",
+    "2. Input Documents-20240101T000000Z-00400-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "77219933173830b98da1dcd6db781f182ce5cad214da6fd8c4592073b171379d",
+    "2. Input Documents-20240101T000000Z-00400-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "09680050a2bbfcce6c006827d8d41395aec60a6c6b1c3c19c7eb0ab4f85bc6b1",
+    "3. Complete form-20240101T000000Z-00400-000/3. Complete form/2024 Tax Return Documents (Sage Mercer (synthetic)).pdf": "5fe4bcd158e05cec5d5ce3e0dd6ca6ee4034ab90c534f8a4f80b5f0998e6cfdc",
+    "3. Complete form-20240101T000000Z-00400-000/3. Complete form/Completed forms - Summary.pdf": "d07852ed0dc76beb4ae504e07f5f9265c503045b5be234fafc143cf492d217ce",
+    "4. Executive Summary-20240101T000000Z-00400-000/4. Executive Summary/Executive Summary Sage Mercer 2024.pdf": "e49f2f3462591599a1fd52c5f3e4587d54a248bad78f9f30fd6252bd2900363c"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

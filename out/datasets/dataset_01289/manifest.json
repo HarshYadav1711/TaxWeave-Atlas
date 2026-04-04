@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-01289-000",
+  "tax_year": 2022,
+  "case_fingerprint": "d0b1454fc02d3e999fd6de1e757df0a6a20d5c777a25e951f4126d7bdc6f0540",
+  "case_json_sha256": "f70ece85f87ad56ffdae3ca97c8085465fb21a43d9cf9aae5ec067410c1c6721",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-01289-000/1. Client Summary/Client Summary.pdf": "f1a59795caf1a67ebdf914334a0b54138fd60de967f1d6832201eaf52924294b",
+    "2. Input Documents-20220101T000000Z-01289-000/2. Input Documents/Tax Document Attachments Summary.pdf": "7c46b7e3a48a02c5b0b0fa2a2f84ce4a3150e9f8c7c86fe01592271f045965c8",
+    "2. Input Documents-20220101T000000Z-01289-000/2. Input Documents/1099- DIV/1099-DIV SULLIVAN.pdf": "9fd53fb2861662f3309bf6a5cc730c847964e1c26af0bd501be19ff805e55c1f",
+    "2. Input Documents-20220101T000000Z-01289-000/2. Input Documents/1099-INT/1099-INT SULLIVAN.pdf": "953e49d280c4251b2160140a0b9f7d90164fb62daf389a5de349fead2598ade1",
+    "2. Input Documents-20220101T000000Z-01289-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "3d913cefe0701c4a709f36abc7a24f7d661b14ccf027378bd60705d7b3d92dbf",
+    "2. Input Documents-20220101T000000Z-01289-000/2. Input Documents/Form W-2/Form W-2.pdf": "7d1bd96e6e5a7e061cbdee9fa43515fe0b00f7b4472c3c71d815436bbe158853",
+    "2. Input Documents-20220101T000000Z-01289-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "4005ca1277955d3c638d60376dbdde5f5037bf360ba64f061d6f57deeb3c4979",
+    "2. Input Documents-20220101T000000Z-01289-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "633482e931696a2b34b65ebb45f7c394dd017a737f610f4ee82ca192c7e8a672",
+    "3. Complete form-20220101T000000Z-01289-000/3. Complete form/2022 Tax Return Documents (Rowan Sullivan (synthetic)).pdf": "902f0ef513ada1bb7ef7a2e4fe50d5dbfefcfeda502a00b63f3c6b5e16e7ed39",
+    "3. Complete form-20220101T000000Z-01289-000/3. Complete form/Completed forms - Summary.pdf": "6c78e7e3d3274a92778c310ad4eccf8da17799a289fe28a981613a17a2558f7b",
+    "4. Executive Summary-20220101T000000Z-01289-000/4. Executive Summary/Executive Summary Rowan Sullivan 2022.pdf": "8bc56ca06cafc80d43a455749ce8209c4621c5aceb83c39cd27c309a86cce360"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

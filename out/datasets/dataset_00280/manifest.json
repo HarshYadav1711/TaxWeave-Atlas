@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20250101T000000Z-00280-000",
+  "tax_year": 2025,
+  "case_fingerprint": "3571f0797dc110657a23add85ea053566a0be4a279212dcdd70c8e1d0ac75944",
+  "case_json_sha256": "f899713839141ec0acfddcb2615c8927c63d82aceb62a09f43cc1e557e340ea7",
+  "files_sha256": {
+    "1. Client Summary-20250101T000000Z-00280-000/1. Client Summary/Client Summary.pdf": "d959a906c6ddb7df7af03449593e894630fc4c767e999685d4b45144adb15c8a",
+    "2. Input Documents-20250101T000000Z-00280-000/2. Input Documents/Tax Document Attachments Summary.pdf": "ac9aeb46cf5214a983d54540f0fcb6f28f6a1db737afd0a585a9551bcbcdae59",
+    "2. Input Documents-20250101T000000Z-00280-000/2. Input Documents/1099- DIV/1099-DIV MERCER.pdf": "f7ddfcf1d4fded901912e63108a58f777605bdd04c1ce3c88b247211457005a8",
+    "2. Input Documents-20250101T000000Z-00280-000/2. Input Documents/1099-INT/1099-INT MERCER.pdf": "d9c85e0a25cb6bbd72800be873fd4c711c357cdc47d96617d946720a2a232c1e",
+    "2. Input Documents-20250101T000000Z-00280-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2025_.pdf": "fe5bef48ac48fce89ebd1290994223af226972caf65fc2bed9fd346832fdfe26",
+    "2. Input Documents-20250101T000000Z-00280-000/2. Input Documents/Form W-2/Form W-2.pdf": "a6ea32c41020884cf845c84af6b21c6a7fe0376fb040ae3f49e849618ba5f917",
+    "2. Input Documents-20250101T000000Z-00280-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "b6ef7a2a7ab2b7f91a7ac43ee10cf6342d26357d904c41f4c093d08298ce2f0a",
+    "2. Input Documents-20250101T000000Z-00280-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2025.pdf": "9226f3023db623eddea0d2ed72575a7f3c51bfe7260e2bfb61a0e660018889c8",
+    "3. Complete form-20250101T000000Z-00280-000/3. Complete form/2025 Tax Return Documents (Casey Mercer (synthetic)).pdf": "f49406cb3e0db3693f0522ca718c3bc58a1035317990f82495b5ad1b019301c6",
+    "3. Complete form-20250101T000000Z-00280-000/3. Complete form/Completed forms - Summary.pdf": "3e9a0e4c7669cfce3b507ffb10f321838662d3d18938fb30685ec14634a5fca1",
+    "4. Executive Summary-20250101T000000Z-00280-000/4. Executive Summary/Executive Summary Casey Mercer 2025.pdf": "f4ba5f2ce6626a06fff29336581610d3fe42cea870c4e982c177ae9e2fc0695a"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

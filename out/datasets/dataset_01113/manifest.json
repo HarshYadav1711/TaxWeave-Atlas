@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20250101T000000Z-01113-000",
+  "tax_year": 2025,
+  "case_fingerprint": "b59ba73baae9ebd915265b186439a00daddce312438e8dab21cf8157fae25119",
+  "case_json_sha256": "0887c07b00249f9275555b772f7be678e0680d04a8603e5abe276802bef16e41",
+  "files_sha256": {
+    "1. Client Summary-20250101T000000Z-01113-000/1. Client Summary/Client Summary.pdf": "5f0bf313c752e322f0af711ba7cd6db2887664c3de7df31eb7ceab21d9e204a9",
+    "2. Input Documents-20250101T000000Z-01113-000/2. Input Documents/Tax Document Attachments Summary.pdf": "ee4db62151d642bfb099cb416caf9694b5c8b5648e8701afe51298faae8d3879",
+    "2. Input Documents-20250101T000000Z-01113-000/2. Input Documents/1099- DIV/1099-DIV INGRAM.pdf": "ea43c8b5ad7a7a78fdd52fcbbc8110776c847698deb8b8746a9b34b9c8ce2a2b",
+    "2. Input Documents-20250101T000000Z-01113-000/2. Input Documents/1099-INT/1099-INT INGRAM.pdf": "2f7804368f8c05b8e841c993adad7f0ece9ac7dfdf8f948e68a419e0b909e6df",
+    "2. Input Documents-20250101T000000Z-01113-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2025_.pdf": "4a2e16747a9ce38ef499921f95747407243bf65eccc34f7a32e60cedc932b878",
+    "2. Input Documents-20250101T000000Z-01113-000/2. Input Documents/Form W-2/Form W-2.pdf": "29244edf5eb7f5c10a93fd7f448843e7d37652e46c3983a41decd87cb7271b39",
+    "2. Input Documents-20250101T000000Z-01113-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "f16bfcda8ac5c8f31db23c013e59733e6c3e75ae8e3086b7506f8e67c76ca62d",
+    "2. Input Documents-20250101T000000Z-01113-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2025.pdf": "ce0242d6abd9c8ff29cad4aa3bf4e66c5a725e9eae85da0befeb603d46ed8ccf",
+    "3. Complete form-20250101T000000Z-01113-000/3. Complete form/2025 Tax Return Documents (Sage Ingram (synthetic)).pdf": "665f3bc82f1051a15a114555b58b24594909716f3c05b6663cf2411eb17fc632",
+    "3. Complete form-20250101T000000Z-01113-000/3. Complete form/Completed forms - Summary.pdf": "e98773c61448512fcfa17b21879bb09fd105f7e973cfe90d20aec5312d2c47c6",
+    "4. Executive Summary-20250101T000000Z-01113-000/4. Executive Summary/Executive Summary Sage Ingram 2025.pdf": "6122580dc108e06806047d8610000ee81ab9f8291905cab1de70405f4d767ec2"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

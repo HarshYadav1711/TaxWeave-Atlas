@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-01146-000",
+  "tax_year": 2024,
+  "case_fingerprint": "374d8c9aa49ad5d77c1ae4ab62194853c0e3d15c13514e4763a35f8fd331fd3b",
+  "case_json_sha256": "f918e4008e7dd1060252e9e73ce55a67131a83a3bc3dd5b52316119731ae5ad1",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-01146-000/1. Client Summary/Client Summary.pdf": "cf4ad9499e2df8d1cd015c826753d16971a3b0c8d760bcdc55e23e89276baa26",
+    "2. Input Documents-20240101T000000Z-01146-000/2. Input Documents/Tax Document Attachments Summary.pdf": "4c7f881ae618ff6af67e1a53d08a52a6eaf32d84b1836620ab0293381be5ce9f",
+    "2. Input Documents-20240101T000000Z-01146-000/2. Input Documents/1099- DIV/1099-DIV KELLER.pdf": "e1a94f867b9333b9ca9df2dd860cdbcadcccc3ecb66c91c67f50bb60e37b9166",
+    "2. Input Documents-20240101T000000Z-01146-000/2. Input Documents/1099-INT/1099-INT KELLER.pdf": "504d4f1f41663461b2a05bb3c4137cea9896eac60568a122b46e16371fb7a44c",
+    "2. Input Documents-20240101T000000Z-01146-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "afcfc56e9732eb07949c1f8b6335c7615760037ba6189ef9ad209889380919d0",
+    "2. Input Documents-20240101T000000Z-01146-000/2. Input Documents/Form W-2/Form W-2.pdf": "043f2cb0603cfa9ba7c818eedc3489d51799793d9755210afb38d540dfc5c9db",
+    "2. Input Documents-20240101T000000Z-01146-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "96704ab23b185cf6cacf45c07c6889a7399b8e7b6b94df677525ff48deeca628",
+    "2. Input Documents-20240101T000000Z-01146-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "5d1790e1cab55f9861e9a65159b8bb735db1cd80041ffa6510986afa0455e766",
+    "3. Complete form-20240101T000000Z-01146-000/3. Complete form/2024 Tax Return Documents (Morgan Keller (synthetic)).pdf": "e9175b35dd6c8a41a09d32ed83c19d80bea722fd9e06c8336d1c6e1b93c410c2",
+    "3. Complete form-20240101T000000Z-01146-000/3. Complete form/Completed forms - Summary.pdf": "5ff3f044cab47231a6619127e9a379f87aa80d6cb652417602722744c33aea5c",
+    "4. Executive Summary-20240101T000000Z-01146-000/4. Executive Summary/Executive Summary Morgan Keller 2024.pdf": "c5c6a38984704c1d3d2582c4f80eb2cec8aeebacd5b810d0384873eff4a9b989"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

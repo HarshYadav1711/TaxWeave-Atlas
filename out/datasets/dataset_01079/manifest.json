@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-01079-000",
+  "tax_year": 2020,
+  "case_fingerprint": "dd3d3fcc36d23b960a16b6bec4d20afd962001b26f2d4530f76ed6c18afbe11e",
+  "case_json_sha256": "ec576a8194c110a3a218a1d0d74ba3c99c720b34c5e43c6036b108603cedb749",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-01079-000/1. Client Summary/Client Summary.pdf": "df940dd49c56740f9445d0d1e043c1c7c3cc2f00c985accd1e9dd8518b3de318",
+    "2. Input Documents-20200101T000000Z-01079-000/2. Input Documents/Tax Document Attachments Summary.pdf": "96be2817ad63649dcc9b312dd01ca875335f39e99d234cf55ff068fd23bfb719",
+    "2. Input Documents-20200101T000000Z-01079-000/2. Input Documents/1099- DIV/1099-DIV INGRAM.pdf": "145fc55359ca8e2eb993777639595cda7a35585145fb60313060a47d925900c1",
+    "2. Input Documents-20200101T000000Z-01079-000/2. Input Documents/1099-INT/1099-INT INGRAM.pdf": "cda1407dbdf73e55d1b9fa7ed5fb8d5c25ba1d886caf0b45b1c14c63aa16d242",
+    "2. Input Documents-20200101T000000Z-01079-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "1f8dbf5d7d62fab9ea5860e9f2074b35681a818acb8c61d3884e4d73bb665f84",
+    "2. Input Documents-20200101T000000Z-01079-000/2. Input Documents/Form W-2/Form W-2.pdf": "0daa5260f34085370f60cc99f504a1a26121821ee01a8c95234459733211daa3",
+    "2. Input Documents-20200101T000000Z-01079-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "605f21a81c8bfb1e0b7b30f4896ce312ec908da33672ddaab2d548e6312181bf",
+    "2. Input Documents-20200101T000000Z-01079-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "adc123d37decd4e9c07e223529d01de09086427d8ee26d089b920b8a226e5aef",
+    "3. Complete form-20200101T000000Z-01079-000/3. Complete form/2020 Tax Return Documents (Emery Ingram (synthetic)).pdf": "8c8c158d246ba796858acc1d87181dec5882f9c5ac6adcd93d6eda520f37632d",
+    "3. Complete form-20200101T000000Z-01079-000/3. Complete form/Completed forms - Summary.pdf": "25c8b0c7af81d2c40180c2660b1637d6e938a0075fa5c6a955f8fcf7b62059e4",
+    "4. Executive Summary-20200101T000000Z-01079-000/4. Executive Summary/Executive Summary Emery Ingram 2020.pdf": "972ebdbecbcbf9a14f0d409c1aad6db333191b5af4d37b4b6c5aa1f8b61a1506"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

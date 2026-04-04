@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-01148-000",
+  "tax_year": 2020,
+  "case_fingerprint": "8e2d4b2cfbb26ac24605d77ead8dd1a52eb0310eb92ae744093d704874ef658b",
+  "case_json_sha256": "94ec0a79284a3cf1bb0afa7748a510ccc72d3189127deec89d1479ee0cfac0af",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-01148-000/1. Client Summary/Client Summary.pdf": "3cf6012f6834492fe4551ebd44223036164b8a21080e81695da8eb18fb5b4b53",
+    "2. Input Documents-20200101T000000Z-01148-000/2. Input Documents/Tax Document Attachments Summary.pdf": "2aa555a192e01706b072664c8e056a0bf9c914994e96983205d3bc357edb7dce",
+    "2. Input Documents-20200101T000000Z-01148-000/2. Input Documents/1099- DIV/1099-DIV CARTER.pdf": "f1df16937fa6586f9f24cc63efdc6259521bfc3d94fe84e07a3ad4daa69d300d",
+    "2. Input Documents-20200101T000000Z-01148-000/2. Input Documents/1099-INT/1099-INT CARTER.pdf": "8d37763ed0a906868f9effb58e892419e4684d18ca18a9a38d362510f0f46c47",
+    "2. Input Documents-20200101T000000Z-01148-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "ac1cc5189315353574d2a64b3d5a15b94584a5c531bef7bbb973e89b94b2a3fb",
+    "2. Input Documents-20200101T000000Z-01148-000/2. Input Documents/Form W-2/Form W-2.pdf": "25a41202651cc70e26db731fed811c4a5ddb7786c023c2de2e110e9a3a753d0e",
+    "2. Input Documents-20200101T000000Z-01148-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "075991e558b7395c9177fae0dd7061801745528a327a12208692159efa027ddd",
+    "2. Input Documents-20200101T000000Z-01148-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "a14fc18ffc5d2ce4fc8de77d0487fd4800e50b0bf2e1bcf1a0121f47efb8d0c3",
+    "3. Complete form-20200101T000000Z-01148-000/3. Complete form/2020 Tax Return Documents (Emery Carter (synthetic)).pdf": "bc1734afc489367a11be3a6352c7e0cadaf0e6c93e9855b196ce7d70f554c83c",
+    "3. Complete form-20200101T000000Z-01148-000/3. Complete form/Completed forms - Summary.pdf": "e0baa4aa65a75c09ceea9f63487cb0a97ddd97d4272c3dbc84222bf822a6557d",
+    "4. Executive Summary-20200101T000000Z-01148-000/4. Executive Summary/Executive Summary Emery Carter 2020.pdf": "befa692a59a7a886f26428f54d8508241584c8e0b401dd23b3249f5ef8359976"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

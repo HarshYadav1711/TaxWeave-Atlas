@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-01450-000",
+  "tax_year": 2022,
+  "case_fingerprint": "b38e56bb4962d8d3a819772cf45561f8de78a3b3f622e9b54d8117cb4c063550",
+  "case_json_sha256": "389b3e1286c6732f4b3574c37a9853720b43ea53595440de616df615357583fc",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-01450-000/1. Client Summary/Client Summary.pdf": "920328df53e2d6fa0efb6ed1438c5bd648ee0a8025d20e26575f30fdf635b12a",
+    "2. Input Documents-20220101T000000Z-01450-000/2. Input Documents/Tax Document Attachments Summary.pdf": "22099f9ced6f03b8dbf6fd5039dead1aafe729da939b7b5ab63d6934a44db03d",
+    "2. Input Documents-20220101T000000Z-01450-000/2. Input Documents/1099- DIV/1099-DIV SULLIVAN.pdf": "504fb5b7e1acc9c71760862a72a569bdb3a8f1dffc71e71dbaee2419bd14b945",
+    "2. Input Documents-20220101T000000Z-01450-000/2. Input Documents/1099-INT/1099-INT SULLIVAN.pdf": "701940c5364a03a1215feb114cec56ea9b66d88f3d94f17500fb15d3fd10ba56",
+    "2. Input Documents-20220101T000000Z-01450-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "8263014efa20159fce0079ae7dd7e9e480fd8c888aecd345d623de514dfd191b",
+    "2. Input Documents-20220101T000000Z-01450-000/2. Input Documents/Form W-2/Form W-2.pdf": "3b57224caf62c18cdd5e09c55f12b55afad2b8c43104341b156a22b5092e73f5",
+    "2. Input Documents-20220101T000000Z-01450-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "e4201cf8799a89854596f813632e8514175dc722ef185b28f1f6824f889fbc0b",
+    "2. Input Documents-20220101T000000Z-01450-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "6b53ef66f71874b6cefd9504e1ba1879f9a68477c9961b834338f587ffcc6f4d",
+    "3. Complete form-20220101T000000Z-01450-000/3. Complete form/2022 Tax Return Documents (Sage Sullivan (synthetic)).pdf": "fcfd5b459fff39bcdbf398c6de83b9d52ccea370d329e80019e9ac4d10239ddb",
+    "3. Complete form-20220101T000000Z-01450-000/3. Complete form/Completed forms - Summary.pdf": "88d9a1264710d0b35c42103285555a9ff653c58424860b2eb8b321873cd62d17",
+    "4. Executive Summary-20220101T000000Z-01450-000/4. Executive Summary/Executive Summary Sage Sullivan 2022.pdf": "0a1339cddba5e423bd22cf50644505ed6505c1f960e8e40bcb9108fd6dab4f7d"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20250101T000000Z-01011-000",
+  "tax_year": 2025,
+  "case_fingerprint": "cc96b27b0cf15d2510698861f7a318dd11b26867c8b89ad836c88bdaa400b3ae",
+  "case_json_sha256": "347a54800e2baa79483689042295283e83b613a5270ac1d71def986334b583d0",
+  "files_sha256": {
+    "1. Client Summary-20250101T000000Z-01011-000/1. Client Summary/Client Summary.pdf": "fa48515ef91dbf123e81270debf9bcf154d183b6cfdecca238b9152b0fa72105",
+    "2. Input Documents-20250101T000000Z-01011-000/2. Input Documents/Tax Document Attachments Summary.pdf": "a5094848677e552c2a4b3a663e5b65169bcbefcc1f593bb64ebac6e74265cc37",
+    "2. Input Documents-20250101T000000Z-01011-000/2. Input Documents/1099- DIV/1099-DIV LAWSON.pdf": "9d9d4bb363ed5ce82ad07ce7d6e48022373daa1c704b86edda124b8586cf5ea0",
+    "2. Input Documents-20250101T000000Z-01011-000/2. Input Documents/1099-INT/1099-INT LAWSON.pdf": "b35287060256e34a78bf68e6de2770b97354ed8e86a615bff72972ca13562741",
+    "2. Input Documents-20250101T000000Z-01011-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2025_.pdf": "cd7c37f353b27517ab92210909000acba30bc5d086fbf3721ec77d1a510fc389",
+    "2. Input Documents-20250101T000000Z-01011-000/2. Input Documents/Form W-2/Form W-2.pdf": "8860f52f80506f780f72a607a67aec006978f4dda6b9c8a1f4f9b8f421a29f3f",
+    "2. Input Documents-20250101T000000Z-01011-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "f4ec06b821957c0f2091b26f494065f958f7a4e3b330499d1d7ae5c13491a1a0",
+    "2. Input Documents-20250101T000000Z-01011-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2025.pdf": "9d505fd246acf2f618e4a1c1eafd1204129ca6fadd1f13fa001fcaef6f041c44",
+    "3. Complete form-20250101T000000Z-01011-000/3. Complete form/2025 Tax Return Documents (Casey Lawson (synthetic)).pdf": "f6760aae9bde33d8523b528ce368fd04caf5eb66b3f0a506c4150f3e78236ddb",
+    "3. Complete form-20250101T000000Z-01011-000/3. Complete form/Completed forms - Summary.pdf": "58f0f5112db2835789919c27b6ad19316a32d21e737da21abf6f265261fef8d0",
+    "4. Executive Summary-20250101T000000Z-01011-000/4. Executive Summary/Executive Summary Casey Lawson 2025.pdf": "00faf0e039c99f7755479e60e5d8a91d6236d56359a6739affedc2c797e691c7"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

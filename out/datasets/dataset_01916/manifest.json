@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-01916-000",
+  "tax_year": 2022,
+  "case_fingerprint": "b982e7177ca88de51dc4c73298888969b01209ce5a1932a220f4df62eef690a3",
+  "case_json_sha256": "61fa0abd618f018b562d769d15fcc6a43a1111008014ad04cd85f40256551e37",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-01916-000/1. Client Summary/Client Summary.pdf": "2895d059065a8983d5ab7a0c447cb1060cad5fafa70d8de2b66720befb4c256f",
+    "2. Input Documents-20220101T000000Z-01916-000/2. Input Documents/Tax Document Attachments Summary.pdf": "5418836d1974d98cabdc7dcc83383a62d61827411c07dd3517d1fd44b2eafeea",
+    "2. Input Documents-20220101T000000Z-01916-000/2. Input Documents/1099- DIV/1099-DIV BENNETT.pdf": "02f3d460a27e057ecfdf5c8104ce9cd522d0d2900e2035a52b27fd8b9999cbe9",
+    "2. Input Documents-20220101T000000Z-01916-000/2. Input Documents/1099-INT/1099-INT BENNETT.pdf": "3be61f54dfb10ca235639dc410f39849878f085754f2c716f6d38a53cbdaa1d7",
+    "2. Input Documents-20220101T000000Z-01916-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "9596beb808fc742137ec1cbe42d9f1cc822c247f63cc87672355968d3a3c8880",
+    "2. Input Documents-20220101T000000Z-01916-000/2. Input Documents/Form W-2/Form W-2.pdf": "ea6328391c74fabfb199455e04d93593cae296ddbb4a87172ffaf3b63f5e6c52",
+    "2. Input Documents-20220101T000000Z-01916-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "e434e91b02d93f6ec06bd5f5bebf96593b7e1ebd67ff77d84d9e72ff71e93264",
+    "2. Input Documents-20220101T000000Z-01916-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "24b2c70dff144536555abd3e72fc0ba5b66ca5407f0c79ba960203e730186c7f",
+    "3. Complete form-20220101T000000Z-01916-000/3. Complete form/2022 Tax Return Documents (Emery Bennett (synthetic)).pdf": "057fa539742c97a41b2a4e10d3b48cc35bb0d5a56fd32387729ae65777e28b2b",
+    "3. Complete form-20220101T000000Z-01916-000/3. Complete form/Completed forms - Summary.pdf": "2883c5ff763d1319fb9cff644ef1aaf370a7b53a7661d4efdc7ce29d567c0758",
+    "4. Executive Summary-20220101T000000Z-01916-000/4. Executive Summary/Executive Summary Emery Bennett 2022.pdf": "b9ecc9861c1de19810613d7e555893529a4458ed39a4b193f78214f5dcdd2145"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-01971-000",
+  "tax_year": 2022,
+  "case_fingerprint": "940250c1bd1dc6989f9030ed6ee600648988a8b13754fafcbaa0bf4201ddb48d",
+  "case_json_sha256": "f685ff438935bbc7d1611d0a2eba44e56192e61cec864f82a4eca08f142966f7",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-01971-000/1. Client Summary/Client Summary.pdf": "01a7a6033a3da96211a893c191d5f6c1db81e06d2ece65d058e86808efb3c119",
+    "2. Input Documents-20220101T000000Z-01971-000/2. Input Documents/Tax Document Attachments Summary.pdf": "2452c079ccae707a2f1149bf432b50b598b733b0a48e4c13e3d220744c499830",
+    "2. Input Documents-20220101T000000Z-01971-000/2. Input Documents/1099- DIV/1099-DIV HAYES.pdf": "5e25ad88507f3117273f8cefb51764ef823608b250370e58d8f292495774e69d",
+    "2. Input Documents-20220101T000000Z-01971-000/2. Input Documents/1099-INT/1099-INT HAYES.pdf": "490cd4b4c7de9fde334fd905ed725a661362398d0befbc8165914d18839df23a",
+    "2. Input Documents-20220101T000000Z-01971-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "f064bad89c5951440bc30071e21d0398ebdffbfdffe058af1b1b9f2ec1241a40",
+    "2. Input Documents-20220101T000000Z-01971-000/2. Input Documents/Form W-2/Form W-2.pdf": "99f7515d779d58dc02c5839dd15ee53331acbdcee700202ff99ea24f14093f57",
+    "2. Input Documents-20220101T000000Z-01971-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "d41a5468b1559abbef261316124e0e5a47f7c740074745ec08cf38b37b401d9f",
+    "2. Input Documents-20220101T000000Z-01971-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "328d829243712f8c275310b9cc145e7d94535678f82c7dad144ec2fef86e0caf",
+    "3. Complete form-20220101T000000Z-01971-000/3. Complete form/2022 Tax Return Documents (Casey Hayes (synthetic)).pdf": "837f9ea4b000126acedf1bf0d835177ec2904cac6db0557247f6f2156dd5c613",
+    "3. Complete form-20220101T000000Z-01971-000/3. Complete form/Completed forms - Summary.pdf": "330914d387d9b6303864e1bfdede8602b1fef4a42c6f56bc07e7caf065a1847a",
+    "4. Executive Summary-20220101T000000Z-01971-000/4. Executive Summary/Executive Summary Casey Hayes 2022.pdf": "cce422704ad6a86145eb194cbd0b7d84660d360d938af72d3428560586919304"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

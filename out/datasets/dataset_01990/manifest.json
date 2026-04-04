@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-01990-000",
+  "tax_year": 2024,
+  "case_fingerprint": "335514794edf95eddfd9470cf3c40a20aa1b5f83ff2290945ff3a49ad34683df",
+  "case_json_sha256": "62c997ce93ca3e1c9c4a594b1dc995cd69d39f6e9460a41ea5ac27d717a869ba",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-01990-000/1. Client Summary/Client Summary.pdf": "6e56daae0fea09eb267d5b8829cfe98b0ff514b0a30dcf6dacce349d53c52ad5",
+    "2. Input Documents-20240101T000000Z-01990-000/2. Input Documents/Tax Document Attachments Summary.pdf": "8903ffe6a7357490d1454abe1c8acadac450a849e2a57512590f09ce4c8eb6de",
+    "2. Input Documents-20240101T000000Z-01990-000/2. Input Documents/1099- DIV/1099-DIV PATEL.pdf": "97719a16bd3361682e35296fb0e3c464f8f9c004aee93cd39a9b6da1e0b75258",
+    "2. Input Documents-20240101T000000Z-01990-000/2. Input Documents/1099-INT/1099-INT PATEL.pdf": "f468d66d94393127732bd549a71d38688611aa8b4079bf72dcd3235c3bad56a7",
+    "2. Input Documents-20240101T000000Z-01990-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "f21feb3038256d239716e943f05d288b5a7509ad4ae7b545f3c89b6d12a237ea",
+    "2. Input Documents-20240101T000000Z-01990-000/2. Input Documents/Form W-2/Form W-2.pdf": "cefe4e0c6252866ac8046294eee5d41174c35b452f3472d443fc516c94c8492d",
+    "2. Input Documents-20240101T000000Z-01990-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "1f05d4076fcb1f22a71c86f135ea6469c8ec4f5cc2caa42ae51975d3be61c271",
+    "2. Input Documents-20240101T000000Z-01990-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "7a25400e72484d849dacb771b06eab71bc61cf7dfbafdab817c86dd2db178b45",
+    "3. Complete form-20240101T000000Z-01990-000/3. Complete form/2024 Tax Return Documents (Casey Patel (synthetic)).pdf": "1ec13ca7102c074bd59aaff32ac531c71518e25bbc67846832a229350518cea9",
+    "3. Complete form-20240101T000000Z-01990-000/3. Complete form/Completed forms - Summary.pdf": "7381e84ce3f7920c34bcf57c17696c122c9fe181acc86866832c58e0a8a0817a",
+    "4. Executive Summary-20240101T000000Z-01990-000/4. Executive Summary/Executive Summary Casey Patel 2024.pdf": "5d1a8842fc6144c8f4faa3ff62bd39ae46979ea4b2ddb0782bdcd37d7ee6f071"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

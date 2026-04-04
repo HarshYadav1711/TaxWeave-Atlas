@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-01297-000",
+  "tax_year": 2020,
+  "case_fingerprint": "a7da0476fd341cacca9b6cb994a47e69ca6c902fc41c22da84ccfbeedd3a9001",
+  "case_json_sha256": "2ae53917e05dc434dfb9d83f8005c10ae4517484245692ceaa3492ca9ba9f55b",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-01297-000/1. Client Summary/Client Summary.pdf": "b0879e7c24bda9c92a5fd597cf8bf8dccb95e748e85a8d106b05e6b75bacec82",
+    "2. Input Documents-20200101T000000Z-01297-000/2. Input Documents/Tax Document Attachments Summary.pdf": "e296ed9bc3a8c5a256427401fbd9352dc8c0a40e96d77199c36ee37d21c1892f",
+    "2. Input Documents-20200101T000000Z-01297-000/2. Input Documents/1099- DIV/1099-DIV DIAZ.pdf": "4e12d115981a952b802560eb2340c164ef24f9b702ce549e354e2bdb622ef062",
+    "2. Input Documents-20200101T000000Z-01297-000/2. Input Documents/1099-INT/1099-INT DIAZ.pdf": "38fafce99e025c3f71dac19c3a325cb3e0d3cb609cac381da1768af7bda7125a",
+    "2. Input Documents-20200101T000000Z-01297-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "62c506eedb20de2b990f365accf376ceb4401585b44f1091d1f6a7d4f4ba7bc6",
+    "2. Input Documents-20200101T000000Z-01297-000/2. Input Documents/Form W-2/Form W-2.pdf": "e0cd2a7c3902132a595831fc6062ab4f5e0a337928a7145e0b1e8190ce267b1d",
+    "2. Input Documents-20200101T000000Z-01297-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "57165502611d18574891e14a0b8946c09810fb82b4a7016a9201bf52bec084c6",
+    "2. Input Documents-20200101T000000Z-01297-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "3e576079916af0d86c608a5d64fbbf364706bbb7274a1532bd4af167cece2e92",
+    "3. Complete form-20200101T000000Z-01297-000/3. Complete form/2020 Tax Return Documents (River Diaz (synthetic)).pdf": "1bea24d81ecc89c1cbdbcf525d0983757586e4c32b76b857fc1136049e8eb789",
+    "3. Complete form-20200101T000000Z-01297-000/3. Complete form/Completed forms - Summary.pdf": "bd0e64caf1120eaa14e3b007abc284fdae7da6ed151abd7db3697b23a003037e",
+    "4. Executive Summary-20200101T000000Z-01297-000/4. Executive Summary/Executive Summary River Diaz 2020.pdf": "b3a09407417b84be25b60c0853d9858c227fe095783d3c97021769f4d119f018"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

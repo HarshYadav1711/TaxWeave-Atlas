@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20210101T000000Z-01155-000",
+  "tax_year": 2021,
+  "case_fingerprint": "ab1fce979b200f356ea9354ce019bd983f98258ebca705b3959e5011addf51e8",
+  "case_json_sha256": "99d4bb450cdce5c5c23ccfd32f7bd74c5d9ff8a233ffb6af4803bd887d3e38c8",
+  "files_sha256": {
+    "1. Client Summary-20210101T000000Z-01155-000/1. Client Summary/Client Summary.pdf": "fee75d18acfcccafb2a2112c0e2e5e51c7126083b2b25c5c5b56a1075f6692fa",
+    "2. Input Documents-20210101T000000Z-01155-000/2. Input Documents/Tax Document Attachments Summary.pdf": "32b2b89984ed0a94ad815b461e2ea27e4ad4ad5431a227fd585d102d3c31027d",
+    "2. Input Documents-20210101T000000Z-01155-000/2. Input Documents/1099- DIV/1099-DIV BENNETT.pdf": "4ca30cd3a846f0cfe8b66080305e9132391d2ad8fd0ae45538bcf1cf1405feb7",
+    "2. Input Documents-20210101T000000Z-01155-000/2. Input Documents/1099-INT/1099-INT BENNETT.pdf": "70ec270bb8425efd972840e6fdcd4fbcb8e60c32c5605e37597ddf75b371ec36",
+    "2. Input Documents-20210101T000000Z-01155-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2021_.pdf": "9dec4fb056555381f0ea4172fff9cd7dfbe106b676c754453d2468de3b6a5922",
+    "2. Input Documents-20210101T000000Z-01155-000/2. Input Documents/Form W-2/Form W-2.pdf": "b1191875fad930ad0ecf81c60212140a6b8d67d27bc72e8e511d86a93d1c194a",
+    "2. Input Documents-20210101T000000Z-01155-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "458a8984587b136cb110975ae47b3df0c6147b0c9570a95f7e39fbbd0132546d",
+    "2. Input Documents-20210101T000000Z-01155-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2021.pdf": "a0837c86eb69d4eaaab738fae8eafa792d13531faabe85b88fc7df5bec358171",
+    "3. Complete form-20210101T000000Z-01155-000/3. Complete form/2021 Tax Return Documents (River Bennett (synthetic)).pdf": "7344b519c324779625c362723770bd750db344a844539f8bd1f65f0e89f3f01d",
+    "3. Complete form-20210101T000000Z-01155-000/3. Complete form/Completed forms - Summary.pdf": "52cbbf1cdb4501aeaad87a84d8fd996fe5776f3a72691198fea9044e2a5ac9ec",
+    "4. Executive Summary-20210101T000000Z-01155-000/4. Executive Summary/Executive Summary River Bennett 2021.pdf": "231e58e18009be323c97952f852d738b0d110658c0f005d493ba35e319c9c0ce"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

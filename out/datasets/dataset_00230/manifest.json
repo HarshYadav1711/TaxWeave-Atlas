@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-00230-000",
+  "tax_year": 2022,
+  "case_fingerprint": "adadc74c6c09b7335b4ba7f9524fe71318f08751d36412de06a6dfc204ad86a5",
+  "case_json_sha256": "49b626fb4005901b33cc3a85ddaf4bc11bdfd30e7c6ac046c5e11858667838dd",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-00230-000/1. Client Summary/Client Summary.pdf": "acf7b3a81aa4c0feabb3f49fbaae4bfa808d5d00ef245abab571eeec895ac96c",
+    "2. Input Documents-20220101T000000Z-00230-000/2. Input Documents/Tax Document Attachments Summary.pdf": "eae235c3c375a6e3192a17cfe3793e71a34bd3c03ad17a15e7627f5e442f183a",
+    "2. Input Documents-20220101T000000Z-00230-000/2. Input Documents/1099- DIV/1099-DIV INGRAM.pdf": "c148fee29c5c0453e87deeb24c350fb20c1e062ddd43e85ebc519f8b9be999be",
+    "2. Input Documents-20220101T000000Z-00230-000/2. Input Documents/1099-INT/1099-INT INGRAM.pdf": "253d038e46dae956042279c3bf1d5b7eb30b3b9bd586114182482a309d36d08f",
+    "2. Input Documents-20220101T000000Z-00230-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "9e954b517e8cb4f0a30d0342f0519e242e3d86fb25891d778ce3b6b1ed50bea3",
+    "2. Input Documents-20220101T000000Z-00230-000/2. Input Documents/Form W-2/Form W-2.pdf": "e77bf19127e2684bf49c1c2845c763a32869fb131e330d1515c54e8da8f26d99",
+    "2. Input Documents-20220101T000000Z-00230-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "79d7e224df631b485fc60c41e779d7507effce2d40e4de4e7fa628d1b8eed4dd",
+    "2. Input Documents-20220101T000000Z-00230-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "a7339bd4721c6afaee39b35c796daa6541097d5737e1f90bfe07548846766d20",
+    "3. Complete form-20220101T000000Z-00230-000/3. Complete form/2022 Tax Return Documents (Morgan Ingram (synthetic)).pdf": "bd34ff3dd7824e278fc3e016bc44bcf282440351c2be2d174df126e0ebd2acce",
+    "3. Complete form-20220101T000000Z-00230-000/3. Complete form/Completed forms - Summary.pdf": "a566186318d75d9e1ec00bf7061f9203bae868a9b53a6408830493ed0b5caa69",
+    "4. Executive Summary-20220101T000000Z-00230-000/4. Executive Summary/Executive Summary Morgan Ingram 2022.pdf": "5fdd6f1ea6aef74885b8e0df21c2e12cc97ff8c920f6e14838f52cd4b3490319"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

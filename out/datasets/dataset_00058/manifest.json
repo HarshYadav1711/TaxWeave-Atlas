@@ -6,17 +6,17 @@
   "case_fingerprint": "51199fa298dadd78421def49e7a317dbbfea7a9d1f79143c7015cec199ad020b",
   "case_json_sha256": "f00ef14a6e2688ac1df3cd2eceb0feada33d026050037053eac595674fc80ae4",
   "files_sha256": {
-    "1. Client Summary-20230101T000000Z-00058-000/1. Client Summary/Client Summary.pdf": "eadcb62bac2c01530720391a076e69940bb787632dfdcfaee9208521923b343c",
-    "2. Input Documents-20230101T000000Z-00058-000/2. Input Documents/Tax Document Attachments Summary.pdf": "f8b0147a049e14c5b6c2e28aeb8e1fdfcfb63fa8b1602047c4f8964b6c4cb9d8",
-    "2. Input Documents-20230101T000000Z-00058-000/2. Input Documents/1099- DIV/1099-DIV SULLIVAN.pdf": "1c27f07b69af0d05cb96ac3e6908604c9e9f50cb010ee7f2ded3b0de7fbadb90",
-    "2. Input Documents-20230101T000000Z-00058-000/2. Input Documents/1099-INT/1099-INT SULLIVAN.pdf": "0da1bda2a704c44954cc91e822e6e5dce3255223754eaef8066f6bc3978e2aea",
-    "2. Input Documents-20230101T000000Z-00058-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "8ce7b379e5193db373554edc2ee78280851af5880bbd7a9cc2ff63b34041bb9b",
-    "2. Input Documents-20230101T000000Z-00058-000/2. Input Documents/Form W-2/Form W-2.pdf": "e3196b8ffde005c119c27d09d224c9d89f9433c5dcf064d1c8bd023aa92965c0",
-    "2. Input Documents-20230101T000000Z-00058-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "e0349553c6c42fb5e02a53b0da9fe35d7593811b16f8048569aa004d10731465",
-    "2. Input Documents-20230101T000000Z-00058-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "6ba5ca0657bb65ff08414fe870c6dec4f16e8f7be4662f0da78d27d75f8cf1e6",
-    "3. Complete form-20230101T000000Z-00058-000/3. Complete form/2023 Tax Return Documents (Avery Sullivan (synthetic)).pdf": "52f1174e31b6bd086f3b65aad7f585487d98dd64e745786bd485a1a84575f85e",
-    "3. Complete form-20230101T000000Z-00058-000/3. Complete form/Completed forms - Summary.pdf": "d8a471b70075b02df570fab788ceaec7d4fe010783d78ce68f28ae0a9f990234",
-    "4. Executive Summary-20230101T000000Z-00058-000/4. Executive Summary/Executive Summary Avery Sullivan 2023.pdf": "823d57b9e4e8a050dc69c0b6f16e21e174e4f630d5e0b8e77d59cdba9b226b5e"
+    "1. Client Summary-20230101T000000Z-00058-000/1. Client Summary/Client Summary.pdf": "4f78c0b311b39e81916c1b950742f8ec906c95369fd99396fd50123b7fc814fa",
+    "2. Input Documents-20230101T000000Z-00058-000/2. Input Documents/Tax Document Attachments Summary.pdf": "b200a628c1b68770cdda86a2f21b486ff16e5f3b1c2031062847f8f48770245d",
+    "2. Input Documents-20230101T000000Z-00058-000/2. Input Documents/1099- DIV/1099-DIV SULLIVAN.pdf": "c1446effc9d8055fa8b7a7313d564fcbe3fccfc8c4116cc121fcbdbf57051ed5",
+    "2. Input Documents-20230101T000000Z-00058-000/2. Input Documents/1099-INT/1099-INT SULLIVAN.pdf": "638b43e975a6aa3835987815866753fa90bd8e5d75c7c2f71e4581404ab418e5",
+    "2. Input Documents-20230101T000000Z-00058-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "6e4304faefa6b1d2aa3fe3d46fb3539789f7a465a430ebdedea79db370d31d74",
+    "2. Input Documents-20230101T000000Z-00058-000/2. Input Documents/Form W-2/Form W-2.pdf": "c74bf0e9af06ac32f2e03fcfb0aec28d5e8880f386aa3e74044b96e6fa750d35",
+    "2. Input Documents-20230101T000000Z-00058-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "3742cc3292f3cd2bff19f5497635bde11655009ab4ebb51ea0a3a27959399f47",
+    "2. Input Documents-20230101T000000Z-00058-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "57e10ee14e7e910b9f86330a12d79fe2d061d8ad778dabd5c060757fa1507c3c",
+    "3. Complete form-20230101T000000Z-00058-000/3. Complete form/2023 Tax Return Documents (Avery Sullivan (synthetic)).pdf": "f8bac5d5141881be22efccdd2f6c20ab558c8797c43c74d1c86f2ff8cb72a391",
+    "3. Complete form-20230101T000000Z-00058-000/3. Complete form/Completed forms - Summary.pdf": "4c798b707ffc53ce067fd38ea6b073a501f1acd0bfa034d09412bd4029987b6e",
+    "4. Executive Summary-20230101T000000Z-00058-000/4. Executive Summary/Executive Summary Avery Sullivan 2023.pdf": "f914855a7ee214fd02d0c4888160cc45b20065c6d2b4ec51d09623659c154774"
   },
   "canonical_case_model": "SyntheticTaxCase"
 }

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20210101T000000Z-01763-000",
+  "tax_year": 2021,
+  "case_fingerprint": "cc24852f1d4000661724d855dc90a5a91ce83230c6c74c1087a78cae099d9cea",
+  "case_json_sha256": "934c56b1281e078c669d1a2e9d576f8d57ba492c93f16a3c64679c02d5a3f49d",
+  "files_sha256": {
+    "1. Client Summary-20210101T000000Z-01763-000/1. Client Summary/Client Summary.pdf": "a37c39301b43e967c441028130d475df89e3bcaafe4229824df76b70aa3ac1a5",
+    "2. Input Documents-20210101T000000Z-01763-000/2. Input Documents/Tax Document Attachments Summary.pdf": "c053f3a0e9d55078bdc461f8091b46aaac2b70266a1298ab6a44609492179aa8",
+    "2. Input Documents-20210101T000000Z-01763-000/2. Input Documents/1099- DIV/1099-DIV SULLIVAN.pdf": "42f799fca3ddf0bf005386e2371e5184017f1c6c16883ae22f3163997dd4efdd",
+    "2. Input Documents-20210101T000000Z-01763-000/2. Input Documents/1099-INT/1099-INT SULLIVAN.pdf": "edb1e4a4ba94626eda20de793dd0aafe8e4d4ee5788f70ce0986d99970cf99c0",
+    "2. Input Documents-20210101T000000Z-01763-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2021_.pdf": "186132b3e648f46edc6163038aa1ec2b200345755c06a997a6e101a95a28bd2b",
+    "2. Input Documents-20210101T000000Z-01763-000/2. Input Documents/Form W-2/Form W-2.pdf": "39f7f6fe426811303e7565e0b6110fe942e83b51363012c1ca57938d94872cd7",
+    "2. Input Documents-20210101T000000Z-01763-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "efbd89e73b1b58ca4619ffecb45c1e57c0965906d2b0b0a068ff48d40cb8543c",
+    "2. Input Documents-20210101T000000Z-01763-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2021.pdf": "5577df131aa40d314e873b8ebbf662ab16c020607a3beeac5525b96669eb2bc4",
+    "3. Complete form-20210101T000000Z-01763-000/3. Complete form/2021 Tax Return Documents (Reese Sullivan (synthetic)).pdf": "d5fce20bc2345c345ec368b749c8102e36d9a2ce88d2195f3dbd19623b9dccc6",
+    "3. Complete form-20210101T000000Z-01763-000/3. Complete form/Completed forms - Summary.pdf": "45620be73a36c6389a64e2798651958b5ded8a1ac110d6cf393dcc13e94de9f8",
+    "4. Executive Summary-20210101T000000Z-01763-000/4. Executive Summary/Executive Summary Reese Sullivan 2021.pdf": "64e828a9807e4ef31333a56dbd4383be21141ff965680ea03961e0a877959ef2"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

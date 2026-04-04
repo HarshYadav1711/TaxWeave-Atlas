@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-00635-000",
+  "tax_year": 2023,
+  "case_fingerprint": "8344be5898a597bf572a7ae95783db3298c8e85e3d593045119069f800ffd96b",
+  "case_json_sha256": "945262e07603b5cd81eb35c84b82a3db16469402dd60a6ae0f8ffcf2d7f6e052",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-00635-000/1. Client Summary/Client Summary.pdf": "24ee575a1bd3f8aa3e9891d98493868a3c585b2f3be47c85950fdf32166400d7",
+    "2. Input Documents-20230101T000000Z-00635-000/2. Input Documents/Tax Document Attachments Summary.pdf": "51bde3435b8ce1acb01774f6e9ea632ab2026304b41fc0afd2b7e8f35e42970f",
+    "2. Input Documents-20230101T000000Z-00635-000/2. Input Documents/1099- DIV/1099-DIV REYES.pdf": "ac85278d5255960d3c6e3b301ddfd1475ac1ab01b9d447141fb7f76f6623db7c",
+    "2. Input Documents-20230101T000000Z-00635-000/2. Input Documents/1099-INT/1099-INT REYES.pdf": "6b7064f57a9e0383d7e7bc0e98fc88200399a00cba48a4e57c15298e0be00689",
+    "2. Input Documents-20230101T000000Z-00635-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "faf3e5fc7076d4a03cab94acda35598120ac7b6eecd155e9fd9d76d833f0273c",
+    "2. Input Documents-20230101T000000Z-00635-000/2. Input Documents/Form W-2/Form W-2.pdf": "04261cec825a6fe5fe0a4da8904461d2a2ea443cc96e6a0e1f2a30b4692c7908",
+    "2. Input Documents-20230101T000000Z-00635-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "a1f9a3d4539bfc7962f60d34f48e0602e267a17fc0f34740776aced42b05d4a4",
+    "2. Input Documents-20230101T000000Z-00635-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "dc6483c70afb574365a20a742f4d98167591813bab20ba8d4f4960f6bf3c7d5f",
+    "3. Complete form-20230101T000000Z-00635-000/3. Complete form/2023 Tax Return Documents (Morgan Reyes (synthetic)).pdf": "ea26c8e611a2cd8e437dc9c2b6ae94001237c7555db88c164a713c58e149c188",
+    "3. Complete form-20230101T000000Z-00635-000/3. Complete form/Completed forms - Summary.pdf": "faa8640c2bedd7748e2c00f76bf71b8520157feadd25a20ab543b2a387384de1",
+    "4. Executive Summary-20230101T000000Z-00635-000/4. Executive Summary/Executive Summary Morgan Reyes 2023.pdf": "210cc625e4d9ff240403d6be24d75ee93409d35b62bd9094aeac42fda02f346b"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

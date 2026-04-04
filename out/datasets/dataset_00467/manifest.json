@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-00467-000",
+  "tax_year": 2020,
+  "case_fingerprint": "2bf570c7602dfb97d952f99fe9af0851d7e3e53d4ed2ebc504fa8ff058fbd524",
+  "case_json_sha256": "5308a9475e22d17e6934338fa6077bea9aaac5713669123383651a86d2e2da52",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-00467-000/1. Client Summary/Client Summary.pdf": "3ff262c222d3234dc233d850f8b1ba5c6bf42cd40759fc394ffd8ec7e9c98dfe",
+    "2. Input Documents-20200101T000000Z-00467-000/2. Input Documents/Tax Document Attachments Summary.pdf": "f07b4f43232e762a1be9eba7bd9b99d74092e5c32fea0a4ae5be7ceb6ba5b2f3",
+    "2. Input Documents-20200101T000000Z-00467-000/2. Input Documents/1099- DIV/1099-DIV INGRAM.pdf": "8de2ce2c6db1189754d6158ed2be3f28a5d27b8fb394114a70f219fe4b7e0a1f",
+    "2. Input Documents-20200101T000000Z-00467-000/2. Input Documents/1099-INT/1099-INT INGRAM.pdf": "1bd2a09fd128ecd7989d91d552736061bf3d95b80c99c7834692e6ff1153c68b",
+    "2. Input Documents-20200101T000000Z-00467-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "9a60bfaaa7d0d10fe623464b38f968e316e66dc3b7c5727164b23934481316b9",
+    "2. Input Documents-20200101T000000Z-00467-000/2. Input Documents/Form W-2/Form W-2.pdf": "2230b44ada20c7cab1a980cb956998e1bf1d636e9dcb7ecfd7a5833897057ab0",
+    "2. Input Documents-20200101T000000Z-00467-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "409031366f45a40b7cb5d4dffb5e55f1d58a35d2cadb6b618a340982863ddba3",
+    "2. Input Documents-20200101T000000Z-00467-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "b4e581a454060801799ed790e9a0960991130d05918f5c813cb54334e82cbb0f",
+    "3. Complete form-20200101T000000Z-00467-000/3. Complete form/2020 Tax Return Documents (Riley Ingram (synthetic)).pdf": "b682bc390d9dc42ec86d6e1aef5dd11077dd260bf13028e965fd81331ebba0e4",
+    "3. Complete form-20200101T000000Z-00467-000/3. Complete form/Completed forms - Summary.pdf": "74d31ab7e58ddce01f38d4095dfe3f3f695edf0168000dbbcce7f6cf39bc580c",
+    "4. Executive Summary-20200101T000000Z-00467-000/4. Executive Summary/Executive Summary Riley Ingram 2020.pdf": "93308cd731610dd479868ee1f93c58f8ea5abbbaae5656b884be3213a02773d1"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

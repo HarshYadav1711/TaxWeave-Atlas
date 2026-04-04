@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-01445-000",
+  "tax_year": 2022,
+  "case_fingerprint": "fba1d7bcdeb8d326b1bbbec28bd243363597b9b632d7ef8fb11fbabcb8d897c6",
+  "case_json_sha256": "77105cb35d5b76be0ef38f9d1468ee6fb909f3d33c70a1119f2418af76d66098",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-01445-000/1. Client Summary/Client Summary.pdf": "ea4673e674950356f401e38d65ddd56324f07e98db2053fd82c170b4bcd287c0",
+    "2. Input Documents-20220101T000000Z-01445-000/2. Input Documents/Tax Document Attachments Summary.pdf": "4923b96cab8bb2986d9af0dc7022dca31121fa45600a21c78c3c5e7aa7cc0c2a",
+    "2. Input Documents-20220101T000000Z-01445-000/2. Input Documents/1099- DIV/1099-DIV HAYES.pdf": "ec3edb1e8c0633717465153f81246153e340fea2418006bb491362cb00709a6f",
+    "2. Input Documents-20220101T000000Z-01445-000/2. Input Documents/1099-INT/1099-INT HAYES.pdf": "b41245abbc186d00090a025c65ffc3a0fbf06b2bc44da94933de922c3f250ea5",
+    "2. Input Documents-20220101T000000Z-01445-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "b2cfba53c0ce9f60163bd8441ab1bb5dd198634a6d3e75ee6d7148e159bc314b",
+    "2. Input Documents-20220101T000000Z-01445-000/2. Input Documents/Form W-2/Form W-2.pdf": "b698434fc6fafdd4f5ad8c0589eced2f55b0dba896315fdf76fceabc44ffb6f2",
+    "2. Input Documents-20220101T000000Z-01445-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "06ba2e7054a76e6f69a6258f067a79b7ac308d108faf8ef5695af99f45338c9b",
+    "2. Input Documents-20220101T000000Z-01445-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "4fab0a7de0bc9eda9d66c397e212d3576214da552cae93ee8a12c2f58234e150",
+    "3. Complete form-20220101T000000Z-01445-000/3. Complete form/2022 Tax Return Documents (Dakota Hayes (synthetic)).pdf": "2c7683932aefecaa4b476568bb12b8314088062993cecdb7efb70ca9eb9d298b",
+    "3. Complete form-20220101T000000Z-01445-000/3. Complete form/Completed forms - Summary.pdf": "2395a0c7a1e3702ab473eb81ff1995af19ddc43878f7a517ae2c991030264f4a",
+    "4. Executive Summary-20220101T000000Z-01445-000/4. Executive Summary/Executive Summary Dakota Hayes 2022.pdf": "eaed16cd7d3be166a79f5f3f255439ffe4b5c242229a16367a4ce1702db79f73"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

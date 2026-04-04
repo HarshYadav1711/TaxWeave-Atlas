@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-00312-000",
+  "tax_year": 2020,
+  "case_fingerprint": "c33f5bba841bcb722bbdc7657af15a2deff6572f9fd9f891b965323bc8530e7b",
+  "case_json_sha256": "cc5b37831485aa651ed8036a7c504e4b0e4fc6a8ff4db632d9e03e105ec122e8",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-00312-000/1. Client Summary/Client Summary.pdf": "8914f125eb8137faad72313af40c48fd65713f65d28328fffd39ee5500d1b6d8",
+    "2. Input Documents-20200101T000000Z-00312-000/2. Input Documents/Tax Document Attachments Summary.pdf": "80aa7038fa653787f1150ce0a756ccce46b00ebbfa33355ad1ba06c359631830",
+    "2. Input Documents-20200101T000000Z-00312-000/2. Input Documents/1099- DIV/1099-DIV DIAZ.pdf": "6c56c3140619c9f21cd4d55c3b72228ede8e9d5ee73c291630a705ab44d969a8",
+    "2. Input Documents-20200101T000000Z-00312-000/2. Input Documents/1099-INT/1099-INT DIAZ.pdf": "499d0e3ea2e76d4a0c219f6311930c814be9a80b4c513a1aff79032be0a3efd8",
+    "2. Input Documents-20200101T000000Z-00312-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "29ef8d515736f2527a3c1990702d40a13a4e2b344e8a92ec6e1fc0b117cb1891",
+    "2. Input Documents-20200101T000000Z-00312-000/2. Input Documents/Form W-2/Form W-2.pdf": "e0c8d08aeb64bd29dc81de447dfae0a0e2d900498214497f4357189db10a5367",
+    "2. Input Documents-20200101T000000Z-00312-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "d1be7abfda1b4e6c585c54663d05ac8c6fe4b356dd86725b17b060a41f51dcb2",
+    "2. Input Documents-20200101T000000Z-00312-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "9fd450a071c7b078a2a426b2df0a284477e0ff96c28bf401808dada921fe9176",
+    "3. Complete form-20200101T000000Z-00312-000/3. Complete form/2020 Tax Return Documents (Casey Diaz (synthetic)).pdf": "3505ebd63ec0ad78be75d0a492bcbaf94c6a9807b2176f7d62de02e2835e38b5",
+    "3. Complete form-20200101T000000Z-00312-000/3. Complete form/Completed forms - Summary.pdf": "040ad4a11c7fc75f432f1298f4bc6260b8c2de66ac770dc5a448185273e7d19a",
+    "4. Executive Summary-20200101T000000Z-00312-000/4. Executive Summary/Executive Summary Casey Diaz 2020.pdf": "7cce3c9877fce58743f15dd4e172eeb0272641ae16ee5a8bbeaf48a512fa0fcc"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

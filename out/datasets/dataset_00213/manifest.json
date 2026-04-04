@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-00213-000",
+  "tax_year": 2020,
+  "case_fingerprint": "b3f899da2e143039f5c44929e3f825d53992a3c7bd1220acbf67ae47c299d61c",
+  "case_json_sha256": "6db78f7fb0d9576258f5ebbfaf0b7f8d42cdbb2ccf61a8084dbf8bda72aa9b00",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-00213-000/1. Client Summary/Client Summary.pdf": "f9e1a25fb3bf7bc96c020147fa3a045f1cfd1893963d48145d25e993d7c0d6e8",
+    "2. Input Documents-20200101T000000Z-00213-000/2. Input Documents/Tax Document Attachments Summary.pdf": "e4567a8c7192c4c97bd1fbd88b11b4aeba8408a0a508dbb7e29fbb3b555e64e5",
+    "2. Input Documents-20200101T000000Z-00213-000/2. Input Documents/1099- DIV/1099-DIV KELLER.pdf": "5d34e9291cd2e481542cfa94d554cc526829502c334080f837725fa2dd4b0376",
+    "2. Input Documents-20200101T000000Z-00213-000/2. Input Documents/1099-INT/1099-INT KELLER.pdf": "2c1917ff590fa5e2dced25ceca3224f087e331eb25aa696fcff37080eb87be22",
+    "2. Input Documents-20200101T000000Z-00213-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "308de5792480187ebf31d117dfb61ea5f5215d2b93189b91aacdb9895766fe6e",
+    "2. Input Documents-20200101T000000Z-00213-000/2. Input Documents/Form W-2/Form W-2.pdf": "c200e0cb1113cbfb9de81abf48526956a1a9fe9c1d480a745e6fc785224c9f7c",
+    "2. Input Documents-20200101T000000Z-00213-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "2e038f0b0f7d9ca99d808796acbca0e40b94ea06fdcd0b7bcfb7daf1fee93244",
+    "2. Input Documents-20200101T000000Z-00213-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "5c85f45b822ebc9a9edf05124b3d8766ca8a9ba7cad1393bebb2442a6f70c4d0",
+    "3. Complete form-20200101T000000Z-00213-000/3. Complete form/2020 Tax Return Documents (Parker Keller (synthetic)).pdf": "5e8e58015a43d86e82b5b788ad0bfc316c5d44c6c6707bc94b09b5c162d5ae08",
+    "3. Complete form-20200101T000000Z-00213-000/3. Complete form/Completed forms - Summary.pdf": "dacb280768181719d45380debde55f01e88efe6630f83d8dc0e1729080939369",
+    "4. Executive Summary-20200101T000000Z-00213-000/4. Executive Summary/Executive Summary Parker Keller 2020.pdf": "91a6760ade8854e87fb02c7161b7bc7abd8aeedff4a8e2152c5185c27192ae79"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

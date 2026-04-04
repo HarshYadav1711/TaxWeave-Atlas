@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-00658-000",
+  "tax_year": 2022,
+  "case_fingerprint": "0a4ea1c6fc131fb451150a83d4d58115e378c60a4dcdbf1a095a6d12825ba20a",
+  "case_json_sha256": "17b36a16eb835ef565789dcf08cb2e91bf803cc4cd655e2077ea1d3731f493ec",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-00658-000/1. Client Summary/Client Summary.pdf": "aba78946f52ccfe89f5e47fc7c706240cc6c8b8a495665518c8dc050b73ecc99",
+    "2. Input Documents-20220101T000000Z-00658-000/2. Input Documents/Tax Document Attachments Summary.pdf": "20233f98df954dcba7c15678a8eb900c014b9c616c304bfaf8b9bdde9ea9acec",
+    "2. Input Documents-20220101T000000Z-00658-000/2. Input Documents/1099- DIV/1099-DIV FOSTER.pdf": "0daa1318ddf41a85ac1dca562315f0a154427a3e65b10159e36b486c395bbb33",
+    "2. Input Documents-20220101T000000Z-00658-000/2. Input Documents/1099-INT/1099-INT FOSTER.pdf": "f30df64267488d64470ac4dfd1448923fb937468d00f6c893b28f2a91a010844",
+    "2. Input Documents-20220101T000000Z-00658-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "7cf115e3935e6bc5cb2aabed43917030cb17beb34a7cb88143db30384a55397a",
+    "2. Input Documents-20220101T000000Z-00658-000/2. Input Documents/Form W-2/Form W-2.pdf": "0f732128bffc229d76e8bbb2c645a2e83bfcc56ac277bb4dc413bb52e6e78580",
+    "2. Input Documents-20220101T000000Z-00658-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "fe1e2aa687293a3ba06833814c05f17b1ae3edb777398258795458dc5e3bb05e",
+    "2. Input Documents-20220101T000000Z-00658-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "dc542f4f68a91e1d76c7a20e43a69e5d49848949530e79c9eed5afc69f435998",
+    "3. Complete form-20220101T000000Z-00658-000/3. Complete form/2022 Tax Return Documents (Avery Foster (synthetic)).pdf": "09e65c0c6b3e41ac4affca63efa371d6e0ff5155d4e8c0306394189e59035073",
+    "3. Complete form-20220101T000000Z-00658-000/3. Complete form/Completed forms - Summary.pdf": "b7f9ee3c6ecdc15d6c3cd33d45f24b270ba967caa6d996d0b2972dbe858395bc",
+    "4. Executive Summary-20220101T000000Z-00658-000/4. Executive Summary/Executive Summary Avery Foster 2022.pdf": "f98422a1ed08848f064d91611d0eab5d9c822a73a83b7e002a71971d97e0507e"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

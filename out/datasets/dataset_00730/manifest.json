@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20210101T000000Z-00730-000",
+  "tax_year": 2021,
+  "case_fingerprint": "2052cc8a9e25b04338ed73ca3914a8d56e5954b0e73f4387b00e2280a39e8282",
+  "case_json_sha256": "873771fd6b7efcd1c250b7c5312a484731476890eac8a1fdcde821975357e99b",
+  "files_sha256": {
+    "1. Client Summary-20210101T000000Z-00730-000/1. Client Summary/Client Summary.pdf": "be5a3bbf996284cc1f5f8be0110a3187f9df17d11b10ad83476361375b597fa8",
+    "2. Input Documents-20210101T000000Z-00730-000/2. Input Documents/Tax Document Attachments Summary.pdf": "1305ec46bdc473c9ba6a36a37155417442363a36f9919c4d43d9afdc7c82a0aa",
+    "2. Input Documents-20210101T000000Z-00730-000/2. Input Documents/1099- DIV/1099-DIV CARTER.pdf": "8cd127d5d8b5558c5e795df85a104860aa32ecea59e16d9f763a90932514db9d",
+    "2. Input Documents-20210101T000000Z-00730-000/2. Input Documents/1099-INT/1099-INT CARTER.pdf": "16ffa241662f66c505c2aa4acf8a24d8dde60869f5cb18b6b0fcdc969140d953",
+    "2. Input Documents-20210101T000000Z-00730-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2021_.pdf": "74e64bb1961365e26916a3cb4689b87a1fa9eb14195f7bd27a9d11f84cccbba0",
+    "2. Input Documents-20210101T000000Z-00730-000/2. Input Documents/Form W-2/Form W-2.pdf": "add67f7473fb03a8df92761eb3fd5692a53e96b1a934cbec1d6c56f5f0c52869",
+    "2. Input Documents-20210101T000000Z-00730-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "dffc0e0518dca7268436c5e27c9ee73d28a146a6f5b8c67e40753249ede72d01",
+    "2. Input Documents-20210101T000000Z-00730-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2021.pdf": "0501de28b6dfb272a40d97bf3b7a35e27be5210979bfaf63b3c3259d2cd09de9",
+    "3. Complete form-20210101T000000Z-00730-000/3. Complete form/2021 Tax Return Documents (Rowan Carter (synthetic)).pdf": "2a86c024be8776f84e9a8e080ed84b6586f0762990cdbac0386252035ff5deb1",
+    "3. Complete form-20210101T000000Z-00730-000/3. Complete form/Completed forms - Summary.pdf": "4e97f7a9702e069ecaee5097219d0fd0d2ef0c137e8fc74aeddcd710479bc2a5",
+    "4. Executive Summary-20210101T000000Z-00730-000/4. Executive Summary/Executive Summary Rowan Carter 2021.pdf": "35c1ec63778d6d31e79d0d17672443ca3bc048bb40d4c0320b92e2ce48b13e49"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

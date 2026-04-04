@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20210101T000000Z-00110-000",
+  "tax_year": 2021,
+  "case_fingerprint": "ee67e20bf6635c918451b69c1bf7eaf10425ba5835b1f1e0414b417cb206179d",
+  "case_json_sha256": "039a0c7a55d3d0e7e0ac1fa2323ea886d1082f92a154dedddd3fd91832fbe206",
+  "files_sha256": {
+    "1. Client Summary-20210101T000000Z-00110-000/1. Client Summary/Client Summary.pdf": "24846a891e09a01cc2e56929d0280f7dcdbf21f17dc9de5a5f73d7fbee2cc58f",
+    "2. Input Documents-20210101T000000Z-00110-000/2. Input Documents/Tax Document Attachments Summary.pdf": "6d9cc84ba0308a149ad2ee6c95506738410594f328ae3a3dd3c44ebcbee0a5be",
+    "2. Input Documents-20210101T000000Z-00110-000/2. Input Documents/1099- DIV/1099-DIV LAWSON.pdf": "c453212c0df1c9b2d83c3656382c281a3cf6a6959600764757600223ad0b3b06",
+    "2. Input Documents-20210101T000000Z-00110-000/2. Input Documents/1099-INT/1099-INT LAWSON.pdf": "206d5715808a1dcf2dc7e92f60fb4979a876ba1d7d88bd8247180ad7a3d16a1c",
+    "2. Input Documents-20210101T000000Z-00110-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2021_.pdf": "7e52583e332292d7f03f92276556642af37e89cc28169775c29c566fc518fa13",
+    "2. Input Documents-20210101T000000Z-00110-000/2. Input Documents/Form W-2/Form W-2.pdf": "524b9ed8ec3637ccfbaf8375995484782ea0f4bc7563224abd84ae3e20284c43",
+    "2. Input Documents-20210101T000000Z-00110-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "1f41431b67093caffa468064692f890cbc8dfb46abe6e06732ecf6a4075a49e3",
+    "2. Input Documents-20210101T000000Z-00110-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2021.pdf": "ee154bb79bbb390557fba7bc1544de02349713b6cab164e1a7b06e2f683296a5",
+    "3. Complete form-20210101T000000Z-00110-000/3. Complete form/2021 Tax Return Documents (Avery Lawson (synthetic)).pdf": "cd28645baede6b812bea6257e0c8debc2dea9cc31500e257b52ee5d199a62254",
+    "3. Complete form-20210101T000000Z-00110-000/3. Complete form/Completed forms - Summary.pdf": "51dfc21e702e760901f8e98291c5966ae49df2614d968557701b49468b279434",
+    "4. Executive Summary-20210101T000000Z-00110-000/4. Executive Summary/Executive Summary Avery Lawson 2021.pdf": "34d91c56423348020306825907d03db38da4c260916d9c7478a64a8e03802050"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

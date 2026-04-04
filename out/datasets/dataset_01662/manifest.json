@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20210101T000000Z-01662-000",
+  "tax_year": 2021,
+  "case_fingerprint": "0bf5383db7681a3baf8ed0689b95de6894b998657b115cb7d9701d83915e00c4",
+  "case_json_sha256": "faf2835047806fb6689f25c22c52f82e28495e78816a59b6eaab0d42eea78a96",
+  "files_sha256": {
+    "1. Client Summary-20210101T000000Z-01662-000/1. Client Summary/Client Summary.pdf": "29a8765f02d431e6cd87d8aa26e37f59aef6d41af84b110dda2327f033c70e23",
+    "2. Input Documents-20210101T000000Z-01662-000/2. Input Documents/Tax Document Attachments Summary.pdf": "0b981359a909b77bd48df201c5c7ff123f806c908156a1c9141b1a28872ddc2f",
+    "2. Input Documents-20210101T000000Z-01662-000/2. Input Documents/1099- DIV/1099-DIV FOSTER.pdf": "47339fd1f2b24ec17e2504a0b6c8b48677b2abcb0e104515774472e67cae342d",
+    "2. Input Documents-20210101T000000Z-01662-000/2. Input Documents/1099-INT/1099-INT FOSTER.pdf": "6d2835c84f1fcb58ae0e47d519df8b115de5061a9690ecd6ca2980cfa6b8c8bf",
+    "2. Input Documents-20210101T000000Z-01662-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2021_.pdf": "f5361a8b5e2e258797b4fd1f0085035ff6a6002c88c0c86b0a357efe1c87ec9f",
+    "2. Input Documents-20210101T000000Z-01662-000/2. Input Documents/Form W-2/Form W-2.pdf": "89e939ca6c07fcf74d8f349ebcf41eaf05e18d8b0a983c0c64ed1ce520dab392",
+    "2. Input Documents-20210101T000000Z-01662-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "1ea2af74dff55ec9273d321e4ac52747ee362fbeb73356278374e21dd6b1c706",
+    "2. Input Documents-20210101T000000Z-01662-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2021.pdf": "c158ba242acaac6613c2a9168a13549494046eabebd344c5fc4979d94ecb8f44",
+    "3. Complete form-20210101T000000Z-01662-000/3. Complete form/2021 Tax Return Documents (Skyler Foster (synthetic)).pdf": "ef05cecb84b29af8132b60c85b79827dff06d692c29743191e00d44dfdd7c23f",
+    "3. Complete form-20210101T000000Z-01662-000/3. Complete form/Completed forms - Summary.pdf": "2bd9f64dab01900d40e36a07ff80d969709406b83cc014342e214f17171f2d1c",
+    "4. Executive Summary-20210101T000000Z-01662-000/4. Executive Summary/Executive Summary Skyler Foster 2021.pdf": "ea8c5fa8ffea39bc6683bf6c77515635862a896a6dbaabee6cdf68f4720014e0"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

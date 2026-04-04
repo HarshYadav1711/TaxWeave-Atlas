@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-00345-000",
+  "tax_year": 2024,
+  "case_fingerprint": "d7b3f6e787266e0cf73af575c24a2336020c0e146b2535b3e00fef1b316eb274",
+  "case_json_sha256": "ee168a4517c3a86dd7fa450a42e8f7e7d9962344b08233d3e8fb1d3603965778",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-00345-000/1. Client Summary/Client Summary.pdf": "97e1e7e27194ae68161a284903c05aa3860e64a2d9b9b5c4677bf3bb966d468f",
+    "2. Input Documents-20240101T000000Z-00345-000/2. Input Documents/Tax Document Attachments Summary.pdf": "e8a32a5473ad77405954423db4f930c95ab82d07e928647708fd3db9fd75fd4a",
+    "2. Input Documents-20240101T000000Z-00345-000/2. Input Documents/1099- DIV/1099-DIV KELLER.pdf": "8857e1d71f8e6d8b6d6dbf95791f146b19c2fb59abef6b8ff50c06f77229f7f1",
+    "2. Input Documents-20240101T000000Z-00345-000/2. Input Documents/1099-INT/1099-INT KELLER.pdf": "9fdff9d45ea9210b41d580cf41f25e2da846aad78dc32238027a3183bca0eb4e",
+    "2. Input Documents-20240101T000000Z-00345-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "e960c381364a7e710dfdb5400c0762845caee96a42cb82f173a2db2afd0e78f5",
+    "2. Input Documents-20240101T000000Z-00345-000/2. Input Documents/Form W-2/Form W-2.pdf": "fe12fe9809dfbaefe0479cc352c00ce32f9f8cb05d37ac5d2e79519937537fe5",
+    "2. Input Documents-20240101T000000Z-00345-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "abdc2d03e118ec0e108d0cd6ac448cf44bbe421d1a83349bc97088df5817dc7c",
+    "2. Input Documents-20240101T000000Z-00345-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "4b8f6dfacc1c715c83d43abec752ec828619baf15f0870c8a4a942966ef2aac2",
+    "3. Complete form-20240101T000000Z-00345-000/3. Complete form/2024 Tax Return Documents (Avery Keller (synthetic)).pdf": "9b5d656bed639d7fe1fe6637757d97d1ff8685432bef8313e5e0870b7394d2fd",
+    "3. Complete form-20240101T000000Z-00345-000/3. Complete form/Completed forms - Summary.pdf": "ddff7926459e46ea91848fe0cc03ece87cb2f383a49ed236fa127a8eb06543ec",
+    "4. Executive Summary-20240101T000000Z-00345-000/4. Executive Summary/Executive Summary Avery Keller 2024.pdf": "5d83fb19005359922ec2c59ab1620b7e8ca1cadb1f7ebcce38ae54ab8f28bc9b"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20210101T000000Z-00344-000",
+  "tax_year": 2021,
+  "case_fingerprint": "9f8c31d494a43dd90a86b76d60bafacfcaa23f150c8215df8abd66e129a2107f",
+  "case_json_sha256": "ea6751c5e028eb0bc6df3c82b0db31791a81be70e24f1845e2d8ee463b87db9b",
+  "files_sha256": {
+    "1. Client Summary-20210101T000000Z-00344-000/1. Client Summary/Client Summary.pdf": "61877986d7e87e2f24c7f430b8d8802c275d24f1dd415e617b9788de8d744649",
+    "2. Input Documents-20210101T000000Z-00344-000/2. Input Documents/Tax Document Attachments Summary.pdf": "94b923bc55012c1d892e63aa6ca7a2ed649120d224744c9506a77c6c91d04ad2",
+    "2. Input Documents-20210101T000000Z-00344-000/2. Input Documents/1099- DIV/1099-DIV HAYES.pdf": "5db8add33858b54f91df3fb174f6b162c40d73c36308bc8c8e0dfd9a8de43f38",
+    "2. Input Documents-20210101T000000Z-00344-000/2. Input Documents/1099-INT/1099-INT HAYES.pdf": "a7657d4af6e3bc65c17e5e2a3cd1b44ca7993d1220c2d0388706477f2dd0e2e0",
+    "2. Input Documents-20210101T000000Z-00344-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2021_.pdf": "c5f09f48aa424fa3252f7a4a11b67cb5038f6e8d29c77ed54314f03e54e0985d",
+    "2. Input Documents-20210101T000000Z-00344-000/2. Input Documents/Form W-2/Form W-2.pdf": "dbaa320b3cbc9c8d1b8ab658d7172b7c0edfc79d9ed9769ed0db4eecf4f933e4",
+    "2. Input Documents-20210101T000000Z-00344-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "cb542daef1c35b01b27bf3536b204059b5dbb513971846b0a6dd82860c4ce0f7",
+    "2. Input Documents-20210101T000000Z-00344-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2021.pdf": "d17a8e6b283366379d6f4018e07b5261f2b4c2720a5c930da06027075a369685",
+    "3. Complete form-20210101T000000Z-00344-000/3. Complete form/2021 Tax Return Documents (Morgan Hayes (synthetic)).pdf": "66e93b76a79f2ee71102f2efa3635bf25f5f6e3c47fac7b717a74c72d190d5d4",
+    "3. Complete form-20210101T000000Z-00344-000/3. Complete form/Completed forms - Summary.pdf": "5e94062e5fe2555925114342ccf55f971ce327717b0233a11f0f56d76a0db34f",
+    "4. Executive Summary-20210101T000000Z-00344-000/4. Executive Summary/Executive Summary Morgan Hayes 2021.pdf": "fb707e4f95e37acf13dfc6b25ab798a487a38d9b95672709e773d7bcba88728a"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

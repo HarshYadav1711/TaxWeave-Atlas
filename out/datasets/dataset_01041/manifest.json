@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-01041-000",
+  "tax_year": 2020,
+  "case_fingerprint": "3946d5b0eb34648ca74c5695fd1837ab69fb979ff61e7858106a562b7acb3c60",
+  "case_json_sha256": "df59198efafd33a717ba557f440dd6329380069bd094ef08741c70b2ad310c1b",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-01041-000/1. Client Summary/Client Summary.pdf": "3a02d9f49b2c26c46db4f2e861414854ce0974eaaf4446a76497eab05d2bee0f",
+    "2. Input Documents-20200101T000000Z-01041-000/2. Input Documents/Tax Document Attachments Summary.pdf": "6ab877261d6b4b8780a5df19fe241ee6892c1de3a02447a0d212e5ddc5c1e88d",
+    "2. Input Documents-20200101T000000Z-01041-000/2. Input Documents/1099- DIV/1099-DIV NAVARRO.pdf": "c9365ad92a0c51035e3f384b00289ef009756362cc8b655b088731c82997ec06",
+    "2. Input Documents-20200101T000000Z-01041-000/2. Input Documents/1099-INT/1099-INT NAVARRO.pdf": "2f9ea0224802106c76379d3ea4bc0b5132431916fb4e6ac09b91431b7b57fdb8",
+    "2. Input Documents-20200101T000000Z-01041-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "253642535e471df562a125402b83ceec685f51caf9ac3ada46b1395bffd6f9d7",
+    "2. Input Documents-20200101T000000Z-01041-000/2. Input Documents/Form W-2/Form W-2.pdf": "3efe861e299a5f792453c91f190ee94af65cf19f41835a7b532753dc1cc5568b",
+    "2. Input Documents-20200101T000000Z-01041-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "16122a1e7f1ec0bbaff1135cb10efd4cbd626c117dcb7de2d1d4f0f7eff49d63",
+    "2. Input Documents-20200101T000000Z-01041-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "bb81ccfa3b0b2f8c57f39229a8dc2bdfbb12b6f4952afa8fe4b4faa79a160cd0",
+    "3. Complete form-20200101T000000Z-01041-000/3. Complete form/2020 Tax Return Documents (Quinn Navarro (synthetic)).pdf": "f4f128bcc0844071ea334fc6eb3a2073d220bf7ff94de3c42ca48303c24b4fdb",
+    "3. Complete form-20200101T000000Z-01041-000/3. Complete form/Completed forms - Summary.pdf": "93958feda420111ad905e911209de5e326ed6df38354a32cab91844b78f5e9eb",
+    "4. Executive Summary-20200101T000000Z-01041-000/4. Executive Summary/Executive Summary Quinn Navarro 2020.pdf": "df583c5699315b592416fe1de8e3025ab5fc9e867548607470db2cc3a9e3567d"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

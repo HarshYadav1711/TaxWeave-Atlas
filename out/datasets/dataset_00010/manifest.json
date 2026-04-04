@@ -6,17 +6,17 @@
   "case_fingerprint": "af52f0002d35793afcf4250005a8a1ce111e32be74ef6fdbca6a5fb16f7574fe",
   "case_json_sha256": "40e5abcf661fcd35a56179d20cb043b24238042b092204f6f6983c3ae5886834",
   "files_sha256": {
-    "1. Client Summary-20240101T000000Z-00010-000/1. Client Summary/Client Summary.pdf": "d29c5afb875a2ca0f9e6b987009f9c3abced6d2bc19904389ccb91ce509574a0",
-    "2. Input Documents-20240101T000000Z-00010-000/2. Input Documents/Tax Document Attachments Summary.pdf": "9e89d7b2b057f10e14269913063d5fa167614ee3eed552d8822273dc487f0ebe",
-    "2. Input Documents-20240101T000000Z-00010-000/2. Input Documents/1099- DIV/1099-DIV DIAZ.pdf": "6c6a7d75a4643c25f49a7c31509650bd04cb7ea8bc1b6d2b821ee7e253609a75",
-    "2. Input Documents-20240101T000000Z-00010-000/2. Input Documents/1099-INT/1099-INT DIAZ.pdf": "49374cbf5bac7ee9419a1063672c7cce7765f7b5679e0c65f922647103b37a5f",
-    "2. Input Documents-20240101T000000Z-00010-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "9ea5363a47e8aa81f7e393310bff8338bb28199b9d63748fb9146f57d9134513",
-    "2. Input Documents-20240101T000000Z-00010-000/2. Input Documents/Form W-2/Form W-2.pdf": "598f47ee89377648d23903aa2b8bdd3522cde67fdbccea695f168be4138ea729",
-    "2. Input Documents-20240101T000000Z-00010-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "7556724c81660bf7478b80c884b98b5179a810371a87948fb2e102af61558ce4",
-    "2. Input Documents-20240101T000000Z-00010-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "c42ca064e808ca55d65d1b550424d9ebcc2bb6c4cda8c102e41ba1b531c69323",
-    "3. Complete form-20240101T000000Z-00010-000/3. Complete form/2024 Tax Return Documents (Avery Diaz (synthetic)).pdf": "88aa26491f943d2eb596d7ba5c0f063441e36eb6b40714fe2192a98dead0f17c",
-    "3. Complete form-20240101T000000Z-00010-000/3. Complete form/Completed forms - Summary.pdf": "f52e8153291d6560d7a524a5de7ece06af4fbff45d14e7a26ecb9d0b6122f116",
-    "4. Executive Summary-20240101T000000Z-00010-000/4. Executive Summary/Executive Summary Avery Diaz 2024.pdf": "f7666082d67230e64e44e5bb08d6c2e4fab26e71df7e184f749fa8391262765b"
+    "1. Client Summary-20240101T000000Z-00010-000/1. Client Summary/Client Summary.pdf": "58739ab5fb83db7ef4129ea137143cdc067fc97942ed117b7573c791620bc5c8",
+    "2. Input Documents-20240101T000000Z-00010-000/2. Input Documents/Tax Document Attachments Summary.pdf": "7a6982205da2482708808bfb13008583a8297c2cae6deb7438580c98c539ef49",
+    "2. Input Documents-20240101T000000Z-00010-000/2. Input Documents/1099- DIV/1099-DIV DIAZ.pdf": "146aa7e29459f474fc5e47a0402edc5a60910feb52248a6d73c0b282aa287b5c",
+    "2. Input Documents-20240101T000000Z-00010-000/2. Input Documents/1099-INT/1099-INT DIAZ.pdf": "fe35b166de3a8cfed42ee1293f6cec035a6198bc862bfc35bfaff6d5d4460eba",
+    "2. Input Documents-20240101T000000Z-00010-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "8b3b5debc937e824147fb1d35810ad65f1474539676f8e11e25d4a1b4c288d1b",
+    "2. Input Documents-20240101T000000Z-00010-000/2. Input Documents/Form W-2/Form W-2.pdf": "723ee98afa0af6a717ac2186baed54cde3d21892d9f8638daac9ba8478d93f41",
+    "2. Input Documents-20240101T000000Z-00010-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "edeae819dd9797971974ed21458daad766577aebf1219cd9fac1a67e4b782218",
+    "2. Input Documents-20240101T000000Z-00010-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "e1e3f14ba3abe86009a53fb9951a473f02538aa48e3cad9ddd1f1a7d82a0ce4e",
+    "3. Complete form-20240101T000000Z-00010-000/3. Complete form/2024 Tax Return Documents (Avery Diaz (synthetic)).pdf": "5a9bed847e68badef195c9bdbf61cc27a435feed21d05c09cde6bdb217da552e",
+    "3. Complete form-20240101T000000Z-00010-000/3. Complete form/Completed forms - Summary.pdf": "b724b3e6742d786084a4be059f6a9db9ca7cfaae2e82327bdff0ff2cb5468013",
+    "4. Executive Summary-20240101T000000Z-00010-000/4. Executive Summary/Executive Summary Avery Diaz 2024.pdf": "097e6cb94d7cc0f00ae7d3dfc54ed7aad1e7c9b9698ce56996c2ab7f14f31c9d"
   },
   "canonical_case_model": "SyntheticTaxCase"
 }

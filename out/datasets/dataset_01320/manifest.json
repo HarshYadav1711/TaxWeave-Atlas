@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-01320-000",
+  "tax_year": 2020,
+  "case_fingerprint": "75c6d2b6ca712c7502ac67cd0dc46d132a2abfd2fc015a43bb5050363e99ea37",
+  "case_json_sha256": "16fee311604e5bb4b65823ecfb879aec69eaea82d1b0c5d9d421b37996f8efea",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-01320-000/1. Client Summary/Client Summary.pdf": "554d00e66fa40ec5392e987e79ecfe3524c0f670123dd49482a43aa3248d756a",
+    "2. Input Documents-20200101T000000Z-01320-000/2. Input Documents/Tax Document Attachments Summary.pdf": "215d3e149a93004d14c12b9f631f799f3360d7a19a960c7834f1fe250fad76e9",
+    "2. Input Documents-20200101T000000Z-01320-000/2. Input Documents/1099- DIV/1099-DIV BENNETT.pdf": "b92a4b57e6501b88b2b6609ea0d9a937586d3881d6f2ad7255ef30b246bad258",
+    "2. Input Documents-20200101T000000Z-01320-000/2. Input Documents/1099-INT/1099-INT BENNETT.pdf": "c9724e165c2c717a4bf7c0a9f95c5b6ae45695d4a04e61bb8d4f6444c3b2d464",
+    "2. Input Documents-20200101T000000Z-01320-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "690ee37239a6b5f76a8184c1172b0211102d80187ffb3c9c1b4dcfc29303b46e",
+    "2. Input Documents-20200101T000000Z-01320-000/2. Input Documents/Form W-2/Form W-2.pdf": "f0755be52fb8e3863087134d804d22f80254cae481ddcf0f06f808a4972b3690",
+    "2. Input Documents-20200101T000000Z-01320-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "e8f73014d10711155d32202192a36a772fb8ecdd7ed31bed0df9c1e0475e7f8b",
+    "2. Input Documents-20200101T000000Z-01320-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "2fd741feb1ad64b5291c9aecb2e2c80e047ec7b3547238acd9854c0e84bdae44",
+    "3. Complete form-20200101T000000Z-01320-000/3. Complete form/2020 Tax Return Documents (Parker Bennett (synthetic)).pdf": "745f32afdc99673e418f04c725dbc4e7a793c7ad697534896280cd9620c76848",
+    "3. Complete form-20200101T000000Z-01320-000/3. Complete form/Completed forms - Summary.pdf": "03492fc2b50188a4db539175b64f1ee3a409b30d58ff3b5b2453de67303457c7",
+    "4. Executive Summary-20200101T000000Z-01320-000/4. Executive Summary/Executive Summary Parker Bennett 2020.pdf": "98749cd28b4062a76cced8edfa6854b2400b1a51ae92f044343122fa28c23336"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-00851-000",
+  "tax_year": 2022,
+  "case_fingerprint": "6fd15bcb0897f6c40176926eb372b7e8b01afb68f94d0f9dd4b12339d898b0e1",
+  "case_json_sha256": "cfc373dbf58a66cfc6936579d029308260e22328a22edc3a13fcd67d65165169",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-00851-000/1. Client Summary/Client Summary.pdf": "0f7c3a450d83c3faa5c2976b638adf4d01514c1e6c89e1517728fc901e51300c",
+    "2. Input Documents-20220101T000000Z-00851-000/2. Input Documents/Tax Document Attachments Summary.pdf": "7bb5059ba4ad25464f5136254247746c68160ffe4c9ad19760aa5e5ba78d98fc",
+    "2. Input Documents-20220101T000000Z-00851-000/2. Input Documents/1099- DIV/1099-DIV REYES.pdf": "13d6399833c47cbb2bc8f060a579349256c6c874d3b885fa8194ef39e5ed8019",
+    "2. Input Documents-20220101T000000Z-00851-000/2. Input Documents/1099-INT/1099-INT REYES.pdf": "92703b405517affb5683ed2138f53a5146b56bf55702c2af667b84c4d15f68d7",
+    "2. Input Documents-20220101T000000Z-00851-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "2e96514e9f00199a90e1d96515855f75348a98f8facb9bb752e23de15dee8454",
+    "2. Input Documents-20220101T000000Z-00851-000/2. Input Documents/Form W-2/Form W-2.pdf": "dea8703cd12e1351e3b1a14c7ca73bb16e13334b6007c160551078f4cfcb6ae3",
+    "2. Input Documents-20220101T000000Z-00851-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "773e3ebb9d13d5ad0e450f849980c7f84ff5031ccc14d23cd7260570439dc0e9",
+    "2. Input Documents-20220101T000000Z-00851-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "73f4cb7fc2e7737f1934eec060f4f71e4bb10c49290e0de8362eb26ad560e7a5",
+    "3. Complete form-20220101T000000Z-00851-000/3. Complete form/2022 Tax Return Documents (Emery Reyes (synthetic)).pdf": "369d57a1ecfbf9eeadd7dbbefe420aa2234af619c44fff95b8ea974be291e7a9",
+    "3. Complete form-20220101T000000Z-00851-000/3. Complete form/Completed forms - Summary.pdf": "049caa1ada1726eda7d2837c24d508b65442edcb5a0a715330acbf983f785e00",
+    "4. Executive Summary-20220101T000000Z-00851-000/4. Executive Summary/Executive Summary Emery Reyes 2022.pdf": "1f7c5011ccc8af6bce6ecf0f4b3920a5b3d73b05e1955b5d16fd205607bd7edc"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

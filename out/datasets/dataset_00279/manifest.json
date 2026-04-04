@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-00279-000",
+  "tax_year": 2024,
+  "case_fingerprint": "8ccf135100281428be1aa863969f7092c098c0dee86f8f483657d670ddff417c",
+  "case_json_sha256": "31d1f1d5c2f7af70b9df1243791a11fa03fef21c7095e0b548130477acc20552",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-00279-000/1. Client Summary/Client Summary.pdf": "3ceaa1703ec0a6d11d664632d14b0425d0a41d0ed4f56e6197454eca2cec5097",
+    "2. Input Documents-20240101T000000Z-00279-000/2. Input Documents/Tax Document Attachments Summary.pdf": "ed31326a8e1e4cd7583e187da19f06db1072a0132e4664d29aa957cc48813f71",
+    "2. Input Documents-20240101T000000Z-00279-000/2. Input Documents/1099- DIV/1099-DIV LAWSON.pdf": "736e3a2dd83ccf94b14076a59adda03673bca0ee0d90c103e1e0eaf64c0ee9a7",
+    "2. Input Documents-20240101T000000Z-00279-000/2. Input Documents/1099-INT/1099-INT LAWSON.pdf": "2f750b97a1bcd5a746bcce332e065521657b48383152dad41612cadf569154e8",
+    "2. Input Documents-20240101T000000Z-00279-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "68eb0dea5f2781e8341feaace3db06394262e07b40c641bb34b977b3a37c2f2b",
+    "2. Input Documents-20240101T000000Z-00279-000/2. Input Documents/Form W-2/Form W-2.pdf": "7fb87dd20e00333aebe0f6e87417d961c1e556e56e0a1c05a0924a9ef8d6c04b",
+    "2. Input Documents-20240101T000000Z-00279-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "5912f9978f18104688bdd6e16f578e2f8a5c33522b7fce7e3145db5f80f865e0",
+    "2. Input Documents-20240101T000000Z-00279-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "e627106df953cd929e10dc4bac8b189a6bc574629105fd233898f0373e05d047",
+    "3. Complete form-20240101T000000Z-00279-000/3. Complete form/2024 Tax Return Documents (Rowan Lawson (synthetic)).pdf": "56d820d1cb97b612b066868f75b34aad398d0baa1aa83f4782aeea223a422fcf",
+    "3. Complete form-20240101T000000Z-00279-000/3. Complete form/Completed forms - Summary.pdf": "cb5fa1b206ca1bf8e2b9e278821b2a0bd92cd3bfecfc9a13420465439948d3e8",
+    "4. Executive Summary-20240101T000000Z-00279-000/4. Executive Summary/Executive Summary Rowan Lawson 2024.pdf": "4edd5b9ae5883382b8b4240b8afdc71f49ba39d794a0ab0523dd720c7bb5d766"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-00968-000",
+  "tax_year": 2023,
+  "case_fingerprint": "d7c1eaa6fa6702cf8fea36f590d4ff51e6741f0aa756338b44ad785ebb45a5ba",
+  "case_json_sha256": "7bf13b015ded72fcb503c17c53dec5dcd74e0e6484cd832712fdff8dfdccf3d4",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-00968-000/1. Client Summary/Client Summary.pdf": "994e4b9d95f9ca0a4af524b35db78a492c2ed50e89f64d605f543339c0210bc9",
+    "2. Input Documents-20230101T000000Z-00968-000/2. Input Documents/Tax Document Attachments Summary.pdf": "a63744c7e17fb381c9f963e2cec07542e0b349998121017196b02a23802df465",
+    "2. Input Documents-20230101T000000Z-00968-000/2. Input Documents/1099- DIV/1099-DIV SULLIVAN.pdf": "6cdf3196467babd7bbc28df5fbad75045aaa73a33c12003d35b90944c2cba0b3",
+    "2. Input Documents-20230101T000000Z-00968-000/2. Input Documents/1099-INT/1099-INT SULLIVAN.pdf": "6578b7c01e43c7c21a319475d30b000aa394e44338fc7aca5ca0f82167abac4d",
+    "2. Input Documents-20230101T000000Z-00968-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "79da87bccef3c233b575a183fbb7737a5c577bc3b8f62f6ee69d316b6c372cf2",
+    "2. Input Documents-20230101T000000Z-00968-000/2. Input Documents/Form W-2/Form W-2.pdf": "423a059bd30e996a5bd40f2c73fca4d04e7b9298e79e250e56896bc448820da5",
+    "2. Input Documents-20230101T000000Z-00968-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "2dfc2a0d2d82f517b889fe0ad26a3a45402cd8619ef893060e55faf3c0bcacc7",
+    "2. Input Documents-20230101T000000Z-00968-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "66e76781b59e0e86679a1ccea1e282b41da4e83dc3f31e65768319bc7caa979d",
+    "3. Complete form-20230101T000000Z-00968-000/3. Complete form/2023 Tax Return Documents (Avery Sullivan (synthetic)).pdf": "f98d88f5430426bf753e60615cf2eaaf082688d591b21570b745de9905da4175",
+    "3. Complete form-20230101T000000Z-00968-000/3. Complete form/Completed forms - Summary.pdf": "9d2acd37acc905f4899ba7f3228202d857d9801096e4ba6b110733848ff06610",
+    "4. Executive Summary-20230101T000000Z-00968-000/4. Executive Summary/Executive Summary Avery Sullivan 2023.pdf": "e4ed373832c94da623ac3070f55f038a776c921017152d732816e76303e9a16c"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

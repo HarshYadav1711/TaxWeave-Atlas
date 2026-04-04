@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20210101T000000Z-01681-000",
+  "tax_year": 2021,
+  "case_fingerprint": "994fedba14065160d81bc0c81396aefc014b14678c54f7b59f95226f0d19192a",
+  "case_json_sha256": "55dc3f9e754aa21d21c9b6a9cbbfd60117038fd7c3bb0897c9514a304dc73c55",
+  "files_sha256": {
+    "1. Client Summary-20210101T000000Z-01681-000/1. Client Summary/Client Summary.pdf": "fa3d461d4fc9e41c362f235881de7a6ce7741552970795413aa5e907cab3cee5",
+    "2. Input Documents-20210101T000000Z-01681-000/2. Input Documents/Tax Document Attachments Summary.pdf": "84228e9de349ace5a31b16a281fa4624bea0af4a6cdcbd50f81e2d495339e0b2",
+    "2. Input Documents-20210101T000000Z-01681-000/2. Input Documents/1099- DIV/1099-DIV LAWSON.pdf": "0eb83067cd78097020fc61a6afaa157bdc33e38f500c415f197619525e5cd616",
+    "2. Input Documents-20210101T000000Z-01681-000/2. Input Documents/1099-INT/1099-INT LAWSON.pdf": "b7d67117a5bd15dbe298bb17f631076f43a858ad0f252deebf48fca0484fedbd",
+    "2. Input Documents-20210101T000000Z-01681-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2021_.pdf": "20051f3ee965d22fe44d304e8662f8b30cc1aa9147ff41b5be894e48fc854ef0",
+    "2. Input Documents-20210101T000000Z-01681-000/2. Input Documents/Form W-2/Form W-2.pdf": "3294402206a19d7417247f5ec72d610776de4ff151f173cad05c8a787345a958",
+    "2. Input Documents-20210101T000000Z-01681-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "7dc8e96ca5bf02f32ce664faffee8e9a90c3a16948dd2122dc002637d1eba214",
+    "2. Input Documents-20210101T000000Z-01681-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2021.pdf": "da1368ed3dbd68b9ae8350050f84d94af82fa96c2fa359ddf25dc737e23734d3",
+    "3. Complete form-20210101T000000Z-01681-000/3. Complete form/2021 Tax Return Documents (Rowan Lawson (synthetic)).pdf": "f81dc597e9904e92ebd7c4b69b10d73305cf7891abc977d18e6076fc10594b4e",
+    "3. Complete form-20210101T000000Z-01681-000/3. Complete form/Completed forms - Summary.pdf": "65b61224f6a398f81cee704ce0462e2aea98753900195d1d1681dafa136beb2a",
+    "4. Executive Summary-20210101T000000Z-01681-000/4. Executive Summary/Executive Summary Rowan Lawson 2021.pdf": "36b5596a3ef13b1b15370b14f4ed1e19fd9a6967edb98d0d34a722cff6701f1b"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

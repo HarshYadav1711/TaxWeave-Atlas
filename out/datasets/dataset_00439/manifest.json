@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20250101T000000Z-00439-000",
+  "tax_year": 2025,
+  "case_fingerprint": "d6fcf61222e74c16707dc2c02e32d10130d11df64b7cb8f728c4deabd79ea01e",
+  "case_json_sha256": "0623e9110b3391f0e23061f3965c2ef3d60c8286a681c666eaf8f90939836860",
+  "files_sha256": {
+    "1. Client Summary-20250101T000000Z-00439-000/1. Client Summary/Client Summary.pdf": "462c1865def57ecc6a68a920cdb7279ebee975d1ff58fee647521cf28c929e47",
+    "2. Input Documents-20250101T000000Z-00439-000/2. Input Documents/Tax Document Attachments Summary.pdf": "125e0a2a4977c541d6be5b16c36ad1f53991894fe632fb28f87f526d1c226647",
+    "2. Input Documents-20250101T000000Z-00439-000/2. Input Documents/1099- DIV/1099-DIV NAVARRO.pdf": "b3604d1457c53a2388acb74a58be86fc227ce961795c35078c0435d7a97785ef",
+    "2. Input Documents-20250101T000000Z-00439-000/2. Input Documents/1099-INT/1099-INT NAVARRO.pdf": "c336c3fbf4d2654f61205ece5aa053fd5284a0b1eb4e5c422cbf162589c79fb5",
+    "2. Input Documents-20250101T000000Z-00439-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2025_.pdf": "58a10c6cffbdcac7c0f3b79d3f5331e3d0c243a174d7ad5ef76cd6eea2d03121",
+    "2. Input Documents-20250101T000000Z-00439-000/2. Input Documents/Form W-2/Form W-2.pdf": "5e70d56626f4f89225bac09fb4ec4c7e8d725d633d7678a4bdec07f87b631ba6",
+    "2. Input Documents-20250101T000000Z-00439-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "7e7d08cbf6a6071436916e76475e866bc0d1a2e13a5561eebb77f0140ec52cd2",
+    "2. Input Documents-20250101T000000Z-00439-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2025.pdf": "52284fbd5e16da4c221112ded2a2727b726ae6bc016439bb9df0f5513c772d9b",
+    "3. Complete form-20250101T000000Z-00439-000/3. Complete form/2025 Tax Return Documents (Parker Navarro (synthetic)).pdf": "4eab6ccf82b39321ae6362be87e581088bcfce41c2bb5521ae729124e659abe3",
+    "3. Complete form-20250101T000000Z-00439-000/3. Complete form/Completed forms - Summary.pdf": "1c033ac9a7113609b0f965271702345f5b18f06b577363560d020f31d59b443b",
+    "4. Executive Summary-20250101T000000Z-00439-000/4. Executive Summary/Executive Summary Parker Navarro 2025.pdf": "83f119e3099237a212d1c4cedb9ca6befa4c5f90e64c43026ae8ccbcbf4ffbb0"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-01412-000",
+  "tax_year": 2020,
+  "case_fingerprint": "67bff65bc72c51c7160cb7c05ba4231f2655b5040a54d0891beb8b449bf290c0",
+  "case_json_sha256": "159122913a75ee54d12c75b8dbf2865a06f6e20d8187e3068c26f9145b6c99d2",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-01412-000/1. Client Summary/Client Summary.pdf": "a35e3a27927250f4bf5a8fc22bb8db1f312274125cca695e910b8d91fdffc503",
+    "2. Input Documents-20200101T000000Z-01412-000/2. Input Documents/Tax Document Attachments Summary.pdf": "501f4d157b05239c7732d97d698fb6d2501520b9f4abeb0eb782aad18a927973",
+    "2. Input Documents-20200101T000000Z-01412-000/2. Input Documents/1099- DIV/1099-DIV PATEL.pdf": "d6566f3aa5734af6047ae90e947407d5ad7fead0caa932a7badb48285ff0eeed",
+    "2. Input Documents-20200101T000000Z-01412-000/2. Input Documents/1099-INT/1099-INT PATEL.pdf": "6a3c5470b56354e1876e1e6e6190c1e032fa5f184201e4e2bce29f7b1d0fd767",
+    "2. Input Documents-20200101T000000Z-01412-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "2f430abecb5bd2a81419b139d1a74df330c7dc7156a6e940ecf6a1a479d5f7e8",
+    "2. Input Documents-20200101T000000Z-01412-000/2. Input Documents/Form W-2/Form W-2.pdf": "d8d345f925254693f04106c4cf68b80f94c91849167be747da82470610f61f37",
+    "2. Input Documents-20200101T000000Z-01412-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "5cc41e23c84eed385a23412fe9afb3e58364da44b492d9385ad3730a03576bc9",
+    "2. Input Documents-20200101T000000Z-01412-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "221e88cb8b8dbfab6602f4b1a5a33861b5519858fa2b092c6bfc969a250d4b38",
+    "3. Complete form-20200101T000000Z-01412-000/3. Complete form/2020 Tax Return Documents (Finley Patel (synthetic)).pdf": "2cbedf0e8b0418aa5adf63bbe0d54992296a0a14f435321cfd9b068bf815f0d0",
+    "3. Complete form-20200101T000000Z-01412-000/3. Complete form/Completed forms - Summary.pdf": "9233e9903c025b63173f45899155b993600ce419131ae332a332159f8100f1c1",
+    "4. Executive Summary-20200101T000000Z-01412-000/4. Executive Summary/Executive Summary Finley Patel 2020.pdf": "a611c1d97fde14ba389eb2264f3cbd93ed4ccf04972c9d40166693c7503598ab"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

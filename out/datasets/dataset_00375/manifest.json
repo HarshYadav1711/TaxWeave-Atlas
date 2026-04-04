@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-00375-000",
+  "tax_year": 2020,
+  "case_fingerprint": "83dd41b7f3a9adc606dce360c8f7a63ad09a843e2379007f732fb32b9e5def32",
+  "case_json_sha256": "0335dfe0eb047118829dbc70daa6e06964848cbf5ceb5a686a0eacd3e750a9bf",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-00375-000/1. Client Summary/Client Summary.pdf": "546062baebe3e5f564f5420fcbdbafa63af8d0c153c1e47ee1d3cf2bf699f758",
+    "2. Input Documents-20200101T000000Z-00375-000/2. Input Documents/Tax Document Attachments Summary.pdf": "51f8e905dc4b4d6c492033e6898db34bd4e0c07adc51cc5e31d7af895e965b60",
+    "2. Input Documents-20200101T000000Z-00375-000/2. Input Documents/1099- DIV/1099-DIV SULLIVAN.pdf": "fd051f187032a78830935179746d61793bf8e45807cfcbc3dc39a6ee764e15e8",
+    "2. Input Documents-20200101T000000Z-00375-000/2. Input Documents/1099-INT/1099-INT SULLIVAN.pdf": "485c7cf6874e42e3f8478b519c0302bb2727e938a9c0b06abc104f227c0aa98d",
+    "2. Input Documents-20200101T000000Z-00375-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "a13579c3d74f36bf69516d1e61b3e5c2c3ca614ae9bfe4bec005a82582b913b9",
+    "2. Input Documents-20200101T000000Z-00375-000/2. Input Documents/Form W-2/Form W-2.pdf": "2d1b7b9478b12d0b835f6d7f737ac5bf38f005ca94cbaa313535615fb9b76acf",
+    "2. Input Documents-20200101T000000Z-00375-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "80c3cd24f62b4d1b6e844e81f08b64df5363afe0bd7b0d5b0a065293357c7e86",
+    "2. Input Documents-20200101T000000Z-00375-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "3d52c670c0be40ddfd5ef4714d36d7091435e951bbb99f93310a3eab1c72c660",
+    "3. Complete form-20200101T000000Z-00375-000/3. Complete form/2020 Tax Return Documents (Quinn Sullivan (synthetic)).pdf": "cdc36f46ba9d5753111ac73cc3141b251529f877feb6afc852b89cfdd4d2c541",
+    "3. Complete form-20200101T000000Z-00375-000/3. Complete form/Completed forms - Summary.pdf": "58c55e386bde66f236105348c02858b6d4289875278db155bdcac59c76951391",
+    "4. Executive Summary-20200101T000000Z-00375-000/4. Executive Summary/Executive Summary Quinn Sullivan 2020.pdf": "5a5fe4c61cf83afabae02f676e77c20e70199a8e9d01a99f79f4e91e248af6ba"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

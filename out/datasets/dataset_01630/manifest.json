@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20250101T000000Z-01630-000",
+  "tax_year": 2025,
+  "case_fingerprint": "ab4d8f7cdea0f6c622a32bc554f3032ec2fa952ed4ef03bf1c9de4f6ccc4db64",
+  "case_json_sha256": "860f7f48657c0b128aace2fb99cddbc640ba0eda36d73badc00f10ba7bbc92d2",
+  "files_sha256": {
+    "1. Client Summary-20250101T000000Z-01630-000/1. Client Summary/Client Summary.pdf": "a28c1dd90a65c1c8e4f81f6b2bd00c3fd7246284020ffd63f8ff6faeb8f31f9a",
+    "2. Input Documents-20250101T000000Z-01630-000/2. Input Documents/Tax Document Attachments Summary.pdf": "c246a5d0e705c644902ede843d94e6d1b600d17fa376202caf4f2a0112c5a976",
+    "2. Input Documents-20250101T000000Z-01630-000/2. Input Documents/1099- DIV/1099-DIV REYES.pdf": "273600d884960dccc7566b8f28b043ba08c5f50fbbc0a0da7da10cc2f05324ef",
+    "2. Input Documents-20250101T000000Z-01630-000/2. Input Documents/1099-INT/1099-INT REYES.pdf": "ed76f77af07b6dcc1c810eb7b376ea149ff1c1324c581e366de16d63b19f9a64",
+    "2. Input Documents-20250101T000000Z-01630-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2025_.pdf": "17bdcce75dfd339e4720eaaa6079da8d2aa14c19f0be55b8ac6296bd66c7b64f",
+    "2. Input Documents-20250101T000000Z-01630-000/2. Input Documents/Form W-2/Form W-2.pdf": "eb71502d30e30c2f1c8541a020dbec19214e16568207bcbb7d86a8c54f0a049f",
+    "2. Input Documents-20250101T000000Z-01630-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "27511e7df204ea991eb1f1047174978b374d956075cfeea2c763d49f11526b4a",
+    "2. Input Documents-20250101T000000Z-01630-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2025.pdf": "d1feb710bd3651b436d4b46dc85f79483b70aa4b79b641f60c67c7c2c945ee63",
+    "3. Complete form-20250101T000000Z-01630-000/3. Complete form/2025 Tax Return Documents (Reese Reyes (synthetic)).pdf": "dd93ca0d2f12a4ff5f3acbef1cb48bcb63eaafeee64417bcbcbaba88118c6b24",
+    "3. Complete form-20250101T000000Z-01630-000/3. Complete form/Completed forms - Summary.pdf": "6136bf57455d2aadccbd3c40acb122b52c574d666d066ffd7138859dd6bfef65",
+    "4. Executive Summary-20250101T000000Z-01630-000/4. Executive Summary/Executive Summary Reese Reyes 2025.pdf": "04913ebc2979bb2b16453a71877abb67685d82f9d493abd5a1f22ff69961d120"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

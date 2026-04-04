@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-00435-000",
+  "tax_year": 2024,
+  "case_fingerprint": "6695a33841176179c0b7ccf768801e171309949a0f8ec6a0d77754dd24269ad5",
+  "case_json_sha256": "cd465c46926786744b320662d82511d746807218fb239aaf6cc8391a90c9c551",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-00435-000/1. Client Summary/Client Summary.pdf": "e947d79dcbe0c306905f1b93245f3768d772ebb18946c1197a36e905f2121b55",
+    "2. Input Documents-20240101T000000Z-00435-000/2. Input Documents/Tax Document Attachments Summary.pdf": "78ade12b08e7512030986fff36c4c0ef318ab52eaf934ea1d2d6caa239492e5f",
+    "2. Input Documents-20240101T000000Z-00435-000/2. Input Documents/1099- DIV/1099-DIV SULLIVAN.pdf": "78d37534fa8026c22be4abe416b8ea455f1a28b9a0968b34ecd67b6bc79b86f5",
+    "2. Input Documents-20240101T000000Z-00435-000/2. Input Documents/1099-INT/1099-INT SULLIVAN.pdf": "196f6acf4ed5a00f62dbc134c7976114a292666aa7c4c8fdd018c7a914145700",
+    "2. Input Documents-20240101T000000Z-00435-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "c80f4b3736381a10662674d3cbbc785d548d69287f22af843e3dece12ec34322",
+    "2. Input Documents-20240101T000000Z-00435-000/2. Input Documents/Form W-2/Form W-2.pdf": "a15d45215e65d1b94ce9c6ba974a30ccb4da7f41f7872e24ca6e447f3f8d51ce",
+    "2. Input Documents-20240101T000000Z-00435-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "3a0ea28c898deea2bd93a4e99680d9fef7f1fa1a3ecffbbcf3ab5f31e0305811",
+    "2. Input Documents-20240101T000000Z-00435-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "81f522e8c70999b053f896eb37c15ae1e6dcba7a60e20399d67655c35bfe8fbd",
+    "3. Complete form-20240101T000000Z-00435-000/3. Complete form/2024 Tax Return Documents (Morgan Sullivan (synthetic)).pdf": "a1661f85d9a70f6bc76a4087c0ea4db9fa254892936cfc3daf779948155cc5dd",
+    "3. Complete form-20240101T000000Z-00435-000/3. Complete form/Completed forms - Summary.pdf": "27589e56848a33b3d78c2707b777460a1df83fc305043f4aef345e7251f3ccea",
+    "4. Executive Summary-20240101T000000Z-00435-000/4. Executive Summary/Executive Summary Morgan Sullivan 2024.pdf": "fef81a31b580195853921f720c609df540c4d9c60c62f0c57e4d020669fd02b5"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

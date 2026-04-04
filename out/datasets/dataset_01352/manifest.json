@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-01352-000",
+  "tax_year": 2024,
+  "case_fingerprint": "a9545dbea66cb45b58f994313979c2269c8db8dc7e199ea405edc935cf5b0d34",
+  "case_json_sha256": "905fd38815317fe264c7071e84f4a327ab993ac726318ba0237c056437afe0bf",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-01352-000/1. Client Summary/Client Summary.pdf": "2d98a0bece40461c30442090278bc11a9412bb94e10543e2a01215ca09a3a7eb",
+    "2. Input Documents-20240101T000000Z-01352-000/2. Input Documents/Tax Document Attachments Summary.pdf": "b0731bfbadf41eed848fcf490882140f0cdbba4475707eaa2822624360e8c1de",
+    "2. Input Documents-20240101T000000Z-01352-000/2. Input Documents/1099- DIV/1099-DIV NAVARRO.pdf": "e50986c99fe4ebc42436034e675620d03e02b8b50e8a1dccad3c0c8923b9ca09",
+    "2. Input Documents-20240101T000000Z-01352-000/2. Input Documents/1099-INT/1099-INT NAVARRO.pdf": "605eb1e86db03c28a225e6a17bc6613f67787d21dc4cfe8fe0a7397370779d0f",
+    "2. Input Documents-20240101T000000Z-01352-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "34390ac510d1ea6341a8aa6ac4946594fc102220d38e96c77d915154b939c4c1",
+    "2. Input Documents-20240101T000000Z-01352-000/2. Input Documents/Form W-2/Form W-2.pdf": "12768e444eeede032930c08a72cd1dce0b6082bcea5a004a0ecc783f5cdf38b4",
+    "2. Input Documents-20240101T000000Z-01352-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "3116a63e950075a323aeab2704ff0aeb75ca08ef290804cdb39cc3a44a800b9a",
+    "2. Input Documents-20240101T000000Z-01352-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "93adeb687e754f982eed34b1d4695adcbf32f5eb9f574b4aa075919ef9f3aa2c",
+    "3. Complete form-20240101T000000Z-01352-000/3. Complete form/2024 Tax Return Documents (Riley Navarro (synthetic)).pdf": "74e1139d73882703cb21a4cac507b74b15914f0162e8e477240ed8f7790eaa71",
+    "3. Complete form-20240101T000000Z-01352-000/3. Complete form/Completed forms - Summary.pdf": "5667b7806379975b69b7c79fed3348303c9c0263f848a8358520cab09ed1fcc1",
+    "4. Executive Summary-20240101T000000Z-01352-000/4. Executive Summary/Executive Summary Riley Navarro 2024.pdf": "0de29e8cab2ad8f0dd3f28b19c21d7eb5ea332d9af44adcdf9db5017ca81841f"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

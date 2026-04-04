@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-01042-000",
+  "tax_year": 2023,
+  "case_fingerprint": "bdf9d4f463f946c3f1c744ff1334179dd8e1aead568f168b7bdb7bc2ceae77f3",
+  "case_json_sha256": "6fa1588ce453eac42055ce2e53eaf25d3a3e6499c4390117460361d374540a77",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-01042-000/1. Client Summary/Client Summary.pdf": "104c3a32602122c7b4a28d419112908e2e997b3163177473c8d5366f5feee5c2",
+    "2. Input Documents-20230101T000000Z-01042-000/2. Input Documents/Tax Document Attachments Summary.pdf": "56154156d2dda8fb2ab926a6b12e667f415f3ef5137b918cfb17b93d997ccbcc",
+    "2. Input Documents-20230101T000000Z-01042-000/2. Input Documents/1099- DIV/1099-DIV CARTER.pdf": "14def171dee1ee48b54babdb8d01cf307048360fe4f4b27ac36f3370805c560c",
+    "2. Input Documents-20230101T000000Z-01042-000/2. Input Documents/1099-INT/1099-INT CARTER.pdf": "ba25b4a1986df2212068484caf76ae7499cfb6fe979f580d34a258080e8ef1f8",
+    "2. Input Documents-20230101T000000Z-01042-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "f8573f621237a2f7a64df2a1495c5bbaed01efe175acdd40f46b969f0a95bfef",
+    "2. Input Documents-20230101T000000Z-01042-000/2. Input Documents/Form W-2/Form W-2.pdf": "51508e8c9c153d06ffbfe8741aed025a9092f8808134f97971d02786c227f610",
+    "2. Input Documents-20230101T000000Z-01042-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "d8ae2d4abe9f7f4a14cc163cf369437dbc3171158105b582adea0695fcb5d26b",
+    "2. Input Documents-20230101T000000Z-01042-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "ea538e8e436e120b59ca44e29b18c6e6324439a5d7f79f99ae3a16494dbd13db",
+    "3. Complete form-20230101T000000Z-01042-000/3. Complete form/2023 Tax Return Documents (Sage Carter (synthetic)).pdf": "c44f17777f1ff5e767b98a262ac23e8f3dd7919758084325be0e5ca8dbc70fa8",
+    "3. Complete form-20230101T000000Z-01042-000/3. Complete form/Completed forms - Summary.pdf": "ccc1d2c3fffba7c5d383fa45a629bfb0777edb0df9799ed49fe3d0c1ae9ea2bf",
+    "4. Executive Summary-20230101T000000Z-01042-000/4. Executive Summary/Executive Summary Sage Carter 2023.pdf": "5bd441b77aa5ab83eb17ac1b46cc85d7fcef3028b4035db3dd06fd29b5428335"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

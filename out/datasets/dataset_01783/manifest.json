@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20210101T000000Z-01783-000",
+  "tax_year": 2021,
+  "case_fingerprint": "a7dff5218f1b878d75bc0d6e3f375c3ea73e10ffd2efa19b0b76314fe7a799ef",
+  "case_json_sha256": "2d3fdfae7eb07b4653cda2648c09a4a116e747fda1546230a7796987edc33be2",
+  "files_sha256": {
+    "1. Client Summary-20210101T000000Z-01783-000/1. Client Summary/Client Summary.pdf": "2336be1b4f90bf6560af728b3372b5f143dfe518c9874eb8d7a102ee6f03087c",
+    "2. Input Documents-20210101T000000Z-01783-000/2. Input Documents/Tax Document Attachments Summary.pdf": "8ab7ba104a19e48d8f2b8614dd070887b70dc9447887ad4394d7ad1d39fc4b05",
+    "2. Input Documents-20210101T000000Z-01783-000/2. Input Documents/1099- DIV/1099-DIV NAVARRO.pdf": "662f9f7513d328d8afe6884bb221266d8dd0805bdee81d0e8bcf18d8461c2948",
+    "2. Input Documents-20210101T000000Z-01783-000/2. Input Documents/1099-INT/1099-INT NAVARRO.pdf": "110a3f2d8712277d752937ab43c9215e79f088b83d7cabf725a1e20fea850df8",
+    "2. Input Documents-20210101T000000Z-01783-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2021_.pdf": "0d64d2638e1e30ef7cb72242686bbbd11ecc4678daeb0b4ba871aa1b5850309a",
+    "2. Input Documents-20210101T000000Z-01783-000/2. Input Documents/Form W-2/Form W-2.pdf": "4b77717b7bbf63e02b98fa8a610f547cf823b9654782eb5aa6b21acb9a273154",
+    "2. Input Documents-20210101T000000Z-01783-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "54f44441b506fd81b40f97890549c7f066d53460d2015e37d22960937cd7d5ea",
+    "2. Input Documents-20210101T000000Z-01783-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2021.pdf": "f4a5212e6f84cf02058344efbf498f6123ed623a6548d34ca406d089f54bf078",
+    "3. Complete form-20210101T000000Z-01783-000/3. Complete form/2021 Tax Return Documents (Jordan Navarro (synthetic)).pdf": "dbdadc0d000ae0139310e0f7d824e4835434982652a3a56f2d50cec0dbdaeb64",
+    "3. Complete form-20210101T000000Z-01783-000/3. Complete form/Completed forms - Summary.pdf": "ea180ba48af021b89f8e0f983df9ff541eb22ae080f0385dfb45edbd6f4d120d",
+    "4. Executive Summary-20210101T000000Z-01783-000/4. Executive Summary/Executive Summary Jordan Navarro 2021.pdf": "31576e38672b77ffc70f89dda327b6e0b05cc8031e341dc49962b8e2c67b768d"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

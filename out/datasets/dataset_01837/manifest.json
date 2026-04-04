@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-01837-000",
+  "tax_year": 2023,
+  "case_fingerprint": "d45ec61b483f0bae0837ca814a4483b301b1beef7cd3f6e567bb2d59e8885d7e",
+  "case_json_sha256": "3a170ad376631b54928e1725257b35752f83509efd1783ac611fd2c6624ac8c1",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-01837-000/1. Client Summary/Client Summary.pdf": "d5d386008550fc1a2fe8603aa511c4193c77f2e2db49399fb1265c090ced4414",
+    "2. Input Documents-20230101T000000Z-01837-000/2. Input Documents/Tax Document Attachments Summary.pdf": "944eaa2e628f6e0950a7d60cf733ba0d96f4ea7039b8d0f8ea8abc2e7ece67e6",
+    "2. Input Documents-20230101T000000Z-01837-000/2. Input Documents/1099- DIV/1099-DIV REYES.pdf": "a54481411231445ac3da6b91f04b7cd19da1a9a720d5fdeeca0da987d417ca8b",
+    "2. Input Documents-20230101T000000Z-01837-000/2. Input Documents/1099-INT/1099-INT REYES.pdf": "a6d4321cbbfa0d4f82d1a943ecf5aa9738c14b40ecf86c2e668836895b3eb41b",
+    "2. Input Documents-20230101T000000Z-01837-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "1674c269f79531e9557e7e2dd9888c966945eee1fee6cb2b4a2154f97e374c07",
+    "2. Input Documents-20230101T000000Z-01837-000/2. Input Documents/Form W-2/Form W-2.pdf": "0966004ab8737196be67196a59497a3ae65a5e7ccd3539411deced8b6d9ca316",
+    "2. Input Documents-20230101T000000Z-01837-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "21480e1ed618dc5308f6d8aae42f711a011dc8a50c80d93014f155447856d562",
+    "2. Input Documents-20230101T000000Z-01837-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "651a287eeebc2d00361db6d30cfeaf411090e4e8d55abe3538d3780a915ace91",
+    "3. Complete form-20230101T000000Z-01837-000/3. Complete form/2023 Tax Return Documents (Casey Reyes (synthetic)).pdf": "89cb3f819e816a60c088e39acb576dc7dd1dde95ef4a396e4b8bf531730c89c8",
+    "3. Complete form-20230101T000000Z-01837-000/3. Complete form/Completed forms - Summary.pdf": "29606184c927ea4897181e7bf28e124c178320dec21c4f58cea52efad49ca55d",
+    "4. Executive Summary-20230101T000000Z-01837-000/4. Executive Summary/Executive Summary Casey Reyes 2023.pdf": "fd35ad5954235e2a10a04f49c4c5ccb19cc5bbeaa0043ac8f6f77a96b30c2069"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

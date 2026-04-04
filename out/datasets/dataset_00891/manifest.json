@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20210101T000000Z-00891-000",
+  "tax_year": 2021,
+  "case_fingerprint": "7fed8622e0d7b4a57a47db6f0c2d80da98de4ec671e5f4784ae9097e98a27330",
+  "case_json_sha256": "6e51055b398d445981c4e1f936af5d89a0b0967fd6c9e2d927b81210ef2e4e97",
+  "files_sha256": {
+    "1. Client Summary-20210101T000000Z-00891-000/1. Client Summary/Client Summary.pdf": "85e231ebb955a6bf2c99693c564bb9cd48c7540f8ac1643a45a9b1a23eee8ed7",
+    "2. Input Documents-20210101T000000Z-00891-000/2. Input Documents/Tax Document Attachments Summary.pdf": "186f9ca4f58ab85b372829f8f5c27f909ada50510a7c25d81ba4780e097399e9",
+    "2. Input Documents-20210101T000000Z-00891-000/2. Input Documents/1099- DIV/1099-DIV PATEL.pdf": "2e25b35a1ee3e4c8a9e55144f609cce28944af48ef5a1fcff1039c241441a41d",
+    "2. Input Documents-20210101T000000Z-00891-000/2. Input Documents/1099-INT/1099-INT PATEL.pdf": "5b84d5dda7883d4dc6773e549b277087371e282a23af0d2e9158dd8535ab0434",
+    "2. Input Documents-20210101T000000Z-00891-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2021_.pdf": "30865553806c50ce5f2b3227133c5f82a17c429a5c09af3e5ef7b4cde6619723",
+    "2. Input Documents-20210101T000000Z-00891-000/2. Input Documents/Form W-2/Form W-2.pdf": "2392d711db3d93e27532447148230e13858fa7a2b50ee8e9eecce09fc226e8bd",
+    "2. Input Documents-20210101T000000Z-00891-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "288f9d69aba93a14f5ae4c391b583f90fe564aa6a801bf1226c5316dcdd85023",
+    "2. Input Documents-20210101T000000Z-00891-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2021.pdf": "2fafeb9b5639d61c9caa6c4fbabd58f9d980baa54ce9f756a0b7f514ac057bab",
+    "3. Complete form-20210101T000000Z-00891-000/3. Complete form/2021 Tax Return Documents (Emery Patel (synthetic)).pdf": "9efed6bb5a603f7ddf9d9c1d1f785b7de7944d35b257f74064b293bcc4456c79",
+    "3. Complete form-20210101T000000Z-00891-000/3. Complete form/Completed forms - Summary.pdf": "5d55b1fe018f67bd2ca601eb3900d708d0323031bf04409cbf207ad252d9dcfa",
+    "4. Executive Summary-20210101T000000Z-00891-000/4. Executive Summary/Executive Summary Emery Patel 2021.pdf": "38c145a2695944734d3d12a7bf859e702a191496de035ab64465e989fb8ff735"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

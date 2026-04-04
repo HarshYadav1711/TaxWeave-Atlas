@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-00544-000",
+  "tax_year": 2020,
+  "case_fingerprint": "221ed6436befbafd776cdb53b44dded07a0c85a5db279ecb011c79831c02f008",
+  "case_json_sha256": "d73b218ebe256035a6667147a67ea259b5b672ea7b5d4f99529ecc7ceb20c08a",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-00544-000/1. Client Summary/Client Summary.pdf": "a4a98ff2fc49a28bcbe99358e4a29edc5ce987bc3d13dabdb9ba684296f4141d",
+    "2. Input Documents-20200101T000000Z-00544-000/2. Input Documents/Tax Document Attachments Summary.pdf": "11253cc7d77c185f554dbda975f8bd2c6297cf1ac016f5ce4d5b8417f165c8ac",
+    "2. Input Documents-20200101T000000Z-00544-000/2. Input Documents/1099- DIV/1099-DIV HAYES.pdf": "e3581a1b76251399bb81f8b1c7979debf2630a9af4a698e40ed49a4d6c3415c1",
+    "2. Input Documents-20200101T000000Z-00544-000/2. Input Documents/1099-INT/1099-INT HAYES.pdf": "8139d4fef93f09154b00a5294ce59652cded07acae57a2320bceb5f0fe264d38",
+    "2. Input Documents-20200101T000000Z-00544-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "619912f74e1523cd30f96fff1a5d68f672256dacb3583d05218c11708680ffc8",
+    "2. Input Documents-20200101T000000Z-00544-000/2. Input Documents/Form W-2/Form W-2.pdf": "5dd7fc660e4d9a19af5611b8f1b656aa42cf0c1f9a16be2d49322e0b8d85c182",
+    "2. Input Documents-20200101T000000Z-00544-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "ed3b579067518c6cb6b652d8da34232155b0033e5fa134fc35672a6660a94afc",
+    "2. Input Documents-20200101T000000Z-00544-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "3a4b8ca35c171653811be8c71a64ca913b91890bb2ddc33c03156e4d18d32655",
+    "3. Complete form-20200101T000000Z-00544-000/3. Complete form/2020 Tax Return Documents (Finley Hayes (synthetic)).pdf": "627ff4c5ff8cfd91ffcaddbb7c97ace7f863abea4058c30ad089f30aa7411f49",
+    "3. Complete form-20200101T000000Z-00544-000/3. Complete form/Completed forms - Summary.pdf": "64d18f01c7a16074fc0cc4810d5b8046fb10a4f2aa736d14e1855a63fa37e6e0",
+    "4. Executive Summary-20200101T000000Z-00544-000/4. Executive Summary/Executive Summary Finley Hayes 2020.pdf": "a7b9fc355be5da282b2603e1a14ea9e1da3dee1a7cb9a7da32dff3ebd600fafe"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

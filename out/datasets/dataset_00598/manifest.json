@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20210101T000000Z-00598-000",
+  "tax_year": 2021,
+  "case_fingerprint": "b15f4cc4798b9e504d566b6a16d9f6e7077deaab684c45a023ca44e35f7e78ce",
+  "case_json_sha256": "f86f5e043e4e24337fbd7072715b2e9fc409f1ee685e86bf7617d82efd852f88",
+  "files_sha256": {
+    "1. Client Summary-20210101T000000Z-00598-000/1. Client Summary/Client Summary.pdf": "07f3e2b486d09a5670227396a1e6cd4591abc9182b2e2098e9d781f71023bc5a",
+    "2. Input Documents-20210101T000000Z-00598-000/2. Input Documents/Tax Document Attachments Summary.pdf": "41562cbe1fedcb915865cc84c68335eaaa9fde71609142a4d422f7a89be1d8ee",
+    "2. Input Documents-20210101T000000Z-00598-000/2. Input Documents/1099- DIV/1099-DIV PATEL.pdf": "36964f98a394ed6af54e99c73aa0a3de1d7c2129f73a09c9834e19084e3ac9ef",
+    "2. Input Documents-20210101T000000Z-00598-000/2. Input Documents/1099-INT/1099-INT PATEL.pdf": "ba37e6552da6a1747078b7d9019e621bbdb6014a330b01c067a3488f4ed568ee",
+    "2. Input Documents-20210101T000000Z-00598-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2021_.pdf": "811051654184efd14908defbc6bee83c8e2262ba11de4aacfc6e7528ce819929",
+    "2. Input Documents-20210101T000000Z-00598-000/2. Input Documents/Form W-2/Form W-2.pdf": "4937dd6c47c90bacd38cea4eb39e22ef6888116ef09671672c6ffa8e1d08d608",
+    "2. Input Documents-20210101T000000Z-00598-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "248b2a169b4e3b931a23c70db4c74be53a537ee3baa0e0b1cba51310dc1f525e",
+    "2. Input Documents-20210101T000000Z-00598-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2021.pdf": "1fd32d34b630f0c27ce4dcfd06b7a197ad235200ffd95e8c2ee41fa748e2d8e2",
+    "3. Complete form-20210101T000000Z-00598-000/3. Complete form/2021 Tax Return Documents (Morgan Patel (synthetic)).pdf": "d3422b4ba4326b22bd218b86d248135fa307eea139977e1514fd0b8e3110927e",
+    "3. Complete form-20210101T000000Z-00598-000/3. Complete form/Completed forms - Summary.pdf": "361798694b4d770769df39bc46f2412d36fc9d51de01d612677b04d1dab5efb0",
+    "4. Executive Summary-20210101T000000Z-00598-000/4. Executive Summary/Executive Summary Morgan Patel 2021.pdf": "44175f66da28a14e940d2afa5c72da368cb0aa14d13f3657f24525044c5c85ab"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

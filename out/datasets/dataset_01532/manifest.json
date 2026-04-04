@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-01532-000",
+  "tax_year": 2020,
+  "case_fingerprint": "437371c1dd341faa24f8f860f5c297505060603d1f89ab1b728384ebc8065f02",
+  "case_json_sha256": "885fbeee3638578dee5e9b9bc9318c85bb30b265a502ee3ccdfa1e6482d06a44",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-01532-000/1. Client Summary/Client Summary.pdf": "500c729c29da0d0ad8722aec11d5d3452315b3e071094697d3368eec31929788",
+    "2. Input Documents-20200101T000000Z-01532-000/2. Input Documents/Tax Document Attachments Summary.pdf": "8a0cc0888b5c30b83315c13729222902826fec08bb07738bb887252730edcf3b",
+    "2. Input Documents-20200101T000000Z-01532-000/2. Input Documents/1099- DIV/1099-DIV INGRAM.pdf": "6e72b38b254dd7c6957be19f1349b429699dea33cb67682b11c0b1a0882e9536",
+    "2. Input Documents-20200101T000000Z-01532-000/2. Input Documents/1099-INT/1099-INT INGRAM.pdf": "c8e67953f453d33c29ac574869f57c9aa948ec9d3113e77984d834d83ee0090c",
+    "2. Input Documents-20200101T000000Z-01532-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "0ab6c5070db52605ca3c52f8eea475d75584dd8c65b60a89913ba3a4d88fd0f7",
+    "2. Input Documents-20200101T000000Z-01532-000/2. Input Documents/Form W-2/Form W-2.pdf": "95a8032cd9ce79011ce98096397defc633b07cc9fe17e35a60143634268ec5ae",
+    "2. Input Documents-20200101T000000Z-01532-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "42cb1c19b4f2bf22f64d7ad92af566686ab01687e46e25a4d3ac2a1c9efa3342",
+    "2. Input Documents-20200101T000000Z-01532-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "c8991cad544c3ac73b55291e20f43c802dd82693d439001ad88f58e3d6e59209",
+    "3. Complete form-20200101T000000Z-01532-000/3. Complete form/2020 Tax Return Documents (Casey Ingram (synthetic)).pdf": "c8034491433ffe63a897b8b2705e2542955a8c3ab110590e943c1f8f2e753582",
+    "3. Complete form-20200101T000000Z-01532-000/3. Complete form/Completed forms - Summary.pdf": "191805012f6c4a432a64bbcc4bfb7c8229e3b18c020e3f47165c1b9fa2a84daa",
+    "4. Executive Summary-20200101T000000Z-01532-000/4. Executive Summary/Executive Summary Casey Ingram 2020.pdf": "b6ff0f3109afa2e2dbee42d68c62e0255d0e0890706501daf8db8a5527f6f7a3"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-01665-000",
+  "tax_year": 2024,
+  "case_fingerprint": "67c9e157ec6a2b52a79b32cd7b0bb10c736d497780d5cb478458c429acc8c7c1",
+  "case_json_sha256": "f02ee50793983a910c3b7e27d97ccfd488ebea404b6d64d2dd1f819f4bc4c996",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-01665-000/1. Client Summary/Client Summary.pdf": "e8397c8b05b4656c974519800eac801baa4d17cb1a41c74d9b0cd1ab70e2c33b",
+    "2. Input Documents-20240101T000000Z-01665-000/2. Input Documents/Tax Document Attachments Summary.pdf": "eea86a70dc2e20fc29d5848474a3a19e465dbfed3873ceb1b94388dc471ff10c",
+    "2. Input Documents-20240101T000000Z-01665-000/2. Input Documents/1099- DIV/1099-DIV DIAZ.pdf": "b61865e5b030168e57da944cfc6b96c88c1dd590b32f0b2140f3490b441b7c11",
+    "2. Input Documents-20240101T000000Z-01665-000/2. Input Documents/1099-INT/1099-INT DIAZ.pdf": "1a344040aa48dedd4cfb2d2c45e6a6933ce7ba83112622c3f558557af6357910",
+    "2. Input Documents-20240101T000000Z-01665-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "c294d9d5b42665b2b371822e23cbbd84c5092a318c3a2263bdb9450b25a04945",
+    "2. Input Documents-20240101T000000Z-01665-000/2. Input Documents/Form W-2/Form W-2.pdf": "bf0bc738d52fd845144e61abd82c748abf5c436022ac6682775db38b8e45cbd6",
+    "2. Input Documents-20240101T000000Z-01665-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "d80e6a0ef8b68dcf7a024795c5e43fd87beefc05f687162dd7e82278d521e2d6",
+    "2. Input Documents-20240101T000000Z-01665-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "c980e3aaa2dfef21541b72bdf9dc9309fc5b6653d649bc84ed1c712ef0a0587e",
+    "3. Complete form-20240101T000000Z-01665-000/3. Complete form/2024 Tax Return Documents (Finley Diaz (synthetic)).pdf": "3f8f406779767ca4b9c8367044d36d20dfb869ce7abca48f1646142ca47c42e3",
+    "3. Complete form-20240101T000000Z-01665-000/3. Complete form/Completed forms - Summary.pdf": "f4e6ff965a6ac932dcfdbcc055bb2ae0fcc83a38c75f7fe7c5586e4860f994af",
+    "4. Executive Summary-20240101T000000Z-01665-000/4. Executive Summary/Executive Summary Finley Diaz 2024.pdf": "bcc4cb12e3f48a9e7e00f0997be0cfaa043ba05a85f1a2acac635d353a0a16e6"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

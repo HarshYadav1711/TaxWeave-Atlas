@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-00357-000",
+  "tax_year": 2024,
+  "case_fingerprint": "abf365c9a582861f89791bd3e5fce34829add65f811f86d89af457ba4d7585f4",
+  "case_json_sha256": "65db25efc6626abe739288930f385f8d7afd802da7759c57d89a25c196d4030a",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-00357-000/1. Client Summary/Client Summary.pdf": "c3c1fb97059beec6c0a7bc2a41035a559f9aa48843ee4cdf5cd480de8a98a0a5",
+    "2. Input Documents-20240101T000000Z-00357-000/2. Input Documents/Tax Document Attachments Summary.pdf": "465f296e0eb3df60a21266708bbb1015aee45b5ffd85b19527a4c207fb4febec",
+    "2. Input Documents-20240101T000000Z-00357-000/2. Input Documents/1099- DIV/1099-DIV KELLER.pdf": "d51a0097e13f0ced3848bcd61a85ea4f58c140eba593b9bd85ec8f5bbc2424d5",
+    "2. Input Documents-20240101T000000Z-00357-000/2. Input Documents/1099-INT/1099-INT KELLER.pdf": "5e49f81d2156b91e62088193c12f91ee88ef938e43e57cca5d109f280ab3dcca",
+    "2. Input Documents-20240101T000000Z-00357-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "ee06be168927eec9d7b3514d7b61ac5f7a459dbb4d9531b199ea4a5fe0682d62",
+    "2. Input Documents-20240101T000000Z-00357-000/2. Input Documents/Form W-2/Form W-2.pdf": "97eb73a31610990509da2f2ccec6cea35e8e6f4e20d24c4d21da50dcc1d31428",
+    "2. Input Documents-20240101T000000Z-00357-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "1e47856bf129f5497d3ee1416a74c863d33538d39a21b75f17436b41d58e9258",
+    "2. Input Documents-20240101T000000Z-00357-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "6b1c4a96e2f6b627d20ac49bf1cc87c7060d5915fd9426f66b36409f5d4fe3ec",
+    "3. Complete form-20240101T000000Z-00357-000/3. Complete form/2024 Tax Return Documents (Reese Keller (synthetic)).pdf": "dbe4de0f1e1b049e159a60a838cf2c1b9a3a6b5c9dcf53581a277c679fe1685a",
+    "3. Complete form-20240101T000000Z-00357-000/3. Complete form/Completed forms - Summary.pdf": "4c6c4d0072e348a528119124bb4b9341500155411a43bf60633f7bb7d1405c33",
+    "4. Executive Summary-20240101T000000Z-00357-000/4. Executive Summary/Executive Summary Reese Keller 2024.pdf": "3b8540a624cb11b1d685276b747fcae42b28d6c6fd4cacba3ca97017a5e9c582"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

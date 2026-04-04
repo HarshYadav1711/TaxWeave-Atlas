@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-00464-000",
+  "tax_year": 2023,
+  "case_fingerprint": "1a9b40381a73e49a95959311313770177b6bca0783d89b837873e878e778917a",
+  "case_json_sha256": "856f8eed3b8f4de7f6d4628497a7b21d1637c9364fc957f7e37614de76e5fb85",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-00464-000/1. Client Summary/Client Summary.pdf": "d1524ffb7df23205acc38ee9ae6dfba9633f6c784ac6a750627c1c82c0e37567",
+    "2. Input Documents-20230101T000000Z-00464-000/2. Input Documents/Tax Document Attachments Summary.pdf": "4c1b22d872a881d39c0b9425d54e3a7a8114f1896d4b92aef5711368c180dd7e",
+    "2. Input Documents-20230101T000000Z-00464-000/2. Input Documents/1099- DIV/1099-DIV OKORO.pdf": "edcafe93cf96bced42943ca5223c7dc883f36fc37797ba56c46a3c02e60023bc",
+    "2. Input Documents-20230101T000000Z-00464-000/2. Input Documents/1099-INT/1099-INT OKORO.pdf": "67bc0d157abc134dc6759ae5ed6ecf6eec1b485436841ee6a56352e413578c7c",
+    "2. Input Documents-20230101T000000Z-00464-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "e9ed5dc4e5d82ec347828ac2cc5c59e6287fc017c42ec51a8cd6a2fd64dd6e20",
+    "2. Input Documents-20230101T000000Z-00464-000/2. Input Documents/Form W-2/Form W-2.pdf": "a49c36e9a4f675fbd5f54ca3936f0c415b6de0859af5558046ff0b9fba304d2c",
+    "2. Input Documents-20230101T000000Z-00464-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "9fe4f14f92cecbbf7b5dd98c4368cb9be4c14d89817f74bd8eb79c47693f07c4",
+    "2. Input Documents-20230101T000000Z-00464-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "cce80d7505aa446bc070d42087c5991718d13bb4a5acd3ba030836626f0b1b3c",
+    "3. Complete form-20230101T000000Z-00464-000/3. Complete form/2023 Tax Return Documents (Quinn Okoro (synthetic)).pdf": "be52d162e489b8e6a0dcd2ec53b7ad5139ee396981133b9fdcbc457d453cba7f",
+    "3. Complete form-20230101T000000Z-00464-000/3. Complete form/Completed forms - Summary.pdf": "2f697c110d86839803aba3b8665403556c7b9a62700c4f3d253b2c5fd98f2bd6",
+    "4. Executive Summary-20230101T000000Z-00464-000/4. Executive Summary/Executive Summary Quinn Okoro 2023.pdf": "cf04ac4d85243969f095d9b82dfaabb6b1c63b66236a0652826b2d6cb6bf3f77"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

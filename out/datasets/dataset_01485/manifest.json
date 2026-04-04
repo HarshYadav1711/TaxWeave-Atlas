@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-01485-000",
+  "tax_year": 2022,
+  "case_fingerprint": "ac5cca990c6090ce92f3a1cc92653dc004a09f1ba26ef7fa329aa666d5b0cdf3",
+  "case_json_sha256": "a85f2184f541cbd1139b526f93b15cb2beda45179cf3030b8607cb14c6b0628c",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-01485-000/1. Client Summary/Client Summary.pdf": "b2fb13101e9247ea5b67249abd20c39d4917c76227fa822204848c85287e7de2",
+    "2. Input Documents-20220101T000000Z-01485-000/2. Input Documents/Tax Document Attachments Summary.pdf": "4e5fa16674bf7d2b1d051472988aa85602d977b77f46fa18333b0b6e008d5d12",
+    "2. Input Documents-20220101T000000Z-01485-000/2. Input Documents/1099- DIV/1099-DIV REYES.pdf": "cb024b807c475589c6d124ee4ba8fec52a262b0983e3d280d3df36327c69cf73",
+    "2. Input Documents-20220101T000000Z-01485-000/2. Input Documents/1099-INT/1099-INT REYES.pdf": "69e712263bb6a4243b6240107ac61912ed469a9d49d7aba6b4e7b16ceeadd842",
+    "2. Input Documents-20220101T000000Z-01485-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "ba4545e5077ee23dafb8d1ba78cf08bb76af64583c8d18a2eb53ffa3b9d068e6",
+    "2. Input Documents-20220101T000000Z-01485-000/2. Input Documents/Form W-2/Form W-2.pdf": "ba3ec9ab1767b14a48c0fe9424d2c057a2de6b8676f426a4a1b5de29240c5957",
+    "2. Input Documents-20220101T000000Z-01485-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "61e2322fcffdb024b7110dcb78a59fd990492556eca757752bcbf65b4f258fdf",
+    "2. Input Documents-20220101T000000Z-01485-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "7d7a00566a7fcdd71f572e862f7b6795444c05356a6cec8ecefa5e7a38e502a0",
+    "3. Complete form-20220101T000000Z-01485-000/3. Complete form/2022 Tax Return Documents (Skyler Reyes (synthetic)).pdf": "8d56475457b9396eb991c5849cf16adfbb30f791339ad73a88aedac8e2a75de2",
+    "3. Complete form-20220101T000000Z-01485-000/3. Complete form/Completed forms - Summary.pdf": "26e8eb237396b262094c00206618d4d1c9a2e237a543c690452c9931735ca994",
+    "4. Executive Summary-20220101T000000Z-01485-000/4. Executive Summary/Executive Summary Skyler Reyes 2022.pdf": "ff63c5103a0413f8aff93f0359dbe8f25285a5fcd7c6f69de9dee76111e1a832"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

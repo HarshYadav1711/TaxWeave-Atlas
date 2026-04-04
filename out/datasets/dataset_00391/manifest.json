@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-00391-000",
+  "tax_year": 2020,
+  "case_fingerprint": "80866825813e72f92ecf277e9364e7fe523d38bfa0f65328b410c9989a2e5ccb",
+  "case_json_sha256": "1ea20a0a334c54b2229662c14c911fee11c7db64b2722ebacd9a04a5b068d36b",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-00391-000/1. Client Summary/Client Summary.pdf": "d25240b80e8eac9e8eb46abd213116cf8326a12b77351aa192913277a567e0fd",
+    "2. Input Documents-20200101T000000Z-00391-000/2. Input Documents/Tax Document Attachments Summary.pdf": "2116f05307483cb06e3ea9286e94170a75c10e6a8ad8f6713d0cc1ac22f654ef",
+    "2. Input Documents-20200101T000000Z-00391-000/2. Input Documents/1099- DIV/1099-DIV HAYES.pdf": "5cdbfec36099754b84077c0e224034e8429fa3eb1f1c2d23c145906f46f64921",
+    "2. Input Documents-20200101T000000Z-00391-000/2. Input Documents/1099-INT/1099-INT HAYES.pdf": "e0fad3fc7fa9251e55fbc1e6c19faaec0cdb1c984a98e1f471e42633d163f599",
+    "2. Input Documents-20200101T000000Z-00391-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "2e0d7269e1b60ff81ecedcc20f3ccfecbade48ab673d3fc692aa07f4b3b3465c",
+    "2. Input Documents-20200101T000000Z-00391-000/2. Input Documents/Form W-2/Form W-2.pdf": "52bd47598a898a8bbec8cc39a72e1bbac1e0ec5551c72a7d501d9e5453b085ff",
+    "2. Input Documents-20200101T000000Z-00391-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "fcfcb6ef5ef8449e6a0c6584b7b20df87bbce0a1c8f1be1cffb9b34ed8aafe67",
+    "2. Input Documents-20200101T000000Z-00391-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "d18c3a0f96a913a9ff8ada0a8f10c17f9141dd770d66470204300a8d29e32561",
+    "3. Complete form-20200101T000000Z-00391-000/3. Complete form/2020 Tax Return Documents (River Hayes (synthetic)).pdf": "518ffea03d7a29c7683f05cfcd7c3808bf603e849bda741db4777cf7198dab49",
+    "3. Complete form-20200101T000000Z-00391-000/3. Complete form/Completed forms - Summary.pdf": "85228ff06da608a79f3f24dd950ba059c544e36fdd36a4ce4c5b8c3a931b9939",
+    "4. Executive Summary-20200101T000000Z-00391-000/4. Executive Summary/Executive Summary River Hayes 2020.pdf": "e61f36ce67a04fbdbd48a8630e0724187bce85bf16ac1fd6fb3ae323d9fd73c2"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

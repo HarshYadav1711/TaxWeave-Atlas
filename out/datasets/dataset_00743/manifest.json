@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-00743-000",
+  "tax_year": 2020,
+  "case_fingerprint": "af5ca4b759b26708fd62428bfdf9d7e1b96a39dda624088fcf0b08d8706f5d81",
+  "case_json_sha256": "56061c19a9d98a38d0096379299dce20adc5b84cf4652f15683bafcf9d0fe391",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-00743-000/1. Client Summary/Client Summary.pdf": "0d07cff3829aa27b3e2a7ef18a507ff0587d8e119488bef60f69dc5f763cf361",
+    "2. Input Documents-20200101T000000Z-00743-000/2. Input Documents/Tax Document Attachments Summary.pdf": "5a9c73d6d489016931712d90aeeb8491914f6f573fdaad2ce0dba82d5e78bf15",
+    "2. Input Documents-20200101T000000Z-00743-000/2. Input Documents/1099- DIV/1099-DIV SULLIVAN.pdf": "7ead04183a063a5e5c4b8cf175350f7e5c31e4caab995edc9d3de7667d6dd0db",
+    "2. Input Documents-20200101T000000Z-00743-000/2. Input Documents/1099-INT/1099-INT SULLIVAN.pdf": "afe2e66c5fd697426382440d1f7c6e220863c802df345210944052b4a610b7a0",
+    "2. Input Documents-20200101T000000Z-00743-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "72d576bde1bcaea59e1b51ed365b5c33ddee12215930c2db0d9487d455366db6",
+    "2. Input Documents-20200101T000000Z-00743-000/2. Input Documents/Form W-2/Form W-2.pdf": "8681dff92eba8e4b8b77ddadd7bbdb72f3ded284ac7c34e9d0f572d00c14a0d0",
+    "2. Input Documents-20200101T000000Z-00743-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "8d14fe3488a4d2f070b658898574b50521678e593bc98d64c41659e6e338ac5f",
+    "2. Input Documents-20200101T000000Z-00743-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "d43a02cc6d4e5cd48a1443eb035ed8d808a417a6da571e0588190a6cb71022e3",
+    "3. Complete form-20200101T000000Z-00743-000/3. Complete form/2020 Tax Return Documents (Emery Sullivan (synthetic)).pdf": "934c6ecd3defb7c2276a7d6c2ad86e12a65cb72715465e19e18c3186a78120e4",
+    "3. Complete form-20200101T000000Z-00743-000/3. Complete form/Completed forms - Summary.pdf": "0ce048d3800d230a9bb0e9c113fed570ccce6f86bb84cc63bd6de780789daa32",
+    "4. Executive Summary-20200101T000000Z-00743-000/4. Executive Summary/Executive Summary Emery Sullivan 2020.pdf": "352dbe4a1bb432a2ccee3c47569fa0cd7ed7df4449ab98fbbe704353732c4b4a"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

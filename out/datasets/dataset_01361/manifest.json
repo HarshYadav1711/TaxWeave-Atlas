@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-01361-000",
+  "tax_year": 2024,
+  "case_fingerprint": "6bbd08249bccf4aecf27e8343d674338950b7c1c4e9a02274d4bfb4754e7f75b",
+  "case_json_sha256": "74785fdb5b104248d55be9aec6b1dc010034bbb86743f52cfc8b10003ca0f0f6",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-01361-000/1. Client Summary/Client Summary.pdf": "cd1b402324e23f280f0795ece3ed8afd926e08a0074cd34b30777dc2d5be9a03",
+    "2. Input Documents-20240101T000000Z-01361-000/2. Input Documents/Tax Document Attachments Summary.pdf": "a1f73f93d2b95e7da76e9031416d2df67f32e4d118b049d38e408c5770884bf0",
+    "2. Input Documents-20240101T000000Z-01361-000/2. Input Documents/1099- DIV/1099-DIV REYES.pdf": "6c545524d7afe49e01cea626fb14b28412be009f3cafe74b6dfefc60565e6cf1",
+    "2. Input Documents-20240101T000000Z-01361-000/2. Input Documents/1099-INT/1099-INT REYES.pdf": "5875441a21cfde39dbe8b0a943dd45fd4d94c31749e4adee4dc707e6fae33256",
+    "2. Input Documents-20240101T000000Z-01361-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "f134890f1b6af1380fdcc8786f715284acc39d2454140fd4979e02e32e0678af",
+    "2. Input Documents-20240101T000000Z-01361-000/2. Input Documents/Form W-2/Form W-2.pdf": "d5a9cbf804e37b4249352a56bf078b4d9bbf9d103cf4482836c75046492f2c53",
+    "2. Input Documents-20240101T000000Z-01361-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "bdc449c2e752afeb33acd19dc93837e5e4cd938cc8994c2c8d1de9e596e2a9f7",
+    "2. Input Documents-20240101T000000Z-01361-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "2cad9c5bca2bf41b767ecd662f4c1522390e68961bc953d660d7c0a3676ed5fe",
+    "3. Complete form-20240101T000000Z-01361-000/3. Complete form/2024 Tax Return Documents (Parker Reyes (synthetic)).pdf": "6216247eecea35c71a8db5247fc6cc19794761876c49191ec67adf5640df6ca5",
+    "3. Complete form-20240101T000000Z-01361-000/3. Complete form/Completed forms - Summary.pdf": "5263ffc0a8721e5d3ee1071f766e61f136bdb4b9a0481216e610669e7f114123",
+    "4. Executive Summary-20240101T000000Z-01361-000/4. Executive Summary/Executive Summary Parker Reyes 2024.pdf": "abd7c32b2864716045801e6a4a4cf47253117783af94c562d9b9b8f32eaeccd0"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}
