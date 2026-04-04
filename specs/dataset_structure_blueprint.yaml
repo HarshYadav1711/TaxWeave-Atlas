@@ -83,8 +83,8 @@ segments:
     outer_template: "3. Complete form-{export_token}"
     inner_template: "3. Complete form"
     files:
-      - relative: "{tax_year} Tax Return Documents ({safe_taxpayer_label}).pdf"
-        generator: pdf_combined_return
+      - relative: "{tax_year}_{primary_last_safe}_{primary_first_safe}_CompleteReturn.pdf"
+        generator: pdf_merged_complete_return
       - relative: "Completed forms - Summary.docx"
         generator: minimal_docx
         export: false

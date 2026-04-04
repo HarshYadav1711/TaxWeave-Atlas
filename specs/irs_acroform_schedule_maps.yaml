@@ -1,0 +1,70 @@
+# Maps structural_mef field names to IRS fillable-PDF field name *suffixes* (matched with
+# endswith against full AcroForm keys). Templates: irs-prior/{slug}--{year}.pdf (year snapped in code).
+version: 1
+maps:
+  IRS1040Schedule1:
+    slug: f1040s1
+    header_name: ".Page1[0].f1_01[0]"
+    header_ssn: ".Page1[0].f1_02[0]"
+    fields:
+      TotalAdditionalIncomeAmt: ".Page1[0].f1_38[0]"
+      TotalAdjustmentsAmt: ".Page2[0].f2_31[0]"
+
+  IRS1040Schedule2:
+    slug: f1040s2
+    header_name: ".Page1[0].f1_01[0]"
+    header_ssn: ".Page1[0].f1_02[0]"
+    fields:
+      TotalTaxAmt: ".Page1[0].f1_23[0]"
+
+  IRS1040ScheduleB:
+    slug: f1040sb
+    header_name: ".Page1[0].f1_01[0]"
+    header_ssn: ".Page1[0].f1_02[0]"
+    fields:
+      InterestAmt: ".Page1[0].f1_30[0]"
+      TotalInterestAmt: ".Page1[0].f1_30[0]"
+      OrdinaryDividendsAmt: ".Page1[0].f1_64[0]"
+      TotalOrdinaryDividendsAmt: ".Page1[0].f1_64[0]"
+
+  IRS1040ScheduleC:
+    slug: f1040sc
+    header_name: ".Page1[0].f1_1[0]"
+    header_ssn: ".Page1[0].f1_2[0]"
+    fields:
+      NetProfitOrLossAmt: "Item9[0].f2_31[0]"
+
+  IRS1040ScheduleSE:
+    slug: f1040sse
+    header_name: ".Page1[0].f1_01[0]"
+    header_ssn: ".Page1[0].f1_02[0]"
+    fields:
+      NetEarningsSelfEmploymentAmt: ".Page1[0].f1_22[0]"
+
+  IRS1040Schedule8812:
+    slug: f1040s8
+    header_name: ".Page1[0].f1_1[0]"
+    header_ssn: ".Page1[0].f1_2[0]"
+    fields:
+      QlfyChildUnderAgeSSNCnt: ".Page1[0].f1_3[0]"
+      ChldTxCrdAmt: ".Page1[0].f1_18[0]"
+      RfdblChldTxCrdAmt: ".Page2[0].f2_15[0]"
+
+  IRS8995:
+    slug: f8995
+    header_name: ".Page1[0].f1_1[0]"
+    header_ssn: ".Page1[0].f1_2[0]"
+    fields:
+      QlfyBusIncmAmt: ".Page1[0].f1_19[0]"
+
+  IRS4562:
+    slug: f4562
+    header_name: ".Page1[0].f1_1[0]"
+    header_ssn: ".Page1[0].f1_2[0]"
+    fields:
+      MACRSDedForAstInSrvcCyovYrAmt: "Line19c[0].f1_36[0]"
+
+  IRS8867:
+    slug: f8867
+    header_name: "PgHeader[0].f1_1[0]"
+    fields: {}

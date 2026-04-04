@@ -74,6 +74,19 @@ def _generator_bytes(generator_id: str, case: SyntheticTaxCase) -> bytes:
         )
     if generator_id == "pdf_combined_return":
         return pdf_pipeline.materialize_combined_return_pdf_bytes(case)
+    if generator_id == "pdf_merged_complete_return":
+        from taxweave_atlas.pdf.complete_return import build_merged_complete_return_pdf_bytes
+
+        return build_merged_complete_return_pdf_bytes(case)
+    if generator_id == "pdf_form_1040_only":
+        from taxweave_atlas.pdf.complete_return import form_1040_single_pdf_bytes
+
+        return form_1040_single_pdf_bytes(case)
+    if generator_id.startswith("pdf_structural_form:"):
+        from taxweave_atlas.pdf.complete_return import structural_form_single_pdf_bytes
+
+        element = generator_id.split(":", 1)[1]
+        return structural_form_single_pdf_bytes(case, element)
     if generator_id == "pdf_invoice":
         return render_minimal_invoice_pdf(
             tax_year=case.tax_year, taxpayer_label=case.profile.taxpayer_label

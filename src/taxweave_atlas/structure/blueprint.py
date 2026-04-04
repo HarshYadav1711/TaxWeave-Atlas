@@ -12,6 +12,7 @@ import yaml
 
 from taxweave_atlas.exceptions import ConfigurationError
 from taxweave_atlas.paths import dataset_structure_blueprint_path
+from taxweave_atlas.pdf.complete_return import extend_complete_form_individual_specs
 from taxweave_atlas.schema.case import SyntheticTaxCase
 
 _BAD_FILENAME = '<>:"/\\|?*'
@@ -116,12 +117,16 @@ def build_layout_context(
         dataset_slot=dataset_slot,
         salt=uniqueness_salt,
     )
+    pl = _safe_filename_segment(case.profile.primary_last_name, max_len=80).replace(" ", "_")
+    pf = _safe_filename_segment(case.profile.primary_first_name, max_len=80).replace(" ", "_")
     return {
         "export_token": export_token,
         "tax_year": case.tax_year,
         "dataset_slot": dataset_slot,
         "salt": uniqueness_salt,
         "primary_last_upper": case.profile.primary_last_name.upper(),
+        "primary_last_safe": pl or "TaxpayerLast",
+        "primary_first_safe": pf or "TaxpayerFirst",
         "safe_taxpayer_label": _safe_filename_segment(case.profile.taxpayer_label),
         "executive_summary_title": _safe_filename_segment(
             f"{case.profile.primary_first_name} {case.profile.primary_last_name}",
@@ -158,6 +163,9 @@ def iter_layout_file_specs(
             rel = str(entry["relative"]).format(**ctx)
             gen = str(entry["generator"])
             out.append((f"{base}/{rel}", gen))
+
+        if str(seg.get("id")) == "complete_form":
+            out.extend(extend_complete_form_individual_specs(case, base))
 
         for cat in seg.get("categories") or []:
             if not isinstance(cat, dict):
@@ -206,6 +214,9 @@ def iter_export_layout_file_specs(
             rel = str(entry["relative"]).format(**ctx)
             gen = str(entry["generator"])
             out.append((f"{base}/{rel}", gen))
+
+        if str(seg.get("id")) == "complete_form":
+            out.extend(extend_complete_form_individual_specs(case, base))
 
         for cat in seg.get("categories") or []:
             if not isinstance(cat, dict):
