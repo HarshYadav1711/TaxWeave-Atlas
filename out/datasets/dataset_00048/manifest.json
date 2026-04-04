@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20250101T000000Z-00048-000",
+  "tax_year": 2025,
+  "case_fingerprint": "e2348aa258a418edb6df383f196555909e97cf9d6d971ba204ea02c82c68e39e",
+  "case_json_sha256": "7abe2b5c96d6de6b26dfe205d0b20e49db2e90aedd90f5041779de19987a0dc4",
+  "files_sha256": {
+    "1. Client Summary-20250101T000000Z-00048-000/1. Client Summary/Client Summary.pdf": "d4d1864d4fc786e7f21fc4a29e4265baf0e11e0facd4ee13f1dec985aec445ab",
+    "2. Input Documents-20250101T000000Z-00048-000/2. Input Documents/Tax Document Attachments Summary.pdf": "0758638adca6f6815361bd3243b6759843678d707c2455f09c4713de8962580a",
+    "2. Input Documents-20250101T000000Z-00048-000/2. Input Documents/1099- DIV/1099-DIV JENNINGS.pdf": "6173082d9d6687d1b9c7bc19bcbad5ece1cf3f69ab95929abaa83fb08a08c0c6",
+    "2. Input Documents-20250101T000000Z-00048-000/2. Input Documents/1099-INT/1099-INT JENNINGS.pdf": "328321a7151b552fcb9191fef23c93e14d80e3f91cdef06e507004904a32d07e",
+    "2. Input Documents-20250101T000000Z-00048-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2025_.pdf": "f2578f3c87a0895fd6ed656698a21e01ca798dd7545abbc563dd2f9f92c59829",
+    "2. Input Documents-20250101T000000Z-00048-000/2. Input Documents/Form W-2/Form W-2.pdf": "cffba51679b6eca1761378111173b3da4f80b2531d4ba85cc5b4b2eaf8dd69da",
+    "2. Input Documents-20250101T000000Z-00048-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "b06e388582dacd33d50526a42bd82f3c455219add77104b776d96e1924ca7ebd",
+    "2. Input Documents-20250101T000000Z-00048-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2025.pdf": "e7ae62834c68b707b5b3f183e922e0436802bad07e402ab89b642a3cf8bd8140",
+    "3. Complete form-20250101T000000Z-00048-000/3. Complete form/2025 Tax Return Documents (Finley Jennings (synthetic)).pdf": "c440056872488464e3dc16533ba1fb8ac7afd1d4670218240d9893dc587fb28b",
+    "3. Complete form-20250101T000000Z-00048-000/3. Complete form/Completed forms - Summary.pdf": "e30a3405fee8539bd0cd3f2e86094396ffc7e1f32fa57869c21b70efb730a3e9",
+    "4. Executive Summary-20250101T000000Z-00048-000/4. Executive Summary/Executive Summary Finley Jennings 2025.pdf": "7bc54fc5904ca9a997297acd830399eb4a5dfcda633560e55130db2c6cd560f7"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

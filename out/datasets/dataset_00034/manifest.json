@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-00034-000",
+  "tax_year": 2023,
+  "case_fingerprint": "b673affc4f0b5e814d383a042aad0c7df313f72739a819c60b2eedaa987c060b",
+  "case_json_sha256": "71f4167bfe5dd01f4952a55d0e63a16fdfec91f3e4919d10075df37fa997ed9a",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-00034-000/1. Client Summary/Client Summary.pdf": "e40221ced808e786c7f99abb7a4dbc8a60dae294aed8482a37228913f62d24fa",
+    "2. Input Documents-20230101T000000Z-00034-000/2. Input Documents/Tax Document Attachments Summary.pdf": "305a954a346fd2659bcd538568d659de89a1a42a95a4f8ff4fb5194347f48687",
+    "2. Input Documents-20230101T000000Z-00034-000/2. Input Documents/1099- DIV/1099-DIV LAWSON.pdf": "81d54f970aeeb1b37ded7911ce0016e4e008b310d65e76024fa56046a24c62ee",
+    "2. Input Documents-20230101T000000Z-00034-000/2. Input Documents/1099-INT/1099-INT LAWSON.pdf": "62dd8722c1d7b7a2f5c8f4dc521e8e68862760f058a25da0e6261f0364356733",
+    "2. Input Documents-20230101T000000Z-00034-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "ab44a8fd9dd7c4383dce4f5a8a09beb71cbf991ab08b80c607dc3dc1eadb3a88",
+    "2. Input Documents-20230101T000000Z-00034-000/2. Input Documents/Form W-2/Form W-2.pdf": "59122b58953cf88dc4447ece64e8e69fdd8be75e85d06d5b4b70dc600b2d0e3e",
+    "2. Input Documents-20230101T000000Z-00034-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "068da008939e8bc5a48d3ff98fbde8affd9351c206fe2d2253ad9b705f459dd7",
+    "2. Input Documents-20230101T000000Z-00034-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "2de7b8b923eea8941db0235f3aaee9545eed40eebc797e3c9ca44e1bed3081c9",
+    "3. Complete form-20230101T000000Z-00034-000/3. Complete form/2023 Tax Return Documents (Finley Lawson (synthetic)).pdf": "3f7cbb3f968c0190645e12182dbb1979af87d5298316c0ce954e9267f52c7bb8",
+    "3. Complete form-20230101T000000Z-00034-000/3. Complete form/Completed forms - Summary.pdf": "a97df395eaf7c8b52d25ec1b3ed004d02e14ecb9624c9fde270aadfb7248a414",
+    "4. Executive Summary-20230101T000000Z-00034-000/4. Executive Summary/Executive Summary Finley Lawson 2023.pdf": "d65ef2e03d100f7953a9bc178117857cedceff804780cf2da8839d191a5485da"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

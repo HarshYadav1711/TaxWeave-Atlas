@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-00037-000",
+  "tax_year": 2024,
+  "case_fingerprint": "0c702b76b01097f2db2581b8583e75a2fcf0f350c1fb9a5999c81304684c5fad",
+  "case_json_sha256": "ffdb70beb2ce2c77870684742fb17c2c5eb9c7f0874d40714d7d62c3d05e98cc",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-00037-000/1. Client Summary/Client Summary.pdf": "151f24ef3c802e332d04a7c6bd11cbf1e39595f22d02308af893c869cbfa5ab8",
+    "2. Input Documents-20240101T000000Z-00037-000/2. Input Documents/Tax Document Attachments Summary.pdf": "2d7b5425cadcaa55bbea01ea36c1116ca13b7d375de21ff9c845813409c44d7a",
+    "2. Input Documents-20240101T000000Z-00037-000/2. Input Documents/1099- DIV/1099-DIV FOSTER.pdf": "a58a5eb83be457eaf526cc1b331dd4f10d2d2d1f7719795f528634a267f7d082",
+    "2. Input Documents-20240101T000000Z-00037-000/2. Input Documents/1099-INT/1099-INT FOSTER.pdf": "1d540fee090a63976b93264789a31c765a9332c029ff7098ef78318be4eee106",
+    "2. Input Documents-20240101T000000Z-00037-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "1e4e0986ad53fe7412ccf2173d1de589d927590f222df5337c1c7a4111256581",
+    "2. Input Documents-20240101T000000Z-00037-000/2. Input Documents/Form W-2/Form W-2.pdf": "4dbb0493c6e4e9b937021db62a71992dfb4de7f984e80bcb5dc143972c5b131c",
+    "2. Input Documents-20240101T000000Z-00037-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "0e781bfd0e86ec387ca77ef6eef7125d4f6d048d7c2ca28ce1acf4d0d5d42c52",
+    "2. Input Documents-20240101T000000Z-00037-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "04009a19cb516af663cfe44d136fe173224a5abc41adafc62b1752d9d378b740",
+    "3. Complete form-20240101T000000Z-00037-000/3. Complete form/2024 Tax Return Documents (Riley Foster (synthetic)).pdf": "b84272fe5a7bf894da493a4e36fd1fc30f030de07b6360da12e363cc1b9f740b",
+    "3. Complete form-20240101T000000Z-00037-000/3. Complete form/Completed forms - Summary.pdf": "d7a9011ca94f4efe7cbbb9974bba4f99addbde7a2a7887d7d14b020c9c4ed855",
+    "4. Executive Summary-20240101T000000Z-00037-000/4. Executive Summary/Executive Summary Riley Foster 2024.pdf": "6a007ace8a3289e0d7085560e017a50aca2205a8df62fcb5ab6ab22f7506e3ae"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

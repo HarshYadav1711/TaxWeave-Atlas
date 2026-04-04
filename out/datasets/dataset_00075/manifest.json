@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20210101T000000Z-00075-000",
+  "tax_year": 2021,
+  "case_fingerprint": "ef8d839361b29b68985c6e1a8254db8ea9296fe50ea2ad3ab7b536fa39a09bac",
+  "case_json_sha256": "7ac086ee47c3684421f142c4085f1d2716e91dc91a56691443989c568251e958",
+  "files_sha256": {
+    "1. Client Summary-20210101T000000Z-00075-000/1. Client Summary/Client Summary.pdf": "a5f1c041b641af5e7171089f52c4edc7d2842d17837c6800b828e2d4a83678ed",
+    "2. Input Documents-20210101T000000Z-00075-000/2. Input Documents/Tax Document Attachments Summary.pdf": "69a82e331416f0f0dda36fc618dc2f6d4d68134a04c4bdeac81f16e1e4b1236b",
+    "2. Input Documents-20210101T000000Z-00075-000/2. Input Documents/1099- DIV/1099-DIV REYES.pdf": "6c57bbd394547df742c901347e306b8cf088fcbd3b6ba40b3346088ae29eb909",
+    "2. Input Documents-20210101T000000Z-00075-000/2. Input Documents/1099-INT/1099-INT REYES.pdf": "c3f7ad65ad32b002450a19bbfaed8558affb7d67f9721e312a0b059acfa7d25f",
+    "2. Input Documents-20210101T000000Z-00075-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2021_.pdf": "e3d1ff982dd813fdda0d7d77bf447b171489f8acfc624e77b2f1b2e856afaeea",
+    "2. Input Documents-20210101T000000Z-00075-000/2. Input Documents/Form W-2/Form W-2.pdf": "d7fc75ed8e03c99f66c6b9f6079f3bcb9087bd55d59e28abb13da5d4e1093f1b",
+    "2. Input Documents-20210101T000000Z-00075-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "d4bc6bc93128e66b8eaf89af46e9e6f7b0128dc97cc6c94cb555dd3249be88a2",
+    "2. Input Documents-20210101T000000Z-00075-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2021.pdf": "4827f9d07e89ba32bca4135672cba899bd0df7ec3cf37531223a4e4094f45123",
+    "3. Complete form-20210101T000000Z-00075-000/3. Complete form/2021 Tax Return Documents (Sage Reyes (synthetic)).pdf": "95e547806522fe7a04bcd044275cbe1a7a219067e02531c7e5374353a5e03b61",
+    "3. Complete form-20210101T000000Z-00075-000/3. Complete form/Completed forms - Summary.pdf": "5d527289d61f40aeea52302ec75a11bc6ecf94f94ef578d2c5be84822a9f614b",
+    "4. Executive Summary-20210101T000000Z-00075-000/4. Executive Summary/Executive Summary Sage Reyes 2021.pdf": "5cc83a791dc5db7f93532dc1c1e868fbdddcd4f888fc55d01a06401c019f0f31"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-00030-000",
+  "tax_year": 2023,
+  "case_fingerprint": "21a0c57e48211ff111a28d8b5c710df166b421f37a849f0e4ba5488ce9bbb885",
+  "case_json_sha256": "5bac157c07d2e96c174e3fb4178a7e201c3ddc5d5a1c89710c7561c8e0c6057f",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-00030-000/1. Client Summary/Client Summary.pdf": "02cce539d40e1453ce4bb29da7cec5fd39e7cca3ac63083c849f6799253fe6d4",
+    "2. Input Documents-20230101T000000Z-00030-000/2. Input Documents/Tax Document Attachments Summary.pdf": "2a820646e7c393cbe287f1db848b38fa75afc13444ce2690150944a02c6557d9",
+    "2. Input Documents-20230101T000000Z-00030-000/2. Input Documents/1099- DIV/1099-DIV OKORO.pdf": "d03e8c689e69b55de6db5803b5813efc20921ca4b49e19eaf0765c666d87549d",
+    "2. Input Documents-20230101T000000Z-00030-000/2. Input Documents/1099-INT/1099-INT OKORO.pdf": "6c4d39d51658a2f9ddf56e0b0bd8948f58d3235d1ff616afc767041d300a8fdf",
+    "2. Input Documents-20230101T000000Z-00030-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "f49072479b1f58b4945ab128209e076878b115e884342b45efbf2f669ef85374",
+    "2. Input Documents-20230101T000000Z-00030-000/2. Input Documents/Form W-2/Form W-2.pdf": "32d98f2873d67aad72cc9ce5a524f80c53459bfc5f94604edbc9a4ecb76ee717",
+    "2. Input Documents-20230101T000000Z-00030-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "1387d6f2f2ccec3796fbd66cc3c39c2bf87d085f5d0d08564ba4d867c2c60cde",
+    "2. Input Documents-20230101T000000Z-00030-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "746625a830f28f5c0de1c4b841cef077d1b8bd46f9e5188ae9b3841124c896f9",
+    "3. Complete form-20230101T000000Z-00030-000/3. Complete form/2023 Tax Return Documents (River Okoro (synthetic)).pdf": "ad531c6836f1f70b37d7d565114491e98a64cda3f38757392214dc2516312056",
+    "3. Complete form-20230101T000000Z-00030-000/3. Complete form/Completed forms - Summary.pdf": "ae7fdf5a0d283b86960bdb08298eef9644390e728bc21ba4e17ebe5bf970daa6",
+    "4. Executive Summary-20230101T000000Z-00030-000/4. Executive Summary/Executive Summary River Okoro 2023.pdf": "1a6f18ea874c99213a9c338d29553b083523bede650e7e30d9072e7a9f3f2bc7"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-00014-000",
+  "tax_year": 2024,
+  "case_fingerprint": "38becfed842e89504790bafa5a651205ed905439d08bbdf1f84048522986c1f1",
+  "case_json_sha256": "6b6e153c6583d115e3daa905d1a70f3d76098a0e6f518efdd3b5d75c598cdf42",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-00014-000/1. Client Summary/Client Summary.pdf": "a1e4dbae28849febdccbfba16dae26ead9534e91cae89b3494692d1cbc537391",
+    "2. Input Documents-20240101T000000Z-00014-000/2. Input Documents/Tax Document Attachments Summary.pdf": "d41fd68228b3c5650c47d258ad11732c1493c86218b70979379f47e9ca45d7c2",
+    "2. Input Documents-20240101T000000Z-00014-000/2. Input Documents/1099- DIV/1099-DIV MERCER.pdf": "479a369bb14e260e6786f0ea0df4178117a15362764875a4325e20a21c580d73",
+    "2. Input Documents-20240101T000000Z-00014-000/2. Input Documents/1099-INT/1099-INT MERCER.pdf": "6df52122efb24fa72f831ab66c99cf71390154041c0449337bd64831987e818f",
+    "2. Input Documents-20240101T000000Z-00014-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "e4dbda0e0435df7270faeb0926227530fe761d8255e599a21bfac3ff1a7ce87e",
+    "2. Input Documents-20240101T000000Z-00014-000/2. Input Documents/Form W-2/Form W-2.pdf": "e897afee593388d7acd3c1caa189cc2dda45c76f23bb446c47e40136ccd7a9bb",
+    "2. Input Documents-20240101T000000Z-00014-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "de740bc3dfbb8d4fb174043c918ed60ae4d96c914e3d12c098664ba33c5b35c6",
+    "2. Input Documents-20240101T000000Z-00014-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "074e7bf326c75efd15d92f92fa97da613877b2bc621697da6fc3446a81fc4f14",
+    "3. Complete form-20240101T000000Z-00014-000/3. Complete form/2024 Tax Return Documents (Skyler Mercer (synthetic)).pdf": "c4232eaecabf39accd004d543d29ba39611bd3f8054931d231f60ce738d58f11",
+    "3. Complete form-20240101T000000Z-00014-000/3. Complete form/Completed forms - Summary.pdf": "b5dfe13fb0cd425a566b717cb46bf52aea17fbeb8e7e966a32e74fe6b47933d5",
+    "4. Executive Summary-20240101T000000Z-00014-000/4. Executive Summary/Executive Summary Skyler Mercer 2024.pdf": "1e6cef0a70ebc1f8edb6247d4659f20574616b512332861441aa0d3dc27cf971"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

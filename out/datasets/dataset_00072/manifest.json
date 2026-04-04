@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-00072-000",
+  "tax_year": 2023,
+  "case_fingerprint": "957ff8b01eeac5b77f92eb623c67ceaceb03909faa6c375612137057ab0bbcfe",
+  "case_json_sha256": "dd2d8b2e4d792b20b899201803a020b9ec9ab5e67757f51808b653f68d63ff72",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-00072-000/1. Client Summary/Client Summary.pdf": "7d73e01d6ab86206407d234c5ad04ca2a1ebab6717f8786c039e3d2a07651250",
+    "2. Input Documents-20230101T000000Z-00072-000/2. Input Documents/Tax Document Attachments Summary.pdf": "bc732d86d9a567699ecc5e0b89c3ebf1cfcac4c0068f595553b6b2b0f92a7244",
+    "2. Input Documents-20230101T000000Z-00072-000/2. Input Documents/1099- DIV/1099-DIV DIAZ.pdf": "28871878d34484413425cf95e220e05fff352141fbdae9310cb1d3a3aeb00bd9",
+    "2. Input Documents-20230101T000000Z-00072-000/2. Input Documents/1099-INT/1099-INT DIAZ.pdf": "53346d5a439e5b0ee134a1cedcb2b065f970e617f46faf2ed517767eed51e305",
+    "2. Input Documents-20230101T000000Z-00072-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "af4dc6fd03a94105b13935fd079a130c92c08124be832f6405d3fd8138410459",
+    "2. Input Documents-20230101T000000Z-00072-000/2. Input Documents/Form W-2/Form W-2.pdf": "e981d2db335f4a39676a4754f1b08a3300692c70b7aac9fd2cbb03205e8fd2be",
+    "2. Input Documents-20230101T000000Z-00072-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "db9b9a37df9ffd2f417e641e93a306e80edc319768944408ba95bb2c70a9f6d0",
+    "2. Input Documents-20230101T000000Z-00072-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "676628fc8d35538bdaee631df121aa6145e626cd5eaf04fcaa327fcb634a5810",
+    "3. Complete form-20230101T000000Z-00072-000/3. Complete form/2023 Tax Return Documents (Casey Diaz (synthetic)).pdf": "b663638bde77b31f60487a9cb4bb4ccc06225fe9b035664aebe3773bcdae02c5",
+    "3. Complete form-20230101T000000Z-00072-000/3. Complete form/Completed forms - Summary.pdf": "0d6b7fea829def908611f8d7c33be29216bf7b9f17b41d2f32979b29a963f7a2",
+    "4. Executive Summary-20230101T000000Z-00072-000/4. Executive Summary/Executive Summary Casey Diaz 2023.pdf": "b33c5d0c0b63d1e596c0b090bd1f195edd5a07c8e470e12ff8f9506c2bbb2e44"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

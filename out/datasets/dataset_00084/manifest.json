@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-00084-000",
+  "tax_year": 2020,
+  "case_fingerprint": "17942084ce9c5ae512f30545a5dbdb7427dcd416099a13023dd4c56fa6a78139",
+  "case_json_sha256": "651a0f7f3201ac73ba23ef960dc65463e28c245d3ff82c6cc1c9f152b4ab7f1e",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-00084-000/1. Client Summary/Client Summary.pdf": "6d4e18ab6ecfc573712d49e7aec026fafe5cbd339c65729f07e5c4ee1a96d8e0",
+    "2. Input Documents-20200101T000000Z-00084-000/2. Input Documents/Tax Document Attachments Summary.pdf": "bad0d45fe15865bc9baeff1a682f1a01782c07d81d0dc4a5ad2ff18b6ffb4495",
+    "2. Input Documents-20200101T000000Z-00084-000/2. Input Documents/1099- DIV/1099-DIV FOSTER.pdf": "bb26704c8545d0671ab6804c94685ea5bcda3c086dc4eabf27bd6e6b5ae71f1d",
+    "2. Input Documents-20200101T000000Z-00084-000/2. Input Documents/1099-INT/1099-INT FOSTER.pdf": "2eaefa5d4eeeb60cbb291b847e771ce7e489d581eba952d19a27458f8fa2525f",
+    "2. Input Documents-20200101T000000Z-00084-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "b4200bb5884b651e8201fb7327ad876475752a6405b9bddfba961893ef9b5c22",
+    "2. Input Documents-20200101T000000Z-00084-000/2. Input Documents/Form W-2/Form W-2.pdf": "0de7d804efec28cb79534ea70c918aef9d7be850220958924132c281afca078e",
+    "2. Input Documents-20200101T000000Z-00084-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "c2bb1a3154c368c70b130d1471f00e3438594ccf98272befa1f33ef34f8f4e3b",
+    "2. Input Documents-20200101T000000Z-00084-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "ba0121ad0b87b5b342db66be2f7140a8e672df66980a44366168bcc6801925ac",
+    "3. Complete form-20200101T000000Z-00084-000/3. Complete form/2020 Tax Return Documents (Parker Foster (synthetic)).pdf": "af7fb30d2c1d9a1df2bac8df3bb80312ed57e3e40faf9dc11aa001bea651aea2",
+    "3. Complete form-20200101T000000Z-00084-000/3. Complete form/Completed forms - Summary.pdf": "a27a97434b2421784e672b5dad5c338471ac17638e7c56a0d2405e572155ae5f",
+    "4. Executive Summary-20200101T000000Z-00084-000/4. Executive Summary/Executive Summary Parker Foster 2020.pdf": "40f9490f3810bf72914ac79e72a66b1b6e815bd9d84efca2e8e0cc3eebb97dfd"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20250101T000000Z-00069-000",
+  "tax_year": 2025,
+  "case_fingerprint": "ce7335f0b8ab870333968137bace155a3aed0f869c64a9337c4a961400467735",
+  "case_json_sha256": "2b64f9603c2580f1f7ee5be5729dca4436ee6e17dae8818c0e73eeef0404a327",
+  "files_sha256": {
+    "1. Client Summary-20250101T000000Z-00069-000/1. Client Summary/Client Summary.pdf": "91701b6bfc8f99c168e47ce82ee3d45881719db9c4bf2c1f2b5f37ac5bc503a6",
+    "2. Input Documents-20250101T000000Z-00069-000/2. Input Documents/Tax Document Attachments Summary.pdf": "478a2fdf1efeb0fd4c74005b98c7bb42a19d50410d514101471789a5b9ee35c1",
+    "2. Input Documents-20250101T000000Z-00069-000/2. Input Documents/1099- DIV/1099-DIV BENNETT.pdf": "0cbe148d422f924c25ec2cae458b71c6b030787eb02c6feaaf8359530ccd8528",
+    "2. Input Documents-20250101T000000Z-00069-000/2. Input Documents/1099-INT/1099-INT BENNETT.pdf": "b2e32fc7d423153a0dcd6ecdce2d65f925a8c8fe4929e78d5b7a3a64f0fc2ab8",
+    "2. Input Documents-20250101T000000Z-00069-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2025_.pdf": "eb88fc7972ff30d72a9e4cd11c0d73644bebaa8ce20fe3fea044ddcd4645d439",
+    "2. Input Documents-20250101T000000Z-00069-000/2. Input Documents/Form W-2/Form W-2.pdf": "cfa120d0ecb39e971d71c4b58d6b0f6f448073c614f3d7d025ee53f27b4ee660",
+    "2. Input Documents-20250101T000000Z-00069-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "034e125ab46556c7ed7209a902d745c5825a016c1810f1866e80a36525afa42f",
+    "2. Input Documents-20250101T000000Z-00069-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2025.pdf": "583d7a7170110ac83439fd1da8645289b7f7d13b039c6d8c1a384f723e60e65a",
+    "3. Complete form-20250101T000000Z-00069-000/3. Complete form/2025 Tax Return Documents (Dakota Bennett (synthetic)).pdf": "6a21e9b1d27ab3db10a9527c4ed8ffc2caf953edb7164463824a7ccdfb7026bd",
+    "3. Complete form-20250101T000000Z-00069-000/3. Complete form/Completed forms - Summary.pdf": "b7431eab9139451f8dc46cebe82b77adeb0bd16fb285a9d7ea76f59df737f5bf",
+    "4. Executive Summary-20250101T000000Z-00069-000/4. Executive Summary/Executive Summary Dakota Bennett 2025.pdf": "7c358f5fe1e57456f5fb32cefc28523deb12891a90bf154ef912c52c0b83655e"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}
