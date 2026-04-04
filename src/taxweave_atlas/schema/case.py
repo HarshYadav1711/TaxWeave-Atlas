@@ -28,6 +28,10 @@ class SyntheticTaxCase(BaseModel):
     profile: TaxpayerProfile
     questionnaire: QuestionnairePacket
     income: IncomeSources
+    # Synthetic structural / Schedule 2 amounts (reconciliation copies into federal.lines.additional_lines).
+    schedule_2_additional_taxes: int = 0
+    form_4562_depreciation_amount: int = 0
+    form_8995_qualified_business_income: int = 0
     deductions: DeductionPacket = Field(default_factory=DeductionPacket)
     credits: CreditsPacket = Field(default_factory=CreditsPacket)
     supporting_documents: SupportingDocumentsIndex = Field(default_factory=SupportingDocumentsIndex)

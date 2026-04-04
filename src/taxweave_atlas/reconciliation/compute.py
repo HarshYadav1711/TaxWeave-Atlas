@@ -92,7 +92,12 @@ def compute_agi(case: SyntheticTaxCase, scope: dict[str, Any]) -> tuple[int, dic
                 raise ReconciliationError(f"Missing AGI component path {src!r}") from None
         breakdown[field] = val
         total += val
-    return total, breakdown
+    adjustments = sum(case.deductions.adjustments_to_agi.values())
+    if adjustments < 0:
+        raise ReconciliationError("deductions.adjustments_to_agi values must be non-negative")
+    agi = max(0, total - adjustments)
+    breakdown["adjustments_to_agi_total"] = adjustments
+    return agi, breakdown
 
 
 def apply_credits(pre_credit_tax: int, case: SyntheticTaxCase, credit_rules: dict[str, Any]) -> tuple[int, int, int]:
@@ -132,8 +137,12 @@ def build_federal_return(case: SyntheticTaxCase, *, agi: int, bundle: dict[str, 
 
     pre_credit = _progressive_tax(taxable_income, comp["marginal_brackets"])
     total_tax, nr_app, ref_app = apply_credits(pre_credit, case, bundle["credit_application"])
+    sch2 = max(0, int(case.schedule_2_additional_taxes))
+    total_tax = total_tax + sch2
 
     inc = case.income
+    sch1_adj = sum(case.deductions.adjustments_to_agi.values())
+    sch1_add_inc = int(inc.passive_income.get("retirement_distributions", 0) or 0)
     addl: dict[str, int] = {
         "statutory_standard_deduction": statutory_std,
         "schedule_a_total": itemized_sum,
@@ -141,6 +150,11 @@ def build_federal_return(case: SyntheticTaxCase, *, agi: int, bundle: dict[str, 
         "pre_credit_income_tax": pre_credit,
         "nonrefundable_credits_applied": nr_app,
         "refundable_credits_applied": ref_app,
+        "schedule_1_adjustments_total": sch1_adj,
+        "schedule_1_additional_income_retirement": sch1_add_inc,
+        "schedule_2_additional_taxes": sch2,
+        "form_4562_depreciation_amount": max(0, int(case.form_4562_depreciation_amount)),
+        "form_8995_qualified_business_income": max(0, int(case.form_8995_qualified_business_income)),
     }
 
     lines = FederalFormLines(

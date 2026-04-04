@@ -6,7 +6,7 @@ and supporting-document key amounts from declared income, deductions, and credit
 from __future__ import annotations
 
 from taxweave_atlas.generation.validation import validate_synthetic_source
-from taxweave_atlas.reconciliation.checks import run_cross_checks
+from taxweave_atlas.reconciliation.checks import assert_mandatory_irs1040_centerpiece, run_cross_checks
 from taxweave_atlas.reconciliation.compute import (
     assert_scope,
     build_executive_summary,
@@ -21,11 +21,14 @@ from taxweave_atlas.reconciliation.structural_mef_validate import (
     validate_structural_mef_vs_complexity,
 )
 from taxweave_atlas.reconciliation.config import load_reconciliation_bundle
+from taxweave_atlas.reconciliation.supporting_forms import trim_supporting_form_overflow
 from taxweave_atlas.schema.case import SyntheticTaxCase
 
 
 def reconcile_case(case: SyntheticTaxCase) -> SyntheticTaxCase:
     """Return a copy of ``case`` with reconciled slices; raises on scope or cross-check violations."""
+    validate_synthetic_source(case)
+    case = trim_supporting_form_overflow(case)
     validate_synthetic_source(case)
     bundle = load_reconciliation_bundle()
     scope = bundle["scope"]
@@ -48,6 +51,7 @@ def reconcile_case(case: SyntheticTaxCase) -> SyntheticTaxCase:
     mef_spec = bundle["structural_mef"]
     structural = build_structural_mef_packet(out, mef_spec)
     out = out.model_copy(update={"structural_mef": structural})
+    assert_mandatory_irs1040_centerpiece(out)
     run_cross_checks(
         out,
         bundle["cross_checks"],

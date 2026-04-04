@@ -29,6 +29,15 @@ def validate_synthetic_source(case: SyntheticTaxCase) -> None:
     if inc.forms_1099_int.interest_reported != inc.interest:
         raise ValidationError("1099-INT interest must equal income.interest")
 
+    for _k, v in case.deductions.adjustments_to_agi.items():
+        if int(v) < 0:
+            raise ValidationError("adjustments_to_agi amounts cannot be negative")
+
+    if case.schedule_2_additional_taxes < 0:
+        raise ValidationError("schedule_2_additional_taxes cannot be negative")
+    if case.form_4562_depreciation_amount < 0 or case.form_8995_qualified_business_income < 0:
+        raise ValidationError("form stub amounts cannot be negative")
+
     if q.num_qualifying_children_under_17 != p.dependents_qualifying_children_under_17:
         raise ValidationError("Questionnaire child dependents must match profile")
 

@@ -1,15 +1,22 @@
-"""Coherence: structural MeF documents match case flags, income, credits, and complexity tier."""
+"""Coherence: structural MeF documents match case flags, income, credits, and form bundle rules."""
 
 from __future__ import annotations
 
 from typing import Any
 
 from taxweave_atlas.exceptions import ReconciliationError, ValidationError
+from taxweave_atlas.reconciliation.supporting_forms import (
+    SUPPORTING_FORM_POOL,
+    applicable_supporting_forms,
+    count_supporting_forms,
+    finalize_supporting_forms,
+    ordered_supporting_forms,
+)
 from taxweave_atlas.schema.case import SyntheticTaxCase
 
 
 def validate_structural_mef_coherence(case: SyntheticTaxCase, spec: dict[str, Any]) -> None:
-    """Raise if emitted/absent schedules disagree with case data (post-reconciliation)."""
+    """Raise if emitted schedules disagree with case data or selection is inconsistent."""
     se_net = int(case.income.other_ordinary_income.get("self_employment_net", 0) or 0)
     names = {d.element_name for d in case.structural_mef.documents}
     has_c = "IRS1040ScheduleC" in names
@@ -30,18 +37,29 @@ def validate_structural_mef_coherence(case: SyntheticTaxCase, spec: dict[str, An
 
     qc = case.profile.dependents_qualifying_children_under_17
     min_qc = int((spec.get("schedule_8812") or {}).get("when_min_qualifying_children", 1))
+    ctc = sum(c.amount for c in case.credits.credits if c.code == "CTC_SYNTH")
+    actc = sum(c.amount for c in case.credits.credits if c.code == "ACTC_SYNTH")
     if qc >= min_qc:
-        if not has_8812:
-            raise ReconciliationError(
-                "structural_mef coherence: qualifying children require IRS1040Schedule8812 when credits exist"
-            )
+        if ctc > 0 or actc > 0:
+            if not has_8812:
+                raise ReconciliationError(
+                    "structural_mef coherence: qualifying children with CTC/ACTC require IRS1040Schedule8812"
+                )
     else:
         if has_8812:
             raise ReconciliationError(
                 "structural_mef coherence: IRS1040Schedule8812 must be absent when no qualifying children"
             )
 
-    # Mirror amounts (path-bound fields)
+    if case.schedule_2_additional_taxes > 0 and "IRS1040Schedule2" not in names:
+        raise ReconciliationError(
+            "structural_mef coherence: positive schedule_2_additional_taxes requires IRS1040Schedule2"
+        )
+    if case.form_8995_qualified_business_income > 0 and "IRS8995" not in names:
+        raise ReconciliationError("structural_mef coherence: positive QBI stub requires IRS8995")
+    if case.form_4562_depreciation_amount > 0 and "IRS4562" not in names:
+        raise ReconciliationError("structural_mef coherence: positive depreciation stub requires IRS4562")
+
     for doc in case.structural_mef.documents:
         if doc.element_name == "IRS1040ScheduleC":
             np = doc.fields.get("NetProfitOrLossAmt")
@@ -71,6 +89,76 @@ def validate_structural_mef_coherence(case: SyntheticTaxCase, spec: dict[str, An
                 raise ReconciliationError("structural_mef coherence: 8812 CTC total must match credit sum")
             if f_actc and doc.fields.get(f_actc) != actc_sum:
                 raise ReconciliationError("structural_mef coherence: 8812 ACTC total must match credit sum")
+
+        if doc.element_name == "IRS1040ScheduleB":
+            if case.income.interest <= 0 and case.income.dividends_ordinary <= 0:
+                raise ReconciliationError(
+                    "structural_mef coherence: Schedule B present without interest or dividends"
+                )
+            fl = case.federal.lines
+            if doc.fields.get("InterestAmt") != fl.taxable_interest:
+                raise ReconciliationError("structural_mef coherence: Schedule B interest must match Form 1040")
+            if doc.fields.get("OrdinaryDividendsAmt") != fl.ordinary_dividends:
+                raise ReconciliationError("structural_mef coherence: Schedule B dividends must match Form 1040")
+
+        if doc.element_name == "IRS1040Schedule1":
+            exp_adj = case.federal.lines.additional_lines.get("schedule_1_adjustments_total", 0)
+            exp_inc = case.federal.lines.additional_lines.get("schedule_1_additional_income_retirement", 0)
+            if doc.fields.get("TotalAdjustmentsAmt") != exp_adj:
+                raise ReconciliationError("structural_mef coherence: Schedule 1 adjustments must match federal")
+            if doc.fields.get("TotalAdditionalIncomeAmt") != exp_inc:
+                raise ReconciliationError("structural_mef coherence: Schedule 1 additional income must match federal")
+
+        if doc.element_name == "IRS1040Schedule2":
+            if doc.fields.get("TotalTaxAmt") != case.schedule_2_additional_taxes:
+                raise ReconciliationError("structural_mef coherence: Schedule 2 must match schedule_2_additional_taxes")
+            if case.schedule_2_additional_taxes <= 0:
+                raise ReconciliationError("structural_mef coherence: Schedule 2 must not appear when additional tax is zero")
+
+        if doc.element_name == "IRS8995":
+            if doc.fields.get("QlfyBusIncmAmt") != case.form_8995_qualified_business_income:
+                raise ReconciliationError("structural_mef coherence: Form 8995 QBI must match case field")
+            if case.form_8995_qualified_business_income <= 0:
+                raise ReconciliationError("structural_mef coherence: Form 8995 requires positive QBI amount")
+
+        if doc.element_name == "IRS4562":
+            if doc.fields.get("MACRSDedForAstInSrvcCyovYrAmt") != case.form_4562_depreciation_amount:
+                raise ReconciliationError("structural_mef coherence: Form 4562 depreciation must match case field")
+            if case.form_4562_depreciation_amount <= 0:
+                raise ReconciliationError("structural_mef coherence: Form 4562 requires positive depreciation")
+
+        if doc.element_name == "IRS8867":
+            credit_sum = sum(c.amount for c in case.credits.credits)
+            if doc.fields.get("TotalCreditsClmAmt") != credit_sum:
+                raise ReconciliationError("structural_mef coherence: Form 8867 credit total must match credits packet")
+            if credit_sum <= 0:
+                raise ReconciliationError("structural_mef coherence: Form 8867 requires credits")
+
+    _validate_supporting_form_bundle(case)
+
+
+def _validate_supporting_form_bundle(case: SyntheticTaxCase) -> None:
+    """Exactly 6–7 supporting forms from the pool; order matches finalized selection."""
+    n = count_supporting_forms(case)
+    if n < 6 or n > 7:
+        raise ReconciliationError(
+            f"structural_mef coherence: supporting form count must be 6–7 (got {n}); "
+            "IRS1040 is emitted separately and is not counted here."
+        )
+    for d in case.structural_mef.documents:
+        if d.element_name not in SUPPORTING_FORM_POOL:
+            raise ReconciliationError(
+                f"structural_mef coherence: unknown structural document {d.element_name!r} "
+                f"(expected only {sorted(SUPPORTING_FORM_POOL)})"
+            )
+
+    final = finalize_supporting_forms(case, applicable_supporting_forms(case))
+    expected_order = ordered_supporting_forms(final)
+    actual = [d.element_name for d in case.structural_mef.documents]
+    if actual != expected_order:
+        raise ReconciliationError(
+            f"structural_mef coherence: supporting form order mismatch: got {actual}, expected {expected_order}"
+        )
 
 
 def validate_structural_mef_vs_complexity(case: SyntheticTaxCase) -> None:

@@ -186,28 +186,9 @@ def build_synthetic_case(
         social_security_wages=wages,
         medicare_wages=wages,
     )
-    int_form = Form1099Int(
-        payer_name=payer,
-        payer_tin=payer_tin,
-        recipient_name=primary_name,
-        recipient_tin=primary_ssn,
-        interest_reported=interest,
-    )
-
     wh_lo = float(comp["withholding"]["rate_min"])
     wh_hi = float(comp["withholding"]["rate_max"])
     federal_withholding = int(round(wages * rng.uniform(wh_lo, wh_hi)))
-
-    income = IncomeSources(
-        wages=wages,
-        interest=interest,
-        dividends_ordinary=dividends,
-        federal_withholding=federal_withholding,
-        w2=w2,
-        forms_1099_int=int_form,
-        other_ordinary_income=other,
-        passive_income=passive,
-    )
 
     itemized_elected = rng.random() < float(tier["itemized_probability"])
     itemized_components: dict[str, int] = {}
@@ -222,12 +203,6 @@ def build_synthetic_case(
             itemized_components["mortgage_interest"] = mortgage
     else:
         elected_method = "standard"
-
-    ded = DeductionPacket(
-        elected_method=elected_method,  # type: ignore[arg-type]
-        itemized_components=itemized_components,
-        adjustments_to_agi={},
-    )
 
     caps = comp["credit_caps_synthetic"]
     credits: list[CreditEntry] = []
@@ -254,6 +229,50 @@ def build_synthetic_case(
                 refundable=False,
             )
         )
+
+    interest_div = [interest, dividends]
+    stub_amounts: dict[str, int] = {"schedule_2": 0, "qbi": 0, "dep": 0}
+    adjustments_to_agi: dict[str, int] = {}
+
+    from taxweave_atlas.generation.form_coverage import enrich_supporting_form_coverage
+
+    enrich_supporting_form_coverage(
+        rng,
+        complexity_tier=cx,
+        qualifying_children=qc,
+        interest_div=interest_div,
+        other_ordinary=other,
+        passive_income=passive,
+        adjustments_to_agi=adjustments_to_agi,
+        credits=credits,
+        stub_amounts=stub_amounts,
+    )
+    interest, dividends = interest_div[0], interest_div[1]
+
+    int_form = Form1099Int(
+        payer_name=payer,
+        payer_tin=payer_tin,
+        recipient_name=primary_name,
+        recipient_tin=primary_ssn,
+        interest_reported=interest,
+    )
+
+    ded = DeductionPacket(
+        elected_method=elected_method,  # type: ignore[arg-type]
+        itemized_components=itemized_components,
+        adjustments_to_agi=adjustments_to_agi,
+    )
+
+    income = IncomeSources(
+        wages=wages,
+        interest=interest,
+        dividends_ordinary=dividends,
+        federal_withholding=federal_withholding,
+        w2=w2,
+        forms_1099_int=int_form,
+        other_ordinary_income=other,
+        passive_income=passive,
+    )
 
     credits_packet = CreditsPacket(credits=credits)
 
@@ -321,6 +340,9 @@ def build_synthetic_case(
         profile=profile,
         questionnaire=questionnaire,
         income=income,
+        schedule_2_additional_taxes=int(stub_amounts.get("schedule_2", 0)),
+        form_8995_qualified_business_income=int(stub_amounts.get("qbi", 0)),
+        form_4562_depreciation_amount=int(stub_amounts.get("dep", 0)),
         deductions=ded,
         credits=credits_packet,
         supporting_documents=SupportingDocumentsIndex(documents=[]),

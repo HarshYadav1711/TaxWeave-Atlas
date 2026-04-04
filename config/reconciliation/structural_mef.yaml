@@ -1,28 +1,68 @@
-# Template-driven MeF-shaped schedule documents: applicability + dotted paths into SyntheticTaxCase.
-# No arithmetic here — only path binding. Reconciliation code resolves paths to ints.
+# MeF-shaped schedule documents: applicability is driven by supporting_forms.py + TaxCase fields.
+# Arithmetic lives in reconciliation/compute.py; this file binds XML tags to model paths.
 version: 1
 
-# Schedules still absent from synthetic cases (no schema lines / no QBI / no depreciation).
-fully_unmodeled_schedules:
-  - IRS1040Schedule2
-  - IRS8995
-  - IRS4562
+# Schedules not modeled at all (listed in Prompt coverage only).
+fully_unmodeled_schedules: []
 
-# Emitted with amounts copied from existing case fields only (see TaxWeaveAtlasCoverage partial note).
-schedule_c:
-  element_name: IRS1040ScheduleC
-  document_id: IRS1040ScheduleC-0
-  when_positive_path: income.other_ordinary_income.self_employment_net
-  fields:
-    NetProfitOrLossAmt: income.other_ordinary_income.self_employment_net
+form_definitions:
+  IRS1040ScheduleB:
+    document_id: IRS1040ScheduleB-0
+    fields:
+      InterestAmt: federal.lines.taxable_interest
+      TotalInterestAmt: federal.lines.taxable_interest
+      OrdinaryDividendsAmt: federal.lines.ordinary_dividends
+      TotalOrdinaryDividendsAmt: federal.lines.ordinary_dividends
 
-schedule_se:
-  element_name: IRS1040ScheduleSE
-  document_id: IRS1040ScheduleSE-0
-  when_positive_path: income.other_ordinary_income.self_employment_net
-  fields:
-    NetEarningsSelfEmploymentAmt: income.other_ordinary_income.self_employment_net
+  IRS1040Schedule1:
+    document_id: IRS1040Schedule1-0
+    fields:
+      TotalAdditionalIncomeAmt: federal.lines.additional_lines.schedule_1_additional_income_retirement
+      TotalAdjustmentsAmt: federal.lines.additional_lines.schedule_1_adjustments_total
 
+  IRS1040Schedule2:
+    document_id: IRS1040Schedule2-0
+    fields:
+      TotalTaxAmt: schedule_2_additional_taxes
+
+  IRS1040ScheduleC:
+    document_id: IRS1040ScheduleC-0
+    when_positive_path: income.other_ordinary_income.self_employment_net
+    fields:
+      NetProfitOrLossAmt: income.other_ordinary_income.self_employment_net
+
+  IRS1040ScheduleSE:
+    document_id: IRS1040ScheduleSE-0
+    when_positive_path: income.other_ordinary_income.self_employment_net
+    fields:
+      NetEarningsSelfEmploymentAmt: income.other_ordinary_income.self_employment_net
+
+  IRS1040Schedule8812:
+    element_name: IRS1040Schedule8812
+    document_id: IRS1040Schedule8812-0
+    nonrefundable_credit_codes:
+      - CTC_SYNTH
+    refundable_credit_codes:
+      - ACTC_SYNTH
+    xml_field_names:
+      child_count: QlfyChildUnderAgeSSNCnt
+      ctc_total: ChldTxCrdAmt
+      actc_total: RfdblChldTxCrdAmt
+
+  IRS8995:
+    document_id: IRS8995-0
+    fields:
+      QlfyBusIncmAmt: form_8995_qualified_business_income
+
+  IRS4562:
+    document_id: IRS4562-0
+    fields:
+      MACRSDedForAstInSrvcCyovYrAmt: form_4562_depreciation_amount
+
+  IRS8867:
+    document_id: IRS8867-0
+
+# Legacy keys consumed by structural_mef_validate (schedule_8812 block mirror).
 schedule_8812:
   element_name: IRS1040Schedule8812
   document_id: IRS1040Schedule8812-0
@@ -36,3 +76,17 @@ schedule_8812:
     child_count: QlfyChildUnderAgeSSNCnt
     ctc_total: ChldTxCrdAmt
     actc_total: RfdblChldTxCrdAmt
+
+schedule_c:
+  element_name: IRS1040ScheduleC
+  document_id: IRS1040ScheduleC-0
+  when_positive_path: income.other_ordinary_income.self_employment_net
+  fields:
+    NetProfitOrLossAmt: income.other_ordinary_income.self_employment_net
+
+schedule_se:
+  element_name: IRS1040ScheduleSE
+  document_id: IRS1040ScheduleSE-0
+  when_positive_path: income.other_ordinary_income.self_employment_net
+  fields:
+    NetEarningsSelfEmploymentAmt: income.other_ordinary_income.self_employment_net

@@ -1,7 +1,6 @@
 """
-Build ``StructuralMefPacket`` from ``config/reconciliation/structural_mef.yaml``.
-
-Only path resolution and credit aggregation by code — no tax formulas.
+Build ``StructuralMefPacket`` from ``config/reconciliation/structural_mef.yaml`` and
+``supporting_forms`` selection (6–7 supporting forms + mandatory IRS1040 outside this list).
 """
 
 from __future__ import annotations
@@ -10,6 +9,11 @@ from typing import Any
 
 from taxweave_atlas.exceptions import ConfigurationError, ReconciliationError
 from taxweave_atlas.reconciliation.paths_util import resolve_dotted_path
+from taxweave_atlas.reconciliation.supporting_forms import (
+    applicable_supporting_forms,
+    finalize_supporting_forms,
+    ordered_supporting_forms,
+)
 from taxweave_atlas.schema.case import SyntheticTaxCase
 from taxweave_atlas.schema.structural_mef import StructuralMefDocument, StructuralMefPacket
 
@@ -35,78 +39,96 @@ def _resolve_int(case_data: dict[str, Any], path: str) -> int:
     return int(v)
 
 
+def _build_8812(case: SyntheticTaxCase, s8812: dict[str, Any]) -> StructuralMefDocument:
+    qc = case.profile.dependents_qualifying_children_under_17
+    nr_codes = set(s8812.get("nonrefundable_credit_codes") or [])
+    ref_codes = set(s8812.get("refundable_credit_codes") or [])
+    ctc_total = sum(c.amount for c in case.credits.credits if c.code in nr_codes)
+    actc_total = sum(c.amount for c in case.credits.credits if c.code in ref_codes)
+    if ctc_total <= 0 and actc_total <= 0:
+        raise ReconciliationError(
+            "structural_mef: IRS1040Schedule8812 selected but no CTC_SYNTH/ACTC_SYNTH credit amounts"
+        )
+    el = s8812.get("element_name") or "IRS1040Schedule8812"
+    did = s8812.get("document_id") or "IRS1040Schedule8812-0"
+    xfn = s8812.get("xml_field_names") or {}
+    f_child = xfn.get("child_count")
+    f_ctc = xfn.get("ctc_total")
+    f_actc = xfn.get("actc_total")
+    if not all(isinstance(x, str) for x in (f_child, f_ctc, f_actc)):
+        raise ConfigurationError("structural_mef: schedule_8812.xml_field_names incomplete")
+    return StructuralMefDocument(
+        element_name=str(el),
+        document_id=str(did),
+        fields={f_child: qc, f_ctc: ctc_total, f_actc: actc_total},
+    )
+
+
+def _build_from_yaml_def(
+    case: SyntheticTaxCase,
+    element_name: str,
+    block: dict[str, Any],
+    data: dict[str, Any],
+) -> StructuralMefDocument:
+    did = block.get("document_id")
+    fields_map = block.get("fields") or {}
+    if not isinstance(did, str) or not isinstance(fields_map, dict):
+        raise ConfigurationError(f"structural_mef: incomplete form_definitions for {element_name}")
+    fields: dict[str, int] = {}
+    for xml_tag, src_path in fields_map.items():
+        if not isinstance(xml_tag, str) or not isinstance(src_path, str):
+            raise ConfigurationError(f"structural_mef: {element_name} fields must be tag: path strings")
+        fields[xml_tag] = _resolve_int(data, src_path)
+    return StructuralMefDocument(element_name=element_name, document_id=did, fields=fields)
+
+
 def build_structural_mef_packet(case: SyntheticTaxCase, spec: dict[str, Any]) -> StructuralMefPacket:
     if spec.get("version") != 1:
         raise ConfigurationError("structural_mef.yaml: unsupported version")
+
+    applicable = applicable_supporting_forms(case)
+    final_names = finalize_supporting_forms(case, applicable)
+    ordered = ordered_supporting_forms(final_names)
+
+    form_defs = spec.get("form_definitions") or {}
+    if not isinstance(form_defs, dict):
+        raise ConfigurationError("structural_mef: form_definitions must be a mapping")
+
     data = case.model_dump(mode="json")
     documents: list[StructuralMefDocument] = []
+    s8812_full = spec.get("schedule_8812") or {}
 
-    sc = spec.get("schedule_c") or {}
-    se_cfg = spec.get("schedule_se") or {}
-    s8812 = spec.get("schedule_8812") or {}
-
-    se_path = sc.get("when_positive_path")
-    if not isinstance(se_path, str):
-        raise ConfigurationError("structural_mef: schedule_c.when_positive_path required")
-    se_net = _as_positive_int(data, se_path)
-
-    if se_net > 0:
-        sc_name = sc.get("element_name")
-        sc_id = sc.get("document_id")
-        sc_fields_map = sc.get("fields") or {}
-        if not isinstance(sc_name, str) or not isinstance(sc_id, str) or not isinstance(sc_fields_map, dict):
-            raise ConfigurationError("structural_mef: schedule_c element_name, document_id, fields required")
-        sc_fields: dict[str, int] = {}
-        for xml_tag, src_path in sc_fields_map.items():
-            if not isinstance(xml_tag, str) or not isinstance(src_path, str):
-                raise ConfigurationError("structural_mef: schedule_c.fields must be tag: path strings")
-            sc_fields[xml_tag] = _resolve_int(data, src_path)
-        documents.append(StructuralMefDocument(element_name=sc_name, document_id=sc_id, fields=sc_fields))
-
-        se_name = se_cfg.get("element_name")
-        se_id = se_cfg.get("document_id")
-        se_fields_map = se_cfg.get("fields") or {}
-        if not isinstance(se_name, str) or not isinstance(se_id, str) or not isinstance(se_fields_map, dict):
-            raise ConfigurationError("structural_mef: schedule_se block incomplete")
-        se_fields: dict[str, int] = {}
-        for xml_tag, src_path in se_fields_map.items():
-            if not isinstance(xml_tag, str) or not isinstance(src_path, str):
-                raise ConfigurationError("structural_mef: schedule_se.fields must be tag: path strings")
-            se_fields[xml_tag] = _resolve_int(data, src_path)
-        documents.append(StructuralMefDocument(element_name=se_name, document_id=se_id, fields=se_fields))
-
-    min_qc = int(s8812.get("when_min_qualifying_children", 999))
-    qc_path = s8812.get("qualifying_children_path")
-    if not isinstance(qc_path, str):
-        raise ConfigurationError("structural_mef: schedule_8812.qualifying_children_path required")
-    qc = _resolve_int(data, qc_path)
-
-    if qc >= min_qc:
-        nr_codes = set(s8812.get("nonrefundable_credit_codes") or [])
-        ref_codes = set(s8812.get("refundable_credit_codes") or [])
-        ctc_total = sum(c.amount for c in case.credits.credits if c.code in nr_codes)
-        actc_total = sum(c.amount for c in case.credits.credits if c.code in ref_codes)
-        if ctc_total <= 0 and actc_total <= 0:
-            raise ReconciliationError(
-                "structural_mef: qualifying children present but no CTC_SYNTH/ACTC_SYNTH credit amounts "
-                "(cannot emit IRS1040Schedule8812 without mapped credit totals)"
+    for name in ordered:
+        if name == "IRS1040Schedule8812":
+            blk = {**s8812_full, **(form_defs.get("IRS1040Schedule8812") or {})}
+            documents.append(_build_8812(case, blk))
+            continue
+        if name == "IRS8867":
+            total = sum(c.amount for c in case.credits.credits)
+            if total <= 0:
+                raise ReconciliationError("structural_mef: IRS8867 requires positive total credits")
+            b = form_defs.get("IRS8867") or {}
+            did = b.get("document_id") if isinstance(b.get("document_id"), str) else "IRS8867-0"
+            documents.append(
+                StructuralMefDocument(
+                    element_name="IRS8867",
+                    document_id=did,
+                    fields={"TotalCreditsClmAmt": total},
+                )
             )
-        el = s8812.get("element_name")
-        did = s8812.get("document_id")
-        xfn = s8812.get("xml_field_names") or {}
-        if not isinstance(el, str) or not isinstance(did, str):
-            raise ConfigurationError("structural_mef: schedule_8812 element_name/document_id required")
-        f_child = xfn.get("child_count")
-        f_ctc = xfn.get("ctc_total")
-        f_actc = xfn.get("actc_total")
-        if not all(isinstance(x, str) for x in (f_child, f_ctc, f_actc)):
-            raise ConfigurationError("structural_mef: schedule_8812.xml_field_names incomplete")
-        documents.append(
-            StructuralMefDocument(
-                element_name=el,
-                document_id=did,
-                fields={f_child: qc, f_ctc: ctc_total, f_actc: actc_total},
-            )
-        )
+            continue
+
+        block = form_defs.get(name)
+        if not isinstance(block, dict):
+            raise ConfigurationError(f"structural_mef: missing form_definitions for {name}")
+
+        when_path = block.get("when_positive_path")
+        if isinstance(when_path, str):
+            if _as_positive_int(data, when_path) <= 0:
+                raise ReconciliationError(
+                    f"structural_mef: form {name} in selection but when_positive_path not positive"
+                )
+
+        documents.append(_build_from_yaml_def(case, name, block, data))
 
     return StructuralMefPacket(documents=documents)

@@ -44,17 +44,21 @@ prompt_xml_scope:
     - IRS1040ScheduleB when interest or dividends non-zero (from federal lines).
     - IRS1040ScheduleC and IRS1040ScheduleSE when income.other_ordinary_income.self_employment_net > 0 (net line only; see TaxWeaveAtlasCoverage).
     - IRS1040Schedule8812 when profile has qualifying children under 17 and CTC_SYNTH/ACTC_SYNTH credits exist (amounts summed from credits packet; no IRS worksheet math).
+    - IRS1040Schedule1 / IRS1040Schedule2 / IRS8995 / IRS4562 / IRS8867 as path-bound structural stubs when case fields justify them (see config/reconciliation/structural_mef.yaml and supporting_forms selection).
+    - Exactly six or seven supporting forms from the fixed pool per dataset; IRS1040 is always first in ReturnData after the header block, then IRSW2, then schedules in canonical order.
   explicit_omissions:
-    reason: "SyntheticTaxCase does not carry QBI, depreciation, Schedule 2 additional taxes, or full Schedule C expense lines."
+    reason: "Full IRS line-by-line replication, e-file packaging, and preparer workflow beyond these stubs are out of scope."
     coverage_element: "TaxWeaveAtlasCoverage is a sibling of ReturnData under Return (not in IRS schema) listing subset scope."
-    schedules_not_synthesized:
-      - IRS1040Schedule2
-      - IRS8995
-      - IRS4562
+    schedules_not_synthesized: []
     schedules_partial_structural_only:
       - IRS1040ScheduleC
       - IRS1040ScheduleSE
-    note: "Schedule C/SE XML carries only path-mapped net self-employment from reconciliation config (structural_mef.yaml); SE tax and expense detail are not modeled. 8812 carries child count plus CTC/ACTC totals from the credits list — not full IRS Part I–II line replication."
+      - IRS1040Schedule1
+      - IRS1040Schedule2
+      - IRS8995
+      - IRS4562
+      - IRS8867
+    note: "Schedule C/SE carry net self-employment only. Schedule 1/2, 8995, 4562, and 8867 carry totals tied to SyntheticTaxCase fields and reconciled federal.lines.additional_lines — not full IRS worksheets."
 
 ambiguous_or_unmodeled:
   - item: Primary/spouse birth dates in ReturnHeader

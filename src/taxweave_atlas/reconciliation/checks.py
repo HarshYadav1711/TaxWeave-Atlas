@@ -224,6 +224,20 @@ def _assert_schedule_c_net_matches_schedule_se(case: SyntheticTaxCase) -> None:
         )
 
 
+def assert_mandatory_irs1040_centerpiece(case: SyntheticTaxCase) -> None:
+    """Form 1040 is the reconciled ``federal.lines`` object; prompt XML IRS1040 must mirror these paths."""
+    fl = case.federal.lines
+    inc = case.income
+    if fl.wages != inc.wages:
+        raise ReconciliationError(
+            "Form 1040 centerpiece: federal.lines.wages must equal income.wages (single authority)"
+        )
+    if fl.taxable_interest != inc.interest or fl.ordinary_dividends != inc.dividends_ordinary:
+        raise ReconciliationError(
+            "Form 1040 centerpiece: interest/dividend lines must mirror income sources"
+        )
+
+
 def validate_reconciled_case(case: SyntheticTaxCase) -> None:
     """Re-run cross-checks using packaged rules (e.g. after manual edits)."""
     from taxweave_atlas.reconciliation.config import load_reconciliation_bundle
@@ -234,6 +248,7 @@ def validate_reconciled_case(case: SyntheticTaxCase) -> None:
 
     bundle = load_reconciliation_bundle()
     tol = bundle.get("cross_check_tolerance") or {}
+    assert_mandatory_irs1040_centerpiece(case)
     run_cross_checks(case, bundle["cross_checks"], tol)
     validate_structural_mef_coherence(case, bundle["structural_mef"])
     validate_structural_mef_vs_complexity(case)

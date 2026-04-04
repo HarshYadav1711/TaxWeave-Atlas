@@ -9,6 +9,7 @@ import xml.etree.ElementTree as ET
 from typing import Any
 
 from taxweave_atlas.reconciliation.config import load_reconciliation_bundle
+from taxweave_atlas.reconciliation.supporting_forms import SUPPORTING_FORM_EMIT_ORDER
 from taxweave_atlas.schema.case import SyntheticTaxCase
 
 _FS_TO_IRS1040: dict[str, str] = {
@@ -86,11 +87,12 @@ def build_mef_subset_prompt_xml(case: SyntheticTaxCase) -> bytes:
 
     cov = ET.SubElement(root, "TaxWeaveAtlasCoverage")
     _text_el(cov, "SyntheticSubsetInd", "true")
-    _text_el(cov, "UnmodeledSchedulesTxt", unmodeled_txt)
+    _text_el(cov, "UnmodeledSchedulesTxt", unmodeled_txt or "(none)")
     _text_el(
         cov,
         "PartialFieldSchedulesTxt",
-        "IRS1040ScheduleC,IRS1040ScheduleSE: net self-employment only (no expense detail or SE tax lines).",
+        "Subset schedules: path-mapped totals only (e.g. Schedule C/SE net SE income; "
+        "8995/4562/8867/Schedule 1/2 are structural stubs tied to SyntheticTaxCase fields).",
     )
     synth_names = [d.element_name for d in case.structural_mef.documents]
     if synth_names:
@@ -124,15 +126,11 @@ def build_mef_subset_prompt_xml(case: SyntheticTaxCase) -> bytes:
     _text_el(w2_el, "SocialSecurityWagesAmt", w2.social_security_wages)
     _text_el(w2_el, "MedicareWagesAndTipsAmt", w2.medicare_wages)
 
-    if fl.taxable_interest > 0 or fl.ordinary_dividends > 0:
-        schb = ET.SubElement(rd, "IRS1040ScheduleB")
-        schb.set("documentId", "IRS1040ScheduleB")
-        _text_el(schb, "InterestAmt", fl.taxable_interest)
-        _text_el(schb, "TotalInterestAmt", fl.taxable_interest)
-        _text_el(schb, "OrdinaryDividendsAmt", fl.ordinary_dividends)
-        _text_el(schb, "TotalOrdinaryDividendsAmt", fl.ordinary_dividends)
-
-    for sm in case.structural_mef.documents:
+    by_name = {d.element_name: d for d in case.structural_mef.documents}
+    for el_name in SUPPORTING_FORM_EMIT_ORDER:
+        sm = by_name.get(el_name)
+        if sm is None:
+            continue
         sub = ET.SubElement(rd, sm.element_name)
         sub.set("documentId", sm.document_id)
         for tag, val in sm.fields.items():

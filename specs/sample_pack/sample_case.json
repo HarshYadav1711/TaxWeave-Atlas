@@ -1,5 +1,8 @@
 {
   "tax_year": 2023,
+  "schedule_2_additional_taxes": 720,
+  "form_4562_depreciation_amount": 2600,
+  "form_8995_qualified_business_income": 10400,
   "profile": {
     "primary_first_name": "Jordan",
     "primary_last_name": "Bennett",
@@ -61,10 +64,18 @@
     "elected_method": "standard",
     "standard_amount_override": null,
     "itemized_components": {},
-    "adjustments_to_agi": {}
+    "adjustments_to_agi": {
+      "ira_deduction_synthetic": 4000
+    }
   },
   "credits": {
-    "credits": []
+    "credits": [
+      {
+        "code": "EDU_SYNTH",
+        "amount": 1500,
+        "refundable": false
+      }
+    ]
   },
   "supporting_documents": {
     "documents": []
@@ -74,9 +85,9 @@
       "wages": 78000,
       "taxable_interest": 420,
       "ordinary_dividends": 1100,
-      "agi": 79520,
+      "agi": 75520,
       "standard_deduction": 13850,
-      "taxable_income": 65670,
+      "taxable_income": 61670,
       "total_tax": 9500,
       "federal_withholding": 12400,
       "additional_lines": {
@@ -99,17 +110,17 @@
       "state_wages": 78000,
       "additions": 0,
       "subtractions": 0,
-      "state_taxable_income": 79520,
-      "state_tax": 4374
+      "state_taxable_income": 75520,
+      "state_tax": 4153
     },
-    "tax_computed": 4374
+    "tax_computed": 4153
   },
   "executive_summary": {
-    "agi": 79520,
-    "taxable_income": 65670,
+    "agi": 75520,
+    "taxable_income": 61670,
     "total_tax": 9500,
     "federal_withholding": 12400,
-    "state_tax": 4374,
-    "effective_rate_federal": 0.1195
+    "state_tax": 4153,
+    "effective_rate_federal": 0.1258
   }
 }
