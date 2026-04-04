@@ -8,11 +8,12 @@ from __future__ import annotations
 
 import json
 import logging
+import shutil
 from dataclasses import dataclass
 from pathlib import Path
 
 from taxweave_atlas.config_loader import load_application_config
-from taxweave_atlas.exceptions import ConfigurationError, ValidationError
+from taxweave_atlas.exceptions import ConfigurationError, TaxWeaveError, ValidationError
 from taxweave_atlas.generation.engine import build_synthetic_case
 from taxweave_atlas.generation.uniqueness import case_fingerprint
 from taxweave_atlas.orchestration.manifest import BatchPlan, DatasetPlan
@@ -111,14 +112,21 @@ def run_case_generation_batch(
             export_dir.mkdir(parents=True, exist_ok=False)
             from taxweave_atlas.pdf.pipeline import render_dataset_deliverable_trees
 
-            render_dataset_deliverable_trees(
-                case,
-                staging_dir,
-                export_dir,
-                reconcile_first=False,
-                dataset_index=ident.index,
-                uniqueness_salt=salt,
-            )
+            try:
+                render_dataset_deliverable_trees(
+                    case,
+                    staging_dir,
+                    export_dir,
+                    reconcile_first=False,
+                    dataset_index=ident.index,
+                    uniqueness_salt=salt,
+                )
+            except TaxWeaveError:
+                shutil.rmtree(export_dir, ignore_errors=True)
+                raise
+            except Exception:
+                shutil.rmtree(export_dir, ignore_errors=True)
+                raise
 
         interval = 50 if count >= 200 else (20 if count >= 50 else 5)
         if (i + 1) == 1 or (i + 1) == count or (i + 1) % interval == 0:
