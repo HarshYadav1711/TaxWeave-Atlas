@@ -1,0 +1,52 @@
+{
+  "count": 80,
+  "master_seed": 424242,
+  "mode": "stratified_review_pilot",
+  "stratification_design": {
+    "count": 80,
+    "master_seed": 424242,
+    "states_target": {
+      "CA": 16,
+      "TX": 16,
+      "NY": 16,
+      "IL": 16,
+      "FL": 16
+    },
+    "complexity_target": {
+      "easy": 24,
+      "medium": 32,
+      "moderately_complex": 24
+    },
+    "tax_years_target": {
+      "2020": 14,
+      "2021": 14,
+      "2022": 14,
+      "2023": 14,
+      "2024": 14,
+      "2025": 10
+    }
+  },
+  "actual_distribution": {
+    "states": {
+      "CA": 16,
+      "FL": 16,
+      "IL": 16,
+      "NY": 16,
+      "TX": 16
+    },
+    "complexity_tier": {
+      "easy": 24,
+      "medium": 32,
+      "moderately_complex": 24
+    },
+    "tax_year": {
+      "2020": 14,
+      "2021": 14,
+      "2022": 14,
+      "2023": 14,
+      "2024": 14,
+      "2025": 10
+    }
+  },
+  "unique_fingerprints": 80
+}

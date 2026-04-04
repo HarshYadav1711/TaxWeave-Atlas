@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20250101T000000Z-00019-000",
+  "tax_year": 2025,
+  "case_fingerprint": "f2096783725e182080b69bcb2908ba4be65efdd199fda97e8b79e1174cb037bd",
+  "case_json_sha256": "ef57f249db51f207956987cf9eb1d911ed10d3831030ce9fd689ed55bb482ef1",
+  "files_sha256": {
+    "1. Client Summary-20250101T000000Z-00019-000/1. Client Summary/Client Summary.pdf": "3123880b919c5cff7f9e2fed4488a5335e5ded08372716464b0b1fccc05525f8",
+    "2. Input Documents-20250101T000000Z-00019-000/2. Input Documents/Tax Document Attachments Summary.pdf": "1b37029a6b96b447dd9dfff4a5a2a139d3fe7effd8a8f5294e669824aa8d4ca2",
+    "2. Input Documents-20250101T000000Z-00019-000/2. Input Documents/1099- DIV/1099-DIV CARTER.pdf": "45a850e8485e3c255e3641055741616b15ea5bb9fbe196e6551028578c9434b3",
+    "2. Input Documents-20250101T000000Z-00019-000/2. Input Documents/1099-INT/1099-INT CARTER.pdf": "cf60e7b9c006baf0dacc8430e410914a9e45d2be1b981007bcce9b8e0cdca4a2",
+    "2. Input Documents-20250101T000000Z-00019-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2025_.pdf": "9b62d4a8c8974c2e03982b798bc09b0825b6917673ee156ec2ca68750de7c95c",
+    "2. Input Documents-20250101T000000Z-00019-000/2. Input Documents/Form W-2/Form W-2.pdf": "719a5d9f76d9708edef0f684e8ab88c8048e73f417190ee0230be5dab904037c",
+    "2. Input Documents-20250101T000000Z-00019-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "87381ff90b2b98ab3947efa6b98dbe897b72b55c7732000aea44cc8b83a0fa09",
+    "2. Input Documents-20250101T000000Z-00019-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2025.pdf": "f0e90267af86cc5fe5f6066e59ef0008ce1946329e734fbb9f492c2fa2cfd729",
+    "3. Complete form-20250101T000000Z-00019-000/3. Complete form/2025 Tax Return Documents (Avery Carter (synthetic)).pdf": "317f76f1de31550aa10c732e44beadd0a39caae18ab74b783f59a96eb518136f",
+    "3. Complete form-20250101T000000Z-00019-000/3. Complete form/Completed forms - Summary.pdf": "3d2ec8bc0ee70049436a6b53130762e98b781d4dce412a30e4c2258f4c963723",
+    "4. Executive Summary-20250101T000000Z-00019-000/4. Executive Summary/Executive Summary Avery Carter 2025.pdf": "70c62f1ba812b9d300bc89ca1ea4d933f28feeae77a5ba2cc4bdacadc17342e1"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

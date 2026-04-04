@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-00048-000",
+  "tax_year": 2023,
+  "case_fingerprint": "435edcb108f8595463b00fd83148a74581d026ca18791a606b23f9ff0981508a",
+  "case_json_sha256": "fd473604ddaefc5e5da34651ee842e91de132e26748b6b5ab0e8ba0d827ea985",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-00048-000/1. Client Summary/Client Summary.pdf": "f43a8158e6cad91393da9a133433feee8e4748c01b536b5121275dc2552894c8",
+    "2. Input Documents-20230101T000000Z-00048-000/2. Input Documents/Tax Document Attachments Summary.pdf": "1709529bcdb5e2b951ef22df78856f9d8d92b45536100ceb37c1783c7e69d1f1",
+    "2. Input Documents-20230101T000000Z-00048-000/2. Input Documents/1099- DIV/1099-DIV JENNINGS.pdf": "1c87879630475355ff52ee334981e685d717624aa2a4e90a64bf5a97ae6f7218",
+    "2. Input Documents-20230101T000000Z-00048-000/2. Input Documents/1099-INT/1099-INT JENNINGS.pdf": "5a6a2a3d90bbf4a456fbd9e41b7697117ad660c32badfb3cf440e4a1e6b129d1",
+    "2. Input Documents-20230101T000000Z-00048-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "792f1a5da43728f9aaf14b1c66bf31d0c11b04fec1ef8906c236efd862f79361",
+    "2. Input Documents-20230101T000000Z-00048-000/2. Input Documents/Form W-2/Form W-2.pdf": "d4ac706d15d633feca5aa9e46fd427a43aff70e43568143316632378bdfaa2e8",
+    "2. Input Documents-20230101T000000Z-00048-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "42cc410b010fe3e028f64174f4ffe47507b3fc6d92264bd162ee35830d89b725",
+    "2. Input Documents-20230101T000000Z-00048-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "91993ce808aad8124296502d229cc7070ed97989232f6da3e3236b9555cb16aa",
+    "3. Complete form-20230101T000000Z-00048-000/3. Complete form/2023 Tax Return Documents (Dakota Jennings (synthetic)).pdf": "a705493c484c87bcb7f7e9e01ab25441b4fb9b178f70baf99c7cc2f539cf7c41",
+    "3. Complete form-20230101T000000Z-00048-000/3. Complete form/Completed forms - Summary.pdf": "610a258499583cad23d7f71dc242c7a5a6796da98954f097e23e0a7360b2e429",
+    "4. Executive Summary-20230101T000000Z-00048-000/4. Executive Summary/Executive Summary Dakota Jennings 2023.pdf": "55499c4e016a76ad07e35a0933cbe5a347db1b47f521df9ad3b593d4cd1c5a00"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

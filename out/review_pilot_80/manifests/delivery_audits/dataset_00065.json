@@ -1,0 +1,163 @@
+{
+  "format": "taxweave-atlas-delivery-audit-v1",
+  "validated_at_utc": "2026-04-04T14:26:04.354619+00:00",
+  "slug": "dataset_00065",
+  "case_fingerprint": "d07400e2ecf3d1857a03d355ffcc6cc282f6fa947e38bf389d55714ca6af510f",
+  "ok": true,
+  "checks_passed": [
+    "cross_form_numeric",
+    "field_completeness",
+    "supporting_documents_shape",
+    "questionnaire_sidecar_match",
+    "blueprint_staging_100",
+    "blueprint_export_100",
+    "output_integrity_structure"
+  ],
+  "errors": [],
+  "warnings": [],
+  "blueprint_compliance": {
+    "staging": {
+      "tree": "staging",
+      "checks_total": 12,
+      "checks_passed": 12,
+      "score_percent": 100.0,
+      "full_compliance": true,
+      "checks": [
+        {
+          "id": "STAGING_DIR_EXISTS",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "id": "STAGING_ROOT_FILES_EXACT",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "id": "STAGING_SEGMENT_ROOTS_SET",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "id": "STAGING_SEGMENT_ROOTS_BLUEPRINT_ORDER",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "id": "STAGING_EXPORT_TOKEN_IN_OUTERS",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "id": "STAGING_INNER_FOLDERS_MATCH_TEMPLATES",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "id": "STAGING_DIRECTORY_HIERARCHY_EXACT",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "id": "STAGING_CONTRACT_FILES_EXACT",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "id": "STAGING_LEAF_NAMING_RULES",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "id": "STAGING_MANIFEST_METADATA",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "id": "STAGING_MANIFEST_FILE_ORDER",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "id": "STAGING_MANIFEST_CHECKSUMS",
+          "ok": true,
+          "detail": null
+        }
+      ]
+    },
+    "export": {
+      "tree": "export",
+      "checks_total": 13,
+      "checks_passed": 13,
+      "score_percent": 100.0,
+      "full_compliance": true,
+      "checks": [
+        {
+          "id": "EXPORT_DIR_EXISTS",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "id": "EXPORT_ROOT_FILES_EXACT",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "id": "EXPORT_SEGMENT_ROOTS_SET",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "id": "EXPORT_SEGMENT_ROOTS_BLUEPRINT_ORDER",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "id": "EXPORT_TOKEN_IN_OUTERS",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "id": "EXPORT_INNER_FOLDERS_MATCH_TEMPLATES",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "id": "EXPORT_PDF_ONLY_DELIVERABLES",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "id": "EXPORT_DIRECTORY_HIERARCHY_EXACT",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "id": "EXPORT_CONTRACT_FILES_EXACT",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "id": "EXPORT_LEAF_NAMING_PDF",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "id": "EXPORT_MANIFEST_METADATA",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "id": "EXPORT_MANIFEST_FILE_ORDER",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "id": "EXPORT_MANIFEST_CHECKSUMS",
+          "ok": true,
+          "detail": null
+        }
+      ]
+    }
+  }
+}

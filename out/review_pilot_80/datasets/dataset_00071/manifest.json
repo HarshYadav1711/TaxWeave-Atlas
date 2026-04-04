@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20250101T000000Z-00071-000",
+  "tax_year": 2025,
+  "case_fingerprint": "7b84716b05e35992205ab253e8e85e9171bff758adcec8ab433243624d6617f0",
+  "case_json_sha256": "854284b92a479cdfa0a6fc0e1186402c010f9829427f6c9266c0fa9a65329867",
+  "files_sha256": {
+    "1. Client Summary-20250101T000000Z-00071-000/1. Client Summary/Client Summary.pdf": "332f7d4e2ec1bbb046252c8562342b874ddc69b34e12475a6e9cd82ad37de16e",
+    "2. Input Documents-20250101T000000Z-00071-000/2. Input Documents/Tax Document Attachments Summary.pdf": "c27a966f41976843354999b73a027b05a45affd1429c9be931f04b739bcef71b",
+    "2. Input Documents-20250101T000000Z-00071-000/2. Input Documents/1099- DIV/1099-DIV HAYES.pdf": "6fcf651380de0f0a5500dbcf432b43fa66be693b36b0a195987c0ace8ec39aaf",
+    "2. Input Documents-20250101T000000Z-00071-000/2. Input Documents/1099-INT/1099-INT HAYES.pdf": "c4bf3c9daa774ffd6f9f19a17ad1144c45fadafb087efb89a4e52d67c54232fb",
+    "2. Input Documents-20250101T000000Z-00071-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2025_.pdf": "dd929fb2e8229b027cbfe49d8b7842ad99cf79f2078855aa04a583368eb7c096",
+    "2. Input Documents-20250101T000000Z-00071-000/2. Input Documents/Form W-2/Form W-2.pdf": "2e7b1b7c3a4b7543253db2b16c3a03b45cc65586df1336dea4c803cecb300c7d",
+    "2. Input Documents-20250101T000000Z-00071-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "080bb29a41f10d2ad12c0812339871d73f6bb183b3601e2aecc5176bcea50829",
+    "2. Input Documents-20250101T000000Z-00071-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2025.pdf": "c0dd88007a32f34cab7dd1e4652d367cb4429bfdc71592b438afc0f151e2c2ec",
+    "3. Complete form-20250101T000000Z-00071-000/3. Complete form/2025 Tax Return Documents (Jordan Hayes (synthetic)).pdf": "94fe87218483352bb1d77a595f12a19b336e7e5bea5651739eb774ebf1da3c1e",
+    "3. Complete form-20250101T000000Z-00071-000/3. Complete form/Completed forms - Summary.pdf": "17f36670c25149f13795bb298b01ff458322de10f7121786749eafd1f9c6eba2",
+    "4. Executive Summary-20250101T000000Z-00071-000/4. Executive Summary/Executive Summary Jordan Hayes 2025.pdf": "02799c95eb6c4521bd3860e3b4e0690cafcba33425b08e2d7aae88d0b6dd8af2"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-00013-000",
+  "tax_year": 2022,
+  "case_fingerprint": "098832c311777df81c468bc6c8f9f9b19c6a5498d968ad43e976b0b0a21199d0",
+  "case_json_sha256": "5a3195f8fb3ea57d4688ffa41d4453e867466686f4947747a77e6a7a64d2a55a",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-00013-000/1. Client Summary/Client Summary.pdf": "646c4c82820047365615b932c818a32935170102e334ff22fe1fcac3f6882a43",
+    "2. Input Documents-20220101T000000Z-00013-000/2. Input Documents/Tax Document Attachments Summary.pdf": "5b155c17f46a973588fa12ca162096147747184aac57b362942260279405b551",
+    "2. Input Documents-20220101T000000Z-00013-000/2. Input Documents/1099- DIV/1099-DIV OKORO.pdf": "a420d88bdd3a81f2439863e5c47243f45a8d42542f981ced6b854d996e60c3b6",
+    "2. Input Documents-20220101T000000Z-00013-000/2. Input Documents/1099-INT/1099-INT OKORO.pdf": "8585e903940584d96d83668eaeb5a0c5084994c48c4d22444614ca487b1aeb36",
+    "2. Input Documents-20220101T000000Z-00013-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "2ef686c077f6d93181183fc9036caddd9d8226c83e485b40d52ecbe5ff76a8ab",
+    "2. Input Documents-20220101T000000Z-00013-000/2. Input Documents/Form W-2/Form W-2.pdf": "5ac3d83253e82fe43b890838a4fb10fcc21b26f3677db0e76aaff18331d67cc8",
+    "2. Input Documents-20220101T000000Z-00013-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "07473c91bf14e4cf73d0c8e7a844222b590d344b53953f62fd2a418f0099e461",
+    "2. Input Documents-20220101T000000Z-00013-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "cddb1f1df61c79a064155a883a96239b8602d4c4536bca3ca9d551be6b78118c",
+    "3. Complete form-20220101T000000Z-00013-000/3. Complete form/2022 Tax Return Documents (Avery Okoro (synthetic)).pdf": "4b143b00b2278329eeac1e310cec53ad1e375e5be0eebd6dfc8f1f235b1113b4",
+    "3. Complete form-20220101T000000Z-00013-000/3. Complete form/Completed forms - Summary.pdf": "2a3004aa1f1df12779939a68f4a9962a996a65c4aab9ed2c0e03d89150ca7b06",
+    "4. Executive Summary-20220101T000000Z-00013-000/4. Executive Summary/Executive Summary Avery Okoro 2022.pdf": "2999cdab5c9fd7b44fd5f14063779206a04ab30cd6d27bfab803e9a3b4091dd1"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

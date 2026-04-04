@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-00073-000",
+  "tax_year": 2023,
+  "case_fingerprint": "ba4d263c34189c0fb86cb1607a21d2acb8fae9f802364b4debe6a1dac85e1f4f",
+  "case_json_sha256": "605517fecfed6c4f670e26a5fcd2fc21ef1020a0d14a12a7f86d89841a0fe4e8",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-00073-000/1. Client Summary/Client Summary.pdf": "39b3894b852bb9d8601f717611eb28663505c47d6a81416f9cd8276a84ed6b76",
+    "2. Input Documents-20230101T000000Z-00073-000/2. Input Documents/Tax Document Attachments Summary.pdf": "4f53270ce333066828e0d3c0d565bf60e164b8e82962dfbb9dcf2df7c2befed9",
+    "2. Input Documents-20230101T000000Z-00073-000/2. Input Documents/1099- DIV/1099-DIV INGRAM.pdf": "55afb51d751b361a1ce1d31489b528634f2bf16b43d35327be3d98899f7e7b68",
+    "2. Input Documents-20230101T000000Z-00073-000/2. Input Documents/1099-INT/1099-INT INGRAM.pdf": "3af6a5e910b4e90e654bbeaf33d8f73b31ac9446cc5f5cb0f1d2efa53024a96f",
+    "2. Input Documents-20230101T000000Z-00073-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "1027e7e777518812379da8a20ade83b96c234510cd6e2877693292f4c24ef86f",
+    "2. Input Documents-20230101T000000Z-00073-000/2. Input Documents/Form W-2/Form W-2.pdf": "2c540c2bdeff1fe4644e411c18f7700fa5d41514e06e9254f2e09d9f8de0776d",
+    "2. Input Documents-20230101T000000Z-00073-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "9adc06214c822c075cd4a56014d35f11ac89248640a0042b76fd33481e5457e8",
+    "2. Input Documents-20230101T000000Z-00073-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "4dd0e2cfc326c87a9c83ceee99bda612f63b0ec642c30302e2a7ef6c1f3dd923",
+    "3. Complete form-20230101T000000Z-00073-000/3. Complete form/2023 Tax Return Documents (Dakota Ingram (synthetic)).pdf": "08b82adbd2e98a9504a7b1d4aab48fce2df7e5b0092cf0169524979d1e66837e",
+    "3. Complete form-20230101T000000Z-00073-000/3. Complete form/Completed forms - Summary.pdf": "7ba4551a6c3121a8d06084eb64703fa671aca17e70eb182973861b026f728e48",
+    "4. Executive Summary-20230101T000000Z-00073-000/4. Executive Summary/Executive Summary Dakota Ingram 2023.pdf": "b6a245a19ea02118e492e9e7873473b0e9cdba0224546de76f46f0830af2685d"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

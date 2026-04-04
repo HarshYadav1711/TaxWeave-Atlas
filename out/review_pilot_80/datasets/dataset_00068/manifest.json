@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20250101T000000Z-00068-000",
+  "tax_year": 2025,
+  "case_fingerprint": "1ffdcf71a8f075e4b7339018e9bddf6d2dfec0fb928350aae5c65620759f851e",
+  "case_json_sha256": "87860504e6c15d51112437fb2a05154e0f2b74ee8d6288d4cf800e77555fb981",
+  "files_sha256": {
+    "1. Client Summary-20250101T000000Z-00068-000/1. Client Summary/Client Summary.pdf": "8c1e2c19ff2e6c90f3f15a1079fbf7199c5538392588fdaaf27c0b7d63a067fd",
+    "2. Input Documents-20250101T000000Z-00068-000/2. Input Documents/Tax Document Attachments Summary.pdf": "f943a365733af7a0cc0d0b67ad5081290bdc800fea2ee0eafce875e2c2772c0d",
+    "2. Input Documents-20250101T000000Z-00068-000/2. Input Documents/1099- DIV/1099-DIV JENNINGS.pdf": "589d1d0cad55a7085153d8441b136bdc023b7ed01dfece37dad469cc7ce8eee0",
+    "2. Input Documents-20250101T000000Z-00068-000/2. Input Documents/1099-INT/1099-INT JENNINGS.pdf": "69eb5f712212d15aed856080f8892c5641403ce9a3447750a8afddc965e02f80",
+    "2. Input Documents-20250101T000000Z-00068-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2025_.pdf": "391824aa88026f01c22e626b68552db847e6058a4aec4eef33d4cb758233a7c9",
+    "2. Input Documents-20250101T000000Z-00068-000/2. Input Documents/Form W-2/Form W-2.pdf": "c7767ecb99322c55b08201cc5f95e44fb1955e59e08132939e312ecd9f3278ca",
+    "2. Input Documents-20250101T000000Z-00068-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "1ad5d938d2ac14d88772eb2fdfdf42d610b89079eaa1509d25928ab5efbb2f18",
+    "2. Input Documents-20250101T000000Z-00068-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2025.pdf": "36e13f90290dfb938dc02a8d1864edc4b6487f31ca336dab36ad9ecd3fb16401",
+    "3. Complete form-20250101T000000Z-00068-000/3. Complete form/2025 Tax Return Documents (Skyler Jennings (synthetic)).pdf": "dc201ace191f04aa3b0d11fd02aaf363ee7227328c1ac3c4eadfc53dff025c9d",
+    "3. Complete form-20250101T000000Z-00068-000/3. Complete form/Completed forms - Summary.pdf": "b2f9e924abdac141c365461d16079c14f958e13ffac9e2b753fa2428f26577b1",
+    "4. Executive Summary-20250101T000000Z-00068-000/4. Executive Summary/Executive Summary Skyler Jennings 2025.pdf": "a1f019f113beb64418b2c2e2903e72a8033fc992030e4f1bb7e3349b4cfdb88d"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20240101T000000Z-00064-000",
+  "tax_year": 2024,
+  "case_fingerprint": "041f2d9aa3255d7dfd78d92832398831f3d7f27291c267ee3fb421d5ef307242",
+  "case_json_sha256": "d2b525dbc3bce5662075b4aceda00f4f888ab5134b8d988cc062c69842ec7884",
+  "files_sha256": {
+    "1. Client Summary-20240101T000000Z-00064-000/1. Client Summary/Client Summary.pdf": "ac630c5bc3927c33f54657bab768f8214a5a91d5fde35d5347e26ec0d12190eb",
+    "2. Input Documents-20240101T000000Z-00064-000/2. Input Documents/Tax Document Attachments Summary.pdf": "f589a8e63f8da0a1a8256a2ebc64fa82ac382cea2b33125be4ae79dea8f0e35e",
+    "2. Input Documents-20240101T000000Z-00064-000/2. Input Documents/1099- DIV/1099-DIV NAVARRO.pdf": "c943ffbf6b4415d47d58a7e5da624fff1df0a7d2add438623aa2681baca2d0f1",
+    "2. Input Documents-20240101T000000Z-00064-000/2. Input Documents/1099-INT/1099-INT NAVARRO.pdf": "c5db8deffffe9bfa42655cd74547f9c06b1a7b378003a73e5e9e367d0d58ccc6",
+    "2. Input Documents-20240101T000000Z-00064-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2024_.pdf": "1109b904f2d15362b8bd640c498ed58eec5abba09f6933ae7fdade79ae49e725",
+    "2. Input Documents-20240101T000000Z-00064-000/2. Input Documents/Form W-2/Form W-2.pdf": "f974b532d8018f4554a29f789a6c8c7d596d977c12eb7ca9ede3c44f3550b8e4",
+    "2. Input Documents-20240101T000000Z-00064-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "d22385d2849c75bdeb65d302e2dd8950a6f8d41d6318e783ee4671f36168ab87",
+    "2. Input Documents-20240101T000000Z-00064-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2024.pdf": "2c9648409c2323afbf57f47a3d04b04a57ac42ff14f9abef171f04bafc2861ee",
+    "3. Complete form-20240101T000000Z-00064-000/3. Complete form/2024 Tax Return Documents (Avery Navarro (synthetic)).pdf": "daedd04feaa424e6a2131b165e3a6657bf0f6deae6751e6c40f89cf754bfdc46",
+    "3. Complete form-20240101T000000Z-00064-000/3. Complete form/Completed forms - Summary.pdf": "a6fe7a44a41da4d3a31cd3c24fa4c460b128ec80acffbdd66c05413eba4d8eda",
+    "4. Executive Summary-20240101T000000Z-00064-000/4. Executive Summary/Executive Summary Avery Navarro 2024.pdf": "f43b9c48dec765737907cddd3773790684e9de9967e92d59fde6f335545eab18"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

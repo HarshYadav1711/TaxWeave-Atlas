@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20200101T000000Z-00005-000",
+  "tax_year": 2020,
+  "case_fingerprint": "c10b14aba561a861615b1979b06bc47a16c22cd694d724589a0cb030780e842a",
+  "case_json_sha256": "61540fb0bd037f8a930ef1a55aa60abbf9215676f61a8fbcb16c045b30eb5546",
+  "files_sha256": {
+    "1. Client Summary-20200101T000000Z-00005-000/1. Client Summary/Client Summary.pdf": "329c1ef0337a246cba0f4de0f5f0f34ec36606d2d7e49f7768b214f967238f1a",
+    "2. Input Documents-20200101T000000Z-00005-000/2. Input Documents/Tax Document Attachments Summary.pdf": "f1f45d809f915c5568e481c7e46a5ed3f9f4181b4d4fcfba0f9dc35590b2e60d",
+    "2. Input Documents-20200101T000000Z-00005-000/2. Input Documents/1099- DIV/1099-DIV LAWSON.pdf": "5055678640fe8227af87139654948f534cd410a40c1656fb6d04bf7bda3da6c7",
+    "2. Input Documents-20200101T000000Z-00005-000/2. Input Documents/1099-INT/1099-INT LAWSON.pdf": "3dedcec7097b4d90c06ae53feb46a9a11ea0267e35003a5dfa197a28998afe58",
+    "2. Input Documents-20200101T000000Z-00005-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2020_.pdf": "43c1f567376045ff9d29840802839b80ebbd49ad7a452200676988b13c25cbc7",
+    "2. Input Documents-20200101T000000Z-00005-000/2. Input Documents/Form W-2/Form W-2.pdf": "81cdee277a2736848888bfa748a372374568dd526b33d535bf47942d23d42be6",
+    "2. Input Documents-20200101T000000Z-00005-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "9063aa79022460f60286ce8fc8c458a290b871460e481c4fc4b1798f195bdb71",
+    "2. Input Documents-20200101T000000Z-00005-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2020.pdf": "dca2d455ddec9523e161afbd430677a98839ee8721511e09dd06d68b1f3b92c5",
+    "3. Complete form-20200101T000000Z-00005-000/3. Complete form/2020 Tax Return Documents (Morgan Lawson (synthetic)).pdf": "1e289b87fa9471b02eff09fc222b3d75da2486cf79c521d2d30b94a9826bfd26",
+    "3. Complete form-20200101T000000Z-00005-000/3. Complete form/Completed forms - Summary.pdf": "af82bc0874afed52b22f6f5c40debc0b0301e626382363b810c0acbfbd83c70e",
+    "4. Executive Summary-20200101T000000Z-00005-000/4. Executive Summary/Executive Summary Morgan Lawson 2020.pdf": "ed9895b91a67ee7efb1f7a3e8296f65456d925fb82bc19dfb79a5ccd63e6501a"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

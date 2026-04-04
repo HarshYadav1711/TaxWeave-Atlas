@@ -243,6 +243,61 @@ def cmd_produce(
         raise SystemExit(1)
 
 
+@main.command("review-pilot")
+@click.option("--count", type=int, default=80, show_default=True, help="Number of datasets (target ~80)")
+@click.option("--seed", type=int, default=424242, show_default=True, help="Master seed (stratification + RNG)")
+@click.option("--output", type=click.Path(path_type=Path), required=True, help="Batch output root")
+@click.option("--no-pdfs", is_flag=True, help="Staging JSON only (skip PDF export)")
+@click.option(
+    "--validate",
+    "run_validate",
+    is_flag=True,
+    help="Run delivery validate-batch after generation",
+)
+@click.option(
+    "--strict-distribution",
+    is_flag=True,
+    help="Fail validate-batch on mix drift vs config/generator/mix.yaml",
+)
+def cmd_review_pilot(
+    count: int,
+    seed: int,
+    output: Path,
+    no_pdfs: bool,
+    run_validate: bool,
+    strict_distribution: bool,
+) -> None:
+    """Stratified review pilot: ~30/40/30 complexity, five states, 2020–2025 mix; logs each dataset."""
+    from taxweave_atlas.delivery.batch_validate import validate_batch_output
+    from taxweave_atlas.generation.stratified_batch import run_stratified_review_pilot_batch
+
+    try:
+        run_stratified_review_pilot_batch(
+            output,
+            master_seed=seed,
+            count=count,
+            write_pdfs=not no_pdfs,
+            run_delivery_validation=False,
+        )
+        if run_validate:
+            report = validate_batch_output(
+                output,
+                expect_pdfs=not no_pdfs,
+                strict_distribution=strict_distribution,
+            )
+            _emit_delivery_report(report)
+            if not report.ok:
+                raise SystemExit(1)
+        else:
+            click.echo(
+                f"Wrote {count} stratified datasets → {output / 'datasets'} "
+                f"(staging: {output / '_staging' / 'datasets'}). "
+                "Re-run with --validate to run delivery checks."
+            )
+    except TaxWeaveError as e:
+        raise SystemExit(f"error: {e}") from e
+
+
 @main.command("validate-specs")
 def cmd_validate_specs() -> None:
     """Check sample pack and config against application.yaml."""

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20220101T000000Z-00080-000",
+  "tax_year": 2022,
+  "case_fingerprint": "f1c67cf91739ae3f988566676d232ea6bdc6e9a120023c604984a14e3129d7c5",
+  "case_json_sha256": "88457bfd0c23cb5019eec2dc7a2935be3745101046b26ebf7f4daf1c017bd0c1",
+  "files_sha256": {
+    "1. Client Summary-20220101T000000Z-00080-000/1. Client Summary/Client Summary.pdf": "85f1009b868c657a86376313cdabacb6bc1e9a9a81d9fb5397dcadbc1251aef8",
+    "2. Input Documents-20220101T000000Z-00080-000/2. Input Documents/Tax Document Attachments Summary.pdf": "6145f7af90938e781f0ead6dc19719f9496ee56f89397d461ee417f45619fc8b",
+    "2. Input Documents-20220101T000000Z-00080-000/2. Input Documents/1099- DIV/1099-DIV CARTER.pdf": "b85acaf24d9bf6e1b4bf42ad065cfe5db79b96caeebd9be7530d607f2f33a697",
+    "2. Input Documents-20220101T000000Z-00080-000/2. Input Documents/1099-INT/1099-INT CARTER.pdf": "1d4ecc41c730b63671a5001f12a4bc65d954d77f85fb823f524a72c6430830a9",
+    "2. Input Documents-20220101T000000Z-00080-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2022_.pdf": "eefe268e2500b34758a84a5d91d2d8df2f0d2a59041e1e1b664ec511c90d9444",
+    "2. Input Documents-20220101T000000Z-00080-000/2. Input Documents/Form W-2/Form W-2.pdf": "70537e64107e7ebd9cb31ba0c45048845d38d522bf06a6444b74bed89db95ff1",
+    "2. Input Documents-20220101T000000Z-00080-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "47e6bc7806363835ff7f52201e0be2ea72aafb9c3a45f3f411cf935c0623a72f",
+    "2. Input Documents-20220101T000000Z-00080-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2022.pdf": "d9f92937cbbb649091c9b7f14e01390dea8b08eb9e44d8472b10cf33daab03a1",
+    "3. Complete form-20220101T000000Z-00080-000/3. Complete form/2022 Tax Return Documents (Emery Carter (synthetic)).pdf": "fe70f5524e0221ee8027088227b87dc8083cabce905ac7d0527b1beb6ca98954",
+    "3. Complete form-20220101T000000Z-00080-000/3. Complete form/Completed forms - Summary.pdf": "1f3ae61a4d3b02a7075b055f745b6f590dfa2f97ce317e545353bbb58c47310e",
+    "4. Executive Summary-20220101T000000Z-00080-000/4. Executive Summary/Executive Summary Emery Carter 2022.pdf": "7e72ffac6a8f577e206326a0c9aaed6c5bea477c6985c8b3a9079f1744d1adea"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}

@@ -1,0 +1,22 @@
+{
+  "format": "taxweave-atlas-dataset-export-v1",
+  "structure_blueprint_version": 1,
+  "export_token": "20230101T000000Z-00054-000",
+  "tax_year": 2023,
+  "case_fingerprint": "805f557f4aa382592e175253856bbca61c692a3715ec9d221a637027a4828fdf",
+  "case_json_sha256": "a9f5f02648103e03274a07b663323e773182f74ed7b59e193f015855f452682c",
+  "files_sha256": {
+    "1. Client Summary-20230101T000000Z-00054-000/1. Client Summary/Client Summary.pdf": "54dfa9d15170f7ff0e8319a01585eef8c15fded4fc7222d8a8b54c32f4f0c2d2",
+    "2. Input Documents-20230101T000000Z-00054-000/2. Input Documents/Tax Document Attachments Summary.pdf": "d6e339066526f0b415a0c8d8b0ff62d75a009774bbcfe418b43b7e3f4b5c3146",
+    "2. Input Documents-20230101T000000Z-00054-000/2. Input Documents/1099- DIV/1099-DIV NAVARRO.pdf": "aea5a077390ff62b2727cf9555e8b1f51925588f904fb8848f9624aaa75cd1db",
+    "2. Input Documents-20230101T000000Z-00054-000/2. Input Documents/1099-INT/1099-INT NAVARRO.pdf": "0b8f78fdae9b9da7bd909e714393b7efb118aac7062753dfcf3548e2f47e22cf",
+    "2. Input Documents-20230101T000000Z-00054-000/2. Input Documents/Bank Statement/BankStatement_synthetic_2023_.pdf": "3ac8c2958d23ff48e432c1c1ade240e1fabde4885482951c6b75b6ab346fb83a",
+    "2. Input Documents-20230101T000000Z-00054-000/2. Input Documents/Form W-2/Form W-2.pdf": "d2fc999569ef8b01871767cec35ecd03fa1934043df8e52cff7e3d7b04403be3",
+    "2. Input Documents-20230101T000000Z-00054-000/2. Input Documents/Invoice/Invoice_synthetic.pdf": "7e6072f0b15c40812823b2dcd4f25f971e4960a499e2ddf1c42c1a111c79a4b0",
+    "2. Input Documents-20230101T000000Z-00054-000/2. Input Documents/Schedule C/ScheduleC_synthetic_2023.pdf": "bdbd8a2008de749d16ae9c5bb45a65bed73644aa655ac0a9d589ec2c73452a33",
+    "3. Complete form-20230101T000000Z-00054-000/3. Complete form/2023 Tax Return Documents (Emery Navarro (synthetic)).pdf": "89672a7c6824aa41c0321ebe21f0445ec701f8de88d28cf857711ac08a04707b",
+    "3. Complete form-20230101T000000Z-00054-000/3. Complete form/Completed forms - Summary.pdf": "dc3f0a4db61c027bfd0cb6b20275165f22e1d1f10f35cdde4e907421d9602ecb",
+    "4. Executive Summary-20230101T000000Z-00054-000/4. Executive Summary/Executive Summary Emery Navarro 2023.pdf": "5801779e076738e6a612c5453799c3acc06bf19758402848c31ff0064bab9cb3"
+  },
+  "canonical_case_model": "SyntheticTaxCase"
+}
