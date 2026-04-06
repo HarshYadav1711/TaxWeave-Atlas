@@ -20,6 +20,12 @@ def _fmt_ssn(raw: str) -> str:
     return raw.strip()[:11]
 
 
+def _fmt_ssn_acroform(raw: str) -> str:
+    """Nine digits only — IRS SSN boxes use MaxLen 9; hyphenated strings get truncated by pypdf."""
+    d = "".join(c for c in raw if c.isdigit())
+    return d[:9] if len(d) >= 9 else raw.strip()[:9]
+
+
 def _add(reader: PdfReader, updates: dict[str, str], tail: str, value: str) -> None:
     k = match_field_key(reader, tail)
     if k:
@@ -55,14 +61,14 @@ def build_f1040_field_values(reader: PdfReader, case: SyntheticTaxCase) -> dict[
 
     _add(reader, updates, ".Page1[0].f1_01[0]", p.primary_first_name.strip())
     _add(reader, updates, ".Page1[0].f1_02[0]", p.primary_last_name.strip())
-    _add(reader, updates, ".Page1[0].f1_03[0]", _fmt_ssn(p.synthetic_ssn_primary))
+    _add(reader, updates, ".Page1[0].f1_03[0]", _fmt_ssn_acroform(p.synthetic_ssn_primary))
 
     if p.filing_status in ("married_filing_jointly", "married_filing_separately"):
         if p.spouse_first_name and p.spouse_last_name:
             _add(reader, updates, ".Page1[0].f1_04[0]", p.spouse_first_name.strip())
             _add(reader, updates, ".Page1[0].f1_05[0]", p.spouse_last_name.strip())
         if p.synthetic_ssn_spouse:
-            _add(reader, updates, ".Page1[0].f1_06[0]", _fmt_ssn(p.synthetic_ssn_spouse))
+            _add(reader, updates, ".Page1[0].f1_06[0]", _fmt_ssn_acroform(p.synthetic_ssn_spouse))
 
     _add(reader, updates, "Address_ReadOrder[0].f1_20[0]", p.address.line1.strip())
     if p.address.line2:

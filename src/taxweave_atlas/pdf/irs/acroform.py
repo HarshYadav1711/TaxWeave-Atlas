@@ -7,7 +7,7 @@ from pypdf import PdfReader, PdfWriter
 from pypdf.generic import BooleanObject, NameObject
 
 from taxweave_atlas.exceptions import RendererError
-from taxweave_atlas.pdf.acroform_viewer_fix import strip_text_field_appearance_streams
+from taxweave_atlas.pdf.acroform_flatten import refresh_pdf_form_appearances
 
 
 def match_field_key(reader: PdfReader, tail: str) -> str | None:
@@ -51,5 +51,5 @@ def fill_acroform_pdf(
         writer.write(out)
     except Exception as e:
         raise RendererError(f"AcroForm write failed: {e}") from e
-    # Drop pypdf-generated /AP for text fields so viewers (e.g. Chrome) place /V text in the box.
-    return strip_text_field_appearance_streams(out.getvalue())
+    # PyMuPDF refreshes /AP from /V so names and lines appear inside IRS boxes (standard return look).
+    return refresh_pdf_form_appearances(out.getvalue())

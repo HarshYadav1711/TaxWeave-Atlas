@@ -33,8 +33,7 @@ def test_merged_pdf_page_count_matches_ordered_parts() -> None:
     merged = build_merged_complete_return_pdf_bytes(case)
     expected = sum(_page_count(p) for p in parts)
     assert _page_count(merged) == expected
-    # AcroForm merge would collide identical IRS paths across parts; we prefix each part's root
-    # field so Form 1040 values (e.g. name) are not overwritten by a later schedule.
+    # Prefixed merge keeps distinct AcroForm paths per part (p0_, p1_, …).
     fields = PdfReader(BytesIO(merged)).get_fields() or {}
     assert any(k.startswith("p0_") for k in fields)
     if len(parts) >= 2:
@@ -71,12 +70,9 @@ def test_blueprint_includes_merged_and_individual_pdfs() -> None:
         )
     )
     ctx = build_layout_context(case, dataset_index=0, uniqueness_salt=1)
-    last = ctx["primary_last_safe"]
-    first = ctx["primary_first_safe"]
-    ty = case.tax_year
     specs = iter_export_layout_file_specs(case, dataset_index=0, uniqueness_salt=1)
     rels = [p for p, _ in specs]
-    merged_name = f"{ty}_{last}_{first}_CompleteReturn.pdf"
+    merged_name = f"{ctx['tax_return_documents_basename']}.pdf"
     assert any(r.endswith(f"/3. Complete form/{merged_name}") for r in rels)
     assert any(r.endswith("/3. Complete form/Form-1040.pdf") for r in rels)
 

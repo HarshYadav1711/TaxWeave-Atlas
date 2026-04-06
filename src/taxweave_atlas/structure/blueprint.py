@@ -119,6 +119,22 @@ def build_layout_context(
     )
     pl = _safe_filename_segment(case.profile.primary_last_name, max_len=80).replace(" ", "_")
     pf = _safe_filename_segment(case.profile.primary_first_name, max_len=80).replace(" ", "_")
+    plu = _safe_filename_segment(case.profile.primary_last_name, max_len=40).replace(" ", "_").upper()
+    pfu = _safe_filename_segment(case.profile.primary_first_name, max_len=40).replace(" ", "_").upper()
+    if (
+        case.profile.filing_status == "married_filing_jointly"
+        and case.profile.spouse_first_name
+        and case.profile.spouse_first_name.strip()
+    ):
+        sfu = (
+            _safe_filename_segment(case.profile.spouse_first_name.strip(), max_len=40)
+            .replace(" ", "_")
+            .upper()
+        )
+        tax_return_paren = f"({plu}_{pfu}_and_{sfu})"
+    else:
+        tax_return_paren = f"({plu}_{pfu})"
+    tax_return_documents_basename = f"{case.tax_year}_Tax_Return_Documents_{tax_return_paren}"
     return {
         "export_token": export_token,
         "tax_year": case.tax_year,
@@ -127,6 +143,7 @@ def build_layout_context(
         "primary_last_upper": case.profile.primary_last_name.upper(),
         "primary_last_safe": pl or "TaxpayerLast",
         "primary_first_safe": pf or "TaxpayerFirst",
+        "tax_return_documents_basename": tax_return_documents_basename,
         "safe_taxpayer_label": _safe_filename_segment(case.profile.taxpayer_label),
         "executive_summary_title": _safe_filename_segment(
             f"{case.profile.primary_first_name} {case.profile.primary_last_name}",

@@ -1,12 +1,9 @@
 """
 Merged complete return PDF: Form 1040 + supporting schedules in a fixed page order.
 
-Uses ``pypdf`` to concatenate each part (IRS fillable PDFs and/or ReportLab PDFs). Before
-append, each part's AcroForm field names are prefixed (``p0_``, ``p1_``, …) so IRS templates
-that reuse the same internal paths (e.g. ``…Page1[0].f1_01[0]``) do not collide in the merged
-``/AcroForm``; without that, duplicate qualified names can overwrite values and leave the Form
-1040 name line blank. Parts are merged with ``PdfWriter.append`` so widget values survive;
-plain ``add_page`` would drop form data.
+Each filled part is appearance-refreshed with PyMuPDF. Parts are merged with ``PdfWriter.append``
+after prefixing AcroForm root names (``p0_``, ``p1_``, …) so IRS field paths do not collide.
+The merged file is appearance-refreshed again for consistent display.
 """
 
 from __future__ import annotations
@@ -17,6 +14,7 @@ from typing import Final
 from pypdf import PdfReader, PdfWriter
 
 from taxweave_atlas.exceptions import ConfigurationError, RendererError
+from taxweave_atlas.pdf.acroform_flatten import refresh_pdf_form_appearances
 from taxweave_atlas.pdf.acroform_prefix import prefix_acroform_field_names
 from taxweave_atlas.pdf.irs import render_filled_f1040_pdf_bytes, render_filled_schedule_pdf_bytes
 from taxweave_atlas.pdf.mappings import load_pdf_mappings, materialize_mapping_document
@@ -104,11 +102,10 @@ def merge_pdf_parts(parts: list[bytes]) -> bytes:
             prefixed = prefix_acroform_field_names(raw, f"p{i}_")
             reader = PdfReader(BytesIO(prefixed))
             expected_pages += len(reader.pages)
-            # ``append`` keeps AcroForm dictionaries and widget values; ``add_page`` does not.
             writer.append(reader)
         out = BytesIO()
         writer.write(out)
-        merged = out.getvalue()
+        merged = refresh_pdf_form_appearances(out.getvalue())
     except Exception as e:
         raise RendererError(f"complete return PDF merge failed: {e}") from e
 
