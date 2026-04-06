@@ -57,9 +57,10 @@ def build_f1040_field_values(reader: PdfReader, case: SyntheticTaxCase) -> dict[
     _add(reader, updates, ".Page1[0].f1_02[0]", p.primary_last_name.strip())
     _add(reader, updates, ".Page1[0].f1_03[0]", _fmt_ssn(p.synthetic_ssn_primary))
 
-    if p.filing_status == "married_filing_jointly" and p.spouse_first_name and p.spouse_last_name:
-        _add(reader, updates, ".Page1[0].f1_04[0]", p.spouse_first_name.strip())
-        _add(reader, updates, ".Page1[0].f1_05[0]", p.spouse_last_name.strip())
+    if p.filing_status in ("married_filing_jointly", "married_filing_separately"):
+        if p.spouse_first_name and p.spouse_last_name:
+            _add(reader, updates, ".Page1[0].f1_04[0]", p.spouse_first_name.strip())
+            _add(reader, updates, ".Page1[0].f1_05[0]", p.spouse_last_name.strip())
         if p.synthetic_ssn_spouse:
             _add(reader, updates, ".Page1[0].f1_06[0]", _fmt_ssn(p.synthetic_ssn_spouse))
 

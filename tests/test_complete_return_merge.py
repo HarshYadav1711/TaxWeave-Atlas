@@ -33,6 +33,12 @@ def test_merged_pdf_page_count_matches_ordered_parts() -> None:
     merged = build_merged_complete_return_pdf_bytes(case)
     expected = sum(_page_count(p) for p in parts)
     assert _page_count(merged) == expected
+    # AcroForm merge would collide identical IRS paths across parts; we prefix each part's root
+    # field so Form 1040 values (e.g. name) are not overwritten by a later schedule.
+    fields = PdfReader(BytesIO(merged)).get_fields() or {}
+    assert any(k.startswith("p0_") for k in fields)
+    if len(parts) >= 2:
+        assert any(k.startswith("p1_") for k in fields)
     present = {d.element_name for d in case.structural_mef.documents}
     want = ["Form_1040"] + [e for e in MERGE_ELEMENTS_ORDER[1:] if e and e in present]
     assert labels == want

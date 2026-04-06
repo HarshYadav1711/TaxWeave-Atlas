@@ -11,6 +11,7 @@ from taxweave_atlas.exceptions import ConfigurationError, RendererError
 from taxweave_atlas.paths import irs_acroform_maps_path
 from taxweave_atlas.pdf.irs.acroform import fill_acroform_pdf, match_field_key
 from taxweave_atlas.pdf.irs.cache import get_irs_prior_pdf_bytes
+from taxweave_atlas.pdf.irs.display_names import names_shown_on_schedules
 from taxweave_atlas.schema.case import SyntheticTaxCase
 
 
@@ -64,7 +65,7 @@ def render_filled_schedule_pdf_bytes(case: SyntheticTaxCase, element_name: str) 
     if isinstance(hn, str):
         k = match_field_key(reader, hn)
         if k:
-            updates[k] = case.profile.primary_full_name.strip()
+            updates[k] = names_shown_on_schedules(case)
     hs = spec.get("header_ssn")
     if isinstance(hs, str):
         k = match_field_key(reader, hs)

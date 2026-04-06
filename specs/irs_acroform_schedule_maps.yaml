@@ -36,8 +36,9 @@ maps:
 
   IRS1040ScheduleSE:
     slug: f1040sse
-    header_name: ".Page1[0].f1_01[0]"
-    header_ssn: ".Page1[0].f1_02[0]"
+    # Schedule SE uses f1_1 / f1_2 (not f1_01 / f1_02) for name and SSN on the 2023–2024 templates.
+    header_name: ".Page1[0].f1_1[0]"
+    header_ssn: ".Page1[0].f1_2[0]"
     fields:
       NetEarningsSelfEmploymentAmt: ".Page1[0].f1_22[0]"
 
